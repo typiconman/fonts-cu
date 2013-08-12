@@ -22,7 +22,7 @@ PACK_NAME=monomachus
 DOCS="OFL.txt OFL-FAQ.txt"
 #DOCS_SRC="monomachus-specimen.tex theano160.png"
 DOCS_SRC=
-VERSION="0.9"
+VERSION="1.0"
 
 rm -f *.zip *.aux *.log
 #xelatex theano-specimen.tex
