@@ -1,0 +1,173 @@
+April 24, 2015: Pre-release of Ponomar Unicode 0.99
+
+* This is a release candidate for the Ponomar Unicode font (version 0.9)
+If no bugs are found, this font will be released.
+
+Changes since Hirmos Ponomar BETA 12.3:
+	* Reencoding of glyphs in the PUA
+	* Added additional characters for Sakha (Yakut)
+
+December 26, 2014: Release of Hirmos Ponomar BETA 12.3 (Release Candidate 4)
+changes since 12.2
+
+* Added some additional characters to the PUA per the PUA Policy
+
+* Testing on various OS'es and fixing of some problems
+
+
+September 17, 2014: Release of Hirmos Ponomar BETA 12.2 (Release Candidate 3)
+changes since 12.1
+
+* The Kievan Stylistic set (ss01) has been removed
+Unicode has now encoded the long-legged form of De (as U+1C81) and so the distinction between the two De's has to be made
+at the codepoint level.
+Likewise, the "kievan" Graphite feature has been removed.
+
+* Some of the ligatures for Latin have been encoded in the Alphabetic Presentation Forms block
+
+* Note that the contextual substitution of O to narrow O before U is now officially DEPRECATED.
+We are keeping it now for compatibility with previously encoded texts, but it will be removed in a future version of the font.
+Because the narrow form of On has been encoded in the Unicode standard (at U+1C82), the distinction now has to be made
+at the codepoint level.
+
+
+August 21, 2014: Release of Hirmos Ponomar BETA 12.1 (Release Candidate 2)
+changes since 12.0
+
+* We have adopted a Private Use Area (PUA) Allocation Policy
+The additional Typicon symbols and the various stylistic and contextual alternatives and ligatures have been reencoded in accordance with version 1.0 of the PUA Policy.
+Please see http://www.ponomar.net/files/pua_policy.pdf for more information.
+
+* A number of characters have been added:
+U+1F41F FISH
+U+1F377 WINE GLASS
+U+1F347 GRAPES
+These symbols are used in liturgical calendars to indicate fasting guidelines
+
+U+263D FIRST QUARTER MOON
+U+263E LAST QUARTER MOON
+The extended set:
+U+1F311 NEW MOON SYMBOL
+through
+U+1F318 WANING CRESCENT MOON SYMBOL
+and 
+U+1F319 CRESCENT MOON
+These symbols are used in liturgical calendars and other sources to indicate lunar phases
+
+* A few minor issues have been fixed.
+
+August 14, 2014: Release of Hirmos Ponomar BETA 12.0 (Release Candidate 1)
+changes since v. 11.7.0
+
+* Blackletter Latin characters are no longer the default form, rather modern forms have been added
+
+* Blackletter forms have been made part of Stylistic Set 2 (or SIL Graphite feature blackletter)
+
+* Modern punctuation has been added (for use with latin characters)
+
+* Cyrillic Variation sequences have been removed and the characters they referenced have been reencoded at their new locations
+ in the proposed Cyrillic Extended-C.
+
+* This version of the font is a RELEASE CANDIDATE
+
+KNOWN ISSUES:
+	* Still no pairwise Kerning in Graphite version :(
+
+March 1, 2014: Release of Hirmos Ponomar v. 11.7.0; changes since v. 11.6.6
+
+* Added glyphs for additional Typicon symbols used by Syrnikov (see the proposal for the details). These glyphs include:
+	Combining Dot Below					U+0323
+	Combining Cedilla	(*)					U+0327
+	Combining Breve Below					U+032E
+	Combining Low Line					U+0332
+	Combining Dot Above Right					U+0358
+	One Dot Leader						U+2024
+	Two Dot Leader						U+2025
+	Horizontal Ellipsis						U+2026
+	Double-Ended Multimap					U+29DF
+
+(*) This character forms ligatures with the Small Letter Psi (U+0471) and Small Letter Izhitsa (U+0475), used as Typicon symbols.
+
+* Added the following characters, also used by Syrnikov, which will be proposed for encoding in Unicode:
+	Proposed Name						Proposed Codepoint	Block
+	DOUBLE COMMA 						U+2E44		Supplemental Punctuation
+	LOW KAVYKA						U+2E45		Supplemental Punctuation
+	LOW KAVYKA WITH DOT 					U+2E46		Supplemental Punctuation
+	INVERTED LOW KAVYKA					U+2E47		Supplemental Punctuation
+	INVERTED LOW KAVYKA WITH KAVYKA ABOVE			U+2E48		Supplemental Punctuation
+	DOWNWARD FACING HOOK					U+1F54B	Miscellaneous Symbols and Pictographs
+	DOWNWARD FACING HOOK WITH NOTCH			U+1F54C	Miscellaneous Symbols and Pictographs
+	COMBINING INVERTED TORTOISE SHELL BRACKET BELOW	U+1DF6	Combining Diacritical Marks Supplement
+	COMBINING DOT ABOVE LEFT				U+1DF7	Combining Diacritical Marks Supplement
+	COMBINING KAVYKA ABOVE RIGHT				U+1DF8	Combining Diacritical Marks Supplement
+	COMBINING KAVYKA ABOVE LEFT				U+1DF9	Combining Diacritical Marks Supplement
+	COMBINING DOT OVERLAY					U+1DFA	Combining Diacritical Marks Supplement
+
+
+* Added the eight Symbols used in the Typicon of Dolnitsky to the Private Use Area (range U+E200 to U+E208). Note that we are not yet ready to formally propose these characters for inclusion; once we propose these characters, the codepoints are subject to change.
+
+* The appearance of the Zemlya variant U+A641 has been slightly modified
+
+The following changes have been made to Hirmos Ponomar v. 11.6.6 (since v. 11.6.5):
+
+* Fixed a problem with an incorrect substitution in the GDL code that affected the short i and short u
+
+The following changes have been made to Hirmos Ponomar v. 11.6.5 (since v. 11.6.4):
+
+* Added support for positioning of half marks in the Graphite version (thank you to Andri Zuev for reporting the bug)
+
+* U+049E and U+049F -- these two characters have been added. They are used in Aleut.
+
+* Added examples for Romanian Cyrillic and Aleut to the documentation.
+
+The following changes have been made to Hirmos Ponomar v. 11.6.4 (since v. 11.6.3):
+
+* E000 and E001 -- these characters have been deleted. The underlying bug in XeTeX which prevented the usage of ZWJ
+	for Cyrillic text has been resolved since XeTeX switched to HarfBuzz, therefore these characters are no longer necessary.
+	Moreover, the presence of PUA characters in the lookup rules in GSUB was casuing errors in other software, and 
+	these have now been eliminated
+
+* Variation sequence U+0433 U+FE00 -- this sequence has been deleted based on the agreed consensus that it is not a valid variant.
+	It is proposed that the underlying glyph (glyph 459, called uni0433FE00) be either remapped to the codepoint U+0491 or deleted.
+
+* U+2027 HYPHENATION POINT -- this character has been added because it is required for CLDR transliterations
+
+* U+200B ZERO WIDTH SPACE -- this character has been added because it is required for certain technical contexts
+
+* Variation sequences of U+1F545 -- the variations sequences involving the Symbol for Mark's Chapter have been deleted, because 
+	a consensus has been reached that the Mark's Chapter Symbol variants will be handled via salt
+
+* salt feature added
+	The Stylistic Alternatives (salt) OpenType feature has been added. It provides access to the four variant glyph forms of the
+	Symbol for Marks Chapter U+1f545. See HirmosPonomar.pdf for examples and documentation.
+
+* ss01 feature added
+	The Stylistic Set 1 (ss01) OpenType feature has been added. It provides "Kievan" glyph shaping behavior, viz., in 
+	medial or final position, the letter De takes on the long-legged form and the letter Ze takes on the variant form. See
+	HirmosPonomar.pdf for examples and documentation.
+
+* fea1 Graphite feature deleted
+	The fea1 Graphite feature has been deleted. It was a dummy feature for testing Graphite support and it is no longer necessary.
+
+* "Use Kievan glyph shapes" Graphite feature added
+	This feature reproduces the behavior of Stylistic Set 1 using SIL Graphite. See HirmosPonomar.pdf for examples and documentation.
+
+* "Symbol for Mark's Chapter" Graphite feature added
+	This feature reproduces the behavior of salt using SIL Grpahite. See HirmosPonomar.pdf for examples and documentation.
+
+* Stacking of diacritical marks in Graphite has been fixed
+	The Graphite rules now allow for correct stacking of extraneous combining marks, as expected.
+
+* Font renaming: the fonts are now distributed with two different names
+	The OpenType font is named Hirmos Ponomar
+	The TrueType font is named Hirmos Ponomar TT
+	This allows for both fonts to be installed simultaneously
+
+CREDITS
+Thank you to Alexey Kryukov for helpful information in creating the OpenType and Grpahite features.
+Thank you to Andrei Zuev for testing and information regarding bugs.
+
+KNOWN BUGS
+* Still no pairwise Kerning in Graphite version :(
+
+
