@@ -1,2 +1,5 @@
 # fonts-cu
-OpenType fonts for Church Slavic
+Unicode-encoded OpenType fonts for Church Slavic
+
+OpenType шрифты, закодированные в Юникоде, для церковнославянского языка
+
