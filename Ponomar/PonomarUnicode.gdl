@@ -98,6 +98,33 @@ table (feature)
 			}
 		}
 	}
+	truncation {
+		id = "trnc";
+		name.LG_USENG = string("Use truncated forms");
+		default = none;
+		settings {
+			none {
+				value = 0;
+				name.LG_USENG = string("None");
+			}
+			bottom {
+				value = 1;
+				name.LG_USENG = string("Bottom truncation");
+			}
+			top {
+				value = 2;
+				name.LG_USENG = string("Top truncation");
+			}
+			left {
+				value = 3;
+				name.LG_USENG = string("Left truncation");
+			}
+			right {
+				value = 4;
+				name.LG_USENG = string("Right truncation");
+			}
+		}
+	}
 endtable;
 
 table (language)
@@ -1244,6 +1271,30 @@ table (sub)
 		// latin punctuation
 		if (punctuation == 1 && blackletter == 0)
 			cno_latin > clatin;
+		endif;
+
+		// truncation forms
+		if (truncation == 1)
+			// lower truncation
+			ga641 > ga641_trunc;
+			g0440 > g0440_trunc;
+			g0444 > g0444_trunc1;
+			g0445 > g0445_trunc3;
+			g0446 > g0446_trunc;
+			g0449 > g0449_trunc;
+			g0471 > g0471_alt2;
+			g0443 > g0443_alt;
+		else if (truncation == 2)
+			ga64b > ga64b_short2;
+			g0444 > g0444_trunc2;
+			g0463 > g0463_short;
+			g0471 > g0471_alt;
+		else if (truncation == 3)
+			ga64b > ga64b_short;
+			g0445 > g0445_trunc1;
+		else if (truncation == 4)
+			ga64b > ga64b_short3;
+			g0445 > g0445_trunc2;
 		endif;
 	endpass;
 

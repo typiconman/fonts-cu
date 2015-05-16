@@ -26,6 +26,7 @@ Ligature Te-Ve	& U+0442 U+200D U+0432	& {\glyphfont{\large т‍в}}	\\
 \\
 
 In OpenType, the following Stylistic alternatives are defined:
+
 \newfontfamily{\salt}[Alternate=0]{Ponomar Unicode}
 \newfontfamily{\salta}[Alternate=1]{Ponomar Unicode}
 \newfontfamily{\saltb}[Alternate=2]{Ponomar Unicode}
@@ -41,6 +42,24 @@ In OpenType, the following Stylistic alternatives are defined:
 U+1F545	& {\glyphfont{\large 🕅 }}	& {\salt\large 🕅} & {\salta\large 🕅} & {\saltb\large 🕅} & {\saltc\large 🕅} & {\saltd\large 🕅} & {\salte\large 🕅} & {\saltf\large 🕅} & {\saltg\large 🕅} \\
 \hline
 \end{tabular}
+
+For the Cyrillic letters, the stylistic alternatives feature also allows access to truncated letterforms; the order of the alternate forms is always: lower truncation, upper truncation, left truncation, right truncation. The table demonstrates which truncated forms are available:
+
+\begin{tabular}{lccccc}
+	& Base Form	& Salt=0	& Salt=1	& Salt=2	& Salt=3  \\
+\hline
+U+0440	& {\glyphfont{\large р }}	& {\salt\large р} &  \\
+U+0443  & {\glyphfont{\large у }}	& {\salt\large у} &  \\
+U+0444  & {\glyphfont{\large ф }}	& {\salt\large ф} & {\salta\large ф} \\
+U+0445  & {\glyphfont{\large х}}	& {\salt\large х} & {\salta\large х} & {\saltb\large х}  \\
+U+0446  & {\glyphfont{\large ц }}	& {\salt\large ц} &  \\
+U+0449  & {\glyphfont{\large щ }}	& {\salt\large щ} &  \\
+U+0471  & {\glyphfont{\large ѱ }}	& {\salt\large ѱ} &  {\salta\large ѱ}\\
+U+A641  & {\glyphfont{\large ꙁ }}	& {\salt\large ꙁ} &  \\
+U+A64B  & {\glyphfont{\large ꙋ }}	& {\salt\large ꙋ} & {\salta\large ꙋ} & {\saltb\large ꙋ} \\
+\hline
+\end{tabular}
+
 
 There is also defined Stylistic Set 2 (``ss02''), Blackletter forms. When this stylistic set is turned on, 
 Latin letters appear in blackletter as opposed to their modern forms. This is useful for setting Latin text side-by-side with Slavonic in some contexts. See the following example:
@@ -81,7 +100,7 @@ U+1F545	& {\graph{\large 🕅 }}	& {\graphA{\large 🕅}} & {\graphB{\large 🕅
 \hline
 \end{tabular}
 
-
+The ``Truncation'' feature (trnc) provides the same funcionality as stylistic alternatives (for truncation) above. The possible values are: \verb+1+ (lower truncation), \verb+2+ (upper truncation), \verb+3+ (left truncation) and \verb+4+ (right truncation).
 
 The ``Use blackletter characters for Latin'' feature (blck) provides the same functionality as Stylistic Set 2 in OpenType (see above).
 
