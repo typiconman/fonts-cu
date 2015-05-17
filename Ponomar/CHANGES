@@ -1,3 +1,13 @@
+May 17, 2015: Pre-release of Ponomar Unicode 0.9999
+
+* This is a release candidate for the Ponomar Unicode fotn (version 0.9999)
+If no bugs are found, this font will be released
+
+Changes since Ponomar Unicode 0.999
+	* Add Latin-1 Supplement glyphs for English
+	(This prevents FontConfig from complaining that the font is not valid)
+	* Add OpenType and Graphite rules for these glyphs
+
 May 12, 2015: Pre-release of Ponomar Unicode 0.999
 
 * This is a release candidate for the Ponomar Unicode font (version 0.999)
