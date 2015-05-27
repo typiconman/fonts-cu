@@ -3,7 +3,7 @@
 
 PACK_NAME=PonomarUnicode
 DOCS="README LICENSE OFL.txt PonomarUnicode.pdf CHANGES"
-VERSION="0.99"
+VERSION="1.0"
 
 ## delete binaries
 rm PonomarUnicode.otf
