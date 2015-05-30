@@ -1,0 +1,33 @@
+Version 3: Public Release of Fedorovsk Unicode (in progress)
+
+
+
+--------------------------------------------------------------------------------------
+
+Initial release of version BETA 2: October 3, 2013.
+
+All subsequent changes will be recorded in this file.
+
+Release of version BETA 2.1: November 19, 2013
+The following changes have been made:
+	* some minor tweaks to stylistic set 1 and stylistic set 2
+	* Added stylistic set 10: Equal Baseline Variants
+	* Minor tweaking of some anchor points
+	* Fixed positioning of half marks
+Thank you to Andrey Zuev for reporting bugs.
+
+Release of version BETA 2.2: December 20, 2013
+The following changes have been made:
+	* fixed position of acute accent over the Ot ligature (both lowercase and uppercase)
+	* fixed position of acute accent over yat -- now it sits on left by default
+Thank you to Nikita Simmons for suggesting these corrections.
+
+Release of BETA 2.3: October 1, 2014
+The following changes have been made:
+	* Removing variation sequences in keeping with recent decisions at UTC and WG2. The use of Cyrillic Variation Sequences is now deprecated
+	* Adding characters of the Cyrillic Extended-C block. (Some of these are quite crudely drawn!)
+	* Removing contextual substitution of U+043E to narrow form. You must now hard-code all narrow forms as U+1C82
+	* Mapping some characters to PUA in accordance with PUA Policy, v. 1.2, please see: http://ponomar.net/files/pua_policy.pdf
+
+Please send feedback. If no major problems are spotted, we will release a Release Candidate.
+
