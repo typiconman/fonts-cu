@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1357765429
-ModificationTime: 1434644773
+ModificationTime: 1434707641
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -960,7 +960,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 396 18 7
+WinInfo: 378 18 7
 BeginPrivate: 8
 BlueValues 31 [-20 0 386 405 447 466 647 666]
 OtherBlues 21 [-262 -243 -173 -154]
@@ -981,7 +981,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "HalfMark"  "'mark' Diacritical Marks-1" "Numeral"  "'mark' Numeral Positioning-1" "Stacking"  "'mkmk' Diacritical Stacking-1" "Diacritic"  "'mark' Diacritical Marks-1" "Yerok"  "'mark' Diacritical Marks-1" 
-BeginChars: 1114112 515
+BeginChars: 1114112 516
 
 StartChar: uni0020
 Encoding: 32 32 0
@@ -54630,50 +54630,50 @@ AnchorPoint: "Yerok" 862.812 460.4 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-763 78 m 0x86
- 792 78 824 89 824 118 c 0
- 824 180 811 243 775 271 c 256
- 755 287 735 300 709 303 c 0
- 706 303 704 303 701 303 c 0x96
- 688 303 676 299 668 294 c 0
- 664 291 661 290 658 290 c 0
- 652 290 649 295 649 302 c 0
- 649 311 652 313 659 322 c 0x0e
- 678 345 708 372 738 384 c 256
- 748 388 760 390 771 390 c 0
- 805 390 841 375 862 363 c 0
- 891 347 903 332 917 298 c 0
- 929 270 937 233 937 196 c 0
- 937 169 932 142 921 120 c 0
- 885 51 805 7 710 -0 c 0
- 706 -0 702 -0 698 -0 c 0x96
- 649 -0 595 17 556 29 c 1
- 531 38 508 45 488 53 c 1
- 467 59 453 63 444 63 c 256
- 435 63 420 59 399 53 c 0
- 354 38 298 20 246 9 c 1
- 223 3 202 1 181 1 c 0
- 160 1 139 3 117 7 c 0
- 64 16 37 42 17 86 c 256
- 6 110 0 140 0 171 c 0
- 0 224 16 278 38 307 c 0
- 76 355 124 377 202 384 c 0
- 209 385 216 385 224 385 c 0
- 269 385 312 370 334 347 c 0
- 341 340 344 332 343 325 c 1
- 320 313 297 297 285 276 c 1
- 262 293 240 306 211 317 c 0
- 201 321 191 322 182 322 c 0
- 134 322 112 286 112 238 c 0
- 112 204 129 161 144 133 c 0
- 161 100 190 62 235 59 c 0
- 236 59 238 59 239 59 c 0
- 287 59 334 85 369 103 c 0
- 392 115 413 126 434 137 c 0
- 457 149 472 157 493 157 c 0x6e
- 502 157 512 155 524 153 c 1
- 595 135 662 99 732 81 c 0
- 742 79 752 78 763 78 c 0x86
+763 78 m 4x86
+ 792 78 824 89 824 118 c 4
+ 824 180 811 243 775 271 c 260
+ 755 287 735 300 709 303 c 4
+ 706 303 704 303 701 303 c 4x96
+ 688 303 676 299 668 294 c 4
+ 664 291 661 290 658 290 c 4
+ 652 290 649 295 649 302 c 4
+ 649 311 652 313 659 322 c 4x0e
+ 678 345 708 372 738 384 c 260
+ 748 388 760 390 771 390 c 4
+ 805 390 841 375 862 363 c 4
+ 891 347 903 332 917 298 c 4
+ 929 270 937 233 937 196 c 4
+ 937 169 932 142 921 120 c 4
+ 885 51 805 7 710 -0 c 4
+ 706 -0 702 -0 698 -0 c 4x96
+ 649 -0 595 17 556 29 c 5
+ 531 38 508 45 488 53 c 5
+ 467 59 453 63 444 63 c 260
+ 435 63 420 59 399 53 c 4
+ 354 38 298 20 246 9 c 5
+ 223 3 202 1 181 1 c 4
+ 160 1 139 3 117 7 c 4
+ 64 16 37 42 17 86 c 260
+ 6 110 0 140 0 171 c 4
+ 0 224 16 278 38 307 c 4
+ 76 355 124 377 202 384 c 4
+ 209 385 216 385 224 385 c 4
+ 269 385 312 370 334 347 c 4
+ 341 340 344 332 343 325 c 5
+ 320 313 297 297 285 276 c 5
+ 262 293 240 306 211 317 c 4
+ 201 321 191 322 182 322 c 4
+ 134 322 112 286 112 238 c 4
+ 112 204 129 161 144 133 c 4
+ 161 100 190 62 235 59 c 4
+ 236 59 238 59 239 59 c 4
+ 287 59 334 85 369 103 c 4
+ 392 115 413 126 434 137 c 4
+ 457 149 472 157 493 157 c 4x6e
+ 502 157 512 155 524 153 c 5
+ 595 135 662 99 732 81 c 4
+ 742 79 752 78 763 78 c 4x86
 EndSplineSet
 Validated: 19457
 Layer: 2
@@ -70665,7 +70665,7 @@ StartChar: uni04860300
 Encoding: 57347 57347 222
 Width: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: 645 50<-332.265 -243.5> 764 63<-420.766 -288.462>
 VStem: -260 87<605 644.956>
 TtInstrs:
@@ -70804,41 +70804,40 @@ AnchorPoint: "Diacritic" -221 552 mark 0
 LayerCount: 3
 Fore
 SplineSet
--426 774 m 1
- -430 778 -433 782 -433 786 c 0
- -433 806 -389 827 -357 827 c 0
- -351 827 -346 826 -341 825 c 1
- -301 815 -262 793 -226 778 c 0
- -218 775 -209 772 -199 769 c 0
- -185 765 -185 765 -170 760 c 0
- -145 753 -125 746 -96 742 c 0
- -80 741 -40 740 -40 724 c 0
- -40 703 -53 682 -64 671 c 0
- -69 666 -73 664 -78 664 c 0
- -87 665 -105 672 -132 685 c 0
- -173 705 -237 731 -291 743 c 0
- -327 751 -361 757 -395 764 c 0
- -409 767 -419 771 -426 774 c 1
--374 581 m 0
- -384 567 -392 550 -411 550 c 0
- -411 550 -412 550 -413 550 c 0
- -426 551 -432 559 -432 569 c 0
- -432 576 -429 584 -425 591 c 0
- -394 644 -324 695 -245 695 c 0
- -242 695 -240 695 -237 694 c 0
- -212 693 -193 684 -180 666 c 0
- -175 660 -173 653 -173 645 c 0
- -173 630 -183 613 -191 602 c 0
- -204 585 -227 564 -249 558 c 1
- -251 557 -253 557 -256 557 c 0
- -266 557 -273 563 -273 572 c 1
- -260 605 l 1
- -260 607 -260 609 -260 611 c 0
- -260 630 -267 645 -283 645 c 0
- -288 645 -293 644 -299 642 c 1
- -330 631 -356 605 -374 581 c 0
+-426 774 m 5
+ -430 778 -433 782 -433 786 c 4
+ -433 806 -389 827 -357 827 c 4
+ -351 827 -346 826 -341 825 c 5
+ -301 815 -262 793 -226 778 c 4
+ -218 775 -209 772 -199 769 c 4
+ -185 765 -185 765 -170 760 c 4
+ -145 753 -125 746 -96 742 c 4
+ -80 741 -40 740 -40 724 c 4
+ -40 703 -53 682 -64 671 c 4
+ -69 666 -73 664 -78 664 c 4
+ -87 665 -105 672 -132 685 c 4
+ -173 705 -237 731 -291 743 c 4
+ -327 751 -361 757 -395 764 c 4
+ -409 767 -419 771 -426 774 c 5
+-374 581 m 4
+ -384 567 -392 550 -411 550 c 4
+ -411 550 -412 550 -413 550 c 4
+ -426 551 -432 559 -432 569 c 4
+ -432 576 -429 584 -425 591 c 4
+ -394 644 -324 695 -245 695 c 4
+ -242 695 -240 695 -237 694 c 4
+ -212 693 -193 684 -180 666 c 4
+ -175 660 -173 653 -173 645 c 4
+ -173 630 -183 613 -191 602 c 4
+ -204 585 -227 564 -249 558 c 5
+ -251 557 -253 557 -256 557 c 4
+ -266 557 -273 563 -273 572 c 5
+ -260 605 l 5
+ -260 607 -260 609 -260 611 c 4
+ -260 630 -267 645 -283 645 c 4
+ -288 645 -293 644 -299 642 c 5
+ -330 631 -356 605 -374 581 c 4
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 -426 774 m 1,0,1
@@ -70886,6 +70885,7 @@ SplineSet
  -339 628 -339 628 -374 581 c 0,32,33
 EndSplineSet
 Validated: 19457
+LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Accents-1" uni0486 uni0300
 Colour: ffff
 EndChar
@@ -72338,7 +72338,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "'ccmp' Precomposed Letterforms-1" uni0463 uni0311
-AlternateSubs2: "'salt' Stylistic Alternatives-1" uni04630311.alt1 uni04630311.alt2
+AlternateSubs2: "'salt' Stylistic Alternatives-1" uni04630311.alt uni04630311.alt1 uni04630311.alt2
 Substitution2: "'ss01' Style Set 1 lookup 14-1" uni04630311.alt2
 Substitution2: "'ss02' Style Set 2 lookup 15-1" uni04630311.alt1
 EndChar
@@ -78029,7 +78029,7 @@ EndSplineSet
 Validated: 3073
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni047C.alt
 LCarets2: 2 0 0 
-Position2: "'ss10' Equal Baseline Kerning Lookup-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "'ss10' Equal Baseline Kerning Lookup-1" dx=0 dy=150 dh=0 dv=0
 Ligature2: "'ccmp' Canonical Equivalents-1" uniA64C uni0486 uni0311
 EndChar
 
@@ -89471,10 +89471,10 @@ SplineSet
 EndSplineSet
 Validated: 3073
 Ligature2: "'ccmp' Precomposed Letterforms-1" uniA64B uni0301
-AlternateSubs2: "'salt' Stylistic Alternatives-1" uniA64B0301.alt1 uniA64B0301.alt2
+AlternateSubs2: "'salt' Stylistic Alternatives-1" uniA64B0301.alt uniA64B0301.alt1 uniA64B0301.alt2
 Substitution2: "Contextual Uk Forms-1" uniA64B0301.alt1
 Substitution2: "'ss01' Style Set 1 lookup 14-1" uniA64B0301.alt1
-Substitution2: "'ss02' Style Set 2 lookup 15-1" uniA64B0301.alt2
+Substitution2: "'ss02' Style Set 2 lookup 15-1" uniA64B0301.alt1
 EndChar
 
 StartChar: uniA64B0301.alt1
@@ -90356,10 +90356,10 @@ SplineSet
 EndSplineSet
 Validated: 3073
 Ligature2: "'ccmp' Precomposed Letterforms-1" uniA64B uni0300
-AlternateSubs2: "'salt' Stylistic Alternatives-1" uniA64B0300.alt1 uniA64B0300.alt2
+AlternateSubs2: "'salt' Stylistic Alternatives-1" uniA64B0300.alt uniA64B0300.alt1 uniA64B0300.alt2
 Substitution2: "Contextual Uk Forms-1" uniA64B0300.alt2
 Substitution2: "'ss01' Style Set 1 lookup 14-1" uniA64B0300.alt2
-Substitution2: "'ss02' Style Set 2 lookup 15-1" uniA64B0300.alt1
+Substitution2: "'ss02' Style Set 2 lookup 15-1" uniA64B0300.alt2
 EndChar
 
 StartChar: uniA64B0300.alt1
@@ -91625,7 +91625,7 @@ EndSplineSet
 Validated: 3073
 Ligature2: "'ccmp' Precomposed Letterforms-1" uniA64B uni0311
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uniA64B0311.alt1 uniA64B0311.alt2 uniA64B0311.alt3
-Substitution2: "'ss02' Style Set 2 lookup 15-1" uniA64B0311.alt1
+Substitution2: "'ss02' Style Set 2 lookup 15-1" uniA64B0311.alt3
 Substitution2: "'ss01' Style Set 1 lookup 14-1" uniA64B0311.alt3
 Substitution2: "Contextual Uk Forms-1" uniA64B0311.alt2
 EndChar
@@ -139308,6 +139308,7 @@ SplineSet
  319 0 319 0 311 0 c 256,46,47
 EndSplineSet
 Validated: 3073
+Substitution2: "'ss02' Style Set 2 lookup 15-1" uni04630486.alt1
 Ligature2: "'ccmp' Precomposed Letterforms-1" uni0463 uni0486
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni04630486.alt1
 EndChar
@@ -141712,6 +141713,7 @@ SplineSet
  319 0 319 0 311 0 c 256,79,80
 EndSplineSet
 Validated: 3073
+Substitution2: "'ss02' Style Set 2 lookup 15-1" uni046304860301.alt1
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Letterforms-1" uni0463 uni04860301
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni046304860301.alt1
@@ -143152,7 +143154,7 @@ EndSplineSet
 Validated: 3073
 Ligature2: "'ccmp' Precomposed Letterforms-1" uni0463 uni0300
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni04630300.alt1 uni04630300.alt2
-Substitution2: "'ss02' Style Set 2 lookup 15-1" uni04630300.alt2
+Substitution2: "'ss02' Style Set 2 lookup 15-1" uni04630300.alt1
 EndChar
 
 StartChar: uni04630301
@@ -145983,8 +145985,9 @@ SplineSet
  198 194 198 194 146 264 c 1,120,121
 EndSplineSet
 Validated: 3073
+Substitution2: "'ss02' Style Set 2 lookup 15-1" uniA64B0486.alt1
 Ligature2: "'ccmp' Precomposed Letterforms-1" uniA64B uni0486
-AlternateSubs2: "'salt' Stylistic Alternatives-1" uniA64B0486.alt1
+AlternateSubs2: "'salt' Stylistic Alternatives-1" uniA64B0486.alt uniA64B0486.alt1
 Substitution2: "'ss01' Style Set 1 lookup 14-1" uniA64B0486.alt1
 Colour: ffff00
 EndChar
@@ -146449,6 +146452,7 @@ SplineSet
  198 194 198 194 146 264 c 1,149,150
 EndSplineSet
 Validated: 3073
+Substitution2: "'ss02' Style Set 2 lookup 15-1" uniA64B04860301.alt1
 Ligature2: "'ccmp' Precomposed Letterforms-1" uniA64B uni04860301
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uniA64B04860301.alt1
 Substitution2: "'ss01' Style Set 1 lookup 14-1" uniA64B04860301.alt1
@@ -150297,7 +150301,8 @@ SplineSet
  739 773 l 1,688,-1
  739 767 l 1,684,-1
 EndSplineSet
-Validated: 8391681
+Validated: 3073
+Colour: ff00ff
 EndChar
 
 StartChar: uniEC50
@@ -151894,7 +151899,8 @@ SplineSet
  739 773 l 1,667,-1
  739 767 l 1,663,-1
 EndSplineSet
-Validated: 8391681
+Validated: 3073
+Colour: ff00ff
 EndChar
 
 StartChar: uniA64B0301.alt
@@ -152366,7 +152372,7 @@ SplineSet
  -18 658 -40 664 -49 669 c 1
  -53 672 -55 676 -55 681 c 0
 EndSplineSet
-Validated: 8408065
+Validated: 19457
 Layer: 2
 SplineSet
 74 577 m 128,-1,1
@@ -152428,7 +152434,7 @@ EndSplineSet
 Validated: 3073
 EndChar
 
-StartChar: uniA64B0463.alt
+StartChar: uniA64B0486.alt
 Encoding: 59624 59624 504
 Width: 459
 VWidth: 0
@@ -153163,7 +153169,7 @@ SplineSet
  277 127 273 91 273 73 c 0
  273 50 280 38 294 38 c 0x4790
 EndSplineSet
-Validated: 8408065
+Validated: 19457
 Layer: 2
 SplineSet
 347 685 m 1,0,-1
@@ -153587,7 +153593,7 @@ SplineSet
  688 500 678 497 668 497 c 0
  619 497 589 529 589 574 c 0x5f80
 EndSplineSet
-Validated: 8408065
+Validated: 19457
 Layer: 2
 SplineSet
 731 590 m 1,0,-1
@@ -154299,7 +154305,7 @@ SplineSet
  688 346 678 343 668 343 c 0
  619 343 589 375 589 420 c 0x5fac
 EndSplineSet
-Validated: 8408065
+Validated: 19457
 Layer: 2
 SplineSet
 903 740 m 1,0,-1
@@ -154425,7 +154431,7 @@ Colour: ff00
 EndChar
 
 StartChar: uniA64C04860300
-Encoding: 59692 59692 508
+Encoding: 59696 59696 508
 Width: 1223
 VWidth: 0
 GlyphClass: 3
@@ -154810,7 +154816,7 @@ SplineSet
  959 620 959 619 959 619 c 0
  959 616 955 612 949 605 c 0
 EndSplineSet
-Validated: 8408065
+Validated: 19457
 Layer: 2
 SplineSet
 13 216 m 1,0,1
@@ -154894,8 +154900,7 @@ SplineSet
  959 617 959 617 949 605 c 1,113,114
 EndSplineSet
 Validated: 3073
-LCarets2: 1 0 
-Ligature2: "'ccmp' Precomposed Letterforms-1" uniA64C uni04860301
+Ligature2: "'ccmp' Precomposed Letterforms-1" uniA64C uni04860300
 EndChar
 
 StartChar: uniEC45
@@ -156558,7 +156563,8 @@ SplineSet
  67 77 l 1,713,-1
  67 65 l 1,709,-1
 EndSplineSet
-Validated: 8391681
+Validated: 3073
+Colour: ff00ff
 EndChar
 
 StartChar: uniEC46
@@ -158102,7 +158108,8 @@ SplineSet
  53 79 l 1,636,-1
  53 67 l 1,632,-1
 EndSplineSet
-Validated: 8391681
+Validated: 3073
+Colour: ff00ff
 EndChar
 
 StartChar: uniEC47
@@ -158898,7 +158905,7 @@ SplineSet
  53 66 l 1
  53 54 l 1
 EndSplineSet
-Validated: 8391681
+Validated: 3073
 Layer: 2
 SplineSet
 791 782 m 1,0,-1
@@ -159686,7 +159693,8 @@ SplineSet
  53 66 l 1,657,-1
  53 54 l 1,653,-1
 EndSplineSet
-Validated: 8391681
+Validated: 3073
+Colour: ff00ff
 EndChar
 
 StartChar: uniEC48
@@ -161208,7 +161216,8 @@ SplineSet
  53 66 l 1,624,-1
  53 54 l 1,620,-1
 EndSplineSet
-Validated: 8391681
+Validated: 3073
+Colour: ff00ff
 EndChar
 
 StartChar: uniEC4A
@@ -162720,7 +162729,8 @@ SplineSet
  530 496 530 496 483 496 c 2,615,-1
  459 496 l 1,610,-1
 EndSplineSet
-Validated: 8391937
+Validated: 3329
+Colour: ff00ff
 EndChar
 
 StartChar: uniEC4B
@@ -164283,7 +164293,547 @@ SplineSet
  85 75 l 1,650,-1
  85 63 l 1,646,-1
 EndSplineSet
-Validated: 8391937
+Validated: 3329
+Colour: ff00ff
+EndChar
+
+StartChar: uniA64D04860300
+Encoding: 59697 59697 515
+Width: 978
+GlyphClass: 3
+Flags: W
+HStem: -0 78<680.087 806.453> 0 59<183.333 296.482> 63 94<430.53 520.033> 303 87<707.439 760.623> 322 63<129.98 248.669> 564 50<406.519 513>
+VStem: 0 112<153.311 280.111> 479 87<524 563.601> 824 113<110.167 236.201>
+DStem2: 524 153 523.5 40 0.94299 -0.33282<-36.7497 219.275>
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 97
+ 2
+ 0
+CALL
+PUSHB_1
+ 108
+SHP[rp1]
+PUSHB_5
+ 74
+ 6
+ 0
+ 26
+ 4
+CALL
+PUSHB_3
+ 97
+ 2
+ 0
+CALL
+PUSHB_5
+ 63
+ 6
+ 0
+ 34
+ 4
+CALL
+PUSHB_4
+ 104
+ 74
+ 97
+ 8
+CALL
+PUSHB_5
+ 69
+ 6
+ 0
+ 22
+ 4
+CALL
+PUSHB_3
+ 119
+ 3
+ 0
+CALL
+PUSHB_5
+ 57
+ 6
+ 0
+ 32
+ 4
+CALL
+PUSHB_3
+ 89
+ 3
+ 0
+CALL
+PUSHB_5
+ 81
+ 6
+ 0
+ 23
+ 4
+CALL
+PUSHB_3
+ 81
+ 89
+ 10
+CALL
+PUSHB_4
+ 0
+ 81
+ 84
+ 9
+CALL
+PUSHB_1
+ 51
+MDAP[rnd]
+PUSHB_5
+ 37
+ 6
+ 0
+ 40
+ 4
+CALL
+PUSHB_3
+ 51
+ 37
+ 10
+CALL
+PUSHB_4
+ 64
+ 51
+ 30
+ 9
+CALL
+PUSHB_1
+ 45
+SHP[rp2]
+SVTCA[x-axis]
+PUSHB_1
+ 125
+MDAP[rnd]
+PUSHB_1
+ 113
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 59
+ 7
+ 0
+ 35
+ 4
+CALL
+PUSHB_1
+ 59
+SRP0
+PUSHB_2
+ 48
+ 1
+CALL
+PUSHB_5
+ 40
+ 7
+ 0
+ 20
+ 4
+CALL
+PUSHB_3
+ 48
+ 40
+ 10
+CALL
+PUSHB_4
+ 0
+ 48
+ 32
+ 9
+CALL
+PUSHB_1
+ 40
+SRP0
+PUSHB_2
+ 76
+ 1
+CALL
+PUSHB_5
+ 92
+ 7
+ 0
+ 35
+ 4
+CALL
+PUSHB_3
+ 76
+ 92
+ 10
+CALL
+PUSHB_4
+ 0
+ 76
+ 86
+ 9
+CALL
+PUSHB_2
+ 126
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_3
+ -5453
+ -15450
+ 21
+CALL
+SPVFS
+SFVTPV
+PUSHB_1
+ 102
+SRP0
+PUSHB_1
+ 99
+MDRP[grey]
+PUSHB_2
+ 70
+ 27
+MIRP[rp0,min,black]
+PUSHB_1
+ 72
+MDRP[grey]
+PUSHB_1
+ 102
+SRP0
+PUSHB_4
+ 100
+ 102
+ 99
+ 19
+CALL
+PUSHB_4
+ 101
+ 102
+ 99
+ 19
+CALL
+PUSHB_3
+ 100
+ 102
+ 99
+DUP
+ROLL
+DUP
+ROLL
+SWAP
+SPVTL[parallel]
+SFVTPV
+SRP1
+SRP2
+IP
+PUSHB_1
+ 101
+IP
+SVTCA[y-axis]
+PUSHB_6
+ 70
+ 72
+ 99
+ 102
+ 100
+ 101
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_6
+ 70
+ 72
+ 99
+ 102
+ 100
+ 101
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
+PUSHB_2
+ 48
+ 59
+SRP1
+SRP2
+PUSHB_8
+ 5
+ 23
+ 2
+ 47
+ 68
+ 109
+ 119
+ 122
+DEPTH
+SLOOP
+IP
+PUSHB_1
+ 40
+SRP1
+PUSHB_4
+ 8
+ 7
+ 22
+ 45
+DEPTH
+SLOOP
+IP
+PUSHB_1
+ 76
+SRP2
+PUSHB_3
+ 9
+ 21
+ 16
+IP
+IP
+IP
+SVTCA[y-axis]
+PUSHB_2
+ 63
+ 97
+SRP1
+SRP2
+PUSHB_2
+ 95
+ 105
+IP
+IP
+PUSHB_1
+ 104
+SRP1
+PUSHB_1
+ 62
+IP
+PUSHB_2
+ 69
+ 74
+SRP1
+SRP2
+PUSHB_2
+ 76
+ 92
+IP
+IP
+PUSHB_1
+ 81
+SRP1
+PUSHB_4
+ 59
+ 55
+ 91
+ 113
+DEPTH
+SLOOP
+IP
+PUSHB_2
+ 119
+ 57
+SRP1
+SRP2
+PUSHB_1
+ 123
+IP
+PUSHB_2
+ 51
+ 89
+SRP1
+SRP2
+PUSHB_2
+ 32
+ 40
+IP
+IP
+PUSHB_1
+ 37
+SRP1
+PUSHB_3
+ 21
+ 19
+ 39
+IP
+IP
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 3
+Fore
+SplineSet
+313 694 m 1x07c0
+ 309 698 306 702 306 706 c 0
+ 306 726 350 746 382 746 c 0
+ 388 746 393 746 398 744 c 0
+ 449 732 491 703 540 688 c 0
+ 573 679 604 667 643 662 c 1
+ 659 660 699 660 699 644 c 0
+ 699 622 686 602 675 590 c 0
+ 670 586 666 584 661 584 c 0
+ 652 584 634 592 607 604 c 0
+ 566 624 502 650 448 662 c 0
+ 412 670 378 676 344 684 c 0
+ 330 686 320 690 313 694 c 1x07c0
+365 500 m 0
+ 355 486 347 470 328 470 c 2
+ 326 470 l 1
+ 313 470 307 478 307 488 c 0
+ 307 496 310 504 314 510 c 0
+ 345 564 415 614 494 614 c 0
+ 523 614 545 605 559 586 c 0
+ 564 580 566 572 566 564 c 0
+ 566 550 556 532 548 522 c 0
+ 535 504 512 484 490 478 c 0
+ 488 476 486 476 483 476 c 0
+ 473 476 466 482 466 492 c 1
+ 479 524 l 2
+ 479 526 479 528 479 530 c 0
+ 479 550 472 564 456 564 c 0
+ 451 564 446 564 440 562 c 0
+ 409 550 383 524 365 500 c 0
+763 78 m 0x87c0
+ 792 78 824 89 824 118 c 0
+ 824 180 811 243 775 271 c 256
+ 755 287 735 300 709 303 c 0
+ 706 303 704 303 701 303 c 0x97c0
+ 688 303 676 299 668 294 c 0
+ 664 291 661 290 658 290 c 0
+ 652 290 649 295 649 302 c 0
+ 649 311 652 313 659 322 c 0x0fc0
+ 678 345 708 372 738 384 c 256
+ 748 388 760 390 771 390 c 0
+ 805 390 841 375 862 363 c 0
+ 891 347 903 332 917 298 c 0
+ 929 270 937 233 937 196 c 0
+ 937 169 932 142 921 120 c 0
+ 885 51 805 7 710 -0 c 0
+ 706 -0 702 -0 698 -0 c 0x97c0
+ 649 -0 595 17 556 29 c 1
+ 531 38 508 45 488 53 c 1
+ 467 59 453 63 444 63 c 256
+ 435 63 420 59 399 53 c 0
+ 354 38 298 20 246 9 c 1
+ 223 3 202 0 181 0 c 0
+ 160 0 139 3 117 7 c 0
+ 64 16 37 42 17 86 c 256
+ 6 110 0 140 0 171 c 0
+ 0 224 16 278 38 307 c 0
+ 76 355 124 377 202 384 c 0
+ 209 385 216 385 224 385 c 0
+ 269 385 312 370 334 347 c 0
+ 341 340 344 332 343 325 c 1
+ 320 313 297 297 285 276 c 1
+ 262 293 240 306 211 317 c 0
+ 201 321 191 322 182 322 c 0
+ 134 322 112 286 112 238 c 0
+ 112 204 129 161 144 133 c 0
+ 161 100 190 62 235 59 c 0
+ 236 59 238 59 239 59 c 0
+ 287 59 334 85 369 103 c 0
+ 392 115 413 126 434 137 c 0
+ 457 149 472 157 493 157 c 0x6fc0
+ 502 157 512 155 524 153 c 1
+ 595 135 662 99 732 81 c 0
+ 742 79 752 78 763 78 c 0x87c0
+EndSplineSet
+Layer: 2
+SplineSet
+313 694 m 1,0,1
+ 306 701 306 701 306 706 c 0,2,3
+ 306 720 306 720 331.5 733 c 128,-1,4
+ 357 746 357 746 375 746 c 128,-1,5
+ 393 746 393 746 409.5 741.5 c 128,-1,6
+ 426 737 426 737 472.5 716 c 128,-1,7
+ 519 695 519 695 533.5 690.5 c 128,-1,8
+ 548 686 548 686 580 676 c 0,9,10
+ 613 665 613 665 629.5 663.5 c 128,-1,11
+ 646 662 646 662 655 661 c 0,12,13
+ 668 660 668 660 684 657 c 0,14,15
+ 699 653 699 653 699 644 c 0,16,17
+ 699 616 699 616 675 590 c 1,18,19
+ 668 584 668 584 660 584 c 128,-1,20
+ 652 584 652 584 607 604 c 1,21,22
+ 522 646 522 646 448 662 c 0,23,24
+ 433 665 433 665 398 672.5 c 128,-1,25
+ 363 680 363 680 344.5 683.5 c 128,-1,26
+ 326 687 326 687 313 694 c 1,0,1
+365 500 m 1,27,28
+ 350 470 350 470 328 470 c 2,29,-1
+ 326 470 l 2,30,31
+ 307 470 307 470 307 488 c 0,32,33
+ 307 500 307 500 314 510 c 1,34,35
+ 339 553 339 553 388.5 583.5 c 128,-1,36
+ 438 614 438 614 488 614 c 128,-1,37
+ 538 614 538 614 559 586 c 0,38,39
+ 566 578 566 578 566 561 c 128,-1,40
+ 566 544 566 544 548 522 c 1,41,42
+ 523 487 523 487 490 478 c 1,43,44
+ 488 476 488 476 483 476 c 0,45,46
+ 466 476 466 476 466 492 c 1,47,-1
+ 479 524 l 1,48,-1
+ 479 530 l 2,49,50
+ 479 564 479 564 456 564 c 0,51,52
+ 446 564 446 564 440 562 c 0,53,54
+ 400 546 400 546 365 500 c 1,27,28
+285 276 m 1,55,56
+ 224 322 224 322 185 322 c 0,57,58
+ 112 322 112 322 112 238 c 0,59,60
+ 112 193 112 193 144 133 c 1,61,62
+ 180 63 180 63 235 59 c 1,63,-1
+ 239 59 l 2,64,65
+ 283 59 283 59 369 103 c 0,66,67
+ 392 115 392 115 432 136 c 128,-1,68
+ 472 157 472 157 486 157 c 128,-1,69
+ 500 157 500 157 524 153 c 1,70,71
+ 560 144 560 144 628 117 c 1,72,73
+ 738 79 738 79 758 78 c 1,74,75
+ 824 78 824 78 824 118 c 0,76,77
+ 824 233 824 233 775 271 c 0,78,79
+ 739 299 739 299 709 303 c 1,80,-1
+ 701 303 l 2,81,82
+ 682 303 682 303 672.5 296.5 c 128,-1,83
+ 663 290 663 290 658 290 c 0,84,85
+ 649 290 649 290 649 299.5 c 128,-1,86
+ 649 309 649 309 659 322 c 0,87,88
+ 716 390 716 390 765.5 390 c 128,-1,89
+ 815 390 815 390 857 366.5 c 128,-1,90
+ 899 343 899 343 918 297 c 128,-1,91
+ 937 251 937 251 937 201.5 c 128,-1,92
+ 937 152 937 152 921 120 c 0,93,94
+ 894 69 894 69 838 37 c 128,-1,95
+ 782 5 782 5 710 0 c 1,96,-1
+ 698 -0 l 2,97,98
+ 650 -0 650 -0 556 29 c 0,99,100
+ 548 32 548 32 523.5 40 c 128,-1,101
+ 499 48 499 48 488 53 c 1,102,103
+ 453 63 453 63 443.5 63 c 128,-1,104
+ 434 63 434 63 399 53 c 1,105,106
+ 303 21 303 21 246 9 c 1,107,108
+ 212 0 212 0 184 0 c 128,-1,109
+ 156 0 156 0 117.5 7 c 128,-1,110
+ 79 14 79 14 56 33 c 128,-1,111
+ 33 52 33 52 16.5 87.5 c 128,-1,112
+ 0 123 0 123 0 171 c 0,113,114
+ 0 257 0 257 38 307 c 1,115,116
+ 91 374 91 374 202 384 c 0,117,118
+ 209 385 209 385 224 385 c 0,119,120
+ 298 385 298 385 334 347 c 0,121,122
+ 345 336 345 336 343 325 c 1,123,124
+ 300 303 300 303 285 276 c 1,55,56
+EndSplineSet
+Validated: 3073
+LCarets2: 1 0 
+Ligature2: "'ccmp' Precomposed Letterforms-1" uniA64D uni04860300
 EndChar
 EndChars
 EndSplineFont
