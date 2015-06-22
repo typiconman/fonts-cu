@@ -95,13 +95,14 @@ print OUTFILE "\\documentclass{article}
 \\tabulinesep=1.2mm
 ";
 ### SOME FONT INFORMATION
-my $copyright = index($fontname, "Fedorovsk") != -1 ? "Copyright 2013 Aleksandr Andreev and Nikita Simmons.
+#my $copyright = index($fontname, "Fedorovsk") != -1 ? "Copyright 2013 Aleksandr Andreev and Nikita Simmons.
 
-This font is part of the Ponomar Project Slavonic Computing Initiative. See http://www.ponomar.net/ for more information.
+#This font is part of the Ponomar Project Slavonic Computing Initiative. See http://www.ponomar.net/ for more information.
 
-Original glyph design by Nikita Simmons. Reencoding for Unicode, OpenType and Graphite feature creation and some tweaking by Aleksandr Andreev.
+#Original glyph design by Nikita Simmons. Reencoding for Unicode, OpenType and Graphite feature creation and some tweaking by Aleksandr Andreev.
 
-This font is BETA-STAGE SOFTWARE and is intended primarily for software evaluation purposes." : $f->{'name'}{'strings'}[0][1][0]{0};
+#This font is BETA-STAGE SOFTWARE and is intended primarily for software evaluation purposes." : $f->{'name'}{'strings'}[0][1][0]{0};
+my $copyright = $f->{'name'}{'strings'}[0][1][0]{0};
 my $name = $f->{'name'}{'strings'}[1][1][0]{0};
 my $version = $f->{'name'}{'strings'}[5][1][0]{0};
 my $author = $f->{'name'}{'strings'}[9][1][0]{0};
