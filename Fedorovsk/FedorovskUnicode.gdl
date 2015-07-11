@@ -17,7 +17,7 @@
     GNU General Public License for more details.
 */
 
-#define MAXGLYPH 533
+#define MAXGLYPH 556
 
 #define opt4(a) [a [a [a [a]? ]? ]? ]?
 AutoPseudo = 0;
@@ -242,64 +242,64 @@ g003d = glyphid(62);
 g003e = glyphid(63);
 g003f = glyphid(64);
 g0040 = glyphid(65);
-g__a = glyphid(66);
-g__b = glyphid(67);
-g__c = glyphid(68);
-g__d = glyphid(69);
-g__e = glyphid(70);
-g__f = glyphid(71);
-g__g = glyphid(72);
-g__h = glyphid(73);
-g__i = glyphid(74);
-g__j = glyphid(75);
-g__k = glyphid(76);
-g__l = glyphid(77);
-g__m = glyphid(78);
-g__n = glyphid(79);
-g__o = glyphid(80);
-g__p = glyphid(81);
-g__q = glyphid(82);
-g__r = glyphid(83);
-g__s = glyphid(84);
-g__t = glyphid(85);
-g__u = glyphid(86);
-g__v = glyphid(87);
-g__w = glyphid(88);
-g__x = glyphid(89);
-g__y = glyphid(90);
-g__z = glyphid(91);
+g0041 = glyphid(66);
+g0042 = glyphid(67);
+g0043 = glyphid(68);
+g0044 = glyphid(69);
+g0045 = glyphid(70);
+g0046 = glyphid(71);
+g0047 = glyphid(72);
+g0048 = glyphid(73);
+g0049 = glyphid(74);
+g004a = glyphid(75);
+g004b = glyphid(76);
+g004c = glyphid(77);
+g004d = glyphid(78);
+g004e = glyphid(79);
+g004f = glyphid(80);
+g0050 = glyphid(81);
+g0051 = glyphid(82);
+g0052 = glyphid(83);
+g0053 = glyphid(84);
+g0054 = glyphid(85);
+g0055 = glyphid(86);
+g0056 = glyphid(87);
+g0057 = glyphid(88);
+g0058 = glyphid(89);
+g0059 = glyphid(90);
+g005a = glyphid(91);
 g005b = glyphid(92);
 g005c = glyphid(93);
 g005d = glyphid(94);
-g_asciicircum = glyphid(95);
+g005e = glyphid(95);
 g005f = glyphid(96);
 g0060 = glyphid(97);
-g_a = glyphid(98);
-g_b = glyphid(99);
-g_c = glyphid(100);
-g_d = glyphid(101);
-g_e = glyphid(102);
-g_f = glyphid(103);
-g_g = glyphid(104);
-g_h = glyphid(105);
-g_i = glyphid(106);
-g_j = glyphid(107);
-g_k = glyphid(108);
-g_l = glyphid(109);
-g_m = glyphid(110);
-g_n = glyphid(111);
-g_o = glyphid(112);
-g_p = glyphid(113);
-g_q = glyphid(114);
-g_r = glyphid(115);
-g_s = glyphid(116);
-g_t = glyphid(117);
-g_u = glyphid(118);
-g_v = glyphid(119);
-g_w = glyphid(120);
-g_x = glyphid(121);
-g_y = glyphid(122);
-g_z = glyphid(123);
+g0061 = glyphid(98);
+g0062 = glyphid(99);
+g0063 = glyphid(100);
+g0064 = glyphid(101);
+g0065 = glyphid(102);
+g0066 = glyphid(103);
+g0067 = glyphid(104);
+g0068 = glyphid(105);
+g0069 = glyphid(106);
+g006a = glyphid(107);
+g006b = glyphid(108);
+g006c = glyphid(109);
+g006d = glyphid(110);
+g006e = glyphid(111);
+g006f = glyphid(112);
+g0070 = glyphid(113);
+g0071 = glyphid(114);
+g0072 = glyphid(115);
+g0073 = glyphid(116);
+g0074 = glyphid(117);
+g0075 = glyphid(118);
+g0076 = glyphid(119);
+g0077 = glyphid(120);
+g0078 = glyphid(121);
+g0079 = glyphid(122);
+g007a = glyphid(123);
 g007b = glyphid(124);
 g007c = glyphid(125);
 g007d = glyphid(126);
@@ -315,401 +315,424 @@ g00b4 = glyphid(135);
 g00b6 = glyphid(136);
 g00b7 = glyphid(137);
 g00bb = glyphid(138);
-g02bc = glyphid(139);
-g0300 = glyphid(140) {DiacriticM = point(-210m, 737m); StackingS = point(-174m, 927m); StackingM = point(-214m, 737m)};
-g0301 = glyphid(141) {StackingM = point(-164m, 661m); DiacriticM = point(-164m, 661m); StackingS = point(-11m, 974m)};
-g0306 = glyphid(142) {StackingM = point(-229m, 625m); StackingS = point(-123m, 853m); DiacriticM = point(-228m, 628m)};
-g0307 = glyphid(143) {StackingS = point(-65m, 828m); DiacriticM = point(-72m, 684m); StackingM = point(-71m, 688m)};
-g0308 = glyphid(144) {StackingM = point(-156m, 789m); DiacriticM = point(-156m, 789m); StackingS = point(-148m, 959m)};
-g030b = glyphid(145) {StackingM = point(-214m, 676m); StackingS = point(-189m, 1041m); DiacriticM = point(-213m, 675m)};
-g030f = glyphid(146) {DiacriticM = point(-150m, 663m); StackingS = point(-84m, 1031m); StackingM = point(-150m, 663m)};
-g0311 = glyphid(147) {StackingM = point(-192m, 687m); StackingS = point(-186m, 937m); DiacriticM = point(-192m, 700m)};
-g033e = glyphid(148) {StackingS = point(-41m, 853m); YerokM = point(-132m, 547m); StackingM = point(-132m, 547m)};
-g034f = glyphid(149);
-g0400 = glyphid(150) {YerokS = point(282m, 949m); DiacriticS = point(284m, 948m); HalfMarkS = point(266m, 752m)};
-g0401 = glyphid(151) {HalfMarkS = point(266m, 752m); YerokS = point(266m, 888m); DiacriticS = point(264m, 887m)};
-g0402 = glyphid(152) {HalfMarkS = point(348m, 752m); DiacriticS = point(347m, 742m); YerokS = point(589m, 644m)};
-g0403 = glyphid(153) {HalfMarkS = point(229m, 752m); YerokS = point(247m, 1089m); DiacriticS = point(246m, 1089m)};
-g0404 = glyphid(154) {HalfMarkS = point(266m, 752m); YerokS = point(405m, 698m); DiacriticS = point(266m, 751m)};
-g0405 = glyphid(155) {HalfMarkS = point(394m, 752m); DiacriticS = point(396m, 787m); YerokS = point(652m, 698m)};
-g0406 = glyphid(156) {HalfMarkS = point(129m, 752m); DiacriticS = point(128m, 771m); YerokS = point(129m, 716m)};
-g0407 = glyphid(157) {HalfMarkS = point(133m, 752m); DiacriticS = point(133m, 892m); YerokS = point(132m, 892m)};
-g0408 = glyphid(158) {HalfMarkS = point(256m, 752m); YerokS = point(388m, 718m); DiacriticS = point(389m, 751m)};
-g0409 = glyphid(159) {YerokS = point(320m, 742m); DiacriticS = point(321m, 767m); HalfMarkS = point(318m, 752m)};
-g040a = glyphid(160) {DiacriticS = point(315m, 771m); YerokS = point(415m, 723m); HalfMarkS = point(315m, 752m)};
-g040b = glyphid(161) {HalfMarkS = point(346m, 752m); DiacriticS = point(346m, 751m); YerokS = point(599m, 593m)};
-g040c = glyphid(162) {HalfMarkS = point(279m, 752m); YerokS = point(424m, 703m); DiacriticS = point(396m, 1023m)};
-g040d = glyphid(163) {HalfMarkS = point(315m, 752m); YerokS = point(457m, 897m); DiacriticS = point(322m, 896m)};
-g040e = glyphid(164) {HalfMarkS = point(380m, 752m); DiacriticS = point(444m, 1041m); YerokS = point(611m, 754m)};
-g040f = glyphid(165) {HalfMarkS = point(389m, 752m); DiacriticS = point(391m, 750m); YerokS = point(595m, 751m)};
-g0410 = glyphid(166) {YerokS = point(388m, 733m); DiacriticS = point(387m, 793m); HalfMarkS = point(385m, 752m)};
-g0411 = glyphid(167) {YerokS = point(415m, 723m); DiacriticS = point(280m, 801m); HalfMarkS = point(281m, 752m)};
-g0412 = glyphid(168) {DiacriticS = point(278m, 804m); YerokS = point(413m, 734m); HalfMarkS = point(280m, 752m)};
-g0413 = glyphid(169) {HalfMarkS = point(281m, 752m); YerokS = point(415m, 723m); DiacriticS = point(280m, 801m)};
-g0414 = glyphid(170) {HalfMarkS = point(281m, 752m); DiacriticS = point(278m, 805m); YerokS = point(413m, 727m)};
-g0415 = glyphid(171) {HalfMarkS = point(230m, 752m); YerokS = point(367m, 727m); DiacriticS = point(232m, 801m)};
-g0416 = glyphid(172) {HalfMarkS = point(321m, 752m); DiacriticS = point(322m, 794m); YerokS = point(571m, 732m)};
-g0417 = glyphid(173) {HalfMarkS = point(554m, 752m); YerokS = point(778m, 739m); DiacriticS = point(556m, 799m)};
-g0418 = glyphid(174) {HalfMarkS = point(310m, 752m); DiacriticS = point(310m, 797m); YerokS = point(467m, 719m)};
-g0419 = glyphid(175) {HalfMarkS = point(322m, 752m); DiacriticS = point(376m, 1018m); YerokS = point(451m, 720m)};
-g041a = glyphid(176) {HalfMarkS = point(281m, 752m); YerokS = point(417m, 719m); DiacriticS = point(220m, 797m)};
-g041b = glyphid(177) {HalfMarkS = point(313m, 752m); DiacriticS = point(318m, 799m); YerokS = point(313m, 725m)};
-g041c = glyphid(178) {HalfMarkS = point(424m, 752m); DiacriticS = point(424m, 802m); YerokS = point(595m, 742m)};
-g041d = glyphid(179) {YerokS = point(415m, 719m); DiacriticS = point(280m, 797m); HalfMarkS = point(281m, 752m)};
-g041e = glyphid(180) {DiacriticS = point(225m, 800m); YerokS = point(252m, 719m); HalfMarkS = point(226m, 752m)};
-g041f = glyphid(181) {HalfMarkS = point(308m, 752m); DiacriticS = point(308m, 801m); YerokS = point(477m, 733m)};
-g0420 = glyphid(182) {HalfMarkS = point(306m, 752m); YerokS = point(441m, 727m); DiacriticS = point(306m, 801m)};
-g0421 = glyphid(183) {HalfMarkS = point(272m, 752m); DiacriticS = point(272m, 801m); YerokS = point(459m, 713m)};
-g0422 = glyphid(184) {HalfMarkS = point(342m, 752m); YerokS = point(575m, 738m); DiacriticS = point(340m, 800m)};
-g0423 = glyphid(185) {DiacriticS = point(350m, 798m); YerokS = point(583m, 768m); HalfMarkS = point(350m, 752m)};
-g0424 = glyphid(186) {HalfMarkS = point(395m, 752m); DiacriticS = point(394m, 814m); YerokS = point(709m, 486m)};
-g0425 = glyphid(187) {HalfMarkS = point(319m, 752m); YerokS = point(487m, 753m); DiacriticS = point(322m, 793m)};
-g0426 = glyphid(188) {HalfMarkS = point(301m, 752m); DiacriticS = point(300m, 799m); YerokS = point(469m, 762m)};
-g0427 = glyphid(189) {YerokS = point(403m, 728m); DiacriticS = point(225m, 797m); HalfMarkS = point(224m, 752m)};
-g0428 = glyphid(190) {DiacriticS = point(400m, 808m); YerokS = point(747m, 747m); HalfMarkS = point(399m, 752m)};
-g0429 = glyphid(191) {DiacriticS = point(425m, 791m); YerokS = point(793m, 742m); HalfMarkS = point(424m, 752m)};
-g042a = glyphid(192) {DiacriticS = point(300m, 796m); YerokS = point(345m, 713m); HalfMarkS = point(300m, 752m)};
-g042b = glyphid(193) {YerokS = point(667m, 733m); DiacriticS = point(375m, 796m); HalfMarkS = point(378m, 752m)};
-g042c = glyphid(194) {YerokS = point(129m, 721m); DiacriticS = point(155m, 796m); HalfMarkS = point(234m, 752m)};
-g042d = glyphid(195) {HalfMarkS = point(323m, 752m); YerokS = point(511m, 667m); DiacriticS = point(325m, 792m)};
-g042e = glyphid(196) {DiacriticS = point(525m, 796m); YerokS = point(709m, 689m); HalfMarkS = point(424m, 752m)};
-g042f = glyphid(197) {HalfMarkS = point(400m, 752m); DiacriticS = point(400m, 796m); YerokS = point(512m, 725m)};
-g0430 = glyphid(198) {NumeralS = point(187m, 187m); HalfMarkS = point(185m, 499m); YerokS = point(185m, 450m); DiacriticS = point(185m, 500m)};
-g0431 = glyphid(199) {HalfMarkS = point(199m, 499m); DiacriticS = point(200m, 494m); YerokS = point(288m, 452m)};
-g0432 = glyphid(200) {HalfMarkS = point(199m, 499m); NumeralS = point(170m, 191m); DiacriticS = point(200m, 493m); YerokS = point(272m, 451m)};
-g0433 = glyphid(201) {NumeralS = point(180m, 190m); HalfMarkS = point(200m, 499m); YerokS = point(300m, 464m); DiacriticS = point(200m, 500m)};
-g0434 = glyphid(202) {YerokS = point(371m, 461m); DiacriticS = point(265m, 520m); NumeralS = point(253m, 166m); HalfMarkS = point(263m, 499m)};
-g0435 = glyphid(203) {HalfMarkS = point(135m, 499m); NumeralS = point(102m, 185m); DiacriticS = point(135m, 523m); YerokS = point(135m, 522m)};
-g0436 = glyphid(204) {HalfMarkS = point(295m, 499m); DiacriticS = point(295m, 493m); YerokS = point(462m, 457m)};
-g0437 = glyphid(205) {YerokS = point(406m, 441m); DiacriticS = point(285m, 500m); NumeralS = point(226m, 122m); HalfMarkS = point(285m, 499m)};
-g0438 = glyphid(206) {NumeralS = point(202m, 204m); HalfMarkS = point(274m, 499m); YerokS = point(346m, 462m); DiacriticS = point(275m, 502m)};
-g0439 = glyphid(207) {DiacriticS = point(332m, 753m); YerokS = point(447m, 445m); HalfMarkS = point(333m, 499m)};
-g043a = glyphid(208) {DiacriticS = point(255m, 518m); YerokS = point(394m, 458m); HalfMarkS = point(255m, 499m); NumeralS = point(203m, 208m)};
-g043b = glyphid(209) {YerokS = point(236m, 459m); DiacriticS = point(236m, 522m); NumeralS = point(213m, 181m); HalfMarkS = point(236m, 499m)};
-g043c = glyphid(210) {NumeralS = point(332m, 203m); HalfMarkS = point(370m, 499m); YerokS = point(476m, 451m); DiacriticS = point(370m, 518m)};
-g043d = glyphid(211) {DiacriticS = point(236m, 527m); YerokS = point(342m, 450m); HalfMarkS = point(236m, 499m); NumeralS = point(202m, 189m)};
-g043e = glyphid(212) {YerokS = point(326m, 446m); DiacriticS = point(236m, 531m); NumeralS = point(202m, 193m); HalfMarkS = point(236m, 499m)};
-g043f = glyphid(213) {YerokS = point(342m, 463m); DiacriticS = point(225m, 524m); NumeralS = point(202m, 191m); HalfMarkS = point(224m, 499m)};
-g0440 = glyphid(214) {HalfMarkS = point(124m, 498m); NumeralS = point(122m, 158m); DiacriticS = point(125m, 524m); YerokS = point(184m, 451m)};
-g0441 = glyphid(215) {HalfMarkS = point(135m, 499m); NumeralS = point(112m, 195m); DiacriticS = point(135m, 516m); YerokS = point(144m, 461m)};
-g0442 = glyphid(216) {DiacriticS = point(284m, 507m); YerokS = point(414m, 476m); HalfMarkS = point(284m, 499m); NumeralS = point(251m, 189m)};
-g0443 = glyphid(217) {HalfMarkS = point(200m, 499m); NumeralS = point(180m, 139m); DiacriticS = point(200m, 521m); YerokS = point(326m, 464m)};
-g0444 = glyphid(218) {NumeralS = point(253m, 179m); HalfMarkS = point(284m, 499m); YerokS = point(468m, 462m); DiacriticS = point(275m, 742m)};
-g0445 = glyphid(219) {NumeralS = point(176m, 122m); HalfMarkS = point(211m, 499m); YerokS = point(360m, 456m); DiacriticS = point(212m, 533m)};
-g0446 = glyphid(220) {DiacriticS = point(236m, 520m); YerokS = point(342m, 455m); HalfMarkS = point(236m, 499m); NumeralS = point(202m, 182m)};
-g0447 = glyphid(221) {DiacriticS = point(182m, 520m); YerokS = point(288m, 453m); HalfMarkS = point(183m, 499m); NumeralS = point(202m, 184m)};
-g0448 = glyphid(222) {YerokS = point(560m, 451m); DiacriticS = point(338m, 517m); HalfMarkS = point(337m, 499m)};
-g0449 = glyphid(223) {HalfMarkS = point(347m, 499m); YerokS = point(576m, 444m); DiacriticS = point(348m, 515m)};
-g044a = glyphid(224) {HalfMarkS = point(250m, 499m); YerokS = point(314m, 451m); DiacriticS = point(250m, 522m)};
-g044b = glyphid(225) {YerokS = point(406m, 446m); DiacriticS = point(395m, 515m); HalfMarkS = point(258m, 499m)};
-g044c = glyphid(226) {YerokS = point(250m, 432m); DiacriticS = point(138m, 522m); HalfMarkS = point(138m, 499m)};
-g044d = glyphid(227) {HalfMarkS = point(277m, 499m); DiacriticS = point(318m, 520m); YerokS = point(414m, 449m)};
-g044e = glyphid(228) {HalfMarkS = point(236m, 499m); DiacriticS = point(354m, 527m); YerokS = point(352m, 458m)};
-g044f = glyphid(229) {HalfMarkS = point(254m, 499m); YerokS = point(328m, 452m); DiacriticS = point(278m, 517m)};
-g0450 = glyphid(230) {HalfMarkS = point(113m, 499m); YerokS = point(154m, 685m); DiacriticS = point(154m, 685m)};
-g0451 = glyphid(231) {DiacriticS = point(236m, 653m); YerokS = point(236m, 654m); HalfMarkS = point(236m, 499m)};
-g0452 = glyphid(232) {DiacriticS = point(375m, 743m); YerokS = point(504m, 504m); HalfMarkS = point(296m, 499m)};
-g0453 = glyphid(233) {HalfMarkS = point(200m, 499m); DiacriticS = point(233m, 809m); YerokS = point(393m, 509m)};
-g0454 = glyphid(234) {HalfMarkS = point(236m, 499m); YerokS = point(348m, 428m); DiacriticS = point(258m, 506m)};
-g0455 = glyphid(235) {YerokS = point(380m, 346m); DiacriticS = point(228m, 511m); NumeralS = point(202m, 193m); HalfMarkS = point(228m, 499m)};
-g0456 = glyphid(236) {DiacriticS = point(120m, 497m); YerokS = point(120m, 444m); HalfMarkS = point(120m, 499m); NumeralS = point(85m, 189m)};
-g0457 = glyphid(237) {HalfMarkS = point(108m, 499m); YerokS = point(114m, 690m); DiacriticS = point(114m, 727m)};
-g0458 = glyphid(238) {DiacriticS = point(170m, 699m); YerokS = point(174m, 700m); HalfMarkS = point(169m, 499m)};
-g0459 = glyphid(239) {YerokS = point(428m, 310m); DiacriticS = point(246m, 521m); HalfMarkS = point(246m, 499m)};
-g045a = glyphid(240) {HalfMarkS = point(255m, 499m); YerokS = point(480m, 307m); DiacriticS = point(255m, 522m)};
-g045b = glyphid(241) {YerokS = point(472m, 457m); DiacriticS = point(355m, 753m); HalfMarkS = point(346m, 499m)};
-g045c = glyphid(242) {HalfMarkS = point(286m, 499m); YerokS = point(300m, 788m); DiacriticS = point(299m, 788m)};
-g045d = glyphid(243) {HalfMarkS = point(251m, 499m); DiacriticS = point(254m, 709m); YerokS = point(254m, 709m)};
-g045e = glyphid(244) {HalfMarkS = point(207m, 499m); YerokS = point(306m, 758m); DiacriticS = point(302m, 758m)};
-g045f = glyphid(245) {HalfMarkS = point(249m, 499m); DiacriticS = point(250m, 521m); YerokS = point(356m, 456m)};
-g0460 = glyphid(246) {DiacriticS = point(494m, 748m); YerokS = point(808m, 728m); HalfMarkS = point(494m, 752m)};
-g0461 = glyphid(247) {YerokS = point(500m, 457m); DiacriticS = point(304m, 520m); NumeralS = point(264m, 213m); HalfMarkS = point(298m, 499m)};
-g0462 = glyphid(248) {HalfMarkS = point(353m, 752m); YerokS = point(586m, 593m); DiacriticS = point(354m, 755m)};
-g0463 = glyphid(249) {YerokS = point(492m, 466m); DiacriticS = point(35m, 544m); HalfMarkS = point(310m, 499m)};
-g0464 = glyphid(250) {HalfMarkS = point(415m, 752m); DiacriticS = point(528m, 746m); YerokS = point(672m, 703m)};
-g0465 = glyphid(251) {YerokS = point(342m, 458m); DiacriticS = point(344m, 502m); HalfMarkS = point(236m, 499m)};
-g0466 = glyphid(252) {HalfMarkS = point(435m, 752m); YerokS = point(761m, 460m); DiacriticS = point(436m, 751m)};
-g0467 = glyphid(253) {HalfMarkS = point(244m, 499m); DiacriticS = point(244m, 522m); YerokS = point(459m, 337m)};
-g0468 = glyphid(254) {HalfMarkS = point(579m, 752m); DiacriticS = point(703m, 765m); YerokS = point(1021m, 461m)};
-g0469 = glyphid(255) {DiacriticS = point(432m, 495m); YerokS = point(625m, 309m); HalfMarkS = point(362m, 499m)};
-g046a = glyphid(256) {YerokS = point(759m, 417m); DiacriticS = point(432m, 745m); HalfMarkS = point(433m, 752m)};
-g046b = glyphid(257) {HalfMarkS = point(290m, 499m); DiacriticS = point(290m, 473m); YerokS = point(505m, 268m)};
-g046c = glyphid(258) {YerokS = point(1024m, 417m); DiacriticS = point(712m, 772m); HalfMarkS = point(561m, 752m)};
-g046d = glyphid(259) {HalfMarkS = point(393m, 499m); YerokS = point(679m, 281m); DiacriticS = point(460m, 499m)};
-g046e = glyphid(260) {HalfMarkS = point(291m, 752m); YerokS = point(436m, 882m); DiacriticS = point(313m, 899m)};
-g046f = glyphid(261) {DiacriticS = point(256m, 657m); YerokS = point(355m, 623m); HalfMarkS = point(236m, 499m); NumeralS = point(202m, 194m)};
-g0470 = glyphid(262) {HalfMarkS = point(361m, 752m); DiacriticS = point(361m, 1033m); YerokS = point(622m, 774m)};
-g0471 = glyphid(263) {HalfMarkS = point(279m, 499m); NumeralS = point(264m, 215m); DiacriticS = point(286m, 747m); YerokS = point(511m, 506m)};
-g0472 = glyphid(264) {HalfMarkS = point(237m, 752m); DiacriticS = point(236m, 761m); YerokS = point(405m, 658m)};
-g0473 = glyphid(265) {YerokS = point(557m, 340m); DiacriticS = point(378m, 523m); NumeralS = point(354m, 79m); HalfMarkS = point(378m, 499m)};
-g0474 = glyphid(266) {DiacriticS = point(378m, 751m); YerokS = point(611m, 736m); HalfMarkS = point(377m, 752m)};
-g0475 = glyphid(267) {DiacriticS = point(224m, 527m); YerokS = point(383m, 468m); HalfMarkS = point(224m, 499m)};
-g0476 = glyphid(268) {HalfMarkS = point(350m, 752m); DiacriticS = point(284m, 1007m); YerokS = point(614m, 790m)};
-g0477 = glyphid(269) {HalfMarkS = point(208m, 499m); DiacriticS = point(139m, 809m); YerokS = point(139m, 808m)};
-g0478 = glyphid(270) {HalfMarkS = point(507m, 752m); DiacriticS = point(750m, 523m); YerokS = point(850m, 490m)};
-g0479 = glyphid(271) {YerokS = point(531m, 469m); DiacriticS = point(425m, 499m); HalfMarkS = point(320m, 499m)};
-g047a = glyphid(272) {HalfMarkS = point(462m, 752m); YerokS = point(823m, 602m); DiacriticS = point(462m, 766m)};
-g047b = glyphid(273) {DiacriticS = point(224m, 529m); YerokS = point(399m, 440m); HalfMarkS = point(224m, 499m)};
-g047c = glyphid(274) {DiacriticS = point(700m, 884m); YerokS = point(699m, 885m); HalfMarkS = point(696m, 714m)};
-g047d = glyphid(275) {HalfMarkS = point(519m, 499m); DiacriticS = point(522m, 897m); YerokS = point(518m, 896m)};
-g047e = glyphid(276) {HalfMarkS = point(506m, 752m); DiacriticS = point(1051m, 803m); YerokS = point(1050m, 805m)};
-g047f = glyphid(277) {YerokS = point(648m, 659m); DiacriticS = point(646m, 695m); HalfMarkS = point(271m, 499m)};
-g0482 = glyphid(278);
-g0483 = glyphid(279) {StackingM = point(-150m, 602m); StackingS = point(-159m, 860m); DiacriticM = point(-152m, 602m)};
-g0484 = glyphid(280) {StackingS = point(-62m, 972m); YerokM = point(-180m, 618m); StackingM = point(-180m, 618m)};
-g0485 = glyphid(281) {DiacriticM = point(-160m, 713m); StackingS = point(-162m, 1004m); StackingM = point(-159m, 711m)};
-g0486 = glyphid(282) {DiacriticM = point(-147m, 705m); StackingS = point(-74m, 989m); StackingM = point(-150m, 705m)};
-g0487 = glyphid(283) {StackingS = point(-94m, 1180m); DiacriticM = point(-132m, 804m); StackingM = point(-50m, 900m)};
-g0488 = glyphid(284) {NumeralM = point(432m, 336m)};
-g0489 = glyphid(285) {NumeralM = point(426m, 318m)};
-g0490 = glyphid(286) {DiacriticS = point(185m, 821m); YerokS = point(453m, 774m); HalfMarkS = point(224m, 752m)};
-g0491 = glyphid(287) {HalfMarkS = point(166m, 499m); DiacriticS = point(166m, 555m); YerokS = point(332m, 491m)};
-g10fb = glyphid(288);
-g1c80 = glyphid(289);
-g1c81 = glyphid(290) {DiacriticS = point(225m, 508m); YerokS = point(378m, 452m); HalfMarkS = point(236m, 499m)};
-g1c82 = glyphid(291) {HalfMarkS = point(125m, 499m); YerokS = point(150m, 481m); DiacriticS = point(125m, 506m)};
-g1c83 = glyphid(292) {YerokS = point(350m, 433m); DiacriticS = point(252m, 502m); HalfMarkS = point(236m, 499m)};
-g1c84 = glyphid(293) {HalfMarkS = point(158m, 499m); YerokS = point(245m, 770m); DiacriticS = point(155m, 793m)};
-g1c85 = glyphid(294) {YerokS = point(572m, 458m); DiacriticS = point(350m, 526m); HalfMarkS = point(350m, 499m)};
-g1c86 = glyphid(295) {HalfMarkS = point(145m, 499m); YerokS = point(286m, 455m); DiacriticS = point(152m, 708m)};
-g1c87 = glyphid(296) {HalfMarkS = point(108m, 499m); YerokS = point(257m, 611m); DiacriticS = point(129m, 812m)};
-g1c88 = glyphid(297) {HalfMarkS = point(203m, 700m); YerokS = point(334m, 704m); DiacriticS = point(203m, 707m)};
-g2002 = glyphid(298);
-g2003 = glyphid(299);
-g2004 = glyphid(300);
-g2005 = glyphid(301);
-g2006 = glyphid(302);
-g2008 = glyphid(303);
-g2009 = glyphid(304);
-g200a = glyphid(305);
-g200b = glyphid(306);
-g200c = glyphid(307);
-g200d = glyphid(308);
-g200e = glyphid(309);
-g200f = glyphid(310);
-g2011 = glyphid(311);
-g2013 = glyphid(312);
-g2014 = glyphid(313);
-g2018 = glyphid(314);
-g2019 = glyphid(315);
-g201c = glyphid(316);
-g201d = glyphid(317);
-g2020 = glyphid(318);
-g2022 = glyphid(319);
-g2027 = glyphid(320);
-g202f = glyphid(321);
-g203b = glyphid(322);
-g2052 = glyphid(323);
-g2053 = glyphid(324);
-g2056 = glyphid(325);
-g2058 = glyphid(326);
-g2059 = glyphid(327);
-g205c = glyphid(328);
-g205d = glyphid(329);
-g205e = glyphid(330);
-g20ac = glyphid(331);
-g20dd = glyphid(332) {NumeralM = point(-366m, 356m)};
-g2116 = glyphid(333);
-g2213 = glyphid(334);
-g2214 = glyphid(335);
-g2219 = glyphid(336);
-g223b = glyphid(337);
-g223c = glyphid(338);
-g223d = glyphid(339);
-g2241 = glyphid(340);
-g25cc = glyphid(341) {YerokS = point(421m, 481m); DiacriticS = point(263m, 546m); NumeralS = point(264m, 212m); HalfMarkS = point(263m, 499m)};
-g2626 = glyphid(342);
-g271a = glyphid(343);
-g2720 = glyphid(344);
-g2734 = glyphid(345);
-g2de0 = glyphid(346) {DiacriticM = point(-175m, 571m); StackingS = point(-142m, 867m); StackingM = point(-177m, 571m)};
-g2de1 = glyphid(347) {StackingS = point(-174m, 855m); DiacriticM = point(-179m, 652m); StackingM = point(-180m, 652m)};
-g2de2 = glyphid(348) {StackingM = point(-178m, 618m); StackingS = point(-169m, 863m); DiacriticM = point(-181m, 618m)};
-g2de3 = glyphid(349) {StackingM = point(-364m, 567m); StackingS = point(-421m, 996m); DiacriticM = point(-365m, 569m)};
-g2de4 = glyphid(350) {StackingS = point(-289m, 874m); DiacriticM = point(-313m, 540m); StackingM = point(-312m, 536m)};
-g2de5 = glyphid(351) {StackingS = point(-269m, 893m); DiacriticM = point(-349m, 422m); StackingM = point(-349m, 422m)};
-g2de6 = glyphid(352) {StackingS = point(-147m, 863m); DiacriticM = point(-179m, 564m); StackingM = point(-182m, 564m)};
-g2de7 = glyphid(353) {StackingS = point(-84m, 876m); DiacriticM = point(-141m, 578m); StackingM = point(-141m, 578m)};
-g2de8 = glyphid(354) {StackingS = point(-200m, 891m); DiacriticM = point(-323m, 490m); StackingM = point(-324m, 494m)};
-g2de9 = glyphid(355) {StackingM = point(-168m, 630m); StackingS = point(-134m, 901m); DiacriticM = point(-169m, 630m)};
-g2dea = glyphid(356) {StackingM = point(-124m, 588m); DiacriticM = point(-125m, 588m); StackingS = point(-68m, 881m)};
-g2deb = glyphid(357) {StackingM = point(-148m, 642m); DiacriticM = point(-149m, 642m); StackingS = point(-121m, 879m)};
-g2dec = glyphid(358) {StackingM = point(-118m, 442m); StackingS = point(-53m, 896m); DiacriticM = point(-117m, 442m)};
-g2ded = glyphid(359) {StackingM = point(-140m, 638m); DiacriticM = point(-141m, 638m); StackingS = point(-55m, 877m)};
-g2dee = glyphid(360) {DiacriticM = point(-353m, 590m); StackingS = point(-320m, 860m); StackingM = point(-351m, 590m)};
-g2def = glyphid(361) {StackingM = point(-288m, 534m); DiacriticM = point(-288m, 537m); StackingS = point(-215m, 943m)};
-g2df0 = glyphid(362) {StackingS = point(-129m, 879m); DiacriticM = point(-157m, 538m); StackingM = point(-156m, 538m)};
-g2df1 = glyphid(363) {StackingS = point(-99m, 877m); DiacriticM = point(-178m, 621m); StackingM = point(-178m, 619m)};
-g2df2 = glyphid(364) {StackingM = point(-232m, 618m); StackingS = point(-221m, 881m); DiacriticM = point(-233m, 618m)};
-g2df3 = glyphid(365) {StackingM = point(-230m, 478m); StackingS = point(-184m, 883m); DiacriticM = point(-227m, 478m)};
-g2df4 = glyphid(366) {StackingS = point(-159m, 883m); DiacriticM = point(-186m, 405m); StackingM = point(-189m, 407m)};
-g2df5 = glyphid(367) {StackingM = point(-328m, 454m); DiacriticM = point(-329m, 456m); StackingS = point(-289m, 888m)};
-g2df6 = glyphid(368) {DiacriticM = point(-273m, 576m); StackingS = point(-218m, 966m); StackingM = point(-273m, 576m)};
-g2df7 = glyphid(369) {StackingS = point(-156m, 834m); DiacriticM = point(-171m, 479m); StackingM = point(-172m, 478m)};
-g2df9 = glyphid(370) {DiacriticM = point(-189m, 598m); StackingS = point(-154m, 1111m); StackingM = point(-188m, 596m)};
-g2dfa = glyphid(371) {StackingS = point(-131m, 1064m); DiacriticM = point(-205m, 484m); StackingM = point(-202m, 484m)};
-g2dfb = glyphid(372) {StackingM = point(-204m, 512m); DiacriticM = point(-203m, 512m); StackingS = point(-170m, 902m)};
-g2dfc = glyphid(373) {StackingM = point(-154m, 537m); DiacriticM = point(-154m, 537m); StackingS = point(-170m, 974m)};
-g2dfd = glyphid(374) {StackingM = point(-188m, 576m); DiacriticM = point(-187m, 575m); StackingS = point(-190m, 893m)};
-g2e2a = glyphid(375);
-g2e2b = glyphid(376);
-g2e2c = glyphid(377);
-g2e2d = glyphid(378);
-g2e2f = glyphid(379);
-g2e34 = glyphid(380);
-g2e43 = glyphid(381);
-ga640 = glyphid(382) {YerokS = point(452m, 736m); DiacriticS = point(300m, 740m); HalfMarkS = point(301m, 752m)};
-ga641 = glyphid(383) {DiacriticS = point(326m, 490m); YerokS = point(458m, 496m); HalfMarkS = point(326m, 499m)};
-ga64a = glyphid(384) {YerokS = point(392m, 743m); DiacriticS = point(266m, 746m); HalfMarkS = point(281m, 752m)};
-ga64b = glyphid(385) {HalfMarkS = point(172m, 499m); YerokS = point(386m, 735m); DiacriticS = point(234m, 706m)};
-ga64c = glyphid(386) {DiacriticS = point(622m, 581m); YerokS = point(1110m, 586m); HalfMarkS = point(622m, 552m)};
-ga64d = glyphid(387) {DiacriticS = point(482m, 485m); YerokS = point(862m, 460m); HalfMarkS = point(481m, 499m)};
-ga656 = glyphid(388) {YerokS = point(634m, 756m); DiacriticS = point(600m, 767m); HalfMarkS = point(391m, 752m)};
-ga657 = glyphid(389) {HalfMarkS = point(236m, 499m); DiacriticS = point(388m, 526m); YerokS = point(386m, 464m)};
-ga65e = glyphid(390) {HalfMarkS = point(444m, 752m); YerokS = point(756m, 545m); DiacriticS = point(444m, 748m)};
-ga65f = glyphid(391) {HalfMarkS = point(292m, 499m); YerokS = point(494m, 343m); DiacriticS = point(296m, 498m)};
-ga668 = glyphid(392) {HalfMarkS = point(455m, 752m); YerokS = point(824m, 620m); DiacriticS = point(456m, 797m)};
-ga669 = glyphid(393) {HalfMarkS = point(207m, 499m); YerokS = point(331m, 457m); DiacriticS = point(207m, 506m)};
-ga66a = glyphid(394) {YerokS = point(830m, 614m); DiacriticS = point(458m, 799m); HalfMarkS = point(458m, 752m)};
-ga66b = glyphid(395) {YerokS = point(341m, 449m); DiacriticS = point(207m, 506m); HalfMarkS = point(207m, 499m)};
-ga66c = glyphid(396) {DiacriticS = point(418m, 771m); YerokS = point(768m, 697m); HalfMarkS = point(418m, 752m)};
-ga66d = glyphid(397) {DiacriticS = point(356m, 506m); YerokS = point(592m, 459m); HalfMarkS = point(355m, 499m)};
-ga66e = glyphid(398) {DiacriticS = point(564m, 847m); YerokS = point(563m, 847m); HalfMarkS = point(537m, 752m)};
-ga66f = glyphid(399) {StackingS = point(-205m, 1013m); DiacriticM = point(-231m, 750m); StackingM = point(-231m, 750m)};
-ga670 = glyphid(400) {NumeralM = point(426m, 348m)};
-ga671 = glyphid(401) {NumeralM = point(-372m, 338m)};
-ga672 = glyphid(402) {NumeralM = point(462m, 348m)};
-ga673 = glyphid(403);
-ga674 = glyphid(404) {StackingM = point(-272m, 540m); DiacriticM = point(-270m, 541m); StackingS = point(-252m, 902m)};
-ga675 = glyphid(405) {DiacriticM = point(-151m, 690m); StackingS = point(-212m, 885m); StackingM = point(-152m, 690m)};
-ga676 = glyphid(406) {StackingM = point(-82m, 602m); StackingS = point(-56m, 1165m); DiacriticM = point(-80m, 601m)};
-ga677 = glyphid(407) {StackingM = point(-103m, 534m); DiacriticM = point(-105m, 534m); StackingS = point(-92m, 906m)};
-ga678 = glyphid(408) {DiacriticM = point(-95m, 605m); StackingS = point(-117m, 889m); StackingM = point(-96m, 604m)};
-ga679 = glyphid(409) {StackingM = point(-106m, 598m); StackingS = point(-110m, 882m); DiacriticM = point(-107m, 602m)};
-ga67a = glyphid(410) {DiacriticM = point(-151m, 602m); StackingS = point(-156m, 879m); StackingM = point(-152m, 602m)};
-ga67b = glyphid(411) {StackingM = point(-172m, 592m); StackingS = point(-157m, 886m); DiacriticM = point(-171m, 594m)};
-ga67c = glyphid(412) {StackingS = point(-201m, 940m); DiacriticM = point(-195m, 681m); StackingM = point(-199m, 686m)};
-ga67d = glyphid(413) {StackingM = point(-176m, 554m); StackingS = point(-135m, 845m); YerokM = point(-174m, 554m)};
-ga67e = glyphid(414);
-ga67f = glyphid(415);
-ga698 = glyphid(416) {HalfMarkS = point(424m, 752m); DiacriticS = point(424m, 740m); YerokS = point(770m, 703m)};
-ga699 = glyphid(417) {HalfMarkS = point(354m, 499m); DiacriticS = point(354m, 506m); YerokS = point(602m, 453m)};
-ga69a = glyphid(418) {YerokS = point(818m, 600m); DiacriticS = point(462m, 791m); HalfMarkS = point(462m, 752m)};
-ga69b = glyphid(419) {YerokS = point(332m, 433m); DiacriticS = point(200m, 498m); HalfMarkS = point(200m, 499m)};
-ga69e = glyphid(420) {StackingM = point(-138m, 483m); DiacriticM = point(-136m, 487m); StackingS = point(-143m, 1020m)};
-ga69f = glyphid(421) {StackingM = point(-238m, 538m); StackingS = point(-266m, 895m); DiacriticM = point(-235m, 538m)};
-g0486_0301 = glyphid(422) {StackingS = point(-188m, 854m); DiacriticM = point(-223m, 514m); StackingM = point(-225m, 514m)};
-g0486_0300 = glyphid(423) {StackingM = point(-222m, 552m); DiacriticM = point(-221m, 552m); StackingS = point(-215m, 881m)};
-g0486_0311 = glyphid(424) {DiacriticM = point(-421m, 482m)};
-g2de3_a675 = glyphid(425) {StackingM = point(-234m, 561m); DiacriticM = point(-232m, 562m); StackingS = point(-207m, 1027m)};
-g2de4_2df7 = glyphid(426) {DiacriticM = point(-287m, 540m); StackingS = point(-291m, 911m); StackingM = point(-286m, 538m)};
-g2dee_a675 = glyphid(427) {StackingM = point(-298m, 574m); StackingS = point(-274m, 800m); DiacriticM = point(-295m, 574m)};
-ga641_trunc = glyphid(428) {HalfMarkS = point(326m, 499m); YerokS = point(458m, 496m); DiacriticS = point(326m, 490m)};
-g0440_trunc = glyphid(429) {NumeralS = point(122m, 158m); HalfMarkS = point(124m, 498m); YerokS = point(184m, 451m); DiacriticS = point(125m, 524m)};
-ga64b_shortl = glyphid(430) {HalfMarkS = point(182m, 500m); DiacriticS = point(84m, 576m); YerokS = point(410m, 776m)};
-ga64b_short2 = glyphid(431) {YerokS = point(272m, 514m); DiacriticS = point(272m, 529m); HalfMarkS = point(172m, 499m)};
-ga64b_short = glyphid(432) {DiacriticS = point(208m, 545m); YerokS = point(208m, 546m); HalfMarkS = point(208m, 499m)};
-g0444_trunc = glyphid(433) {DiacriticS = point(275m, 742m); YerokS = point(468m, 462m); HalfMarkS = point(284m, 499m); NumeralS = point(253m, 179m)};
-g0444_short = glyphid(434) {YerokS = point(468m, 462m); DiacriticS = point(275m, 742m); NumeralS = point(253m, 179m); HalfMarkS = point(284m, 499m)};
-g0445_truncl = glyphid(435) {HalfMarkS = point(211m, 499m); NumeralS = point(176m, 122m); DiacriticS = point(212m, 533m); YerokS = point(360m, 456m)};
-g0445_truncr = glyphid(436) {DiacriticS = point(212m, 533m); YerokS = point(360m, 456m); HalfMarkS = point(211m, 499m); NumeralS = point(176m, 122m)};
-g0445_trunc = glyphid(437) {HalfMarkS = point(211m, 499m); NumeralS = point(176m, 122m); DiacriticS = point(212m, 533m); YerokS = point(360m, 456m)};
-g0446_trunc = glyphid(438) {YerokS = point(342m, 455m); DiacriticS = point(236m, 520m); NumeralS = point(202m, 182m); HalfMarkS = point(236m, 499m)};
-g0449_trunc = glyphid(439) {YerokS = point(576m, 444m); DiacriticS = point(348m, 515m); HalfMarkS = point(347m, 499m)};
-g0463_short = glyphid(440) {DiacriticS = point(416m, 659m); YerokS = point(458m, 459m); HalfMarkS = point(299m, 499m)};
-g0471_short = glyphid(441) {NumeralS = point(264m, 215m); HalfMarkS = point(279m, 499m); YerokS = point(511m, 506m); DiacriticS = point(286m, 747m)};
-g0471_trunc = glyphid(442) {YerokS = point(511m, 506m); DiacriticS = point(286m, 747m); NumeralS = point(264m, 215m); HalfMarkS = point(279m, 499m)};
-g0443_trunc = glyphid(443) {DiacriticS = point(200m, 521m); YerokS = point(326m, 464m); HalfMarkS = point(200m, 499m); NumeralS = point(180m, 139m)};
-g0491_alt = glyphid(444) {DiacriticS = point(282m, 665m); YerokS = point(282m, 664m); HalfMarkS = point(236m, 499m)};
-g0404_alt = glyphid(445) {DiacriticS = point(404m, 798m); YerokS = point(578m, 723m); HalfMarkS = point(403m, 752m)};
-g047e_alt = glyphid(446) {DiacriticS = point(1156m, 658m); YerokS = point(1156m, 658m); HalfMarkS = point(628m, 638m)};
-g047f_alt = glyphid(447) {DiacriticS = point(911m, 493m); YerokS = point(916m, 493m); HalfMarkS = point(511m, 538m)};
-g0426_alt = glyphid(448) {DiacriticS = point(294m, 568m); YerokS = point(445m, 540m); HalfMarkS = point(294m, 499m)};
-ga64c_alt = glyphid(449) {HalfMarkS = point(494m, 752m); DiacriticS = point(494m, 781m); YerokS = point(922m, 753m)};
-g047c_alt = glyphid(450) {HalfMarkS = point(527m, 752m); YerokS = point(566m, 930m); DiacriticS = point(567m, 929m)};
-g1f545_alt1 = glyphid(451);
-g1f545_alt2 = glyphid(452);
-g1f545_alt3 = glyphid(453);
-g1f545_alt4 = glyphid(454);
-g1f545_alt7 = glyphid(455);
-g1f545_alt8 = glyphid(456);
-g1f545_alt9 = glyphid(457);
-g0430_200d_0443 = glyphid(458) {HalfMarkS = point(282m, 499m); DiacriticS = point(350m, 504m); YerokS = point(434m, 477m)};
-g0430_200d_0475 = glyphid(459) {HalfMarkS = point(307m, 499m); DiacriticS = point(322m, 504m); YerokS = point(468m, 467m)};
-g043b_200d_0443 = glyphid(460) {YerokS = point(492m, 482m); DiacriticS = point(381m, 497m); HalfMarkS = point(329m, 499m)};
-g043b_200d_0475 = glyphid(461) {HalfMarkS = point(345m, 499m); YerokS = point(510m, 463m); DiacriticS = point(372m, 493m)};
-g0440_200d_0463 = glyphid(462) {HalfMarkS = point(134m, 499m); YerokS = point(293m, 743m); DiacriticS = point(147m, 931m)};
-g0442_200d_0432 = glyphid(463) {YerokS = point(239m, 752m); DiacriticS = point(150m, 771m); HalfMarkS = point(142m, 499m)};
-ga64b_0486 = glyphid(464) {DiacriticS = point(285m, 955m); YerokS = point(281m, 952m); HalfMarkS = point(172m, 499m)};
-ga64b_0301_alt = glyphid(465);
-ga64b_0301 = glyphid(466) {DiacriticS = point(255m, 917m); YerokS = point(251m, 914m); HalfMarkS = point(172m, 499m)};
-ga64b_0300_alt = glyphid(467);
-ga64b_0300 = glyphid(468) {HalfMarkS = point(172m, 499m); YerokS = point(185m, 809m); DiacriticS = point(189m, 812m)};
-ga64b_0311 = glyphid(469) {YerokS = point(89m, 1019m); DiacriticS = point(93m, 1022m); HalfMarkS = point(172m, 499m)};
-ga64b_0311_alt1 = glyphid(470) {HalfMarkS = point(172m, 499m); YerokS = point(215m, 797m); DiacriticS = point(219m, 800m)};
-ga64b_0486_0301 = glyphid(471) {HalfMarkS = point(172m, 499m); YerokS = point(271m, 1082m); DiacriticS = point(275m, 1085m)};
-ga64b_0486_alt = glyphid(472);
-ga64b_0301_alt2 = glyphid(473) {YerokS = point(251m, 914m); DiacriticS = point(255m, 917m); HalfMarkS = point(172m, 499m)};
-ga64b_0300_alt1 = glyphid(474) {DiacriticS = point(195m, 836m); YerokS = point(191m, 833m); HalfMarkS = point(172m, 499m)};
-ga64b_0311_alt2 = glyphid(475) {HalfMarkS = point(172m, 499m); DiacriticS = point(195m, 836m); YerokS = point(191m, 833m)};
-ga64b_0486_alt1 = glyphid(476) {DiacriticS = point(204m, 890m); YerokS = point(200m, 887m); HalfMarkS = point(172m, 499m)};
-ga64b_0301_alt1 = glyphid(477) {HalfMarkS = point(172m, 499m); DiacriticS = point(222m, 719m); YerokS = point(218m, 716m)};
-ga64b_0300_alt2 = glyphid(478) {HalfMarkS = point(172m, 499m); DiacriticS = point(234m, 857m); YerokS = point(230m, 854m)};
-ga64b_0311_alt3 = glyphid(479);
-ga64b_0486_0301_alt1 = glyphid(480);
-g0463_0486_alt1 = glyphid(481) {DiacriticS = point(421m, 798m); YerokS = point(492m, 466m); HalfMarkS = point(300m, 499m)};
-g0463_0301_alt2 = glyphid(482) {YerokS = point(392m, 800m); DiacriticS = point(393m, 800m); HalfMarkS = point(301m, 499m)};
-g0463_0301_alt1 = glyphid(483) {HalfMarkS = point(299m, 499m); YerokS = point(492m, 466m); DiacriticS = point(375m, 800m)};
-g0463_0300_alt2 = glyphid(484) {HalfMarkS = point(300m, 499m); YerokS = point(492m, 466m); DiacriticS = point(393m, 799m)};
-g0463_0311_alt = glyphid(485);
-g0463_0311_alt2 = glyphid(486) {HalfMarkS = point(299m, 499m); YerokS = point(492m, 466m); DiacriticS = point(415m, 800m)};
-g0463_0311_alt1 = glyphid(487) {YerokS = point(492m, 466m); DiacriticS = point(389m, 799m); HalfMarkS = point(299m, 499m)};
-g0463_0486_0301_alt1 = glyphid(488) {DiacriticS = point(413m, 798m); YerokS = point(492m, 466m); HalfMarkS = point(299m, 499m)};
-g0463_0486 = glyphid(489) {DiacriticS = point(436m, 929m); YerokS = point(458m, 459m); HalfMarkS = point(299m, 499m)};
-g0463_0301 = glyphid(490) {YerokS = point(458m, 459m); DiacriticS = point(350m, 799m); HalfMarkS = point(300m, 499m)};
-g0463_0300 = glyphid(491) {HalfMarkS = point(300m, 499m); YerokS = point(362m, 800m); DiacriticS = point(362m, 799m)};
-g0463_0311 = glyphid(492) {HalfMarkS = point(309m, 499m); DiacriticS = point(321m, 819m); YerokS = point(320m, 816m)};
-g0463_0486_0301 = glyphid(493) {YerokS = point(328m, 980m); DiacriticS = point(328m, 979m); HalfMarkS = point(299m, 499m)};
-g047e_0301 = glyphid(494) {DiacriticS = point(507m, 890m); YerokS = point(506m, 892m); HalfMarkS = point(506m, 752m)};
-g047f_0301 = glyphid(495) {YerokS = point(274m, 711m); DiacriticS = point(272m, 747m); HalfMarkS = point(271m, 499m)};
-ga64c_0486_0300 = glyphid(496);
-ga64d_0486_0300 = glyphid(497);
-gec45 = glyphid(498);
-gec46 = glyphid(499);
-gec47 = glyphid(500);
-gec48 = glyphid(501);
-gec49 = glyphid(502);
-gec4a = glyphid(503);
-gec4b = glyphid(504);
-gec50 = glyphid(505);
-g2de0_0487 = glyphid(506) {DiacriticM = point(-121m, 625m)};
-g2de1_0487 = glyphid(507) {DiacriticM = point(0m, 660m)};
-g2de2_0487 = glyphid(508) {DiacriticM = point(-236m, 611m)};
-g2de6_0487 = glyphid(509) {DiacriticM = point(-126m, 630m)};
-g2de7_0487 = glyphid(510) {DiacriticM = point(4m, 621m)};
-g2de9_0487 = glyphid(511) {DiacriticM = point(-99m, 642m)};
-g2dea_0487 = glyphid(512) {DiacriticM = point(-33m, 663m)};
-g2deb_0487 = glyphid(513) {DiacriticM = point(-9m, 657m)};
-g2dec_0487 = glyphid(514) {DiacriticM = point(-30m, 567m)};
-g2ded_0487 = glyphid(515) {DiacriticM = point(-34m, 623m)};
-g2df0_0487 = glyphid(516) {DiacriticM = point(-84m, 615m)};
-g2df1_0487 = glyphid(517) {DiacriticM = point(-153m, 660m)};
-g2df2_0487 = glyphid(518) {DiacriticM = point(-117m, 667m)};
-g2df3_0487 = glyphid(519) {DiacriticM = point(-20m, 583m)};
-g2dfd_0487 = glyphid(520) {DiacriticM = point(-157m, 658m)};
-gfe00 = glyphid(521);
-gfe01 = glyphid(522);
-gfe02 = glyphid(523);
-gfe03 = glyphid(524);
-gfe26 = glyphid(525) {HalfMarkM = point(-283m, 632m)};
-gfe2e = glyphid(526) {HalfMarkM = point(-492m, 648m)};
-gfe2f = glyphid(527) {HalfMarkM = point(-79m, 634m)};
-g1f540 = glyphid(528);
-g1f541 = glyphid(529);
-g1f542 = glyphid(530);
-g1f543 = glyphid(531);
-g1f544 = glyphid(532);
-g1f545 = glyphid(533);
+g00c0 = glyphid(139);
+g00c7 = glyphid(140);
+g00c8 = glyphid(141);
+g00c9 = glyphid(142);
+g00ca = glyphid(143);
+g00cb = glyphid(144);
+g00cf = glyphid(145);
+g00d1 = glyphid(146);
+g00d4 = glyphid(147);
+g00d6 = glyphid(148);
+g00e0 = glyphid(149);
+g00e7 = glyphid(150);
+g00e8 = glyphid(151);
+g00e9 = glyphid(152);
+g00ea = glyphid(153);
+g00eb = glyphid(154);
+g00ef = glyphid(155);
+g00f1 = glyphid(156);
+g00f4 = glyphid(157);
+g00f6 = glyphid(158);
+g02bc = glyphid(159);
+g0300 = glyphid(160) {DiacriticM = point(-210m, 737m); StackingM = point(-214m, 737m); StackingS = point(-174m, 927m)};
+g0301 = glyphid(161) {DiacriticM = point(-164m, 661m); StackingS = point(-11m, 974m); StackingM = point(-164m, 661m)};
+g0302 = glyphid(162) {DiacriticM = point(-195m, 603m); StackingM = point(-195m, 603m); StackingS = point(-195m, 787m)};
+g0303 = glyphid(163) {DiacriticM = point(-216m, 550m); StackingM = point(-218m, 551m); StackingS = point(-211m, 776m)};
+g0306 = glyphid(164) {DiacriticM = point(-228m, 628m); StackingS = point(-123m, 853m); StackingM = point(-229m, 625m)};
+g0307 = glyphid(165) {DiacriticM = point(-72m, 684m); StackingS = point(-65m, 828m); StackingM = point(-71m, 688m)};
+g0308 = glyphid(166) {StackingM = point(-156m, 789m); StackingS = point(-148m, 959m); DiacriticM = point(-156m, 789m)};
+g030b = glyphid(167) {DiacriticM = point(-213m, 675m); StackingM = point(-214m, 676m); StackingS = point(-189m, 1041m)};
+g030f = glyphid(168) {StackingS = point(-84m, 1031m); StackingM = point(-150m, 663m); DiacriticM = point(-150m, 663m)};
+g0311 = glyphid(169) {DiacriticM = point(-192m, 700m); StackingS = point(-186m, 937m); StackingM = point(-192m, 687m)};
+g0327 = glyphid(170);
+g033e = glyphid(171) {StackingM = point(-132m, 547m); YerokM = point(-132m, 547m); StackingS = point(-41m, 853m)};
+g034f = glyphid(172);
+g0400 = glyphid(173) {YerokS = point(282m, 949m); DiacriticS = point(284m, 948m); HalfMarkS = point(266m, 752m)};
+g0401 = glyphid(174) {YerokS = point(266m, 888m); HalfMarkS = point(266m, 752m); DiacriticS = point(264m, 887m)};
+g0402 = glyphid(175) {DiacriticS = point(347m, 742m); HalfMarkS = point(348m, 752m); YerokS = point(589m, 644m)};
+g0403 = glyphid(176) {HalfMarkS = point(229m, 752m); DiacriticS = point(246m, 1089m); YerokS = point(247m, 1089m)};
+g0404 = glyphid(177) {YerokS = point(405m, 698m); HalfMarkS = point(266m, 752m); DiacriticS = point(266m, 751m)};
+g0405 = glyphid(178) {DiacriticS = point(396m, 787m); HalfMarkS = point(394m, 752m); YerokS = point(652m, 698m)};
+g0406 = glyphid(179) {YerokS = point(129m, 716m); HalfMarkS = point(129m, 752m); DiacriticS = point(128m, 771m)};
+g0407 = glyphid(180) {YerokS = point(132m, 892m); DiacriticS = point(133m, 892m); HalfMarkS = point(133m, 752m)};
+g0408 = glyphid(181) {DiacriticS = point(389m, 751m); HalfMarkS = point(256m, 752m); YerokS = point(388m, 718m)};
+g0409 = glyphid(182) {DiacriticS = point(321m, 767m); HalfMarkS = point(318m, 752m); YerokS = point(320m, 742m)};
+g040a = glyphid(183) {DiacriticS = point(315m, 771m); HalfMarkS = point(315m, 752m); YerokS = point(415m, 723m)};
+g040b = glyphid(184) {HalfMarkS = point(346m, 752m); DiacriticS = point(346m, 751m); YerokS = point(599m, 593m)};
+g040c = glyphid(185) {YerokS = point(424m, 703m); DiacriticS = point(396m, 1023m); HalfMarkS = point(279m, 752m)};
+g040d = glyphid(186) {YerokS = point(457m, 897m); DiacriticS = point(322m, 896m); HalfMarkS = point(315m, 752m)};
+g040e = glyphid(187) {HalfMarkS = point(380m, 752m); DiacriticS = point(444m, 1041m); YerokS = point(611m, 754m)};
+g040f = glyphid(188) {DiacriticS = point(391m, 750m); HalfMarkS = point(389m, 752m); YerokS = point(595m, 751m)};
+g0410 = glyphid(189) {YerokS = point(388m, 733m); DiacriticS = point(387m, 793m); HalfMarkS = point(385m, 752m)};
+g0411 = glyphid(190) {YerokS = point(415m, 723m); DiacriticS = point(280m, 801m); HalfMarkS = point(281m, 752m)};
+g0412 = glyphid(191) {DiacriticS = point(278m, 804m); HalfMarkS = point(280m, 752m); YerokS = point(413m, 734m)};
+g0413 = glyphid(192) {DiacriticS = point(280m, 801m); HalfMarkS = point(281m, 752m); YerokS = point(415m, 723m)};
+g0414 = glyphid(193) {YerokS = point(413m, 727m); HalfMarkS = point(281m, 752m); DiacriticS = point(278m, 805m)};
+g0415 = glyphid(194) {DiacriticS = point(232m, 801m); HalfMarkS = point(230m, 752m); YerokS = point(367m, 727m)};
+g0416 = glyphid(195) {HalfMarkS = point(321m, 752m); DiacriticS = point(322m, 794m); YerokS = point(571m, 732m)};
+g0417 = glyphid(196) {HalfMarkS = point(554m, 752m); DiacriticS = point(556m, 799m); YerokS = point(778m, 739m)};
+g0418 = glyphid(197) {YerokS = point(467m, 719m); HalfMarkS = point(310m, 752m); DiacriticS = point(310m, 797m)};
+g0419 = glyphid(198) {DiacriticS = point(376m, 1018m); HalfMarkS = point(322m, 752m); YerokS = point(451m, 720m)};
+g041a = glyphid(199) {HalfMarkS = point(281m, 752m); DiacriticS = point(220m, 797m); YerokS = point(417m, 719m)};
+g041b = glyphid(200) {HalfMarkS = point(313m, 752m); DiacriticS = point(318m, 799m); YerokS = point(313m, 725m)};
+g041c = glyphid(201) {DiacriticS = point(424m, 802m); HalfMarkS = point(424m, 752m); YerokS = point(595m, 742m)};
+g041d = glyphid(202) {HalfMarkS = point(281m, 752m); DiacriticS = point(280m, 797m); YerokS = point(415m, 719m)};
+g041e = glyphid(203) {YerokS = point(252m, 719m); DiacriticS = point(225m, 800m); HalfMarkS = point(226m, 752m)};
+g041f = glyphid(204) {HalfMarkS = point(308m, 752m); DiacriticS = point(308m, 801m); YerokS = point(477m, 733m)};
+g0420 = glyphid(205) {HalfMarkS = point(306m, 752m); DiacriticS = point(306m, 801m); YerokS = point(441m, 727m)};
+g0421 = glyphid(206) {DiacriticS = point(272m, 801m); HalfMarkS = point(272m, 752m); YerokS = point(459m, 713m)};
+g0422 = glyphid(207) {HalfMarkS = point(342m, 752m); DiacriticS = point(340m, 800m); YerokS = point(575m, 738m)};
+g0423 = glyphid(208) {YerokS = point(583m, 768m); DiacriticS = point(350m, 798m); HalfMarkS = point(350m, 752m)};
+g0424 = glyphid(209) {YerokS = point(709m, 486m); DiacriticS = point(394m, 814m); HalfMarkS = point(395m, 752m)};
+g0425 = glyphid(210) {YerokS = point(487m, 753m); HalfMarkS = point(319m, 752m); DiacriticS = point(322m, 793m)};
+g0426 = glyphid(211) {YerokS = point(469m, 762m); HalfMarkS = point(301m, 752m); DiacriticS = point(300m, 799m)};
+g0427 = glyphid(212) {DiacriticS = point(225m, 797m); HalfMarkS = point(224m, 752m); YerokS = point(403m, 728m)};
+g0428 = glyphid(213) {YerokS = point(747m, 747m); DiacriticS = point(400m, 808m); HalfMarkS = point(399m, 752m)};
+g0429 = glyphid(214) {YerokS = point(793m, 742m); DiacriticS = point(425m, 791m); HalfMarkS = point(424m, 752m)};
+g042a = glyphid(215) {DiacriticS = point(300m, 796m); HalfMarkS = point(300m, 752m); YerokS = point(345m, 713m)};
+g042b = glyphid(216) {YerokS = point(667m, 733m); HalfMarkS = point(378m, 752m); DiacriticS = point(375m, 796m)};
+g042c = glyphid(217) {YerokS = point(129m, 721m); HalfMarkS = point(234m, 752m); DiacriticS = point(155m, 796m)};
+g042d = glyphid(218) {YerokS = point(511m, 667m); DiacriticS = point(325m, 792m); HalfMarkS = point(323m, 752m)};
+g042e = glyphid(219) {HalfMarkS = point(424m, 752m); DiacriticS = point(525m, 796m); YerokS = point(709m, 689m)};
+g042f = glyphid(220) {HalfMarkS = point(400m, 752m); DiacriticS = point(400m, 796m); YerokS = point(512m, 725m)};
+g0430 = glyphid(221) {NumeralS = point(187m, 187m); YerokS = point(185m, 450m); HalfMarkS = point(185m, 499m); DiacriticS = point(185m, 500m)};
+g0431 = glyphid(222) {DiacriticS = point(200m, 494m); HalfMarkS = point(199m, 499m); YerokS = point(288m, 452m)};
+g0432 = glyphid(223) {NumeralS = point(170m, 191m); HalfMarkS = point(199m, 499m); DiacriticS = point(200m, 493m); YerokS = point(272m, 451m)};
+g0433 = glyphid(224) {NumeralS = point(180m, 190m); YerokS = point(300m, 464m); HalfMarkS = point(200m, 499m); DiacriticS = point(200m, 500m)};
+g0434 = glyphid(225) {NumeralS = point(253m, 166m); YerokS = point(371m, 461m); DiacriticS = point(265m, 520m); HalfMarkS = point(263m, 499m)};
+g0435 = glyphid(226) {HalfMarkS = point(135m, 499m); DiacriticS = point(135m, 523m); YerokS = point(135m, 522m); NumeralS = point(102m, 185m)};
+g0436 = glyphid(227) {YerokS = point(462m, 457m); DiacriticS = point(295m, 493m); HalfMarkS = point(295m, 499m)};
+g0437 = glyphid(228) {NumeralS = point(226m, 122m); HalfMarkS = point(285m, 499m); DiacriticS = point(285m, 500m); YerokS = point(406m, 441m)};
+g0438 = glyphid(229) {DiacriticS = point(275m, 502m); HalfMarkS = point(274m, 499m); YerokS = point(346m, 462m); NumeralS = point(202m, 204m)};
+g0439 = glyphid(230) {DiacriticS = point(332m, 753m); HalfMarkS = point(333m, 499m); YerokS = point(447m, 445m)};
+g043a = glyphid(231) {NumeralS = point(203m, 208m); YerokS = point(394m, 458m); DiacriticS = point(255m, 518m); HalfMarkS = point(255m, 499m)};
+g043b = glyphid(232) {NumeralS = point(213m, 181m); DiacriticS = point(236m, 522m); HalfMarkS = point(236m, 499m); YerokS = point(236m, 459m)};
+g043c = glyphid(233) {HalfMarkS = point(370m, 499m); DiacriticS = point(370m, 518m); YerokS = point(476m, 451m); NumeralS = point(332m, 203m)};
+g043d = glyphid(234) {YerokS = point(342m, 450m); HalfMarkS = point(236m, 499m); DiacriticS = point(236m, 527m); NumeralS = point(202m, 189m)};
+g043e = glyphid(235) {NumeralS = point(202m, 193m); YerokS = point(326m, 446m); DiacriticS = point(236m, 531m); HalfMarkS = point(236m, 499m)};
+g043f = glyphid(236) {NumeralS = point(202m, 191m); HalfMarkS = point(224m, 499m); DiacriticS = point(225m, 524m); YerokS = point(342m, 463m)};
+g0440 = glyphid(237) {YerokS = point(184m, 451m); HalfMarkS = point(124m, 498m); DiacriticS = point(125m, 524m); NumeralS = point(122m, 158m)};
+g0441 = glyphid(238) {NumeralS = point(112m, 195m); HalfMarkS = point(135m, 499m); DiacriticS = point(135m, 516m); YerokS = point(144m, 461m)};
+g0442 = glyphid(239) {NumeralS = point(251m, 189m); YerokS = point(414m, 476m); HalfMarkS = point(284m, 499m); DiacriticS = point(284m, 507m)};
+g0443 = glyphid(240) {NumeralS = point(180m, 139m); YerokS = point(326m, 464m); DiacriticS = point(200m, 521m); HalfMarkS = point(200m, 499m)};
+g0444 = glyphid(241) {NumeralS = point(253m, 179m); YerokS = point(468m, 462m); HalfMarkS = point(284m, 499m); DiacriticS = point(275m, 742m)};
+g0445 = glyphid(242) {DiacriticS = point(212m, 533m); HalfMarkS = point(211m, 499m); YerokS = point(360m, 456m); NumeralS = point(176m, 122m)};
+g0446 = glyphid(243) {YerokS = point(342m, 455m); DiacriticS = point(236m, 520m); HalfMarkS = point(236m, 499m); NumeralS = point(202m, 182m)};
+g0447 = glyphid(244) {YerokS = point(288m, 453m); DiacriticS = point(182m, 520m); HalfMarkS = point(183m, 499m); NumeralS = point(202m, 184m)};
+g0448 = glyphid(245) {DiacriticS = point(338m, 517m); HalfMarkS = point(337m, 499m); YerokS = point(560m, 451m)};
+g0449 = glyphid(246) {YerokS = point(576m, 444m); HalfMarkS = point(347m, 499m); DiacriticS = point(348m, 515m)};
+g044a = glyphid(247) {HalfMarkS = point(250m, 499m); DiacriticS = point(250m, 522m); YerokS = point(314m, 451m)};
+g044b = glyphid(248) {HalfMarkS = point(258m, 499m); DiacriticS = point(395m, 515m); YerokS = point(406m, 446m)};
+g044c = glyphid(249) {YerokS = point(250m, 432m); DiacriticS = point(138m, 522m); HalfMarkS = point(138m, 499m)};
+g044d = glyphid(250) {YerokS = point(414m, 449m); DiacriticS = point(318m, 520m); HalfMarkS = point(277m, 499m)};
+g044e = glyphid(251) {YerokS = point(352m, 458m); DiacriticS = point(354m, 527m); HalfMarkS = point(236m, 499m)};
+g044f = glyphid(252) {YerokS = point(328m, 452m); HalfMarkS = point(254m, 499m); DiacriticS = point(278m, 517m)};
+g0450 = glyphid(253) {YerokS = point(154m, 685m); DiacriticS = point(154m, 685m); HalfMarkS = point(113m, 499m)};
+g0451 = glyphid(254) {YerokS = point(236m, 654m); HalfMarkS = point(236m, 499m); DiacriticS = point(236m, 653m)};
+g0452 = glyphid(255) {DiacriticS = point(375m, 743m); HalfMarkS = point(296m, 499m); YerokS = point(504m, 504m)};
+g0453 = glyphid(256) {HalfMarkS = point(200m, 499m); DiacriticS = point(233m, 809m); YerokS = point(393m, 509m)};
+g0454 = glyphid(257) {YerokS = point(348m, 428m); HalfMarkS = point(236m, 499m); DiacriticS = point(258m, 506m)};
+g0455 = glyphid(258) {YerokS = point(380m, 346m); DiacriticS = point(228m, 511m); HalfMarkS = point(228m, 499m); NumeralS = point(202m, 193m)};
+g0456 = glyphid(259) {NumeralS = point(85m, 189m); YerokS = point(120m, 444m); DiacriticS = point(120m, 497m); HalfMarkS = point(120m, 499m)};
+g0457 = glyphid(260) {HalfMarkS = point(108m, 499m); DiacriticS = point(114m, 727m); YerokS = point(114m, 690m)};
+g0458 = glyphid(261) {YerokS = point(174m, 700m); HalfMarkS = point(169m, 499m); DiacriticS = point(170m, 699m)};
+g0459 = glyphid(262) {HalfMarkS = point(246m, 499m); DiacriticS = point(246m, 521m); YerokS = point(428m, 310m)};
+g045a = glyphid(263) {DiacriticS = point(255m, 522m); HalfMarkS = point(255m, 499m); YerokS = point(480m, 307m)};
+g045b = glyphid(264) {YerokS = point(472m, 457m); DiacriticS = point(355m, 753m); HalfMarkS = point(346m, 499m)};
+g045c = glyphid(265) {YerokS = point(300m, 788m); HalfMarkS = point(286m, 499m); DiacriticS = point(299m, 788m)};
+g045d = glyphid(266) {YerokS = point(254m, 709m); DiacriticS = point(254m, 709m); HalfMarkS = point(251m, 499m)};
+g045e = glyphid(267) {DiacriticS = point(302m, 758m); HalfMarkS = point(207m, 499m); YerokS = point(306m, 758m)};
+g045f = glyphid(268) {YerokS = point(356m, 456m); HalfMarkS = point(249m, 499m); DiacriticS = point(250m, 521m)};
+g0460 = glyphid(269) {YerokS = point(808m, 728m); HalfMarkS = point(494m, 752m); DiacriticS = point(494m, 748m)};
+g0461 = glyphid(270) {NumeralS = point(264m, 213m); HalfMarkS = point(298m, 499m); DiacriticS = point(304m, 520m); YerokS = point(500m, 457m)};
+g0462 = glyphid(271) {DiacriticS = point(354m, 755m); HalfMarkS = point(353m, 752m); YerokS = point(586m, 593m)};
+g0463 = glyphid(272) {YerokS = point(492m, 466m); HalfMarkS = point(310m, 499m); DiacriticS = point(35m, 544m)};
+g0464 = glyphid(273) {YerokS = point(672m, 703m); HalfMarkS = point(415m, 752m); DiacriticS = point(528m, 746m)};
+g0465 = glyphid(274) {YerokS = point(342m, 458m); DiacriticS = point(344m, 502m); HalfMarkS = point(236m, 499m)};
+g0466 = glyphid(275) {YerokS = point(761m, 460m); DiacriticS = point(436m, 751m); HalfMarkS = point(435m, 752m)};
+g0467 = glyphid(276) {DiacriticS = point(244m, 522m); HalfMarkS = point(244m, 499m); YerokS = point(459m, 337m)};
+g0468 = glyphid(277) {HalfMarkS = point(579m, 752m); DiacriticS = point(703m, 765m); YerokS = point(1021m, 461m)};
+g0469 = glyphid(278) {DiacriticS = point(432m, 495m); HalfMarkS = point(362m, 499m); YerokS = point(625m, 309m)};
+g046a = glyphid(279) {YerokS = point(759m, 417m); HalfMarkS = point(433m, 752m); DiacriticS = point(432m, 745m)};
+g046b = glyphid(280) {YerokS = point(505m, 268m); HalfMarkS = point(290m, 499m); DiacriticS = point(290m, 473m)};
+g046c = glyphid(281) {DiacriticS = point(712m, 772m); HalfMarkS = point(561m, 752m); YerokS = point(1024m, 417m)};
+g046d = glyphid(282) {DiacriticS = point(460m, 499m); HalfMarkS = point(393m, 499m); YerokS = point(679m, 281m)};
+g046e = glyphid(283) {HalfMarkS = point(291m, 752m); DiacriticS = point(313m, 899m); YerokS = point(436m, 882m)};
+g046f = glyphid(284) {NumeralS = point(202m, 194m); YerokS = point(355m, 623m); DiacriticS = point(256m, 657m); HalfMarkS = point(236m, 499m)};
+g0470 = glyphid(285) {DiacriticS = point(361m, 1033m); HalfMarkS = point(361m, 752m); YerokS = point(622m, 774m)};
+g0471 = glyphid(286) {YerokS = point(511m, 506m); DiacriticS = point(286m, 747m); HalfMarkS = point(279m, 499m); NumeralS = point(264m, 215m)};
+g0472 = glyphid(287) {HalfMarkS = point(237m, 752m); DiacriticS = point(236m, 761m); YerokS = point(405m, 658m)};
+g0473 = glyphid(288) {NumeralS = point(354m, 79m); HalfMarkS = point(378m, 499m); DiacriticS = point(378m, 523m); YerokS = point(557m, 340m)};
+g0474 = glyphid(289) {DiacriticS = point(378m, 751m); HalfMarkS = point(377m, 752m); YerokS = point(611m, 736m)};
+g0475 = glyphid(290) {HalfMarkS = point(224m, 499m); DiacriticS = point(224m, 527m); YerokS = point(383m, 468m)};
+g0476 = glyphid(291) {HalfMarkS = point(350m, 752m); DiacriticS = point(284m, 1007m); YerokS = point(614m, 790m)};
+g0477 = glyphid(292) {YerokS = point(139m, 808m); HalfMarkS = point(208m, 499m); DiacriticS = point(139m, 809m)};
+g0478 = glyphid(293) {DiacriticS = point(750m, 523m); HalfMarkS = point(507m, 752m); YerokS = point(850m, 490m)};
+g0479 = glyphid(294) {YerokS = point(531m, 469m); HalfMarkS = point(320m, 499m); DiacriticS = point(425m, 499m)};
+g047a = glyphid(295) {YerokS = point(823m, 602m); HalfMarkS = point(462m, 752m); DiacriticS = point(462m, 766m)};
+g047b = glyphid(296) {YerokS = point(399m, 440m); HalfMarkS = point(224m, 499m); DiacriticS = point(224m, 529m)};
+g047c = glyphid(297) {HalfMarkS = point(696m, 714m); DiacriticS = point(700m, 884m); YerokS = point(699m, 885m)};
+g047d = glyphid(298) {DiacriticS = point(522m, 897m); HalfMarkS = point(519m, 499m); YerokS = point(518m, 896m)};
+g047e = glyphid(299) {YerokS = point(1050m, 805m); DiacriticS = point(1051m, 803m); HalfMarkS = point(506m, 752m)};
+g047f = glyphid(300) {YerokS = point(648m, 659m); DiacriticS = point(646m, 695m); HalfMarkS = point(271m, 499m)};
+g0482 = glyphid(301);
+g0483 = glyphid(302) {DiacriticM = point(-152m, 602m); StackingM = point(-150m, 602m); StackingS = point(-159m, 860m)};
+g0484 = glyphid(303) {StackingS = point(-62m, 972m); YerokM = point(-180m, 618m); StackingM = point(-180m, 618m)};
+g0485 = glyphid(304) {StackingS = point(-162m, 1004m); StackingM = point(-159m, 711m); DiacriticM = point(-160m, 713m)};
+g0486 = glyphid(305) {DiacriticM = point(-147m, 705m); StackingS = point(-74m, 989m); StackingM = point(-150m, 705m)};
+g0487 = glyphid(306) {StackingM = point(-50m, 900m); StackingS = point(-94m, 1180m); DiacriticM = point(-132m, 804m)};
+g0488 = glyphid(307) {NumeralM = point(432m, 336m)};
+g0489 = glyphid(308) {NumeralM = point(426m, 318m)};
+g0490 = glyphid(309) {HalfMarkS = point(224m, 752m); DiacriticS = point(185m, 821m); YerokS = point(453m, 774m)};
+g0491 = glyphid(310) {DiacriticS = point(166m, 555m); HalfMarkS = point(166m, 499m); YerokS = point(332m, 491m)};
+g10fb = glyphid(311);
+g1c80 = glyphid(312);
+g1c81 = glyphid(313) {DiacriticS = point(225m, 508m); HalfMarkS = point(236m, 499m); YerokS = point(378m, 452m)};
+g1c82 = glyphid(314) {DiacriticS = point(125m, 506m); HalfMarkS = point(125m, 499m); YerokS = point(150m, 481m)};
+g1c83 = glyphid(315) {YerokS = point(350m, 433m); HalfMarkS = point(236m, 499m); DiacriticS = point(252m, 502m)};
+g1c84 = glyphid(316) {HalfMarkS = point(158m, 499m); DiacriticS = point(155m, 793m); YerokS = point(245m, 770m)};
+g1c85 = glyphid(317) {YerokS = point(572m, 458m); DiacriticS = point(350m, 526m); HalfMarkS = point(350m, 499m)};
+g1c86 = glyphid(318) {YerokS = point(286m, 455m); DiacriticS = point(152m, 708m); HalfMarkS = point(145m, 499m)};
+g1c87 = glyphid(319) {YerokS = point(257m, 611m); DiacriticS = point(129m, 812m); HalfMarkS = point(108m, 499m)};
+g1c88 = glyphid(320) {DiacriticS = point(203m, 707m); HalfMarkS = point(203m, 700m); YerokS = point(334m, 704m)};
+g2002 = glyphid(321);
+g2003 = glyphid(322);
+g2004 = glyphid(323);
+g2005 = glyphid(324);
+g2006 = glyphid(325);
+g2008 = glyphid(326);
+g2009 = glyphid(327);
+g200a = glyphid(328);
+g200b = glyphid(329);
+g200c = glyphid(330);
+g200d = glyphid(331);
+g200e = glyphid(332);
+g200f = glyphid(333);
+g2011 = glyphid(334);
+g2013 = glyphid(335);
+g2014 = glyphid(336);
+g2018 = glyphid(337);
+g2019 = glyphid(338);
+g201c = glyphid(339);
+g201d = glyphid(340);
+g2020 = glyphid(341);
+g2022 = glyphid(342);
+g2027 = glyphid(343);
+g202f = glyphid(344);
+g203b = glyphid(345);
+g2052 = glyphid(346);
+g2053 = glyphid(347);
+g2056 = glyphid(348);
+g2058 = glyphid(349);
+g2059 = glyphid(350);
+g205c = glyphid(351);
+g205d = glyphid(352);
+g205e = glyphid(353);
+g20ac = glyphid(354);
+g20dd = glyphid(355) {NumeralM = point(-366m, 356m)};
+g2116 = glyphid(356);
+g2213 = glyphid(357);
+g2214 = glyphid(358);
+g2219 = glyphid(359);
+g223b = glyphid(360);
+g223c = glyphid(361);
+g223d = glyphid(362);
+g2241 = glyphid(363);
+g25cc = glyphid(364) {NumeralS = point(264m, 212m); YerokS = point(421m, 481m); HalfMarkS = point(263m, 499m); DiacriticS = point(263m, 546m)};
+g2626 = glyphid(365);
+g271a = glyphid(366);
+g2720 = glyphid(367);
+g2734 = glyphid(368);
+g2de0 = glyphid(369) {StackingM = point(-177m, 571m); StackingS = point(-142m, 867m); DiacriticM = point(-175m, 571m)};
+g2de1 = glyphid(370) {DiacriticM = point(-179m, 652m); StackingM = point(-180m, 652m); StackingS = point(-174m, 855m)};
+g2de2 = glyphid(371) {DiacriticM = point(-181m, 618m); StackingM = point(-178m, 618m); StackingS = point(-169m, 863m)};
+g2de3 = glyphid(372) {DiacriticM = point(-365m, 569m); StackingS = point(-421m, 996m); StackingM = point(-364m, 567m)};
+g2de4 = glyphid(373) {StackingS = point(-289m, 874m); StackingM = point(-312m, 536m); DiacriticM = point(-313m, 540m)};
+g2de5 = glyphid(374) {DiacriticM = point(-349m, 422m); StackingS = point(-269m, 893m); StackingM = point(-349m, 422m)};
+g2de6 = glyphid(375) {StackingS = point(-147m, 863m); StackingM = point(-182m, 564m); DiacriticM = point(-179m, 564m)};
+g2de7 = glyphid(376) {StackingS = point(-84m, 876m); StackingM = point(-141m, 578m); DiacriticM = point(-141m, 578m)};
+g2de8 = glyphid(377) {DiacriticM = point(-323m, 490m); StackingM = point(-324m, 494m); StackingS = point(-200m, 891m)};
+g2de9 = glyphid(378) {DiacriticM = point(-169m, 630m); StackingS = point(-134m, 901m); StackingM = point(-168m, 630m)};
+g2dea = glyphid(379) {DiacriticM = point(-125m, 588m); StackingS = point(-68m, 881m); StackingM = point(-124m, 588m)};
+g2deb = glyphid(380) {StackingM = point(-148m, 642m); StackingS = point(-121m, 879m); DiacriticM = point(-149m, 642m)};
+g2dec = glyphid(381) {DiacriticM = point(-117m, 442m); StackingM = point(-118m, 442m); StackingS = point(-53m, 896m)};
+g2ded = glyphid(382) {DiacriticM = point(-141m, 638m); StackingS = point(-55m, 877m); StackingM = point(-140m, 638m)};
+g2dee = glyphid(383) {DiacriticM = point(-353m, 590m); StackingS = point(-320m, 860m); StackingM = point(-351m, 590m)};
+g2def = glyphid(384) {StackingS = point(-215m, 943m); StackingM = point(-288m, 534m); DiacriticM = point(-288m, 537m)};
+g2df0 = glyphid(385) {StackingM = point(-156m, 538m); StackingS = point(-129m, 879m); DiacriticM = point(-157m, 538m)};
+g2df1 = glyphid(386) {StackingM = point(-178m, 619m); StackingS = point(-99m, 877m); DiacriticM = point(-178m, 621m)};
+g2df2 = glyphid(387) {StackingM = point(-232m, 618m); StackingS = point(-221m, 881m); DiacriticM = point(-233m, 618m)};
+g2df3 = glyphid(388) {StackingS = point(-184m, 883m); StackingM = point(-230m, 478m); DiacriticM = point(-227m, 478m)};
+g2df4 = glyphid(389) {DiacriticM = point(-186m, 405m); StackingM = point(-189m, 407m); StackingS = point(-159m, 883m)};
+g2df5 = glyphid(390) {DiacriticM = point(-329m, 456m); StackingS = point(-289m, 888m); StackingM = point(-328m, 454m)};
+g2df6 = glyphid(391) {DiacriticM = point(-273m, 576m); StackingM = point(-273m, 576m); StackingS = point(-218m, 966m)};
+g2df7 = glyphid(392) {DiacriticM = point(-171m, 479m); StackingS = point(-156m, 834m); StackingM = point(-172m, 478m)};
+g2df9 = glyphid(393) {StackingS = point(-154m, 1111m); StackingM = point(-188m, 596m); DiacriticM = point(-189m, 598m)};
+g2dfa = glyphid(394) {DiacriticM = point(-205m, 484m); StackingS = point(-131m, 1064m); StackingM = point(-202m, 484m)};
+g2dfb = glyphid(395) {StackingS = point(-170m, 902m); StackingM = point(-204m, 512m); DiacriticM = point(-203m, 512m)};
+g2dfc = glyphid(396) {DiacriticM = point(-154m, 537m); StackingS = point(-170m, 974m); StackingM = point(-154m, 537m)};
+g2dfd = glyphid(397) {DiacriticM = point(-187m, 575m); StackingM = point(-188m, 576m); StackingS = point(-190m, 893m)};
+g2e2a = glyphid(398);
+g2e2b = glyphid(399);
+g2e2c = glyphid(400);
+g2e2d = glyphid(401);
+g2e2f = glyphid(402);
+g2e34 = glyphid(403);
+g2e43 = glyphid(404);
+ga640 = glyphid(405) {DiacriticS = point(300m, 740m); HalfMarkS = point(301m, 752m); YerokS = point(452m, 736m)};
+ga641 = glyphid(406) {HalfMarkS = point(326m, 499m); DiacriticS = point(326m, 490m); YerokS = point(458m, 496m)};
+ga64a = glyphid(407) {DiacriticS = point(266m, 746m); HalfMarkS = point(281m, 752m); YerokS = point(392m, 743m)};
+ga64b = glyphid(408) {YerokS = point(386m, 735m); HalfMarkS = point(172m, 499m); DiacriticS = point(234m, 706m)};
+ga64c = glyphid(409) {YerokS = point(1110m, 586m); DiacriticS = point(622m, 581m); HalfMarkS = point(622m, 552m)};
+ga64d = glyphid(410) {YerokS = point(862m, 460m); DiacriticS = point(482m, 485m); HalfMarkS = point(481m, 499m)};
+ga656 = glyphid(411) {YerokS = point(634m, 756m); HalfMarkS = point(391m, 752m); DiacriticS = point(600m, 767m)};
+ga657 = glyphid(412) {YerokS = point(386m, 464m); HalfMarkS = point(236m, 499m); DiacriticS = point(388m, 526m)};
+ga65e = glyphid(413) {YerokS = point(756m, 545m); DiacriticS = point(444m, 748m); HalfMarkS = point(444m, 752m)};
+ga65f = glyphid(414) {YerokS = point(494m, 343m); DiacriticS = point(296m, 498m); HalfMarkS = point(292m, 499m)};
+ga668 = glyphid(415) {DiacriticS = point(456m, 797m); HalfMarkS = point(455m, 752m); YerokS = point(824m, 620m)};
+ga669 = glyphid(416) {DiacriticS = point(207m, 506m); HalfMarkS = point(207m, 499m); YerokS = point(331m, 457m)};
+ga66a = glyphid(417) {YerokS = point(830m, 614m); DiacriticS = point(458m, 799m); HalfMarkS = point(458m, 752m)};
+ga66b = glyphid(418) {YerokS = point(341m, 449m); DiacriticS = point(207m, 506m); HalfMarkS = point(207m, 499m)};
+ga66c = glyphid(419) {YerokS = point(768m, 697m); HalfMarkS = point(418m, 752m); DiacriticS = point(418m, 771m)};
+ga66d = glyphid(420) {DiacriticS = point(356m, 506m); HalfMarkS = point(355m, 499m); YerokS = point(592m, 459m)};
+ga66e = glyphid(421) {YerokS = point(563m, 847m); HalfMarkS = point(537m, 752m); DiacriticS = point(564m, 847m)};
+ga66f = glyphid(422) {DiacriticM = point(-231m, 750m); StackingS = point(-205m, 1013m); StackingM = point(-231m, 750m)};
+ga670 = glyphid(423) {NumeralM = point(426m, 348m)};
+ga671 = glyphid(424) {NumeralM = point(-372m, 338m)};
+ga672 = glyphid(425) {NumeralM = point(462m, 348m)};
+ga673 = glyphid(426);
+ga674 = glyphid(427) {DiacriticM = point(-270m, 541m); StackingM = point(-272m, 540m); StackingS = point(-252m, 902m)};
+ga675 = glyphid(428) {DiacriticM = point(-151m, 690m); StackingM = point(-152m, 690m); StackingS = point(-212m, 885m)};
+ga676 = glyphid(429) {DiacriticM = point(-80m, 601m); StackingS = point(-56m, 1165m); StackingM = point(-82m, 602m)};
+ga677 = glyphid(430) {StackingM = point(-103m, 534m); StackingS = point(-92m, 906m); DiacriticM = point(-105m, 534m)};
+ga678 = glyphid(431) {StackingS = point(-117m, 889m); StackingM = point(-96m, 604m); DiacriticM = point(-95m, 605m)};
+ga679 = glyphid(432) {StackingM = point(-106m, 598m); StackingS = point(-110m, 882m); DiacriticM = point(-107m, 602m)};
+ga67a = glyphid(433) {StackingS = point(-156m, 879m); StackingM = point(-152m, 602m); DiacriticM = point(-151m, 602m)};
+ga67b = glyphid(434) {DiacriticM = point(-171m, 594m); StackingM = point(-172m, 592m); StackingS = point(-157m, 886m)};
+ga67c = glyphid(435) {DiacriticM = point(-195m, 681m); StackingM = point(-199m, 686m); StackingS = point(-201m, 940m)};
+ga67d = glyphid(436) {StackingM = point(-176m, 554m); YerokM = point(-174m, 554m); StackingS = point(-135m, 845m)};
+ga67e = glyphid(437);
+ga67f = glyphid(438);
+ga698 = glyphid(439) {HalfMarkS = point(424m, 752m); DiacriticS = point(424m, 740m); YerokS = point(770m, 703m)};
+ga699 = glyphid(440) {HalfMarkS = point(354m, 499m); DiacriticS = point(354m, 506m); YerokS = point(602m, 453m)};
+ga69a = glyphid(441) {YerokS = point(818m, 600m); HalfMarkS = point(462m, 752m); DiacriticS = point(462m, 791m)};
+ga69b = glyphid(442) {HalfMarkS = point(200m, 499m); DiacriticS = point(200m, 498m); YerokS = point(332m, 433m)};
+ga69e = glyphid(443) {StackingM = point(-138m, 483m); StackingS = point(-143m, 1020m); DiacriticM = point(-136m, 487m)};
+ga69f = glyphid(444) {DiacriticM = point(-235m, 538m); StackingS = point(-266m, 895m); StackingM = point(-238m, 538m)};
+g0486_0301 = glyphid(445) {StackingM = point(-225m, 514m); StackingS = point(-188m, 854m); DiacriticM = point(-223m, 514m)};
+g0486_0300 = glyphid(446) {DiacriticM = point(-221m, 552m); StackingM = point(-222m, 552m); StackingS = point(-215m, 881m)};
+g0486_0311 = glyphid(447) {DiacriticM = point(-421m, 482m)};
+g2de3_a675 = glyphid(448) {StackingM = point(-234m, 561m); StackingS = point(-207m, 1027m); DiacriticM = point(-232m, 562m)};
+g2de4_2df7 = glyphid(449) {DiacriticM = point(-287m, 540m); StackingM = point(-286m, 538m); StackingS = point(-291m, 911m)};
+g2dee_a675 = glyphid(450) {StackingS = point(-274m, 800m); StackingM = point(-298m, 574m); DiacriticM = point(-295m, 574m)};
+ga641_trunc = glyphid(451) {HalfMarkS = point(326m, 499m); DiacriticS = point(326m, 490m); YerokS = point(458m, 496m)};
+g0440_trunc = glyphid(452) {YerokS = point(184m, 451m); DiacriticS = point(125m, 524m); HalfMarkS = point(124m, 498m); NumeralS = point(122m, 158m)};
+ga64b_shortl = glyphid(453) {YerokS = point(410m, 776m); HalfMarkS = point(182m, 500m); DiacriticS = point(84m, 576m)};
+ga64b_short2 = glyphid(454) {HalfMarkS = point(172m, 499m); DiacriticS = point(272m, 529m); YerokS = point(272m, 514m)};
+ga64b_short = glyphid(455) {HalfMarkS = point(208m, 499m); DiacriticS = point(208m, 545m); YerokS = point(208m, 546m)};
+g0444_trunc = glyphid(456) {YerokS = point(468m, 462m); DiacriticS = point(275m, 742m); HalfMarkS = point(284m, 499m); NumeralS = point(253m, 179m)};
+g0444_short = glyphid(457) {NumeralS = point(253m, 179m); YerokS = point(468m, 462m); HalfMarkS = point(284m, 499m); DiacriticS = point(275m, 742m)};
+g0445_truncl = glyphid(458) {NumeralS = point(176m, 122m); HalfMarkS = point(211m, 499m); DiacriticS = point(212m, 533m); YerokS = point(360m, 456m)};
+g0445_truncr = glyphid(459) {YerokS = point(360m, 456m); HalfMarkS = point(211m, 499m); DiacriticS = point(212m, 533m); NumeralS = point(176m, 122m)};
+g0445_trunc = glyphid(460) {NumeralS = point(176m, 122m); HalfMarkS = point(211m, 499m); DiacriticS = point(212m, 533m); YerokS = point(360m, 456m)};
+g0446_trunc = glyphid(461) {YerokS = point(342m, 455m); DiacriticS = point(236m, 520m); HalfMarkS = point(236m, 499m); NumeralS = point(202m, 182m)};
+g0449_trunc = glyphid(462) {HalfMarkS = point(347m, 499m); DiacriticS = point(348m, 515m); YerokS = point(576m, 444m)};
+g0463_short = glyphid(463) {YerokS = point(458m, 459m); DiacriticS = point(416m, 659m); HalfMarkS = point(299m, 499m)};
+g0471_short = glyphid(464) {YerokS = point(511m, 506m); HalfMarkS = point(279m, 499m); DiacriticS = point(286m, 747m); NumeralS = point(264m, 215m)};
+g0471_trunc = glyphid(465) {NumeralS = point(264m, 215m); DiacriticS = point(286m, 747m); HalfMarkS = point(279m, 499m); YerokS = point(511m, 506m)};
+g0443_trunc = glyphid(466) {DiacriticS = point(200m, 521m); HalfMarkS = point(200m, 499m); YerokS = point(326m, 464m); NumeralS = point(180m, 139m)};
+g0491_alt = glyphid(467) {YerokS = point(282m, 664m); HalfMarkS = point(236m, 499m); DiacriticS = point(282m, 665m)};
+g0404_alt = glyphid(468) {YerokS = point(578m, 723m); HalfMarkS = point(403m, 752m); DiacriticS = point(404m, 798m)};
+g047e_alt = glyphid(469) {HalfMarkS = point(628m, 638m); DiacriticS = point(1156m, 658m); YerokS = point(1156m, 658m)};
+g047f_alt = glyphid(470) {YerokS = point(916m, 493m); DiacriticS = point(911m, 493m); HalfMarkS = point(511m, 538m)};
+g0426_alt = glyphid(471) {YerokS = point(445m, 540m); DiacriticS = point(294m, 568m); HalfMarkS = point(294m, 499m)};
+ga64c_alt = glyphid(472) {YerokS = point(922m, 753m); DiacriticS = point(494m, 781m); HalfMarkS = point(494m, 752m)};
+g047c_alt = glyphid(473) {YerokS = point(566m, 930m); DiacriticS = point(567m, 929m); HalfMarkS = point(527m, 752m)};
+g1f545_alt1 = glyphid(474);
+g1f545_alt2 = glyphid(475);
+g1f545_alt3 = glyphid(476);
+g1f545_alt4 = glyphid(477);
+g1f545_alt7 = glyphid(478);
+g1f545_alt8 = glyphid(479);
+g1f545_alt9 = glyphid(480);
+g0430_200d_0443 = glyphid(481) {DiacriticS = point(350m, 504m); HalfMarkS = point(282m, 499m); YerokS = point(434m, 477m)};
+g0430_200d_0475 = glyphid(482) {DiacriticS = point(322m, 504m); HalfMarkS = point(307m, 499m); YerokS = point(468m, 467m)};
+g043b_200d_0443 = glyphid(483) {HalfMarkS = point(329m, 499m); DiacriticS = point(381m, 497m); YerokS = point(492m, 482m)};
+g043b_200d_0475 = glyphid(484) {YerokS = point(510m, 463m); DiacriticS = point(372m, 493m); HalfMarkS = point(345m, 499m)};
+g0440_200d_0463 = glyphid(485) {HalfMarkS = point(134m, 499m); DiacriticS = point(147m, 931m); YerokS = point(293m, 743m)};
+g0442_200d_0432 = glyphid(486) {DiacriticS = point(150m, 771m); HalfMarkS = point(142m, 499m); YerokS = point(239m, 752m)};
+ga64b_0486 = glyphid(487) {HalfMarkS = point(172m, 499m); DiacriticS = point(285m, 955m); YerokS = point(281m, 952m)};
+ga64b_0301_alt = glyphid(488);
+ga64b_0301 = glyphid(489) {YerokS = point(251m, 914m); HalfMarkS = point(172m, 499m); DiacriticS = point(255m, 917m)};
+ga64b_0300_alt = glyphid(490);
+ga64b_0300 = glyphid(491) {HalfMarkS = point(172m, 499m); DiacriticS = point(189m, 812m); YerokS = point(185m, 809m)};
+ga64b_0311 = glyphid(492) {DiacriticS = point(93m, 1022m); HalfMarkS = point(172m, 499m); YerokS = point(89m, 1019m)};
+ga64b_0311_alt1 = glyphid(493) {DiacriticS = point(219m, 800m); HalfMarkS = point(172m, 499m); YerokS = point(215m, 797m)};
+ga64b_0486_0301 = glyphid(494) {YerokS = point(271m, 1082m); DiacriticS = point(275m, 1085m); HalfMarkS = point(172m, 499m)};
+ga64b_0486_alt = glyphid(495);
+ga64b_0301_alt2 = glyphid(496) {YerokS = point(251m, 914m); DiacriticS = point(255m, 917m); HalfMarkS = point(172m, 499m)};
+ga64b_0300_alt1 = glyphid(497) {HalfMarkS = point(172m, 499m); DiacriticS = point(195m, 836m); YerokS = point(191m, 833m)};
+ga64b_0311_alt2 = glyphid(498) {YerokS = point(191m, 833m); DiacriticS = point(195m, 836m); HalfMarkS = point(172m, 499m)};
+ga64b_0486_alt1 = glyphid(499) {HalfMarkS = point(172m, 499m); DiacriticS = point(204m, 890m); YerokS = point(200m, 887m)};
+ga64b_0301_alt1 = glyphid(500) {YerokS = point(218m, 716m); DiacriticS = point(222m, 719m); HalfMarkS = point(172m, 499m)};
+ga64b_0300_alt2 = glyphid(501) {YerokS = point(230m, 854m); HalfMarkS = point(172m, 499m); DiacriticS = point(234m, 857m)};
+ga64b_0311_alt3 = glyphid(502);
+ga64b_0486_0301_alt1 = glyphid(503);
+g0463_0486_alt1 = glyphid(504) {DiacriticS = point(421m, 798m); HalfMarkS = point(300m, 499m); YerokS = point(492m, 466m)};
+g0463_0301_alt2 = glyphid(505) {YerokS = point(392m, 800m); HalfMarkS = point(301m, 499m); DiacriticS = point(393m, 800m)};
+g0463_0301_alt1 = glyphid(506) {YerokS = point(492m, 466m); HalfMarkS = point(299m, 499m); DiacriticS = point(375m, 800m)};
+g0463_0300_alt2 = glyphid(507) {YerokS = point(492m, 466m); HalfMarkS = point(300m, 499m); DiacriticS = point(393m, 799m)};
+g0463_0311_alt = glyphid(508);
+g0463_0311_alt2 = glyphid(509) {DiacriticS = point(415m, 800m); HalfMarkS = point(299m, 499m); YerokS = point(492m, 466m)};
+g0463_0311_alt1 = glyphid(510) {YerokS = point(492m, 466m); DiacriticS = point(389m, 799m); HalfMarkS = point(299m, 499m)};
+g0463_0486_0301_alt1 = glyphid(511) {YerokS = point(492m, 466m); HalfMarkS = point(299m, 499m); DiacriticS = point(413m, 798m)};
+g0463_0486 = glyphid(512) {HalfMarkS = point(299m, 499m); DiacriticS = point(436m, 929m); YerokS = point(458m, 459m)};
+g0463_0301 = glyphid(513) {YerokS = point(458m, 459m); HalfMarkS = point(300m, 499m); DiacriticS = point(350m, 799m)};
+g0463_0300 = glyphid(514) {YerokS = point(362m, 800m); DiacriticS = point(362m, 799m); HalfMarkS = point(300m, 499m)};
+g0463_0311 = glyphid(515) {DiacriticS = point(321m, 819m); HalfMarkS = point(309m, 499m); YerokS = point(320m, 816m)};
+g0463_0486_0301 = glyphid(516) {YerokS = point(328m, 980m); DiacriticS = point(328m, 979m); HalfMarkS = point(299m, 499m)};
+g047e_0301 = glyphid(517) {HalfMarkS = point(506m, 752m); DiacriticS = point(507m, 890m); YerokS = point(506m, 892m)};
+g047f_0301 = glyphid(518) {HalfMarkS = point(271m, 499m); DiacriticS = point(272m, 747m); YerokS = point(274m, 711m)};
+ga64c_0486_0300 = glyphid(519);
+ga64d_0486_0300 = glyphid(520);
+gec45 = glyphid(521);
+gec46 = glyphid(522);
+gec47 = glyphid(523);
+gec48 = glyphid(524);
+gec49 = glyphid(525);
+gec4a = glyphid(526);
+gec4b = glyphid(527);
+gec50 = glyphid(528);
+g2de0_0487 = glyphid(529) {DiacriticM = point(-121m, 625m)};
+g2de1_0487 = glyphid(530) {DiacriticM = point(0m, 660m)};
+g2de2_0487 = glyphid(531) {DiacriticM = point(-236m, 611m)};
+g2de6_0487 = glyphid(532) {DiacriticM = point(-126m, 630m)};
+g2de7_0487 = glyphid(533) {DiacriticM = point(4m, 621m)};
+g2de9_0487 = glyphid(534) {DiacriticM = point(-99m, 642m)};
+g2dea_0487 = glyphid(535) {DiacriticM = point(-33m, 663m)};
+g2deb_0487 = glyphid(536) {DiacriticM = point(-9m, 657m)};
+g2dec_0487 = glyphid(537) {DiacriticM = point(-30m, 567m)};
+g2ded_0487 = glyphid(538) {DiacriticM = point(-34m, 623m)};
+g2df0_0487 = glyphid(539) {DiacriticM = point(-84m, 615m)};
+g2df1_0487 = glyphid(540) {DiacriticM = point(-153m, 660m)};
+g2df2_0487 = glyphid(541) {DiacriticM = point(-117m, 667m)};
+g2df3_0487 = glyphid(542) {DiacriticM = point(-20m, 583m)};
+g2dfd_0487 = glyphid(543) {DiacriticM = point(-157m, 658m)};
+gfe00 = glyphid(544);
+gfe01 = glyphid(545);
+gfe02 = glyphid(546);
+gfe03 = glyphid(547);
+gfe26 = glyphid(548) {HalfMarkM = point(-283m, 632m)};
+gfe2e = glyphid(549) {HalfMarkM = point(-492m, 648m)};
+gfe2f = glyphid(550) {HalfMarkM = point(-79m, 634m)};
+g1f540 = glyphid(551);
+g1f541 = glyphid(552);
+g1f542 = glyphid(553);
+g1f543 = glyphid(554);
+g1f544 = glyphid(555);
+g1f545 = glyphid(556);
 
 /* Classes */
 cTakesDiacriticDia = (g0400, g0401, g0402, g0403, g0404, g0405, g0406, g0407,
@@ -740,17 +763,17 @@ cTakesDiacriticDia = (g0400, g0401, g0402, g0403, g0404, g0405, g0406, g0407,
     ga64b_0300_alt2, g0463_0486_alt1, g0463_0301_alt2, g0463_0301_alt1, g0463_0300_alt2, g0463_0311_alt2, g0463_0311_alt1, g0463_0486_0301_alt1,
     g0463_0486, g0463_0301, g0463_0300, g0463_0311, g0463_0486_0301, g047e_0301, g047f_0301);
 
-cnTakesDiacriticDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g033e, g0483, g0484, g0485, g0486, g0487, g0488, g0489,
-    g20dd, g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6,
-    g2de7, g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee,
-    g2def, g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6,
-    g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga670,
-    ga671, ga672, ga674, ga675, ga676, ga677, ga678, ga679,
-    ga67a, ga67b, ga67c, ga67d, ga69e, ga69f, g0486_0301, g0486_0300,
-    g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487,
-    g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487,
-    g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
+cnTakesDiacriticDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g033e, g0483, g0484, g0485, g0486, g0487,
+    g0488, g0489, g20dd, g2de0, g2de1, g2de2, g2de3, g2de4,
+    g2de5, g2de6, g2de7, g2de8, g2de9, g2dea, g2deb, g2dec,
+    g2ded, g2dee, g2def, g2df0, g2df1, g2df2, g2df3, g2df4,
+    g2df5, g2df6, g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd,
+    ga66f, ga670, ga671, ga672, ga674, ga675, ga676, ga677,
+    ga678, ga679, ga67a, ga67b, ga67c, ga67d, ga69e, ga69f,
+    g0486_0301, g0486_0300, g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487,
+    g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487,
+    g2df0_0487, g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
 
 cTakesHalfMarkDia = (g0400, g0401, g0402, g0403, g0404, g0405, g0406, g0407,
     g0408, g0409, g040a, g040b, g040c, g040d, g040e, g040f,
@@ -780,17 +803,17 @@ cTakesHalfMarkDia = (g0400, g0401, g0402, g0403, g0404, g0405, g0406, g0407,
     ga64b_0300_alt2, g0463_0486_alt1, g0463_0301_alt2, g0463_0301_alt1, g0463_0300_alt2, g0463_0311_alt2, g0463_0311_alt1, g0463_0486_0301_alt1,
     g0463_0486, g0463_0301, g0463_0300, g0463_0311, g0463_0486_0301, g047e_0301, g047f_0301);
 
-cnTakesHalfMarkDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g033e, g0483, g0484, g0485, g0486, g0487, g0488, g0489,
-    g20dd, g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6,
-    g2de7, g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee,
-    g2def, g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6,
-    g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga670,
-    ga671, ga672, ga674, ga675, ga676, ga677, ga678, ga679,
-    ga67a, ga67b, ga67c, ga67d, ga69e, ga69f, g0486_0301, g0486_0300,
-    g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487,
-    g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487,
-    g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
+cnTakesHalfMarkDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g033e, g0483, g0484, g0485, g0486, g0487,
+    g0488, g0489, g20dd, g2de0, g2de1, g2de2, g2de3, g2de4,
+    g2de5, g2de6, g2de7, g2de8, g2de9, g2dea, g2deb, g2dec,
+    g2ded, g2dee, g2def, g2df0, g2df1, g2df2, g2df3, g2df4,
+    g2df5, g2df6, g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd,
+    ga66f, ga670, ga671, ga672, ga674, ga675, ga676, ga677,
+    ga678, ga679, ga67a, ga67b, ga67c, ga67d, ga69e, ga69f,
+    g0486_0301, g0486_0300, g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487,
+    g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487,
+    g2df0_0487, g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
 
 cTakesNumeralDia = (g0430, g0432, g0433, g0434, g0435, g0437, g0438, g043a,
     g043b, g043c, g043d, g043e, g043f, g0440, g0441, g0442,
@@ -798,26 +821,26 @@ cTakesNumeralDia = (g0430, g0432, g0433, g0434, g0435, g0437, g0438, g043a,
     g046f, g0471, g0473, g25cc, g0440_trunc, g0444_trunc, g0444_short, g0445_truncl,
     g0445_truncr, g0445_trunc, g0446_trunc, g0471_short, g0471_trunc, g0443_trunc);
 
-cnTakesNumeralDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g033e, g0483, g0484, g0485, g0486, g0487, g0488, g0489,
-    g20dd, g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6,
-    g2de7, g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee,
-    g2def, g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6,
-    g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga670,
-    ga671, ga672, ga674, ga675, ga676, ga677, ga678, ga679,
-    ga67a, ga67b, ga67c, ga67d, ga69e, ga69f, g0486_0301, g0486_0300,
-    g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487,
-    g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487,
-    g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
-
-cTakesStackingDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g033e, g0483, g0484, g0485, g0486, g0487, g2de0, g2de1,
-    g2de2, g2de3, g2de4, g2de5, g2de6, g2de7, g2de8, g2de9,
-    g2dea, g2deb, g2dec, g2ded, g2dee, g2def, g2df0, g2df1,
-    g2df2, g2df3, g2df4, g2df5, g2df6, g2df7, g2df9, g2dfa,
-    g2dfb, g2dfc, g2dfd, ga66f, ga674, ga675, ga676, ga677,
+cnTakesNumeralDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g033e, g0483, g0484, g0485, g0486, g0487,
+    g0488, g0489, g20dd, g2de0, g2de1, g2de2, g2de3, g2de4,
+    g2de5, g2de6, g2de7, g2de8, g2de9, g2dea, g2deb, g2dec,
+    g2ded, g2dee, g2def, g2df0, g2df1, g2df2, g2df3, g2df4,
+    g2df5, g2df6, g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd,
+    ga66f, ga670, ga671, ga672, ga674, ga675, ga676, ga677,
     ga678, ga679, ga67a, ga67b, ga67c, ga67d, ga69e, ga69f,
-    g0486_0301, g0486_0300, g2de3_a675, g2de4_2df7, g2dee_a675);
+    g0486_0301, g0486_0300, g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487,
+    g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487,
+    g2df0_0487, g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
+
+cTakesStackingDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g033e, g0483, g0484, g0485, g0486, g0487,
+    g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6, g2de7,
+    g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee, g2def,
+    g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6, g2df7,
+    g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga674, ga675,
+    ga676, ga677, ga678, ga679, ga67a, ga67b, ga67c, ga67d,
+    ga69e, ga69f, g0486_0301, g0486_0300, g2de3_a675, g2de4_2df7, g2dee_a675);
 
 cnTakesStackingDia = (g0488, g0489, g20dd, ga670, ga671, ga672, g0486_0311, g2de0_0487,
     g2de1_0487, g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487,
@@ -852,67 +875,68 @@ cTakesYerokDia = (g0400, g0401, g0402, g0403, g0404, g0405, g0406, g0407,
     ga64b_0300_alt2, g0463_0486_alt1, g0463_0301_alt2, g0463_0301_alt1, g0463_0300_alt2, g0463_0311_alt2, g0463_0311_alt1, g0463_0486_0301_alt1,
     g0463_0486, g0463_0301, g0463_0300, g0463_0311, g0463_0486_0301, g047e_0301, g047f_0301);
 
-cnTakesYerokDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g033e, g0483, g0484, g0485, g0486, g0487, g0488, g0489,
-    g20dd, g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6,
-    g2de7, g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee,
-    g2def, g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6,
-    g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga670,
-    ga671, ga672, ga674, ga675, ga676, ga677, ga678, ga679,
-    ga67a, ga67b, ga67c, ga67d, ga69e, ga69f, g0486_0301, g0486_0300,
-    g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487,
-    g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487,
-    g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
+cnTakesYerokDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g033e, g0483, g0484, g0485, g0486, g0487,
+    g0488, g0489, g20dd, g2de0, g2de1, g2de2, g2de3, g2de4,
+    g2de5, g2de6, g2de7, g2de8, g2de9, g2dea, g2deb, g2dec,
+    g2ded, g2dee, g2def, g2df0, g2df1, g2df2, g2df3, g2df4,
+    g2df5, g2df6, g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd,
+    ga66f, ga670, ga671, ga672, ga674, ga675, ga676, ga677,
+    ga678, ga679, ga67a, ga67b, ga67c, ga67d, ga69e, ga69f,
+    g0486_0301, g0486_0300, g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487,
+    g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487,
+    g2df0_0487, g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
 
-cDiacriticDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g0483, g0485, g0486, g0487, g2de0, g2de1, g2de2, g2de3,
-    g2de4, g2de5, g2de6, g2de7, g2de8, g2de9, g2dea, g2deb,
-    g2dec, g2ded, g2dee, g2def, g2df0, g2df1, g2df2, g2df3,
-    g2df4, g2df5, g2df6, g2df7, g2df9, g2dfa, g2dfb, g2dfc,
-    g2dfd, ga66f, ga674, ga675, ga676, ga677, ga678, ga679,
-    ga67a, ga67b, ga67c, ga69e, ga69f, g0486_0301, g0486_0300, g0486_0311,
-    g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487, g2de7_0487,
-    g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487, g2df2_0487,
-    g2df3_0487, g2dfd_0487);
+cDiacriticDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g0483, g0485, g0486, g0487, g2de0, g2de1,
+    g2de2, g2de3, g2de4, g2de5, g2de6, g2de7, g2de8, g2de9,
+    g2dea, g2deb, g2dec, g2ded, g2dee, g2def, g2df0, g2df1,
+    g2df2, g2df3, g2df4, g2df5, g2df6, g2df7, g2df9, g2dfa,
+    g2dfb, g2dfc, g2dfd, ga66f, ga674, ga675, ga676, ga677,
+    ga678, ga679, ga67a, ga67b, ga67c, ga69e, ga69f, g0486_0301,
+    g0486_0300, g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487,
+    g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487,
+    g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487);
 
 cnDiacriticDia = (g033e, g0484, g0488, g0489, g20dd, ga670, ga671, ga672,
     ga67d, gfe26, gfe2e, gfe2f);
 
 cHalfMarkDia = (gfe26, gfe2e, gfe2f);
 
-cnHalfMarkDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g033e, g0483, g0484, g0485, g0486, g0487, g0488, g0489,
-    g20dd, g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6,
-    g2de7, g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee,
-    g2def, g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6,
-    g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga670,
-    ga671, ga672, ga674, ga675, ga676, ga677, ga678, ga679,
-    ga67a, ga67b, ga67c, ga67d, ga69e, ga69f, g0486_0301, g0486_0300,
-    g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487,
-    g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487,
-    g2df2_0487, g2df3_0487, g2dfd_0487);
-
-cNumeralDia = (g0488, g0489, g20dd, ga670, ga671, ga672);
-
-cnNumeralDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g033e, g0483, g0484, g0485, g0486, g0487, g2de0, g2de1,
-    g2de2, g2de3, g2de4, g2de5, g2de6, g2de7, g2de8, g2de9,
-    g2dea, g2deb, g2dec, g2ded, g2dee, g2def, g2df0, g2df1,
-    g2df2, g2df3, g2df4, g2df5, g2df6, g2df7, g2df9, g2dfa,
-    g2dfb, g2dfc, g2dfd, ga66f, ga674, ga675, ga676, ga677,
+cnHalfMarkDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g033e, g0483, g0484, g0485, g0486, g0487,
+    g0488, g0489, g20dd, g2de0, g2de1, g2de2, g2de3, g2de4,
+    g2de5, g2de6, g2de7, g2de8, g2de9, g2dea, g2deb, g2dec,
+    g2ded, g2dee, g2def, g2df0, g2df1, g2df2, g2df3, g2df4,
+    g2df5, g2df6, g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd,
+    ga66f, ga670, ga671, ga672, ga674, ga675, ga676, ga677,
     ga678, ga679, ga67a, ga67b, ga67c, ga67d, ga69e, ga69f,
     g0486_0301, g0486_0300, g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487,
     g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487,
-    g2df0_0487, g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
+    g2df0_0487, g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487);
 
-cStackingDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g033e, g0483, g0484, g0485, g0486, g0487, g2de0, g2de1,
-    g2de2, g2de3, g2de4, g2de5, g2de6, g2de7, g2de8, g2de9,
-    g2dea, g2deb, g2dec, g2ded, g2dee, g2def, g2df0, g2df1,
-    g2df2, g2df3, g2df4, g2df5, g2df6, g2df7, g2df9, g2dfa,
-    g2dfb, g2dfc, g2dfd, ga66f, ga674, ga675, ga676, ga677,
-    ga678, ga679, ga67a, ga67b, ga67c, ga67d, ga69e, ga69f,
-    g0486_0301, g0486_0300, g2de3_a675, g2de4_2df7, g2dee_a675);
+cNumeralDia = (g0488, g0489, g20dd, ga670, ga671, ga672);
+
+cnNumeralDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g033e, g0483, g0484, g0485, g0486, g0487,
+    g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6, g2de7,
+    g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee, g2def,
+    g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6, g2df7,
+    g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga674, ga675,
+    ga676, ga677, ga678, ga679, ga67a, ga67b, ga67c, ga67d,
+    ga69e, ga69f, g0486_0301, g0486_0300, g0486_0311, g2de3_a675, g2de4_2df7, g2dee_a675,
+    g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487,
+    g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487, gfe26,
+    gfe2e, gfe2f);
+
+cStackingDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g033e, g0483, g0484, g0485, g0486, g0487,
+    g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6, g2de7,
+    g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee, g2def,
+    g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6, g2df7,
+    g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga674, ga675,
+    ga676, ga677, ga678, ga679, ga67a, ga67b, ga67c, ga67d,
+    ga69e, ga69f, g0486_0301, g0486_0300, g2de3_a675, g2de4_2df7, g2dee_a675);
 
 cnStackingDia = (g0488, g0489, g20dd, ga670, ga671, ga672, g0486_0311, g2de0_0487,
     g2de1_0487, g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487,
@@ -921,33 +945,33 @@ cnStackingDia = (g0488, g0489, g20dd, ga670, ga671, ga672, g0486_0311, g2de0_048
 
 cYerokDia = (g033e, g0484, ga67d);
 
-cnYerokDia = (g0300, g0301, g0306, g0307, g0308, g030b, g030f, g0311,
-    g0483, g0485, g0486, g0487, g0488, g0489, g20dd, g2de0,
-    g2de1, g2de2, g2de3, g2de4, g2de5, g2de6, g2de7, g2de8,
-    g2de9, g2dea, g2deb, g2dec, g2ded, g2dee, g2def, g2df0,
-    g2df1, g2df2, g2df3, g2df4, g2df5, g2df6, g2df7, g2df9,
-    g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga670, ga671, ga672,
-    ga674, ga675, ga676, ga677, ga678, ga679, ga67a, ga67b,
-    ga67c, ga69e, ga69f, g0486_0301, g0486_0300, g0486_0311, g2de3_a675, g2de4_2df7,
-    g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487, g2de7_0487, g2de9_0487, g2dea_0487,
-    g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487, g2df2_0487, g2df3_0487, g2dfd_0487,
-    gfe26, gfe2e, gfe2f);
+cnYerokDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
+    g030f, g0311, g0483, g0485, g0486, g0487, g0488, g0489,
+    g20dd, g2de0, g2de1, g2de2, g2de3, g2de4, g2de5, g2de6,
+    g2de7, g2de8, g2de9, g2dea, g2deb, g2dec, g2ded, g2dee,
+    g2def, g2df0, g2df1, g2df2, g2df3, g2df4, g2df5, g2df6,
+    g2df7, g2df9, g2dfa, g2dfb, g2dfc, g2dfd, ga66f, ga670,
+    ga671, ga672, ga674, ga675, ga676, ga677, ga678, ga679,
+    ga67a, ga67b, ga67c, ga69e, ga69f, g0486_0301, g0486_0300, g0486_0311,
+    g2de3_a675, g2de4_2df7, g2dee_a675, g2de0_0487, g2de1_0487, g2de2_0487, g2de6_0487, g2de7_0487,
+    g2de9_0487, g2dea_0487, g2deb_0487, g2dec_0487, g2ded_0487, g2df0_0487, g2df1_0487, g2df2_0487,
+    g2df3_0487, g2dfd_0487, gfe26, gfe2e, gfe2f);
 
-	cHasAcute = (g0403, g040c, g0453, g045c, g0463_0301, ga64b_0301, g047e_0301, g047f_0301);
+	cHasAcute = (g0403, g040c, g0453, g045c, g0463_0301, ga64b_0301, g047e_0301, g047f_0301, g00c9, g00e9);
 
-	cNo_acute = (g0413, g041a, g0433, g043a, g0463, ga64b, g047e, g047f);
+	cNo_acute = (g0413, g041a, g0433, g043a, g0463, ga64b, g047e, g047f, g0045, g0065);
 
-	cHasGrave = (g0400, g040d, g0450, g045d, g0463_0300, ga64b_0300);
+	cHasGrave = (g0400, g040d, g0450, g045d, g0463_0300, ga64b_0300, g00c0, g00c8, g00e0, g00e8);
 
-	cNo_grave = (g0415, g0418, g0435, g0438, g0463, ga64b);
+	cNo_grave = (g0415, g0418, g0435, g0438, g0463, ga64b, g0041, g0045, g0061, g0065);
 
 	cHasKamora = (ga64b_0311, g0463_0311);
 
 	cNo_kamora = (ga64b, g0463);
 
-	cHasDiaresis = (g0401, g0407, g0451, g0457);
+	cHasDiaresis = (g0401, g0407, g0451, g0457, g00cb, g00cf, g00d6, g00eb, g00ef, g00f6);
 
-	cNoDiaresis  = (g0415, g0406, g0435, g0456);
+	cNoDiaresis  = (g0415, g0406, g0435, g0456, g0045, g0049, g004f, g0065, g0069, g006f);
 
 	cHasBreve = (g040e, g0419, g0439, g045e);
 
@@ -990,6 +1014,15 @@ table (sub)
 		cNoPsili g0463 > cHasPsili:(1 2) _;
 		cNoIso g0463 g0301 > cHasIso:(1 3) _ _;
 		cNoApostrof g0463 g0300 > cHasApostrof:(1 3) _ _;
+		// additional ligatures for Latin
+		g0045 g0302 > g00ca:(1 2) _;
+		g004f g0302 > g00d4:(1 2) _;
+		g0065 g0302 > g00ea:(1 2) _;
+		g006f g0302 > g00f4:(1 2) _;
+		g004e g0303 > g00d1:(1 2) _;
+		g006e g0303 > g00f1:(1 2) _;
+		g0043 g0327 > g00c7:(1 2) _;
+		g0063 g0327 > g00e7:(1 2) _;
 
 		// iso and apostrof ligatures and canonical decompositions	
 		g0486 g0301 > g0486_0301:(1 2) _;
