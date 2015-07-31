@@ -1,5 +1,5 @@
 SplineFontDB: 3.0
-FontName: Pomorsky
+FontName: Pomorskyd
 FullName: Pomorsky Unicode
 FamilyName: Pomorsky
 Weight: Medium
@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1304750996
-ModificationTime: 1438308143
+ModificationTime: 1438365334
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -55,7 +55,11 @@ OS2StrikeYPos: 250
 OS2Vendor: 'pyrs'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000001.00000000.00000000.00000000
+Lookup: 4 0 0 "'ccmp' Canonical Compositions"  {"'ccmp' Canonical Compositions-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Precomposed Glyphs for Cyrillic"  {"'ccmp' Precomposed Glyphs for Cyrillic-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Style Set Simple Forms"  {"'ss01' Style Set Simple Forms-1" ("simple" ) } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Diacritical Mark Positioning"  {"'mark' Diacritical Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Stacking of Diacritical Marks"  {"'mkmk' Stacking of Diacritical Marks-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "Copyright 1999-2000 Nikita Simmons; Copyright 2015 Aleksandr Andreev and Nikita Simmons." "" "Regular" "" "" "Beta 0.5" "" "" "" "" "" "" "" "Copyright (c) 2015, Aleksandr Andreev and Nikita Simmons (<http://www.ponomar.net/|aleksandr.andreev@gmail.com>),+AAoA-with Reserved Font Name Pomorsky Unicode.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Pomorsky" "Regular" 
@@ -67,7 +71,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 108 27 9
+WinInfo: 81 27 10
 BeginPrivate: 7
 BlueValues 31 [-11 0 400 405 553 597 600 601]
 BlueScale 4 4096
@@ -78,8 +82,8 @@ StemSnapV 7 [22 77]
 ExpansionFactor 4 0.06
 EndPrivate
 TeXData: 1 0 0 524288 262144 174762 723517 1048576 174762 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "Diacritic"  "'mark' Diacritical Mark Positioning-1" 
-BeginChars: 1114113 333
+AnchorClass2: "Stacking"  "'mkmk' Stacking of Diacritical Marks-1" "Yerok"  "'mark' Diacritical Mark Positioning-1" "Diacritic"  "'mark' Diacritical Mark Positioning-1" 
+BeginChars: 1114113 335
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -463,9 +467,11 @@ EndChar
 StartChar: uni0470
 Encoding: 1136 1136 9
 Width: 580
-Flags: W
+Flags: HW
 HStem: 0 12<100 126 202 238 255 319 343 378> 538 12<0 26 102 128 480.567 540.395>
 VStem: 118 52<-149.377 -118.011> 238 17<-134.967 -74.093 -42.907 0 12 93.116 502 584.188> 319 24<12 32> 353 52<610.011 643.992> 515 52<473.229 507.924>
+AnchorPoint: "Yerok" 505 575 mark 0
+AnchorPoint: "Diacritic" 266 698 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -634,6 +640,7 @@ SplineSet
  234 -40 234 -40 238 -39 c 1,143,-1
  238 0 l 1,0,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0470.simple
 Colour: ff00
 EndChar
 
@@ -641,9 +648,11 @@ StartChar: uni0405.simple
 Encoding: 62725 62725 10
 Width: 480
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -89 47<36.875 67.8247> 427 12<342 368 444 470> 529 21<207.988 317.889>
 VStem: 36 4<-20.9942 -13.5938> 368 76<439 499.364>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 259 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -743,9 +752,11 @@ EndChar
 StartChar: uni047E
 Encoding: 1150 1150 11
 Width: 900
-Flags: W
+Flags: HW
 HStem: -46 12<307.08 350.023 533.328 575.92> 0 14<214.445 276.111 608.328 669.555> 321.25 12.625<289.252 301.873 580.252 592.873> 335.25 12.625<305.252 317.873 564.252 576.873> 355.25 12.625<305.252 317.873 564.252 576.873> 383 20G<439.519 446.472> 384 82<243.119 287.214 596.786 640.881> 578 109<404 481> 675 12<321.809 404 481 554.191>
 VStem: 4 88<161.011 389.52> 239 63<401.664 464.4> 275 27<605.281 620.031> 289.25 12.625<321.252 333.873> 305.25 12.625<335.252 347.873 355.252 367.873> 329 46<410.063 519.824> 404 77<578 675> 435 13<-128.904 -76.2989> 441 4<308.5 403> 509 46<410.063 519.824> 564.25 12.625<335.252 347.873 355.252 367.873> 574 26<604.016 620.031> 580.25 12.625<321.252 333.873> 582 63<401.664 464.4> 792 88<161.011 389.52>
+AnchorPoint: "Yerok" 835 534 mark 0
+AnchorPoint: "Diacritic" 445 716 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -1191,15 +1202,18 @@ SplineSet
  226 687 l 1,359,-1
  650 687 l 1,323,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni047E.simple
 Colour: ff00
 EndChar
 
 StartChar: uni0472
 Encoding: 1138 1138 12
 Width: 525
-Flags: W
+Flags: HW
 HStem: -79 91<197 254> 0 12<317 329.005> 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 538 12<264.429 327>
 VStem: 55 22<-86.3069 -23.0074 34.5251 80> 109.25 12.625<166.252 178.873> 123 76<268.547 472.134> 125.25 12.625<132.252 144.873 152.252 164.873> 179 77<-79 0> 325 76<76.4804 278.543> 349 28<-86.3069 -23.0074> 447 22<470 515.475>
+AnchorPoint: "Yerok" 374 575 mark 0
+AnchorPoint: "Diacritic" 287 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -1540,33 +1554,36 @@ SplineSet
  463 329 463 329 453 354 c 1,284,-1
  450 377 l 1,232,233
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0472.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10054
+StartChar: uni0405
 Encoding: 1029 1029 13
 Width: 480
-Flags: W
+Flags: HW
 HStem: -89 47<36.875 67.8247> 120.521 10.732<250.349 261.076> 132.972 10.731<242.949 253.676> 145.872 10.732<248.449 259.176 298.176 304.883> 382.396 10.732<217.117 223.824 262.824 273.551> 395.297 10.731<268.324 279.051> 407.747 10.732<260.924 271.651> 427 12<342 368 444 470> 529 21<207.988 317.889>
 VStem: 36 4<-20.9942 -13.5938> 219 34<192.735 212.238> 227 8<419.749 445.715> 242.947 10.731<132.974 143.701> 248.447 10.731<145.874 156.602> 250.347 10.731<120.523 131.251 432.349 475.25> 260.922 10.731<63.75 106.651 382.769 392.756 407.749 418.477> 268.322 10.731<395.299 406.026> 269 34<326.762 345.009> 287 8<93.2852 119.251> 368 76<439 499.364>
+AnchorPoint: "Yerok" 404 574 mark 0
+AnchorPoint: "Diacritic" 259 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-260.922 413.112 m 4xffc110
- 260.922 416.074 263.326 418.479 266.287 418.479 c 4
- 269.249 418.479 271.653 416.074 271.653 413.112 c 4
- 271.653 410.15 269.249 407.747 266.287 407.747 c 4
- 263.326 407.747 260.922 410.15 260.922 413.112 c 4xffc110
-268.322 400.662 m 4xffc090
- 268.322 403.624 270.726 406.028 273.688 406.028 c 4
- 276.649 406.028 279.053 403.624 279.053 400.662 c 4
- 279.053 397.701 276.649 395.297 273.688 395.297 c 4
- 270.726 395.297 268.322 397.701 268.322 400.662 c 4xffc090
-262.822 387.763 m 4
- 262.822 390.725 265.226 393.128 268.188 393.128 c 4
- 271.149 393.128 273.553 390.725 273.553 387.763 c 4
- 273.553 384.801 271.149 382.396 268.188 382.396 c 4
- 265.226 382.396 262.822 384.801 262.822 387.763 c 4
+260.922 413.112 m 0xffc110
+ 260.922 416.074 263.326 418.479 266.287 418.479 c 0
+ 269.249 418.479 271.653 416.074 271.653 413.112 c 0
+ 271.653 410.15 269.249 407.747 266.287 407.747 c 0
+ 263.326 407.747 260.922 410.15 260.922 413.112 c 0xffc110
+268.322 400.662 m 0xffc090
+ 268.322 403.624 270.726 406.028 273.688 406.028 c 0
+ 276.649 406.028 279.053 403.624 279.053 400.662 c 0
+ 279.053 397.701 276.649 395.297 273.688 395.297 c 0
+ 270.726 395.297 268.322 397.701 268.322 400.662 c 0xffc090
+262.822 387.763 m 0
+ 262.822 390.725 265.226 393.128 268.188 393.128 c 0
+ 271.149 393.128 273.553 390.725 273.553 387.763 c 0
+ 273.553 384.801 271.149 382.396 268.188 382.396 c 0
+ 265.226 382.396 262.822 384.801 262.822 387.763 c 0
 194 342 m 0
  191 356 192 363 196 377 c 0
  203 402 226 411 227 434 c 0
@@ -1836,33 +1853,36 @@ SplineSet
  135 418 135 418 139 382.5 c 128,-1,150
  143 347 143 347 163 322 c 128,-1,151
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0405.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10017
+StartChar: uni0410
 Encoding: 1040 1040 14
 Width: 430
-Flags: W
+Flags: HW
 HStem: -128 10<33.5965 80.5543> 0 12<283 309 385 411> 487.747 10.732<212.999 223.727> 502.646 10.732<204.398 215.126> 516.646 10.732<212.398 223.126> 538 12<283 309 385 411> 567 20G<226.571 238>
 VStem: 2 41<-91.0028 -61.4836> 160 42<414.482 438.263> 204.396 10.732<502.648 513.376> 212.997 10.732<487.749 498.477 516.689 527.335> 309 76<12 143 154.08 418 437 462.019 465 491.155 495 538>
+AnchorPoint: "Yerok" 348 575 mark 0
+AnchorPoint: "Diacritic" 350 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-223.128 522.013 m 4xff90
- 223.128 519.051 220.725 516.646 217.763 516.646 c 4
- 214.801 516.646 212.396 519.051 212.396 522.013 c 4
- 212.396 524.975 214.801 527.378 217.763 527.378 c 4
- 220.725 527.378 223.128 524.975 223.128 522.013 c 4xff90
-215.128 508.013 m 4xffd0
- 215.128 505.051 212.725 502.646 209.763 502.646 c 4
- 206.801 502.646 204.396 505.051 204.396 508.013 c 4
- 204.396 510.975 206.801 513.378 209.763 513.378 c 4
- 212.725 513.378 215.128 510.975 215.128 508.013 c 4xffd0
-223.729 493.112 m 4xffb0
- 223.729 490.15 221.324 487.747 218.362 487.747 c 4
- 215.4 487.747 212.997 490.15 212.997 493.112 c 4
- 212.997 496.074 215.4 498.479 218.362 498.479 c 4
- 221.324 498.479 223.729 496.074 223.729 493.112 c 4xffb0
+223.128 522.013 m 0xff90
+ 223.128 519.051 220.725 516.646 217.763 516.646 c 0
+ 214.801 516.646 212.396 519.051 212.396 522.013 c 0
+ 212.396 524.975 214.801 527.378 217.763 527.378 c 0
+ 220.725 527.378 223.128 524.975 223.128 522.013 c 0xff90
+215.128 508.013 m 0xffd0
+ 215.128 505.051 212.725 502.646 209.763 502.646 c 0
+ 206.801 502.646 204.396 505.051 204.396 508.013 c 0
+ 204.396 510.975 206.801 513.378 209.763 513.378 c 0
+ 212.725 513.378 215.128 510.975 215.128 508.013 c 0xffd0
+223.729 493.112 m 0xffb0
+ 223.729 490.15 221.324 487.747 218.362 487.747 c 0
+ 215.4 487.747 212.997 490.15 212.997 493.112 c 0
+ 212.997 496.074 215.4 498.479 218.362 498.479 c 0
+ 221.324 498.479 223.729 496.074 223.729 493.112 c 0xffb0
 309 162 m 1
  309 418 l 1
  288 390 232 349 195 281 c 0
@@ -2080,33 +2100,36 @@ SplineSet
  212 30 212 30 196 19 c 0,189,190
  182 9 182 9 145 0 c 1,27,28
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0410.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10018
+StartChar: uni0411
 Encoding: 1041 1041 15
 Width: 525
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 397.25 12.625<292.252 304.873> 411.25 12.625<276.252 288.873> 431.25 12.625<276.252 288.873> 457 26<280.039 295.522> 533 17<270 343.862 370 403.761>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<285.262 531.472> 276.25 12.625<411.252 423.873 431.252 443.873> 292.25 12.625<397.252 409.873>
+AnchorPoint: "Yerok" 436 575 mark 0
+AnchorPoint: "Diacritic" 304 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-288.875 437.562 m 4xffcc
- 288.875 434.078 286.047 431.25 282.562 431.25 c 4
- 279.078 431.25 276.25 434.078 276.25 437.562 c 4
- 276.25 441.047 279.078 443.875 282.562 443.875 c 4
- 286.047 443.875 288.875 441.047 288.875 437.562 c 4xffcc
-288.875 417.562 m 4
- 288.875 414.078 286.047 411.25 282.562 411.25 c 4
- 279.078 411.25 276.25 414.078 276.25 417.562 c 4
- 276.25 421.047 279.078 423.875 282.562 423.875 c 4
- 286.047 423.875 288.875 421.047 288.875 417.562 c 4
-304.875 403.562 m 4
- 304.875 400.078 302.047 397.25 298.562 397.25 c 4
- 295.078 397.25 292.25 400.078 292.25 403.562 c 4
- 292.25 407.047 295.078 409.875 298.562 409.875 c 4
- 302.047 409.875 304.875 407.047 304.875 403.562 c 4
+288.875 437.562 m 0xffcc
+ 288.875 434.078 286.047 431.25 282.562 431.25 c 0
+ 279.078 431.25 276.25 434.078 276.25 437.562 c 0
+ 276.25 441.047 279.078 443.875 282.562 443.875 c 0
+ 286.047 443.875 288.875 441.047 288.875 437.562 c 0xffcc
+288.875 417.562 m 0
+ 288.875 414.078 286.047 411.25 282.562 411.25 c 0
+ 279.078 411.25 276.25 414.078 276.25 417.562 c 0
+ 276.25 421.047 279.078 423.875 282.562 423.875 c 0
+ 286.047 423.875 288.875 421.047 288.875 417.562 c 0
+304.875 403.562 m 0
+ 304.875 400.078 302.047 397.25 298.562 397.25 c 0
+ 295.078 397.25 292.25 400.078 292.25 403.562 c 0
+ 292.25 407.047 295.078 409.875 298.562 409.875 c 0
+ 302.047 409.875 304.875 407.047 304.875 403.562 c 0
 125.25 138.562 m 0xffec
  125.25 142.047 128.078 144.875 131.562 144.875 c 0
  135.047 144.875 137.875 142.047 137.875 138.562 c 0
@@ -2404,15 +2427,18 @@ SplineSet
  372 231 372 231 343 233 c 0,256,257
  270 239 270 239 216 307 c 1,239,240
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0411.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10019
+StartChar: uni0412
 Encoding: 1042 1042 16
 Width: 455
-Flags: W
+Flags: HW
 HStem: 0 21G<96 345> 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 317.747 10.732<329.999 340.727> 333.747 10.732<327.999 338.727> 339.646 10.732<313.398 324.126>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 68<337.984 425.999> 125.25 12.625<132.252 144.873 152.252 164.873> 313.396 10.732<339.648 350.376> 329.997 10.732<317.749 328.477 334.169 344.057> 337 56<409.948 520.663>
+AnchorPoint: "Yerok" 348 575 mark 0
+AnchorPoint: "Diacritic" 275 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -2747,6 +2773,7 @@ SplineSet
  61 221 61 221 71 196 c 1,277,-1
  74 173 l 1,225,226
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0412.simple
 Colour: ff00
 EndChar
 
@@ -2754,9 +2781,11 @@ StartChar: uni0410.simple
 Encoding: 62736 62736 17
 Width: 430
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<283 309 283 309 385 411> 147 19<155 309 156 309 156 309> 538 12<283 309 283 411 385 385 385 411>
 VStem: 309 76<12 147 147 147 166 418 418 418 437 538 12 538>
+AnchorPoint: "Yerok" 345 575 mark 0
+AnchorPoint: "Diacritic" 345 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -2850,9 +2879,11 @@ StartChar: uni0411.simple
 Encoding: 62737 62737 18
 Width: 470
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 397.25 12.625<237.252 249.873> 411.25 12.625<221.252 233.873> 431.25 12.625<221.252 233.873> 457 26<225.039 240.522> 533 17<215 288.862 315 348.761>
 VStem: 0 22<34.5251 80> 76 80<285.262 531.472> 221.25 12.625<411.252 423.873 431.252 443.873> 237.25 12.625<397.252 409.873>
+AnchorPoint: "Yerok" 379 575 mark 0
+AnchorPoint: "Diacritic" 257 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3087,9 +3118,11 @@ StartChar: uni0412.simple
 Encoding: 62738 62738 19
 Width: 405
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -10 20
 VStem: 0 22<80 80 80 97> 68 73<362 362 362 424.5> 282 56<465 479>
+AnchorPoint: "Yerok" 309 575 mark 0
+AnchorPoint: "Diacritic" 210 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3213,30 +3246,32 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10020
+StartChar: uni0413
 Encoding: 1043 1043 20
 Width: 525
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 397.25 12.625<292.252 304.873> 411.25 12.625<276.252 288.873> 431.25 12.625<276.252 288.873> 457 26<280.039 295.522> 533 17<270 343.862 370 403.761>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<224.9 531.472> 276.25 12.625<411.252 423.873 431.252 443.873> 292.25 12.625<397.252 409.873>
+AnchorPoint: "Yerok" 431 575 mark 0
+AnchorPoint: "Diacritic" 314 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-288.875 437.562 m 4xffcc
- 288.875 434.078 286.047 431.25 282.562 431.25 c 4
- 279.078 431.25 276.25 434.078 276.25 437.562 c 4
- 276.25 441.047 279.078 443.875 282.562 443.875 c 4
- 286.047 443.875 288.875 441.047 288.875 437.562 c 4xffcc
-288.875 417.562 m 4
- 288.875 414.078 286.047 411.25 282.562 411.25 c 4
- 279.078 411.25 276.25 414.078 276.25 417.562 c 4
- 276.25 421.047 279.078 423.875 282.562 423.875 c 4
- 286.047 423.875 288.875 421.047 288.875 417.562 c 4
-304.875 403.562 m 4
- 304.875 400.078 302.047 397.25 298.562 397.25 c 4
- 295.078 397.25 292.25 400.078 292.25 403.562 c 4
- 292.25 407.047 295.078 409.875 298.562 409.875 c 4
- 302.047 409.875 304.875 407.047 304.875 403.562 c 4
+288.875 437.562 m 0xffcc
+ 288.875 434.078 286.047 431.25 282.562 431.25 c 0
+ 279.078 431.25 276.25 434.078 276.25 437.562 c 0
+ 276.25 441.047 279.078 443.875 282.562 443.875 c 0
+ 286.047 443.875 288.875 441.047 288.875 437.562 c 0xffcc
+288.875 417.562 m 0
+ 288.875 414.078 286.047 411.25 282.562 411.25 c 0
+ 279.078 411.25 276.25 414.078 276.25 417.562 c 0
+ 276.25 421.047 279.078 423.875 282.562 423.875 c 0
+ 286.047 423.875 288.875 421.047 288.875 417.562 c 0
+304.875 403.562 m 0
+ 304.875 400.078 302.047 397.25 298.562 397.25 c 0
+ 295.078 397.25 292.25 400.078 292.25 403.562 c 0
+ 292.25 407.047 295.078 409.875 298.562 409.875 c 0
+ 302.047 409.875 304.875 407.047 304.875 403.562 c 0
 125.25 138.562 m 0xffec
  125.25 142.047 128.078 144.875 131.562 144.875 c 0
  135.047 144.875 137.875 142.047 137.875 138.562 c 0
@@ -3503,6 +3538,7 @@ SplineSet
  283 510 283 510 277 515 c 0,228,229
  265 526 265 526 231 533 c 1,77,78
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0413.simple
 Colour: ff00
 EndChar
 
@@ -3510,9 +3546,11 @@ StartChar: uni0413.simple
 Encoding: 62739 62739 21
 Width: 470
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 397.25 12.625<237.252 249.873> 411.25 12.625<221.252 233.873> 431.25 12.625<221.252 233.873> 457 26<225.039 240.522> 533 17<215 288.862 315 348.761>
 VStem: 0 22<34.5251 80> 76 80<224.9 531.472> 221.25 12.625<411.252 423.873 431.252 443.873> 237.25 12.625<397.252 409.873>
+AnchorPoint: "Yerok" 372 575 mark 0
+AnchorPoint: "Diacritic" 238 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3712,12 +3750,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10021
+StartChar: uni0414
 Encoding: 1044 1044 22
 Width: 530
-Flags: W
+Flags: HW
 HStem: 0 12<149 359 435 442> 487.747 10.732<262.999 273.727> 502.646 10.732<254.398 265.126> 516.646 10.732<262.398 273.126> 538 12<333 359 435 461> 567 20G<276.571 288>
 VStem: 49 28<-86.3069 -23.0074> 210 42<414.482 438.263> 254.396 10.732<502.648 513.376> 262.997 10.732<487.749 498.477 516.689 527.335> 359 76<12 418 437 462.019 465 491.155 495 538> 449 28<-86.3069 -23.0074>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 399 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -3962,15 +4002,18 @@ SplineSet
  435 538 l 1,200,-1
  435 12 l 1,23,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0414.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10022
+StartChar: uni0415
 Encoding: 1045 1045 23
 Width: 475
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 384 82<278.119 322.214>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 76<269.001 473.536> 125.25 12.625<132.252 144.873 152.252 164.873> 274 63<401.664 464.4> 305 56<255.366 282.152> 364 46<410.063 515.034> 411 41<136.811 167.003>
+AnchorPoint: "Yerok" 373 575 mark 0
+AnchorPoint: "Diacritic" 275 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -4213,15 +4256,18 @@ SplineSet
  297 313 297 313 278 304 c 0,210,211
  243 289 243 289 230 238 c 1,65,66
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0415.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10024
+StartChar: uni0416
 Encoding: 1046 1046 24
 Width: 600
-Flags: W
+Flags: HW
 HStem: 0 12<232 258 334 360> 296.396 10.732<71.4237 82.1505 509.824 520.551> 312.297 10.731<66.9237 77.6505 514.324 525.051> 323.747 10.732<78.3231 89.0509 502.924 513.651> 538 12<82 108 159 185 232 258 334 360 407 433 484 510>
 VStem: -1 41<39.9972 68.3354 239.662 256.004> 71.4219 10.7304<296.398 307.126 314.771 320.554> 258 76<12 332 346.786 471 474.525 538> 502.922 10.731<323.749 334.477> 509.822 10.731<296.398 307.126 314.771 320.554> 549 39<235.119 258.308> 552 41<41.7531 72.1891>
+AnchorPoint: "Yerok" 461 575 mark 0
+AnchorPoint: "Diacritic" 299 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -4240,21 +4286,21 @@ SplineSet
  73.8252 296.396 71.4219 298.801 71.4219 301.763 c 0
  71.4219 304.725 73.8252 307.128 76.7871 307.128 c 0
  79.749 307.128 82.1523 304.725 82.1523 301.763 c 0
-502.922 329.112 m 4xff80
- 502.922 332.074 505.326 334.479 508.287 334.479 c 4
- 511.249 334.479 513.653 332.074 513.653 329.112 c 4
- 513.653 326.15 511.249 323.747 508.287 323.747 c 4
- 505.326 323.747 502.922 326.15 502.922 329.112 c 4xff80
-514.322 317.662 m 4
- 514.322 320.624 516.726 323.028 519.688 323.028 c 4
- 522.649 323.028 525.053 320.624 525.053 317.662 c 4
- 525.053 314.701 522.649 312.297 519.688 312.297 c 4
- 516.726 312.297 514.322 314.701 514.322 317.662 c 4
-509.822 301.763 m 4xff40
- 509.822 304.725 512.226 307.128 515.188 307.128 c 4
- 518.149 307.128 520.553 304.725 520.553 301.763 c 4
- 520.553 298.801 518.149 296.396 515.188 296.396 c 4
- 512.226 296.396 509.822 298.801 509.822 301.763 c 4xff40
+502.922 329.112 m 0xff80
+ 502.922 332.074 505.326 334.479 508.287 334.479 c 0
+ 511.249 334.479 513.653 332.074 513.653 329.112 c 0
+ 513.653 326.15 511.249 323.747 508.287 323.747 c 0
+ 505.326 323.747 502.922 326.15 502.922 329.112 c 0xff80
+514.322 317.662 m 0
+ 514.322 320.624 516.726 323.028 519.688 323.028 c 0
+ 522.649 323.028 525.053 320.624 525.053 317.662 c 0
+ 525.053 314.701 522.649 312.297 519.688 312.297 c 0
+ 516.726 312.297 514.322 314.701 514.322 317.662 c 0
+509.822 301.763 m 0xff40
+ 509.822 304.725 512.226 307.128 515.188 307.128 c 0
+ 518.149 307.128 520.553 304.725 520.553 301.763 c 0
+ 520.553 298.801 518.149 296.396 515.188 296.396 c 0
+ 512.226 296.396 509.822 298.801 509.822 301.763 c 0xff40
 258 471 m 1
  242 457 208 445 165 461 c 0
  99 486 108 538 108 538 c 1
@@ -4644,15 +4690,18 @@ SplineSet
  258 351 l 1,346,-1
  258 471 l 1,24,25
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0416.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10025
+StartChar: uni0417
 Encoding: 1047 1047 25
 Width: 480
-Flags: W
+Flags: HW
 HStem: -89 47<36.875 67.8247> 120.521 10.732<250.349 261.076> 132.972 10.731<242.949 253.676> 145.872 10.732<248.449 259.176 298.176 304.883> 382.396 10.732<248.449 259.176 298.176 304.883> 395.297 10.731<242.949 253.676> 407.747 10.732<250.349 261.076> 427 12<52 78 154 180> 529 21<204.111 314.407>
 VStem: 78 76<439 499.364> 219 34<192.735 211.73 327.27 346.265> 242.947 10.731<132.974 143.701 395.299 406.026> 250.347 10.731<120.523 131.251 146.244 156.231 382.769 392.756 407.749 418.477> 261 8<68.4333 99.8172 439.183 470.567> 287 8<93.2852 119.251 419.749 445.715>
+AnchorPoint: "Yerok" 387 575 mark 0
+AnchorPoint: "Diacritic" 257 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -4696,21 +4745,21 @@ SplineSet
  295 434 l 0
  296 411 319 402 326 377 c 0
  330 363 331 356 328 342 c 0
-261.078 125.888 m 4xffca
- 261.078 122.926 258.674 120.521 255.713 120.521 c 4
- 252.751 120.521 250.347 122.926 250.347 125.888 c 4
- 250.347 128.85 252.751 131.253 255.713 131.253 c 4
- 258.674 131.253 261.078 128.85 261.078 125.888 c 4xffca
-253.678 138.338 m 4xffd2
- 253.678 135.376 251.274 132.972 248.312 132.972 c 4
- 245.351 132.972 242.947 135.376 242.947 138.338 c 4
- 242.947 141.299 245.351 143.703 248.312 143.703 c 4
- 251.274 143.703 253.678 141.299 253.678 138.338 c 4xffd2
-259.178 151.237 m 4
- 259.178 148.275 256.774 145.872 253.812 145.872 c 4
- 250.851 145.872 248.447 148.275 248.447 151.237 c 4
- 248.447 154.199 250.851 156.604 253.812 156.604 c 4
- 256.774 156.604 259.178 154.199 259.178 151.237 c 4
+261.078 125.888 m 0xffca
+ 261.078 122.926 258.674 120.521 255.713 120.521 c 0
+ 252.751 120.521 250.347 122.926 250.347 125.888 c 0
+ 250.347 128.85 252.751 131.253 255.713 131.253 c 0
+ 258.674 131.253 261.078 128.85 261.078 125.888 c 0xffca
+253.678 138.338 m 0xffd2
+ 253.678 135.376 251.274 132.972 248.312 132.972 c 0
+ 245.351 132.972 242.947 135.376 242.947 138.338 c 0
+ 242.947 141.299 245.351 143.703 248.312 143.703 c 0
+ 251.274 143.703 253.678 141.299 253.678 138.338 c 0xffd2
+259.178 151.237 m 0
+ 259.178 148.275 256.774 145.872 253.812 145.872 c 0
+ 250.851 145.872 248.447 148.275 248.447 151.237 c 0
+ 248.447 154.199 250.851 156.604 253.812 156.604 c 0
+ 256.774 156.604 259.178 154.199 259.178 151.237 c 0
 464 124 m 0
  464 -25 233 -13 194 9 c 0
  135 42 149 80 76 39 c 0
@@ -4745,31 +4794,31 @@ SplineSet
  446 335 414 303 358 277 c 0
  352 274 346 272 340 270 c 1
  409 254 464 196 464 124 c 0
-328 197 m 4
- 331 183 330 176 326 162 c 4
- 319 137 296 128 295 105 c 4
- 295 93 l 5
- 295 93 288.5 93.25 287 109 c 4
- 286.033 119.152 289 124 289 124 c 5
- 289 124 268 105 269 81 c 4
- 269 67 281 57 295 57 c 4
- 304 57 311 60 315 69 c 4
- 322 83 312 89 317 88 c 5
- 327.25 85 324.75 68 317 57 c 4
- 308.003 44.2305 281 46 269 59 c 4
- 261 67 259.754 80.8783 261 91 c 4
- 265 123.5 305 144 305 144 c 5
- 305 144 288.973 138.695 280 138 c 4
- 264.5 136.8 262.307 139.024 262 141 c 4
- 260.75 149.05 280 140 301 153 c 4
- 316 162 318 174 316 187 c 5
- 305 172 285 162 266 162 c 4
- 242 163 215.882 174.106 219 201 c 4
- 221 218.25 253 225 253 206 c 4xffe6
- 253 182 231 194 231 194 c 5
- 231 174 266 170 285 177 c 4
- 311 187 320 203 322 215 c 5
- 322 215 327 204 328 197 c 4
+328 197 m 0
+ 331 183 330 176 326 162 c 0
+ 319 137 296 128 295 105 c 0
+ 295 93 l 1
+ 295 93 288.5 93.25 287 109 c 0
+ 286.033 119.152 289 124 289 124 c 1
+ 289 124 268 105 269 81 c 0
+ 269 67 281 57 295 57 c 0
+ 304 57 311 60 315 69 c 0
+ 322 83 312 89 317 88 c 1
+ 327.25 85 324.75 68 317 57 c 0
+ 308.003 44.2305 281 46 269 59 c 0
+ 261 67 259.754 80.8783 261 91 c 0
+ 265 123.5 305 144 305 144 c 1
+ 305 144 288.973 138.695 280 138 c 0
+ 264.5 136.8 262.307 139.024 262 141 c 0
+ 260.75 149.05 280 140 301 153 c 0
+ 316 162 318 174 316 187 c 1
+ 305 172 285 162 266 162 c 0
+ 242 163 215.882 174.106 219 201 c 0
+ 221 218.25 253 225 253 206 c 0xffe6
+ 253 182 231 194 231 194 c 1
+ 231 174 266 170 285 177 c 0
+ 311 187 320 203 322 215 c 1
+ 322 215 327 204 328 197 c 0
 EndSplineSet
 Layer: 2
 SplineSet
@@ -4954,6 +5003,7 @@ SplineSet
  318 190 318 190 322 215 c 1,237,238
  327 204 327 204 328 197 c 4,176,177
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0417.simple
 Colour: ff00
 EndChar
 
@@ -4961,9 +5011,11 @@ StartChar: uni0414.simple
 Encoding: 62740 62740 26
 Width: 530
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<150 360> 538 12<334 360 334 462 436 436 436 462>
 VStem: 360 76<12 418 418 418 437 538> 458 17
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 400 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -5078,9 +5130,11 @@ StartChar: uni0415.simple
 Encoding: 62741 62741 27
 Width: 420
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 20G
 VStem: 0 22<80 80 80 97> 68 76<361.5 408.5 361.5 424.5> 250 37<245 295> 355 21
+AnchorPoint: "Yerok" 320 575 mark 0
+AnchorPoint: "Diacritic" 226 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -5242,9 +5296,11 @@ StartChar: uni0416.simple
 Encoding: 62742 62742 28
 Width: 600
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<232 258 334 360 232 258> 538 12<232 258 334 334 334 360>
 VStem: 258 76<12 359 12 359 378 388 12 388 398 538> 479 15 552 20<27.5 42>
+AnchorPoint: "Yerok" 440 575 mark 0
+AnchorPoint: "Diacritic" 300 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -5457,9 +5513,11 @@ StartChar: uni0417.simple
 Encoding: 62743 62743 29
 Width: 480
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 427 12<52 78 154 180 52 78> 529 21G<229 305 182 323.5>
 VStem: 78 76<439 460>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 266 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -5570,12 +5628,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10026
+StartChar: uni0418
 Encoding: 1048 1048 30
 Width: 525
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 534 16<237.266 257.654 487.266 507.654>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<298.829 516.632> 305 22<34.5251 80> 381 80<224.9 489.347>
+AnchorPoint: "Yerok" 454 575 mark 0
+AnchorPoint: "Diacritic" 327 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -5818,15 +5878,18 @@ SplineSet
  285 431 285 431 320 455 c 1,209,210
  347 475 347 475 391 480 c 1,65,66
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0418.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10028
+StartChar: uni041A
 Encoding: 1050 1050 31
 Width: 565
-Flags: W
+Flags: HW
 HStem: 0 21G<489 520> 84.25 12.625<283.252 295.873> 98.25 12.625<267.252 279.873> 118.25 12.625<267.252 279.873> 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 539 11<244.651 257.654 391.304 437.504>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<224.9 516.632> 267.25 12.625<98.2521 110.873 118.252 130.873> 283.25 12.625<84.2521 96.8729> 401 61<57.9141 180.963> 415 52<473.229 507.924> 512 41<43.7531 74.1891>
+AnchorPoint: "Yerok" 417 575 mark 0
+AnchorPoint: "Diacritic" 319 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -6133,15 +6196,18 @@ SplineSet
  211 321 211 321 229 240 c 128,-1,253
  247 159 247 159 250 125 c 0,196,197
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni041A.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10029
+StartChar: uni041B
 Encoding: 1051 1051 32
 Width: 430
-Flags: W
+Flags: HW
 HStem: 0 12<283 309 385 411> 487.747 10.732<212.999 223.727> 502.646 10.732<204.398 215.126> 516.646 10.732<212.398 223.126> 538 12<283 309 385 411> 567 20G<226.571 238>
 VStem: 0 41<41.9972 72.1891> 160 42<414.482 438.263> 204.396 10.732<502.648 513.376> 212.997 10.732<487.749 498.477 516.689 527.335> 309 76<12 418 437 462.019 465 491.155 495 538>
+AnchorPoint: "Yerok" 349 575 mark 0
+AnchorPoint: "Diacritic" 347 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -6357,15 +6423,18 @@ SplineSet
  261 429 261 429 269 427 c 1,173,-1
  292 417 l 1,12,13
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni041B.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10030
+StartChar: uni041C
 Encoding: 1052 1052 33
 Width: 630
-Flags: W
+Flags: HW
 HStem: 0 12<283 309 385 411 483 509 585 611> 487.747 10.732<212.999 223.727> 502.646 10.732<204.398 215.126> 516.646 10.732<212.398 223.126> 538 12<283 309 385 411 483 509 585 611> 567 20G<226.571 238>
 VStem: 0 41<41.9972 72.1891> 160 42<414.482 438.263> 204.396 10.732<502.648 513.376> 212.997 10.732<487.749 498.477 516.689 527.335> 309 76<12 300 323 418 437 462.019 465 491.155 495 538> 509 76<12 423 447 538>
+AnchorPoint: "Yerok" 554 575 mark 0
+AnchorPoint: "Diacritic" 446 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -6613,15 +6682,18 @@ SplineSet
  509 423 l 1,189,-1
  385 300 l 1,12,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni041C.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10031
+StartChar: uni041D
 Encoding: 1053 1053 34
 Width: 530
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 534 16<237.266 257.654 487.266 507.654>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<224.9 460.119> 305 22<34.5251 80> 381 80<260.505 516.632>
+AnchorPoint: "Yerok" 456 575 mark 0
+AnchorPoint: "Diacritic" 334 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -6863,15 +6935,18 @@ SplineSet
  268 439 268 439 261 443 c 0,209,210
  240 455 240 455 219 462 c 1,65,66
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni041D.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10032
+StartChar: uni041E
 Encoding: 1054 1054 35
 Width: 525
-Flags: W
+Flags: HW
 HStem: 0 12<197 259.573> 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 371.25 12.625<402.252 414.873> 385.25 12.625<386.252 398.873> 405.25 12.625<386.252 398.873> 538 12<264.429 327>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 76<268.547 472.134> 125.25 12.625<132.252 144.873 152.252 164.873> 325 76<77.8745 278.543> 386.25 12.625<385.252 397.873 405.252 417.873> 402.25 12.625<371.252 383.873> 447 22<470 515.475>
+AnchorPoint: "Yerok" 370 575 mark 0
+AnchorPoint: "Diacritic" 298 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -7168,15 +7243,18 @@ SplineSet
  389 295 389 295 395 260.5 c 128,-1,236
  401 226 401 226 401 168 c 0,147,148
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni041E.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10033
+StartChar: uni041F
 Encoding: 1055 1055 36
 Width: 560
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 534 16<527.477 548.088> 680 10<339.401 354.536>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<224.9 506.374> 345 22<34.5251 80> 421 80<224.9 505.81>
+AnchorPoint: "Yerok" 492 659 mark 0
+AnchorPoint: "Diacritic" 349 718 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -7510,15 +7588,18 @@ SplineSet
  340 471 340 471 347 438 c 1,276,277
  356 473 356 473 380 499 c 1,272,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni041F.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10034
+StartChar: uni0420
 Encoding: 1056 1056 37
 Width: 465
-Flags: W
+Flags: HW
 HStem: 0 21G<96 205> 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 76<318.775 473.536> 125.25 12.625<132.252 144.873 152.252 164.873>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 275 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -7700,15 +7781,18 @@ SplineSet
  244 368 244 368 235 369 c 0,145,146
  219 370 219 370 202 346 c 1,84,85
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0420.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10035
+StartChar: uni0421
 Encoding: 1057 1057 38
 Width: 475
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 384 82<278.119 322.214>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 76<268.547 473.536> 125.25 12.625<132.252 144.873 152.252 164.873> 274 63<401.664 464.4> 364 46<410.063 515.034> 411 41<136.811 167.003>
+AnchorPoint: "Yerok" 377 575 mark 0
+AnchorPoint: "Diacritic" 275 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -7931,15 +8015,18 @@ SplineSet
  61 221 61 221 71 196 c 1,189,-1
  74 173 l 1,137,138
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0421.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10036
+StartChar: uni0422
 Encoding: 1058 1058 39
 Width: 660
-Flags: W
+Flags: HW
 HStem: 397.25 12.625<207.252 219.873 440.252 452.873> 411.25 12.625<223.252 235.873 424.252 436.873> 431.25 12.625<226.078 233.047 427.078 434.047> 457 26<216.478 231.961 426.039 441.522> 533 17<108.239 142 168.138 293 416 489.862 516 549.761>
 VStem: 207.25 12.625<48.9888 80 397.252 409.873> 223.25 12.625<411.252 423.873 434.078 441.047> 277 80<224.9 531.472> 424.25 12.625<411.252 423.873 434.078 441.047> 440.25 12.625<397.252 409.873>
+AnchorPoint: "Yerok" 507 575 mark 0
+AnchorPoint: "Diacritic" 338 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -8297,15 +8384,18 @@ SplineSet
  277 448 277 448 293 533 c 1,294,295
  257 534 257 534 235 515 c 0,32,33
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0422.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10037
+StartChar: uni0423
 Encoding: 1059 1059 40
 Width: 395
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 275 12<107 133 209 230> 538 12<67 93 169 193>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 228 48<113.6 274.014 287 420.245> 354 31<494.157 518.002>
+AnchorPoint: "Yerok" 341 575 mark 0
+AnchorPoint: "Diacritic" 239 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -8496,6 +8586,7 @@ SplineSet
  61 221 61 221 71 196 c 1,145,-1
  74 173 l 1,93,94
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0423.simple
 Colour: ff00
 EndChar
 
@@ -8503,9 +8594,11 @@ StartChar: uni0418.simple
 Encoding: 62744 62744 41
 Width: 470
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -2 20G 533 20G
 VStem: 0 22<80 80 80 97> 76 80<366 401 366 414.5> 250 22<80 80 80 97> 326 80<341 396>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 268 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -8667,9 +8760,11 @@ StartChar: uni041A.simple
 Encoding: 62746 62746 42
 Width: 470
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<394 425> 243 14<231 246.466> 540 10<190.444 202.654 306.759 360.172>
 VStem: 0 22<34.5251 80> 76 80<224.9 516.632> 306 61<57.9141 205.443> 336 52<478.438 513.495> 417 41<43.7531 74.1891>
+AnchorPoint: "Yerok" 345 575 mark 0
+AnchorPoint: "Diacritic" 238 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -8807,9 +8902,11 @@ StartChar: uni041B.simple
 Encoding: 62747 62747 43
 Width: 430
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<283 309 385 411 283 309> 538 12<283 309 283 411 385 385 385 411>
 VStem: 309 76<12 418 418 418 437 538 12 538>
+AnchorPoint: "Yerok" 350 577 mark 0
+AnchorPoint: "Diacritic" 349 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -8891,13 +8988,15 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uni041c.simple
+StartChar: uni041C.simple
 Encoding: 62748 62748 44
 Width: 580
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<233 259 335 361 233 259 433 459 535 561> 538 12<233 259 233 361 335 361 335 335 433 459 535 535 535 561>
 VStem: 259 76<12 300 323 418 418 418 437 538> 459 76<12 423 423 423 447 538 12 538>
+AnchorPoint: "Yerok" 500 575 mark 0
+AnchorPoint: "Diacritic" 389 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -9014,9 +9113,11 @@ StartChar: uni041D.simple
 Encoding: 62749 62749 45
 Width: 470
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -2 20G 533 20G
 VStem: 0 22<80 80 80 97> 76 80<341 390.5 327.5 414.5> 250 22<80 80 80 97> 326 80<364 401 327.5 414.5>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 275 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -9173,13 +9274,15 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uni041e.simple
+StartChar: uni041E.simple
 Encoding: 62750 62750 46
 Width: 425
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -4 20G<199 199> 534 20G
 VStem: 0 22<80 80 80 97> 68 76<341 408.5 334.5 424.5> 219 43<414 414 414 455.5> 270 76
+AnchorPoint: "Yerok" 348 575 mark 0
+AnchorPoint: "Diacritic" 247 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -9307,9 +9410,11 @@ StartChar: uni041F.simple
 Encoding: 62751 62751 47
 Width: 506
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 534 16<472.477 493.088> 680 10<284.401 299.536>
 VStem: 0 22<34.5251 80> 76 80<224.9 506.374> 290 22<34.5251 80> 366 80<224.9 505.81>
+AnchorPoint: "Yerok" 430 658 mark 0
+AnchorPoint: "Diacritic" 292 728 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -9562,9 +9667,11 @@ StartChar: uni0420.simple
 Encoding: 62752 62752 48
 Width: 405
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -1 20G
 VStem: 0 22<80 80 80 97> 68 76<381.5 408.5 381.5 424.5>
+AnchorPoint: "Yerok" 357 553 mark 0
+AnchorPoint: "Diacritic" 226 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -9665,9 +9772,11 @@ StartChar: uni0421.simple
 Encoding: 62753 62753 49
 Width: 420
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 20G
 VStem: 0 22<80 80 80 97> 68 76<341 408.5 334.5 424.5> 355 21
+AnchorPoint: "Yerok" 324 563 mark 0
+AnchorPoint: "Diacritic" 226 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -9809,9 +9918,11 @@ StartChar: uni0422.simple
 Encoding: 62754 62754 50
 Width: 660
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<269 293 377 402> 397.25 12.625<207.252 219.873 440.252 452.873> 411.25 12.625<223.252 235.873 424.252 436.873> 431.25 12.625<226.078 233.047 427.078 434.047> 457 26<216.478 231.961 426.039 441.522> 533 17<108.239 142 168.138 293 416 489.862 516 549.761>
 VStem: 207.25 12.625<397.252 409.873> 223.25 12.625<411.252 423.873 434.078 441.047> 293 84<12 533> 424.25 12.625<411.252 423.873 434.078 441.047> 440.25 12.625<397.252 409.873>
+AnchorPoint: "Yerok" 508 574 mark 0
+AnchorPoint: "Diacritic" 341 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -10143,9 +10254,11 @@ StartChar: uni0423.simple
 Encoding: 62755 62755 51
 Width: 340
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 225 12<52 78 154 175> 538 12<12 38 114 138>
 VStem: 0 22<34.5251 80> 175 46<116.142 225 237 416.986> 299 31<494.157 518.002>
+AnchorPoint: "Yerok" 298 575 mark 0
+AnchorPoint: "Diacritic" 172 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -10251,12 +10364,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10038
+StartChar: uni0424
 Encoding: 1060 1060 52
 Width: 430
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<156.252 168.873> 152.25 12.625<156.252 168.873> 166.25 12.625<140.252 152.873> 534 16<268.266 288.654>
 VStem: 81 53<161.059 213> 86 22<34.5251 80> 140.25 12.625<166.252 178.873> 156.25 12.625<132.252 144.873 152.252 164.873> 162 80<302.103 467.137> 171 80<182.583 283 300 380.459 383.407 468 481 531.75>
+AnchorPoint: "Yerok" 367 509 mark 0
+AnchorPoint: "Diacritic" 238 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -10461,15 +10576,18 @@ SplineSet
  242 420 242 420 242 382 c 0,168,169
  242 338 242 338 248 300 c 1,155,156
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0424.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10039
+StartChar: uni0425
 Encoding: 1061 1061 53
 Width: 425
-Flags: W
+Flags: HW
 HStem: 0 12<273 299 375 401> 538 12<101 127 203 229>
 VStem: 1 40<41.9986 72.9986> 81 8<366.057 377.873> 169 96<340.184 401.519> 350 8<366.057 377.873>
+AnchorPoint: "Yerok" 354 575 mark 0
+AnchorPoint: "Diacritic" 239 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -10664,16 +10782,19 @@ SplineSet
  89 365 89 365 97 365 c 1,155,-1
  115 372 l 1,150,151
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0425.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10042
+StartChar: uni0428
 Encoding: 1064 1064 54
 Width: 540
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 102 226 302 426 502 528> 538 12<0 26 102 128 200 226 302 328 400 426 502 528>
 VStem: 26 76<12 538> 226 76<12 538> 426 76<12 538>
 CounterMasks: 1 38
+AnchorPoint: "Yerok" 465 575 mark 0
+AnchorPoint: "Diacritic" 270 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -10739,6 +10860,7 @@ SplineSet
  528 12 l 1,27,-1
  528 0 l 1,0,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0428.simple
 Colour: ff00
 EndChar
 
@@ -10746,9 +10868,11 @@ StartChar: uni0424.simple
 Encoding: 62756 62756 55
 Width: 430
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -2 20G 533 20G
 VStem: 86 22<80 80 80 97> 162 80<366.5 391 366.5 397>
+AnchorPoint: "Yerok" 372 501 mark 0
+AnchorPoint: "Diacritic" 226 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -10872,9 +10996,11 @@ StartChar: uni0425.simple
 Encoding: 62757 62757 56
 Width: 425
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<273 299 375 401> 538 12<101 127 203 229>
 VStem: 1 40<41.9986 72.9986> 169 96<340.184 401.519>
+AnchorPoint: "Yerok" 363 575 mark 0
+AnchorPoint: "Diacritic" 245 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -10990,10 +11116,12 @@ StartChar: uni0428.simple
 Encoding: 62760 62760 57
 Width: 540
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 102 226 302 426 502 528> 538 12<0 26 102 128 200 226 302 328 400 426 502 528>
 VStem: 26 76<12 538> 226 76<12 538> 426 76<12 538>
 CounterMasks: 1 38
+AnchorPoint: "Yerok" 465 575 mark 0
+AnchorPoint: "Diacritic" 266 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -11062,12 +11190,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10040
+StartChar: uni0426
 Encoding: 1062 1062 58
 Width: 425
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 102 251 0 26> 538 12<0 26 0 128 102 102 102 128 225 251 327 327 327 353>
 VStem: 26 76<12 538 12 538> 251 76<12 538 12 538> 342 17
+AnchorPoint: "Yerok" 296 575 mark 0
+AnchorPoint: "Diacritic" 180 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -11131,15 +11261,18 @@ SplineSet
  102 12 l 1,33,-1
  251 12 l 1,0,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0426.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10044
+StartChar: uni042A
 Encoding: 1066 1066 59
 Width: 630
-Flags: W
+Flags: HW
 HStem: 0 12<207 235 311 520> 364 9<405.214 444.712> 397.25 12.625<207.252 219.873> 411.25 12.625<223.252 235.873> 434.396 10.732<226.078 233.047 476.824 487.551> 447.297 10.731<482.324 493.051> 457 26<216.478 231.961> 459.747 10.732<474.924 485.651> 533 17<108.239 142 168.138 328 404 430>
 VStem: 207.25 12.625<397.252 409.873> 223.25 12.625<411.252 423.873 434.078 441.047> 476.822 10.731<434.398 445.126 460.119 470.106> 480 43<362.592 384.729> 482.322 10.731<447.299 458.026>
+AnchorPoint: "Yerok" 396 575 mark 0
+AnchorPoint: "Diacritic" 341 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -11486,15 +11619,18 @@ SplineSet
  0 550 l 1,279,-1
  430 550 l 1,41,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni042A.simple
 Colour: ff00
 EndChar
 
-StartChar: afii10045
+StartChar: uni042B
 Encoding: 1067 1067 60
 Width: 550
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 102 290 407 433 509 535> 342 9<135.093 172.871> 413.396 10.732<190.824 201.551> 426.297 10.731<196.324 207.051> 438.747 10.732<188.924 199.651> 538 12<0 26 102 128 407 433 509 535>
 VStem: 26 76<12 338 361 386.019 389 415.155 419 538> 190.822 10.731<413.398 424.126 439.119 449.106> 209 42<338.482 362.263> 350 41<41.7531 72.1891> 433 76<12 538>
+AnchorPoint: "Yerok" 472 575 mark 0
+AnchorPoint: "Diacritic" 302 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -11734,6 +11870,7 @@ SplineSet
  509 538 l 1,179,-1
  509 12 l 1,168,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni042B.simple
 Colour: ff00
 EndChar
 
@@ -11741,9 +11878,11 @@ StartChar: uni0426.simple
 Encoding: 62758 62758 61
 Width: 425
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 102 251 0 26> 538 12<0 26 0 128 102 102 102 128 225 251 327 327 327 353>
 VStem: 26 76<12 538 12 538> 251 76<12 538 12 538> 342 17
+AnchorPoint: "Yerok" 297 575 mark 0
+AnchorPoint: "Diacritic" 177 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -11810,12 +11949,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uni042a.simple
+StartChar: uni042A.simple
 Encoding: 62762 62762 62
 Width: 630
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<207 235 311 520> 457 26<216.478 231.961> 533 17<108.239 142 168.138 328 404 430>
+AnchorPoint: "Yerok" 374 575 mark 0
+AnchorPoint: "Diacritic" 374 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -12038,13 +12179,15 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uni042b.simple
+StartChar: uni042B.simple
 Encoding: 62763 62763 63
 Width: 550
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 0 26 102 290 407 433 509 535> 538 12<0 26 0 128 102 102 102 128 407 433 509 509 509 535>
 VStem: 26 76<12 368 12 391 391 538> 350 20<27.5 42> 433 76<12 538>
+AnchorPoint: "Yerok" 474 575 mark 0
+AnchorPoint: "Diacritic" 271 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -12156,9 +12299,11 @@ EndChar
 StartChar: uni0462
 Encoding: 1122 1122 64
 Width: 645
-Flags: W
+Flags: HW
 HStem: 0 12<240 266 342 530> 397.25 12.625<207.252 219.873> 411.25 12.625<223.252 235.873> 431.25 12.625<226.078 233.047> 457 26<216.478 231.961> 533 17<108.239 142 168.138 266 342 469.761> 638 12<240 266 342 368>
 VStem: 207.25 12.625<397.252 409.873> 223.25 12.625<411.252 423.873 434.078 441.047> 266 76<12 368 375.765 533 550 638> 590 41<41.7531 72.1891>
+AnchorPoint: "Yerok" 493 575 mark 0
+AnchorPoint: "Diacritic" 307 693 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -12415,6 +12560,7 @@ SplineSet
  266 12 l 1,200,-1
  266 533 l 1,32,33
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0462.simple
 Colour: ff00
 EndChar
 
@@ -12422,9 +12568,11 @@ StartChar: uni0462.simple
 Encoding: 62818 62818 65
 Width: 645
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<240 266 342 530> 397.25 12.625<207.252 219.873> 411.25 12.625<223.252 235.873> 431.25 12.625<226.078 233.047> 457 26<216.478 231.961> 533 17<108.239 142 168.138 266 342 469.761> 638 12<240 266 342 368>
 VStem: 207.25 12.625<397.252 409.873> 223.25 12.625<411.252 423.873 434.078 441.047> 266 76<12 368 375.765 533 550 638> 590 41<41.7531 72.1891>
+AnchorPoint: "Yerok" 471 575 mark 0
+AnchorPoint: "Diacritic" 306 685 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -12687,9 +12835,11 @@ EndChar
 StartChar: uni046E
 Encoding: 1134 1134 66
 Width: 480
-Flags: W
+Flags: HW
 HStem: -89 47<36.875 67.8247> 120.521 10.732<250.349 261.076> 132.972 10.731<242.949 253.676> 145.872 10.732<248.449 259.176 298.176 304.883> 382.396 10.732<248.449 259.176 298.176 304.883> 395.297 10.731<242.949 253.676> 407.747 10.732<250.349 261.076> 427 12<52 78 154 180> 529 21<206.354 237 253.543 275.787 292 313.131>
 VStem: 78 76<439 500.192> 219 34<192.735 211.73 327.27 346.265> 237 18<550 584.102> 242.947 10.731<132.974 143.701 395.299 406.026> 250.347 10.731<120.523 131.251 146.244 156.231 382.769 392.756 407.749 418.477> 261 8<68.4333 99.8172 439.183 470.567> 274 18<550 582.205> 287 8<93.2852 119.251 419.749 445.715>
+AnchorPoint: "Yerok" 269 652 mark 0
+AnchorPoint: "Diacritic" 268 654 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -13029,6 +13179,7 @@ SplineSet
  265 550 l 1,276,-1
  274 550 l 1,149,150
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni046E.simple
 Colour: ff00
 EndChar
 
@@ -13036,9 +13187,11 @@ StartChar: uni046E.simple
 Encoding: 62830 62830 67
 Width: 480
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 427 12<52 78 154 180 52 78> 529 21G<255 265 265 274 255 323.5>
 VStem: 78 76<439 459> 237 18<549 549>
+AnchorPoint: "Yerok" 263 665 mark 0
+AnchorPoint: "Diacritic" 265 666 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -13190,9 +13343,11 @@ EndChar
 StartChar: uni0460
 Encoding: 1120 1120 68
 Width: 900
-Flags: W
+Flags: HW
 HStem: -46 12<307.08 350.023 533.328 575.92> 0 14<214.445 276.111 608.328 669.555> 321.25 12.625<289.252 301.873 580.252 592.873> 335.25 12.625<305.252 317.873 564.252 576.873> 355.25 12.625<305.252 317.873 564.252 576.873> 383 20G<439.519 446.472> 384 82<243.119 287.214 596.786 640.881>
 VStem: 4 88<161.011 389.52> 239 63<401.664 464.4> 289.25 12.625<321.252 333.873> 305.25 12.625<335.252 347.873 355.252 367.873> 329 46<410.063 519.824> 435 13<-128.904 -76.2989> 441 4<308.5 403> 509 46<410.063 519.824> 564.25 12.625<335.252 347.873 355.252 367.873> 580.25 12.625<321.252 333.873> 582 63<401.664 464.4> 792 88<161.011 389.52>
+AnchorPoint: "Yerok" 833 575 mark 0
+AnchorPoint: "Diacritic" 443 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -13590,6 +13745,7 @@ SplineSet
  657 419 l 1,321,322
  672 413 672 413 674 395 c 0,277,278
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0460.simple
 Colour: ff00
 EndChar
 
@@ -13597,10 +13753,12 @@ StartChar: uni0460.simple
 Encoding: 62816 62816 69
 Width: 530
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 18<148.037 189.791 315.117 357.437>
 VStem: 6 81<304.908 550> 215 76<318.094 550> 419 81<304.908 550>
 CounterMasks: 1 70
+AnchorPoint: "Yerok" 464 575 mark 0
+AnchorPoint: "Diacritic" 254 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -13652,9 +13810,11 @@ EndChar
 StartChar: uni047C
 Encoding: 1148 1148 70
 Width: 900
-Flags: W
+Flags: HW
 HStem: -46 12<307.08 350.023 533.328 575.92> 0 14<214.445 276.111 608.328 669.555> 321.25 12.625<289.252 301.873 580.252 592.873> 335.25 12.625<305.252 317.873 564.252 576.873> 355.25 12.625<305.252 317.873 564.252 576.873> 383 20G<439.519 446.472> 384 82<243.119 287.214 596.786 640.881> 586 21G<353.049 359.5 431.5 448>
 VStem: 4 88<161.011 389.52> 239 63<401.664 464.4> 289.25 12.625<321.252 333.873> 305.25 12.625<335.252 347.873 355.252 367.873> 329 46<410.063 519.824> 351 10<586.131 625.049> 434 21<581.396 626.156> 435 13<-128.904 -76.2989> 441 4<308.5 403> 509 46<410.063 519.824> 564.25 12.625<335.252 347.873 355.252 367.873> 580.25 12.625<321.252 333.873> 586 55<401.664 465.698 652.673 676.799> 792 88<161.011 389.52>
+AnchorPoint: "Yerok" 835 520 mark 0
+AnchorPoint: "Diacritic" 437 793 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -13806,25 +13966,25 @@ SplineSet
  581 355 627 360 647 391 c 0
  651 398 657 419 657 419 c 1
  657 419 672 413 674 395 c 0
-641 662 m 4xf9906c
- 641 620 598 605 558 608 c 4
- 482 613 461 698 407 737 c 4
- 379 757 318 750 315 719 c 5
- 315 719 352 733 349 694 c 4
- 346 664 294 666 294 709 c 4
- 294 752 338 766 377 764 c 4
- 453 759 470 676 528 634 c 4
- 557 613 618 622 621 653 c 5
- 621 653 583 638 586 677 c 4
- 589 707 641 702 641 662 c 4xf9906c
-355 586 m 5
- 355 586 342 597 351 627 c 4
- 356 646 379 672 412 663 c 4
- 438 656 461 639 455 602 c 4
- 449 568 434 572 434 572 c 5
- 429 574 442 583 440 597 c 5
- 440 635 379 652 361 618 c 4xf99664
- 353 604 364 586 355 586 c 5
+641 662 m 0xf9906c
+ 641 620 598 605 558 608 c 0
+ 482 613 461 698 407 737 c 0
+ 379 757 318 750 315 719 c 1
+ 315 719 352 733 349 694 c 0
+ 346 664 294 666 294 709 c 0
+ 294 752 338 766 377 764 c 0
+ 453 759 470 676 528 634 c 0
+ 557 613 618 622 621 653 c 1
+ 621 653 583 638 586 677 c 0
+ 589 707 641 702 641 662 c 0xf9906c
+355 586 m 1
+ 355 586 342 597 351 627 c 0
+ 356 646 379 672 412 663 c 0
+ 438 656 461 639 455 602 c 0
+ 449 568 434 572 434 572 c 1
+ 429 574 442 583 440 597 c 1
+ 440 635 379 652 361 618 c 0xf99664
+ 353 604 364 586 355 586 c 1
 EndSplineSet
 Layer: 2
 SplineSet
@@ -14125,6 +14285,8 @@ SplineSet
  359 596 359 596 359 591 c 128,-1,395
  359 586 359 586 355 586 c 1,372,373
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni047C.simple
+Ligature2: "'ccmp' Canonical Compositions-1" uniA64C uni0486 uni0311
 Colour: ff00
 EndChar
 
@@ -14132,9 +14294,11 @@ StartChar: uni047E.simple
 Encoding: 62846 62846 71
 Width: 530
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 18<148.037 189.791 315.117 357.437> 578 109<214 291> 675 12<131.809 214 291 364.191>
 VStem: 6 81<304.908 550> 85 27<605.281 620.031> 214 77<318.094 550 578 675> 384 26<604.016 620.031> 419 81<304.908 550>
+AnchorPoint: "Yerok" 471 575 mark 0
+AnchorPoint: "Diacritic" 254 713 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -14231,12 +14395,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10046
+StartChar: uni042C
 Encoding: 1068 1068 72
 Width: 410
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 102 290> 342 9<135.093 172.871> 413.396 10.732<190.824 201.551> 426.297 10.731<196.324 207.051> 438.747 10.732<188.924 199.651> 538 12<0 26 102 128>
 VStem: 26 76<12 338 361 386.019 389 415.155 419 538> 190.822 10.731<413.398 424.126 439.119 449.106> 209 42<338.482 362.263> 350 41<41.7531 72.1891>
+AnchorPoint: "Yerok" 64 575 mark 0
+AnchorPoint: "Diacritic" 64 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -14450,6 +14616,7 @@ SplineSet
  365 0 365 0 342 0 c 2,167,-1
  0 0 l 1,29,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni042C.simple
 Colour: ff00
 EndChar
 
@@ -14457,9 +14624,11 @@ StartChar: uni042C.simple
 Encoding: 62508 62508 73
 Width: 410
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 0 26 102 290> 538 12<0 26 0 128 102 102 102 128>
 VStem: 26 76<12 368 12 391 391 538> 350 20<27.5 42>
+AnchorPoint: "Yerok" 68 575 mark 0
+AnchorPoint: "Diacritic" 67 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -14542,30 +14711,32 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10027
+StartChar: uni0419
 Encoding: 1049 1049 74
 Width: 525
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 534 16<237.266 257.654 487.266 507.654> 572 21G<290.5 357>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<298.829 516.632> 305 22<34.5251 80> 359 56<622.535 648.634> 381 80<224.9 489.347>
+AnchorPoint: "Yerok" 459 575 mark 0
+AnchorPoint: "Diacritic" 336 713 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-125.25 138.562 m 4xff40
- 125.25 142.047 128.078 144.875 131.562 144.875 c 4
- 135.047 144.875 137.875 142.047 137.875 138.562 c 4
- 137.875 135.078 135.047 132.25 131.562 132.25 c 4
- 128.078 132.25 125.25 135.078 125.25 138.562 c 4xff40
-125.25 158.562 m 4
- 125.25 162.047 128.078 164.875 131.562 164.875 c 4
- 135.047 164.875 137.875 162.047 137.875 158.562 c 4
- 137.875 155.078 135.047 152.25 131.562 152.25 c 4
- 128.078 152.25 125.25 155.078 125.25 158.562 c 4
-109.25 172.562 m 4
- 109.25 176.047 112.078 178.875 115.562 178.875 c 4
- 119.047 178.875 121.875 176.047 121.875 172.562 c 4
- 121.875 169.078 119.047 166.25 115.562 166.25 c 4
- 112.078 166.25 109.25 169.078 109.25 172.562 c 4
+125.25 138.562 m 0xff40
+ 125.25 142.047 128.078 144.875 131.562 144.875 c 0
+ 135.047 144.875 137.875 142.047 137.875 138.562 c 0
+ 137.875 135.078 135.047 132.25 131.562 132.25 c 0
+ 128.078 132.25 125.25 135.078 125.25 138.562 c 0xff40
+125.25 158.562 m 0
+ 125.25 162.047 128.078 164.875 131.562 164.875 c 0
+ 135.047 164.875 137.875 162.047 137.875 158.562 c 0
+ 137.875 155.078 135.047 152.25 131.562 152.25 c 0
+ 128.078 152.25 125.25 155.078 125.25 158.562 c 0
+109.25 172.562 m 0
+ 109.25 176.047 112.078 178.875 115.562 178.875 c 0
+ 119.047 178.875 121.875 176.047 121.875 172.562 c 0
+ 121.875 169.078 119.047 166.25 115.562 166.25 c 0
+ 112.078 166.25 109.25 169.078 109.25 172.562 c 0
 500 125 m 0
  505 64 483 41 455 18 c 0
  427 -5 395 -4 366 0 c 0
@@ -14818,6 +14989,8 @@ SplineSet
  240 640 240 640 241 648.5 c 128,-1,238
  242 657 242 657 243 658 c 0,211,212
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0419.simple
+Ligature2: "'ccmp' Canonical Compositions-1" uni0418 uni0306
 Colour: ff00
 EndChar
 
@@ -14825,9 +14998,11 @@ StartChar: uni0419.simple
 Encoding: 62745 62745 75
 Width: 470
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -2 20G
 VStem: 0 22<80 80 80 97> 76 80<366 401 366 414.5> 250 22<80 80 80 97> 326 80<341 396>
+AnchorPoint: "Yerok" 267 683 mark 0
+AnchorPoint: "Diacritic" 266 684 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -15010,6 +15185,7 @@ SplineSet
  185 640 185 640 186 648.5 c 128,-1,173
  187 657 187 657 188 658 c 0,146,147
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uni0418.simple uni0306
 Colour: ff00
 EndChar
 
@@ -15207,30 +15383,32 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10041
+StartChar: uni0427
 Encoding: 1063 1063 78
 Width: 440
-Flags: W
+Flags: HW
 HStem: 0 12<283 309 385 411> 93.25 12.625<200.252 212.873> 111.25 12.625<190.252 202.873> 129.25 12.625<201.252 213.873> 538 12<283 309 385 411>
 VStem: 6 41<477.811 508.003> 143 56<198.559 224.634> 151 13<-58.0989 -11.3544> 190.25 12.625<111.252 123.873> 200.25 12.625<93.2521 105.873 129.349 141.776> 218 15<4.5562 40.1181> 309 76<12 117 133.891 188 197.973 309.045 321 538>
+AnchorPoint: "Yerok" 348 575 mark 0
+AnchorPoint: "Diacritic" 267 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-202.875 117.562 m 4xfcb0
- 202.875 114.078 200.047 111.25 196.562 111.25 c 4
- 193.078 111.25 190.25 114.078 190.25 117.562 c 4
- 190.25 121.047 193.078 123.875 196.562 123.875 c 4
- 200.047 123.875 202.875 121.047 202.875 117.562 c 4xfcb0
-213.875 135.562 m 4
- 213.875 132.078 211.047 129.25 207.562 129.25 c 4
- 204.078 129.25 201.25 132.078 201.25 135.562 c 4
- 201.25 139.047 204.078 141.875 207.562 141.875 c 4
- 211.047 141.875 213.875 139.047 213.875 135.562 c 4
-200.25 99.5625 m 4xfc70
- 200.25 103.047 203.078 105.875 206.562 105.875 c 4
- 210.047 105.875 212.875 103.047 212.875 99.5625 c 4
- 212.875 96.0781 210.047 93.25 206.562 93.25 c 4
- 203.078 93.25 200.25 96.0781 200.25 99.5625 c 4xfc70
+202.875 117.562 m 0xfcb0
+ 202.875 114.078 200.047 111.25 196.562 111.25 c 0
+ 193.078 111.25 190.25 114.078 190.25 117.562 c 0
+ 190.25 121.047 193.078 123.875 196.562 123.875 c 0
+ 200.047 123.875 202.875 121.047 202.875 117.562 c 0xfcb0
+213.875 135.562 m 0
+ 213.875 132.078 211.047 129.25 207.562 129.25 c 0
+ 204.078 129.25 201.25 132.078 201.25 135.562 c 0
+ 201.25 139.047 204.078 141.875 207.562 141.875 c 0
+ 211.047 141.875 213.875 139.047 213.875 135.562 c 0
+200.25 99.5625 m 0xfc70
+ 200.25 103.047 203.078 105.875 206.562 105.875 c 0
+ 210.047 105.875 212.875 103.047 212.875 99.5625 c 0
+ 212.875 96.0781 210.047 93.25 206.562 93.25 c 0
+ 203.078 93.25 200.25 96.0781 200.25 99.5625 c 0xfc70
 309 309 m 0
  266 303 126 316 99 385 c 0
  86 418 103 441 94 466 c 0
@@ -15413,6 +15591,7 @@ SplineSet
  301 298 301 298 309 308 c 1,153,-1
  309 309 l 1,12,13
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0427.simple
 Colour: ff00
 EndChar
 
@@ -15420,9 +15599,11 @@ StartChar: uni0427.simple
 Encoding: 62759 62759 79
 Width: 440
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<283 309 385 411 283 309> 538 12<283 309 385 385 385 411>
 VStem: 309 76<12 308 308 308 321 538 12 538>
+AnchorPoint: "Yerok" 356 575 mark 0
+AnchorPoint: "Diacritic" 226 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -15508,9 +15689,11 @@ EndChar
 StartChar: uni0472.simple
 Encoding: 62834 62834 80
 Width: 480
-Flags: W
+Flags: HW
 HStem: -79 91<197 254> 0 12<317 329.005> 534 16<252.134 327>
 VStem: 55 22<-86.3069 -23.0074 34.5251 80> 123 76<268.547 471.743> 179 77<-79 0> 325 76<76.4804 278.543> 349 28<-86.3069 -23.0074> 447 22<470 515.475>
+AnchorPoint: "Yerok" 370 575 mark 0
+AnchorPoint: "Diacritic" 268 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -15679,9 +15862,11 @@ EndChar
 StartChar: uni0474
 Encoding: 1140 1140 81
 Width: 465
-Flags: W
+Flags: HW
 HStem: 0 12<100 126 228 263> 538 12<0 26 102 128 365.567 425.395>
 VStem: 400 52<473.229 507.924>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 215 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -15762,15 +15947,18 @@ SplineSet
  231 32 l 1,58,-1
  228 12 l 1,0,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0474.simple
 Colour: ff00
 EndChar
 
 StartChar: uni0466
 Encoding: 1126 1126 82
 Width: 470
-Flags: W
+Flags: HW
 HStem: 0 12<172 198 274 300 331 356 432 458> 286 12<186 198 274 290> 487.747 10.732<145.999 156.727> 502.646 10.732<137.398 148.126> 516.646 10.732<145.398 156.126> 538 12<209 235 311 335> 567 20G<146.333 157>
 VStem: 6 40<41.9986 72.9986> 89 65<46.0088 245.687> 137.396 10.732<502.648 513.376> 145.997 10.732<487.749 498.477 516.689 527.335 562.146 586.282> 198 76<12 286>
+AnchorPoint: "Yerok" 276 575 mark 0
+AnchorPoint: "Diacritic" 275 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -16006,6 +16194,7 @@ SplineSet
  199 333 199 333 186 298 c 1,182,-1
  290 298 l 1,178,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0466.simple
 Colour: ff00
 EndChar
 
@@ -16013,9 +16202,11 @@ StartChar: uni0466.simple
 Encoding: 62822 62822 83
 Width: 470
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<172 198 172 198 274 300 331 356 432 458> 286 12<182 290 186 198 274 274 274 290 186 293> 538 12<209 235 209 335 311 311 311 335>
 VStem: 198 76<12 286 12 286> 331 127<0 12 0 12>
+AnchorPoint: "Yerok" 276 575 mark 0
+AnchorPoint: "Diacritic" 273 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -16138,9 +16329,11 @@ StartChar: uni0474.simple
 Encoding: 62836 62836 84
 Width: 465
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<100 126 228 263> 538 12<0 26 102 128 365.567 425.395>
 VStem: 400 52<473.229 507.924>
+AnchorPoint: "Yerok" 399 575 mark 0
+AnchorPoint: "Diacritic" 226 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -16224,12 +16417,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10048
+StartChar: uni042E
 Encoding: 1070 1070 85
 Width: 815
-Flags: W
+Flags: HW
 HStem: 0 12<472 534.573> 132.25 12.625<125.252 137.873 400.252 412.873> 152.25 12.625<125.252 137.873 400.252 412.873> 166.25 12.625<109.252 121.873 384.252 396.873> 377 21<212 281.882 337.891 399> 534 16<237.618 257.654 527.365 602>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 81<224.961 377 398 518.192> 330 22<34.5251 80> 384.25 12.625<166.252 178.873> 399 75<268.26 377 398 474.503> 400.25 12.625<132.252 144.873 152.252 164.873> 600 76<77.8745 278.543> 722 22<470 515.475>
+AnchorPoint: "Yerok" 641 575 mark 0
+AnchorPoint: "Diacritic" 397 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -16701,16 +16896,19 @@ SplineSet
  61 221 61 221 71 196 c 1,398,-1
  74 173 l 1,346,347
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni042E.simple
 Colour: ff00
 EndChar
 
-StartChar: uni042e.simple
+StartChar: uni042E.simple
 Encoding: 62766 62766 86
 Width: 705
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -4 20G<474 474> 377 21G<157 221 157 221 157 223 287 344> 534 20G
 VStem: 0 22<80 80 80 97> 76 81<377 377 377 398 377 414.5> 275 22<80 80 80 97> 344 75<342 377 398 398> 494 43<414 414 414 455.5> 545 76
+AnchorPoint: "Yerok" 575 575 mark 0
+AnchorPoint: "Diacritic" 344 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -16927,9 +17125,11 @@ EndChar
 StartChar: uniA656
 Encoding: 42582 42582 88
 Width: 695
-Flags: W
+Flags: HW
 HStem: -128 10<293.597 340.554> 0 12<543 569 645 671> 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 371 21<214 299.882 355.891 496> 487.747 10.732<472.999 483.727> 502.646 10.732<464.398 475.126> 516.646 10.732<472.398 483.126> 538 12<243.14 257.654 543 569 645 671> 567 20G<486.571 498>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 262 41<-91.0028 -61.4836> 420 42<414.482 438.263> 464.396 10.732<502.648 513.376> 472.997 10.732<487.749 498.477 516.689 527.335> 569 76<12 143 154.08 418 437 462.019 465 491.155 495 538>
+AnchorPoint: "Yerok" 606 575 mark 0
+AnchorPoint: "Diacritic" 346 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -17335,6 +17535,7 @@ SplineSet
  61 221 61 221 71 196 c 1,334,-1
  74 173 l 1,282,283
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uniA656.simple
 Colour: ff00
 EndChar
 
@@ -17342,9 +17543,11 @@ StartChar: uniA656.simple
 Encoding: 63318 63318 89
 Width: 670
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<528 554 630 656 528 554> 147 19<401 554 401 554 400 554> 371 21G<159 279 159 281 159 279 345 476> 538 12<528 554 630 630 630 656>
 VStem: 0 22<80 80 80 97> 76 83<371 371 371 392 371 414.5> 554 76<12 147 147 147 166 418 418 418 437 538 12 538>
+AnchorPoint: "Yerok" 357 575 mark 0
+AnchorPoint: "Diacritic" 355 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -17518,9 +17721,11 @@ EndChar
 StartChar: uni047A
 Encoding: 1146 1146 90
 Width: 525
-Flags: W
+Flags: HW
 HStem: 0 14<216.915 284.17> 153.588 15.149<302.59 317.735> 179.588 15.149<309.59 324.735> 201.388 15.149<292.39 307.535> 535 14<219.719 288.748>
 VStem: 4 88<161.026 387.158> 208 21<55.9277 100> 272 15<258.525 290.889> 292.388 15.149<201.39 216.535> 302.588 15.149<153.59 168.735> 309.588 15.149<179.59 194.735> 416 88<160.151 387.158>
+AnchorPoint: "Yerok" 455 522 mark 0
+AnchorPoint: "Diacritic" 252 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -17674,15 +17879,18 @@ SplineSet
  230 183 230 183 252 189 c 1,116,117
  290 194 290 194 295 183 c 0,56,57
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni047A.simple
 Colour: ff00
 EndChar
 
 StartChar: uniA64C
 Encoding: 42572 42572 91
 Width: 900
-Flags: W
+Flags: HW
 HStem: -46 12<307.08 350.023 533.328 575.92> 0 14<214.445 276.111 608.328 669.555> 321.25 12.625<289.252 301.873 580.252 592.873> 335.25 12.625<305.252 317.873 564.252 576.873> 355.25 12.625<305.252 317.873 564.252 576.873> 383 20G<439.519 446.472> 384 82<243.119 287.214 596.786 640.881>
 VStem: 4 88<161.011 389.52> 239 63<401.664 464.4> 289.25 12.625<321.252 333.873> 305.25 12.625<335.252 347.873 355.252 367.873> 329 46<410.063 519.824> 435 13<-128.904 -76.2989> 441 4<308.5 403> 509 46<410.063 519.824> 564.25 12.625<335.252 347.873 355.252 367.873> 580.25 12.625<321.252 333.873> 582 63<401.664 464.4> 792 88<161.011 389.52>
+AnchorPoint: "Yerok" 834 510 mark 0
+AnchorPoint: "Diacritic" 442 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -18080,6 +18288,7 @@ SplineSet
  657 419 l 1,321,322
  672 413 672 413 674 395 c 0,277,278
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uniA64C.simple
 Colour: ff00
 EndChar
 
@@ -18087,9 +18296,11 @@ StartChar: uni047A.simple
 Encoding: 62842 62842 92
 Width: 525
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 14<216.915 291.085> 535 14<219.719 288.748>
 VStem: 4 88<161.026 387.158> 416 88<161.026 387.158>
+AnchorPoint: "Yerok" 471 509 mark 0
+AnchorPoint: "Diacritic" 256 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -18128,12 +18339,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10043
+StartChar: uni0429
 Encoding: 1065 1065 93
 Width: 540
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 102 226 0 26 302 426 502 528> 538 12<0 26 0 128 102 102 102 128 200 226 302 302 302 328 400 426 502 502 502 528>
 VStem: 26 76<12 538 12 538> 117 37<-68.5 -58> 226 76<-79 -64 -79 -64 -42 0 -79 0 12 538> 374 37<-68.5 -58 -68.5 -51.5> 426 76<12 538 12 538>
+AnchorPoint: "Yerok" 466 575 mark 0
+AnchorPoint: "Diacritic" 267 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -18247,6 +18460,7 @@ SplineSet
  145 -18 145 -18 168 -17 c 1,70,71
  203 -17 203 -17 226 -42 c 1,0,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0429.simple
 Colour: ff00
 EndChar
 
@@ -18254,9 +18468,11 @@ StartChar: uni0429.simple
 Encoding: 62761 62761 94
 Width: 540
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<0 26 102 226 0 26 302 426 502 528> 538 12<0 26 0 128 102 102 102 128 200 226 302 302 302 328 400 426 502 502 502 528>
 VStem: 26 76<12 538 12 538> 226 76<-79 0 -79 0 12 538> 426 76<12 538 12 538>
+AnchorPoint: "Yerok" 464 575 mark 0
+AnchorPoint: "Diacritic" 265 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -18337,9 +18553,11 @@ StartChar: uni0470.simple
 Encoding: 62832 62832 95
 Width: 580
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<100 126 202 238 255 319 343 378> 538 12<0 26 102 128 480.567 540.395>
 VStem: 118 52<-149.377 -118.011> 238 17<-134.967 -74.093 -42.907 0 12 93.116 502 584.188> 319 24<12 32> 353 52<610.011 643.992> 515 52<473.229 507.924>
+AnchorPoint: "Yerok" 506 578 mark 0
+AnchorPoint: "Diacritic" 247 700 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -18516,8 +18734,10 @@ Encoding: 62726 62726 96
 Width: 245
 GlyphClass: 2
 Flags: W
-HStem: -2 20G 533 20G
-VStem: 0 22<80 80 80 97> 76 80<341 401 327.5 414.5>
+HStem: 534 16<182.266 202.654>
+VStem: 0 22<34.5251 80> 76 80<224.9 516.632>
+AnchorPoint: "Yerok" 155 575 mark 0
+AnchorPoint: "Diacritic" 154 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -18586,7 +18806,7 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: emdash
+StartChar: uni2014
 Encoding: 8212 8212 97
 Width: 500
 Flags: W
@@ -18812,7 +19032,7 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii00208
+StartChar: uni2015
 Encoding: 8213 8213 98
 Width: 500
 Flags: W
@@ -19038,7 +19258,7 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: figuredash
+StartChar: uni2012
 Encoding: 8210 8210 99
 Width: 400
 Flags: W
@@ -19092,7 +19312,7 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: endash
+StartChar: uni2013
 Encoding: 8211 8211 100
 Width: 400
 Flags: W
@@ -19258,26 +19478,28 @@ StartChar: uniA67D
 Encoding: 42621 42621 103
 Width: 0
 Flags: HW
-HStem: 620 15<-32.7199 -7>
-VStem: -149 142
-AnchorPoint: "Diacritic" -96 511 mark 0
+HStem: 521.418 64.347 538.188 20G<-197.911 -178.148> 555.359 21G<7.56934 23.4131>
+VStem: -197.911 221.324
+AnchorPoint: "Stacking" -84 515 mark 0
+AnchorPoint: "Stacking" -81 639.7 basemark 0
+AnchorPoint: "Yerok" -86.249 515.169 mark 0
 LayerCount: 3
 Fore
 SplineSet
--185.891 558.188 m 1
+-185.891 558.188 m 1x50
  -170.404 546.418 -136.774 532.46 -118.716 536.975 c 2
  -104.573 540.51 l 1
  -109.116 548.461 -110.938 566.159 -100.685 572.684 c 0
- -72.3965 590.681 -50.8027 590.112 -22.5488 585.765 c 0
+ -72.3965 590.681 -50.8027 590.112 -22.5488 585.765 c 0x90
  -7.88867 583.45 10.0996 575.146 23.4131 566.673 c 1
- 16.3418 555.359 l 1
+ 16.3418 555.359 l 1x30
  -1.20312 563.334 -27.54 576.553 -44.4688 570.915 c 0
  -50.126 569.03 -54.8398 567.615 -58.6113 566.673 c 1
  -54.8887 557.988 -51.5205 542.094 -62.5 534.5 c 0
  -65.5654 532.378 -69.4541 529.903 -74.168 527.075 c 1
- -98.4893 518.319 -116.067 517.638 -140.636 521.418 c 0
+ -98.4893 518.319 -116.067 517.638 -140.636 521.418 c 0x90
  -159.82 523.72 -180.682 537.066 -197.911 548.995 c 1
- -185.891 558.188 l 1
+ -185.891 558.188 l 1x50
 EndSplineSet
 Layer: 2
 SplineSet
@@ -19349,12 +19571,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10056
+StartChar: uni0407
 Encoding: 1031 1031 105
 Width: 300
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 534 16<237.266 257.654>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<224.9 516.632>
+AnchorPoint: "Yerok" 193 699 mark 0
+AnchorPoint: "Diacritic" 193 700 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -19393,16 +19617,16 @@ SplineSet
  50 213 44 219 44 219 c 1
  44 219 61 221 71 196 c 0
  76 183 74 173 74 173 c 1
-110 648 m 4
- 125 661 148 660 161 645 c 4
- 174 630 173 607 158 594 c 4
- 143 581 120 582 107 597 c 4
- 94 612 95 635 110 648 c 4
-233 648 m 4
- 248 661 271 660 284 645 c 4
- 297 630 296 607 281 594 c 4
- 266 581 243 582 230 597 c 4
- 217 612 218 635 233 648 c 4
+110 648 m 0
+ 125 661 148 660 161 645 c 0
+ 174 630 173 607 158 594 c 0
+ 143 581 120 582 107 597 c 0
+ 94 612 95 635 110 648 c 0
+233 648 m 0
+ 248 661 271 660 284 645 c 0
+ 297 630 296 607 281 594 c 0
+ 266 581 243 582 230 597 c 0
+ 217 612 218 635 233 648 c 0
 131 382 m 0xfd
  131 447 146 516 162 536 c 0
  184 564 249 550 249 550 c 1
@@ -19536,6 +19760,8 @@ SplineSet
  136 303 136 303 133.5 328 c 128,-1,138
  131 353 131 353 131 382 c 0,81,82
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0407.simple
+Ligature2: "'ccmp' Canonical Compositions-1" uni0406 uni0308
 Colour: ff00
 EndChar
 
@@ -19544,8 +19770,10 @@ Encoding: 62727 62727 106
 Width: 245
 GlyphClass: 3
 Flags: W
-HStem: -2 20G
-VStem: 0 22<80 80 80 97> 76 80<341 401 327.5 414.5>
+HStem: 534 16<182.266 202.654>
+VStem: 0 22<34.5251 80> 76 80<224.9 516.632>
+AnchorPoint: "Yerok" 149 680 mark 0
+AnchorPoint: "Diacritic" 148 681 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -19639,15 +19867,18 @@ SplineSet
  81 303 81 303 78.5 328 c 128,-1,73
  76 353 76 353 76 382 c 0,16,17
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uni0406.simple uni0308
 Colour: ff00
 EndChar
 
-StartChar: afii10055
+StartChar: uni0406
 Encoding: 1030 1030 107
 Width: 300
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 534 16<237.266 257.654>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<224.9 516.632>
+AnchorPoint: "Yerok" 207 575 mark 0
+AnchorPoint: "Diacritic" 206 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -19801,6 +20032,7 @@ SplineSet
  136 303 136 303 133.5 328 c 128,-1,122
  131 353 131 353 131 382 c 0,65,66
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0406.simple
 Colour: ff00
 EndChar
 
@@ -19808,9 +20040,11 @@ StartChar: uniF440
 Encoding: 62528 62528 108
 Width: 500
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -128 10<33.5965 80.5543> 0 12<283 309 385 433.556> 108.25 12.625<401.252 413.873> 125.25 12.625<397.252 409.873> 139.25 12.625<407.252 419.873> 465.747 10.732<212.999 223.727> 480.646 10.732<204.398 215.126> 494.646 10.732<212.398 223.126> 537 20G<226.571 238> 538 12<283 309 385 411>
 VStem: 2 41<-91.0028 -61.4836> 160 42<394.482 418.263> 204.396 10.732<480.648 491.376> 212.997 10.732<465.749 476.477 494.689 505.335> 309 76<12 143 154.08 418 445 471.155 475 538> 401.25 12.625<108.252 120.873 126.692 136.433>
+AnchorPoint: "Yerok" 349 575 mark 0
+AnchorPoint: "Diacritic" 349 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -20145,12 +20379,15 @@ EndSplineSet
 Colour: ffff
 EndChar
 
-StartChar: uniFFE5
-Encoding: 65509 65509 109
+StartChar: uni041A.simple2
+Encoding: 62778 62778 109
 Width: 545
-Flags: W
+GlyphClass: 2
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 247 17<326.62 407.839> 540 10<245.444 257.654 371.407 425.172>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<224.9 516.632> 401 52<478.438 513.495>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 311 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -20369,15 +20606,17 @@ SplineSet
  325 22 325 22 342.5 17 c 128,-1,187
  360 12 360 12 386 16 c 0,123,124
 EndSplineSet
-Colour: ffff
+Colour: ff00
 EndChar
 
-StartChar: uniFFE6
-Encoding: 65510 65510 110
+StartChar: uni041A.simple3
+Encoding: 62779 62779 110
 Width: 490
-Flags: W
+Flags: HW
 HStem: 247 17<271.62 352.839> 540 10<190.444 202.654 316.407 370.172>
 VStem: 0 22<34.5251 80> 76 80<224.9 516.632> 346 52<478.438 513.495>
+AnchorPoint: "Yerok" 341 575 mark 0
+AnchorPoint: "Diacritic" 257 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -20508,16 +20747,18 @@ SplineSet
  270 22 270 22 287.5 17 c 128,-1,122
  305 12 305 12 331 16 c 0,58,59
 EndSplineSet
-Colour: ffff
+Colour: ff00
 EndChar
 
 StartChar: uniF450
 Encoding: 62544 62544 111
 Width: 515
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<249 275> 93.25 12.625<345.252 357.873> 111.25 12.625<276.347 276.347 355.252 367.873> 129.25 12.625<126.012 137.113 344.252 356.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 173 76<12.0051 117 133.891 188 197.973 365.628 367 472.602> 325 15<4.5562 40.1181> 345.25 12.625<93.2521 105.873 129.349 141.776> 355.25 12.625<111.252 123.873> 359 56<198.559 224.634> 394 13<-58.0989 -11.3544>
+AnchorPoint: "Yerok" 462 557 mark 0
+AnchorPoint: "Diacritic" 343 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -20829,27 +21070,29 @@ StartChar: uniF451
 Encoding: 62545 62545 112
 Width: 515
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<249 275> 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 173 76<12.0051 365.628 367 472.602>
+AnchorPoint: "Yerok" 458 562 mark 0
+AnchorPoint: "Diacritic" 349 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-125.25 138.562 m 4
- 125.25 142.047 128.078 144.875 131.562 144.875 c 4
- 135.047 144.875 137.875 142.047 137.875 138.562 c 4
- 137.875 135.078 135.047 132.25 131.562 132.25 c 4
- 128.078 132.25 125.25 135.078 125.25 138.562 c 4
-125.25 158.562 m 4
- 125.25 162.047 128.078 164.875 131.562 164.875 c 4
- 135.047 164.875 137.875 162.047 137.875 158.562 c 4
- 137.875 155.078 135.047 152.25 131.562 152.25 c 4
- 128.078 152.25 125.25 155.078 125.25 158.562 c 4
-109.25 172.562 m 4
- 109.25 176.047 112.078 178.875 115.562 178.875 c 4
- 119.047 178.875 121.875 176.047 121.875 172.562 c 4
- 121.875 169.078 119.047 166.25 115.562 166.25 c 4
- 112.078 166.25 109.25 169.078 109.25 172.562 c 4
+125.25 138.562 m 0
+ 125.25 142.047 128.078 144.875 131.562 144.875 c 0
+ 135.047 144.875 137.875 142.047 137.875 138.562 c 0
+ 137.875 135.078 135.047 132.25 131.562 132.25 c 0
+ 128.078 132.25 125.25 135.078 125.25 138.562 c 0
+125.25 158.562 m 0
+ 125.25 162.047 128.078 164.875 131.562 164.875 c 0
+ 135.047 164.875 137.875 162.047 137.875 158.562 c 0
+ 137.875 155.078 135.047 152.25 131.562 152.25 c 0
+ 128.078 152.25 125.25 155.078 125.25 158.562 c 0
+109.25 172.562 m 0
+ 109.25 176.047 112.078 178.875 115.562 178.875 c 0
+ 119.047 178.875 121.875 176.047 121.875 172.562 c 0
+ 121.875 169.078 119.047 166.25 115.562 166.25 c 0
+ 112.078 166.25 109.25 169.078 109.25 172.562 c 0
 440 443 m 0
  427 506 391 540 320 534 c 0
  265 529 249 433 249 384 c 0
@@ -21007,9 +21250,11 @@ StartChar: uniF480
 Encoding: 62592 62592 113
 Width: 765
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -128 10<293.597 340.554> 0 12<543 569 645 693.556> 108.25 12.625<661.252 673.873> 125.25 12.625<657.252 669.873> 132.25 12.625<125.252 137.873> 139.25 12.625<667.252 679.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 351 21<214 299.882 355.891 470> 466.747 10.732<472.999 483.727> 481.646 10.732<464.398 475.126> 495.646 10.732<472.398 483.126> 537 20G<486.571 498> 538 12<244.076 257.654 543 569 645 671>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 83<224.961 351 372 518.192> 262 41<-91.0028 -61.4836> 420 42<394.482 418.263> 464.396 10.732<481.648 492.376> 472.997 10.732<466.749 477.477 495.689 506.335> 569 76<12 143 154.08 418 445 471.155 475 538> 661.25 12.625<108.252 120.873 126.692 136.433>
+AnchorPoint: "Yerok" 611 575 mark 0
+AnchorPoint: "Diacritic" 367 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -21509,13 +21754,15 @@ EndSplineSet
 Colour: ffff
 EndChar
 
-StartChar: uniE92A
+StartChar: uni047E0301
 Encoding: 59690 59690 114
 Width: 530
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 0 18<148.037 189.791 315.117 357.437> 578 109<214 291> 599 6<465 478 488 501> 675 12<131.809 214 291 364.191>
 VStem: 6 81<304.908 550> 85 27<605.281 620.031> 214 77<318.094 550 578 675> 384 26<604.016 620.031> 419 81<304.908 550> 478 51<673 687>
+AnchorPoint: "Yerok" 255 722 mark 0
+AnchorPoint: "Diacritic" 257 722 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -21627,6 +21874,7 @@ SplineSet
  465 605 l 1,79,-1
  478 605 l 1,72,-1
 EndSplineSet
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni047E.simple uni0301
 Colour: ff00
 EndChar
 
@@ -21634,7 +21882,11 @@ StartChar: uni2DE2
 Encoding: 11746 11746 115
 Width: 0
 Flags: HW
-HStem: 564 200
+HStem: 564 109
+VStem: -237 123
+DStem2: -225 564 -192 583 0.132955 0.991122<23.2188 82.7345> -204 662 -183 650 0.992613 0.121319<19.389 54.6158>
+AnchorPoint: "Stacking" -204 561 mark 0
+AnchorPoint: "Stacking" -196 703.7 basemark 0
 AnchorPoint: "Diacritic" -203 560 mark 0
 LayerCount: 3
 Fore
@@ -21674,6 +21926,8 @@ Width: 0
 Flags: HW
 HStem: 561 21G<-184 -97.3333 104.333 191> 588 12<-90.9958 119.275>
 VStem: -178 41<637.991 661.598> 152 41<637.991 661.598>
+AnchorPoint: "Stacking" 1 560 mark 0
+AnchorPoint: "Stacking" 2.5 801.7 basemark 0
 AnchorPoint: "Diacritic" -1 560 mark 0
 LayerCount: 3
 Fore
@@ -21786,6 +22040,8 @@ Width: 0
 Flags: HW
 HStem: 578 21G<-198 -166> 717 14<-325.023 -294.12 -67.4539 -38.3381>
 VStem: -334 41<618.991 642.598> -198 32<578 618 622.213 653.545 662 768> -70 40<618.991 643.198>
+AnchorPoint: "Stacking" -184 560 mark 0
+AnchorPoint: "Stacking" -179 799.7 basemark 0
 AnchorPoint: "Diacritic" -182 560 mark 0
 LayerCount: 3
 Fore
@@ -21948,8 +22204,10 @@ StartChar: uni2DE5
 Encoding: 11749 11749 118
 Width: 0
 Flags: HW
-HStem: 574 48<-156.958 -116.395> 668 24<-134.558 -68>
+HStem: 668 24<-134.558 -68>
 VStem: -272 42<664 681.226> -80 42<610.252 662.413>
+AnchorPoint: "Stacking" -134 558 mark 0
+AnchorPoint: "Stacking" -119 799.7 basemark 0
 AnchorPoint: "Diacritic" -134 560 mark 0
 LayerCount: 3
 Fore
@@ -22011,6 +22269,9 @@ Encoding: 11752 11752 119
 Width: 0
 Flags: HW
 HStem: 586 167
+DStem2: -172 635 -216 685 0.363208 -0.931708<-62.5666 0> -172 635 -176 587 0.514496 0.857493<0 89.0078> -103 750 -109 701 0.392565 -0.919724<42.7111 167.715>
+AnchorPoint: "Stacking" -176 560 mark 0
+AnchorPoint: "Stacking" -163 797.7 basemark 0
 AnchorPoint: "Diacritic" -175 560 mark 0
 LayerCount: 3
 Fore
@@ -22060,6 +22321,9 @@ Encoding: 11757 11757 120
 Width: 0
 Flags: HW
 HStem: 573 15<-257.797 -234.414>
+VStem: -315.5 89
+AnchorPoint: "Stacking" -260 559 mark 0
+AnchorPoint: "Stacking" -260 715.7 basemark 0
 AnchorPoint: "Diacritic" -259 560 mark 0
 LayerCount: 3
 Fore
@@ -22106,6 +22370,8 @@ Width: 0
 Flags: HW
 HStem: 578 109<-241 -164> 675 12<-323.191 -241 -164 -90.8091>
 VStem: -370 27<605.281 620.031> -241 77<578 675> -71 26<604.016 620.031>
+AnchorPoint: "Stacking" -205 559 mark 0
+AnchorPoint: "Stacking" -206 736.7 basemark 0
 AnchorPoint: "Diacritic" -203 560 mark 0
 LayerCount: 3
 Fore
@@ -22171,6 +22437,9 @@ Width: 0
 Flags: HW
 HStem: 717 14<-325.023 -294.401 -68.5992 -38.3381>
 VStem: -334 41<618.991 642.598> -70 40<618.991 643.198>
+DStem2: -182 648 -210 609 0.75622 0.654318<2.42956 72.2204>
+AnchorPoint: "Stacking" -178 578 mark 0
+AnchorPoint: "Stacking" -179 798.7 basemark 0
 AnchorPoint: "Diacritic" -178 578 mark 0
 LayerCount: 3
 Fore
@@ -22311,11 +22580,13 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: gravecomb
+StartChar: uni0300
 Encoding: 768 768 123
 Width: 0
 Flags: W
 VStem: -212 36<595 601 595 601>
+AnchorPoint: "Stacking" -209 703.7 basemark 0
+AnchorPoint: "Stacking" -196 588 mark 0
 AnchorPoint: "Diacritic" -196 587 mark 0
 LayerCount: 3
 Fore
@@ -22345,11 +22616,14 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: acutecomb
+StartChar: uni0301
 Encoding: 769 769 124
 Width: 0
 Flags: HW
-VStem: -224 36<595 601 595 601>
+HStem: 595 6<-224 -211 -201 -188>
+VStem: -211 51<669 683>
+AnchorPoint: "Stacking" -205 587 mark 0
+AnchorPoint: "Stacking" -182 701.7 basemark 0
 AnchorPoint: "Diacritic" -205 587 mark 0
 LayerCount: 3
 Fore
@@ -22385,6 +22659,8 @@ Width: 0
 Flags: HW
 HStem: 602 21G<-219.5 -153>
 VStem: -151 56<652.535 678.634>
+AnchorPoint: "Stacking" -168 588 mark 0
+AnchorPoint: "Stacking" -169 705.7 basemark 0
 AnchorPoint: "Diacritic" -168 588 mark 0
 LayerCount: 3
 Fore
@@ -22427,7 +22703,9 @@ EndChar
 StartChar: uni0308
 Encoding: 776 776 126
 Width: 0
-Flags: HW
+Flags: W
+AnchorPoint: "Stacking" -257 587 mark 0
+AnchorPoint: "Stacking" -256 703.7 basemark 0
 AnchorPoint: "Diacritic" -258 587 mark 0
 LayerCount: 3
 Fore
@@ -22471,7 +22749,10 @@ StartChar: uni030F
 Encoding: 783 783 127
 Width: 0
 Flags: HW
-HStem: 595 88<-312 -289 -340 -276 -312 -312 -212 -189 -212 -212>
+HStem: 595 6<-312 -299 -289 -276 -212 -199 -189 -176>
+VStem: -340 51<669 683> -240 51<669 683>
+AnchorPoint: "Stacking" -249 587.7 mark 0
+AnchorPoint: "Stacking" -249 703.7 basemark 0
 AnchorPoint: "Diacritic" -248 587 mark 0
 LayerCount: 3
 Fore
@@ -22522,9 +22803,11 @@ EndChar
 StartChar: uni0311
 Encoding: 785 785 128
 Width: 0
-Flags: HW
+Flags: W
 HStem: 605 82
 VStem: -252 41<631.094 655.375>
+AnchorPoint: "Stacking" -184 588 mark 0
+AnchorPoint: "Stacking" -182 703.7 basemark 0
 AnchorPoint: "Diacritic" -185 587 mark 0
 LayerCount: 3
 Fore
@@ -22560,10 +22843,12 @@ EndChar
 
 StartChar: uni0486
 Encoding: 1158 1158 129
-Width: 5
-Flags: HW
+Width: 0
+Flags: W
 HStem: 595 6<-172 -155.764 -138 -124> 663 13<-197.582 -154.89>
 VStem: -267 143
+AnchorPoint: "Stacking" -194 588 mark 0
+AnchorPoint: "Stacking" -192 703.7 basemark 0
 AnchorPoint: "Diacritic" -196 587 mark 0
 LayerCount: 3
 Fore
@@ -22609,7 +22894,10 @@ StartChar: uni0483
 Encoding: 1155 1155 130
 Width: 0
 Flags: HW
-HStem: 581 17 673 16
+HStem: 583 104
+VStem: -394 57<640.54 672.253> -104 57<599.319 629.937>
+AnchorPoint: "Stacking" -206 572 mark 0
+AnchorPoint: "Stacking" -199 703.7 basemark 0
 AnchorPoint: "Diacritic" -205 573 mark 0
 LayerCount: 3
 Fore
@@ -22665,6 +22953,8 @@ Width: 0
 Flags: HW
 HStem: 583 104
 VStem: -150 57<640.54 672.253> 140 57<599.319 629.937>
+AnchorPoint: "Stacking" 41 572 mark 0
+AnchorPoint: "Stacking" 3 720.7 basemark 0
 AnchorPoint: "Diacritic" 40 571 mark 0
 LayerCount: 3
 Fore
@@ -22714,13 +23004,15 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uniFFEB
+StartChar: uni0300.alt
 Encoding: 62720 62720 132
 Width: 0
 GlyphClass: 4
 Flags: HW
 HStem: 582 21G<-159.07 -127> 653 12<-235.281 -205.762> 665.882 10.945<-161.692 -152.197 -137.376 -126.435> 677.561 10.947<-149.004 -138.064> 708 11<-284.038 -246.804>
 VStem: -162.417 10.945<668.582 679.523> -149.006 10.944<614.091 614.249 677.563 688.506> -137.378 10.945<665.884 676.825>
+AnchorPoint: "Stacking" -174 560 mark 0
+AnchorPoint: "Stacking" -169 736.7 basemark 0
 AnchorPoint: "Diacritic" -174 560 mark 0
 LayerCount: 3
 Fore
@@ -22813,13 +23105,15 @@ EndSplineSet
 Colour: ffff
 EndChar
 
-StartChar: uniFFEC
+StartChar: uni0301.alt
 Encoding: 62721 62721 133
 Width: 0
 GlyphClass: 4
 Flags: HW
 HStem: 582 21G<-216 -183.93> 653 12<-137.238 -107.719> 665.882 10.945<-216.565 -205.624 -190.803 -181.308> 677.561 10.947<-204.936 -193.996> 708 11<-96.1957 -58.9618>
 VStem: -216.567 10.945<665.884 676.825> -204.938 10.944<614.091 614.249 677.563 688.506> -191.528 10.945<668.582 679.523>
+AnchorPoint: "Stacking" -210 572 mark 0
+AnchorPoint: "Stacking" -204 749.7 basemark 0
 AnchorPoint: "Diacritic" -207 572 mark 0
 LayerCount: 3
 Fore
@@ -22922,13 +23216,15 @@ EndSplineSet
 Colour: ffff
 EndChar
 
-StartChar: uniF502
+StartChar: uni04860301.alt
 Encoding: 62722 62722 134
 Width: 0
 GlyphClass: 4
 Flags: HW
 HStem: 582 21G<-159 -126.93> 599 21G<-214 -187.5> 653 12<-80.2384 -50.7191> 665.882 10.945<-159.565 -148.624 -133.803 -124.308> 677.561 10.947<-147.936 -136.996> 708 11<-39.1957 -1.96185>
 VStem: -315 41<625.094 649.375> -159.567 10.945<665.884 676.825> -147.938 10.944<614.091 614.249 677.563 688.506> -134.528 10.945<668.582 679.523>
+AnchorPoint: "Stacking" -182 576 mark 0
+AnchorPoint: "Stacking" -178 719.7 basemark 0
 AnchorPoint: "Diacritic" -182 576 mark 0
 LayerCount: 3
 Fore
@@ -23050,16 +23346,19 @@ SplineSet
  -278.359 608.292 -278.359 608.292 -297.516 617.029 c 0,87,88
  -318.098 626.415 -318.098 626.415 -315 645 c 0,69,70
 EndSplineSet
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0301.alt
 Colour: ffff
 EndChar
 
-StartChar: uniF503
+StartChar: uni04860300.alt
 Encoding: 62723 62723 135
 Width: 0
 GlyphClass: 4
 Flags: HW
 HStem: 587 16G<-242 -215.5 -65.0704 -33> 653 12<-141.281 -111.762> 665.882 10.945<-67.6915 -58.197 -43.3761 -32.4344> 677.561 10.947<-55.0041 -44.0633> 708 11<-190.038 -152.804>
 VStem: -343 41<613.094 637.375> -68.417 10.9453<668.582 679.523> -55.0059 10.9444<614.091 614.249 677.563 688.506> -43.3779 10.9453<665.884 676.825>
+AnchorPoint: "Stacking" -150 580 mark 0
+AnchorPoint: "Stacking" -145 753.7 basemark 0
 AnchorPoint: "Diacritic" -148 581 mark 0
 LayerCount: 3
 Fore
@@ -23171,6 +23470,7 @@ SplineSet
  -235 661 -235 661 -223 638 c 128,-1,78
  -211 615 -211 615 -224 587 c 1,59,-1
 EndSplineSet
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0300.alt
 Colour: ffff
 EndChar
 
@@ -23178,9 +23478,11 @@ StartChar: uni047C.simple
 Encoding: 62844 62844 136
 Width: 900
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: -46 12<307.08 350.023 533.328 576.235> 132.25 12.625<125.252 137.873 745.252 757.873> 152.25 12.625<125.252 137.873 745.252 757.873> 166.25 12.625<109.252 121.873 761.252 773.873> 384 82<278.119 322.214 560.786 604.881> 586 21G<353.049 359.5 431.5 448>
 VStem: 55 22<34.7559 80> 109.25 12.625<166.252 178.873> 123 76<268.547 473.536> 125.25 12.625<132.252 144.873 152.252 164.873> 274 63<401.664 464.4> 351 10<586.131 625.049> 364 46<410.063 515.034> 434 21<581.396 626.156> 435 13<-128.904 -76.2989> 473 46<410.063 515.034> 546 63<401.664 464.4> 684 76<268.547 473.536> 745.25 12.625<132.252 144.873 152.252 164.873> 761.25 12.625<166.252 178.873> 806 22<34.7559 80>
+AnchorPoint: "Yerok" 447 802 mark 0
+AnchorPoint: "Diacritic" 451 802 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -23791,6 +24093,7 @@ SplineSet
  359 596 359 596 359 591 c 128,-1,531
  359 586 359 586 355 586 c 1,508,509
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uniA64C.simple uni0486 uni0311
 Colour: ff00
 EndChar
 
@@ -23798,27 +24101,29 @@ StartChar: uniA64C.simple
 Encoding: 63309 63309 137
 Width: 890
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -46 12<307.08 350.023 533.328 576.235> 132.25 12.625<125.252 137.873 745.252 757.873> 152.25 12.625<125.252 137.873 745.252 757.873> 166.25 12.625<109.252 121.873 761.252 773.873> 384 82<278.119 322.214 560.786 604.881>
 VStem: 55 22<34.7559 80> 109.25 12.625<166.252 178.873> 123 76<268.547 473.536> 125.25 12.625<132.252 144.873 152.252 164.873> 274 63<401.664 464.4> 364 46<410.063 515.034> 435 13<-128.904 -76.2989> 473 46<410.063 515.034> 546 63<401.664 464.4> 684 76<268.547 473.536> 745.25 12.625<132.252 144.873 152.252 164.873> 761.25 12.625<166.252 178.873> 806 22<34.7559 80>
+AnchorPoint: "Yerok" 721 575 mark 0
+AnchorPoint: "Diacritic" 438 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-757.875 138.562 m 4xfe7dc0
- 757.875 135.078 755.047 132.25 751.562 132.25 c 4
- 748.078 132.25 745.25 135.078 745.25 138.562 c 4
- 745.25 142.047 748.078 144.875 751.562 144.875 c 4
- 755.047 144.875 757.875 142.047 757.875 138.562 c 4xfe7dc0
-757.875 158.562 m 4
- 757.875 155.078 755.047 152.25 751.562 152.25 c 4
- 748.078 152.25 745.25 155.078 745.25 158.562 c 4
- 745.25 162.047 748.078 164.875 751.562 164.875 c 4
- 755.047 164.875 757.875 162.047 757.875 158.562 c 4
-773.875 172.562 m 4
- 773.875 169.078 771.047 166.25 767.562 166.25 c 4
- 764.078 166.25 761.25 169.078 761.25 172.562 c 4
- 761.25 176.047 764.078 178.875 767.562 178.875 c 4
- 771.047 178.875 773.875 176.047 773.875 172.562 c 4
+757.875 138.562 m 0xfe7dc0
+ 757.875 135.078 755.047 132.25 751.562 132.25 c 0
+ 748.078 132.25 745.25 135.078 745.25 138.562 c 0
+ 745.25 142.047 748.078 144.875 751.562 144.875 c 0
+ 755.047 144.875 757.875 142.047 757.875 138.562 c 0xfe7dc0
+757.875 158.562 m 0
+ 757.875 155.078 755.047 152.25 751.562 152.25 c 0
+ 748.078 152.25 745.25 155.078 745.25 158.562 c 0
+ 745.25 162.047 748.078 164.875 751.562 164.875 c 0
+ 755.047 164.875 757.875 162.047 757.875 158.562 c 0
+773.875 172.562 m 0
+ 773.875 169.078 771.047 166.25 767.562 166.25 c 0
+ 764.078 166.25 761.25 169.078 761.25 172.562 c 0
+ 761.25 176.047 764.078 178.875 767.562 178.875 c 0
+ 771.047 178.875 773.875 176.047 773.875 172.562 c 0
 125.25 138.562 m 0xfefcc0
  125.25 142.047 128.078 144.875 131.562 144.875 c 0
  135.047 144.875 137.875 142.047 137.875 138.562 c 0
@@ -24341,30 +24646,32 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: afii10053
+StartChar: uni0404
 Encoding: 1028 1028 138
 Width: 475
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 384 82<278.119 322.214>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 76<269.001 473.536> 125.25 12.625<132.252 144.873 152.252 164.873> 274 63<401.664 464.4> 305 56<255.366 282.152> 364 46<410.063 515.034> 411 41<136.811 167.003>
+AnchorPoint: "Yerok" 384 574 mark 0
+AnchorPoint: "Diacritic" 275 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-125.25 138.562 m 4xfd30
- 125.25 142.047 128.078 144.875 131.562 144.875 c 4
- 135.047 144.875 137.875 142.047 137.875 138.562 c 4
- 137.875 135.078 135.047 132.25 131.562 132.25 c 4
- 128.078 132.25 125.25 135.078 125.25 138.562 c 4xfd30
-125.25 158.562 m 4
- 125.25 162.047 128.078 164.875 131.562 164.875 c 4
- 135.047 164.875 137.875 162.047 137.875 158.562 c 4
- 137.875 155.078 135.047 152.25 131.562 152.25 c 4
- 128.078 152.25 125.25 155.078 125.25 158.562 c 4
-109.25 172.562 m 4
- 109.25 176.047 112.078 178.875 115.562 178.875 c 4
- 119.047 178.875 121.875 176.047 121.875 172.562 c 4
- 121.875 169.078 119.047 166.25 115.562 166.25 c 4
- 112.078 166.25 109.25 169.078 109.25 172.562 c 4
+125.25 138.562 m 0xfd30
+ 125.25 142.047 128.078 144.875 131.562 144.875 c 0
+ 135.047 144.875 137.875 142.047 137.875 138.562 c 0
+ 137.875 135.078 135.047 132.25 131.562 132.25 c 0
+ 128.078 132.25 125.25 135.078 125.25 138.562 c 0xfd30
+125.25 158.562 m 0
+ 125.25 162.047 128.078 164.875 131.562 164.875 c 0
+ 135.047 164.875 137.875 162.047 137.875 158.562 c 0
+ 137.875 155.078 135.047 152.25 131.562 152.25 c 0
+ 128.078 152.25 125.25 155.078 125.25 158.562 c 0
+109.25 172.562 m 0
+ 109.25 176.047 112.078 178.875 115.562 178.875 c 0
+ 119.047 178.875 121.875 176.047 121.875 172.562 c 0
+ 121.875 169.078 119.047 166.25 115.562 166.25 c 0
+ 112.078 166.25 109.25 169.078 109.25 172.562 c 0
 74 173 m 1
  74 173 107 207 92 244 c 0
  84 265 59 274 38 266 c 0
@@ -24589,6 +24896,7 @@ SplineSet
  297 313 297 313 278 304 c 0,210,211
  243 289 243 289 230 238 c 1,65,66
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0404.simple
 Colour: ff00
 EndChar
 
@@ -24596,9 +24904,11 @@ StartChar: uni0404.simple
 Encoding: 62724 62724 139
 Width: 420
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -5 20G
 VStem: 0 22<80 80 80 97> 68 76<361.5 408.5 361.5 424.5> 250 37<245 295> 355 21
+AnchorPoint: "Yerok" 320 575 mark 0
+AnchorPoint: "Diacritic" 226 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -24836,6 +25146,8 @@ Width: 0
 Flags: HW
 HStem: 595 6<-312 -299 -289 -276 -212 -199 -189 -176>
 VStem: -340 51<669 683> -240 51<669 683>
+AnchorPoint: "Stacking" -252 588 mark 0
+AnchorPoint: "Stacking" -258 703.7 basemark 0
 AnchorPoint: "Diacritic" -251 587 mark 0
 LayerCount: 3
 Fore
@@ -24894,9 +25206,11 @@ EndChar
 StartChar: uni0476
 Encoding: 1142 1142 143
 Width: 465
-Flags: W
+Flags: HW
 HStem: 0 12<100 126 228 263> 538 12<0 26 102 128 365.567 425.395> 595 6<158 171 181 194 258 271 281 294>
 VStem: 130 51<669 683> 230 51<669 683> 400 52<473.229 507.924>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 216 718 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -25013,15 +25327,19 @@ SplineSet
  194 601 l 1,74,-1
  194 595 l 1,67,-1
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0476.simple
+Ligature2: "'ccmp' Canonical Compositions-1" uni0474 uni030F
 Colour: ff00
 EndChar
 
 StartChar: uni0476.simple
 Encoding: 62838 62838 144
 Width: 465
-Flags: W
+Flags: HW
 HStem: 0 12<100 126 228 263> 538 12<0 26 102 128 365.567 425.395> 595 6<158 171 181 194 258 271 281 294>
 VStem: 130 51<669 683> 230 51<669 683> 400 52<473.229 507.924>
+AnchorPoint: "Yerok" 398 575 mark 0
+AnchorPoint: "Diacritic" 205 725 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -25138,15 +25456,18 @@ SplineSet
  194 601 l 1,74,-1
  194 595 l 1,67,-1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uni0474.simple uni030F
 Colour: ff00
 EndChar
 
 StartChar: uni0478
 Encoding: 1144 1144 145
 Width: 835
-Flags: W
+Flags: HW
 HStem: 0 12<197 259.573> 72 53<517.416 564.334> 132.25 12.625<125.252 137.873 565.252 577.873> 152.25 12.625<125.252 137.873 565.252 577.873> 166.25 12.625<109.252 121.873 549.252 561.873> 275 12<547 573 649 670> 370.25 12.625<402.252 414.873> 384.25 12.625<386.252 398.873> 404.25 12.625<386.252 398.873> 538 12<264.429 327 507 533 609 633>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 76<268.547 472.134> 125.25 12.625<132.252 144.873 152.252 164.873> 325 76<77.8745 278.543> 386.25 12.625<384.252 396.873 404.252 416.873> 402.25 12.625<370.252 382.873> 450 24<338.908 376.725 470 510.671> 490 24<173.481 212.381> 549.25 12.625<166.252 178.873> 565.25 12.625<132.252 144.873 152.252 164.873> 668 48<112.579 274.5 287 419.977> 794 31<492.919 518.128>
+AnchorPoint: "Yerok" 775 575 mark 0
+AnchorPoint: "Diacritic" 684 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -25624,6 +25945,8 @@ SplineSet
  781 543 781 543 769 535 c 0,379,380
  755 526 755 526 746 504 c 1,297,298
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0478.simple
+Ligature2: "'ccmp' Canonical Compositions-1" uni041E uni0423
 Colour: ff00
 EndChar
 
@@ -25631,9 +25954,11 @@ StartChar: uni0478.simple
 Encoding: 62840 62840 146
 Width: 740
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 12<142 204.573> 225 12<452 478 554 575> 538 12<209.429 272 412 438 514 538>
 VStem: 0 22<34.5251 80> 68 76<268.547 472.134> 270 76<77.8745 278.543> 392 22<470 515.475> 400 22<34.5251 80> 575 46<116.142 225 237 416.986> 699 31<494.157 518.002>
+AnchorPoint: "Yerok" 401 575 mark 0
+AnchorPoint: "Diacritic" 582 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -25857,6 +26182,8 @@ Encoding: 1159 1159 147
 Width: 0
 Flags: HW
 VStem: 28 55<652.642 693.864>
+AnchorPoint: "Stacking" -119 589 mark 0
+AnchorPoint: "Stacking" -115 798.7 basemark 0
 AnchorPoint: "Diacritic" -120 587 mark 0
 LayerCount: 3
 Fore
@@ -25961,6 +26288,8 @@ Width: 0
 Flags: HW
 HStem: 640.5 33<-234.719 -211.064>
 VStem: -252 41<640.651 659.765> -151 18<639.22 686.444>
+AnchorPoint: "Stacking" -183 589 mark 0
+AnchorPoint: "Stacking" -183 703.7 basemark 0
 AnchorPoint: "Diacritic" -183 588 mark 0
 LayerCount: 3
 Fore
@@ -26054,13 +26383,15 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uniE001
+StartChar: uni04860301
 Encoding: 57345 57345 151
 Width: 0
 GlyphClass: 4
 Flags: HW
 HStem: 595 6<-232 -215.764 -198 -184 -156 -143 -133 -120> 663 13<-257.643 -214.89>
 VStem: -143 51<669 683>
+AnchorPoint: "Stacking" -174 584 mark 0
+AnchorPoint: "Stacking" -173 717.7 basemark 0
 AnchorPoint: "Diacritic" -172 584 mark 0
 LayerCount: 3
 Fore
@@ -26117,16 +26448,19 @@ SplineSet
  -301 631 -301 631 -314 615 c 2,30,-1
  -327 599 l 5,8,9
 EndSplineSet
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0301
 Colour: ffff
 EndChar
 
-StartChar: uniE003
+StartChar: uni04860300
 Encoding: 57347 57347 152
 Width: 0
 GlyphClass: 4
 Flags: HW
 HStem: 595 6<-232 -215.764 -198 -184 -132 -119 -109 -96> 663 13<-257.582 -214.89>
 VStem: -160 51<669 683>
+AnchorPoint: "Stacking" -158 593 mark 0
+AnchorPoint: "Stacking" -158 703.7 basemark 0
 AnchorPoint: "Diacritic" -158 593 mark 0
 LayerCount: 3
 Fore
@@ -26183,30 +26517,33 @@ SplineSet
  -301 631 -301 631 -314 615 c 2,30,-1
  -327 599 l 5,8,9
 EndSplineSet
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0300
 Colour: ffff
 EndChar
 
-StartChar: uniE016
+StartChar: uniFE2EFE2F
 Encoding: 57366 57366 153
 Width: 0
 GlyphClass: 4
 Flags: HW
 HStem: 583 34<82.8101 100.56> 604.768 9.12201<146.273 155.392> 614.501 9.12103<136.583 145.702 158.051 165.964> 625 8<195.067 226.54> 647 8<-212.54 -181.067> 651 8<175.749 201.609> 655.768 9.12097<-151.814 -143.901 -131.551 -122.433> 663 34<-87.0086 -68.782> 665.5 9.12201<-141.241 -132.123>
-VStem: -152.418 9.121<658.017 667.136> -143 6<630.351 653.998> -141.242 9.12001<614.305 635.573 665.501 674.621> -131.553 9.12099<655.769 664.888> 136.582 9.121<614.502 623.621> 146.272 9.121<604.769 613.889 644.427 665> 157.447 9.12099<612.254 621.373>
+VStem: -152.418 9.121<658.017 667.136> -143 6<630.351 653.998> -141.242 9.12001<665.501 674.621> -131.553 9.12099<655.769 664.888> 136.582 9.121<614.502 623.621> 146.272 9.121<604.769 613.889> 151 6<626.002 649.649> 157.447 9.12099<612.254 621.373>
+AnchorPoint: "Stacking" -1.90063 558.286 mark 0
+AnchorPoint: "Stacking" -1 719.7 basemark 0
 AnchorPoint: "Diacritic" -103 560 mark 0
 LayerCount: 3
 Fore
 SplineSet
--122.432 660.328 m 0x124f
+-122.432 660.328 m 0x124c80
  -122.432 657.811 -124.475 655.768 -126.992 655.768 c 0
  -129.51 655.768 -131.553 657.811 -131.553 660.328 c 0
  -131.553 662.847 -129.51 664.889 -126.992 664.889 c 0
- -124.475 664.889 -122.432 662.847 -122.432 660.328 c 0x124f
--132.122 670.062 m 0x10df
+ -124.475 664.889 -122.432 662.847 -122.432 660.328 c 0x124c80
+-132.122 670.062 m 0x10dc80
  -132.122 667.544 -134.164 665.5 -136.682 665.5 c 0
  -139.199 665.5 -141.242 667.544 -141.242 670.062 c 0
  -141.242 672.578 -139.199 674.622 -136.682 674.622 c 0
- -134.164 674.622 -132.122 672.578 -132.122 670.062 c 0x10df
+ -134.164 674.622 -132.122 672.578 -132.122 670.062 c 0x10dc80
 -143.297 662.576 m 0
  -143.297 660.058 -145.34 658.016 -147.857 658.016 c 0
  -150.375 658.016 -152.418 660.058 -152.418 662.576 c 0
@@ -26215,13 +26552,13 @@ SplineSet
 136.582 619.062 m 0
  136.582 621.579 138.625 623.622 141.143 623.622 c 0
  143.66 623.622 145.703 621.579 145.703 619.062 c 0
- 145.703 616.543 143.66 614.501 141.143 614.501 c 0x304f
+ 145.703 616.543 143.66 614.501 141.143 614.501 c 0x304c80
  138.625 614.501 136.582 616.543 136.582 619.062 c 0
-146.272 609.328 m 0
+146.272 609.328 m 0x504e80
  146.272 611.846 148.314 613.89 150.832 613.89 c 0
  153.35 613.89 155.393 611.846 155.393 609.328 c 0
- 155.393 606.812 153.35 604.768 150.832 604.768 c 0x504f
- 148.314 604.768 146.272 606.812 146.272 609.328 c 0
+ 155.393 606.812 153.35 604.768 150.832 604.768 c 0
+ 148.314 604.768 146.272 606.812 146.272 609.328 c 0x504e80
 157.447 616.813 m 0
  157.447 619.332 159.49 621.374 162.008 621.374 c 0
  164.525 621.374 166.568 619.332 166.568 616.813 c 0
@@ -26234,7 +26571,7 @@ SplineSet
  202 659 201 652.289 186 651 c 0
  175.84 650.127 171 653 171 653 c 1
  171 653 190 632 214 633 c 0
- 228 633 238 645 238 659 c 0x156f
+ 228 633 238 645 238 659 c 0x156d80
  238 668 235 675 226 679 c 0
  212 686 206 676 207 681 c 1
  212 692 228.611 687.918 238 681 c 0
@@ -26267,7 +26604,7 @@ SplineSet
  -198 594 -192 604 -193 599 c 1
  -197 589.122 -214.716 591.942 -224 599 c 0
  -236 608.122 -235 635 -222 647 c 0
- -214 655 -200 657 -190 655 c 1x986f
+ -214 655 -200 657 -190 655 c 1x986d80
  -157 652 -137 611 -137 611 c 1
  -137 611 -143 627 -143 636 c 0
  -143 652 -139 654 -137 654 c 0
@@ -26281,7 +26618,7 @@ SplineSet
  -98 616 -76 602 -60 608 c 0
  -43 614 -41 616 -20 630 c 1
  -23 638 -22.9434 647.593 -17 656 c 0
- -8.66699 667.789 10 669 20 659 c 2x156f
+ -8.66699 667.789 10 669 20 659 c 2x156d80
  21 658 l 1
  45 671 74.8955 688.657 98 692 c 0
 EndSplineSet
@@ -30087,6 +30424,8 @@ StartChar: uni0307
 Encoding: 775 775 282
 Width: 0
 Flags: HW
+AnchorPoint: "Stacking" -228 588 mark 0
+AnchorPoint: "Stacking" -228 703.7 basemark 0
 AnchorPoint: "Diacritic" -226 587 mark 0
 LayerCount: 3
 Fore
@@ -30099,12 +30438,14 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10061
+StartChar: uni040C
 Encoding: 1036 1036 283
 Width: 565
 Flags: HW
 HStem: 0 21G<489 520> 84.25 12.625<283.252 295.873> 98.25 12.625<267.252 279.873> 118.25 12.625<267.252 279.873> 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 539 11<244.651 257.654 391.304 437.504>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<224.9 516.632> 267.25 12.625<98.2521 110.873 118.252 130.873> 283.25 12.625<84.2521 96.8729> 401 61<57.9141 180.963> 415 52<473.229 507.924> 512 41<43.7531 74.1891>
+AnchorPoint: "Yerok" 419 575 mark 0
+AnchorPoint: "Diacritic" 307 735 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -30227,6 +30568,7 @@ SplineSet
  225 542 211 420 211 382 c 0xffdc80
  211 273 242 216 250 125 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uni041A uni0301
 EndChar
 
 StartChar: uni040D
@@ -30235,18 +30577,20 @@ Width: 525
 Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 534 16<237.266 257.654 487.266 507.654>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 131 80<298.829 516.632> 305 22<34.5251 80> 381 80<224.9 489.347>
+AnchorPoint: "Yerok" 454 575 mark 0
+AnchorPoint: "Diacritic" 318 728 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-334.823 595 m 5
- 298.823 595 l 5
- 298.823 601 l 5
- 311.823 601 l 5
- 270.823 683 l 5
- 321.823 683 l 5
- 321.823 601 l 5
- 334.823 601 l 5
- 334.823 595 l 5
+334.823 595 m 1
+ 298.823 595 l 1
+ 298.823 601 l 1
+ 311.823 601 l 1
+ 270.823 683 l 1
+ 321.823 683 l 1
+ 321.823 601 l 1
+ 334.823 601 l 1
+ 334.823 595 l 1
 125.25 138.562 m 0xfec0
  125.25 142.047 128.078 144.875 131.562 144.875 c 0
  135.047 144.875 137.875 142.047 137.875 138.562 c 0
@@ -30334,14 +30678,17 @@ SplineSet
  282 423 297 439 320 455 c 0
  343 472 374 478 391 480 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uni0418 uni0300
 EndChar
 
-StartChar: afii10062
+StartChar: uni040E
 Encoding: 1038 1038 285
 Width: 395
 Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 275 12<107 133 209 230> 538 12<67 93 169 193>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 228 48<113.6 274.014 287 420.245> 354 31<494.157 518.002>
+AnchorPoint: "Yerok" 344 575 mark 0
+AnchorPoint: "Diacritic" 230 736 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -30424,6 +30771,7 @@ SplineSet
  44 219 61 221 71 196 c 0
  76 183 74 173 74 173 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uni0423 uni0306
 EndChar
 
 StartChar: uni0400
@@ -30432,18 +30780,20 @@ Width: 475
 Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 384 82<278.119 322.214>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 76<269.001 473.536> 125.25 12.625<132.252 144.873 152.252 164.873> 274 63<401.664 464.4> 305 56<255.366 282.152> 364 46<410.063 515.034> 411 41<136.811 167.003>
+AnchorPoint: "Yerok" 384 596 mark 0
+AnchorPoint: "Diacritic" 275 728 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-293.823 595 m 5
- 257.823 595 l 5
- 257.823 601 l 5
- 270.823 601 l 5
- 229.823 683 l 5
- 280.823 683 l 5
- 280.823 601 l 5
- 293.823 601 l 5
- 293.823 595 l 5
+293.823 595 m 1
+ 257.823 595 l 1
+ 257.823 601 l 1
+ 270.823 601 l 1
+ 229.823 683 l 1
+ 280.823 683 l 1
+ 280.823 601 l 1
+ 293.823 601 l 1
+ 293.823 595 l 1
 125.25 138.562 m 0xfd30
  125.25 142.047 128.078 144.875 131.562 144.875 c 0
  135.047 144.875 137.875 142.047 137.875 138.562 c 0
@@ -30525,27 +30875,30 @@ SplineSet
  342 309 303 315 278 304 c 0
  248 291 235 257 230 238 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uni0415 uni0300
 EndChar
 
-StartChar: afii10023
+StartChar: uni0401
 Encoding: 1025 1025 287
 Width: 475
 Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 384 82<278.119 322.214>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 123 76<269.001 473.536> 125.25 12.625<132.252 144.873 152.252 164.873> 274 63<401.664 464.4> 305 56<255.366 282.152> 364 46<410.063 515.034> 411 41<136.811 167.003>
+AnchorPoint: "Yerok" 276 700 mark 0
+AnchorPoint: "Diacritic" 275 701 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-190 648 m 4
- 205 661 228 660 241 645 c 4
- 254 630 253 607 238 594 c 4
- 223 581 200 582 187 597 c 4
- 174 612 175 635 190 648 c 4
-313 648 m 4
- 328 661 351 660 364 645 c 4
- 377 630 376 607 361 594 c 4
- 346 581 323 582 310 597 c 4
- 297 612 298 635 313 648 c 4
+190 648 m 0
+ 205 661 228 660 241 645 c 0
+ 254 630 253 607 238 594 c 0
+ 223 581 200 582 187 597 c 0
+ 174 612 175 635 190 648 c 0
+313 648 m 0
+ 328 661 351 660 364 645 c 0
+ 377 630 376 607 361 594 c 0
+ 346 581 323 582 310 597 c 0
+ 297 612 298 635 313 648 c 0
 125.25 138.562 m 0xfd30
  125.25 142.047 128.078 144.875 131.562 144.875 c 0
  135.047 144.875 137.875 142.047 137.875 138.562 c 0
@@ -30627,9 +30980,10 @@ SplineSet
  342 309 303 315 278 304 c 0
  248 291 235 257 230 238 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Compositions-1" uni0415 uni0308
 EndChar
 
-StartChar: afii10051
+StartChar: uni0402
 Encoding: 1026 1026 288
 Width: 427
 Flags: W
@@ -30662,7 +31016,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10052
+StartChar: uni0403
 Encoding: 1027 1027 289
 Width: 427
 Flags: W
@@ -30695,7 +31049,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10057
+StartChar: uni0408
 Encoding: 1032 1032 290
 Width: 427
 Flags: W
@@ -30728,7 +31082,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10058
+StartChar: uni0409
 Encoding: 1033 1033 291
 Width: 427
 Flags: W
@@ -30761,7 +31115,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10059
+StartChar: uni040A
 Encoding: 1034 1034 292
 Width: 427
 Flags: W
@@ -30794,7 +31148,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10060
+StartChar: uni040B
 Encoding: 1035 1035 293
 Width: 427
 Flags: W
@@ -30827,7 +31181,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10145
+StartChar: uni040F
 Encoding: 1039 1039 294
 Width: 427
 Flags: W
@@ -30860,7 +31214,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10047
+StartChar: uni042D
 Encoding: 1069 1069 295
 Width: 427
 Flags: W
@@ -30893,7 +31247,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10049
+StartChar: uni042F
 Encoding: 1071 1071 296
 Width: 427
 Flags: W
@@ -31097,6 +31451,9 @@ Width: 0
 Flags: HW
 HStem: 602 21G<-162.109 -95.6088>
 VStem: -93.6088 56<652.535 678.634>
+AnchorPoint: "Stacking" -132 465 mark 0
+AnchorPoint: "Stacking" -116 684.7 basemark 0
+AnchorPoint: "Yerok" -133 463 mark 0
 LayerCount: 3
 Fore
 SplineSet
@@ -31121,6 +31478,8 @@ StartChar: uni034F
 Encoding: 847 847 303
 Width: 0
 Flags: HW
+AnchorPoint: "Stacking" -2 586 mark 0
+AnchorPoint: "Stacking" -2 588.7 basemark 0
 AnchorPoint: "Diacritic" 1 587 mark 0
 LayerCount: 3
 EndChar
@@ -31320,7 +31679,7 @@ Flags: W
 LayerCount: 3
 EndChar
 
-StartChar: afii61664
+StartChar: uni200C
 Encoding: 8204 8204 319
 Width: 0
 VWidth: 0
@@ -31328,7 +31687,7 @@ Flags: W
 LayerCount: 3
 EndChar
 
-StartChar: afii301
+StartChar: uni200D
 Encoding: 8205 8205 320
 Width: 0
 VWidth: 0
@@ -31336,7 +31695,7 @@ Flags: W
 LayerCount: 3
 EndChar
 
-StartChar: afii299
+StartChar: uni200E
 Encoding: 8206 8206 321
 Width: 0
 VWidth: 0
@@ -31344,7 +31703,7 @@ Flags: W
 LayerCount: 3
 EndChar
 
-StartChar: afii300
+StartChar: uni200F
 Encoding: 8207 8207 322
 Width: 0
 VWidth: 0
@@ -31449,6 +31808,8 @@ GlyphClass: 2
 Flags: W
 HStem: -10 69<232.053 286.717> 43 69<105.329 152.717 364.053 418.717> 175 69<45.2827 92.7173 433.329 480.717> 320 69<105.329 152.717 365.662 418.717> 377 69<239.329 286.717>
 VStem: 35 67<184.329 241.298> 95 68<53.2834 101.671 330.329 386.47> 229 67<0.283436 48.6711 387.329 435.671> 361 67<53.2834 101.671 335.329 383.671> 423 67<184.329 241.125>
+AnchorPoint: "Diacritic" 265.5 478.4 basechar 0
+AnchorPoint: "Yerok" 425 448 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -31531,9 +31892,11 @@ StartChar: uniA64A
 Encoding: 42570 42570 328
 Width: 395
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 132.25 12.625<125.252 137.873> 152.25 12.625<125.252 137.873> 166.25 12.625<109.252 121.873> 275 12<107 133 209 230> 538 12<67 93 169 193>
 VStem: 55 22<34.5251 80> 109.25 12.625<166.252 178.873> 125.25 12.625<132.252 144.873 152.252 164.873> 228 48<113.6 274.014 287 420.245> 354 31<494.157 518.002>
+AnchorPoint: "Yerok" 353 575 mark 0
+AnchorPoint: "Diacritic" 231 575 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -31659,16 +32022,20 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uniE005
+StartChar: uni04860311
 Encoding: 57349 57349 330
 Width: 0
 GlyphClass: 4
-Flags: HW
+Flags: W
+HStem: 572 192 586 21G<-322.951 -316.5>
+VStem: -325 10<586.131 625.049> -242 21<581.396 626.156>
+AnchorPoint: "Stacking" -238 548 mark 0
+AnchorPoint: "Stacking" -244 799.7 basemark 0
 AnchorPoint: "Diacritic" -239 549 mark 0
 LayerCount: 3
 Fore
 SplineSet
--35 662 m 0xf9906c
+-35 662 m 0xb0
  -35 620 -78 605 -118 608 c 0
  -194 613 -215 698 -269 737 c 0
  -297 757 -358 750 -361 719 c 1
@@ -31678,25 +32045,29 @@ SplineSet
  -223 759 -206 676 -148 634 c 0
  -119 613 -58 622 -55 653 c 1
  -55 653 -93 638 -90 677 c 0
- -87 707 -35 702 -35 662 c 0xf9906c
--321 586 m 1
+ -87 707 -35 702 -35 662 c 0xb0
+-321 586 m 1x70
  -321 586 -334 597 -325 627 c 0
  -320 646 -297 672 -264 663 c 0
  -238 656 -215 639 -221 602 c 0
- -227 568 -242 572 -242 572 c 1
+ -227 568 -242 572 -242 572 c 1xb0
  -247 574 -234 583 -236 597 c 1
- -236 635 -297 652 -315 618 c 0xf99664
- -323 604 -312 586 -321 586 c 1
+ -236 635 -297 652 -315 618 c 0
+ -323 604 -312 586 -321 586 c 1x70
 EndSplineSet
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0311
 Colour: ffff
 EndChar
 
-StartChar: uniF4E2
+StartChar: uni2DE20487
 Encoding: 62690 62690 331
 Width: 0
 GlyphClass: 4
 Flags: HW
 HStem: 564 200
+DStem2: -225 564 -192 583 0.122155 0.992511<22.8888 82.7296> -204 662 -183 650 0.992613 0.121319<19.389 54.6158>
+AnchorPoint: "Stacking" -205 560 mark 0
+AnchorPoint: "Stacking" -90 771.7 basemark 0
 AnchorPoint: "Diacritic" -203 560 mark 0
 LayerCount: 3
 Fore
@@ -31724,14 +32095,17 @@ SplineSet
  63 653 25 638 28 677 c 0
  31 707 83 702 83 662 c 0
 EndSplineSet
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni2DE2 uni0487
 EndChar
 
-StartChar: uniF4ED
+StartChar: uni2DED0487
 Encoding: 62701 62701 332
 Width: 0
 GlyphClass: 4
 Flags: HW
-HStem: 573 15<112.703 136.086>
+HStem: 573 15<-190.297 -166.914>
+AnchorPoint: "Stacking" -196 559 mark 0
+AnchorPoint: "Stacking" -116 781.7 basemark 0
 AnchorPoint: "Diacritic" -194 560 mark 0
 LayerCount: 3
 Fore
@@ -31756,6 +32130,137 @@ SplineSet
  -228 656 -229 594 -191 585 c 0
  -176 581 -161 596 -159 588 c 1
 EndSplineSet
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni2DED uni0487
+EndChar
+
+StartChar: uniFE2E
+Encoding: 65070 65070 333
+Width: 0
+GlyphClass: 4
+Flags: HW
+HStem: 583 34<82.8101 100.56> 604.768 9.12201<146.273 155.392> 614.501 9.12103<136.583 145.702 158.051 165.964> 625 8<195.067 226.54> 647 8<-212.54 -181.067> 651 8<175.749 201.609> 655.768 9.12097<-151.814 -143.901 -131.551 -122.433> 663 34<-87.0086 -68.782> 665.5 9.12201<-141.241 -132.123>
+VStem: -152.418 9.121<658.017 667.136> -143 6<630.351 653.998> -141.242 9.12001<665.501 674.621> -131.553 9.12099<655.769 664.888> 136.582 9.121<614.502 623.621> 146.272 9.121<604.769 613.889> 151 6<626.002 649.649> 157.447 9.12099<612.254 621.373>
+AnchorPoint: "Stacking" -102.901 561.286 mark 0
+AnchorPoint: "Stacking" -102 722.7 basemark 0
+AnchorPoint: "Diacritic" -103 560 mark 0
+LayerCount: 3
+Fore
+SplineSet
+-0.000976562 615.354 m 1
+ -4.01797 615.939 -8.09903 617.2 -12 619 c 0
+ -13 619 -13 620 -14 620 c 0
+ -37 606 -61 592 -84 588 c 0
+ -98 585 -105.833 585.122 -119 590 c 0
+ -143.345 599.02 -153 620 -176 621 c 0
+ -188 621 l 1
+ -188 621 -187.667 627.455 -172 629 c 0
+ -161.852 630.001 -157 627 -157 627 c 1
+ -157 627 -176 648 -200 647 c 0
+ -214 647 -224 635 -224 621 c 0
+ -224 612 -221 605 -212 601 c 0
+ -198 594 -192 604 -193 599 c 1
+ -197 589.122 -214.716 591.942 -224 599 c 0
+ -236 608.122 -235 635 -222 647 c 0
+ -214 655 -200 657 -190 655 c 1x986d80
+ -157 652 -137 611 -137 611 c 1
+ -137 611 -143 627 -143 636 c 0
+ -143 652 -139 654 -137 654 c 0
+ -131 655 -141 636 -128 615 c 0
+ -119 600 -96 596 -81 601 c 1
+ -111 607 -119 631 -119 650 c 0
+ -118 674 -107.667 699.289 -80 697 c 0
+ -62.7959 695.577 -56 663 -75 663 c 0
+ -99 663 -87 685 -87 685 c 1
+ -107 685 -111 650 -104 631 c 0
+ -98 616 -76 602 -60 608 c 0
+ -43 614 -41 616 -20 630 c 1
+ -23 638 -22.9434 647.593 -17 656 c 0
+ -13.0084 661.647 -6.64551 664.866 0.000976562 665.589 c 0
+ 0.000976562 665.39 -0 664 -0 664 c 0
+ -0.000976562 615.354 l 1
+-122.432 660.328 m 0x124c80
+ -122.432 657.811 -124.475 655.768 -126.992 655.768 c 0
+ -129.51 655.768 -131.553 657.811 -131.553 660.328 c 0
+ -131.553 662.847 -129.51 664.889 -126.992 664.889 c 0
+ -124.475 664.889 -122.432 662.847 -122.432 660.328 c 0x124c80
+-132.122 670.062 m 0x10dc80
+ -132.122 667.544 -134.164 665.5 -136.682 665.5 c 0
+ -139.199 665.5 -141.242 667.544 -141.242 670.062 c 0
+ -141.242 672.578 -139.199 674.622 -136.682 674.622 c 0
+ -134.164 674.622 -132.122 672.578 -132.122 670.062 c 0x10dc80
+-143.297 662.576 m 0
+ -143.297 660.058 -145.34 658.016 -147.857 658.016 c 0
+ -150.375 658.016 -152.418 660.058 -152.418 662.576 c 0
+ -152.418 665.094 -150.375 667.137 -147.857 667.137 c 0
+ -145.34 667.137 -143.297 665.094 -143.297 662.576 c 0
+2.64356e-07 665.59 m 1
+0 615.355 m 1
+EndSplineSet
+Colour: ff0000
+EndChar
+
+StartChar: uniFE2F
+Encoding: 65071 65071 334
+Width: 0
+GlyphClass: 2
+Flags: HW
+HStem: 583 34<82.8101 100.56> 604.768 9.12201<146.273 155.392> 614.501 9.12103<136.583 145.702 158.051 165.964> 625 8<195.067 226.54> 647 8<-212.54 -181.067> 651 8<175.749 201.609> 655.768 9.12097<-151.814 -143.901 -131.551 -122.433> 663 34<-87.0086 -68.782> 665.5 9.12201<-141.241 -132.123>
+VStem: -152.418 9.121<658.017 667.136> -143 6<630.351 653.998> -141.242 9.12001<665.501 674.621> -131.553 9.12099<655.769 664.888> 136.582 9.121<614.502 623.621> 146.272 9.121<604.769 613.889> 151 6<626.002 649.649> 157.447 9.12099<612.254 621.373>
+AnchorPoint: "Stacking" -103.901 560.286 mark 0
+AnchorPoint: "Stacking" -103 721.7 basemark 0
+AnchorPoint: "Diacritic" -103 560 mark 0
+LayerCount: 3
+Fore
+SplineSet
+-200 665.59 m 4
+ -192.772 666.377 -185.21 664.21 -180 659 c 6x156d80
+ -179 658 l 5
+ -155 671 -125.104 688.657 -102 692 c 4
+ -87.333 694.122 -81 694 -67 690 c 4
+ -42 683 -33 660 -10 659 c 4
+ 2 659 l 5
+ 2 659 1 652.289 -14 651 c 4
+ -24.1602 650.127 -29 653 -29 653 c 5
+ -29 653 -10 632 14 633 c 4
+ 28 633 38 645 38 659 c 4x156d80
+ 38 668 35 675 26 679 c 4
+ 12 686 6 676 7 681 c 5
+ 12 692 28.6113 687.918 38 681 c 4
+ 50.5 671.789 49 645 36 633 c 4
+ 28 625 14 623 4 625 c 5
+ -29 628 -49 669 -49 669 c 5
+ -49 669 -43 653 -43 644 c 4
+ -43 628 -47 626 -49 626 c 4
+ -55 625 -45 644 -58 665 c 4
+ -67 680 -90 684 -105 679 c 5
+ -75 673 -67 649 -67 630 c 4
+ -68 606 -79.333 579.789 -106 583 c 4
+ -123.139 585.062 -130 617 -111 617 c 4
+ -87 617 -99 595 -99 595 c 5
+ -79 595 -75 630 -82 649 c 4
+ -88 664 -110 678 -126 672 c 4
+ -143 666 -150 662 -172 648 c 5
+ -169 641 -171 631 -176 624 c 4
+ -181.6 616.301 -190.628 614.345 -200 615.354 c 5
+ -200 665.59 l 4
+-63.418 619.062 m 4
+ -63.418 621.579 -61.375 623.622 -58.8574 623.622 c 4
+ -56.3398 623.622 -54.2969 621.579 -54.2969 619.062 c 4
+ -54.2969 616.543 -56.3398 614.501 -58.8574 614.501 c 4x304c80
+ -61.375 614.501 -63.418 616.543 -63.418 619.062 c 4
+-53.7275 609.328 m 4x504e80
+ -53.7275 611.846 -51.6855 613.89 -49.168 613.89 c 4
+ -46.6504 613.89 -44.6074 611.846 -44.6074 609.328 c 4
+ -44.6074 606.812 -46.6504 604.768 -49.168 604.768 c 4
+ -51.6855 604.768 -53.7275 606.812 -53.7275 609.328 c 4x504e80
+-42.5527 616.812 m 4
+ -42.5527 619.332 -40.5098 621.374 -37.9922 621.374 c 4
+ -35.4746 621.374 -33.4316 619.332 -33.4316 616.812 c 4
+ -33.4316 614.296 -35.4746 612.253 -37.9922 612.253 c 4
+ -40.5098 612.253 -42.5527 614.296 -42.5527 616.812 c 4
+-200 665.59 m 5
+EndSplineSet
+Colour: ff0000
 EndChar
 EndChars
 EndSplineFont
