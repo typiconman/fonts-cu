@@ -22,7 +22,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1304750996
-ModificationTime: 1438454515
+ModificationTime: 1438547798
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -72,7 +72,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 27 10
+WinInfo: 81 27 10
 BeginPrivate: 8
 BlueValues 23 [-11 0 550 561 770 781]
 BlueScale 8 0.039625
@@ -23374,7 +23374,6 @@ SplineSet
  465 605 l 1,79,-1
  478 605 l 1,72,-1
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni047E.simple uni0301
 Colour: ff00
 EndChar
@@ -24133,9 +24132,10 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uni0300
-Encoding: 768 768 123
+StartChar: uni0300.simple
+Encoding: 62720 62720 123
 Width: 0
+GlyphClass: 4
 Flags: W
 HStem: 595 6<-212 -199 -189 -176>
 VStem: -240 51<669 683>
@@ -24168,13 +24168,13 @@ SplineSet
  -176 601 l 1,7,-1
  -176 595 l 1,0,-1
 EndSplineSet
-Substitution2: "'salt' Stylistic Alternatives for Cyrillic-1" uni0300.alt
 Colour: ff00
 EndChar
 
-StartChar: uni0301
-Encoding: 769 769 124
+StartChar: uni0301.simple
+Encoding: 62721 62721 124
 Width: 0
+GlyphClass: 4
 Flags: W
 HStem: 595 6<-224 -211 -201 -188>
 VStem: -211 51<669 683>
@@ -24207,7 +24207,6 @@ SplineSet
  -224 601 l 1,7,-1
  -211 601 l 1,0,-1
 EndSplineSet
-Substitution2: "'salt' Stylistic Alternatives for Cyrillic-1" uni0301.alt
 Colour: ff00
 EndChar
 
@@ -24598,8 +24597,8 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uni0300.alt
-Encoding: 62720 62720 132
+StartChar: uni0300
+Encoding: 768 768 132
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -24701,11 +24700,12 @@ SplineSet
  -142 630 -142 630 -136 619 c 1,58,-1
  -114 590 l 5,12,13
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0300.simple
 Colour: ffff
 EndChar
 
-StartChar: uni0301.alt
-Encoding: 62721 62721 133
+StartChar: uni0301
+Encoding: 769 769 133
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -24820,11 +24820,12 @@ SplineSet
  -225 586 -225 586 -227 588 c 2,68,-1
  -229 590 l 5,12,13
 EndSplineSet
+Substitution2: "'ss01' Style Set Simple Forms-1" uni0301.simple
 Colour: ffff
 EndChar
 
-StartChar: uni04860301.alt
-Encoding: 62722 62722 134
+StartChar: uni04860301
+Encoding: 57345 57345 134
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -24962,13 +24963,13 @@ SplineSet
  -278.359 608.292 -278.359 608.292 -297.516 617.029 c 0,87,88
  -318.098 626.415 -318.098 626.415 -315 645 c 0,69,70
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0301.alt
+Substitution2: "'ss01' Style Set Simple Forms-1" uni04860301.simple
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0301
 Colour: ffff
 EndChar
 
-StartChar: uni04860300.alt
-Encoding: 62723 62723 135
+StartChar: uni04860300
+Encoding: 57347 57347 135
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25096,8 +25097,8 @@ SplineSet
  -235 661 -235 661 -223 638 c 128,-1,78
  -211 615 -211 615 -224 587 c 1,59,-1
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0300.alt
+Substitution2: "'ss01' Style Set Simple Forms-1" uni04860300.simple
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0300
 Colour: ffff
 EndChar
 
@@ -28197,8 +28198,8 @@ EndSplineSet
 Colour: ff00
 EndChar
 
-StartChar: uni04860301
-Encoding: 57345 57345 151
+StartChar: uni04860301.simple
+Encoding: 62722 62722 151
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -28266,14 +28267,12 @@ SplineSet
  -301 631 -301 631 -314 615 c 2,30,-1
  -327 599 l 5,8,9
 EndSplineSet
-LCarets2: 1 0 
-Substitution2: "'salt' Stylistic Alternatives for Cyrillic-1" uni04860301.alt
-Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0301
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0301.simple
 Colour: ffff
 EndChar
 
-StartChar: uni04860300
-Encoding: 57347 57347 152
+StartChar: uni04860300.simple
+Encoding: 62723 62723 152
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -28341,9 +28340,7 @@ SplineSet
  -301 631 -301 631 -314 615 c 2,30,-1
  -327 599 l 5,8,9
 EndSplineSet
-LCarets2: 1 0 
-Substitution2: "'salt' Stylistic Alternatives for Cyrillic-1" uni04860300.alt
-Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0300
+Ligature2: "'ccmp' Precomposed Glyphs for Cyrillic-1" uni0486 uni0300.simple
 Colour: ffff
 EndChar
 
@@ -32764,7 +32761,6 @@ SplineSet
  298 601 l 1x83fe0881
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Canonical Compositions-1" uni041A uni0301
 EndChar
 
@@ -32896,7 +32892,6 @@ SplineSet
  281 328 285 341 290 349 c 1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Canonical Compositions-1" uni0418 uni0300
 EndChar
 
@@ -33135,7 +33130,6 @@ SplineSet
  340 328 361 303 361 277 c 0xe27e4160
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Canonical Compositions-1" uni0415 uni0300
 EndChar
 
