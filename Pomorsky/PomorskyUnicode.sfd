@@ -22,25 +22,25 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1304750996
-ModificationTime: 1438813935
+ModificationTime: 1439307018
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
-LineGap: 35
+LineGap: 25
 VLineGap: 0
 Panose: 4 0 6 6 6 0 0 2 0 4
-OS2TypoAscent: 0
+OS2TypoAscent: -90
 OS2TypoAOffset: 1
-OS2TypoDescent: 0
+OS2TypoDescent: -90
 OS2TypoDOffset: 1
-OS2TypoLinegap: 35
-OS2WinAscent: 0
+OS2TypoLinegap: 25
+OS2WinAscent: -90
 OS2WinAOffset: 1
-OS2WinDescent: 0
+OS2WinDescent: -90
 OS2WinDOffset: 1
-HheadAscent: 0
+HheadAscent: -90
 HheadAOffset: 1
-HheadDescent: 0
+HheadDescent: -90
 HheadDOffset: 1
 OS2SubXSize: 700
 OS2SubYSize: 650
@@ -59,10 +59,70 @@ Lookup: 4 0 0 "'ccmp' Canonical Compositions"  {"'ccmp' Canonical Compositions-1
 Lookup: 4 0 0 "'ccmp' Precomposed Glyphs for Cyrillic"  {"'ccmp' Precomposed Glyphs for Cyrillic-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Style Set Simple Forms"  {"'ss01' Style Set Simple Forms-1" ("simple" ) } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'salt' Stylistic Alternatives for Cyrillic"  {"'salt' Stylistic Alternatives for Cyrillic-1" ("alt3" ) } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 2"  {"'kern' Horizontal Kerning lookup 2-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Diacritical Mark Positioning"  {"'mark' Diacritical Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Stacking of Diacritical Marks"  {"'mkmk' Stacking of Diacritical Marks-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 31 28 "'kern' Horizontal Kerning lookup 2-1" 
+ 84 uni0400 uni0401 uni0404 uni0415 uni0421 uni0404.simple uni0415.simple uni0421.simple
+ 60 uni0405 uni046E uni0405.simple uni0417.simple uni046E.simple
+ 122 uni0406 uni040D uni0418 uni0419 uni041D uni041F uni0406.simple uni0418.simple uni0419.simple uni041D.simple uni041F.simple
+ 22 uni0407 uni0407.simple
+ 76 uni040C uni041A uni042A uni0462 uni0416.simple uni041A.simple uni0462.simple
+ 61 uni040E uni0423 uni0478 uniA64A uni0423.simple uni0478.simple
+ 183 uni0410 uni041B uni041C uni0427 uni0428 uni0429 uni042B uniA656 uni0410.simple uni041B.simple uni041C.simple uni0427.simple uni0428.simple uni0429.simple uni042B.simple uniA656.simple
+ 22 uni0411 uni0411.simple
+ 7 uni0412
+ 45 uni0413 uni0422 uni0413.simple uni0422.simple
+ 45 uni0414 uni0426 uni0414.simple uni0426.simple
+ 7 uni0416
+ 7 uni0417
+ 23 uni041E uni042E uni0472
+ 35 uni0420 uni0420.alt2 uni0420.simple
+ 22 uni0424 uni0424.simple
+ 22 uni0425 uni0425.simple
+ 22 uni042C uni042A.simple
+ 54 uni0460 uni047A uni047C uni047E uniA64C uni047A.simple
+ 22 uni0466 uni0466.simple
+ 68 uni0470 uni0474 uni0476 uni0470.simple uni0474.simple uni0476.simple
+ 11 uni047E0301
+ 14 uni042C.simple
+ 23 uni0410.alt uniA656.alt
+ 11 uni0420.alt
+ 40 uni0412.simple uni041A.alt2 uni041A.alt3
+ 29 uni041E.simple uni042E.simple
+ 29 uni0460.simple uni047E.simple
+ 14 uni0472.simple
+ 29 uni047C.simple uniA64C.simple
+ 230 uni0400 uni0401 uni0404 uni0406 uni0407 uni040C uni040D uni0411 uni0412 uni0413 uni0415 uni0418 uni0419 uni041A uni041D uni041E uni041F uni0420 uni0421 uni042E uni0478 uniA656 uniA656.alt uni041A.alt2 uni047C.simple uniA64C.simple
+ 22 uni0405 uni0405.simple
+ 23 uni040E uni0423 uniA64A
+ 19 uni0410 uni0410.alt
+ 7 uni0414
+ 7 uni0416
+ 45 uni0417 uni046E uni0417.simple uni046E.simple
+ 45 uni041B uni041C uni041C.simple uni0466.simple
+ 68 uni0422 uni042A uni0462 uni0422.simple uni042A.simple uni0462.simple
+ 7 uni0424
+ 30 uni0425 uni0466 uni0425.simple
+ 114 uni0426 uni0428 uni0429 uni042B uni042C uni042C.simple uni0426.simple uni0428.simple uni0429.simple uni042B.simple
+ 7 uni0427
+ 31 uni0460 uni047C uni047E uniA64C
+ 68 uni0470 uni0474 uni0476 uni0470.simple uni0474.simple uni0476.simple
+ 7 uni0472
+ 22 uni047A uni047A.simple
+ 41 uni047E0301 uni0460.simple uni047E.simple
+ 24 uni0420.alt uni0420.alt2
+ 282 uni0404.simple uni0406.simple uni0407.simple uni0411.simple uni0412.simple uni0413.simple uni0415.simple uni0418.simple uni0419.simple uni041A.simple uni041D.simple uni041E.simple uni041F.simple uni0420.simple uni0421.simple uni042E.simple uni041A.alt3 uni0478.simple uniA656.simple
+ 29 uni0410.simple uni041B.simple
+ 14 uni0414.simple
+ 14 uni0416.simple
+ 14 uni0423.simple
+ 14 uni0424.simple
+ 14 uni0427.simple
+ 14 uni0472.simple
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} -55 {} -81 {} -2 {} -60 {} -20 {} -53 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -2 {} -21 {} -83 {} -17 {} 0 {} 0 {} 0 {} -61 {} 0 {} 0 {} -1 {} 0 {} -17 {} -21 {} 0 {} -7 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -16 {} -12 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -8 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} -40 {} -48 {} 0 {} -32 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} -85 {} -12 {} 0 {} 0 {} -43 {} -5 {} -20 {} 0 {} -3 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -28 {} -55 {} 0 {} 0 {} -25 {} -52 {} -5 {} -98 {} -126 {} -12 {} -65 {} -77 {} 0 {} -1 {} -53 {} 0 {} 0 {} 0 {} 0 {} -26 {} 0 {} 0 {} -33 {} -17 {} -86 {} -137 {} -29 {} 0 {} -12 {} 0 {} -77 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -38 {} 0 {} -44 {} -47 {} 0 {} -41 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -49 {} 0 {} 0 {} -15 {} 0 {} -25 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -41 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} -108 {} -94 {} -59 {} -157 {} -200 {} -60 {} -106 {} -150 {} 0 {} -40 {} -116 {} 0 {} 0 {} -42 {} 0 {} -112 {} -37 {} 0 {} -137 {} -70 {} -195 {} -243 {} -95 {} 0 {} -41 {} 0 {} -138 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -52 {} 0 {} 0 {} 0 {} -28 {} 0 {} -2 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} 0 {} 0 {} -59 {} 0 {} 0 {} 0 {} -39 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -52 {} 0 {} 0 {} 0 {} 0 {} 0 {} -14 {} -17 {} 0 {} -10 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} -74 {} -104 {} 0 {} -51 {} -56 {} -18 {} 0 {} -44 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -69 {} -112 {} -48 {} 0 {} 0 {} 0 {} -40 {} 0 {} -52 {} 0 {} -25 {} -115 {} -161 {} 0 {} -23 {} -114 {} 0 {} 0 {} -64 {} 0 {} 0 {} 0 {} 0 {} -51 {} 0 {} 0 {} -94 {} 0 {} -146 {} -195 {} -67 {} 0 {} 0 {} 0 {} -57 {} 0 {} -25 {} 0 {} -16 {} -90 {} -124 {} 0 {} -58 {} -70 {} -38 {} 0 {} -49 {} 0 {} -17 {} 0 {} 0 {} -23 {} 0 {} 0 {} -48 {} 0 {} -85 {} -135 {} -68 {} 0 {} 0 {} -14 {} -42 {} 0 {} -6 {} 0 {} 0 {} -51 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -11 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -29 {} 0 {} 0 {} 0 {} 0 {} -155 {} -11 {} 0 {} 0 {} -108 {} -3 {} -44 {} 0 {} -3 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -29 {} -158 {} 0 {} 0 {} 0 {} -16 {} 0 {} -38 {} -71 {} 0 {} -71 {} -4 {} -49 {} 0 {} -3 {} 0 {} -17 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} -71 {} -9 {} 0 {} 0 {} -19 {} -24 {} 0 {} 0 {} 0 {} 0 {} -32 {} 0 {} 0 {} 0 {} 0 {} -104 {} 0 {} 0 {} 0 {} -69 {} 0 {} -19 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -94 {} 0 {} 0 {} -66 {} -57 {} -24 {} -136 {} -166 {} -38 {} -59 {} -118 {} 0 {} -22 {} -75 {} 0 {} 0 {} -20 {} 0 {} -69 {} 0 {} 0 {} -86 {} -30 {} -135 {} -183 {} -40 {} 0 {} -27 {} 0 {} -102 {} 0 {} 0 {} -1 {} 0 {} -49 {} -79 {} 0 {} -28 {} -23 {} 0 {} 0 {} -8 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -81 {} -8 {} 0 {} 0 {} 0 {} -26 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} 0 {} 0 {} -199 {} -27 {} 0 {} 0 {} -147 {} -17 {} -65 {} 0 {} -17 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} -230 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} 0 {} -72 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -56 {} 0 {} 0 {} -19 {} 0 {} -4 {} -62 {} -71 {} 0 {} 0 {} -61 {} -1 {} 0 {} -37 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} -39 {} 0 {} -72 {} -78 {} -38 {} 0 {} 0 {} 0 {} -34 {} 0 {} 0 {} -14 {} 0 {} -3 {} 0 {} 0 {} -12 {} 0 {} -74 {} 0 {} 0 {} 0 {} -17 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -30 {} 0 {} 0 {} 0 {} -17 {} 0 {} -65 {} -88 {} 0 {} -14 {} -37 {} 0 {} 0 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -42 {} -99 {} -12 {} 0 {} 0 {} 0 {} -44 {} 0 {} 0 {} 0 {} 0 {} -48 {} -75 {} 0 {} -19 {} -18 {} 0 {} 0 {} -9 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -21 {} -77 {} -5 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} 0 {} -34 {} -27 {} 0 {} 0 {} -20 {} 0 {} 0 {} -11 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -23 {} -29 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} -51 {} 0 {} -42 {} -50 {} 0 {} -61 {} 0 {} -114 {} 0 {} 0 {} 0 {} -85 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -46 {} 0 {} 0 {} -23 {} -118 {} -27 {}
 TtTable: prep
 PUSHW_1
  511

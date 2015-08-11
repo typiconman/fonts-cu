@@ -3,7 +3,7 @@
 
 PACK_NAME=PomorskyUnicode
 DOCS="README LICENSE OFL.txt PomorskyUnicode.pdf CHANGES"
-VERSION="0.5"
+VERSION="0.75"
 
 ## delete binaries
 rm PomorskyUnicode.otf
