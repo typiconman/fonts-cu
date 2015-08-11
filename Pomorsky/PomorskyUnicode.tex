@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{fontspec}
 \usepackage{xcolor}
+\usepackage{lettrine}
 \usepackage{tabu}
 \usepackage{hyperref}
 \usepackage{polyglossia}
@@ -24,7 +25,7 @@
 
  \textbf{Font name}: Pomorsky Unicode \\
 \textbf{Font author}: Aleksandr Andreev and Nikita Simmons \\
-\textbf{Version}: Beta 0.5 \\
+\textbf{Version}: Beta 0.75 \\
 \textbf{Copyright information}: Copyright 1999-2000 Nikita Simmons; Copyright 2015 Aleksandr Andreev and Nikita Simmons. \\
 
 \section{Font Description}
@@ -33,11 +34,11 @@ The ``Pomorsky Unicode" font is a close (idealized) reproduction of the decorati
 
 The ornate forms of the letters are default and provided at the uppercase Cyrillic codepoints; they should be used as much as possible. Simpler forms can be used whenever the letters need a less ornate appearance, or when diacritics might conflict with the ornamentation (or when the ornamentation of one character will conflict with the ornamentation of another); these simple forms are available as \verb+Stylistic Set 1+ or as the Graphite feature ``Use simple forms'' (\verb+smpl+). There are a few additional characters that are stylistic variants, which are provided as Stylistic Alternatives (\verb+salt+) or as the Graphite feature ``Alternates'' (\verb+salt+).
 
-Kerning is not yet available.
+Kerning is not available in the Graphite version of the font.
 
 The table below shows, side-by-side, the base form, the ``simple'' form, and any stylistic alternatives.
 
-{\Huge
+{\fontsize{64pt}{2em}
 \begin{tabular}{cccc}
 	{\glyphfont А}{\simple А}{\salt А}	& {\glyphfont Б}{\simple Б} & {\glyphfont В}{\simple В} & {\glyphfont Г}{\simple Г} \\
 
@@ -65,18 +66,18 @@ The table below shows, side-by-side, the base form, the ``simple'' form, and any
 
 \section{Sample Texts}
 
-{\Huge \glyphfont ЧИ́НЪ ВЕЧЕ́РНИ.} \\
+{\fontsize{64pt}{2em} \glyphfont ЧИ́НЪ ВЕЧЕ́РНИ.} \\
 
-{\Huge \simple ЧИ́НЪ ВЕЧЕ́РНИ.} \\
+{\fontsize{64pt}{2em} \simple ЧИ́НЪ ВЕЧЕ́РНИ.} \\
 
-{\Huge \glyphfont СѶНѠ́ДИКЪ.} \\
+{\fontsize{64pt}{2em} \glyphfont СѶНѠ́ДИКЪ.} \\
 
-{\Huge \simple СѶНѠ́ДИКЪ.} \\
+{\fontsize{64pt}{2em} \simple СѶНѠ́ДИКЪ.} \\
 
-{\Huge \simple\salt СѶНѠ́ДИКЪ.} \\
+{\fontsize{64pt}{2em} \simple\salt СѶНѠ́ДИКЪ.} \\
 
-{\Huge \simple\salta СѶНѠ́ДИКЪ.} \\
+{\fontsize{64pt}{2em} \simple\salta СѶНѠ́ДИКЪ.} \\
 
-{\slv  {\glyphfont \Huge К}і́ими похва́льными вѣнцы̑ вѣнча́емъ пѣва́ємыѧ, раздѣлє́ныѧ тѣлесы̀ и҆ совокꙋ́плєныѧ дꙋ́хомъ, вѣ́рныхъ люде́й тє́плыѧ застꙋ́пники, землѝ рѡссі́йскїѧ ᲂу҆добре́нїе, и҆ всеѧ̀ вселе́нныѧ наслажде́нїе, мꙋжеꙋ́мнымъ смы́сломъ бѣсо́вскꙋю держа́вꙋ разрꙋши́вшыѧ хрⷭ҇та̀ посо́бїемъ, подаю́щагѡ мі́рꙋ ве́лїю ми́лость. }
+{\slv \large \lettrine{\fontsize{48pt}{2em} \glyphfont К}{і́ими} похва́льными вѣнцы̑ вѣнча́емъ пѣва́ємыѧ, раздѣлє́ныѧ тѣлесы̀ и҆ совокꙋ́плєныѧ дꙋ́хомъ, вѣ́рныхъ люде́й тє́плыѧ застꙋ́пники, землѝ рѡссі́йскїѧ ᲂу҆добре́нїе, и҆ всеѧ̀ вселе́нныѧ наслажде́нїе, мꙋжеꙋ́мнымъ смы́сломъ бѣсо́вскꙋю держа́вꙋ разрꙋши́вшыѧ хрⷭ҇та̀ посо́бїемъ, подаю́щагѡ мі́рꙋ ве́лїю ми́лость. }
 
 \end{document}
