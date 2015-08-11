@@ -3761,13 +3761,11 @@
     <point type='_HalfMark'>
         <location x='-494' y='590'/>
     </point>
-    <note>Proposed for inclusion in Unicode 8.0</note>
 </glyph>
 <glyph PSName="uniFE2F" UID="FE2F">
     <point type='_HalfMark'>
         <location x='-83' y='586'/>
     </point>
-    <note>Proposed for inclusion in Unicode 8.0</note>
 </glyph>
 <glyph PSName="uniFE26" UID="FE26">
     <point type='_HalfMark'>
@@ -3908,6 +3906,27 @@ Used by Syrnikov as a Typicon symbol
 Proposed for encoding</note>
 </glyph>
 <glyph PSName="uni29DF" UID="29DF">
+    <point type='Diacritic'>
+        <location x='368' y='460'/>
+    </point>
+    <point type='DoubleTitlo'>
+        <location x='733' y='458'/>
+    </point>
+    <point type='HalfMark'>
+        <location x='478' y='460'/>
+    </point>
+    <point type='Yerok'>
+        <location x='636' y='459'/>
+    </point>
+    <point type='below'>
+        <location x='366' y='1'/>
+    </point>
+    <point type='left'>
+        <location x='104' y='462'/>
+    </point>
+    <point type='right'>
+        <location x='634' y='458'/>
+    </point>
     <note>DOUBLE-ENDED MULTIMAP
 Used by Syrnikov as a symbol for a double service</note>
 </glyph>
