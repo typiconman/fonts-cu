@@ -3,7 +3,7 @@
 
 PACK_NAME=FedorovskUnicode
 DOCS="README LICENSE OFL.txt FedorovskUnicode.pdf CHANGES"
-VERSION="3.0"
+VERSION="3.1"
 
 ## delete binaries
 rm FedorovskUnicode.otf
