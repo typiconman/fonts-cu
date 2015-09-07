@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1441611383
+ModificationTime: 1441612140
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -87,7 +87,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60966 18 7
+WinInfo: 60174 18 7
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -101,7 +101,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "DoubleShaidur"  "'mkmk' Double Shaidur Attachment-1" "Zevok"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Udarka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Kupnaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Kachka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Lomka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Tikhaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Oblachko"  "'mark' Black Pitch Marking Positions-1" "Podchashie"  "'mark' Black Pitch Marking Positions-1" "Zaderzhka"  "'mark' Black Pitch Marking Positions-1" "Ochko"  "'mark' Black Pitch Marking Positions-1" "Podvertka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Borzaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Otsechka"  "'mark' Black Pitch Marking Positions-1" "Shaidur"  "'mark' Cinnabar Pitch Marking Positioning-1" 
-BeginChars: 1114112 505
+BeginChars: 1114112 506
 
 StartChar: uni0002
 Encoding: 2 2 0
@@ -20760,6 +20760,39 @@ SplineSet
  384 152 391 201 400 277 c 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: uniEB36
+Encoding: 60214 60214 505
+Width: 935
+Flags: W
+HStem: 1 21G<418.658 510.555>
+LayerCount: 3
+Fore
+SplineSet
+468.003 117 m 1
+ 557.049 190.559 730.003 224.5 824.003 203 c 0
+ 868.504 192.821 923.503 164 925.003 108.5 c 0
+ 925.788 79.4658 901.003 38 901.003 38 c 1
+ 875.583 74.7178 803.076 116.501 734.003 117 c 0
+ 611.503 117.886 464.003 1 464.003 1 c 1
+ 464.003 1 325.503 117.886 201.003 117 c 0
+ 131.929 116.509 59.4229 74.7178 34.0029 38 c 1
+ 34.0029 38 10.2803 79.4561 10.0029 108.5 c 0
+ 9.50293 160.886 66.502 192.821 111.003 203 c 0
+ 205.003 224.5 377.957 190.559 468.003 117 c 1
+468.003 345 m 5
+ 557.049 418.559 730.003 452.5 824.003 431 c 4
+ 868.504 420.821 923.503 392 925.003 336.5 c 4
+ 925.788 307.466 901.003 266 901.003 266 c 5
+ 875.583 302.718 803.076 344.501 734.003 345 c 4
+ 611.503 345.886 464.003 229 464.003 229 c 5
+ 464.003 229 325.503 345.886 201.003 345 c 4
+ 131.929 344.509 59.4229 302.718 34.0029 266 c 5
+ 34.0029 266 10.2803 307.456 10.0029 336.5 c 4
+ 9.50293 388.886 66.502 420.821 111.003 431 c 4
+ 205.003 452.5 377.957 418.559 468.003 345 c 5
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
