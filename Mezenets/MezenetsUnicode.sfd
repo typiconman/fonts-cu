@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1441612140
+ModificationTime: 1441696510
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -87,7 +87,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60174 18 7
+WinInfo: 60930 18 7
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -101,7 +101,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "DoubleShaidur"  "'mkmk' Double Shaidur Attachment-1" "Zevok"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Udarka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Kupnaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Kachka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Lomka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Tikhaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Oblachko"  "'mark' Black Pitch Marking Positions-1" "Podchashie"  "'mark' Black Pitch Marking Positions-1" "Zaderzhka"  "'mark' Black Pitch Marking Positions-1" "Ochko"  "'mark' Black Pitch Marking Positions-1" "Podvertka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Borzaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Otsechka"  "'mark' Black Pitch Marking Positions-1" "Shaidur"  "'mark' Cinnabar Pitch Marking Positioning-1" 
-BeginChars: 1114112 506
+BeginChars: 1114112 928
 
 StartChar: uni0002
 Encoding: 2 2 0
@@ -4586,6 +4586,7 @@ SplineSet
  -84 341 -104 341 -125 341 c 1x70
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE01
@@ -4646,6 +4647,7 @@ SplineSet
  -47 351 -35 350 -35 344 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE02
@@ -4692,6 +4694,7 @@ SplineSet
  -193 356 -182 355 -183 348 c 0xa0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE03
@@ -4727,6 +4730,7 @@ SplineSet
  -166 223 -169 241 -169 260 c 0x70
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE04
@@ -4768,6 +4772,7 @@ SplineSet
  -37 351 -25 350 -25 344 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE05
@@ -4791,6 +4796,7 @@ SplineSet
  -49 270 -61 256 -77 256 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE06
@@ -4833,6 +4839,7 @@ SplineSet
  -63 349 -52 348 -53 341 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE07
@@ -4873,6 +4880,7 @@ SplineSet
  -92 223 -94 242 -94 261 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE08
@@ -4918,6 +4926,7 @@ SplineSet
  -200 231 -202 248 -202 265 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE09
@@ -4965,6 +4974,7 @@ SplineSet
  -65 349 -54 348 -55 341 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE0A
@@ -5010,6 +5020,7 @@ SplineSet
  -105 400 -115 387 -128 387 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE0B
@@ -5059,6 +5070,7 @@ SplineSet
  -123 403 -133 390 -146 390 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE11
@@ -5120,6 +5132,7 @@ SplineSet
  -49 349 -38 348 -39 341 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE13
@@ -5179,6 +5192,7 @@ SplineSet
  -74 223 -76 242 -76 261 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE15
@@ -5243,6 +5257,7 @@ SplineSet
  -190 231 -192 248 -192 265 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE50
@@ -5263,6 +5278,7 @@ SplineSet
  -418 496 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE51
@@ -5288,6 +5304,7 @@ SplineSet
  -498 450 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE52
@@ -5317,6 +5334,7 @@ SplineSet
  -588 406 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE54
@@ -5339,6 +5357,7 @@ SplineSet
  91 481 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE53
@@ -5359,6 +5378,7 @@ SplineSet
  37 496 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE55
@@ -5387,6 +5407,7 @@ SplineSet
  -278 68 -322 -0 -374 -0 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE57
@@ -5420,6 +5441,7 @@ SplineSet
  -278 528 -322 460 -374 460 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE58
@@ -5448,6 +5470,7 @@ SplineSet
  -428 551 -412 611 -366 611 c 0xe0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE59
@@ -5476,6 +5499,7 @@ SplineSet
  110 555 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEEE0
@@ -5644,6 +5668,7 @@ SplineSet
  106 17 l 1x430884
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEEE1
@@ -5812,477 +5837,11 @@ SplineSet
  106 17 l 1x460124
 EndSplineSet
 Validated: 1
-EndChar
-
-StartChar: uniE068
-Encoding: 57448 57448 186
-Width: 657
-VWidth: 0
-Flags: W
-HStem: 0 97<550.385 630.56> 0 37<109.245 176.295 363.338 424.883> 222 42<319.766 393.996> 235 30<50.568 116.685> 340 36<350.35 440.031> 479 35<387.25 485.5>
-VStem: 7 34<123.445 221.217> 12 48<-145.76 48> 187 27<48.0774 137> 256 29<120.913 191.61> 387 62<521.522 591.84> 466 63<399.282 467.025> 466 28<74.552 139.016> 542 97<8.44002 88.6152>
-LayerCount: 3
-Fore
-SplineSet
-7 145 m 2x5ee4
- 7 211 34 265 100 265 c 0
- 117 265 138 260 147 255 c 0
- 186 234 214 171 214 112 c 0
- 214 59 194 21 154 5 c 0
- 144 1 135 0 126 0 c 0
- 109 0 96 10 86 18 c 0
- 76 25 66 36 57 48 c 1
- 57 15 61 -14 61 -42 c 0
- 61 -66 60 -87 60 -109 c 0
- 60 -129 55 -141 50 -146 c 2
- 0 -184 l 1
- 6 -174 12 -156 12 -130 c 0
- 12 -104 12 -78 12 -51 c 0x5de4
- 12 -19 7 14 7 50 c 2
- 7 145 l 2x5ee4
-375 264 m 1x6cec
- 376 265 382 263 394 260 c 0
- 426 249 455 226 475 198 c 0
- 487 181 494 159 494 132 c 0
- 494 81 466 46 436 25 c 1
- 421 16 407 8 395 4 c 1
- 384 2 378 -0 376 -0 c 0
- 375 0 l 1
- 375 0 374 -0 373 -0 c 0
- 370 -0 364 1 354 4 c 0
- 323 12 292 40 274 66 c 0
- 262 84 256 105 256 132 c 0
- 256 201 304 243 354 260 c 1
- 367 263 374 265 375 264 c 1x6cec
-330 222 m 0
- 310 222 285 197 285 178 c 0
- 285 167 285 156 288 145 c 0
- 295 122 313 100 328 85 c 0
- 349 64 371 43 409 43 c 0
- 414 43 418 43 423 43 c 0
- 443 43 466 67 466 87 c 0
- 467 91 465 94 465 98 c 0
- 465 119 454 137 445 151 c 0
- 430 172 413 187 393 203 c 1
- 374 213 359 222 330 222 c 0
-542 48 m 0
- 542 75 564 97 591 97 c 0
- 619 97 639 75 639 48 c 0
- 639 22 617 0 591 0 c 0x8ce4
- 564 0 542 20 542 48 c 0
-354 468 m 1
- 368 489 387 525 387 557 c 0
- 387 564 383 568 377 568 c 0
- 369 569 360 566 350 563 c 0
- 325 556 297 539 276 525 c 1
- 265 509 259 495 253 472 c 1
- 184 437 l 1
- 193 472 213 502 240 518 c 1
- 264 536 287 550 316 563 c 1
- 330 571 345 578 360 583 c 1
- 378 591 409 600 432 600 c 0
- 434 600 436 600 438 600 c 0
- 446 600 449 594 449 586 c 0
- 449 573 441 554 438 547 c 1
- 434 532 424 515 417 504 c 1
- 436 510 441 514 466 514 c 0x0cec
- 505 514 529 488 529 450 c 0x0cf4
- 529 421 515 400 494 391 c 1x0cec
- 472 375 450 360 421 350 c 0
- 407 345 390 340 373 340 c 0
- 353 340 339 347 329 357 c 1
- 322 362 316 369 311 376 c 1
- 378 410 l 1
- 390 393 405 376 434 376 c 0
- 460 376 466 389 466 416 c 0x0cf4
- 466 456 443 479 404 479 c 0
- 393 479 384 478 378 476 c 2
- 354 468 l 1
-150 37 m 0x5ee4
- 175 37 187 58 187 83 c 0
- 187 87 187 91 187 96 c 0
- 187 108 181 121 176 133 c 0
- 167 157 159 175 143 193 c 1
- 136 203 127 211 119 219 c 1
- 107 226 95 235 80 235 c 0
- 55 235 41 215 41 190 c 0
- 41 185 41 181 41 176 c 0
- 41 154 56 126 65 111 c 0
- 76 92 93 67 111 54 c 1
- 120 46 135 37 150 37 c 0x5ee4
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE069
-Encoding: 57449 57449 187
-Width: 638
-Flags: W
-HStem: -28.6667 28.5272<274.639 388.443> -15 21G<-1 17.3334> 40.1818 73.8182<57.264 163.346> 239 70<378.339 413.443> 323 72<200.797 279.667> 652.202 34.798<256.998 396.266>
-VStem: -1 17<-11.4706 2.08892> 149 17<551.765 561.244> 497.997 130.003<209.75 324.171 329.751 466.461>
-LayerCount: 3
-Fore
-SplineSet
--1 -9 m 1x7f80
- 10.2801 49.907 53.7246 114 118 114 c 0
- 143.333 114 166.667 104.333 188 85 c 0
- 207.333 67 228.667 48.6667 252 30 c 1
- 274.326 9.90698 298.754 -0.139535 325.285 -0.139535 c 0
- 330.444 -0.139535 335.682 0.24031 341 1 c 0
- 396.333 0.999992 438.333 43.6667 467 129 c 0
- 487.487 189.798 497.819 254.855 497.997 324.171 c 1
- 435.591 267.39 385.258 239 347 239 c 0
- 319.667 239 290.833 253 260.5 281 c 0
- 230.167 309 210.667 323 202 323 c 0
- 177.333 323 161 311 153 287 c 1
- 142 299 l 1
- 158.142 342.814 207.756 395 265 395 c 0
- 294.333 395 324 380.667 354 352 c 0
- 384 323.333 405 309 417 309 c 0
- 435.667 309 463 320.333 499 343 c 1
- 496.333 420.333 486 485.333 468 538 c 1
- 432.812 614.134 392.712 652.202 347.7 652.202 c 0
- 345.809 652.202 343.909 652.134 342 652 c 0
- 338.845 652.149 335.714 652.202 332.608 652.202 c 0
- 266.119 652.202 210.583 618.149 166 550 c 1
- 149 553 l 1
- 177 642.333 248.333 687 363 687 c 0
- 401.667 687 445 669 493 633 c 0
- 569.069 575.656 628 465.255 628 336 c 0
- 628 247.333 599.667 167.667 543 97 c 0
- 482.333 21.6667 416.666 -19.3333 346 -26 c 0
- 331.481 -27.7778 317.556 -28.6667 304.222 -28.6667 c 0xbf80
- 257.556 -28.6667 218.148 -17.7778 186 4 c 0
- 150.127 28.3934 122.661 40.1818 91.2397 40.1818 c 0
- 69.2011 40.1818 52.1212 34.1212 40 22 c 0
- 26.6667 8.66667 18.6667 -3.66667 16 -15 c 1
- -1 -9 l 1x7f80
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE030
-Encoding: 57392 57392 188
-Width: 0
-Flags: W
-HStem: 463 300
-DStem2: -291 470 -250 557 0.319739 0.947506<100.116 304.192> -164 499 -150 497 0.29672 0.954965<-6.75648 126.628>
-LayerCount: 3
-Fore
-SplineSet
--116 613 m 0
- -123.333 587.667 -134.667 549 -150 497 c 0
- -151.333 492.333 -154 490 -158 490 c 0
- -163.333 490 -165.333 493 -164 499 c 0
- -157.333 523 -146 561.333 -130 614 c 0
- -128.667 618.667 -126 621 -122 621 c 0
- -117.5 621 -115.25 619.5 -115.25 616.5 c 0
- -115.25 615.5 -115.5 614.333 -116 613 c 0
--174 578 m 0
- -180.667 551.333 -188.333 527.667 -197 507 c 1
- -201.021 500.968 -269.286 472.472 -287 464 c 0
- -288.333 463.333 -289.333 463 -290 463 c 0
- -291.333 463.667 -292 465 -292 467 c 0
- -292 467.667 -291.667 468.667 -291 470 c 0
- -261.688 565.929 -233.103 665.96 -200 756 c 0
- -198.667 760.667 -196 763 -192 763 c 0
- -186.667 763 -184 760.333 -184 755 c 0
- -184 753.667 -184.333 752.667 -185 752 c 0
- -198.333 715.333 -220 650.333 -250 557 c 0
- -250.667 553.667 -250.333 552 -249 552 c 0
- -247.667 551.333 -245.333 552 -242 554 c 0
- -226 560.667 -204.333 569.667 -177 581 c 0
- -174.497 582.252 -174 579.768 -174 578 c 0
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE031
-Encoding: 57393 57393 189
-Width: 0
-Flags: W
-HStem: 476 300
-DStem2: -633 483 -592 570 0.31974 0.947505<100.115 304.192> -506 512 -492 510 0.279789 0.960062<-6.90735 128.824> -408 483 -367 570 0.31974 0.947505<100.115 304.192> -281 512 -267 510 0.296722 0.954964<-6.75675 126.629>
-LayerCount: 3
-Fore
-SplineSet
--458 626 m 0
- -465.333 600.667 -476.667 562 -492 510 c 0
- -493.333 505.333 -496 503 -500 503 c 0
- -505.333 503 -507.333 506 -506 512 c 0
- -499.333 536 -488 574.333 -472 627 c 0
- -470.667 631.667 -468 634 -464 634 c 0
- -458 634 -456 631.333 -458 626 c 0
--516 591 m 0
- -522.667 564.333 -530.333 540.667 -539 520 c 1
- -543.021 513.968 -611.283 485.472 -629 477 c 0
- -630.333 476.333 -631.333 476 -632 476 c 0
- -633.333 476.667 -634 478 -634 480 c 0
- -634 480.667 -633.667 481.667 -633 483 c 0
- -603.688 578.929 -575.103 678.961 -542 769 c 0
- -540.667 773.667 -538 776 -534 776 c 0
- -528.667 776 -526 773.333 -526 768 c 0
- -526 766.667 -526.333 765.667 -527 765 c 0
- -540.333 728.333 -562 663.333 -592 570 c 0
- -592.667 566.667 -592.333 565 -591 565 c 0
- -589.667 564.333 -587.333 565 -584 567 c 0
- -568 573.667 -546.333 582.667 -519 594 c 0
- -516.497 595.252 -516 592.768 -516 591 c 0
--233 626 m 0
- -240.333 600.667 -251.666 562 -267 510 c 0
- -268.333 505.333 -271 503 -275 503 c 0
- -280.333 503 -282.333 506 -281 512 c 0
- -274.333 536 -263 574.333 -247 627 c 0
- -245.667 631.667 -243 634 -239 634 c 0
- -234.5 634 -232.25 632.5 -232.25 629.5 c 0
- -232.25 628.5 -232.5 627.333 -233 626 c 0
--291 591 m 0
- -297.666 564.333 -305.332 540.667 -314 520 c 1
- -318.021 513.968 -386.286 485.472 -404 477 c 0
- -405.333 476.333 -406.333 476 -407 476 c 0
- -408.333 476.667 -409 478 -409 480 c 0
- -408.333 480.667 -408 481.667 -408 483 c 0
- -378.688 578.929 -350.103 678.961 -317 769 c 0
- -315.667 773.667 -313 776 -309 776 c 0
- -303.667 776 -301 773.333 -301 768 c 0
- -301 766.667 -301.333 765.667 -302 765 c 0
- -315.333 728.333 -337 663.333 -367 570 c 0
- -367.678 566.667 -367.345 565 -366 565 c 0
- -364.672 564.333 -362.339 565 -359 567 c 0
- -343 573.667 -321.333 582.667 -294 594 c 0
- -291.508 595.255 -291 592.766 -291 591 c 0
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE032
-Encoding: 57394 57394 190
-Width: 0
-Flags: W
-HStem: 485 300
-VStem: -560 102<489 593>
-LayerCount: 3
-Fore
-SplineSet
--368 568 m 0
- -393.333 554 -417 542.333 -439 533 c 0
- -443 531.667 -445 532.667 -445 536 c 0
- -445 541.564 -424.677 601.484 -423 604 c 0
- -418.916 609.445 -361.314 636.839 -351 640 c 0
- -347.885 641.039 -345.566 640.759 -345.566 638.245 c 0
- -345.566 623.549 -360.742 572.355 -368 568 c 0
--453 774 m 0
- -465 741.333 -486.667 676.333 -518 579 c 0
- -518.667 575.667 -518.333 574 -517 574 c 0
- -516.333 573.333 -514 574 -510 576 c 0
- -508 576.669 -491.667 583.336 -461 596 c 0
- -458.515 597.256 -458 594.765 -458 593 c 0
- -464 566.333 -471.667 542.667 -481 522 c 0
- -482.727 516.815 -542.074 492.123 -555 486 c 0
- -556.333 485.333 -557.333 485 -558 485 c 0
- -559.333 485.667 -560 487 -560 489 c 0
- -560 489.667 -559.667 490.667 -559 492 c 0
- -529.688 587.928 -501.104 687.961 -468 778 c 0
- -466.667 782.667 -464 785 -460 785 c 0
- -454.667 785 -452 782.333 -452 777 c 0
- -452 775.667 -452.333 774.667 -453 774 c 0
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE033
-Encoding: 57395 57395 191
-Width: 0
-Flags: W
-HStem: 596.7 73.942<-318 -313 -290 -265.766>
-DStem2: -614 488.7 -573 575.7 0.319742 0.947505<91.2158 304.192> -487 517.7 -473 515.7 0.279789 0.960062<-6.90729 128.824> -375 494.7 -355 491.7 0.347314 0.937749<-12.4713 4.13304 192.69 298.88>
-LayerCount: 3
-Fore
-SplineSet
--439 631.7 m 0
- -446.333 606.367 -457.667 567.7 -473 515.7 c 0
- -474.333 511.033 -477 508.7 -481 508.7 c 0
- -486.333 508.7 -488.333 511.7 -487 517.7 c 0
- -480.333 541.7 -469 580.033 -453 632.7 c 0
- -451.667 637.367 -449 639.7 -445 639.7 c 0
- -439 639.7 -437 637.033 -439 631.7 c 0
--252.604 664.251 m 0
- -252.604 649.513 -270.379 598.426 -279 596.7 c 1
- -286.333 596.7 -299.333 596.033 -318 594.7 c 1
- -355 491.7 l 2
- -357.667 483.033 -362 478.7 -368 478.7 c 0
- -376 478.7 -378.333 484.033 -375 494.7 c 0
- -372.333 503.368 -360.667 536.034 -340 592.7 c 1
- -346.936 592.034 -368.479 589.206 -376.206 589.206 c 0
- -377.958 589.206 -379 589.351 -379 589.7 c 2
- -379 592.7 l 1
- -366.333 632.7 -357 654.7 -351 658.7 c 0
- -347 661.378 -334.333 664.045 -313 666.7 c 1
- -278 762.7 l 2
- -274.667 772.033 -269.667 776.7 -263 776.7 c 0
- -257 776.7 -254 774.033 -254 768.7 c 0
- -254 766.7 -254.333 764.367 -255 761.7 c 0
- -257 758.367 -268.667 727.367 -290 668.7 c 1
- -281.885 669.376 -272.809 670.642 -265.63 670.642 c 0
- -258.062 670.642 -252.604 669.235 -252.604 664.251 c 0
--572 570.7 m 0
- -571.862 570.632 -571.664 570.599 -571.409 570.599 c 0
- -563.903 570.599 -507.074 599.271 -497.709 599.271 c 0
- -497.106 599.271 -497 596.809 -497 596.7 c 0
- -503.665 570.033 -511.331 546.367 -520 525.7 c 1
- -524.021 519.668 -592.284 491.171 -610 482.7 c 0
- -611.333 482.033 -612.333 481.7 -613 481.7 c 0
- -614.333 482.367 -615 483.7 -615 485.7 c 0
- -615 486.367 -614.667 487.367 -614 488.7 c 0
- -584.688 584.628 -556.104 684.661 -523 774.7 c 0
- -521.667 779.367 -519 781.7 -515 781.7 c 0
- -509.667 781.7 -507 779.033 -507 773.7 c 0
- -507 772.367 -507.333 771.367 -508 770.7 c 0
- -521.333 734.033 -543 669.033 -573 575.7 c 0
- -573.667 572.367 -573.333 570.7 -572 570.7 c 0
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE034
-Encoding: 57396 57396 192
-Width: 0
-Flags: W
-HStem: 482 300
-DStem2: -631 489 -590 576 0.31974 0.947505<100.115 304.192> -504 518 -490 516 0.279789 0.960062<-6.90735 128.824>
-LayerCount: 3
-Fore
-SplineSet
--456 632 m 0
- -463.333 606.667 -474.667 568 -490 516 c 0
- -491.333 511.333 -494 509 -498 509 c 0
- -503.333 509 -505.333 512 -504 518 c 0
- -497.333 542 -486 580.333 -470 633 c 0
- -468.667 637.667 -466 640 -462 640 c 0
- -456 640 -454 637.333 -456 632 c 0
--206 742 m 0
- -204.516 742 -203.895 740.725 -203.895 738.591 c 0
- -203.895 728.442 -217.951 698.894 -220 695 c 0
- -228.667 678.333 -235.333 669 -240 667 c 0
- -281.037 652.516 -298.176 647.39 -326 630 c 0
- -328 628 -329.667 627.333 -331 628 c 0
- -331.667 628 -331.667 629.333 -331 632 c 0
- -325.468 643.987 -295.416 698.584 -287 707 c 0
- -281 713.667 -270.667 720 -256 726 c 0
- -253.333 726.667 -238 731.667 -210 741 c 0
- -208 741.667 -206.667 742 -206 742 c 0
--301 602 m 0
- -299.516 602 -298.895 600.725 -298.895 598.591 c 0
- -298.895 588.442 -312.951 558.894 -315 555 c 0
- -323.665 538.333 -330.332 529 -335 527 c 0
- -376.037 512.516 -393.176 507.39 -421 490 c 0
- -423 488 -424.667 487.333 -426 488 c 0
- -426.667 488 -426.667 489.333 -426 492 c 0
- -420.468 503.987 -390.416 558.584 -382 567 c 0
- -376 573.667 -365.667 580 -351 586 c 0
- -348.333 586.667 -333 591.667 -305 601 c 0
- -303 601.667 -301.667 602 -301 602 c 0
--514 597 m 0
- -520.667 570.333 -528.333 546.667 -537 526 c 1
- -541.022 519.967 -609.28 491.472 -627 483 c 0
- -628.333 482.333 -629.333 482 -630 482 c 0
- -631.333 482.667 -632 484 -632 486 c 0
- -632 486.667 -631.667 487.667 -631 489 c 0
- -601.688 584.929 -573.103 684.961 -540 775 c 0
- -538.667 779.667 -536 782 -532 782 c 0
- -526.667 782 -524 779.333 -524 774 c 0
- -524 772.667 -524.333 771.667 -525 771 c 0
- -538.333 734.333 -560 669.333 -590 576 c 0
- -590.667 572.667 -590.333 571 -589 571 c 0
- -587.667 570.333 -585.333 571 -582 573 c 0
- -566 579.667 -544.333 588.667 -517 600 c 0
- -514.497 601.252 -514 598.768 -514 597 c 0
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE035
-Encoding: 57397 57397 193
-Width: 0
-Flags: W
-HStem: 477 300
-DStem2: -750 484 -709 571 0.319739 0.947506<100.115 304.192> -623 513 -609 511 0.296586 0.955006<-6.75795 126.626> -535 484 -494 571 0.319739 0.947506<91.1045 304.192> -408 513 -394 511 0.279789 0.960062<-6.90735 128.824>
-LayerCount: 3
-Fore
-SplineSet
--360 627 m 0
- -367.333 601.667 -378.667 563 -394 511 c 0
- -395.333 506.333 -398 504 -402 504 c 0
- -407.333 504 -409.333 507 -408 513 c 0
- -401.333 537 -390 575.333 -374 628 c 0
- -372.667 632.667 -370 635 -366 635 c 0
- -360 635 -358 632.333 -360 627 c 0
--110 737 m 0
- -108.516 737 -107.894 735.724 -107.894 733.591 c 0
- -107.894 723.443 -121.95 693.894 -124 690 c 0
- -132.667 673.333 -139.333 664 -144 662 c 0
- -185.038 647.516 -202.175 642.391 -230 625 c 0
- -232 623 -233.667 622.333 -235 623 c 0
- -235.667 623 -235.667 624.333 -235 627 c 0
- -229.467 638.988 -199.417 693.583 -191 702 c 0
- -185 708.667 -174.667 715 -160 721 c 0
- -157.333 721.667 -142 726.667 -114 736 c 0
- -112 736.667 -110.667 737 -110 737 c 0
--205 597 m 0
- -203.516 597 -202.894 595.724 -202.894 593.591 c 0
- -202.894 583.443 -216.95 553.894 -219 550 c 0
- -227.667 533.333 -234.333 524 -239 522 c 0
- -280.038 507.516 -297.176 502.39 -325 485 c 0
- -327 483 -328.667 482.333 -330 483 c 0
- -330.667 483 -330.667 484.333 -330 487 c 0
- -324.467 498.988 -294.416 553.584 -286 562 c 0
- -280 568.667 -269.667 575 -255 581 c 0
- -252.333 581.667 -237 586.667 -209 596 c 0
- -207 596.667 -205.667 597 -205 597 c 0
--493 566 m 0
- -492.863 565.931 -492.666 565.898 -492.41 565.898 c 0
- -484.917 565.898 -427.976 594.567 -418.7 594.567 c 0
- -418.108 594.567 -418 592.1 -418 592 c 0
- -424.665 565.333 -432.332 541.667 -441 521 c 1
- -445.02 514.969 -513.288 486.471 -531 478 c 0
- -532.333 477.333 -533.333 477 -534 477 c 0
- -535.333 477.667 -536 479 -536 481 c 0
- -535.333 481.667 -535 482.667 -535 484 c 0
- -505.688 579.928 -477.103 679.961 -444 770 c 0
- -442.667 774.667 -440 777 -436 777 c 0
- -430.667 777 -428 774.333 -428 769 c 0
- -428 767.667 -428.333 766.667 -429 766 c 0
- -442.333 729.333 -464 664.333 -494 571 c 0
- -494.682 567.667 -494.349 566 -493 566 c 0
--575 627 m 0
- -582.329 601.667 -593.662 563 -609 511 c 0
- -610.333 506.333 -613 504 -617 504 c 0
- -622.333 504 -624.333 507 -623 513 c 0
- -616.333 537 -605 575.333 -589 628 c 0
- -587.667 632.667 -585 635 -581 635 c 0
- -576.5 635 -574.25 633.5 -574.25 630.499 c 0
- -574.25 629.499 -574.5 628.333 -575 627 c 0
--633 592 m 0
- -639.667 565.333 -647.333 541.667 -656 521 c 1
- -660.02 514.968 -728.284 486.471 -746 478 c 0
- -747.333 477.333 -748.333 477 -749 477 c 0
- -750.333 477.667 -751 479 -751 481 c 0
- -751 481.667 -750.667 482.667 -750 484 c 0
- -720.688 579.928 -692.103 679.961 -659 770 c 0
- -657.667 774.667 -655 777 -651 777 c 0
- -645.667 777 -643 774.333 -643 769 c 0
- -643 767.667 -643.333 766.667 -644 766 c 0
- -657.333 729.333 -679 664.333 -709 571 c 0
- -709.667 567.667 -709.333 566 -708 566 c 0
- -706.667 565.333 -704.333 566 -701 568 c 0
- -685 574.667 -663.333 583.667 -636 595 c 0
- -633.496 596.253 -633 593.767 -633 592 c 0
-EndSplineSet
-Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE90
-Encoding: 61072 61072 194
+Encoding: 61072 61072 186
 Width: 358
 VWidth: 0
 GlyphClass: 2
@@ -6332,10 +5891,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE76
-Encoding: 61046 61046 195
+Encoding: 61046 61046 187
 Width: 512
 VWidth: 999
 GlyphClass: 2
@@ -6380,10 +5940,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE77
-Encoding: 61047 61047 196
+Encoding: 61047 61047 188
 Width: 299
 VWidth: 0
 GlyphClass: 2
@@ -6431,10 +5992,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE7C
-Encoding: 61052 61052 197
+Encoding: 61052 61052 189
 Width: 306
 VWidth: 999
 GlyphClass: 2
@@ -6485,10 +6047,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE70
-Encoding: 61040 61040 198
+Encoding: 61040 61040 190
 Width: 800
 VWidth: 999
 GlyphClass: 2
@@ -6529,10 +6092,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE85
-Encoding: 61061 61061 199
+Encoding: 61061 61061 191
 Width: 780
 VWidth: 0
 GlyphClass: 2
@@ -6585,10 +6149,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE80
-Encoding: 61056 61056 200
+Encoding: 61056 61056 192
 Width: 287
 VWidth: 999
 GlyphClass: 2
@@ -6629,10 +6194,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEEA2
-Encoding: 61090 61090 201
+Encoding: 61090 61090 193
 Width: 719
 VWidth: 0
 GlyphClass: 2
@@ -6717,10 +6283,11 @@ Validated: 1
 LCarets2: 1 402 
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE61 uniEE90
+Colour: ffb54c
 EndChar
 
 StartChar: uniEEA3
-Encoding: 61091 61091 202
+Encoding: 61091 61091 194
 Width: 663
 VWidth: 0
 GlyphClass: 2
@@ -6797,10 +6364,11 @@ Validated: 1
 LCarets2: 1 301 
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE62 uniEE90
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE87
-Encoding: 61063 61063 203
+Encoding: 61063 61063 195
 Width: 244
 VWidth: 999
 GlyphClass: 2
@@ -6837,10 +6405,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE89
-Encoding: 61065 61065 204
+Encoding: 61065 61065 196
 Width: 193
 VWidth: 999
 GlyphClass: 2
@@ -6881,10 +6450,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE71
-Encoding: 61041 61041 205
+Encoding: 61041 61041 197
 Width: 775
 GlyphClass: 2
 Flags: W
@@ -6928,10 +6498,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE72
-Encoding: 61042 61042 206
+Encoding: 61042 61042 198
 Width: 803
 VWidth: 999
 GlyphClass: 2
@@ -6979,10 +6550,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE84
-Encoding: 61060 61060 207
+Encoding: 61060 61060 199
 Width: 780
 VWidth: 0
 GlyphClass: 2
@@ -7030,10 +6602,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE8C
-Encoding: 61068 61068 208
+Encoding: 61068 61068 200
 Width: 1086
 GlyphClass: 2
 Flags: W
@@ -7091,10 +6664,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE8E
-Encoding: 61070 61070 209
+Encoding: 61070 61070 201
 Width: 440
 VWidth: 0
 GlyphClass: 2
@@ -7157,10 +6731,11 @@ Validated: 1
 LCarets2: 1 229 
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE8D
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE8F
-Encoding: 61071 61071 210
+Encoding: 61071 61071 202
 Width: 224
 VWidth: 999
 GlyphClass: 2
@@ -7197,10 +6772,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE8D
-Encoding: 61069 61069 211
+Encoding: 61069 61069 203
 Width: 164
 VWidth: 999
 GlyphClass: 2
@@ -7242,10 +6818,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE8A
-Encoding: 61066 61066 212
+Encoding: 61066 61066 204
 Width: 240
 VWidth: 999
 GlyphClass: 2
@@ -7298,10 +6875,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE8B
-Encoding: 61067 61067 213
+Encoding: 61067 61067 205
 Width: 291
 VWidth: 999
 GlyphClass: 2
@@ -7343,10 +6921,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE73
-Encoding: 61043 61043 214
+Encoding: 61043 61043 206
 Width: 784
 VWidth: 999
 GlyphClass: 2
@@ -7395,10 +6974,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE95
-Encoding: 61077 61077 215
+Encoding: 61077 61077 207
 Width: 957
 VWidth: 999
 GlyphClass: 2
@@ -7451,10 +7031,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE96
-Encoding: 61078 61078 216
+Encoding: 61078 61078 208
 Width: 957
 VWidth: 0
 GlyphClass: 2
@@ -7515,10 +7096,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE91
-Encoding: 61073 61073 217
+Encoding: 61073 61073 209
 Width: 323
 VWidth: 999
 GlyphClass: 2
@@ -7569,10 +7151,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE94
-Encoding: 61076 61076 218
+Encoding: 61076 61076 210
 Width: 957
 VWidth: 999
 GlyphClass: 2
@@ -7620,10 +7203,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE93
-Encoding: 61075 61075 219
+Encoding: 61075 61075 211
 Width: 333
 VWidth: 999
 GlyphClass: 2
@@ -7665,10 +7249,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE92
-Encoding: 61074 61074 220
+Encoding: 61074 61074 212
 Width: 466
 VWidth: 0
 GlyphClass: 2
@@ -7731,10 +7316,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE98
-Encoding: 61080 61080 221
+Encoding: 61080 61080 213
 Width: 1044
 VWidth: 999
 GlyphClass: 2
@@ -7797,10 +7383,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE99
-Encoding: 61081 61081 222
+Encoding: 61081 61081 214
 Width: 1073
 VWidth: 0
 GlyphClass: 2
@@ -7873,10 +7460,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE9A
-Encoding: 61082 61082 223
+Encoding: 61082 61082 215
 Width: 1044
 VWidth: 999
 GlyphClass: 2
@@ -7940,10 +7528,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE7E
-Encoding: 61054 61054 224
+Encoding: 61054 61054 216
 Width: 443
 VWidth: 999
 GlyphClass: 2
@@ -8016,10 +7605,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE79
-Encoding: 61049 61049 225
+Encoding: 61049 61049 217
 Width: 377
 VWidth: 999
 GlyphClass: 2
@@ -8070,61 +7660,11 @@ Validated: 1
 LCarets2: 1 0 
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE78 uniEE5B
-EndChar
-
-StartChar: uniE089
-Encoding: 57481 57481 226
-Width: 377
-VWidth: 999
-Flags: W
-HStem: 0 21G<147 168.06> 515 99<55 109.081>
-VStem: 147 19<0 19> 181 34<399.429 433.153>
-DStem2: 147 0 166 0 0.102462 0.994737<1.94678 396.41>
-AnchorPoint: "Zevok" 153 687 basechar 0
-AnchorPoint: "Udarka" 154 686 basechar 0
-AnchorPoint: "Kupnaya" 158 -115 basechar 0
-AnchorPoint: "Kachka" 155 686 basechar 0
-AnchorPoint: "Lomka" 153 689 basechar 0
-AnchorPoint: "Tikhaya" 152 686.5 basechar 0
-AnchorPoint: "Oblachko" 154 687 basechar 0
-AnchorPoint: "Podchashie" 152 689 basechar 0
-AnchorPoint: "Zaderzhka" 153 684.9 basechar 0
-AnchorPoint: "Ochko" 152 683 basechar 0
-AnchorPoint: "Podvertka" 153 684 basechar 0
-AnchorPoint: "Borzaya" 154 684 basechar 0
-AnchorPoint: "Otsechka" 154 683 basechar 0
-AnchorPoint: "Shaidur" 53 650 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-356 161 m 1
- 338 62 l 1
- 228 135 l 1
- 246 234 l 1
- 356 161 l 1
-356 346 m 1
- 338 247 l 1
- 228 320 l 1
- 246 419 l 1
- 356 346 l 1
-166 0 m 1
- 147 0 l 1
- 181 351 l 1
- 181 373 181 392 174 412 c 0
- 160 451 133 483 97 501 c 0
- 79 510 60 515 38 515 c 1
- 55 614 l 1
- 128 614 183 573 205 522 c 0
- 211 508 215 492 215 477 c 0
- 215 473 214 470 214 466 c 2
- 166 0 l 1
-EndSplineSet
-Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEEA1
-Encoding: 61089 61089 227
+Encoding: 61089 61089 218
 Width: 1327
 VWidth: 999
 GlyphClass: 2
@@ -8192,10 +7732,11 @@ Validated: 1
 LCarets2: 1 393 
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE61 uniEE94
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE82
-Encoding: 61058 61058 228
+Encoding: 61058 61058 219
 Width: 744
 VWidth: 999
 GlyphClass: 2
@@ -8246,10 +7787,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE83
-Encoding: 61059 61059 229
+Encoding: 61059 61059 220
 Width: 780
 VWidth: 0
 GlyphClass: 2
@@ -8292,10 +7834,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEEA0
-Encoding: 61088 61088 230
+Encoding: 61088 61088 221
 Width: 851
 VWidth: 0
 GlyphClass: 2
@@ -8339,10 +7882,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE75
-Encoding: 61045 61045 231
+Encoding: 61045 61045 222
 Width: 205
 VWidth: 999
 GlyphClass: 2
@@ -8377,10 +7921,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE74
-Encoding: 61044 61044 232
+Encoding: 61044 61044 223
 Width: 774
 VWidth: 999
 GlyphClass: 3
@@ -8435,10 +7980,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE7D
-Encoding: 61053 61053 233
+Encoding: 61053 61053 224
 Width: 432
 VWidth: 999
 GlyphClass: 2
@@ -8489,10 +8035,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE7F
-Encoding: 61055 61055 234
+Encoding: 61055 61055 225
 Width: 624
 VWidth: 999
 GlyphClass: 2
@@ -8557,10 +8104,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE7A
-Encoding: 61050 61050 235
+Encoding: 61050 61050 226
 Width: 296
 VWidth: 999
 GlyphClass: 2
@@ -8601,10 +8149,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE86
-Encoding: 61062 61062 236
+Encoding: 61062 61062 227
 Width: 784
 VWidth: 999
 GlyphClass: 2
@@ -8659,10 +8208,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEEA5
-Encoding: 61093 61093 237
+Encoding: 61093 61093 228
 Width: 984
 VWidth: 999
 GlyphClass: 2
@@ -8716,10 +8266,11 @@ Validated: 1
 LCarets2: 1 249 
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEEA4
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE78
-Encoding: 61048 61048 238
+Encoding: 61048 61048 229
 Width: 229
 VWidth: 999
 GlyphClass: 2
@@ -8758,10 +8309,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Colour: ffb54c
 EndChar
 
 StartChar: uniEEA4
-Encoding: 61092 61092 239
+Encoding: 61092 61092 230
 Width: 792
 VWidth: 999
 GlyphClass: 2
@@ -8803,261 +8355,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
-EndChar
-
-StartChar: uniE100
-Encoding: 57600 57600 240
-Width: 382
-VWidth: 999
-GlyphClass: 2
-Flags: W
-HStem: 0 21G<34.9032 35.5>
-VStem: 92 18<602 620>
-DStem2: 33 0 61 100 0.0947333 0.995503<102.203 622.801>
-AnchorPoint: "Lomka" 315 616 basechar 0
-AnchorPoint: "Kupnaya" 100 722 basechar 0
-AnchorPoint: "Udarka" 314 614 basechar 0
-AnchorPoint: "Zevok" 316 614 basechar 0
-AnchorPoint: "Kachka" 99 724 basechar 0
-AnchorPoint: "Tikhaya" 52 200 basechar 0
-AnchorPoint: "Shaidur" 15 342 basechar 0
-AnchorPoint: "Otsechka" 413 40 basechar 0
-AnchorPoint: "Borzaya" 347 4 basechar 0
-AnchorPoint: "Podvertka" 413 134 basechar 0
-AnchorPoint: "Ochko" 100 725 basechar 0
-AnchorPoint: "Zaderzhka" 99 724 basechar 0
-AnchorPoint: "Podchashie" 99 724 basechar 0
-AnchorPoint: "Oblachko" 101 725 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-61 100 m 1
- 66 117 76 132 90 145 c 0
- 117 172 150 192 187 208 c 1
- 173 115 l 1
- 130 94 96 74 63 44 c 0
- 48 31 38 16 33 0 c 1
- 92 620 l 1
- 110 620 l 1
- 61 100 l 1
-236 234 m 1
- 246 257 276 280 297 294 c 0
- 311 303 326 312 341 321 c 1
- 328 226 l 1
- 288 202 244 178 221 136 c 1
- 236 234 l 1
-EndSplineSet
-Validated: 1
-LCarets2: 1 0 
-EndChar
-
-StartChar: uniE101
-Encoding: 57601 57601 241
-Width: 512
-VWidth: 999
-Flags: W
-HStem: 0 21G<34.9032 35.5>
-VStem: 92 18<602 620>
-DStem2: 33 0 61 100 0.0947333 0.995503<102.203 622.801> 341 321 328 226 0.859795 0.51064<-133.738 -59.6881 44.2722 117.818>
-AnchorPoint: "Zevok" 526 645 basechar 0
-AnchorPoint: "Udarka" -71 340 basechar 0
-AnchorPoint: "Kupnaya" 262 -108 basechar 0
-AnchorPoint: "Kachka" 93 726 basechar 0
-AnchorPoint: "Lomka" 425 30 basechar 0
-AnchorPoint: "Tikhaya" 92 255 basechar 0
-AnchorPoint: "Oblachko" 90 724 basechar 0
-AnchorPoint: "Podchashie" 93 720 basechar 0
-AnchorPoint: "Zaderzhka" 87 721.9 basechar 0
-AnchorPoint: "Ochko" 94 721 basechar 0
-AnchorPoint: "Podvertka" 483 226 basechar 0
-AnchorPoint: "Borzaya" 279 360 basechar 0
-AnchorPoint: "Otsechka" 538 226 basechar 0
-AnchorPoint: "Shaidur" 15 342 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-61 100 m 1
- 66 117 76 132 90 145 c 0
- 117 172 150 192 187 208 c 1
- 173 115 l 1
- 130 94 96 74 63 44 c 0
- 48 31 38 16 33 0 c 1
- 92 620 l 1
- 110 620 l 1
- 61 100 l 1
-389 324 m 1
- 400 348 429 370 450 384 c 0
- 464 393 479 402 494 411 c 1
- 481 316 l 1
- 441 292 396 268 374 226 c 1
- 389 324 l 1
-236 234 m 1
- 246 257 276 280 297 294 c 0
- 311 303 326 312 341 321 c 1
- 328 226 l 1
- 288 202 244 178 221 136 c 1
- 236 234 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE102
-Encoding: 57602 57602 242
-Width: 415
-Flags: W
-HStem: 0 21G<7.5 8.6>
-AnchorPoint: "Kupnaya" 111 450 basechar 0
-AnchorPoint: "Shaidur" 10 187 basechar 0
-AnchorPoint: "Otsechka" 445 117 basechar 0
-AnchorPoint: "Borzaya" 110 450 basechar 0
-AnchorPoint: "Podvertka" 317 230 basechar 0
-AnchorPoint: "Ochko" 457 474 basechar 0
-AnchorPoint: "Zaderzhka" 229 501.9 basechar 0
-AnchorPoint: "Podchashie" 317 229 basechar 0
-AnchorPoint: "Oblachko" 112 454 basechar 0
-AnchorPoint: "Tikhaya" 62 110.5 basechar 0
-AnchorPoint: "Lomka" 111 452 basechar 0
-AnchorPoint: "Kachka" 111 452 basechar 0
-AnchorPoint: "Udarka" 111 451 basechar 0
-AnchorPoint: "Zevok" 113 449 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-23 100 m 1
- 33 134 71 162 99 179 c 0
- 117 190 137 200 159 208 c 1
- 143 112 l 1
- 102 95 65 73 36 44 c 1
- 20 31 10 16 5 0 c 1
- 23 100 l 1
-83 290 m 1
- 93 324 131 352 159 369 c 0
- 177 380 197 390 219 398 c 1
- 203 302 l 1
- 162 285 125 263 96 234 c 1
- 80 221 70 206 65 190 c 1
- 83 290 l 1
-268 415 m 1
- 278 450 316 477 344 494 c 0
- 362 505 382 515 404 523 c 1
- 388 427 l 1
- 346 410 314 387 280 360 c 1
- 266 346 255 331 250 315 c 1
- 268 415 l 1
-EndSplineSet
-Validated: 1
-LCarets2: 1 0 
-EndChar
-
-StartChar: uniE103
-Encoding: 57603 57603 243
-Width: 414
-Flags: W
-HStem: 0 21G<7.5 8.6>
-AnchorPoint: "Zevok" 111 449 basechar 0
-AnchorPoint: "Udarka" 109 449 basechar 0
-AnchorPoint: "Kachka" 111 448 basechar 0
-AnchorPoint: "Lomka" 109 450 basechar 0
-AnchorPoint: "Tikhaya" 62 110.5 basechar 0
-AnchorPoint: "Oblachko" 109 450 basechar 0
-AnchorPoint: "Podchashie" 329 152 basechar 0
-AnchorPoint: "Zaderzhka" 219 528.9 basechar 0
-AnchorPoint: "Ochko" 457 474 basechar 0
-AnchorPoint: "Podvertka" 329 153 basechar 0
-AnchorPoint: "Borzaya" 112 448 basechar 0
-AnchorPoint: "Otsechka" 445 117 basechar 0
-AnchorPoint: "Shaidur" 10 187 basechar 0
-AnchorPoint: "Kupnaya" 106 450 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-268 415 m 1
- 278 450 316 477 344 494 c 0
- 362 505 382 515 404 523 c 1
- 388 427 l 1
- 346 410 314 387 280 360 c 1
- 266 346 255 331 250 315 c 1
- 268 415 l 1
-208 225 m 1
- 218 260 256 287 284 304 c 0
- 302 315 322 325 344 333 c 1
- 328 237 l 1
- 286 220 254 197 220 170 c 1
- 206 156 195 141 190 125 c 1
- 208 225 l 1
-83 290 m 1
- 93 324 131 352 159 369 c 0
- 177 380 197 390 219 398 c 1
- 203 302 l 1
- 162 285 125 263 96 234 c 1
- 80 221 70 206 65 190 c 1
- 83 290 l 1
-23 100 m 1
- 33 134 71 162 99 179 c 0
- 117 190 137 200 159 208 c 1
- 143 112 l 1
- 102 95 65 73 36 44 c 1
- 20 31 10 16 5 0 c 1
- 23 100 l 1
-EndSplineSet
-Validated: 1
-LCarets2: 1 0 
-EndChar
-
-StartChar: uniE104
-Encoding: 57604 57604 244
-Width: 415
-Flags: W
-HStem: 0 21G<7.5 8.6>
-AnchorPoint: "Kupnaya" 111 450 basechar 0
-AnchorPoint: "Shaidur" 10 187 basechar 0
-AnchorPoint: "Otsechka" 445 117 basechar 0
-AnchorPoint: "Borzaya" 110 450 basechar 0
-AnchorPoint: "Podvertka" 110 450 basechar 0
-AnchorPoint: "Ochko" 457 474 basechar 0
-AnchorPoint: "Zaderzhka" 111 448.9 basechar 0
-AnchorPoint: "Podchashie" 110 449 basechar 0
-AnchorPoint: "Oblachko" 109 450 basechar 0
-AnchorPoint: "Tikhaya" 62 110.5 basechar 0
-AnchorPoint: "Lomka" 109 450 basechar 0
-AnchorPoint: "Kachka" 111 448 basechar 0
-AnchorPoint: "Udarka" 109 449 basechar 0
-AnchorPoint: "Zevok" 111 449 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-315 120 m 1
- 298 21 l 1
- 218 146 l 1
- 235 245 l 1
- 315 120 l 1
-23 100 m 1
- 33 134 71 162 99 179 c 0
- 117 190 137 200 159 208 c 1
- 143 112 l 1
- 102 95 65 73 36 44 c 1
- 20 31 10 16 5 0 c 1
- 23 100 l 1
-83 290 m 1
- 93 324 131 352 159 369 c 0
- 177 380 197 390 219 398 c 1
- 203 302 l 1
- 162 285 125 263 96 234 c 1
- 80 221 70 206 65 190 c 1
- 83 290 l 1
-268 415 m 1
- 278 450 316 477 344 494 c 0
- 362 505 382 515 404 523 c 1
- 388 427 l 1
- 346 410 314 387 280 360 c 1
- 266 346 255 331 250 315 c 1
- 268 415 l 1
-EndSplineSet
-Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE81
-Encoding: 61057 61057 245
+Encoding: 61057 61057 231
 Width: 289
 VWidth: 999
 GlyphClass: 2
@@ -9104,134 +8406,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE80 uniEE5A
-EndChar
-
-StartChar: uniE106
-Encoding: 57606 57606 246
-Width: 894
-VWidth: 999
-Flags: W
-HStem: 0 21G<153.061 157.5> 460 98<784.592 857.294>
-AnchorPoint: "Zevok" 989 639 basechar 0
-AnchorPoint: "Udarka" -54 342 basechar 0
-AnchorPoint: "Kupnaya" 499 -115 basechar 0
-AnchorPoint: "Kachka" 431 556 basechar 0
-AnchorPoint: "Lomka" 854 52 basechar 0
-AnchorPoint: "Tikhaya" 270 170.5 basechar 0
-AnchorPoint: "Oblachko" 832 639 basechar 0
-AnchorPoint: "Podchashie" 874 340 basechar 0
-AnchorPoint: "Zaderzhka" 997 483.9 basechar 0
-AnchorPoint: "Ochko" 429 450 basechar 0
-AnchorPoint: "Podvertka" 870 341 basechar 0
-AnchorPoint: "Borzaya" -55 146 basechar 0
-AnchorPoint: "Otsechka" 920 349 basechar 0
-AnchorPoint: "Shaidur" 99 368 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-532.109 303 m 1
- 327 181 l 2
- 292.772 160.642 256 135 225 108 c 1
- 194 79 165 46 150 0 c 1
- 165 98 l 1
- 177 138 214 174 242 201 c 1
- 273 229 313 258 348 279 c 2
- 733 508 l 1
- 762 523 786 540 817 550 c 1
- 829 556 838 558 844 558 c 0
- 863 558 877 534 886 522 c 1
- 891 513 891 513 894 508 c 1
- 877 410 l 1
- 869 424 855 443 842 454 c 0
- 837 458 832 460 827 460 c 0
- 821 460 812 456 799 450 c 1
- 768 440 741 426 712 410 c 1
- 551.484 314.524 l 1
- 527.5 43 l 1
- 504.5 36 l 1
- 532.109 303 l 1
--27 -50 m 1
- -17 -16 21 12 49 29 c 0
- 67 40 87 50 109 58 c 1
- 93 -38 l 1
- 52 -55 15 -77 -14 -106 c 1
- -30 -120 -40 -135 -45 -150 c 1
- -27 -50 l 1
-33 140 m 1
- 43 175 80 201 109 219 c 0
- 127 230 147 240 169 248 c 1
- 153 152 l 1
- 112 135 75 113 46 84 c 1
- 30 71 20 56 15 40 c 1
- 33 140 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uniE107
-Encoding: 57607 57607 247
-Width: 440
-Flags: W
-HStem: 0 21G<7.5 8.6> 100 100<294.6 375.17>
-VStem: 258 14<233.611 269.413> 268 146<128.029 241.5> 382 12<292.25 336.202> 384 30<213.078 302.75>
-AnchorPoint: "Kupnaya" 111 450 basechar 0
-AnchorPoint: "Shaidur" 10 187 basechar 0
-AnchorPoint: "Otsechka" 445 117 basechar 0
-AnchorPoint: "Borzaya" 110 450 basechar 0
-AnchorPoint: "Podvertka" 209 582 basechar 0
-AnchorPoint: "Ochko" 457 474 basechar 0
-AnchorPoint: "Zaderzhka" 111 448.9 basechar 0
-AnchorPoint: "Podchashie" 207 583 basechar 0
-AnchorPoint: "Oblachko" 109 450 basechar 0
-AnchorPoint: "Tikhaya" 62 110.5 basechar 0
-AnchorPoint: "Lomka" 109 450 basechar 0
-AnchorPoint: "Kachka" 111 448 basechar 0
-AnchorPoint: "Udarka" 109 449 basechar 0
-AnchorPoint: "Zevok" 111 449 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-384 278 m 0xe4
- 384 292 382 308 382 324 c 0
- 382 332 382 337 386 337 c 2
- 390 336 392 333 394 329 c 2xc8
- 410 245 l 2
- 412 228 414 209 414 193 c 0
- 414 145 394 100 346 100 c 0
- 298 100 274 137 268 189 c 1xd0
- 258 264 l 2
- 256 269 258 272 262 271 c 0
- 266 270 270 265 272 259 c 0
- 274 245 278 233 284 225 c 1
- 294 206 308 200 336 200 c 0
- 378 200 384 234 384 278 c 0xe4
-23 100 m 1
- 33 134 71 162 99 179 c 0
- 117 190 137 200 159 208 c 1
- 143 112 l 1
- 102 95 65 73 36 44 c 1
- 20 31 10 16 5 0 c 1
- 23 100 l 1
-83 290 m 1
- 93 324 131 352 159 369 c 0
- 177 380 197 390 219 398 c 1
- 203 302 l 1
- 162 285 125 263 96 234 c 1
- 80 221 70 206 65 190 c 1
- 83 290 l 1
-268 415 m 1xd0
- 278 450 316 477 344 494 c 0
- 362 505 382 515 404 523 c 1
- 388 427 l 1
- 346 410 314 387 280 360 c 1
- 266 346 255 331 250 315 c 1
- 268 415 l 1xd0
-EndSplineSet
-Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE17
-Encoding: 60951 60951 248
+Encoding: 60951 60951 232
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -9290,10 +8469,11 @@ SplineSet
  -378 226 -380 244 -380 263 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE7B
-Encoding: 61051 61051 249
+Encoding: 61051 61051 233
 Width: 476
 VWidth: 999
 GlyphClass: 2
@@ -9346,68 +8526,11 @@ SplineSet
  327 193 l 1
 EndSplineSet
 Validated: 1
-EndChar
-
-StartChar: uniE108
-Encoding: 57608 57608 250
-Width: 379
-VWidth: 0
-Flags: W
-HStem: 0 21G<7.5 8.72549> 71 100<234.078 314.633>
-VStem: 197 14<207.087 240.801> 208 145<97.9006 207.727> 321 12<263.25 307.641> 324 29<185.133 271.125>
-AnchorPoint: "Shaidur" 25 242 basechar 0
-AnchorPoint: "Otsechka" 262 315 basechar 0
-AnchorPoint: "Borzaya" 213 462 basechar 0
-AnchorPoint: "Podvertka" 212 461 basechar 0
-AnchorPoint: "Ochko" 213 460 basechar 0
-AnchorPoint: "Zaderzhka" 213 463.9 basechar 0
-AnchorPoint: "Podchashie" 214 461 basechar 0
-AnchorPoint: "Oblachko" 212 464 basechar 0
-AnchorPoint: "Tikhaya" 62 110.5 basechar 0
-AnchorPoint: "Lomka" 213 462 basechar 0
-AnchorPoint: "Kachka" 213 462 basechar 0
-AnchorPoint: "Kupnaya" 206 -103 basechar 0
-AnchorPoint: "Udarka" 213 463 basechar 0
-AnchorPoint: "Zevok" 210 459 basechar 0
-LayerCount: 3
-Fore
-SplineSet
-24 102 m 5xc0
- 34 137 72 166 101 183 c 4
- 119 194 140 205 163 213 c 5
- 146 115 l 5
- 123 106 103 94 84 82 c 4
- 68 72 51 59 37 45 c 5
- 21 32 10 16 5 0 c 5
- 24 102 l 5xc0
-85 297 m 5
- 95 331 134 361 163 378 c 4
- 181 389 201 400 224 408 c 5
- 208 309 l 5xd0
- 185 300 164 288 145 276 c 4
- 116 258 78 230 67 195 c 5
- 85 297 l 5
-324 249 m 4xe4
- 324 263 321 279 321 295 c 4
- 321 303 322 308 325 308 c 6
- 326 308 l 5
- 330 307 332 304 333 300 c 6xc8
- 349 216 l 6
- 352 199 353 180 353 164 c 4
- 353 116 333 71 286 71 c 4
- 237 71 214 108 208 160 c 5xd0
- 197 235 l 6
- 196 240 197 243 201 242 c 4
- 206 241 210 236 211 230 c 4
- 214 216 218 204 224 196 c 5
- 234 177 248 171 275 171 c 4
- 317 171 324 205 324 249 c 4xe4
-EndSplineSet
-Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE97
-Encoding: 61079 61079 251
+Encoding: 61079 61079 234
 Width: 957
 VWidth: 0
 GlyphClass: 2
@@ -9464,10 +8587,11 @@ SplineSet
  479 150 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE10
-Encoding: 60944 60944 252
+Encoding: 60944 60944 235
 Width: 0
 VWidth: 999
 GlyphClass: 2
@@ -9549,10 +8673,11 @@ SplineSet
  -115 295 -110 307 -110 318 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE12
-Encoding: 60946 60946 253
+Encoding: 60946 60946 236
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -9612,10 +8737,11 @@ SplineSet
  -52 203 -59 202 -65 202 c 2
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE14
-Encoding: 60948 60948 254
+Encoding: 60948 60948 237
 Width: 0
 VWidth: 999
 Flags: W
@@ -9677,10 +8803,11 @@ SplineSet
  -161 343 l 1xbe
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE16
-Encoding: 60950 60950 255
+Encoding: 60950 60950 238
 Width: 0
 VWidth: 999
 Flags: W
@@ -9739,10 +8866,11 @@ SplineSet
  -182 203 -189 202 -195 202 c 2
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE1F
-Encoding: 60959 60959 256
+Encoding: 60959 60959 239
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -9775,10 +8903,11 @@ SplineSet
  -118 188 -114 190 -111 190 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE88
-Encoding: 61064 61064 257
+Encoding: 61064 61064 240
 Width: 338
 GlyphClass: 2
 Flags: W
@@ -9813,10 +8942,11 @@ SplineSet
  187 392 191 391 195 391 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE0C
-Encoding: 60940 60940 258
+Encoding: 60940 60940 241
 Width: 0
 VWidth: 999
 Flags: W
@@ -9864,10 +8994,11 @@ SplineSet
  -148 396 -158 383 -171 383 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE0D
-Encoding: 60941 60941 259
+Encoding: 60941 60941 242
 Width: 0
 VWidth: 999
 Flags: W
@@ -9913,10 +9044,11 @@ SplineSet
  -101 223 -103 242 -103 261 c 0xe4
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE0E
-Encoding: 60942 60942 260
+Encoding: 60942 60942 243
 Width: 0
 VWidth: 999
 Flags: W
@@ -9967,10 +9099,11 @@ SplineSet
  -163 401 -173 388 -186 388 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE30
-Encoding: 60976 60976 261
+Encoding: 60976 60976 244
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -10006,10 +9139,11 @@ SplineSet
  174 460 162 441 144 441 c 0xdf
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE31
-Encoding: 60977 60977 262
+Encoding: 60977 60977 245
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10032,10 +9166,11 @@ SplineSet
  173 488 154 506 132 506 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE32
-Encoding: 60978 60978 263
+Encoding: 60978 60978 246
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10068,10 +9203,11 @@ SplineSet
  -91 328 -101 284 -107 266 c 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE33
-Encoding: 60979 60979 264
+Encoding: 60979 60979 247
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10088,10 +9224,11 @@ SplineSet
  -38 227 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE34
-Encoding: 60980 60980 265
+Encoding: 60980 60980 248
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10130,10 +9267,11 @@ SplineSet
  -64 185 -59 211 -59 227 c 0xfd
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE35
-Encoding: 60981 60981 266
+Encoding: 60981 60981 249
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10165,10 +9303,11 @@ SplineSet
  -221 46 -225 52 -225 60 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE36
-Encoding: 60982 60982 267
+Encoding: 60982 60982 250
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10193,10 +9332,11 @@ SplineSet
  -32 267 -50 199 -100 199 c 0xc0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE37
-Encoding: 60983 60983 268
+Encoding: 60983 60983 251
 Width: -7632
 GlyphClass: 4
 Flags: W
@@ -10229,10 +9369,11 @@ SplineSet
  302 304 288 329 263 329 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE38
-Encoding: 60984 60984 269
+Encoding: 60984 60984 252
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10260,10 +9401,11 @@ SplineSet
  -123 175 -93 203 -69 203 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE39
-Encoding: 60985 60985 270
+Encoding: 60985 60985 253
 Width: -10128
 GlyphClass: 4
 Flags: W
@@ -10290,10 +9432,11 @@ SplineSet
  -79 423 -49 451 -25 451 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE3A
-Encoding: 60986 60986 271
+Encoding: 60986 60986 254
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10327,10 +9470,11 @@ SplineSet
  -47 357 -19 341 -19 311 c 0xe0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE3B
-Encoding: 60987 60987 272
+Encoding: 60987 60987 255
 Width: -20256
 GlyphClass: 4
 Flags: W
@@ -10357,10 +9501,11 @@ SplineSet
  -231 226 -203 230 -177 230 c 0x60
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE3C
-Encoding: 60988 60988 273
+Encoding: 60988 60988 256
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10381,10 +9526,11 @@ SplineSet
  -111 428 -114 414 -127 414 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE56
-Encoding: 61014 61014 274
+Encoding: 61014 61014 257
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10409,10 +9555,11 @@ SplineSet
  -278 528 -322 460 -374 460 c 0
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE5A
-Encoding: 61018 61018 275
+Encoding: 61018 61018 258
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -10429,10 +9576,11 @@ SplineSet
  -7 302 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE5B
-Encoding: 61019 61019 276
+Encoding: 61019 61019 259
 Width: 148
 VWidth: 999
 GlyphClass: 2
@@ -10453,10 +9601,11 @@ SplineSet
  138 346 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE60
-Encoding: 61024 61024 277
+Encoding: 61024 61024 260
 Width: 744
 VWidth: 999
 Flags: W
@@ -10478,10 +9627,11 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE61
-Encoding: 61025 61025 278
+Encoding: 61025 61025 261
 Width: 392
 VWidth: 999
 Flags: W
@@ -10509,10 +9659,11 @@ SplineSet
  193 -0 88 99 68 245 c 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE62
-Encoding: 61026 61026 279
+Encoding: 61026 61026 262
 Width: 310
 Flags: W
 HStem: 0 21G<25 50 250 275>
@@ -10541,10 +9692,11 @@ SplineSet
  250 175 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE68
-Encoding: 61032 61032 280
+Encoding: 61032 61032 263
 Width: 639
 VWidth: 0
 Flags: W
@@ -10620,10 +9772,11 @@ SplineSet
  142 190 109 229 77 229 c 0x19b9
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE69
-Encoding: 61033 61033 281
+Encoding: 61033 61033 264
 Width: 401
 Flags: W
 HStem: -180 75<100.618 210.109> 113 81<136.389 212.882> 314 55<145.51 262.369>
@@ -10721,10 +9874,11 @@ SplineSet
  206 194 261 128 285 106 c 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE9B
-Encoding: 61083 61083 282
+Encoding: 61083 61083 265
 Width: 1044
 VWidth: 999
 Flags: W
@@ -10796,10 +9950,11 @@ SplineSet
  186 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE9C
-Encoding: 61084 61084 283
+Encoding: 61084 61084 266
 Width: 1004
 VWidth: 999
 Flags: W
@@ -10845,10 +10000,11 @@ SplineSet
  162 224 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE9D
-Encoding: 61085 61085 284
+Encoding: 61085 61085 267
 Width: 1004
 VWidth: 999
 Flags: W
@@ -10904,10 +10060,11 @@ SplineSet
  162 224 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE9E
-Encoding: 61086 61086 285
+Encoding: 61086 61086 268
 Width: 994
 VWidth: 0
 Flags: W
@@ -10966,10 +10123,11 @@ SplineSet
  561 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEE9F
-Encoding: 61087 61087 286
+Encoding: 61087 61087 269
 Width: 864
 VWidth: 999
 Flags: W
@@ -11010,10 +10168,11 @@ SplineSet
  135 98 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEA00
-Encoding: 59904 59904 287
+Encoding: 59904 59904 270
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -11086,10 +10245,11 @@ SplineSet
  -268 188 -264 190 -261 190 c 0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA01
-Encoding: 59905 59905 288
+Encoding: 59905 59905 271
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -11142,10 +10302,11 @@ SplineSet
  -358 223 -360 241 -360 260 c 0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA02
-Encoding: 59906 59906 289
+Encoding: 59906 59906 272
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -11200,10 +10361,11 @@ SplineSet
  -108 180 -104 182 -101 182 c 0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA03
-Encoding: 59907 59907 290
+Encoding: 59907 59907 273
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -11239,10 +10401,11 @@ SplineSet
  -33 351 -23 350 -23 344 c 0xd0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA04
-Encoding: 59908 59908 291
+Encoding: 59908 59908 274
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -11270,10 +10433,11 @@ SplineSet
  -33 244 -33 243 -34 241 c 0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA0F
-Encoding: 59919 59919 292
+Encoding: 59919 59919 275
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -11325,10 +10489,11 @@ SplineSet
  -24 192 -18 196 -15 196 c 0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA10
-Encoding: 59920 59920 293
+Encoding: 59920 59920 276
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -11352,10 +10517,11 @@ SplineSet
  -49 342 -63 327 -69 327 c 0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA11
-Encoding: 59921 59921 294
+Encoding: 59921 59921 277
 Width: 0
 VWidth: 500
 GlyphClass: 4
@@ -11398,10 +10564,11 @@ SplineSet
  -308 146 l 2
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA13
-Encoding: 59923 59923 295
+Encoding: 59923 59923 278
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -11433,10 +10600,11 @@ SplineSet
  -56 211 -70 236 -95 236 c 0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA12
-Encoding: 59922 59922 296
+Encoding: 59922 59922 279
 Width: 0
 VWidth: 999
 GlyphClass: 4
@@ -11478,10 +10646,11 @@ SplineSet
  -172 323 -174 308 -175 290 c 1
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA50
-Encoding: 59984 59984 297
+Encoding: 59984 59984 280
 Width: 96
 VWidth: 999
 GlyphClass: 5
@@ -11499,10 +10668,11 @@ SplineSet
  66 389 47 195 29 0 c 1
 EndSplineSet
 Validated: 1
+Colour: ff9ef7
 EndChar
 
 StartChar: uniEA51
-Encoding: 59985 59985 298
+Encoding: 59985 59985 281
 Width: 301
 VWidth: 999
 GlyphClass: 5
@@ -11538,10 +10708,11 @@ SplineSet
  281 6 l 2xc1
 EndSplineSet
 Validated: 1
+Colour: ff9ef7
 EndChar
 
 StartChar: uniEA52
-Encoding: 59986 59986 299
+Encoding: 59986 59986 282
 Width: 296
 VWidth: 999
 GlyphClass: 5
@@ -11579,10 +10750,11 @@ SplineSet
  186 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ff9ef7
 EndChar
 
 StartChar: uniEA53
-Encoding: 59987 59987 300
+Encoding: 59987 59987 283
 Width: 145
 VWidth: 0
 GlyphClass: 5
@@ -11608,10 +10780,11 @@ SplineSet
  25 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ff9ef7
 EndChar
 
 StartChar: uniEA54
-Encoding: 59988 59988 301
+Encoding: 59988 59988 284
 Width: 281
 VWidth: 999
 Flags: W
@@ -11642,10 +10815,11 @@ SplineSet
  140 585 l 257
 EndSplineSet
 Validated: 1
+Colour: ff9ef7
 EndChar
 
 StartChar: uniEB20
-Encoding: 60192 60192 302
+Encoding: 60192 60192 285
 Width: 706
 VWidth: 500
 GlyphClass: 2
@@ -11736,10 +10910,11 @@ SplineSet
  282 389 295 426 295 476 c 0x0a6e40
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB21
-Encoding: 60193 60193 303
+Encoding: 60193 60193 286
 Width: 638
 GlyphClass: 2
 Flags: W
@@ -11784,10 +10959,11 @@ SplineSet
  0 -9 l 1x7f80
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEA80
-Encoding: 60032 60032 304
+Encoding: 60032 60032 287
 Width: 800
 VWidth: 999
 Flags: W
@@ -11830,10 +11006,11 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA81
-Encoding: 60033 60033 305
+Encoding: 60033 60033 288
 Width: 800
 VWidth: 999
 Flags: W
@@ -11878,10 +11055,11 @@ SplineSet
  85 169 174 244 233 279 c 2xc0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA84
-Encoding: 60036 60036 306
+Encoding: 60036 60036 289
 Width: 775
 Flags: W
 HStem: 0 21G<34.9737 52.779 374 398.295> 460 98<671.698 743.058>
@@ -11913,10 +11091,11 @@ SplineSet
  408 297 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA85
-Encoding: 60037 60037 307
+Encoding: 60037 60037 290
 Width: 775
 Flags: W
 HStem: 0 21G<34.954 52.779 374 398.295> 451 21G<29.4343 31> 460 98<671.698 743.058>
@@ -11951,10 +11130,11 @@ SplineSet
  408 297 l 1xb0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA88
-Encoding: 60040 60040 308
+Encoding: 60040 60040 291
 Width: 803
 VWidth: 999
 Flags: W
@@ -12004,10 +11184,11 @@ SplineSet
  408 510 l 1xa0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA89
-Encoding: 60041 60041 309
+Encoding: 60041 60041 292
 Width: 803
 VWidth: 999
 Flags: W
@@ -12059,10 +11240,11 @@ SplineSet
  25 352 37 377 76 388 c 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA8A
-Encoding: 60042 60042 310
+Encoding: 60042 60042 293
 Width: 784
 VWidth: 999
 Flags: W
@@ -12113,10 +11295,11 @@ SplineSet
  335 338 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA8B
-Encoding: 60043 60043 311
+Encoding: 60043 60043 294
 Width: 784
 VWidth: 999
 Flags: W
@@ -12170,10 +11353,11 @@ SplineSet
  335 338 l 1xd8
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA8E
-Encoding: 60046 60046 312
+Encoding: 60046 60046 295
 Width: 774
 Flags: W
 HStem: 0 21G<34.9737 52.779> 460 98<671.698 743.058>
@@ -12215,10 +11399,11 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA8F
-Encoding: 60047 60047 313
+Encoding: 60047 60047 296
 Width: 774
 Flags: W
 HStem: 0 21G<34.954 52.779> 451 21G<29.4343 31> 460 98<671.698 743.058>
@@ -12262,10 +11447,11 @@ SplineSet
  466 528 l 1xc0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE75EE5A
-Encoding: 60000 60000 314
+Encoding: 60000 60000 297
 Width: 371
 VWidth: 999
 GlyphClass: 3
@@ -12305,10 +11491,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE75 uniEE5A
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEA90
-Encoding: 60048 60048 315
+Encoding: 60048 60048 298
 Width: 774
 GlyphClass: 3
 Flags: W
@@ -12351,10 +11538,11 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA91
-Encoding: 60049 60049 316
+Encoding: 60049 60049 299
 Width: 774
 GlyphClass: 3
 Flags: W
@@ -12395,10 +11583,11 @@ SplineSet
  36 576 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA95
-Encoding: 60053 60053 317
+Encoding: 60053 60053 300
 Width: 205
 Flags: W
 HStem: 0 21G<34.8875 43.5>
@@ -12419,10 +11608,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA94
-Encoding: 60052 60052 318
+Encoding: 60052 60052 301
 Width: 205
 Flags: W
 HStem: 0 21G<34.9293 43.5>
@@ -12444,10 +11634,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE78EE5A
-Encoding: 60002 60002 319
+Encoding: 60002 60002 302
 Width: 377
 VWidth: 999
 GlyphClass: 3
@@ -12490,10 +11681,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE78 uniEE5A
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEA96
-Encoding: 60054 60054 320
+Encoding: 60054 60054 303
 Width: 360
 GlyphClass: 3
 Flags: W
@@ -12521,10 +11713,11 @@ SplineSet
  236 234 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA9B
-Encoding: 60059 60059 321
+Encoding: 60059 60059 304
 Width: 299
 GlyphClass: 3
 Flags: W
@@ -12561,10 +11754,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA9C
-Encoding: 60060 60060 322
+Encoding: 60060 60060 305
 Width: 299
 Flags: W
 HStem: 0 21G<34.9293 43.5> 281 98<164.015 241.888>
@@ -12598,10 +11792,11 @@ SplineSet
  251 178 252 196 252 212 c 0xe2
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA9D
-Encoding: 60061 60061 323
+Encoding: 60061 60061 306
 Width: 299
 Flags: W
 HStem: 0 21G<34.8875 43.5> 281 98<164.015 241.888>
@@ -12634,10 +11829,11 @@ SplineSet
  251 178 252 196 252 212 c 0xc4
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAA2
-Encoding: 60066 60066 324
+Encoding: 60066 60066 307
 Width: 229
 Flags: W
 HStem: 0 21G<147 168.06>
@@ -12661,10 +11857,11 @@ SplineSet
  166 0 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAA3
-Encoding: 60067 60067 325
+Encoding: 60067 60067 308
 Width: 261
 Flags: W
 HStem: 0 21G<152 173.071> 515 99<60 114.442> 656 20G<220 238.929>
@@ -12686,10 +11883,11 @@ SplineSet
  171 0 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAA8
-Encoding: 60072 60072 326
+Encoding: 60072 60072 309
 Width: 377
 Flags: W
 HStem: 0 21G<152 173.071> 515 99<60 114.442> 656 20G<220 238.929>
@@ -12716,10 +11914,11 @@ SplineSet
  230 327 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB26
-Encoding: 60198 60198 327
+Encoding: 60198 60198 310
 Width: 395
 VWidth: 999
 GlyphClass: 2
@@ -12764,10 +11963,11 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEAAE
-Encoding: 60078 60078 328
+Encoding: 60078 60078 311
 Width: 377
 Flags: W
 HStem: 0 21G<148 169.071> 515 99<56 110.442> 656 20G<216 234.929>
@@ -12799,10 +11999,11 @@ SplineSet
  356 346 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE7EEE5A
-Encoding: 60004 60004 329
+Encoding: 60004 60004 312
 Width: 561
 VWidth: 999
 GlyphClass: 3
@@ -12881,10 +12082,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 427 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7E uniEE5A
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEAB3
-Encoding: 60083 60083 330
+Encoding: 60083 60083 313
 Width: 359
 Flags: W
 HStem: 0 79<12 58 79 117 242 291 311 347> 292 99<154.165 270.409>
@@ -12916,10 +12118,11 @@ SplineSet
  58 79 l 1xd0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAB4
-Encoding: 60084 60084 331
+Encoding: 60084 60084 314
 Width: 306
 Flags: W
 HStem: 0 21G<18 42.0816 252 273.857> 292 99<129.21 242.968>
@@ -12945,10 +12148,11 @@ SplineSet
  105 340 l 1xe8
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAB5
-Encoding: 60085 60085 332
+Encoding: 60085 60085 315
 Width: 331
 Flags: W
 HStem: 0 21G<12 36.6735 244 267.328> 292 99<115.928 235.08>
@@ -12974,10 +12178,11 @@ SplineSet
  265 0 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAB6
-Encoding: 60086 60086 333
+Encoding: 60086 60086 316
 Width: 346
 Flags: W
 HStem: 0 18G<0 23.6735 235.979 277.348> 292 99<103.91 225.5>
@@ -13003,10 +12208,11 @@ SplineSet
  233 -3 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAB7
-Encoding: 60087 60087 334
+Encoding: 60087 60087 317
 Width: 300
 Flags: W
 HStem: -3 21G<195.5 231.348> 293 99<62.1709 170.332>
@@ -13028,10 +12234,11 @@ SplineSet
  207 131 209 152 209 171 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAB9
-Encoding: 60089 60089 335
+Encoding: 60089 60089 318
 Width: 548
 Flags: W
 HStem: 0 79<12 58 79 117 242 296 311 347> 292 99<154.165 270.409>
@@ -13076,10 +12283,11 @@ SplineSet
  402 193 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEABA
-Encoding: 60090 60090 336
+Encoding: 60090 60090 319
 Width: 497
 Flags: W
 HStem: 0 21G<13 37.0816 247 268.857 369 394.179> 292 99<124.21 237.968>
@@ -13118,10 +12326,11 @@ SplineSet
  100 340 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEABB
-Encoding: 60091 60091 337
+Encoding: 60091 60091 320
 Width: 503
 Flags: W
 HStem: 0 21G<18 42.6735 250 273.328 371 396.179> 292 99<121.928 241.08>
@@ -13159,10 +12368,11 @@ SplineSet
  271 0 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE87EE54
-Encoding: 60005 60005 338
+Encoding: 60005 60005 321
 Width: 370
 GlyphClass: 3
 Flags: W
@@ -13190,10 +12400,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 235 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE53
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEE87EE55
-Encoding: 60006 60006 339
+Encoding: 60006 60006 322
 Width: 395
 GlyphClass: 3
 Flags: W
@@ -13228,10 +12439,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 230 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE55
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEABC
-Encoding: 60092 60092 340
+Encoding: 60092 60092 323
 Width: 538
 Flags: W
 HStem: 0 18G<0 23.6735 235.979 277.348 419 444.179> 292 99<103.91 225.5>
@@ -13270,10 +12482,11 @@ SplineSet
  392 193 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEABD
-Encoding: 60093 60093 341
+Encoding: 60093 60093 324
 Width: 503
 Flags: W
 HStem: 0 18G<195.5 231.348 371 396.179> 293 99<63.2812 169.603>
@@ -13310,10 +12523,11 @@ SplineSet
  344 193 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB27
-Encoding: 60199 60199 342
+Encoding: 60199 60199 325
 Width: 207
 GlyphClass: 2
 Flags: W
@@ -13334,10 +12548,11 @@ SplineSet
  117 324 l 1
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEA8C
-Encoding: 60044 60044 343
+Encoding: 60044 60044 326
 Width: 784
 Flags: W
 HStem: 0 21G<34.9936 52.779> 460 98<671.698 743.058>
@@ -13373,10 +12588,11 @@ SplineSet
  335 338 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA8D
-Encoding: 60045 60045 344
+Encoding: 60045 60045 327
 Width: 784
 Flags: W
 HStem: 0 21G<34.9601 52.779> 460 98<671.698 743.058>
@@ -13411,10 +12627,11 @@ SplineSet
  335 338 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA92
-Encoding: 60050 60050 345
+Encoding: 60050 60050 328
 Width: 205
 Flags: W
 HStem: 0 21G<34.9142 43.5>
@@ -13436,10 +12653,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA93
-Encoding: 60051 60051 346
+Encoding: 60051 60051 329
 Width: 205
 Flags: W
 HStem: 0 21G<34.9157 43.5> 451 21G<29.4343 31>
@@ -13464,10 +12682,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAC0
-Encoding: 60096 60096 347
+Encoding: 60096 60096 330
 Width: 443
 Flags: W
 HStem: -3 21G<131.5 135.5 301.5 305.5 353 374.06> 120 99<63.833 116.403 233.833 286.403> 515 99<261 309.169>
@@ -13526,10 +12745,11 @@ SplineSet
  312 496 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAC1
-Encoding: 60097 60097 348
+Encoding: 60097 60097 331
 Width: 443
 Flags: W
 HStem: -3 24G<131.5 135.5 301.5 305.5 352 373.06> 120 99<63.833 116.403 233.833 286.403>
@@ -13586,10 +12806,11 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAC3
-Encoding: 60099 60099 349
+Encoding: 60099 60099 332
 Width: 443
 Flags: W
 HStem: -3 21G<131.5 135.5 301.5 305.5 352 373.071> 120 99<63.833 116.403 233.833 286.403> 515 99<260 315.07> 656 20G<420 438.929>
@@ -13645,10 +12866,11 @@ SplineSet
  260 614 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE8FEE50
-Encoding: 60011 60011 350
+Encoding: 60011 60011 333
 Width: 416
 GlyphClass: 3
 Flags: W
@@ -13689,10 +12911,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 234 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE50
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEAC5
-Encoding: 60101 60101 351
+Encoding: 60101 60101 334
 Width: 561
 Flags: W
 HStem: -3 21G<131.5 135.5 301.5 305.5 353 374.06> 120 99<63.833 116.403 233.833 286.403> 515 99<261 309.169>
@@ -13756,10 +12979,11 @@ SplineSet
  312 496 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAC6
-Encoding: 60102 60102 352
+Encoding: 60102 60102 335
 Width: 561
 GlyphClass: 3
 Flags: W
@@ -13822,10 +13046,11 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE8FEE51
-Encoding: 60012 60012 353
+Encoding: 60012 60012 336
 Width: 414
 VWidth: 0
 GlyphClass: 3
@@ -13872,10 +13097,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 231 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE51
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEAC7
-Encoding: 60103 60103 354
+Encoding: 60103 60103 337
 Width: 561
 GlyphClass: 3
 Flags: W
@@ -13939,10 +13165,11 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAC8
-Encoding: 60104 60104 355
+Encoding: 60104 60104 338
 Width: 561
 GlyphClass: 3
 Flags: W
@@ -14004,10 +13231,11 @@ SplineSet
  260 614 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAD0
-Encoding: 60112 60112 356
+Encoding: 60112 60112 339
 Width: 780
 Flags: W
 HStem: 0 21G<3.06122 14>
@@ -14044,10 +13272,11 @@ SplineSet
  275 150 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAD1
-Encoding: 60113 60113 357
+Encoding: 60113 60113 340
 Width: 780
 Flags: W
 HStem: 0 21G<3.06122 14> 460 98<636.698 708.058>
@@ -14087,10 +13316,11 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAD4
-Encoding: 60116 60116 358
+Encoding: 60116 60116 341
 Width: 784
 Flags: W
 HStem: 0 21G<34.954 52.779> 451 21G<29.4343 31> 460 98<671.698 743.058>
@@ -14134,10 +13364,11 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAD8
-Encoding: 60120 60120 359
+Encoding: 60120 60120 342
 Width: 338
 Flags: W
 HStem: 0 21G<80.2 96.4343 185.2 201.434 251 271.597> 299 93<124.052 239.006>
@@ -14172,10 +13403,11 @@ SplineSet
  305 432 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAD9
-Encoding: 60121 60121 360
+Encoding: 60121 60121 343
 Width: 368
 Flags: W
 HStem: 0 18G<80.2 96.4343 185.2 201.434 258.5 294.348> 293 99<120.207 234.224>
@@ -14207,10 +13439,11 @@ SplineSet
  135 224 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEADA
-Encoding: 60122 60122 361
+Encoding: 60122 60122 344
 Width: 287
 Flags: W
 HStem: 0 21G<87.2 103.434> 379 93<104.052 217.548>
@@ -14247,10 +13480,11 @@ SplineSet
  167 472 171 471 175 471 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEADB
-Encoding: 60123 60123 362
+Encoding: 60123 60123 345
 Width: 316
 Flags: W
 HStem: 0 21G<87.2 103.434> 379 93<104.052 219.006>
@@ -14285,10 +13519,11 @@ SplineSet
  117 324 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEADD
-Encoding: 60125 60125 363
+Encoding: 60125 60125 346
 Width: 237
 Flags: W
 HStem: 0 21G<102.863 136.434> 409 94<55.6525 167.445>
@@ -14327,10 +13562,11 @@ SplineSet
  120 503 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAD2
-Encoding: 60114 60114 364
+Encoding: 60114 60114 347
 Width: 780
 Flags: W
 HStem: 0 21G<3.06122 14>
@@ -14372,10 +13608,11 @@ SplineSet
  185 106 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAD3
-Encoding: 60115 60115 365
+Encoding: 60115 60115 348
 Width: 784
 Flags: W
 HStem: 0 21G<34.9737 52.779> 460 98<671.698 743.058>
@@ -14417,10 +13654,11 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE8FEE55
-Encoding: 60015 60015 366
+Encoding: 60015 60015 349
 Width: 360
 GlyphClass: 3
 Flags: W
@@ -14469,10 +13707,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 223 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE55
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEAD7
-Encoding: 60119 60119 367
+Encoding: 60119 60119 350
 Width: 338
 Flags: W
 HStem: 0 21G<80.2 96.4343 185.2 201.434 251 271.857> 299 93<124.052 237.548>
@@ -14509,10 +13748,11 @@ SplineSet
  30 224 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEADE
-Encoding: 60126 60126 368
+Encoding: 60126 60126 351
 Width: 237
 Flags: W
 HStem: 0 21G<102.863 136.434> 409 93<54.0517 169.006>
@@ -14547,10 +13787,11 @@ SplineSet
  40 327 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE8FEE51EE55
-Encoding: 60016 60016 369
+Encoding: 60016 60016 352
 Width: 415
 VWidth: 0
 GlyphClass: 3
@@ -14605,10 +13846,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 230 331 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE51 uniEE55
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEADF
-Encoding: 60127 60127 370
+Encoding: 60127 60127 353
 Width: 303
 GlyphClass: 3
 Flags: W
@@ -14641,10 +13883,11 @@ SplineSet
  40 327 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAE1
-Encoding: 60129 60129 371
+Encoding: 60129 60129 354
 Width: 436
 GlyphClass: 2
 Flags: W
@@ -14693,10 +13936,11 @@ SplineSet
  261 443 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAE2
-Encoding: 60130 60130 372
+Encoding: 60130 60130 355
 Width: 436
 Flags: W
 HStem: 0 21G<8.6 15.5> 567 95<225.343 293.394>
@@ -14742,10 +13986,11 @@ SplineSet
  313 437 310 432 306 432 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEE93EE50
-Encoding: 60018 60018 373
+Encoding: 60018 60018 356
 Width: 415
 VWidth: 0
 GlyphClass: 3
@@ -14792,10 +14037,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 236 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE93 uniEE50
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEAE3
-Encoding: 60131 60131 374
+Encoding: 60131 60131 357
 Width: 436
 GlyphClass: 2
 Flags: W
@@ -14841,10 +14087,11 @@ SplineSet
  197 626 219 664 268 664 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAF0
-Encoding: 60144 60144 375
+Encoding: 60144 60144 358
 Width: 414
 VWidth: 0
 Flags: W
@@ -14902,10 +14149,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAF2
-Encoding: 60146 60146 376
+Encoding: 60146 60146 359
 Width: 359
 Flags: W
 HStem: 0 21G<8.6 15.5> 26 98<231.18 298.01> 440 20G<113 130.25>
@@ -14940,10 +14188,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAF3
-Encoding: 60147 60147 377
+Encoding: 60147 60147 360
 Width: 359
 Flags: W
 HStem: 0 21G<8.6 15.5> 26 98<231.18 298.01>
@@ -14977,10 +14226,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAF4
-Encoding: 60148 60148 378
+Encoding: 60148 60148 361
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5> 56 98<251.18 318.01> 440 20G<113 130.25>
@@ -15019,10 +14269,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAF5
-Encoding: 60149 60149 379
+Encoding: 60149 60149 362
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5> 56 98<251.18 318.01>
@@ -15061,10 +14312,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAF6
-Encoding: 60150 60150 380
+Encoding: 60150 60150 363
 Width: 437
 Flags: W
 HStem: 0 21G<8.6 15.5> 56 98<251.18 318.01>
@@ -15103,10 +14355,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAF8
-Encoding: 60152 60152 381
+Encoding: 60152 60152 364
 Width: 340
 Flags: W
 HStem: -3 21G<8.6 15.5 302.5 305.5> 131 98<214.015 291.888> 440 20G<113 130.25>
@@ -15141,10 +14394,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAF9
-Encoding: 60153 60153 382
+Encoding: 60153 60153 365
 Width: 340
 Flags: W
 HStem: -3 21G<8.6 15.5 302.5 305.5> 131 98<214.015 291.888>
@@ -15178,10 +14432,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAFA
-Encoding: 60154 60154 383
+Encoding: 60154 60154 366
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<239.078 319.633> 440 20G<113 130.25>
@@ -15224,10 +14479,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAFB
-Encoding: 60155 60155 384
+Encoding: 60155 60155 367
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<239.078 319.633>
@@ -15269,10 +14525,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA14
-Encoding: 59924 59924 385
+Encoding: 59924 59924 368
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15331,10 +14588,11 @@ SplineSet
  -70 553 -66 597 -66 617 c 0
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA15
-Encoding: 59925 59925 386
+Encoding: 59925 59925 369
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15394,10 +14652,11 @@ SplineSet
  -160 471 l 1
 EndSplineSet
 Validated: 1
+Colour: faff61
 EndChar
 
 StartChar: uniEA16
-Encoding: 59926 59926 387
+Encoding: 59926 59926 370
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15432,10 +14691,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE53 uniEE58
+Colour: faff61
 EndChar
 
 StartChar: uniEA17
-Encoding: 59927 59927 388
+Encoding: 59927 59927 371
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15461,10 +14721,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE50 uniEE58
+Colour: faff61
 EndChar
 
 StartChar: uniEA18
-Encoding: 59928 59928 389
+Encoding: 59928 59928 372
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15494,10 +14755,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE51 uniEE58
+Colour: faff61
 EndChar
 
 StartChar: uniEA19
-Encoding: 59929 59929 390
+Encoding: 59929 59929 373
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15532,10 +14794,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE52 uniEE58
+Colour: faff61
 EndChar
 
 StartChar: uniEA1A
-Encoding: 59930 59930 391
+Encoding: 59930 59930 374
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15556,10 +14819,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEE50 uniEEE0
+Colour: faff61
 EndChar
 
 StartChar: uniEA1B
-Encoding: 59931 59931 392
+Encoding: 59931 59931 375
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15580,10 +14844,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEE50 uniEEE1
+Colour: faff61
 EndChar
 
 StartChar: uniEA1C
-Encoding: 59932 59932 393
+Encoding: 59932 59932 376
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15609,10 +14874,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEE51 uniEEE0
+Colour: faff61
 EndChar
 
 StartChar: uniEA1D
-Encoding: 59933 59933 394
+Encoding: 59933 59933 377
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15637,10 +14903,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEE51 uniEEE1
+Colour: faff61
 EndChar
 
 StartChar: uniEA1E
-Encoding: 59934 59934 395
+Encoding: 59934 59934 378
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15670,10 +14937,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEE52 uniEEE0
+Colour: faff61
 EndChar
 
 StartChar: uniEA1F
-Encoding: 59935 59935 396
+Encoding: 59935 59935 379
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15702,10 +14970,11 @@ SplineSet
 EndSplineSet
 Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEE52 uniEEE1
+Colour: faff61
 EndChar
 
 StartChar: uniEE5C
-Encoding: 61020 61020 397
+Encoding: 61020 61020 380
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -15721,10 +14990,11 @@ SplineSet
  -232 -22 l 1
 EndSplineSet
 Validated: 1
+Colour: ffb54c
 EndChar
 
 StartChar: uniEA30
-Encoding: 59952 59952 398
+Encoding: 59952 59952 381
 Width: 0
 Flags: W
 HStem: 553 300 653 20G<-301.5 -300.5>
@@ -15778,10 +15048,11 @@ SplineSet
  -514 672 -514 670 -514 668 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA31
-Encoding: 59953 59953 399
+Encoding: 59953 59953 382
 Width: 0
 Flags: W
 HStem: 651 20G<-501.5 -496.5> 661 21G<-378 -371> 668 74<-288.624 -265.176>
@@ -15832,10 +15103,11 @@ SplineSet
  -573 644 -572 642 -571 642 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA32
-Encoding: 59954 59954 400
+Encoding: 59954 59954 383
 Width: 0
 Flags: W
 HStem: 553 300
@@ -15867,10 +15139,11 @@ SplineSet
  -452 844 -452 843 -453 842 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA33
-Encoding: 59955 59955 401
+Encoding: 59955 59955 384
 Width: 0
 Flags: W
 HStem: 463 300
@@ -15903,10 +15176,11 @@ SplineSet
  -174 582 -174 580 -174 578 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA34
-Encoding: 59956 59956 402
+Encoding: 59956 59956 385
 Width: 0
 Flags: W
 HStem: 553 300
@@ -15961,10 +15235,11 @@ SplineSet
  -292 672 -291 670 -291 668 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA35
-Encoding: 59957 59957 403
+Encoding: 59957 59957 386
 Width: 0
 Flags: W
 HStem: 616 72<-253.192 -228.613 -221 -195.526> 643 20G<-495.5 -494.5> 762 97<-155.56 -83.3888> 778 81<-165.824 -105.394>
@@ -16062,10 +15337,11 @@ SplineSet
  -497 663 -496 663 -495 663 c 0x40
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA36
-Encoding: 59958 59958 404
+Encoding: 59958 59958 387
 Width: 0
 Flags: W
 HStem: 553 300 653 20G<-423.5 -418.5 -205.5 -204.5>
@@ -16142,10 +15418,11 @@ SplineSet
  -633 672 -633 670 -633 668 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA37
-Encoding: 59959 59959 405
+Encoding: 59959 59959 388
 Width: 0
 Flags: W
 HStem: 607 76<-211.656 -153.881>
@@ -16198,10 +15475,11 @@ SplineSet
  -262 688 -262 686 -263 683 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA38
-Encoding: 59960 59960 406
+Encoding: 59960 59960 389
 Width: 0
 Flags: W
 HStem: 599 71<-556.663 -511.014> 752 96<-462.398 -390.094>
@@ -16267,10 +15545,11 @@ SplineSet
  -392 753 -395 752 -398 752 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA39
-Encoding: 59961 59961 407
+Encoding: 59961 59961 390
 Width: 0
 Flags: W
 HStem: 579 71<-121.758 -76.1019> 781 73<-4.43956 73.3931>
@@ -16309,10 +15588,11 @@ SplineSet
  82 854 88 847 88 832 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA3A
-Encoding: 59962 59962 408
+Encoding: 59962 59962 391
 Width: 0
 Flags: W
 HStem: 599 71<-556.663 -511.014> 662 21G<-344.5 -341.5> 752 96<-462.398 -390.094> 889 97<32.3946 90.8601>
@@ -16387,10 +15667,11 @@ SplineSet
  88 890 86 889 83 889 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA3B
-Encoding: 59963 59963 409
+Encoding: 59963 59963 392
 Width: 0
 Flags: W
 HStem: 755 109<-575.5 -482.664>
@@ -16443,10 +15724,11 @@ SplineSet
  -526 651 -514 684 -514 700 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA3C
-Encoding: 59964 59964 410
+Encoding: 59964 59964 393
 Width: 0
 Flags: W
 HStem: 449 21G<-830 -828> 509 71<-596.663 -551.014> 662 96<-502.398 -430.094> 669 21G<-360 -358> 729 71<-126.663 -81.0139> 882 96<-32.3982 39.9055>
@@ -16512,10 +15794,11 @@ SplineSet
  -432 663 -435 662 -438 662 c 0xe7
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA3D
-Encoding: 59965 59965 411
+Encoding: 59965 59965 394
 Width: 0
 Flags: W
 HStem: -7 71<288.337 333.98> 152 97<-42.56 29.6112> 168 81<-52.8237 7.60615> 195 73<406.08 483.923>
@@ -16613,10 +15896,11 @@ SplineSet
  493 268 498 261 498 246 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA3E
-Encoding: 59966 59966 412
+Encoding: 59966 59966 395
 Width: 0
 Flags: W
 HStem: 152 97<-42.56 29.6112> 168 81<-52.8237 7.60615>
@@ -16722,10 +16006,11 @@ SplineSet
  153 83 154 83 155 83 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA3F
-Encoding: 59967 59967 413
+Encoding: 59967 59967 396
 Width: 0
 Flags: W
 HStem: 151 85<292.131 358.414> 152 97<-42.56 29.6112> 168 81<-52.8237 7.60615>
@@ -16831,10 +16116,11 @@ SplineSet
  118 110 128 92 132 86 c 0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA40
-Encoding: 59968 59968 414
+Encoding: 59968 59968 397
 Width: 0
 Flags: W
 HStem: -1 21G<-408.5 -407> 30 70<-174.971 -132.084> 100 33<-169 -142.5> 212 97<-67.6054 -9.1399> 228 81<-77.8241 -17.3946>
@@ -16868,10 +16154,11 @@ SplineSet
  -87 122 -129 30 -165 30 c 0xc0
 EndSplineSet
 Validated: 1
+Colour: 94fff5
 EndChar
 
 StartChar: uniEA61
-Encoding: 60001 60001 415
+Encoding: 60001 60001 398
 Width: 250
 Flags: W
 HStem: -4 98<38.6299 106.996> 515 99<75 129.442>
@@ -16904,10 +16191,11 @@ SplineSet
  134 64 116 -4 65 -4 c 0
 EndSplineSet
 Validated: 1
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEE7AEE53
-Encoding: 60003 60003 416
+Encoding: 60003 60003 399
 Width: 442
 GlyphClass: 3
 Flags: W
@@ -16942,10 +16230,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 304 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7A uniEE53
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEA82
-Encoding: 60034 60034 417
+Encoding: 60034 60034 400
 Width: 800
 Flags: W
 HStem: 0 21G<34.9936 52.779> 460 98<671.698 743.058>
@@ -16973,10 +16262,11 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA83
-Encoding: 60035 60035 418
+Encoding: 60035 60035 401
 Width: 800
 Flags: W
 HStem: 0 21G<34.9601 52.779> 460 98<671.698 743.058>
@@ -17002,10 +16292,11 @@ SplineSet
  36 576 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA86
-Encoding: 60038 60038 419
+Encoding: 60038 60038 402
 Width: 775
 Flags: W
 HStem: 0 21G<34.9936 52.779 374 398.295> 460 98<671.698 743.058>
@@ -17037,10 +16328,11 @@ SplineSet
  408 297 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA87
-Encoding: 60039 60039 420
+Encoding: 60039 60039 403
 Width: 775
 Flags: W
 HStem: 0 21G<34.9601 52.779 374 398.295> 460 98<671.698 743.058>
@@ -17071,10 +16363,11 @@ SplineSet
  408 297 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA97
-Encoding: 60055 60055 421
+Encoding: 60055 60055 404
 Width: 366
 Flags: W
 HStem: 0 21G<34.9157 43.5> 451 21G<29.4343 31>
@@ -17104,10 +16397,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA98
-Encoding: 60056 60056 422
+Encoding: 60056 60056 405
 Width: 366
 Flags: W
 HStem: 0 21G<34.9293 43.5>
@@ -17134,10 +16428,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA99
-Encoding: 60057 60057 423
+Encoding: 60057 60057 406
 Width: 366
 Flags: W
 HStem: 0 21G<34.8875 43.5>
@@ -17163,10 +16458,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEA9A
-Encoding: 60058 60058 424
+Encoding: 60058 60058 407
 Width: 299
 Flags: W
 HStem: 0 21G<34.9142 43.5> 281 98<164.015 241.888>
@@ -17199,10 +16495,11 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAA0
-Encoding: 60064 60064 425
+Encoding: 60064 60064 408
 Width: 229
 Flags: W
 HStem: 0 21G<147 168.06> 515 99<55 103.169>
@@ -17227,10 +16524,11 @@ SplineSet
  106 496 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAA1
-Encoding: 60065 60065 426
+Encoding: 60065 60065 409
 Width: 256
 Flags: W
 HStem: 0 21G<159 180.06>
@@ -17253,10 +16551,11 @@ SplineSet
  67 614 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAA5
-Encoding: 60069 60069 427
+Encoding: 60069 60069 410
 Width: 377
 Flags: W
 HStem: 0 21G<147 168.06> 515 99<55 103.169>
@@ -17286,10 +16585,11 @@ SplineSet
  106 496 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAA6
-Encoding: 60070 60070 428
+Encoding: 60070 60070 411
 Width: 377
 Flags: W
 HStem: 0 21G<159 180.06>
@@ -17317,10 +16617,11 @@ SplineSet
  230 327 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAA7
-Encoding: 60071 60071 429
+Encoding: 60071 60071 412
 Width: 377
 Flags: W
 HStem: 0 21G<147 168.06>
@@ -17349,10 +16650,11 @@ SplineSet
  230 327 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAAB
-Encoding: 60075 60075 430
+Encoding: 60075 60075 413
 Width: 372
 Flags: W
 HStem: 0 21G<147 168.06> 515 99<55 103.169>
@@ -17387,10 +16689,11 @@ SplineSet
  106 496 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAAC
-Encoding: 60076 60076 431
+Encoding: 60076 60076 414
 Width: 372
 Flags: W
 HStem: 0 21G<148 169.06>
@@ -17423,10 +16726,11 @@ SplineSet
  356 346 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAAD
-Encoding: 60077 60077 432
+Encoding: 60077 60077 415
 Width: 372
 Flags: W
 HStem: 0 21G<147 168.06>
@@ -17460,10 +16764,11 @@ SplineSet
  356 346 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAC2
-Encoding: 60098 60098 433
+Encoding: 60098 60098 416
 Width: 443
 Flags: W
 HStem: -3 24G<131.5 135.5 301.5 305.5 352 373.06> 120 99<63.833 116.403 233.833 286.403>
@@ -17521,10 +16826,11 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEACA
-Encoding: 60106 60106 434
+Encoding: 60106 60106 417
 Width: 744
 Flags: W
 HStem: 0 21G<3.06122 14> 26 98<361.18 428.01> 460 98<636.698 708.058>
@@ -17561,10 +16867,11 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEACB
-Encoding: 60107 60107 435
+Encoding: 60107 60107 418
 Width: 744
 Flags: W
 HStem: 0 21G<3.06122 14> 26 98<361.18 428.01> 460 97<634.473 707.969>
@@ -17603,10 +16910,11 @@ SplineSet
  455 94 437 26 387 26 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEACD
-Encoding: 60109 60109 436
+Encoding: 60109 60109 419
 Width: 780
 Flags: W
 HStem: 0 21G<3.06122 14> 460 98<636.698 708.058>
@@ -17636,10 +16944,11 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEACE
-Encoding: 60110 60110 437
+Encoding: 60110 60110 420
 Width: 780
 Flags: W
 HStem: 0 21G<3.06122 14> 460 98<636.872 707.969>
@@ -17671,10 +16980,11 @@ SplineSet
  338 196 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEACF
-Encoding: 60111 60111 438
+Encoding: 60111 60111 421
 Width: 780
 Flags: W
 HStem: 0 21G<3.06122 14> 460 98<636.698 708.058>
@@ -17709,10 +17019,11 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEADC
-Encoding: 60124 60124 439
+Encoding: 60124 60124 422
 Width: 353
 Flags: W
 HStem: 0 21G<87.2 103.434> 373 99<100.207 214.224>
@@ -17744,10 +17055,11 @@ SplineSet
  117 324 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAE0
-Encoding: 60128 60128 440
+Encoding: 60128 60128 423
 Width: 436
 Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<114 131.378> 567 95<215.645 293.394>
@@ -17795,10 +17107,11 @@ SplineSet
  261 443 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAE5
-Encoding: 60133 60133 441
+Encoding: 60133 60133 424
 Width: 229
 Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
@@ -17821,10 +17134,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAE6
-Encoding: 60134 60134 442
+Encoding: 60134 60134 425
 Width: 252
 Flags: W
 HStem: 0 21G<8.6 15.5>
@@ -17846,10 +17160,11 @@ SplineSet
  221 518 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAE7
-Encoding: 60135 60135 443
+Encoding: 60135 60135 426
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
@@ -17876,10 +17191,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAE8
-Encoding: 60136 60136 444
+Encoding: 60136 60136 427
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5>
@@ -17905,10 +17221,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAE9
-Encoding: 60137 60137 445
+Encoding: 60137 60137 428
 Width: 437
 Flags: W
 HStem: 0 21G<8.6 15.5>
@@ -17934,10 +17251,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAEA
-Encoding: 60138 60138 446
+Encoding: 60138 60138 429
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
@@ -17969,10 +17287,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAEB
-Encoding: 60139 60139 447
+Encoding: 60139 60139 430
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5>
@@ -18003,10 +17322,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAEC
-Encoding: 60140 60140 448
+Encoding: 60140 60140 431
 Width: 437
 Flags: W
 HStem: 0 21G<8.6 15.5>
@@ -18037,10 +17357,11 @@ SplineSet
  208 225 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAED
-Encoding: 60141 60141 449
+Encoding: 60141 60141 432
 Width: 416
 Flags: W
 HStem: 0 21G<8.6 15.5> 450 21G<184.5 186.5> 572 90<235.266 292.491>
@@ -18095,10 +17416,11 @@ SplineSet
  244 657 254 662 266 662 c 0
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAEE
-Encoding: 60142 60142 450
+Encoding: 60142 60142 433
 Width: 416
 Flags: W
 HStem: 0 21G<8.6 15.5> 450 21G<185 187.5> 572 90<227.434 292.734>
@@ -18151,10 +17473,11 @@ SplineSet
  327 744 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAEF
-Encoding: 60143 60143 451
+Encoding: 60143 60143 434
 Width: 414
 VWidth: 0
 Flags: W
@@ -18213,10 +17536,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAFC
-Encoding: 60156 60156 452
+Encoding: 60156 60156 435
 Width: 437
 Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<239.078 319.633>
@@ -18258,10 +17582,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAFE
-Encoding: 60158 60158 453
+Encoding: 60158 60158 436
 Width: 323
 Flags: W
 HStem: 0 21G<8.6 15.5 229.875 249> 440 20G<113 130.25>
@@ -18297,10 +17622,11 @@ SplineSet
  203 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEAFF
-Encoding: 60159 60159 454
+Encoding: 60159 60159 437
 Width: 323
 Flags: W
 HStem: 0 21G<8.6 15.5 229.875 249>
@@ -18336,10 +17662,11 @@ SplineSet
  203 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB00
-Encoding: 60160 60160 455
+Encoding: 60160 60160 438
 Width: 466
 Flags: W
 HStem: -3 21G<8.6 15.5 292.5 295.5 372.875 392> 131 98<204.015 281.888> 440 20G<113 130.25>
@@ -18387,10 +17714,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB01
-Encoding: 60161 60161 456
+Encoding: 60161 60161 439
 Width: 466
 Flags: W
 HStem: -3 21G<8.6 15.5 292.5 295.5 372.875 392> 131 98<204.015 281.888>
@@ -18438,10 +17766,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB03
-Encoding: 60163 60163 457
+Encoding: 60163 60163 440
 Width: 327
 Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
@@ -18469,10 +17798,11 @@ SplineSet
  237 244 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB04
-Encoding: 60164 60164 458
+Encoding: 60164 60164 441
 Width: 327
 Flags: W
 HStem: 0 21G<8.6 15.5>
@@ -18499,10 +17829,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB05
-Encoding: 60165 60165 459
+Encoding: 60165 60165 442
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
@@ -18534,10 +17865,11 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB06
-Encoding: 60166 60166 460
+Encoding: 60166 60166 443
 Width: 414
 Flags: W
 HStem: 0 21G<8.6 15.5>
@@ -18568,10 +17900,11 @@ SplineSet
  237 244 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB07
-Encoding: 60167 60167 461
+Encoding: 60167 60167 444
 Width: 437
 Flags: W
 HStem: 0 21G<8.6 15.5>
@@ -18602,10 +17935,11 @@ SplineSet
  237 244 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB08
-Encoding: 60168 60168 462
+Encoding: 60168 60168 445
 Width: 515
 Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<386.078 466.633> 440 20G<113 130.25>
@@ -18653,10 +17987,11 @@ SplineSet
  473 56 476 72 476 86 c 0xe2
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB09
-Encoding: 60169 60169 463
+Encoding: 60169 60169 446
 Width: 515
 Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<386.078 466.633>
@@ -18703,10 +18038,11 @@ SplineSet
  473 56 476 72 476 86 c 0xc4
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB0A
-Encoding: 60170 60170 464
+Encoding: 60170 60170 447
 Width: 515
 Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<386.078 466.633>
@@ -18753,10 +18089,11 @@ SplineSet
  473 56 476 72 476 86 c 0xc4
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB0C
-Encoding: 60172 60172 465
+Encoding: 60172 60172 448
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215> 460 98<837.698 909.058>
@@ -18789,10 +18126,11 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB0D
-Encoding: 60173 60173 466
+Encoding: 60173 60173 449
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215> 460 98<837.698 909.058>
@@ -18825,10 +18163,11 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB0E
-Encoding: 60174 60174 467
+Encoding: 60174 60174 450
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215>
@@ -18865,10 +18204,11 @@ SplineSet
  216 98 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB0F
-Encoding: 60175 60175 468
+Encoding: 60175 60175 451
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215 545 569.357> 444 58<478.101 534.82> 460 98<837.698 909.058> 803 17<461.366 521.691>
@@ -18924,10 +18264,11 @@ SplineSet
  580 301 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB10
-Encoding: 60176 60176 469
+Encoding: 60176 60176 452
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215 545 569.357> 444 58<478.101 534.82> 460 98<837.698 909.058> 803 17<461.366 521.691>
@@ -18983,10 +18324,11 @@ SplineSet
  580 301 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB11
-Encoding: 60177 60177 470
+Encoding: 60177 60177 453
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215 545 569.357> 460 96<834.358 909.575>
@@ -19027,10 +18369,11 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB13
-Encoding: 60179 60179 471
+Encoding: 60179 60179 454
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215 563.875 583> 460 98<837.698 909.058>
@@ -19076,10 +18419,11 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB14
-Encoding: 60180 60180 472
+Encoding: 60180 60180 455
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215 563.875 583> 460 98<837.698 909.058>
@@ -19125,10 +18469,11 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB15
-Encoding: 60181 60181 473
+Encoding: 60181 60181 456
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215 563.875 583>
@@ -19178,10 +18523,11 @@ SplineSet
  537 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB17
-Encoding: 60183 60183 474
+Encoding: 60183 60183 457
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215> 460 98<837.698 909.058>
@@ -19224,10 +18570,11 @@ SplineSet
  476 150 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB18
-Encoding: 60184 60184 475
+Encoding: 60184 60184 458
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215> 460 98<837.698 909.058>
@@ -19270,10 +18617,11 @@ SplineSet
  476 150 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB19
-Encoding: 60185 60185 476
+Encoding: 60185 60185 459
 Width: 955
 Flags: W
 HStem: 0 21G<204.061 215>
@@ -19320,10 +18668,11 @@ SplineSet
  476 150 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB1B
-Encoding: 60187 60187 477
+Encoding: 60187 60187 460
 Width: 1044
 Flags: W
 HStem: -1 22G<2 4.5 120.5 125.5 152 154.5 270.5 275.5 303.061 314> 120 99<54.2083 105.938 204.286 255.938>
@@ -19374,10 +18723,11 @@ SplineSet
  281 6 l 2xc180
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB1C
-Encoding: 60188 60188 478
+Encoding: 60188 60188 461
 Width: 1073
 Flags: W
 HStem: -1 22G<2 4.5 120.5 125.5 152 154.5 270.5 275.5 303.061 314> 120 99<54.2083 105.938 204.208 255.938>
@@ -19438,10 +18788,11 @@ SplineSet
  281 6 l 2xc180
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB1E
-Encoding: 60190 60190 479
+Encoding: 60190 60190 462
 Width: 1044
 Flags: W
 HStem: 0 21G<2 4.5 120.5 125.5 212.875 232 303.061 314> 120 99<54.286 105.938>
@@ -19493,10 +18844,11 @@ SplineSet
  186 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB1F
-Encoding: 60191 60191 480
+Encoding: 60191 60191 463
 Width: 1044
 Flags: W
 HStem: 0 21G<2 4.5 120.5 125.5 212.875 232 303.061 314> 120 99<54.286 105.938>
@@ -19558,10 +18910,11 @@ SplineSet
  186 141 l 1
 EndSplineSet
 Validated: 1
+Colour: ffff78
 EndChar
 
 StartChar: uniEB22
-Encoding: 60194 60194 481
+Encoding: 60194 60194 464
 Width: 500
 Flags: W
 HStem: 0 56<226 281> 0 24<12 216 281 488>
@@ -19579,10 +18932,11 @@ SplineSet
  216 24 l 1x40
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB28
-Encoding: 60200 60200 482
+Encoding: 60200 60200 465
 Width: 342
 Flags: W
 HStem: 0 324
@@ -19608,10 +18962,11 @@ SplineSet
  117 324 l 1
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB29
-Encoding: 60201 60201 483
+Encoding: 60201 60201 466
 Width: 290
 Flags: W
 HStem: -104 98<166.18 233.996> 0 21G<87.2 103.434>
@@ -19643,10 +18998,11 @@ SplineSet
  261 -36 243 -104 192 -104 c 0
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB2A
-Encoding: 60202 60202 484
+Encoding: 60202 60202 467
 Width: 148
 Flags: W
 HStem: 0 21G<90.6667 123.564>
@@ -19666,10 +19022,11 @@ SplineSet
  138 286 l 1
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB2B
-Encoding: 60203 60203 485
+Encoding: 60203 60203 468
 Width: 292
 Flags: W
 HStem: 0 21G<165.061 173>
@@ -19695,10 +19052,11 @@ SplineSet
  177 98 l 1
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB2C
-Encoding: 60204 60204 486
+Encoding: 60204 60204 469
 Width: 333
 Flags: W
 HStem: -4 98<206.18 273.996>
@@ -19730,10 +19088,11 @@ SplineSet
  301 64 283 -4 232 -4 c 0
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB2E
-Encoding: 60206 60206 487
+Encoding: 60206 60206 470
 Width: 287
 Flags: W
 HStem: 0 21G<87.2 103.434> 379 93<104.052 217.548>
@@ -19767,10 +19126,11 @@ SplineSet
  117 324 l 1
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB2F
-Encoding: 60207 60207 488
+Encoding: 60207 60207 471
 Width: 237
 Flags: W
 HStem: 0 21G<102.863 136.434> 409 93<54.0517 167.548>
@@ -19804,10 +19164,11 @@ SplineSet
  40 327 l 1
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB31
-Encoding: 60209 60209 489
+Encoding: 60209 60209 472
 Width: 193
 Flags: W
 HStem: 0 21G<102.863 136.434> 421 98<62.0148 139.52>
@@ -19839,10 +19200,11 @@ SplineSet
  149 318 150 335 150 350 c 0
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB32
-Encoding: 60210 60210 490
+Encoding: 60210 60210 473
 Width: 193
 Flags: W
 HStem: 82 97<61.9373 138.836> 252 97<61.9373 139.492> 422 97<61.9373 139.019>
@@ -19888,10 +19250,11 @@ SplineSet
  42 311 64 349 113 349 c 0xe8
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEB33
-Encoding: 60211 60211 491
+Encoding: 60211 60211 474
 Width: 375
 Flags: W
 HStem: 82 97<244.937 321.836> 252 97<244.937 322.492> 422 97<244.937 322.019>
@@ -19951,10 +19314,11 @@ SplineSet
  70 236 l 1
 EndSplineSet
 Validated: 1
+Colour: fa85ff
 EndChar
 
 StartChar: uniEE87EE8D
-Encoding: 60008 60008 492
+Encoding: 60008 60008 475
 Width: 420
 GlyphClass: 3
 Flags: W
@@ -20000,10 +19364,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 235 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE8D
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEE90EE50
-Encoding: 60017 60017 493
+Encoding: 60017 60017 476
 Width: 416
 VWidth: 0
 GlyphClass: 3
@@ -20061,10 +19426,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 240 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE90 uniEE50
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEE93EE50EE55
-Encoding: 60020 60020 494
+Encoding: 60020 60020 477
 Width: 415
 VWidth: 0
 GlyphClass: 3
@@ -20110,10 +19476,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 231 339 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE93 uniEE50 uniEE55
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEE8FEE50EE58
-Encoding: 60013 60013 495
+Encoding: 60013 60013 478
 Width: 416
 GlyphClass: 3
 Flags: W
@@ -20166,10 +19533,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 234 343 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE50 uniEE58
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEE8FEE51EE58
-Encoding: 60014 60014 496
+Encoding: 60014 60014 479
 Width: 414
 VWidth: 0
 GlyphClass: 3
@@ -20228,10 +19596,11 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 225 335 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE51 uniEE58
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEA73
-Encoding: 60019 60019 497
+Encoding: 60019 60019 480
 Width: 515
 Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<386.078 466.633>
@@ -20279,114 +19648,8 @@ Validated: 1
 Colour: ff0000
 EndChar
 
-StartChar: uniEE7AEE76
-Encoding: 60022 60022 498
-Width: 813
-GlyphClass: 3
-Flags: W
-HStem: 0 21G<10 34.6735 243 265.857 343.903 344.5> 292 99<113.876 233.692>
-VStem: 10 21<0 21> 243 20<0 20> 262 27<88.1562 250.07> 401 18<602 620>
-DStem2: 10 0 31 0 0.180652 0.983547<3.79368 241.619> 243 0 263 0 0.141421 0.989949<2.82843 200.549> 342 0 370 100 0.0947333 0.995503<102.203 622.801> 650 321 637 226 0.859795 0.51064<-133.738 -59.6881 44.2722 117.818>
-LayerCount: 3
-Fore
-SplineSet
-370 100 m 1xe4
- 375 117 385 132 399 145 c 0
- 426 172 459 192 496 208 c 1
- 482 115 l 1
- 439 94 405 74 372 44 c 0
- 357 31 347 16 342 0 c 1
- 401 620 l 1
- 419 620 l 1
- 370 100 l 1xe4
-698 324 m 1
- 709 348 738 370 759 384 c 0
- 773 393 788 402 803 411 c 1
- 790 316 l 1
- 750 292 705 268 683 226 c 1
- 698 324 l 1
-545 234 m 1
- 555 257 585 280 606 294 c 0
- 620 303 635 312 650 321 c 1
- 637 226 l 1
- 597 202 553 178 530 136 c 1
- 545 234 l 1
-262 182 m 2xec
- 262 248 239 292 172 292 c 0
- 104 292 85 243 69 188 c 0
- 62 163 56 133 49 98 c 2
- 31 0 l 1
- 10 0 l 1
- 27 98 l 2
- 45 204 48 314 114 370 c 0
- 132 384 157 391 189 391 c 0
- 267 391 289 329 289 242 c 0xec
- 289 201 284 150 276 91 c 2
- 263 0 l 1
- 243 0 l 1xf4
- 255 91 l 2
- 259 119 262 145 262 170 c 2
- 262 182 l 2xec
-EndSplineSet
-Validated: 1
-LCarets2: 1 330 
-Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7A uniEE76
-EndChar
-
-StartChar: uniEE8FEE76
-Encoding: 60023 60023 499
-Width: 698
-GlyphClass: 3
-Flags: W
-HStem: 0 21G<7.5 8.6 228.903 229.5>
-VStem: 286 18<602 620>
-DStem2: 227 0 255 100 0.0947333 0.995503<102.203 622.801> 535 321 522 226 0.859795 0.51064<-133.738 -59.6881 44.2722 117.818>
-LayerCount: 3
-Fore
-SplineSet
-255 100 m 1
- 260 117 270 132 284 145 c 0
- 311 172 344 192 381 208 c 1
- 367 115 l 1
- 324 94 290 74 257 44 c 0
- 242 31 232 16 227 0 c 1
- 286 620 l 1
- 304 620 l 1
- 255 100 l 1
-583 324 m 1
- 594 348 623 370 644 384 c 0
- 658 393 673 402 688 411 c 1
- 675 316 l 1
- 635 292 590 268 568 226 c 1
- 583 324 l 1
-430 234 m 1
- 440 257 470 280 491 294 c 0
- 505 303 520 312 535 321 c 1
- 522 226 l 1
- 482 202 438 178 415 136 c 1
- 430 234 l 1
-23 100 m 1
- 33 134 71 162 99 179 c 0
- 117 190 137 200 159 208 c 1
- 143 112 l 1
- 102 95 65 73 36 44 c 1
- 20 31 10 16 5 0 c 1
- 23 100 l 1
-83 290 m 1
- 93 324 131 352 159 369 c 0
- 177 380 197 390 219 398 c 1
- 203 302 l 1
- 162 285 125 263 96 234 c 1
- 80 221 70 206 65 190 c 1
- 83 290 l 1
-EndSplineSet
-Validated: 1
-LCarets2: 1 235 
-Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE76
-EndChar
-
 StartChar: uniEA79
-Encoding: 60025 60025 500
+Encoding: 60025 60025 481
 Width: 430
 Flags: W
 VStem: -3 173<198.998 265.582> 227 173<198.998 265.582>
@@ -20442,10 +19705,11 @@ SplineSet
  136 329 148 307 168 259 c 0
 EndSplineSet
 Validated: 1
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEA7A
-Encoding: 60026 60026 501
+Encoding: 60026 60026 482
 Width: 428
 Flags: W
 VStem: 227 173<578.998 645.582>
@@ -20501,10 +19765,11 @@ SplineSet
  208 379 229 381 245 381 c 0
 EndSplineSet
 Validated: 1
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEA7B
-Encoding: 60027 60027 502
+Encoding: 60027 60027 483
 Width: 804
 Flags: W
 HStem: 0 21G<175.5 178.5 405.5 408.5> 435 20G<249 253.5>
@@ -20585,10 +19850,11 @@ SplineSet
  258 203 266 185 277 159 c 0
 EndSplineSet
 Validated: 1
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEA7C
-Encoding: 60028 60028 503
+Encoding: 60028 60028 484
 Width: 1078
 Flags: W
 HStem: 0 21G<497.5 500> 645 155<556.5 641.505>
@@ -20687,10 +19953,11 @@ SplineSet
  136 329 148 307 168 259 c 0
 EndSplineSet
 Validated: 1
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEA7D
-Encoding: 60029 60029 504
+Encoding: 60029 60029 485
 Width: 868
 Flags: W
 HStem: 0 21G<323.5 328> 740 121<689.537 724.051 790.506 812.359>
@@ -20760,39 +20027,3578 @@ SplineSet
  384 152 391 201 400 277 c 1
 EndSplineSet
 Validated: 1
+Colour: 63ff7a
 EndChar
 
 StartChar: uniEB36
-Encoding: 60214 60214 505
+Encoding: 60214 60214 486
 Width: 935
-Flags: W
+Flags: HW
 HStem: 1 21G<418.658 510.555>
 LayerCount: 3
 Fore
 SplineSet
-468.003 117 m 1
- 557.049 190.559 730.003 224.5 824.003 203 c 0
- 868.504 192.821 923.503 164 925.003 108.5 c 0
- 925.788 79.4658 901.003 38 901.003 38 c 1
- 875.583 74.7178 803.076 116.501 734.003 117 c 0
- 611.503 117.886 464.003 1 464.003 1 c 1
- 464.003 1 325.503 117.886 201.003 117 c 0
- 131.929 116.509 59.4229 74.7178 34.0029 38 c 1
- 34.0029 38 10.2803 79.4561 10.0029 108.5 c 0
- 9.50293 160.886 66.502 192.821 111.003 203 c 0
- 205.003 224.5 377.957 190.559 468.003 117 c 1
-468.003 345 m 5
- 557.049 418.559 730.003 452.5 824.003 431 c 4
- 868.504 420.821 923.503 392 925.003 336.5 c 4
- 925.788 307.466 901.003 266 901.003 266 c 5
- 875.583 302.718 803.076 344.501 734.003 345 c 4
- 611.503 345.886 464.003 229 464.003 229 c 5
- 464.003 229 325.503 345.886 201.003 345 c 4
- 131.929 344.509 59.4229 302.718 34.0029 266 c 5
- 34.0029 266 10.2803 307.456 10.0029 336.5 c 4
- 9.50293 388.886 66.502 420.821 111.003 431 c 4
- 205.003 452.5 377.957 418.559 468.003 345 c 5
+468 117 m 1
+ 539 176 664 209 760 209 c 0
+ 783 209 805 207 824 203 c 0
+ 869 193 925 164 925 106 c 0
+ 925 77 901 38 901 38 c 1
+ 876 75 803 117 734 117 c 0
+ 733 117 733 117 732 117 c 0
+ 611 117 464 1 464 1 c 1
+ 464 1 327 117 203 117 c 0
+ 202 117 202 117 201 117 c 0
+ 132 117 59 75 34 38 c 1
+ 34 38 10 79 10 108 c 0
+ 10 161 67 193 111 203 c 0
+ 130 207 152 209 175 209 c 0
+ 271 209 396 176 468 117 c 1
+468 345 m 1
+ 539 404 664 437 760 437 c 0
+ 783 437 805 435 824 431 c 0
+ 869 421 925 392 925 334 c 0
+ 925 305 901 266 901 266 c 1
+ 876 303 803 345 734 345 c 0
+ 733 345 733 345 732 345 c 0
+ 611 345 464 229 464 229 c 1
+ 464 229 327 345 203 345 c 0
+ 202 345 202 345 201 345 c 0
+ 132 345 59 303 34 266 c 1
+ 34 266 10 307 10 336 c 0
+ 10 389 67 421 111 431 c 0
+ 130 435 152 437 175 437 c 0
+ 271 437 396 404 468 345 c 1
 EndSplineSet
+Validated: 1
+Colour: fa85ff
+EndChar
+
+StartChar: uniEA05
+Encoding: 59909 59909 487
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA06
+Encoding: 59910 59910 488
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA07
+Encoding: 59911 59911 489
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA08
+Encoding: 59912 59912 490
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA09
+Encoding: 59913 59913 491
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA0A
+Encoding: 59914 59914 492
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA0B
+Encoding: 59915 59915 493
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA0C
+Encoding: 59916 59916 494
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA0D
+Encoding: 59917 59917 495
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA0E
+Encoding: 59918 59918 496
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA20
+Encoding: 59936 59936 497
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA21
+Encoding: 59937 59937 498
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA22
+Encoding: 59938 59938 499
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA23
+Encoding: 59939 59939 500
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA24
+Encoding: 59940 59940 501
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA25
+Encoding: 59941 59941 502
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA26
+Encoding: 59942 59942 503
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA27
+Encoding: 59943 59943 504
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA28
+Encoding: 59944 59944 505
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA29
+Encoding: 59945 59945 506
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA2A
+Encoding: 59946 59946 507
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA2B
+Encoding: 59947 59947 508
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA2C
+Encoding: 59948 59948 509
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA2D
+Encoding: 59949 59949 510
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA2E
+Encoding: 59950 59950 511
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA2F
+Encoding: 59951 59951 512
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: faff61
+EndChar
+
+StartChar: uniEA41
+Encoding: 59969 59969 513
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA42
+Encoding: 59970 59970 514
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA43
+Encoding: 59971 59971 515
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA44
+Encoding: 59972 59972 516
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA45
+Encoding: 59973 59973 517
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA46
+Encoding: 59974 59974 518
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA47
+Encoding: 59975 59975 519
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA48
+Encoding: 59976 59976 520
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA49
+Encoding: 59977 59977 521
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA4A
+Encoding: 59978 59978 522
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA4B
+Encoding: 59979 59979 523
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA4C
+Encoding: 59980 59980 524
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA4D
+Encoding: 59981 59981 525
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA4E
+Encoding: 59982 59982 526
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA4F
+Encoding: 59983 59983 527
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 94fff5
+EndChar
+
+StartChar: uniEA55
+Encoding: 59989 59989 528
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA56
+Encoding: 59990 59990 529
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA57
+Encoding: 59991 59991 530
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA58
+Encoding: 59992 59992 531
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA59
+Encoding: 59993 59993 532
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA5A
+Encoding: 59994 59994 533
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA5B
+Encoding: 59995 59995 534
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA5C
+Encoding: 59996 59996 535
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA5D
+Encoding: 59997 59997 536
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA5E
+Encoding: 59998 59998 537
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA5F
+Encoding: 59999 59999 538
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ff9ef7
+EndChar
+
+StartChar: uniEA67
+Encoding: 60007 60007 539
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA69
+Encoding: 60009 60009 540
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA6A
+Encoding: 60010 60010 541
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA75
+Encoding: 60021 60021 542
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA76
+Encoding: 60022 60022 543
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA77
+Encoding: 60023 60023 544
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA78
+Encoding: 60024 60024 545
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA7E
+Encoding: 60030 60030 546
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA7F
+Encoding: 60031 60031 547
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: 63ff7a
+EndChar
+
+StartChar: uniEA9E
+Encoding: 60062 60062 548
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEA9F
+Encoding: 60063 60063 549
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAA4
+Encoding: 60068 60068 550
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAA9
+Encoding: 60073 60073 551
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAAA
+Encoding: 60074 60074 552
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAAF
+Encoding: 60079 60079 553
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAB0
+Encoding: 60080 60080 554
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAB1
+Encoding: 60081 60081 555
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAB2
+Encoding: 60082 60082 556
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAB8
+Encoding: 60088 60088 557
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEABE
+Encoding: 60094 60094 558
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEABF
+Encoding: 60095 60095 559
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAC4
+Encoding: 60100 60100 560
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAC9
+Encoding: 60105 60105 561
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEACC
+Encoding: 60108 60108 562
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAD5
+Encoding: 60117 60117 563
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAD6
+Encoding: 60118 60118 564
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAE4
+Encoding: 60132 60132 565
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAF1
+Encoding: 60145 60145 566
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAF7
+Encoding: 60151 60151 567
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEAFD
+Encoding: 60157 60157 568
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEB02
+Encoding: 60162 60162 569
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEB0B
+Encoding: 60171 60171 570
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEB12
+Encoding: 60178 60178 571
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEB16
+Encoding: 60182 60182 572
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEB1A
+Encoding: 60186 60186 573
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEB1D
+Encoding: 60189 60189 574
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffff78
+EndChar
+
+StartChar: uniEB23
+Encoding: 60195 60195 575
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB24
+Encoding: 60196 60196 576
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB25
+Encoding: 60197 60197 577
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB2D
+Encoding: 60205 60205 578
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB30
+Encoding: 60208 60208 579
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB34
+Encoding: 60212 60212 580
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB35
+Encoding: 60213 60213 581
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB37
+Encoding: 60215 60215 582
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB38
+Encoding: 60216 60216 583
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB39
+Encoding: 60217 60217 584
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB3A
+Encoding: 60218 60218 585
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB3B
+Encoding: 60219 60219 586
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB3C
+Encoding: 60220 60220 587
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB3D
+Encoding: 60221 60221 588
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB3E
+Encoding: 60222 60222 589
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB3F
+Encoding: 60223 60223 590
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: fa85ff
+EndChar
+
+StartChar: uniEB40
+Encoding: 60224 60224 591
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB41
+Encoding: 60225 60225 592
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB42
+Encoding: 60226 60226 593
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB43
+Encoding: 60227 60227 594
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB44
+Encoding: 60228 60228 595
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB45
+Encoding: 60229 60229 596
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB46
+Encoding: 60230 60230 597
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB47
+Encoding: 60231 60231 598
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB48
+Encoding: 60232 60232 599
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB49
+Encoding: 60233 60233 600
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB4A
+Encoding: 60234 60234 601
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB4B
+Encoding: 60235 60235 602
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB4C
+Encoding: 60236 60236 603
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB4D
+Encoding: 60237 60237 604
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB4E
+Encoding: 60238 60238 605
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB4F
+Encoding: 60239 60239 606
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB50
+Encoding: 60240 60240 607
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB51
+Encoding: 60241 60241 608
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB52
+Encoding: 60242 60242 609
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB53
+Encoding: 60243 60243 610
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB54
+Encoding: 60244 60244 611
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB55
+Encoding: 60245 60245 612
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB56
+Encoding: 60246 60246 613
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB57
+Encoding: 60247 60247 614
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB58
+Encoding: 60248 60248 615
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB59
+Encoding: 60249 60249 616
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB5A
+Encoding: 60250 60250 617
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB5B
+Encoding: 60251 60251 618
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB5C
+Encoding: 60252 60252 619
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB5D
+Encoding: 60253 60253 620
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB5E
+Encoding: 60254 60254 621
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB5F
+Encoding: 60255 60255 622
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB60
+Encoding: 60256 60256 623
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB61
+Encoding: 60257 60257 624
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB62
+Encoding: 60258 60258 625
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB63
+Encoding: 60259 60259 626
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB64
+Encoding: 60260 60260 627
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB65
+Encoding: 60261 60261 628
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB66
+Encoding: 60262 60262 629
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB67
+Encoding: 60263 60263 630
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB68
+Encoding: 60264 60264 631
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB69
+Encoding: 60265 60265 632
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB6A
+Encoding: 60266 60266 633
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB6B
+Encoding: 60267 60267 634
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB6C
+Encoding: 60268 60268 635
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB6D
+Encoding: 60269 60269 636
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB6E
+Encoding: 60270 60270 637
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB6F
+Encoding: 60271 60271 638
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB70
+Encoding: 60272 60272 639
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB71
+Encoding: 60273 60273 640
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB72
+Encoding: 60274 60274 641
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB73
+Encoding: 60275 60275 642
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB74
+Encoding: 60276 60276 643
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB75
+Encoding: 60277 60277 644
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB76
+Encoding: 60278 60278 645
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB77
+Encoding: 60279 60279 646
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB78
+Encoding: 60280 60280 647
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB79
+Encoding: 60281 60281 648
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB7A
+Encoding: 60282 60282 649
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB7B
+Encoding: 60283 60283 650
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB7C
+Encoding: 60284 60284 651
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB7D
+Encoding: 60285 60285 652
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB7E
+Encoding: 60286 60286 653
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB7F
+Encoding: 60287 60287 654
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB80
+Encoding: 60288 60288 655
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB81
+Encoding: 60289 60289 656
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB82
+Encoding: 60290 60290 657
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB83
+Encoding: 60291 60291 658
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB84
+Encoding: 60292 60292 659
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB85
+Encoding: 60293 60293 660
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB86
+Encoding: 60294 60294 661
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB87
+Encoding: 60295 60295 662
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB88
+Encoding: 60296 60296 663
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB89
+Encoding: 60297 60297 664
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB8A
+Encoding: 60298 60298 665
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB8B
+Encoding: 60299 60299 666
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB8C
+Encoding: 60300 60300 667
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB8D
+Encoding: 60301 60301 668
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB8E
+Encoding: 60302 60302 669
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB8F
+Encoding: 60303 60303 670
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB90
+Encoding: 60304 60304 671
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB91
+Encoding: 60305 60305 672
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB92
+Encoding: 60306 60306 673
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB93
+Encoding: 60307 60307 674
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB94
+Encoding: 60308 60308 675
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB95
+Encoding: 60309 60309 676
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB96
+Encoding: 60310 60310 677
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB97
+Encoding: 60311 60311 678
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB98
+Encoding: 60312 60312 679
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB99
+Encoding: 60313 60313 680
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB9A
+Encoding: 60314 60314 681
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB9B
+Encoding: 60315 60315 682
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB9C
+Encoding: 60316 60316 683
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB9D
+Encoding: 60317 60317 684
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB9E
+Encoding: 60318 60318 685
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEB9F
+Encoding: 60319 60319 686
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA0
+Encoding: 60320 60320 687
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA1
+Encoding: 60321 60321 688
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA2
+Encoding: 60322 60322 689
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA3
+Encoding: 60323 60323 690
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA4
+Encoding: 60324 60324 691
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA5
+Encoding: 60325 60325 692
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA6
+Encoding: 60326 60326 693
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA7
+Encoding: 60327 60327 694
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA8
+Encoding: 60328 60328 695
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBA9
+Encoding: 60329 60329 696
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBAA
+Encoding: 60330 60330 697
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBAB
+Encoding: 60331 60331 698
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBAC
+Encoding: 60332 60332 699
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBAD
+Encoding: 60333 60333 700
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBAE
+Encoding: 60334 60334 701
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBAF
+Encoding: 60335 60335 702
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB0
+Encoding: 60336 60336 703
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB1
+Encoding: 60337 60337 704
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB2
+Encoding: 60338 60338 705
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB3
+Encoding: 60339 60339 706
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB4
+Encoding: 60340 60340 707
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB5
+Encoding: 60341 60341 708
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB6
+Encoding: 60342 60342 709
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB7
+Encoding: 60343 60343 710
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB8
+Encoding: 60344 60344 711
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBB9
+Encoding: 60345 60345 712
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBBA
+Encoding: 60346 60346 713
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBBB
+Encoding: 60347 60347 714
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBBC
+Encoding: 60348 60348 715
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBBD
+Encoding: 60349 60349 716
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBBE
+Encoding: 60350 60350 717
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBBF
+Encoding: 60351 60351 718
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC0
+Encoding: 60352 60352 719
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC1
+Encoding: 60353 60353 720
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC2
+Encoding: 60354 60354 721
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC3
+Encoding: 60355 60355 722
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC4
+Encoding: 60356 60356 723
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC5
+Encoding: 60357 60357 724
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC6
+Encoding: 60358 60358 725
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC7
+Encoding: 60359 60359 726
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC8
+Encoding: 60360 60360 727
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBC9
+Encoding: 60361 60361 728
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBCA
+Encoding: 60362 60362 729
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBCB
+Encoding: 60363 60363 730
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBCC
+Encoding: 60364 60364 731
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBCD
+Encoding: 60365 60365 732
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBCE
+Encoding: 60366 60366 733
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBCF
+Encoding: 60367 60367 734
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD0
+Encoding: 60368 60368 735
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD1
+Encoding: 60369 60369 736
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD2
+Encoding: 60370 60370 737
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD3
+Encoding: 60371 60371 738
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD4
+Encoding: 60372 60372 739
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD5
+Encoding: 60373 60373 740
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD6
+Encoding: 60374 60374 741
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD7
+Encoding: 60375 60375 742
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD8
+Encoding: 60376 60376 743
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBD9
+Encoding: 60377 60377 744
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBDA
+Encoding: 60378 60378 745
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBDB
+Encoding: 60379 60379 746
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBDC
+Encoding: 60380 60380 747
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBDD
+Encoding: 60381 60381 748
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBDE
+Encoding: 60382 60382 749
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBDF
+Encoding: 60383 60383 750
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE0
+Encoding: 60384 60384 751
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE1
+Encoding: 60385 60385 752
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE2
+Encoding: 60386 60386 753
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE3
+Encoding: 60387 60387 754
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE4
+Encoding: 60388 60388 755
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE5
+Encoding: 60389 60389 756
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE6
+Encoding: 60390 60390 757
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE7
+Encoding: 60391 60391 758
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE8
+Encoding: 60392 60392 759
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBE9
+Encoding: 60393 60393 760
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBEA
+Encoding: 60394 60394 761
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBEB
+Encoding: 60395 60395 762
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBEC
+Encoding: 60396 60396 763
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBED
+Encoding: 60397 60397 764
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBEE
+Encoding: 60398 60398 765
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBEF
+Encoding: 60399 60399 766
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF0
+Encoding: 60400 60400 767
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF1
+Encoding: 60401 60401 768
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF2
+Encoding: 60402 60402 769
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF3
+Encoding: 60403 60403 770
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF4
+Encoding: 60404 60404 771
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF5
+Encoding: 60405 60405 772
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF6
+Encoding: 60406 60406 773
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF7
+Encoding: 60407 60407 774
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF8
+Encoding: 60408 60408 775
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBF9
+Encoding: 60409 60409 776
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBFA
+Encoding: 60410 60410 777
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBFB
+Encoding: 60411 60411 778
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBFC
+Encoding: 60412 60412 779
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBFD
+Encoding: 60413 60413 780
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBFE
+Encoding: 60414 60414 781
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEBFF
+Encoding: 60415 60415 782
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffa600
+EndChar
+
+StartChar: uniEE0F
+Encoding: 60943 60943 783
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE18
+Encoding: 60952 60952 784
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE19
+Encoding: 60953 60953 785
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE1A
+Encoding: 60954 60954 786
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE1B
+Encoding: 60955 60955 787
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE1C
+Encoding: 60956 60956 788
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE1D
+Encoding: 60957 60957 789
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE1E
+Encoding: 60958 60958 790
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE20
+Encoding: 60960 60960 791
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE21
+Encoding: 60961 60961 792
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE22
+Encoding: 60962 60962 793
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE23
+Encoding: 60963 60963 794
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE24
+Encoding: 60964 60964 795
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE25
+Encoding: 60965 60965 796
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE26
+Encoding: 60966 60966 797
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE27
+Encoding: 60967 60967 798
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE28
+Encoding: 60968 60968 799
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE29
+Encoding: 60969 60969 800
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE2A
+Encoding: 60970 60970 801
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE2B
+Encoding: 60971 60971 802
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE2C
+Encoding: 60972 60972 803
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE2D
+Encoding: 60973 60973 804
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE2E
+Encoding: 60974 60974 805
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE2F
+Encoding: 60975 60975 806
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE3D
+Encoding: 60989 60989 807
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE3E
+Encoding: 60990 60990 808
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE3F
+Encoding: 60991 60991 809
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE40
+Encoding: 60992 60992 810
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE41
+Encoding: 60993 60993 811
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE42
+Encoding: 60994 60994 812
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE43
+Encoding: 60995 60995 813
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE44
+Encoding: 60996 60996 814
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE45
+Encoding: 60997 60997 815
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE46
+Encoding: 60998 60998 816
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE47
+Encoding: 60999 60999 817
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE48
+Encoding: 61000 61000 818
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE49
+Encoding: 61001 61001 819
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE4A
+Encoding: 61002 61002 820
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE4B
+Encoding: 61003 61003 821
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE4C
+Encoding: 61004 61004 822
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE4D
+Encoding: 61005 61005 823
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE4E
+Encoding: 61006 61006 824
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE4F
+Encoding: 61007 61007 825
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE5D
+Encoding: 61021 61021 826
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE5E
+Encoding: 61022 61022 827
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE5F
+Encoding: 61023 61023 828
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE63
+Encoding: 61027 61027 829
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE64
+Encoding: 61028 61028 830
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE65
+Encoding: 61029 61029 831
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE66
+Encoding: 61030 61030 832
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE67
+Encoding: 61031 61031 833
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE6A
+Encoding: 61034 61034 834
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE6B
+Encoding: 61035 61035 835
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE6C
+Encoding: 61036 61036 836
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE6D
+Encoding: 61037 61037 837
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE6E
+Encoding: 61038 61038 838
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEE6F
+Encoding: 61039 61039 839
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEA6
+Encoding: 61094 61094 840
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEA7
+Encoding: 61095 61095 841
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEA8
+Encoding: 61096 61096 842
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEA9
+Encoding: 61097 61097 843
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEAA
+Encoding: 61098 61098 844
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEAB
+Encoding: 61099 61099 845
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEAC
+Encoding: 61100 61100 846
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEAD
+Encoding: 61101 61101 847
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEAE
+Encoding: 61102 61102 848
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEAF
+Encoding: 61103 61103 849
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB0
+Encoding: 61104 61104 850
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB1
+Encoding: 61105 61105 851
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB2
+Encoding: 61106 61106 852
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB3
+Encoding: 61107 61107 853
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB4
+Encoding: 61108 61108 854
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB5
+Encoding: 61109 61109 855
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB6
+Encoding: 61110 61110 856
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB7
+Encoding: 61111 61111 857
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB8
+Encoding: 61112 61112 858
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEB9
+Encoding: 61113 61113 859
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEBA
+Encoding: 61114 61114 860
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEBB
+Encoding: 61115 61115 861
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEBC
+Encoding: 61116 61116 862
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEBD
+Encoding: 61117 61117 863
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEBE
+Encoding: 61118 61118 864
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEBF
+Encoding: 61119 61119 865
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC0
+Encoding: 61120 61120 866
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC1
+Encoding: 61121 61121 867
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC2
+Encoding: 61122 61122 868
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC3
+Encoding: 61123 61123 869
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC4
+Encoding: 61124 61124 870
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC5
+Encoding: 61125 61125 871
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC6
+Encoding: 61126 61126 872
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC7
+Encoding: 61127 61127 873
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC8
+Encoding: 61128 61128 874
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEC9
+Encoding: 61129 61129 875
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEECA
+Encoding: 61130 61130 876
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEECB
+Encoding: 61131 61131 877
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEECC
+Encoding: 61132 61132 878
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEECD
+Encoding: 61133 61133 879
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEECE
+Encoding: 61134 61134 880
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEECF
+Encoding: 61135 61135 881
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED0
+Encoding: 61136 61136 882
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED1
+Encoding: 61137 61137 883
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED2
+Encoding: 61138 61138 884
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED3
+Encoding: 61139 61139 885
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED4
+Encoding: 61140 61140 886
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED5
+Encoding: 61141 61141 887
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED6
+Encoding: 61142 61142 888
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED7
+Encoding: 61143 61143 889
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED8
+Encoding: 61144 61144 890
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEED9
+Encoding: 61145 61145 891
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEDA
+Encoding: 61146 61146 892
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEDB
+Encoding: 61147 61147 893
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEDC
+Encoding: 61148 61148 894
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEDD
+Encoding: 61149 61149 895
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEDE
+Encoding: 61150 61150 896
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEDF
+Encoding: 61151 61151 897
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEE2
+Encoding: 61154 61154 898
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEE3
+Encoding: 61155 61155 899
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEE4
+Encoding: 61156 61156 900
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEE5
+Encoding: 61157 61157 901
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEE6
+Encoding: 61158 61158 902
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEE7
+Encoding: 61159 61159 903
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEE8
+Encoding: 61160 61160 904
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEE9
+Encoding: 61161 61161 905
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEEA
+Encoding: 61162 61162 906
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEEB
+Encoding: 61163 61163 907
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEEC
+Encoding: 61164 61164 908
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEED
+Encoding: 61165 61165 909
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEEE
+Encoding: 61166 61166 910
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEEF
+Encoding: 61167 61167 911
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF0
+Encoding: 61168 61168 912
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF1
+Encoding: 61169 61169 913
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF2
+Encoding: 61170 61170 914
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF3
+Encoding: 61171 61171 915
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF4
+Encoding: 61172 61172 916
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF5
+Encoding: 61173 61173 917
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF6
+Encoding: 61174 61174 918
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF7
+Encoding: 61175 61175 919
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF8
+Encoding: 61176 61176 920
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEF9
+Encoding: 61177 61177 921
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEFA
+Encoding: 61178 61178 922
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEFB
+Encoding: 61179 61179 923
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEFC
+Encoding: 61180 61180 924
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEFD
+Encoding: 61181 61181 925
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEFE
+Encoding: 61182 61182 926
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
+EndChar
+
+StartChar: uniEEFF
+Encoding: 61183 61183 927
+Width: 1000
+VWidth: 0
+LayerCount: 3
+Colour: ffb54c
 EndChar
 EndChars
 EndSplineFont
