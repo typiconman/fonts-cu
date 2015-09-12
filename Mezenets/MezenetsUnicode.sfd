@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1442040683
+ModificationTime: 1442083344
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -87,7 +87,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 59994 18 7
+WinInfo: 60930 18 7
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -5025,7 +5025,7 @@ EndChar
 
 StartChar: uniEE0B
 Encoding: 60939 60939 171
-Width: 4224
+Width: 0
 GlyphClass: 4
 Flags: W
 HStem: 203 13<-256.98 -227 -191.419 -117 -81.4191 -57.0939> 344 13<-242.98 -221 -187.117 -111 -77.1174 -44.0015> 390 48<-165.429 -123.369>
@@ -5069,7 +5069,6 @@ SplineSet
  -131 438 -123 426 -123 416 c 0
  -123 403 -133 390 -146 390 c 0
 EndSplineSet
-Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -5362,7 +5361,7 @@ EndChar
 
 StartChar: uniEE53
 Encoding: 61011 61011 179
-Width: -12000
+Width: 0
 GlyphClass: 4
 Flags: W
 HStem: 398 185
@@ -5377,7 +5376,6 @@ SplineSet
  129 488 47 447 22 398 c 1
  37 496 l 1
 EndSplineSet
-Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -9333,7 +9331,7 @@ EndChar
 
 StartChar: uniEE37
 Encoding: 60983 60983 251
-Width: -7632
+Width: 0
 GlyphClass: 4
 Flags: W
 HStem: 217 19<241.09 288.945> 329 22<236.897 287.599>
@@ -9364,7 +9362,6 @@ SplineSet
  291 236 302 257 302 280 c 0
  302 304 288 329 263 329 c 0
 EndSplineSet
-Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -9402,7 +9399,7 @@ EndChar
 
 StartChar: uniEE39
 Encoding: 60985 60985 253
-Width: -10128
+Width: 0
 GlyphClass: 4
 Flags: W
 HStem: 355 96<-124.986 -111.051 -63.8703 -46.1614>
@@ -9427,7 +9424,6 @@ SplineSet
  -71 355 -79 372 -79 390 c 0
  -79 423 -49 451 -25 451 c 0
 EndSplineSet
-Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -9471,7 +9467,7 @@ EndChar
 
 StartChar: uniEE3B
 Encoding: 60987 60987 255
-Width: -20256
+Width: 0
 GlyphClass: 4
 Flags: W
 HStem: 198 25<-319.98 -275.125 -261 -179.733> 206 24<-280.68 -76.7313>
@@ -9496,7 +9492,6 @@ SplineSet
  -241 232 -261 226 -261 226 c 1
  -231 226 -203 230 -177 230 c 0x60
 EndSplineSet
-Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -11007,6 +11002,7 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE70 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -11056,6 +11052,7 @@ SplineSet
  85 169 174 244 233 279 c 2xc0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE70 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -11185,6 +11182,7 @@ SplineSet
  408 510 l 1xa0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE72 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -11241,6 +11239,7 @@ SplineSet
  25 352 37 377 76 388 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE72 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -11296,6 +11295,7 @@ SplineSet
  335 338 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE73 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -11354,6 +11354,7 @@ SplineSet
  335 338 l 1xd8
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE73 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -11884,6 +11885,7 @@ SplineSet
  171 0 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE78 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -12149,6 +12151,7 @@ SplineSet
  105 340 l 1xe8
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE7A uniEEE0
 Colour: ffff78
 EndChar
 
@@ -12179,6 +12182,7 @@ SplineSet
  265 0 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE7A uniEEE1
 Colour: ffff78
 EndChar
 
@@ -12654,6 +12658,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE75 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -12683,6 +12688,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE75 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -13273,6 +13279,7 @@ SplineSet
  275 150 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE84 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -13317,6 +13324,7 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE85 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -13609,6 +13617,7 @@ SplineSet
  185 106 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE85 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -13937,6 +13946,7 @@ SplineSet
  261 443 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE8E uniEEE0
 Colour: ffff78
 EndChar
 
@@ -14088,6 +14098,7 @@ SplineSet
  197 626 219 664 268 664 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE8E uniEEE1
 Colour: ffff78
 EndChar
 
@@ -16552,6 +16563,7 @@ SplineSet
  67 614 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE78 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -16868,6 +16880,7 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE82 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -16911,6 +16924,7 @@ SplineSet
  455 94 437 26 387 26 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE82 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -16945,6 +16959,7 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE83 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -16981,6 +16996,7 @@ SplineSet
  338 196 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE83 uniEEE1
 Colour: ffff78
 EndChar
 
@@ -17020,6 +17036,7 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE84 uniEEE0
 Colour: ffff78
 EndChar
 
@@ -17135,6 +17152,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE8F uniEEE0
 Colour: ffff78
 EndChar
 
@@ -17161,6 +17179,7 @@ SplineSet
  221 518 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE8F uniEEE1
 Colour: ffff78
 EndChar
 
@@ -17222,6 +17241,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE8F uniEEE0 uniEE50
 Colour: ffff78
 EndChar
 
@@ -17252,6 +17272,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE8F uniEEE1 uniEE50
 Colour: ffff78
 EndChar
 
@@ -17323,6 +17344,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE8F uniEEE0 uniEE51
 Colour: ffff78
 EndChar
 
@@ -17358,6 +17380,7 @@ SplineSet
  208 225 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE8F uniEEE1 uniEE51
 Colour: ffff78
 EndChar
 
@@ -18164,6 +18187,7 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE9A uniEEE0
 Colour: ffff78
 EndChar
 
@@ -18205,6 +18229,7 @@ SplineSet
  216 98 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Priznak Composition-1" uniEE9A uniEEE1
 Colour: ffff78
 EndChar
 
