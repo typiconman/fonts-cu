@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1442298276
+ModificationTime: 1442339362
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -87,7 +87,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60156 18 7
+WinInfo: 59922 18 7
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -12529,19 +12529,19 @@ SplineSet
  52 293 19 252 13 224 c 0
  10 208 0 210 0 219 c 0
  0 271 30 392 120 392 c 0
-344 193 m 1
- 353 212 374 232 396 248 c 1
- 410 390 l 1
- 434 390 l 1
- 422 267 l 1
- 450 286 485 304 485 304 c 1
- 469 190 l 1
- 469 190 438 173 411 156 c 1
- 394 0 l 1
- 371 0 l 1
- 385 138 l 1
- 361 120 338 98 326 75 c 1
- 344 193 l 1
+344 193 m 5
+ 353 212 374 232 396 248 c 5
+ 410 390 l 5
+ 434 390 l 5
+ 422 267 l 5
+ 450 286 485 304 485 304 c 5
+ 469 190 l 5
+ 469 190 438 173 411 156 c 5
+ 394 0 l 5
+ 371 0 l 5
+ 385 138 l 5
+ 361 120 338 98 326 75 c 5
+ 344 193 l 5
 EndSplineSet
 Validated: 1
 Colour: ffff78
@@ -20443,7 +20443,7 @@ Colour: 4cff40
 EndChar
 
 StartChar: uniEE87EE8D
-Encoding: 60009 60009 539
+Encoding: 60010 60010 539
 Width: 420
 GlyphClass: 3
 Flags: W
@@ -20492,10 +20492,66 @@ Colour: 4cff40
 EndChar
 
 StartChar: uniEA6A
-Encoding: 60010 60010 540
-Width: 1000
-VWidth: 0
+Encoding: 60009 60009 540
+Width: 479
+Flags: W
+HStem: 0 21G<80.2 96.4343 185.2 201.434 251 271.857 345 370.179> 299 93<124.052 237.548>
+VStem: 251 18<0 18> 269 28<99.6073 298.425> 345 23<0 23> 384 24<366 390>
+DStem2: 251 0 269 0 0.141421 0.989949<2.54558 173.634> 345 0 368 0 0.102029 0.994781<2.34666 138.708 270.81 391.944>
+AnchorPoint: "Tikhaya" 62 110.5 basechar 0
+AnchorPoint: "Borzaya" -22 34 basechar 0
+AnchorPoint: "Zaderzhka" 504.5 34.4 basechar 0
+AnchorPoint: "Otsechka" 504.5 34.5 basechar 0
+AnchorPoint: "Kupnaya" 146 -25 basechar 0
+AnchorPoint: "Zevok" 200 477 basechar 0
+AnchorPoint: "Udarka" 199.5 476.5 basechar 0
+AnchorPoint: "Kachka" 200 477 basechar 0
+AnchorPoint: "Lomka" 200 477 basechar 0
+AnchorPoint: "Oblachko" 200 476.5 basechar 0
+AnchorPoint: "Podchashie" 198.5 477 basechar 0
+AnchorPoint: "Ochko" 199.5 477.5 basechar 0
+AnchorPoint: "Podvertka" 200.5 477.5 basechar 0
+AnchorPoint: "Shaidur" 26 318 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+318 193 m 1xcc
+ 327 212 348 232 370 248 c 1
+ 384 390 l 1
+ 408 390 l 1
+ 396 267 l 1
+ 424 286 459 304 459 304 c 1
+ 443 190 l 1
+ 443 190 412 173 385 156 c 1
+ 368 0 l 1
+ 345 0 l 1
+ 359 138 l 1
+ 335 120 312 98 300 75 c 1
+ 318 193 l 1xcc
+30 224 m 1
+ 110 99 l 1
+ 93 0 l 1
+ 13 125 l 1
+ 30 224 l 1
+135 224 m 1
+ 215 99 l 1
+ 198 0 l 1
+ 118 125 l 1
+ 135 224 l 1
+195 391 m 0
+ 270 384 297 344 297 251 c 0xdc
+ 297 209 291 156 282 91 c 2
+ 269 0 l 1
+ 251 0 l 1xec
+ 263 91 l 2
+ 267 120 269 149 269 174 c 0xdc
+ 269 247 249 299 178 299 c 0
+ 122 299 98 280 83 248 c 0
+ 77 234 70 234 70 241 c 0
+ 70 243 71 244 71 246 c 0
+ 82 297 98 392 183 392 c 0
+ 187 392 191 391 195 391 c 0
+EndSplineSet
 Colour: 4cff40
 EndChar
 
