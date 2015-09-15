@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1442287208
+ModificationTime: 1442298276
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -87,7 +87,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60120 18 7
+WinInfo: 60156 18 7
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -12024,7 +12024,7 @@ Validated: 1
 Colour: ffff78
 EndChar
 
-StartChar: uniEE7EEE5A
+StartChar: uniEE7AEE53
 Encoding: 60004 60004 312
 Width: 442
 GlyphClass: 3
@@ -12057,8 +12057,8 @@ SplineSet
  255 91 l 2
  259 118 262 147 262 175 c 0xe8
 EndSplineSet
-LCarets2: 1 427 
-Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7E uniEE5A
+Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7A uniEE53
 Colour: 4cff40
 EndChar
 
@@ -12350,7 +12350,7 @@ Validated: 1
 Colour: ffff78
 EndChar
 
-StartChar: uniEE87EE54
+StartChar: uniEE7EEE5A
 Encoding: 60005 60005 321
 Width: 561
 VWidth: 999
@@ -12427,12 +12427,12 @@ SplineSet
  195 119 205 154 220 176 c 1
  229 196 249 219 275 219 c 0
 EndSplineSet
-LCarets2: 1 235 
-Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE53
+Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7E uniEE5A
 Colour: 4cff40
 EndChar
 
-StartChar: uniEE87EE55
+StartChar: uniEE87EE53
 Encoding: 60006 60006 322
 Width: 370
 GlyphClass: 3
@@ -12458,8 +12458,8 @@ SplineSet
  315 67 270 41 248 0 c 1
  263 98 l 1
 EndSplineSet
-LCarets2: 1 230 
-Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE55
+Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE53
 Colour: 4cff40
 EndChar
 
@@ -16168,7 +16168,7 @@ Validated: 1
 Colour: 4cff40
 EndChar
 
-StartChar: uniEE7AEE53
+StartChar: uniEA63
 Encoding: 60003 60003 398
 Width: 384
 GlyphClass: 3
@@ -16212,8 +16212,7 @@ SplineSet
  143 127 l 2
  134 64 116 -4 65 -4 c 0
 EndSplineSet
-LCarets2: 1 304 
-Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7A uniEE53
+Validated: 1
 Colour: 4cff40
 EndChar
 
@@ -19204,8 +19203,6 @@ EndChar
 StartChar: uniEB33
 Encoding: 60211 60211 472
 Width: 1000
-Flags: H
-CounterMasks: 1 e0
 LayerCount: 3
 Colour: fa85ff
 EndChar
@@ -19213,13 +19210,11 @@ EndChar
 StartChar: uniEB34
 Encoding: 60212 60212 473
 Width: 1000
-Flags: H
-CounterMasks: 1 e0
 LayerCount: 3
 Colour: fa85ff
 EndChar
 
-StartChar: uniEE87EE8D
+StartChar: uniEA68
 Encoding: 60008 60008 474
 Width: 360
 GlyphClass: 3
@@ -19280,8 +19275,7 @@ SplineSet
  82 297 98 392 183 392 c 0
  187 392 191 391 195 391 c 0
 EndSplineSet
-LCarets2: 1 235 
-Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE8D
+Validated: 1
 Colour: 4cff40
 EndChar
 
@@ -19561,6 +19555,7 @@ SplineSet
  474 27 473 32 473 40 c 0xc8
  473 56 476 72 476 86 c 0xc4
 EndSplineSet
+Validated: 1
 LCarets2: 1 235 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE94 uniEE50
 Colour: 4cff40
@@ -20409,9 +20404,10 @@ LayerCount: 3
 Colour: ff9ef7
 EndChar
 
-StartChar: uniEA67
+StartChar: uniEE87EE55
 Encoding: 60007 60007 538
 Width: 395
+GlyphClass: 3
 Flags: W
 HStem: -4 98<274.18 341.01>
 VStem: 239 29<50 166.75> 258 12<153.733 199.68>
@@ -20441,12 +20437,15 @@ SplineSet
  378 127 l 2
  368 64 350 -4 300 -4 c 0
 EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE55
 Colour: 4cff40
 EndChar
 
-StartChar: uniEA69
+StartChar: uniEE87EE8D
 Encoding: 60009 60009 539
 Width: 420
+GlyphClass: 3
 Flags: W
 HStem: 0 21G<84.2 100.434 189.2 205.434 329.863 363.434> 443 97<279.744 356.394>
 VStem: 243 14<373.872 406.719> 253 143<401.2 511.874> 365 31<337.25 430.08>
@@ -20487,6 +20486,8 @@ SplineSet
  139 224 l 1
  219 99 l 1
 EndSplineSet
+Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE8D
 Colour: 4cff40
 EndChar
 
@@ -20781,7 +20782,6 @@ EndChar
 StartChar: uniEB25
 Encoding: 60197 60197 576
 Width: 1000
-Flags: H
 LayerCount: 3
 Comment: "Why is it mapped here?" 
 Colour: fa85ff
