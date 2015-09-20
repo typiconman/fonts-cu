@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1442671896
+ModificationTime: 1442743916
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -45,8 +45,10 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' Precomposed Neumes"  {"'ccmp' Precomposed Neumes-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 8 0 "'ccmp' Priznak Composition"  {"'ccmp' Priznak Composition-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' Contextual Priznakification"  {"'ccmp' Contextual Priznakification-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Priznak-based Compositions"  {"'ccmp' Priznak-based Compositions-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp'  Contextual Prizakification"  {"'ccmp'  Contextual Prizakification-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Depriznakify"  {"Depriznakify-1"  } []
+Lookup: 1 0 0 "Priznakify"  {"Priznakify-1"  } []
 Lookup: 263 0 0 "'kern' Horizontal Kerning with Shaidur Marks"  {"'kern' Horizontal Kerning with Shaidur Marks-1"  } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Black Marking Positions"  {"'mark' Black Marking Positions-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Cinnabar Pitch Marking Positioning"  {"'mark' Cinnabar Pitch Marking Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -55,18 +57,34 @@ Lookup: 262 0 0 "'mkmk' Double Shaidur Attachment"  {"'mkmk' Double Shaidur Atta
 Lookup: 257 0 0 "Advance neume with cinnabar mark"  {"Advance neume with cinnabar mark-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ContextSub2: class "'ccmp' Contextual Priznakification-1"  0 0 0 0
+ChainSub2: class "'ccmp'  Contextual Prizakification-1"  3 3 3 1
+  Class: 63 uniEA88 uniEACA uniEACD uniEACF uniEAD1 uniEB0D uniEB14 uniEB18
+  Class: 23 uniEE50 uniEE51 uniEE52
+  BClass: 63 uniEA88 uniEACA uniEACD uniEACF uniEAD1 uniEB0D uniEB14 uniEB18
+  BClass: 23 uniEE50 uniEE51 uniEE52
+  FClass: 63 uniEA88 uniEACA uniEACD uniEACF uniEAD1 uniEB0D uniEB14 uniEB18
+  FClass: 23 uniEE50 uniEE51 uniEE52
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 2
+  SeqLookup: 0 "Depriznakify" 
+  SeqLookup: 1 "Priznakify" 
+  ClassNames: "All_Others"  "base"  "tonal"  
+  BClassNames: "All_Others"  "base"  "tonal"  
+  FClassNames: "All_Others"  "base"  "tonal"  
 EndFPST
 ContextPos2: class "'kern' Horizontal Kerning with Shaidur Marks-1"  4 4 4 2
-  Class: 119 uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 uniEE06 uniEE07 uniEE08 uniEE09 uniEE0A uniEE0B uniEE11 uniEE13 uniEE15
-  Class: 383 uniEE90 uniEE76 uniEE77 uniEE7C uniEE70 uniEE85 uniEE80 uniEEAC uniEEAD uniEE87 uniEE89 uniEE71 uniEE72 uniEE84 uniEEA6 uniEEAE uniEE8D uniEE8E uniEE8F uniEE8C uniEE8B uniEE8A uniEE73 uniEE7E uniEE79 uniE089 uniEEAB uniEE82 uniEE83 uniEEAA uniEE75 uniEE74 uniEE92 uniEE9B uniEE93 uniEE91 uniEE9A uniEE9D uniEE9E uniEE9F uniEEA0 uniEE7D uniEE7F uniEE7A uniEE86 uniEEAF uniEE78 uni25CC
-  Class: 79 uniEE50 uniEE51 uniEE52 uniEE54 uniEE53 uniEE56 uniEE55 uniEE57 uniEE58 uniEE59
-  BClass: 119 uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 uniEE06 uniEE07 uniEE08 uniEE09 uniEE0A uniEE0B uniEE11 uniEE13 uniEE15
-  BClass: 383 uniEE90 uniEE76 uniEE77 uniEE7C uniEE70 uniEE85 uniEE80 uniEEAC uniEEAD uniEE87 uniEE89 uniEE71 uniEE72 uniEE84 uniEEA6 uniEEAE uniEE8D uniEE8E uniEE8F uniEE8C uniEE8B uniEE8A uniEE73 uniEE7E uniEE79 uniE089 uniEEAB uniEE82 uniEE83 uniEEAA uniEE75 uniEE74 uniEE92 uniEE9B uniEE93 uniEE91 uniEE9A uniEE9D uniEE9E uniEE9F uniEEA0 uniEE7D uniEE7F uniEE7A uniEE86 uniEEAF uniEE78 uni25CC
-  BClass: 79 uniEE50 uniEE51 uniEE52 uniEE54 uniEE53 uniEE56 uniEE55 uniEE57 uniEE58 uniEE59
-  FClass: 119 uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 uniEE06 uniEE07 uniEE08 uniEE09 uniEE0A uniEE0B uniEE11 uniEE13 uniEE15
-  FClass: 383 uniEE90 uniEE76 uniEE77 uniEE7C uniEE70 uniEE85 uniEE80 uniEEAC uniEEAD uniEE87 uniEE89 uniEE71 uniEE72 uniEE84 uniEEA6 uniEEAE uniEE8D uniEE8E uniEE8F uniEE8C uniEE8B uniEE8A uniEE73 uniEE7E uniEE79 uniE089 uniEEAB uniEE82 uniEE83 uniEEAA uniEE75 uniEE74 uniEE92 uniEE9B uniEE93 uniEE91 uniEE9A uniEE9D uniEE9E uniEE9F uniEEA0 uniEE7D uniEE7F uniEE7A uniEE86 uniEEAF uniEE78 uni25CC
-  FClass: 79 uniEE50 uniEE51 uniEE52 uniEE54 uniEE53 uniEE56 uniEE55 uniEE57 uniEE58 uniEE59
+  Class: 183 uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 uniEE06 uniEE07 uniEE08 uniEE09 uniEE0A uniEE0B uniEE0C uniEE0D uniEE0E uniEE10 uniEE11 uniEE12 uniEE13 uniEE14 uniEE15 uniEE16 uniEE17
+  Class: 1751 uni25CC uniEE75EE5A uniEA61 uniEE78EE5A uniEA63 uniEE7AEE53 uniEE7EEE5A uniEE87EE53 uniEE87EE55 uniEA68 uniEA6A uniEE87EE8D uniEE8FEE50 uniEE8FEE51 uniEE8FEE50EE58 uniEE8FEE51EE58 uniEE90EE50 uniEE93EE50 uniEA71 uniEE93EE50EE55 uniEE98EE50 uniEA80 uniEA81 uniEA82 uniEA83 uniEA84 uniEA85 uniEA86 uniEA87 uniEA88 uniEA89 uniEA8A uniEA8B uniEA8C uniEA8D uniEA8E uniEA8F uniEA90 uniEA91 uniEA92 uniEA93 uniEA94 uniEA95 uniEA96 uniEA97 uniEA98 uniEA99 uniEA9A uniEA9B uniEA9C uniEA9D uniEAA0 uniEAA1 uniEAA2 uniEAA3 uniEAA5 uniEAA6 uniEAA7 uniEAA8 uniEAAB uniEAAC uniEAAD uniEAAE uniEAB3 uniEAB4 uniEAB5 uniEAB6 uniEAB7 uniEAB9 uniEABA uniEABB uniEABC uniEABD uniEAC0 uniEAC1 uniEAC2 uniEAC3 uniEAC5 uniEAC6 uniEAC7 uniEAC8 uniEACA uniEACB uniEACD uniEACE uniEACF uniEAD0 uniEAD1 uniEAD2 uniEAD3 uniEAD4 uniEAD7 uniEAD8 uniEAD9 uniEADA uniEADB uniEADC uniEADD uniEADE uniEADF uniEAE0 uniEAE1 uniEAE2 uniEAE3 uniEAE5 uniEAE6 uniEAE7 uniEAE8 uniEAE9 uniEAEA uniEAEB uniEAEC uniEAED uniEAEE uniEAEF uniEAF0 uniEAF2 uniEAF3 uniEAF4 uniEAF5 uniEAF6 uniEAF8 uniEAF9 uniEAFA uniEAFB uniEAFC uniEAFE uniEAFF uniEB00 uniEB01 uniEB03 uniEB04 uniEB05 uniEB06 uniEB07 uniEB08 uniEB09 uniEB0A uniEB0C uniEB0D uniEB0E uniEB0F uniEB10 uniEB11 uniEB13 uniEB14 uniEB15 uniEB17 uniEB18 uniEB19 uniEB1B uniEB1C uniEB1E uniEB1F uniEE70 uniEE71 uniEE72 uniEE73 uniEE74 uniEE75 uniEE76 uniEE77 uniEE78 uniEE79 uniEE7A uniEE7B uniEE7C uniEE7D uniEE7E uniEE7F uniEE80 uniEE81 uniEE82 uniEE83 uniEE84 uniEE85 uniEE86 uniEE87 uniEE88 uniEE89 uniEE8A uniEE8B uniEE8C uniEE8D uniEE8E uniEE8F uniEE90 uniEE91 uniEE92 uniEE93 uniEE94 uniEE98 uniEE9A uniEE9B uniEE9C uniEE9D uniEE9E uniEE9F uniEEA0 uniEEA1 uniEEA2 uniEEA3 uniEEA4 uniEEA5 uniEEAA uniEEAB uniEEAC uniEEAD uniEEAE uniEEAF
+  Class: 95 uniEE50 uniEE51 uniEE52 uniEE53 uniEE54 uniEE55 uniEE56 uniEE57 uniEE58 uniEE59 uniEE5A uniEE5B
+  BClass: 183 uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 uniEE06 uniEE07 uniEE08 uniEE09 uniEE0A uniEE0B uniEE0C uniEE0D uniEE0E uniEE10 uniEE11 uniEE12 uniEE13 uniEE14 uniEE15 uniEE16 uniEE17
+  BClass: 1751 uni25CC uniEE75EE5A uniEA61 uniEE78EE5A uniEA63 uniEE7AEE53 uniEE7EEE5A uniEE87EE53 uniEE87EE55 uniEA68 uniEA6A uniEE87EE8D uniEE8FEE50 uniEE8FEE51 uniEE8FEE50EE58 uniEE8FEE51EE58 uniEE90EE50 uniEE93EE50 uniEA71 uniEE93EE50EE55 uniEE98EE50 uniEA80 uniEA81 uniEA82 uniEA83 uniEA84 uniEA85 uniEA86 uniEA87 uniEA88 uniEA89 uniEA8A uniEA8B uniEA8C uniEA8D uniEA8E uniEA8F uniEA90 uniEA91 uniEA92 uniEA93 uniEA94 uniEA95 uniEA96 uniEA97 uniEA98 uniEA99 uniEA9A uniEA9B uniEA9C uniEA9D uniEAA0 uniEAA1 uniEAA2 uniEAA3 uniEAA5 uniEAA6 uniEAA7 uniEAA8 uniEAAB uniEAAC uniEAAD uniEAAE uniEAB3 uniEAB4 uniEAB5 uniEAB6 uniEAB7 uniEAB9 uniEABA uniEABB uniEABC uniEABD uniEAC0 uniEAC1 uniEAC2 uniEAC3 uniEAC5 uniEAC6 uniEAC7 uniEAC8 uniEACA uniEACB uniEACD uniEACE uniEACF uniEAD0 uniEAD1 uniEAD2 uniEAD3 uniEAD4 uniEAD7 uniEAD8 uniEAD9 uniEADA uniEADB uniEADC uniEADD uniEADE uniEADF uniEAE0 uniEAE1 uniEAE2 uniEAE3 uniEAE5 uniEAE6 uniEAE7 uniEAE8 uniEAE9 uniEAEA uniEAEB uniEAEC uniEAED uniEAEE uniEAEF uniEAF0 uniEAF2 uniEAF3 uniEAF4 uniEAF5 uniEAF6 uniEAF8 uniEAF9 uniEAFA uniEAFB uniEAFC uniEAFE uniEAFF uniEB00 uniEB01 uniEB03 uniEB04 uniEB05 uniEB06 uniEB07 uniEB08 uniEB09 uniEB0A uniEB0C uniEB0D uniEB0E uniEB0F uniEB10 uniEB11 uniEB13 uniEB14 uniEB15 uniEB17 uniEB18 uniEB19 uniEB1B uniEB1C uniEB1E uniEB1F uniEE70 uniEE71 uniEE72 uniEE73 uniEE74 uniEE75 uniEE76 uniEE77 uniEE78 uniEE79 uniEE7A uniEE7B uniEE7C uniEE7D uniEE7E uniEE7F uniEE80 uniEE81 uniEE82 uniEE83 uniEE84 uniEE85 uniEE86 uniEE87 uniEE88 uniEE89 uniEE8A uniEE8B uniEE8C uniEE8D uniEE8E uniEE8F uniEE90 uniEE91 uniEE92 uniEE93 uniEE94 uniEE98 uniEE9A uniEE9B uniEE9C uniEE9D uniEE9E uniEE9F uniEEA0 uniEEA1 uniEEA2 uniEEA3 uniEEA4 uniEEA5 uniEEAA uniEEAB uniEEAC uniEEAD uniEEAE uniEEAF
+  BClass: 95 uniEE50 uniEE51 uniEE52 uniEE53 uniEE54 uniEE55 uniEE56 uniEE57 uniEE58 uniEE59 uniEE5A uniEE5B
+  FClass: 183 uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 uniEE06 uniEE07 uniEE08 uniEE09 uniEE0A uniEE0B uniEE0C uniEE0D uniEE0E uniEE10 uniEE11 uniEE12 uniEE13 uniEE14 uniEE15 uniEE16 uniEE17
+  FClass: 1751 uni25CC uniEE75EE5A uniEA61 uniEE78EE5A uniEA63 uniEE7AEE53 uniEE7EEE5A uniEE87EE53 uniEE87EE55 uniEA68 uniEA6A uniEE87EE8D uniEE8FEE50 uniEE8FEE51 uniEE8FEE50EE58 uniEE8FEE51EE58 uniEE90EE50 uniEE93EE50 uniEA71 uniEE93EE50EE55 uniEE98EE50 uniEA80 uniEA81 uniEA82 uniEA83 uniEA84 uniEA85 uniEA86 uniEA87 uniEA88 uniEA89 uniEA8A uniEA8B uniEA8C uniEA8D uniEA8E uniEA8F uniEA90 uniEA91 uniEA92 uniEA93 uniEA94 uniEA95 uniEA96 uniEA97 uniEA98 uniEA99 uniEA9A uniEA9B uniEA9C uniEA9D uniEAA0 uniEAA1 uniEAA2 uniEAA3 uniEAA5 uniEAA6 uniEAA7 uniEAA8 uniEAAB uniEAAC uniEAAD uniEAAE uniEAB3 uniEAB4 uniEAB5 uniEAB6 uniEAB7 uniEAB9 uniEABA uniEABB uniEABC uniEABD uniEAC0 uniEAC1 uniEAC2 uniEAC3 uniEAC5 uniEAC6 uniEAC7 uniEAC8 uniEACA uniEACB uniEACD uniEACE uniEACF uniEAD0 uniEAD1 uniEAD2 uniEAD3 uniEAD4 uniEAD7 uniEAD8 uniEAD9 uniEADA uniEADB uniEADC uniEADD uniEADE uniEADF uniEAE0 uniEAE1 uniEAE2 uniEAE3 uniEAE5 uniEAE6 uniEAE7 uniEAE8 uniEAE9 uniEAEA uniEAEB uniEAEC uniEAED uniEAEE uniEAEF uniEAF0 uniEAF2 uniEAF3 uniEAF4 uniEAF5 uniEAF6 uniEAF8 uniEAF9 uniEAFA uniEAFB uniEAFC uniEAFE uniEAFF uniEB00 uniEB01 uniEB03 uniEB04 uniEB05 uniEB06 uniEB07 uniEB08 uniEB09 uniEB0A uniEB0C uniEB0D uniEB0E uniEB0F uniEB10 uniEB11 uniEB13 uniEB14 uniEB15 uniEB17 uniEB18 uniEB19 uniEB1B uniEB1C uniEB1E uniEB1F uniEE70 uniEE71 uniEE72 uniEE73 uniEE74 uniEE75 uniEE76 uniEE77 uniEE78 uniEE79 uniEE7A uniEE7B uniEE7C uniEE7D uniEE7E uniEE7F uniEE80 uniEE81 uniEE82 uniEE83 uniEE84 uniEE85 uniEE86 uniEE87 uniEE88 uniEE89 uniEE8A uniEE8B uniEE8C uniEE8D uniEE8E uniEE8F uniEE90 uniEE91 uniEE92 uniEE93 uniEE94 uniEE98 uniEE9A uniEE9B uniEE9C uniEE9D uniEE9E uniEE9F uniEEA0 uniEEA1 uniEEA2 uniEEA3 uniEEA4 uniEEA5 uniEEAA uniEEAB uniEEAC uniEEAD uniEEAE uniEEAF
+  FClass: 95 uniEE50 uniEE51 uniEE52 uniEE53 uniEE54 uniEE55 uniEE56 uniEE57 uniEE58 uniEE59 uniEE5A uniEE5B
  2 0 0
   ClsList: 2 1
   BClsList:
@@ -91,7 +109,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 61002 18 7
+WinInfo: 60084 18 7
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -1216,8 +1234,8 @@ EndChar
 StartChar: uni25CC
 Encoding: 9676 9676 37
 Width: 525
-Flags: HW
-HStem: -11 69<228.499 293.116> 42 69<94.4993 160.204 360.499 425.204> 174 69<34.1933 99.3896 422.499 487.204> 319 69<94.7991 159.92 363.219 422.698> 376 69<228.508 293.246>
+Flags: W
+HStem: -11 69<228.499 293.116> 42 69<94.4993 160.204 360.499 425.204> 174 69<34.1933 99.4636 422.499 487.204> 319 69<94.7991 159.92 363.219 422.698> 376 69<228.508 293.246>
 VStem: 33 67<174.596 241.864> 93 68<42.7508 109.864 319.837 385.91> 227 67<-9.86539 56.8636 376.837 443.492> 359 67<42.7508 109.97 324.788 392.864> 421 67<174.796 241.864>
 AnchorPoint: "Otsechka" 632 201.2 basechar 0
 AnchorPoint: "Borzaya" -15 -1 basechar 0
@@ -1310,7 +1328,6 @@ SplineSet
  442 243 442 243 455 243 c 0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 EndChar
 
 StartChar: uni034F
@@ -5295,6 +5312,7 @@ SplineSet
  -418 496 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Priznakify-1" uniEA1A
 Colour: ffb54c
 EndChar
 
@@ -5321,6 +5339,7 @@ SplineSet
  -498 450 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Priznakify-1" uniEA1C
 Colour: ffb54c
 EndChar
 
@@ -5351,6 +5370,7 @@ SplineSet
  -588 406 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "Priznakify-1" uniEA1E
 Colour: ffb54c
 EndChar
 
@@ -5907,7 +5927,7 @@ SplineSet
  311 6 l 2xc8
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -5956,7 +5976,7 @@ SplineSet
  236 234 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6008,7 +6028,7 @@ SplineSet
  261 156 l 2xe4
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6063,7 +6083,7 @@ SplineSet
  300 373 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6108,7 +6128,7 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6165,7 +6185,7 @@ SplineSet
  185 106 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6210,7 +6230,7 @@ SplineSet
  28 128 84 98 134 98 c 0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6297,7 +6317,7 @@ SplineSet
  160 193 204 134 244 78 c 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE61 uniEE90
 Colour: ffb54c
 EndChar
@@ -6377,7 +6397,7 @@ SplineSet
  339 186 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE62 uniEE90
 Colour: ffb54c
 EndChar
@@ -6419,7 +6439,7 @@ SplineSet
  219 99 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6464,7 +6484,7 @@ SplineSet
  44 351 65 357 88 368 c 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6512,7 +6532,7 @@ SplineSet
  408 297 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6564,7 +6584,7 @@ SplineSet
  25 352 37 377 76 388 c 1xc0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6616,7 +6636,7 @@ SplineSet
  275 150 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6678,7 +6698,7 @@ SplineSet
  958 234 958 237 958 240 c 0xd8
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6744,7 +6764,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 229 
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE8D
 Colour: ffb54c
 EndChar
@@ -6786,7 +6806,7 @@ SplineSet
  83 290 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6832,7 +6852,7 @@ SplineSet
  37 542 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6889,7 +6909,7 @@ SplineSet
  74 337 95 353 116 368 c 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6935,7 +6955,7 @@ SplineSet
  15 470 143 585 145 585 c 0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -6988,7 +7008,7 @@ SplineSet
  335 338 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7045,7 +7065,7 @@ SplineSet
  27 -50 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7110,7 +7130,7 @@ SplineSet
  540 141 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7165,7 +7185,7 @@ SplineSet
  83 290 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7217,7 +7237,7 @@ SplineSet
  219 98 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7226,7 +7246,7 @@ Encoding: 61075 61075 211
 Width: 333
 VWidth: 999
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 VStem: 5 312
 AnchorPoint: "Zevok" 204 451 basechar 0
@@ -7263,7 +7283,7 @@ SplineSet
  83 290 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7330,7 +7350,7 @@ SplineSet
  291 28 292 46 292 62 c 0xe8
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7397,7 +7417,7 @@ SplineSet
  281 6 l 2xe080
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7474,7 +7494,7 @@ SplineSet
  290 6 l 2xe080
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7542,7 +7562,7 @@ SplineSet
  186 141 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7619,7 +7639,7 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7673,7 +7693,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0 
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE78 uniEE5B
 Colour: ffb54c
 EndChar
@@ -7744,7 +7764,7 @@ SplineSet
  119 161 120 140 124 122 c 0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE61 uniEE9A
 Colour: ffb54c
 EndChar
@@ -7800,7 +7820,7 @@ SplineSet
  455 94 437 26 387 26 c 0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7847,7 +7867,7 @@ SplineSet
  338 196 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7895,7 +7915,7 @@ SplineSet
  248 262 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7934,7 +7954,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -7993,7 +8013,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8048,7 +8068,7 @@ SplineSet
  240 113 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8117,7 +8137,7 @@ SplineSet
  357 128 413 98 463 98 c 0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8162,7 +8182,7 @@ SplineSet
  25 98 l 2xe8
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8221,7 +8241,7 @@ SplineSet
  325 166 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8277,7 +8297,7 @@ SplineSet
  288 620 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEEAE
 Colour: ffb54c
 EndChar
@@ -8321,7 +8341,7 @@ SplineSet
  166 0 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8367,7 +8387,7 @@ SplineSet
  94 620 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8417,6 +8437,7 @@ SplineSet
  53 327 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE80 uniEE5A
 Colour: ffb54c
@@ -8539,6 +8560,7 @@ SplineSet
  327 193 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8600,6 +8622,7 @@ SplineSet
  479 150 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -8969,6 +8992,7 @@ SplineSet
  187 392 191 391 195 391 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -9978,6 +10002,7 @@ SplineSet
  186 141 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -10029,6 +10054,7 @@ SplineSet
  162 224 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -10090,6 +10116,7 @@ SplineSet
  162 224 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -10154,6 +10181,7 @@ SplineSet
  561 141 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -10200,6 +10228,7 @@ SplineSet
  135 98 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -11038,6 +11067,7 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE70 uniEEE0
 Colour: ffff78
@@ -11089,6 +11119,7 @@ SplineSet
  85 169 174 244 233 279 c 2xc0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE70 uniEEE1
 Colour: ffff78
@@ -11097,7 +11128,7 @@ EndChar
 StartChar: uniEA84
 Encoding: 60036 60036 289
 Width: 775
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9737 52.779 374 398.295> 460 98<671.698 743.058>
 VStem: 94 18<602 620> 374 22<0 22>
 DStem2: 33 0 62 100 0.0979143 0.995195<102.359 305.477 396.646 622.994> 233 279 212 181 0.859456 0.511209<-143.168 159.607 183.464 503.142> 374 0 396 0 0.114006 0.99348<2.50813 298.94>
@@ -11141,6 +11172,7 @@ SplineSet
  408 297 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE71 uniEEE0
 Colour: ffff78
 EndChar
@@ -11148,7 +11180,7 @@ EndChar
 StartChar: uniEA85
 Encoding: 60037 60037 290
 Width: 775
-Flags: HW
+Flags: W
 HStem: 0 21G<34.954 52.779 374 398.295> 451 21G<29.4343 31> 460 98<671.698 743.058>
 VStem: 374 22<0 22>
 DStem2: 33 0 62 100 0.0972382 0.995261<102.346 524.485> 233 279 212 181 0.859456 0.511209<-143.168 159.607 183.464 503.142> 374 0 396 0 0.114006 0.99348<2.50813 298.94>
@@ -11195,6 +11227,7 @@ SplineSet
  408 297 l 1xb0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE71 uniEEE1
 Colour: ffff78
 EndChar
@@ -11250,6 +11283,7 @@ SplineSet
  408 510 l 1xa0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Depriznakify-1" uniEE72
 Ligature2: "'ccmp' Priznak Composition-1" uniEE72 uniEEE0
 Colour: ffff78
@@ -11308,6 +11342,7 @@ SplineSet
  25 352 37 377 76 388 c 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE72 uniEEE1
 Colour: ffff78
 EndChar
@@ -11316,7 +11351,7 @@ StartChar: uniEA8A
 Encoding: 60042 60042 293
 Width: 784
 VWidth: 999
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9737 52.779> 460 98<671.698 743.058>
 VStem: 94 18<602 620> 344 19<601 620> 419 19<601 620>
 DStem2: 33 0 62 100 0.0979143 0.995195<102.359 305.477 396.646 622.994> 233 279 212 181 0.859456 0.511209<-143.168 95.5247 117.826 188.308 210.609 503.142> 315 328 335 338 0.0988289 0.995104<11.9276 293.437> 395 375 415 385 0.0974925 0.995236<11.9022 246.173>
@@ -11364,6 +11399,7 @@ SplineSet
  335 338 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE73 uniEEE0
 Colour: ffff78
@@ -11424,6 +11460,7 @@ SplineSet
  335 338 l 1xd8
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE73 uniEEE1
 Colour: ffff78
@@ -11432,7 +11469,7 @@ EndChar
 StartChar: uniEA8E
 Encoding: 60046 60046 295
 Width: 774
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9737 52.779> 460 98<671.698 743.058>
 VStem: 94 18<602 620>
 DStem2: 33 0 62 100 0.0979143 0.995195<102.359 305.477 396.646 622.994> 233 279 212 181 0.859456 0.511209<-143.168 190.538 293.718 503.142> 456 432 358 415 0.707107 -0.707107<-57.2757 -2.12132 95.4594 154.856> 434 209 458 223 0.0998125 0.995006<16.3256 100.705 224.082 320.601>
@@ -11486,6 +11523,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE74 uniEEE0
 Colour: ffff78
 EndChar
@@ -11493,7 +11531,7 @@ EndChar
 StartChar: uniEA8F
 Encoding: 60047 60047 296
 Width: 774
-Flags: HW
+Flags: W
 HStem: 0 21G<34.954 52.779> 451 21G<29.4343 31> 460 98<671.698 743.058>
 DStem2: 33 0 62 100 0.0972382 0.995261<102.346 524.485> 233 279 212 181 0.859456 0.511209<-143.168 190.538 293.718 503.142> 456 432 358 415 0.707107 -0.707107<-57.2757 -2.12132 95.4594 154.856> 434 209 458 223 0.0998125 0.995006<16.3256 100.705 224.082 320.601>
 AnchorPoint: "Shaidur" 7 348 basechar 0
@@ -11549,6 +11587,7 @@ SplineSet
  466 528 l 1xc0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE74 uniEEE1
 Colour: ffff78
 EndChar
@@ -11593,6 +11632,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE75 uniEE5A
 Colour: 4cff40
@@ -11602,7 +11642,7 @@ StartChar: uniEA90
 Encoding: 60048 60048 298
 Width: 774
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9936 52.779> 460 98<671.698 743.058>
 VStem: 94 18<602 620>
 DStem2: 33 0 62 100 0.0979143 0.995195<102.359 312.541 389.856 622.994> 233 279 212 181 0.859456 0.511209<-143.168 190.538 293.718 503.142> 456 432 358 415 0.707107 -0.707107<-57.2757 -2.12132 95.4594 154.856> 434 209 458 223 0.0998125 0.995006<16.3256 100.705 224.082 320.601>
@@ -11656,6 +11696,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -11663,7 +11704,7 @@ StartChar: uniEA91
 Encoding: 60049 60049 299
 Width: 774
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9601 52.779> 460 98<671.698 743.058>
 DStem2: 33 0 62 100 0.0975363 0.995232<102.352 553.64> 233 279 212 181 0.859456 0.511209<-143.168 190.538 293.718 503.142> 456 432 358 415 0.707107 -0.707107<-57.2757 -2.12132 95.4594 154.856> 434 209 458 223 0.0998125 0.995006<16.3256 100.705 224.082 320.601>
 AnchorPoint: "Shaidur" 7 348 basechar 0
@@ -11715,13 +11756,14 @@ SplineSet
  36 576 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA95
 Encoding: 60053 60053 300
 Width: 205
-Flags: HW
+Flags: W
 HStem: 0 21G<34.8875 43.5>
 VStem: 33 154
 DStem2: 33 0 61 100 0.0939564 0.995576<102.188 553.448>
@@ -11754,13 +11796,14 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA94
 Encoding: 60052 60052 301
 Width: 205
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9293 43.5>
 VStem: 92 18<602 620>
 DStem2: 33 0 61 100 0.0947333 0.995503<102.203 312.443 390.756 622.801>
@@ -11794,6 +11837,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -11840,6 +11884,7 @@ SplineSet
  230 327 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE78 uniEE5A
 Colour: 4cff40
@@ -11849,7 +11894,7 @@ StartChar: uniEA96
 Encoding: 60054 60054 303
 Width: 360
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9142 43.5>
 VStem: 92 18<602 620>
 DStem2: 33 0 61 100 0.0947333 0.995503<102.203 304.385 395.877 622.801>
@@ -11888,6 +11933,7 @@ SplineSet
  236 234 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEA92 uniEE5A
 Colour: ffff78
 EndChar
@@ -11896,7 +11942,7 @@ StartChar: uniEA9B
 Encoding: 60059 60059 304
 Width: 299
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9157 43.5> 281 98<164.015 241.888> 451 21G<29.4343 31>
 VStem: 128 13<213.076 243.491> 138 142<240.9 351.191> 249 12<147.686 193.8> 252 28<183.651 307.5>
 DStem2: 33 0 61 100 0.095349 0.995444<102.214 524.389>
@@ -11944,6 +11990,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE77 uniEEE1
 Colour: ffff78
 EndChar
@@ -11951,7 +11998,7 @@ EndChar
 StartChar: uniEA9C
 Encoding: 60060 60060 305
 Width: 299
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9293 43.5> 281 98<164.015 241.888>
 VStem: 92 18<602 620> 128 13<213.076 243.491> 138 142<240.9 351.191> 249 12<147.182 193.8> 252 28<183.651 307.5>
 DStem2: 33 0 61 100 0.0947333 0.995503<102.203 312.443 390.756 622.801>
@@ -11997,13 +12044,14 @@ SplineSet
  251 178 252 196 252 212 c 0xe2
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA9D
 Encoding: 60061 60061 306
 Width: 299
-Flags: HW
+Flags: W
 HStem: 0 21G<34.8875 43.5> 281 98<164.015 241.888>
 VStem: 128 13<213.076 243.491> 138 142<240.9 351.191> 249 12<147.182 193.8> 252 28<183.651 307.5>
 DStem2: 33 0 61 100 0.0939564 0.995576<102.188 553.448>
@@ -12048,13 +12096,14 @@ SplineSet
  251 178 252 196 252 212 c 0xc4
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAA2
 Encoding: 60066 60066 307
 Width: 229
-Flags: HW
+Flags: W
 HStem: 0 21G<147 168.06>
 VStem: 147 19<0 19> 181 34<399.429 433.153>
 DStem2: 69 696 74 613 0.168813 0.985648<-80.9647 0> 147 0 166 0 0.102462 0.994737<1.94678 396.41>
@@ -12090,13 +12139,14 @@ SplineSet
  166 0 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAA3
 Encoding: 60067 60067 308
 Width: 261
-Flags: HW
+Flags: W
 HStem: 0 21G<152 173.071> 515 99<60 114.442> 656 20G<220 238.929>
 VStem: 152 19<0 19>
 DStem2: 152 0 171 0 0.103 0.994681<1.95699 365.482 517.514 666.478>
@@ -12130,6 +12180,7 @@ SplineSet
  171 0 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE78 uniEEE1
 Colour: ffff78
@@ -12138,7 +12189,7 @@ EndChar
 StartChar: uniEAA8
 Encoding: 60072 60072 309
 Width: 377
-Flags: HW
+Flags: W
 HStem: 0 21G<152 173.071> 515 99<60 114.442> 656 20G<220 238.929>
 VStem: 152 19<0 19>
 DStem2: 152 0 171 0 0.103 0.994681<1.95699 365.482 517.514 665.483>
@@ -12177,6 +12228,7 @@ SplineSet
  230 327 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEAA3 uniEE5A
 Colour: ffff78
 EndChar
@@ -12233,7 +12285,7 @@ EndChar
 StartChar: uniEAAE
 Encoding: 60078 60078 311
 Width: 377
-Flags: HW
+Flags: W
 HStem: 0 21G<148 169.071> 515 99<56 110.442> 656 20G<216 234.929>
 VStem: 148 19<0 19>
 DStem2: 148 0 167 0 0.103 0.994681<1.95699 365.482 517.514 666.478>
@@ -12277,6 +12329,7 @@ SplineSet
  356 346 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE79 uniEEE1
 Colour: ffff78
 EndChar
@@ -12329,6 +12382,7 @@ SplineSet
  259 118 262 147 262 175 c 0xe8
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7A uniEE53
 Colour: 4cff40
@@ -12337,7 +12391,7 @@ EndChar
 StartChar: uniEAB3
 Encoding: 60083 60083 313
 Width: 359
-Flags: HW
+Flags: W
 HStem: 0 79<12 58 79 117 242 291 311 347> 292 99<154.165 270.409>
 VStem: 291 20<79 174.343> 298 25<79.7969 248.086>
 DStem2: 58 79 79 79 0.186334 0.982487<3.91301 161.55>
@@ -12381,13 +12435,14 @@ SplineSet
  58 79 l 1xd0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAB4
 Encoding: 60084 60084 314
 Width: 306
-Flags: HW
+Flags: W
 HStem: 0 21G<18 42.0816 252 273.857> 292 99<129.21 242.968>
 VStem: 18 20<0 20> 252 19<0 19> 271 26<91.0135 246.656>
 DStem2: 18 0 38 0 0.195308 0.980742<3.90617 238.874 350.444 463.815> 252 0 271 0 0.141421 0.989949<2.68701 175.755>
@@ -12425,6 +12480,7 @@ SplineSet
  105 340 l 1xe8
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE7A uniEEE0
 Colour: ffff78
@@ -12433,7 +12489,7 @@ EndChar
 StartChar: uniEAB5
 Encoding: 60085 60085 315
 Width: 331
-Flags: HW
+Flags: W
 HStem: 0 21G<12 36.6735 244 267.328> 292 99<115.928 235.08>
 VStem: 12 21<0 21> 244 21<0 21>
 DStem2: 12 0 33 0 0.180652 0.983547<3.79368 240.222> 244 0 265 0 0.115599 0.993296<2.42758 179.614 308.226 453.226>
@@ -12471,6 +12527,7 @@ SplineSet
  265 0 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE7A uniEEE1
 Colour: ffff78
@@ -12479,7 +12536,7 @@ EndChar
 StartChar: uniEAB6
 Encoding: 60086 60086 316
 Width: 346
-Flags: HW
+Flags: W
 HStem: 0 18G<0 23.6735 235.979 277.348> 292 99<103.91 225.5>
 VStem: 0 20<0 20> 255 26<105.654 295.5>
 DStem2: 0 0 20 0 0.180652 0.983547<3.61303 233.679> 247 91 265 79 0.147311 0.98909<-9.21748 83.0548>
@@ -12517,13 +12574,14 @@ SplineSet
  233 -3 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAB7
 Encoding: 60087 60087 317
 Width: 300
-Flags: HW
+Flags: W
 HStem: -3 21G<195.5 231.348> 293 99<62.1709 170.332>
 VStem: 0 13<212.535 240.765> 209 31<114.896 284>
 AnchorPoint: "Shaidur" 8 191 basechar 0
@@ -12557,13 +12615,14 @@ SplineSet
  207 131 209 152 209 171 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAB9
 Encoding: 60089 60089 318
 Width: 548
-Flags: HW
+Flags: W
 HStem: 0 79<12 58 79 117 242 296 311 347> 292 99<154.165 270.409>
 VStem: 296 27<79.7969 253.561> 296 15<79 144.348> 429 23<0 23> 468 24<366 390>
 DStem2: 58 79 79 79 0.186334 0.982487<3.91301 161.55> 429 0 452 0 0.102029 0.994781<2.34666 138.708 270.81 391.944>
@@ -12620,13 +12679,14 @@ SplineSet
  402 193 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEABA
 Encoding: 60090 60090 319
 Width: 497
-Flags: HW
+Flags: W
 HStem: 0 21G<13 37.0816 247 268.857 369 394.179> 292 99<124.21 237.968>
 VStem: 13 20<0 20> 247 19<0 19> 266 26<91.0135 246.656> 369 23<0 23> 408 24<366 390>
 DStem2: 13 0 33 0 0.195308 0.980742<3.90617 238.874 350.444 463.815> 247 0 266 0 0.141421 0.989949<2.68701 175.755> 369 0 392 0 0.102029 0.994781<2.34666 138.708 270.81 391.944>
@@ -12677,6 +12737,7 @@ SplineSet
  100 340 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE7B uniEEE0
 Colour: ffff78
 EndChar
@@ -12684,7 +12745,7 @@ EndChar
 StartChar: uniEABB
 Encoding: 60091 60091 320
 Width: 503
-Flags: HW
+Flags: W
 HStem: 0 21G<18 42.6735 250 273.328 371 396.179> 292 99<121.928 241.08>
 VStem: 18 21<0 21> 250 21<0 21> 371 23<0 23> 410 24<366 390>
 DStem2: 18 0 39 0 0.180652 0.983547<3.79368 240.222> 250 0 271 0 0.115599 0.993296<2.42758 179.614 310.212 453.226> 371 0 394 0 0.102029 0.994781<2.34666 138.708 270.81 391.944>
@@ -12734,6 +12795,7 @@ SplineSet
  271 0 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE7B uniEEE1
 Colour: ffff78
 EndChar
@@ -12816,6 +12878,7 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7E uniEE5A
 Colour: 4cff40
@@ -12862,6 +12925,7 @@ SplineSet
  263 98 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE53
 Colour: 4cff40
@@ -12870,7 +12934,7 @@ EndChar
 StartChar: uniEABC
 Encoding: 60092 60092 323
 Width: 538
-Flags: HW
+Flags: W
 HStem: 0 18G<0 23.6735 235.979 277.348 419 444.179> 292 99<103.91 225.5>
 VStem: 0 20<0 20> 255 26<105.654 295.5> 419 23<0 23> 458 24<366 390>
 DStem2: 0 0 20 0 0.180652 0.983547<3.61303 233.679> 247 91 265 79 0.147311 0.98909<-9.21748 83.0548> 419 0 442 0 0.102029 0.994781<2.34666 138.708 270.81 391.944>
@@ -12921,13 +12985,14 @@ SplineSet
  392 193 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEABD
 Encoding: 60093 60093 324
 Width: 503
-Flags: HW
+Flags: W
 HStem: 0 18G<195.5 231.348 371 396.179> 293 99<63.2812 169.603>
 VStem: 0 13<212.535 240.765> 209 31<114.896 284> 371 23<0 23> 410 24<366 390>
 DStem2: 371 0 394 0 0.102029 0.994781<2.34666 138.708 270.81 391.944>
@@ -12976,6 +13041,7 @@ SplineSet
  344 193 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -12983,7 +13049,7 @@ StartChar: uniEB27
 Encoding: 60199 60199 325
 Width: 207
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 324
 VStem: 20 177
 AnchorPoint: "Shaidur" -84 270 basechar 0
@@ -13021,7 +13087,7 @@ EndChar
 StartChar: uniEA8C
 Encoding: 60044 60044 326
 Width: 784
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9936 52.779> 460 98<671.698 743.058>
 VStem: 94 18<602 620> 344 19<601 620> 419 19<601 620>
 DStem2: 33 0 62 100 0.0979143 0.995195<102.359 312.541 389.856 622.994> 233 279 212 181 0.859456 0.511209<-143.168 95.5247 117.826 188.308 210.609 503.142> 315 328 335 338 0.0988289 0.995104<11.9276 293.437> 395 375 415 385 0.0974925 0.995236<11.9022 246.173>
@@ -13069,13 +13135,14 @@ SplineSet
  335 338 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA8D
 Encoding: 60045 60045 327
 Width: 784
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9601 52.779> 460 98<671.698 743.058>
 VStem: 344 19<601 620> 419 19<601 620>
 DStem2: 33 0 62 100 0.0975363 0.995232<102.352 553.64> 233 279 212 181 0.859456 0.511209<-143.168 95.5247 117.826 188.308 210.609 503.142> 315 328 335 338 0.0988289 0.995104<11.9276 293.437> 395 375 415 385 0.0974925 0.995236<11.9022 246.173>
@@ -13122,13 +13189,14 @@ SplineSet
  335 338 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA92
 Encoding: 60050 60050 328
 Width: 205
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9142 43.5>
 VStem: 92 18<602 620>
 DStem2: 33 0 61 100 0.0947333 0.995503<102.203 304.385 395.877 622.801>
@@ -13162,6 +13230,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE75 uniEEE0
 Colour: ffff78
@@ -13170,7 +13239,7 @@ EndChar
 StartChar: uniEA93
 Encoding: 60051 60051 329
 Width: 205
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9157 43.5> 451 21G<29.4343 31>
 VStem: 26 161
 DStem2: 33 0 61 100 0.095349 0.995444<102.214 524.389>
@@ -13207,6 +13276,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE75 uniEEE1
 Colour: ffff78
@@ -13215,7 +13285,7 @@ EndChar
 StartChar: uniEAC0
 Encoding: 60096 60096 330
 Width: 443
-Flags: HW
+Flags: W
 HStem: -3 21G<131.5 135.5 301.5 305.5 353 374.06> 120 99<63.833 116.403 233.833 286.403> 515 99<261 309.169>
 VStem: 10 13<0.780029 33.3362> 129 32<28.7812 103.969> 129 12<-2.53125 43.8> 180 13<0.780029 33.3362> 299 32<28.7812 103.969> 299 12<-2.53125 43.8> 353 19<0 19> 387 34<399.429 434.206>
 DStem2: 272 279 293 287 0.181278 0.983432<11.6743 211.936> 353 0 372 0 0.102462 0.994737<1.94678 396.41>
@@ -13286,13 +13356,14 @@ SplineSet
  312 496 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAC1
 Encoding: 60097 60097 331
 Width: 443
-Flags: HW
+Flags: W
 HStem: -3 24G<131.5 135.5 301.5 305.5 352 373.06> 120 99<63.833 116.403 233.833 286.403>
 VStem: 10 13<0.780029 33.3362> 129 32<28.7812 103.969> 129 12<-2.53125 43.8> 180 13<0.780029 33.3362> 299 32<28.7812 103.969> 299 12<-2.53125 43.8> 352 19<0 19> 387 33<351 477>
 DStem2: 227 415 249 426 0.163595 0.986528<14.4509 104.706> 352 0 371 0 0.102462 0.994737<1.94678 368.421>
@@ -13361,6 +13432,7 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE7E uniEEE0
 Colour: ffff78
 EndChar
@@ -13368,7 +13440,7 @@ EndChar
 StartChar: uniEAC3
 Encoding: 60099 60099 332
 Width: 443
-Flags: HW
+Flags: W
 HStem: -3 21G<131.5 135.5 301.5 305.5 352 373.071> 120 99<63.833 116.403 233.833 286.403> 515 99<260 315.07> 656 20G<420 438.929>
 VStem: 10 13<0.780029 33.3362> 129 32<28.7812 103.969> 129 12<-2.53125 43.8> 180 13<0.780029 33.3362> 299 32<28.7812 103.969> 299 12<-2.53125 43.8> 352 19<0 19>
 DStem2: 352 0 371 0 0.103 0.994681<1.95699 400.013 517.514 665.483>
@@ -13436,6 +13508,7 @@ SplineSet
  260 614 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE7E uniEEE1
 Colour: ffff78
 EndChar
@@ -13480,6 +13553,7 @@ SplineSet
  268 415 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 234 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE50
 Colour: 4cff40
@@ -13488,7 +13562,7 @@ EndChar
 StartChar: uniEAC5
 Encoding: 60101 60101 334
 Width: 561
-Flags: HW
+Flags: W
 HStem: -3 21G<131.5 135.5 301.5 305.5 353 374.06> 120 99<63.833 116.403 233.833 286.403> 515 99<261 309.169>
 VStem: 10 13<0.780029 33.3362> 129 32<28.7812 103.969> 129 12<-2.53125 43.8> 180 13<0.780029 33.3362> 299 32<28.7812 103.969> 299 12<-2.53125 43.8> 353 19<0 19> 387 34<399.429 434.206>
 DStem2: 272 279 293 287 0.181278 0.983432<11.6743 211.936> 353 0 372 0 0.102462 0.994737<1.94678 396.41>
@@ -13564,6 +13638,7 @@ SplineSet
  312 496 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -13571,7 +13646,7 @@ StartChar: uniEAC6
 Encoding: 60102 60102 335
 Width: 561
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: -3 24G<131.5 135.5 301.5 305.5 352 373.06> 120 99<63.833 116.403 233.833 286.403>
 VStem: 10 13<0.780029 33.3362> 129 32<28.7812 103.969> 129 12<-2.53125 43.8> 180 13<0.780029 33.3362> 299 32<28.7812 103.969> 299 12<-2.53125 43.8> 352 19<0 19> 387 33<399.429 438.234>
 DStem2: 227 415 249 426 0.163595 0.986528<14.4509 104.706> 352 0 371 0 0.102462 0.994737<1.94678 368.421>
@@ -13645,6 +13720,7 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEAC1 uniEE5A
 Colour: ffff78
 EndChar
@@ -13695,6 +13771,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 231 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE51
 Colour: 4cff40
@@ -13704,7 +13781,7 @@ StartChar: uniEAC7
 Encoding: 60103 60103 337
 Width: 561
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: -3 24G<131.5 135.5 301.5 305.5 352 373.06> 120 99<63.833 116.403 233.833 286.403>
 VStem: 10 13<0.780029 33.3362> 129 32<28.7812 103.969> 129 12<-2.53125 43.8> 180 13<0.780029 33.3362> 299 32<28.7812 103.969> 299 12<-2.53125 43.8> 352 19<0 19> 386 34<399.429 433.153>
 DStem2: 274 696 279 613 0.168813 0.985648<-80.9647 0> 352 0 371 0 0.102462 0.994737<1.94678 396.41>
@@ -13779,6 +13856,7 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -13786,7 +13864,7 @@ StartChar: uniEAC8
 Encoding: 60104 60104 338
 Width: 561
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: -3 21G<131.5 135.5 301.5 305.5 352 373.071> 120 99<63.833 116.403 233.833 286.403> 515 99<260 315.07> 656 20G<420 438.929>
 VStem: 10 13<0.780029 33.3362> 129 32<28.7812 103.969> 129 12<-2.53125 43.8> 180 13<0.780029 33.3362> 299 32<28.7812 103.969> 299 12<-2.53125 43.8> 352 19<0 19>
 DStem2: 352 0 371 0 0.103 0.994681<1.95699 400.013 517.514 665.483>
@@ -13859,6 +13937,7 @@ SplineSet
  260 614 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEAC3 uniEE5A
 Colour: ffff78
 EndChar
@@ -13866,7 +13945,7 @@ EndChar
 StartChar: uniEAD0
 Encoding: 60112 60112 339
 Width: 780
-Flags: HW
+Flags: W
 HStem: 0 21G<3.06122 14>
 VStem: 711 16<434 442.824>
 DStem2: 198 279 177 181 0.859456 0.511209<-164.673 503.142> 729 531 771 641 0.187112 0.982339<0 98.842>
@@ -13915,6 +13994,7 @@ SplineSet
  275 150 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE84 uniEEE1
 Colour: ffff78
@@ -13923,7 +14003,7 @@ EndChar
 StartChar: uniEAD1
 Encoding: 60113 60113 340
 Width: 780
-Flags: HW
+Flags: W
 HStem: 0 21G<3.06122 14> 460 98<636.698 708.058>
 DStem2: 198 279 177 181 0.859456 0.511209<-164.673 213.862 239.927 503.142> 382 388 404 402 0.186086 0.982533<17.8494 134.347>
 AnchorPoint: "Shaidur" 193 468 basechar 0
@@ -13975,6 +14055,7 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Depriznakify-1" uniEE85
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE85 uniEEE0
@@ -13984,7 +14065,7 @@ EndChar
 StartChar: uniEAD4
 Encoding: 60116 60116 341
 Width: 784
-Flags: HW
+Flags: W
 HStem: 0 21G<34.954 52.779> 451 21G<29.4343 31> 460 98<671.698 743.058>
 DStem2: 33 0 62 100 0.0972382 0.995261<102.346 524.485> 233 279 212 181 0.859456 0.511209<-143.168 503.142> 430 253 417 158 0.859795 0.51064<-133.738 -59.6881 43.7681 117.818>
 AnchorPoint: "Shaidur" 243 482 basechar 0
@@ -14040,6 +14121,7 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE86 uniEEE1
 Colour: ffff78
 EndChar
@@ -14047,7 +14129,7 @@ EndChar
 StartChar: uniEAD8
 Encoding: 60120 60120 342
 Width: 338
-Flags: HW
+Flags: W
 HStem: 0 21G<80.2 96.4343 185.2 201.434 251 271.597> 299 93<124.052 239.006>
 VStem: 251 18<0 18>
 DStem2: 251 0 269 0 0.124035 0.992278<2.23263 173.723 324.227 435.362>
@@ -14094,6 +14176,7 @@ SplineSet
  305 432 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE88 uniEEE1
 Colour: ffff78
 EndChar
@@ -14101,7 +14184,7 @@ EndChar
 StartChar: uniEAD9
 Encoding: 60121 60121 343
 Width: 368
-Flags: HW
+Flags: W
 HStem: 0 18G<80.2 96.4343 185.2 201.434 258.5 294.348> 293 99<120.207 234.224>
 VStem: 73 13<242 255> 272 31<114.896 284.5>
 AnchorPoint: "Tikhaya" 62 110.5 basechar 0
@@ -14145,13 +14228,14 @@ SplineSet
  135 224 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEADA
 Encoding: 60122 60122 344
 Width: 287
-Flags: HW
+Flags: W
 HStem: 0 21G<87.2 103.434> 379 93<104.052 217.548>
 VStem: 231 18<80 98> 249 28<179.607 378.425>
 DStem2: 98 562 94 441 0.175713 0.984442<-119.82 0> 231 80 249 80 0.141421 0.989949<2.54558 173.634>
@@ -14200,13 +14284,14 @@ SplineSet
  167 472 171 471 175 471 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEADB
 Encoding: 60123 60123 345
 Width: 316
-Flags: HW
+Flags: W
 HStem: 0 21G<87.2 103.434> 379 93<104.052 219.006>
 VStem: 231 18<80 98>
 DStem2: 231 80 249 80 0.124035 0.992278<2.23263 173.723 324.227 435.362>
@@ -14253,13 +14338,14 @@ SplineSet
  117 324 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEADD
 Encoding: 60125 60125 346
 Width: 237
-Flags: HW
+Flags: W
 HStem: 0 21G<102.863 136.434> 409 94<55.6525 167.445>
 VStem: 181 18<110 128> 199 28<209.607 408.425>
 DStem2: 181 110 199 110 0.141421 0.989949<2.54558 173.634>
@@ -14310,13 +14396,14 @@ SplineSet
  120 503 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAD2
 Encoding: 60114 60114 347
 Width: 780
-Flags: HW
+Flags: W
 HStem: 0 21G<3.06122 14>
 VStem: 711 16<434 442.824>
 DStem2: 198 279 177 181 0.859456 0.511209<-164.673 503.142> 729 531 771 641 0.187112 0.982339<0 98.842>
@@ -14370,6 +14457,7 @@ SplineSet
  185 106 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE85 uniEEE1
 Colour: ffff78
@@ -14378,7 +14466,7 @@ EndChar
 StartChar: uniEAD3
 Encoding: 60115 60115 348
 Width: 784
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9737 52.779> 460 98<671.698 743.058>
 VStem: 94 18<602 620>
 DStem2: 33 0 62 100 0.0979143 0.995195<102.359 305.477 396.646 622.994> 233 279 212 181 0.859456 0.511209<-143.168 503.142> 430 253 417 158 0.859795 0.51064<-133.738 -59.6881 43.7681 117.818>
@@ -14432,6 +14520,7 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE86 uniEEE0
 Colour: ffff78
 EndChar
@@ -14439,7 +14528,7 @@ EndChar
 StartChar: uniEAD7
 Encoding: 60119 60119 349
 Width: 338
-Flags: HW
+Flags: W
 HStem: 0 21G<80.2 96.4343 185.2 201.434 251 271.857> 299 93<124.052 237.548>
 VStem: 251 18<0 18> 269 28<99.6073 298.425>
 DStem2: 118 482 114 361 0.195317 0.98074<-119.451 0> 251 0 269 0 0.141421 0.989949<2.54558 173.634>
@@ -14488,6 +14577,7 @@ SplineSet
  30 224 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE88 uniEEE0
 Colour: ffff78
 EndChar
@@ -14495,7 +14585,7 @@ EndChar
 StartChar: uniEADE
 Encoding: 60126 60126 350
 Width: 237
-Flags: HW
+Flags: W
 HStem: 0 21G<102.863 136.434> 409 93<54.0517 169.006>
 VStem: 181 18<110 128>
 DStem2: 181 110 199 110 0.124035 0.992278<2.23263 173.723 324.227 435.362>
@@ -14542,6 +14632,7 @@ SplineSet
  40 327 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -14599,6 +14690,7 @@ SplineSet
  345 124 327 56 277 56 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 239 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE98 uniEE50
 Colour: 4cff40
@@ -14608,7 +14700,7 @@ StartChar: uniEADF
 Encoding: 60127 60127 352
 Width: 303
 GlyphClass: 3
-Flags: HW
+Flags: W
 HStem: 0 21G<102.863 136.434> 403 99<51.5 164.224>
 VStem: 3 13<342.535 370.504> 202 31<224.896 394.5>
 AnchorPoint: "Tikhaya" 62 110.5 basechar 0
@@ -14652,6 +14744,7 @@ SplineSet
  40 327 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -14659,7 +14752,7 @@ StartChar: uniEAE1
 Encoding: 60129 60129 353
 Width: 436
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 567 95<215.645 293.394>
 VStem: 190 143<508 540 554.8 634.872> 302 31<461.25 554.08> 302 12<432.506 481.5>
 DStem2: 198 389 215 372 0.186016 0.982547<-5.4118 112.545> 261 443 244 344 0.707107 -0.707107<57.9828 183.848> 286 253 269 154 0.707107 -0.707107<57.9828 183.848>
@@ -14719,6 +14812,7 @@ SplineSet
  261 443 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE8E uniEEE0
 Colour: ffff78
@@ -14727,7 +14821,7 @@ EndChar
 StartChar: uniEAE2
 Encoding: 60130 60130 354
 Width: 436
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 567 95<225.343 293.394>
 VStem: 302 31<461.25 554.08>
 DStem2: 220 735 225 650 0.155563 0.987826<-83.1874 0> 261 443 244 344 0.707107 -0.707107<57.9828 183.848> 286 253 269 154 0.707107 -0.707107<57.9828 183.848>
@@ -14785,6 +14879,7 @@ SplineSet
  313 437 310 432 306 432 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -14834,6 +14929,7 @@ SplineSet
  237 244 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE93 uniEE50
 Colour: 4cff40
@@ -14843,7 +14939,7 @@ StartChar: uniEAE3
 Encoding: 60131 60131 356
 Width: 436
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 567 97<216.744 293.185>
 VStem: 180 14<497.872 530.719> 302 12<432.506 481.74>
 DStem2: 261 443 244 344 0.707107 -0.707107<57.9828 183.848> 286 253 269 154 0.707107 -0.707107<57.9828 183.848> 324 619 364 732 0.16934 0.985558<0 105.546>
@@ -14900,6 +14996,7 @@ SplineSet
  197 626 219 664 268 664 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE8E uniEEE1
 Colour: ffff78
@@ -14964,14 +15061,15 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAEC uniEE58
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAEC uniEE58
 Colour: ffff78
 EndChar
 
 StartChar: uniEAF2
 Encoding: 60146 60146 358
 Width: 359
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 26 98<231.18 298.01> 440 20G<113 130.25>
 VStem: 196 31<131.086 202.781> 215 12<183.733 229.783>
 DStem2: 113 451 110 332 0.180875 0.983506<-117.58 0>
@@ -15018,6 +15116,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE98 uniEEE0
 Colour: ffff78
 EndChar
@@ -15025,7 +15124,7 @@ EndChar
 StartChar: uniEAF3
 Encoding: 60147 60147 359
 Width: 359
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 26 98<231.18 298.01>
 VStem: 196 29<80 196.75> 215 12<183.733 229.68>
 AnchorPoint: "Kupnaya" 100.13 425.3 basechar 0
@@ -15071,6 +15170,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE98 uniEEE1
 Colour: ffff78
 EndChar
@@ -15078,7 +15178,7 @@ EndChar
 StartChar: uniEAF4
 Encoding: 60148 60148 360
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 56 98<251.18 318.01> 440 20G<113 130.25>
 VStem: 216 29<110 226.75> 235 12<213.733 259.68>
 DStem2: 113 450 110 332 0.181547 0.983382<-116.584 0>
@@ -15129,13 +15229,14 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAF5
 Encoding: 60149 60149 361
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 56 98<251.18 318.01>
 VStem: 216 31<161.086 232.781>
 AnchorPoint: "Kupnaya" 115.5 459.3 basechar 0
@@ -15186,14 +15287,15 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAF2 uniEE50
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAF2 uniEE50
 Colour: ffff78
 EndChar
 
 StartChar: uniEAF6
 Encoding: 60150 60150 362
 Width: 437
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 56 98<251.18 318.01>
 VStem: 216 31<161.086 232.781> 235 12<213.733 259.783>
 DStem2: 382 514 427 652 0.155275 0.987871<-6.57268 131.162>
@@ -15244,14 +15346,15 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAF3 uniEE50
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAF3 uniEE50
 Colour: ffff78
 EndChar
 
 StartChar: uniEAF8
 Encoding: 60152 60152 363
 Width: 340
-Flags: HW
+Flags: W
 HStem: -3 21G<8.6 15.5 302.5 305.5> 131 98<214.015 291.888> 440 20G<113 130.25>
 VStem: 178 13<63.0764 93.491> 188 142<90.9 201.191> 299 12<-2.81836 43.8> 302 28<33.6506 157.5>
 DStem2: 113 450 110 332 0.181547 0.983382<-116.584 0>
@@ -15298,6 +15401,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE90 uniEEE0
 Colour: ffff78
 EndChar
@@ -15305,7 +15409,7 @@ EndChar
 StartChar: uniEAF9
 Encoding: 60153 60153 364
 Width: 340
-Flags: HW
+Flags: W
 HStem: -3 21G<8.6 15.5 302.5 305.5> 131 98<214.015 291.888>
 VStem: 178 13<63.0764 93.491> 188 142<90.9 201.191> 299 12<-2.81836 43.8> 302 28<33.6506 157.5>
 AnchorPoint: "Kupnaya" 114.5 462 basechar 0
@@ -15351,6 +15455,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE90 uniEEE1
 Colour: ffff78
 EndChar
@@ -15358,7 +15463,7 @@ EndChar
 StartChar: uniEAFA
 Encoding: 60154 60154 365
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<239.078 319.633> 440 20G<113 130.25>
 VStem: 202 14<94.1991 127.913> 213 145<127.273 237.099> 326 12<27.3586 71.75> 329 29<63.875 149.867>
 DStem2: 113 451 110 332 0.180875 0.983506<-117.58 0>
@@ -15413,13 +15518,14 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAFB
 Encoding: 60155 60155 366
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<239.078 319.633>
 VStem: 202 14<94.1991 127.913> 213 145<127.273 237.099> 326 12<27.3586 71.75> 329 29<63.875 149.867>
 AnchorPoint: "Kupnaya" 111.5 461.3 basechar 0
@@ -15473,7 +15579,8 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAF8 uniEE50
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAF8 uniEE50
 Colour: ffff78
 EndChar
 
@@ -17140,6 +17247,7 @@ SplineSet
  134 64 116 -4 65 -4 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: 4cff40
 EndChar
 
@@ -17188,13 +17296,14 @@ SplineSet
  134 64 116 -4 65 -4 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: 4cff40
 EndChar
 
 StartChar: uniEA82
 Encoding: 60034 60034 399
 Width: 800
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9936 52.779> 460 98<671.698 743.058>
 VStem: 94 18<602 620>
 DStem2: 33 0 62 100 0.0979143 0.995195<102.359 312.541 389.856 622.994> 233 279 212 181 0.859456 0.511209<-143.168 503.142>
@@ -17234,13 +17343,14 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA83
 Encoding: 60035 60035 400
 Width: 800
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9601 52.779> 460 98<671.698 743.058>
 DStem2: 33 0 62 100 0.0975363 0.995232<102.352 553.64> 233 279 212 181 0.859456 0.511209<-143.168 503.142>
 AnchorPoint: "Shaidur" 15 342 basechar 0
@@ -17278,13 +17388,14 @@ SplineSet
  36 576 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA86
 Encoding: 60038 60038 401
 Width: 775
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9936 52.779 374 398.295> 460 98<671.698 743.058>
 VStem: 94 18<602 620> 374 22<0 22>
 DStem2: 33 0 62 100 0.0979143 0.995195<102.359 312.541 389.856 622.994> 233 279 212 181 0.859456 0.511209<-143.168 159.607 183.464 503.142> 374 0 396 0 0.114006 0.99348<2.50813 298.94>
@@ -17328,13 +17439,14 @@ SplineSet
  408 297 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA87
 Encoding: 60039 60039 402
 Width: 775
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9601 52.779 374 398.295> 460 98<671.698 743.058>
 VStem: 374 22<0 22>
 DStem2: 33 0 62 100 0.0975363 0.995232<102.352 553.64> 233 279 212 181 0.859456 0.511209<-143.168 159.607 183.464 503.142> 374 0 396 0 0.114006 0.99348<2.50813 298.94>
@@ -17377,13 +17489,14 @@ SplineSet
  408 297 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA97
 Encoding: 60055 60055 403
 Width: 366
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9157 43.5> 451 21G<29.4343 31>
 VStem: 26 315
 DStem2: 33 0 61 100 0.095349 0.995444<102.214 524.389>
@@ -17425,6 +17538,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEA93 uniEE5A
 Colour: ffff78
 EndChar
@@ -17432,7 +17546,7 @@ EndChar
 StartChar: uniEA98
 Encoding: 60056 60056 404
 Width: 366
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9293 43.5>
 VStem: 92 18<602 620>
 DStem2: 33 0 61 100 0.0947333 0.995503<102.203 312.443 390.756 622.801>
@@ -17471,13 +17585,14 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA99
 Encoding: 60057 60057 405
 Width: 366
-Flags: HW
+Flags: W
 HStem: 0 21G<34.8875 43.5>
 VStem: 33 308
 DStem2: 33 0 61 100 0.0939564 0.995576<102.188 553.448>
@@ -17515,13 +17630,14 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEA9A
 Encoding: 60058 60058 406
 Width: 299
-Flags: HW
+Flags: W
 HStem: 0 21G<34.9142 43.5> 281 98<164.015 241.888>
 VStem: 92 18<602 620> 128 13<213.076 243.491> 138 142<240.9 351.191> 249 12<147.686 193.8> 252 28<183.651 307.5>
 DStem2: 33 0 61 100 0.0947333 0.995503<102.203 304.385 395.877 622.801>
@@ -17566,6 +17682,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE77 uniEEE0
 Colour: ffff78
 EndChar
@@ -17573,7 +17690,7 @@ EndChar
 StartChar: uniEAA0
 Encoding: 60064 60064 407
 Width: 229
-Flags: HW
+Flags: W
 HStem: 0 21G<147 168.06> 515 99<55 103.169>
 VStem: 147 19<0 19> 181 34<399.429 434.206>
 DStem2: 66 279 87 287 0.181278 0.983432<11.6743 211.936> 147 0 166 0 0.102462 0.994737<1.94678 396.41>
@@ -17610,13 +17727,14 @@ SplineSet
  106 496 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAA1
 Encoding: 60065 60065 408
 Width: 256
-Flags: HW
+Flags: W
 HStem: 0 21G<159 180.06>
 VStem: 159 19<0 19> 194 33<399.429 438.234>
 DStem2: 34 415 56 426 0.163595 0.986528<14.4509 104.706> 159 0 178 0 0.102462 0.994737<1.94678 368.421>
@@ -17651,6 +17769,7 @@ SplineSet
  67 614 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE78 uniEEE0
 Colour: ffff78
@@ -17659,7 +17778,7 @@ EndChar
 StartChar: uniEAA5
 Encoding: 60069 60069 409
 Width: 377
-Flags: HW
+Flags: W
 HStem: 0 21G<147 168.06> 515 99<55 103.169>
 VStem: 147 19<0 19> 181 34<399.429 434.206>
 DStem2: 66 279 87 287 0.181278 0.983432<11.6743 211.936> 147 0 166 0 0.102462 0.994737<1.94678 396.41>
@@ -17701,13 +17820,14 @@ SplineSet
  106 496 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAA6
 Encoding: 60070 60070 410
 Width: 377
-Flags: HW
+Flags: W
 HStem: 0 21G<159 180.06>
 VStem: 159 19<0 19> 194 33<399.429 438.234>
 DStem2: 34 415 56 426 0.163595 0.986528<14.4509 104.706> 159 0 178 0 0.102462 0.994737<1.94678 368.421>
@@ -17747,6 +17867,7 @@ SplineSet
  230 327 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEAA1 uniEE5A
 Colour: ffff78
 EndChar
@@ -17754,7 +17875,7 @@ EndChar
 StartChar: uniEAA7
 Encoding: 60071 60071 411
 Width: 377
-Flags: HW
+Flags: W
 HStem: 0 21G<147 168.06>
 VStem: 147 19<0 19> 181 34<399.429 433.153>
 DStem2: 69 696 74 613 0.168813 0.985648<-80.9647 0> 147 0 166 0 0.102462 0.994737<1.94678 396.41>
@@ -17795,13 +17916,14 @@ SplineSet
  230 327 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAAB
 Encoding: 60075 60075 412
 Width: 372
-Flags: HW
+Flags: W
 HStem: 0 21G<147 168.06> 515 99<55 103.169>
 VStem: 147 19<0 19> 181 34<399.429 434.206>
 DStem2: 66 279 87 287 0.181278 0.983432<11.6743 211.936> 147 0 166 0 0.102462 0.994737<1.94678 396.41>
@@ -17848,13 +17970,14 @@ SplineSet
  106 496 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAAC
 Encoding: 60076 60076 413
 Width: 372
-Flags: HW
+Flags: W
 HStem: 0 21G<148 169.06>
 VStem: 148 19<0 19> 183 33<399.429 438.234>
 DStem2: 23 415 45 426 0.163595 0.986528<14.4509 104.706> 148 0 167 0 0.102462 0.994737<1.94678 368.421>
@@ -17899,6 +18022,7 @@ SplineSet
  356 346 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE79 uniEEE0
 Colour: ffff78
 EndChar
@@ -17906,7 +18030,7 @@ EndChar
 StartChar: uniEAAD
 Encoding: 60077 60077 414
 Width: 372
-Flags: HW
+Flags: W
 HStem: 0 21G<147 168.06>
 VStem: 147 19<0 19> 181 34<399.429 433.153>
 DStem2: 69 696 74 613 0.168813 0.985648<-80.9647 0> 147 0 166 0 0.102462 0.994737<1.94678 396.41>
@@ -17952,13 +18076,14 @@ SplineSet
  356 346 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAC2
 Encoding: 60098 60098 415
 Width: 443
-Flags: HW
+Flags: W
 HStem: -3 24G<131.5 135.5 301.5 305.5 352 373.06> 120 99<63.833 116.403 233.833 286.403>
 VStem: 10 13<0.780029 33.3362> 129 32<28.7812 103.969> 129 12<-2.53125 43.8> 180 13<0.780029 33.3362> 299 32<28.7812 103.969> 299 12<-2.53125 43.8> 352 19<0 19> 386 34<399.429 433.153>
 DStem2: 274 696 279 613 0.168813 0.985648<-80.9647 0> 352 0 371 0 0.102462 0.994737<1.94678 396.41>
@@ -18028,6 +18153,7 @@ SplineSet
  229 196 249 219 275 219 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
@@ -18083,6 +18209,7 @@ SplineSet
  455 94 437 26 387 26 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Depriznakify-1" uniEE82
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE82 uniEEE0
@@ -18143,6 +18270,7 @@ SplineSet
  688 557 691 557 693 557 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE82 uniEEE1
 Colour: ffff78
@@ -18151,7 +18279,7 @@ EndChar
 StartChar: uniEACD
 Encoding: 60109 60109 418
 Width: 780
-Flags: HW
+Flags: W
 HStem: 0 21G<3.06122 14> 460 98<636.698 708.058>
 DStem2: 198 279 177 181 0.859456 0.511209<-164.673 209.402 234.955 503.142> 378 386 400 399 0.187112 0.982339<16.8869 134.346>
 AnchorPoint: "Shaidur" 193 468 basechar 0
@@ -18193,6 +18321,7 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Depriznakify-1" uniEE83
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE83 uniEEE0
@@ -18202,7 +18331,7 @@ EndChar
 StartChar: uniEACE
 Encoding: 60110 60110 419
 Width: 780
-Flags: HW
+Flags: W
 HStem: 0 21G<3.06122 14> 460 98<636.872 707.969>
 VStem: 711 16<434 442.824>
 DStem2: 198 279 177 181 0.8678 0.496914<-155.212 504.542> 730 532 771 641 0.187112 0.982339<0 97.6725>
@@ -18246,6 +18375,7 @@ SplineSet
  338 196 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE83 uniEEE1
 Colour: ffff78
@@ -18254,7 +18384,7 @@ EndChar
 StartChar: uniEACF
 Encoding: 60111 60111 420
 Width: 780
-Flags: HW
+Flags: W
 HStem: 0 21G<3.06122 14> 460 98<636.698 708.058>
 DStem2: 198 279 177 181 0.859456 0.511209<-164.673 207.171 232.725 503.142> 376 385 398 398 0.190259 0.981734<16.9482 131.4>
 AnchorPoint: "Shaidur" 193 468 basechar 0
@@ -18301,6 +18431,7 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Depriznakify-1" uniEE84
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE84 uniEEE0
@@ -18310,7 +18441,7 @@ EndChar
 StartChar: uniEADC
 Encoding: 60124 60124 421
 Width: 353
-Flags: HW
+Flags: W
 HStem: 0 21G<87.2 103.434> 373 99<100.207 214.224>
 VStem: 53 13<322 335> 252 31<194.896 364.5>
 AnchorPoint: "Tikhaya" 62 110.5 basechar 0
@@ -18354,13 +18485,14 @@ SplineSet
  117 324 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAE0
 Encoding: 60128 60128 422
 Width: 436
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<114 131.378> 567 95<215.645 293.394>
 VStem: 190 143<508 540 554.8 634.872> 302 31<461.25 554.08> 302 12<432.506 481.5>
 DStem2: 85 296 112 333 0.185201 0.982701<41.3604 156.707> 261 443 244 344 0.707107 -0.707107<57.9828 183.848> 286 253 269 154 0.707107 -0.707107<57.9828 183.848>
@@ -18420,13 +18552,14 @@ SplineSet
  261 443 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAE5
 Encoding: 60133 60133 423
 Width: 229
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
 VStem: 5 214
 DStem2: 113 451 110 332 0.180875 0.983506<-117.58 0>
@@ -18461,7 +18594,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE8F uniEEE0
 Colour: ffff78
 EndChar
@@ -18469,7 +18602,7 @@ EndChar
 StartChar: uniEAE6
 Encoding: 60134 60134 424
 Width: 252
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 VStem: 5 237
 AnchorPoint: "Kupnaya" 112.5 451.3 basechar 0
@@ -18503,7 +18636,7 @@ SplineSet
  221 518 l 1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE8F uniEEE1
 Colour: ffff78
 EndChar
@@ -18511,9 +18644,9 @@ EndChar
 StartChar: uniEAE7
 Encoding: 60135 60135 425
 Width: 414
-Flags: HW
-HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
-DStem2: 113 451 110 332 0.180875 0.983506<-117.58 0>
+Flags: W
+HStem: 0 21G<8.6 15.5> 440 20G<106 130.25>
+DStem2: 65 190 110 332 0.155185 0.987885<147.263 264.201>
 AnchorPoint: "Kupnaya" 122 524 basechar 0
 AnchorPoint: "Shaidur" 10 187 basechar 0
 AnchorPoint: "Otsechka" 222 117 basechar 0
@@ -18550,13 +18683,14 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAE8
 Encoding: 60136 60136 426
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 AnchorPoint: "Kupnaya" 120 450 basechar 0
 AnchorPoint: "Shaidur" 10 187 basechar 0
@@ -18594,14 +18728,15 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAE5 uniEE50
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAE5 uniEE50
 Colour: ffff78
 EndChar
 
 StartChar: uniEAE9
 Encoding: 60137 60137 427
 Width: 437
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 AnchorPoint: "Kupnaya" 117 453 basechar 0
 AnchorPoint: "Shaidur" 10 187 basechar 0
@@ -18639,14 +18774,15 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAE6 uniEE50
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAE6 uniEE50
 Colour: ffff78
 EndChar
 
 StartChar: uniEAEA
 Encoding: 60138 60138 428
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
 DStem2: 113 451 110 332 0.180875 0.983506<-117.58 0>
 AnchorPoint: "Kupnaya" 108 524 basechar 0
@@ -18690,13 +18826,14 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEAEB
 Encoding: 60139 60139 429
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 AnchorPoint: "Kupnaya" 108 458 basechar 0
 AnchorPoint: "Tikhaya" 62 110.5 basechar 0
@@ -18739,14 +18876,15 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAE5 uniEE51
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAE5 uniEE51
 Colour: ffff78
 EndChar
 
 StartChar: uniEAEC
 Encoding: 60140 60140 430
 Width: 437
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 AnchorPoint: "Kupnaya" 106 458 basechar 0
 AnchorPoint: "Zevok" 105 455 basechar 0
@@ -18789,7 +18927,8 @@ SplineSet
  208 225 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAE6 uniEE51
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAE6 uniEE51
 Colour: ffff78
 EndChar
 
@@ -18849,7 +18988,8 @@ SplineSet
  244 657 254 662 266 662 c 0
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAE8 uniEE58
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAE8 uniEE58
 Colour: ffff78
 EndChar
 
@@ -18907,7 +19047,8 @@ SplineSet
  327 744 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAE9 uniEE58
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAE9 uniEE58
 Colour: ffff78
 EndChar
 
@@ -18971,14 +19112,15 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAEB uniEE58
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAEB uniEE58
 Colour: ffff78
 EndChar
 
 StartChar: uniEAFC
 Encoding: 60156 60156 434
 Width: 437
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<239.078 319.633>
 VStem: 202 14<94.1991 127.913> 213 145<127.273 237.099> 326 12<27.3586 71.75> 329 29<63.875 149.867>
 AnchorPoint: "Kupnaya" 114 463 basechar 0
@@ -19032,14 +19174,15 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEAF9 uniEE50
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEAF9 uniEE50
 Colour: ffff78
 EndChar
 
 StartChar: uniEAFE
 Encoding: 60158 60158 435
 Width: 323
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5 229.875 249> 440 20G<113 130.25>
 VStem: 5 308
 DStem2: 113 450 110 332 0.181547 0.983382<-116.584 0> 228 0 249 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277>
@@ -19087,6 +19230,7 @@ SplineSet
  203 141 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE91 uniEEE0
 Colour: ffff78
 EndChar
@@ -19094,7 +19238,7 @@ EndChar
 StartChar: uniEAFF
 Encoding: 60159 60159 436
 Width: 323
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5 229.875 249>
 VStem: 5 308
 DStem2: 228 0 249 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277>
@@ -19142,6 +19286,7 @@ SplineSet
  203 141 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE91 uniEEE1
 Colour: ffff78
 EndChar
@@ -19149,7 +19294,7 @@ EndChar
 StartChar: uniEB00
 Encoding: 60160 60160 437
 Width: 466
-Flags: HW
+Flags: W
 HStem: -3 21G<8.6 15.5 292.5 295.5 372.875 392> 131 98<204.015 281.888> 440 20G<113 130.25>
 VStem: 168 13<63.0764 93.491> 289 12<-2.81836 43.8> 292 28<33.6506 157.5>
 DStem2: 113 450 110 332 0.181547 0.983382<-116.584 0> 371 0 392 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277>
@@ -19209,6 +19354,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE92 uniEEE0
 Colour: ffff78
 EndChar
@@ -19216,7 +19362,7 @@ EndChar
 StartChar: uniEB01
 Encoding: 60161 60161 438
 Width: 466
-Flags: HW
+Flags: W
 HStem: -3 21G<8.6 15.5 292.5 295.5 372.875 392> 131 98<204.015 281.888>
 VStem: 168 13<63.0764 93.491> 289 12<-2.81836 43.8> 292 28<33.6506 157.5>
 DStem2: 197 389 242 527 0.159504 0.987197<-6.6139 131.177> 371 0 392 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277>
@@ -19276,6 +19422,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE92 uniEEE1
 Colour: ffff78
 EndChar
@@ -19283,7 +19430,7 @@ EndChar
 StartChar: uniEB03
 Encoding: 60163 60163 439
 Width: 327
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
 VStem: 5 312
 DStem2: 113 450 110 332 0.181547 0.983382<-116.584 0>
@@ -19323,6 +19470,7 @@ SplineSet
  237 244 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE93 uniEEE0
 Colour: ffff78
 EndChar
@@ -19330,7 +19478,7 @@ EndChar
 StartChar: uniEB04
 Encoding: 60164 60164 440
 Width: 327
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 VStem: 5 312
 AnchorPoint: "Kupnaya" 113 427 basechar 0
@@ -19369,6 +19517,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE93 uniEEE1
 Colour: ffff78
 EndChar
@@ -19376,7 +19525,7 @@ EndChar
 StartChar: uniEB05
 Encoding: 60165 60165 441
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 440 20G<113 130.25>
 DStem2: 113 450 110 332 0.181547 0.983382<-116.584 0>
 AnchorPoint: "Kupnaya" 240 564 basechar 0
@@ -19420,13 +19569,14 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEB06
 Encoding: 60166 60166 442
 Width: 414
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 AnchorPoint: "Kupnaya" 239 613 basechar 0
 AnchorPoint: "Shaidur" 7 195 basechar 0
@@ -19469,14 +19619,15 @@ SplineSet
  237 244 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEB03 uniEE50
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEB03 uniEE50
 Colour: ffff78
 EndChar
 
 StartChar: uniEB07
 Encoding: 60167 60167 443
 Width: 437
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5>
 AnchorPoint: "Kupnaya" 228 564 basechar 0
 AnchorPoint: "Shaidur" 7 195 basechar 0
@@ -19519,14 +19670,15 @@ SplineSet
  237 244 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Priznak Composition-1" uniEB04 uniEE50
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Ligature2: "'ccmp' Priznak-based Compositions-1" uniEB04 uniEE50
 Colour: ffff78
 EndChar
 
 StartChar: uniEB08
 Encoding: 60168 60168 444
 Width: 515
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<386.078 466.633> 440 20G<113 130.25>
 VStem: 349 14<94.1991 127.913> 360 145<127.273 237.099> 473 12<27.3586 71.75> 476 29<63.875 149.867>
 DStem2: 113 451 110 332 0.180875 0.983506<-117.58 0>
@@ -19586,13 +19738,14 @@ SplineSet
  473 56 476 72 476 86 c 0xe2
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEB09
 Encoding: 60169 60169 445
 Width: 515
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<386.078 466.633>
 VStem: 349 14<94.1991 127.913> 360 145<127.273 237.099> 473 12<27.3586 71.75> 476 29<63.875 149.867>
 AnchorPoint: "Kupnaya" 246 596 basechar 0
@@ -19651,6 +19804,7 @@ SplineSet
  473 56 476 72 476 86 c 0xc4
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE94 uniEEE0 uniEE50
 Colour: ffff78
 EndChar
@@ -19658,7 +19812,7 @@ EndChar
 StartChar: uniEB0A
 Encoding: 60170 60170 446
 Width: 515
-Flags: HW
+Flags: W
 HStem: 0 21G<8.6 15.5> 164 100<386.078 466.633>
 VStem: 349 14<94.1991 127.913> 360 145<127.273 237.099> 473 12<27.3586 71.75> 476 29<63.875 149.867>
 AnchorPoint: "Kupnaya" 240 574 basechar 0
@@ -19717,6 +19871,7 @@ SplineSet
  473 56 476 72 476 86 c 0xc4
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE94 uniEEE1 uniEE50
 Colour: ffff78
 EndChar
@@ -19724,7 +19879,7 @@ EndChar
 StartChar: uniEB0C
 Encoding: 60172 60172 447
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215> 460 98<837.698 909.058>
 DStem2: 113 301 110 182 0.180875 0.983506<-117.58 0> 399 279 378 181 0.859456 0.511209<-164.673 503.142>
 AnchorPoint: "Shaidur" 143.996 364.625 basechar 0
@@ -19769,13 +19924,14 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEB0D
 Encoding: 60173 60173 448
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215> 460 98<837.698 909.058>
 DStem2: 399 279 378 181 0.859456 0.511209<-164.673 503.142>
 AnchorPoint: "Shaidur" 77 343 basechar 0
@@ -19820,6 +19976,8 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Substitution2: "Depriznakify-1" uniEE9A
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9A uniEEE0
 Colour: ffff78
@@ -19828,7 +19986,7 @@ EndChar
 StartChar: uniEB0E
 Encoding: 60174 60174 449
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215>
 VStem: 912 16<434 442.824>
 DStem2: 399 279 378 181 0.859456 0.511209<-164.673 503.142> 930 531 972 641 0.187112 0.982339<0 98.842>
@@ -19877,6 +20035,7 @@ SplineSet
  216 98 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9A uniEEE1
 Colour: ffff78
@@ -19885,7 +20044,7 @@ EndChar
 StartChar: uniEB0F
 Encoding: 60175 60175 450
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215 545 569.357> 444 58<478.101 534.82> 460 98<837.698 909.058> 803 17<461.366 521.691>
 VStem: 413 28<729 784.03> 477 59<445.023 500.894> 501 9<538 559.232> 545 22<0 22> 553 50<670.002 787.36>
 DStem2: 113 301 110 182 0.180875 0.983506<-117.58 0> 399 279 378 181 0.859456 0.511209<-164.673 166.808 194.081 503.142> 545 0 567 0 0.117025 0.993129<2.57454 303.028>
@@ -19953,13 +20112,14 @@ SplineSet
  580 301 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEB10
 Encoding: 60176 60176 451
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215 545 569.357> 444 58<478.101 534.82> 460 98<837.698 909.058> 803 17<461.366 521.691>
 VStem: 413 28<729 784.03> 477 59<445.023 500.894> 501 9<538 559.232> 545 22<0 22> 553 50<670.002 787.36>
 DStem2: 399 279 378 181 0.859456 0.511209<-164.673 166.808 194.081 503.142> 545 0 567 0 0.117025 0.993129<2.57454 303.028>
@@ -20027,6 +20187,7 @@ SplineSet
  580 301 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9B uniEEE0
 Colour: ffff78
 EndChar
@@ -20034,7 +20195,7 @@ EndChar
 StartChar: uniEB11
 Encoding: 60177 60177 452
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215 545 569.357> 460 96<834.358 909.575>
 VStem: 545 22<0 22> 912 16<434 444.391>
 DStem2: 399 279 378 181 0.859456 0.511209<-164.673 166.808 194.081 503.142> 545 0 567 0 0.117025 0.993129<2.57454 303.028> 930 531 972 641 0.187112 0.982339<0 98.842>
@@ -20087,6 +20248,7 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9B uniEEE1
 Colour: ffff78
 EndChar
@@ -20094,7 +20256,7 @@ EndChar
 StartChar: uniEB13
 Encoding: 60179 60179 453
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215 563.875 583> 460 98<837.698 909.058>
 DStem2: 113 301 110 182 0.180875 0.983506<-117.58 0> 399 279 378 181 0.859456 0.511209<-164.673 503.142> 562 0 583 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277>
 AnchorPoint: "Shaidur" 177 431 basechar 0
@@ -20152,13 +20314,14 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEB14
 Encoding: 60180 60180 454
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215 563.875 583> 460 98<837.698 909.058>
 DStem2: 399 279 378 181 0.859456 0.511209<-164.673 503.142> 562 0 583 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277>
 AnchorPoint: "Shaidur" 177 431 basechar 0
@@ -20216,6 +20379,7 @@ SplineSet
  24 -50 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9C uniEEE0
 Colour: ffff78
 EndChar
@@ -20223,7 +20387,7 @@ EndChar
 StartChar: uniEB15
 Encoding: 60181 60181 455
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215 563.875 583>
 VStem: 912 16<434 442.824>
 DStem2: 399 279 378 181 0.859456 0.511209<-164.673 503.142> 562 0 583 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277> 930 531 972 641 0.187112 0.982339<0 98.842>
@@ -20285,6 +20449,7 @@ SplineSet
  537 141 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9C uniEEE1
 Colour: ffff78
 EndChar
@@ -20292,7 +20457,7 @@ EndChar
 StartChar: uniEB17
 Encoding: 60183 60183 456
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215> 460 98<837.698 909.058>
 DStem2: 113 301 110 182 0.180875 0.983506<-117.58 0> 399 279 378 181 0.859456 0.511209<-164.673 503.142>
 AnchorPoint: "Shaidur" 171 422 basechar 0
@@ -20347,13 +20512,14 @@ SplineSet
  476 150 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff78
 EndChar
 
 StartChar: uniEB18
 Encoding: 60184 60184 457
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215> 460 98<837.698 909.058>
 DStem2: 399 279 378 181 0.859456 0.511209<-164.673 503.142>
 AnchorPoint: "Shaidur" 126 392 basechar 0
@@ -20408,6 +20574,7 @@ SplineSet
  476 150 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9D uniEEE0
 Colour: ffff78
 EndChar
@@ -20415,7 +20582,7 @@ EndChar
 StartChar: uniEB19
 Encoding: 60185 60185 458
 Width: 955
-Flags: HW
+Flags: W
 HStem: 0 21G<204.061 215>
 VStem: 912 16<434 442.824>
 DStem2: 399 279 378 181 0.859456 0.511209<-164.673 503.142> 930 531 972 641 0.187112 0.982339<0 98.842>
@@ -20474,6 +20641,7 @@ SplineSet
  476 150 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9D uniEEE1
 Colour: ffff78
 EndChar
@@ -20481,7 +20649,7 @@ EndChar
 StartChar: uniEB1B
 Encoding: 60187 60187 459
 Width: 1044
-Flags: HW
+Flags: W
 HStem: -1 22G<2 4.5 120.5 125.5 152 154.5 270.5 275.5 303.061 314> 120 99<54.2083 105.938 204.286 255.938>
 VStem: 11 140<58.65 161.503> 120 31<31.3125 101.332> 120 11<-2.64857 33.9771> 161 140<58.65 161.503> 270 31<31.3125 101.332> 270 11<-2.64857 33.9771> 1011 16<434 442.824>
 DStem2: 498 279 477 181 0.859456 0.511209<-164.673 503.142> 1029 531 1071 641 0.187112 0.982339<0 98.842>
@@ -20502,49 +20670,50 @@ AnchorPoint: "Tonal" 598 455 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-477 181 m 2,13,14
-315 98 m 1,0,1
- 337 167 439 244 498 279 c 2,2,-1
- 883 508 l 1,3,4
- 883 508 950 547 983 556 c 1,5,-1
- 1002 556 l 1,6,7
- 1012 552 1021 541 1029 531 c 1,8,-1
- 1048 628 l 1,9,-1
- 1071 641 l 1,10,-1
- 1027 410 l 1,11,-1
- 1011 434 l 1,12,-1
- 1011 435 l 1,13,14
- 1001 448 982 456 977 460 c 1,15,16
- 952 460 862 410 862 410 c 1,17,-1
- 477 181 l 2,18,19
- 413 143 328 84 300 0 c 1,20,-1
- 315 98 l 1,0,1
-131 6 m 2,21,22
- 130 1 127 -3 124 -3 c 0,23,24
- 117 -3 120 17 120 26 c 0,25,26
- 120 68 109 120 78 120 c 0,27,28
- 45 120 23 59 13 10 c 0,29,30
- 11 3 6 -1 3 -1 c 0,31,32
- 1 -1 -1 1 0 6 c 2,33,-1
- 11 88 l 2,34,35
- 19 149 51 219 95 219 c 0,36,37
- 134 219 151 182 151 134 c 0,38,39
- 151 119 149 103 146 87 c 2,40,-1
- 131 6 l 2,21,22
-281 6 m 2,41,42
- 280 1 277 -3 274 -3 c 0,43,44
- 267 -3 270 17 270 26 c 0,45,46
- 270 68 259 120 228 120 c 0,47,48
- 195 120 174 59 163 10 c 0,49,50
- 161 3 156 -1 153 -1 c 0,51,52
- 151 -1 149 1 150 6 c 2,53,-1
- 161 88 l 2,54,55
- 169 149 201 219 245 219 c 0,56,57
- 284 219 301 182 301 134 c 0,58,59
- 301 119 299 103 296 87 c 2,60,-1
- 281 6 l 2,41,42
+477 181 m 2,0,-1
+315 98 m 1,1,-1
+ 337 167 439 244 498 279 c 2,4,-1
+ 883 508 l 1,5,-1
+ 883 508 950 547 983 556 c 1,8,-1
+ 1002 556 l 1,9,-1
+ 1012 552 1021 541 1029 531 c 1,12,-1
+ 1048 628 l 1,13,-1
+ 1071 641 l 1,14,-1
+ 1027 410 l 1,15,-1
+ 1011 434 l 1,16,-1
+ 1011 435 l 1,17,-1
+ 1001 448 982 456 977 460 c 1,20,-1
+ 952 460 862 410 862 410 c 1,23,-1
+ 477 181 l 2,24,-1
+ 413 143 328 84 300 0 c 1,27,-1
+ 315 98 l 1,1,-1
+131 6 m 2,28,-1
+ 130 1 127 -3 124 -3 c 0,31,-1
+ 117 -3 120 17 120 26 c 0,34,-1
+ 120 68 109 120 78 120 c 0,37,-1
+ 45 120 23 59 13 10 c 0,40,-1
+ 11 3 6 -1 3 -1 c 0,43,-1
+ 1 -1 -1 1 0 6 c 2,46,-1
+ 11 88 l 2,47,-1
+ 19 149 51 219 95 219 c 0,50,-1
+ 134 219 151 182 151 134 c 0,53,-1
+ 151 119 149 103 146 87 c 2,56,-1
+ 131 6 l 2,28,-1
+281 6 m 2,57,-1
+ 280 1 277 -3 274 -3 c 0,60,-1
+ 267 -3 270 17 270 26 c 0,63,-1
+ 270 68 259 120 228 120 c 0,66,-1
+ 195 120 174 59 163 10 c 0,69,-1
+ 161 3 156 -1 153 -1 c 0,72,-1
+ 151 -1 149 1 150 6 c 2,75,-1
+ 161 88 l 2,76,-1
+ 169 149 201 219 245 219 c 0,79,-1
+ 284 219 301 182 301 134 c 0,82,-1
+ 301 119 299 103 296 87 c 2,85,-1
+ 281 6 l 2,57,-1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9E uniEEE1
 Colour: ffff78
 EndChar
@@ -20552,7 +20721,7 @@ EndChar
 StartChar: uniEB1C
 Encoding: 60188 60188 460
 Width: 1073
-Flags: HW
+Flags: W
 HStem: -1 22G<2 4.5 120.5 125.5 152 154.5 270.5 275.5 303.061 314> 120 99<54.2083 105.938 204.208 255.938>
 VStem: 11 140<58.65 161.503> 120 31<31.3125 101.332> 120 11<-2.64857 33.9771> 161 140<58.65 161.503> 270 31<31.3125 101.332> 270 11<-2.64857 33.9771> 1011 16<434 442.824>
 DStem2: 498 279 477 181 0.859456 0.511209<-164.673 503.142> 1029 531 1071 641 0.187112 0.982339<0 98.842>
@@ -20573,59 +20742,60 @@ AnchorPoint: "Tonal" 628 467 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-477 181 m 2,13,14
-315 98 m 1,0,1
- 337 167 439 244 498 279 c 2,2,-1
- 883 508 l 1,3,4
- 883 508 948 545 981 556 c 1,5,-1
- 1001 557 l 1,6,7
- 1011 553 1021 542 1029 531 c 1,8,-1
- 1048 628 l 1,9,-1
- 1071 641 l 1,10,-1
- 1027 410 l 1,11,-1
- 1011 434 l 1,12,-1
- 1011 435 l 1,13,14
- 1001 448 982 456 977 460 c 1,15,16
- 952 460 862 410 862 410 c 1,17,-1
- 477 181 l 2,18,19
- 413 143 328 84 300 0 c 1,20,-1
- 315 98 l 1,0,1
-728 240 m 1,21,22
- 750 284 833 327 833 327 c 1,23,-1
- 820 232 l 1,24,25
- 820 232 738 191 713 142 c 1,26,-1
- 728 240 l 1,21,22
-575 150 m 1,27,28
- 597 194 680 237 680 237 c 1,29,-1
- 667 142 l 1,30,31
- 667 142 585 101 560 52 c 1,32,-1
- 575 150 l 1,27,28
-131 6 m 2,33,34
- 130 1 127 -3 124 -3 c 0,35,36
- 117 -3 120 17 120 26 c 0,37,38
- 120 68 109 120 78 120 c 0,39,40
- 45 120 23 59 13 10 c 0,41,42
- 11 3 6 -1 3 -1 c 0,43,44
- 1 -1 -1 1 0 6 c 2,45,-1
- 11 88 l 2,46,47
- 19 149 51 219 95 219 c 0,48,49
- 134 219 151 182 151 134 c 0,50,51
- 151 119 149 103 146 87 c 2,52,-1
- 131 6 l 2,33,34
-281 6 m 2,53,54
- 280 1 277 -3 274 -3 c 0,55,56
- 267 -3 270 17 270 26 c 0,57,58
- 270 68 259 120 228 120 c 0,59,60
- 195 120 173 59 163 10 c 0,61,62
- 161 3 156 -1 153 -1 c 0,63,64
- 151 -1 149 1 150 6 c 2,65,-1
- 161 88 l 2,66,67
- 169 149 201 219 245 219 c 0,68,69
- 284 219 301 182 301 134 c 0,70,71
- 301 119 299 103 296 87 c 2,72,-1
- 281 6 l 2,53,54
+477 181 m 2,0,-1
+315 98 m 1,1,-1
+ 337 167 439 244 498 279 c 2,4,-1
+ 883 508 l 1,5,-1
+ 883 508 948 545 981 556 c 1,8,-1
+ 1001 557 l 1,9,-1
+ 1011 553 1021 542 1029 531 c 1,12,-1
+ 1048 628 l 1,13,-1
+ 1071 641 l 1,14,-1
+ 1027 410 l 1,15,-1
+ 1011 434 l 1,16,-1
+ 1011 435 l 1,17,-1
+ 1001 448 982 456 977 460 c 1,20,-1
+ 952 460 862 410 862 410 c 1,23,-1
+ 477 181 l 2,24,-1
+ 413 143 328 84 300 0 c 1,27,-1
+ 315 98 l 1,1,-1
+728 240 m 1,28,-1
+ 750 284 833 327 833 327 c 1,31,-1
+ 820 232 l 1,32,-1
+ 820 232 738 191 713 142 c 1,35,-1
+ 728 240 l 1,28,-1
+575 150 m 1,36,-1
+ 597 194 680 237 680 237 c 1,39,-1
+ 667 142 l 1,40,-1
+ 667 142 585 101 560 52 c 1,43,-1
+ 575 150 l 1,36,-1
+131 6 m 2,44,-1
+ 130 1 127 -3 124 -3 c 0,47,-1
+ 117 -3 120 17 120 26 c 0,50,-1
+ 120 68 109 120 78 120 c 0,53,-1
+ 45 120 23 59 13 10 c 0,56,-1
+ 11 3 6 -1 3 -1 c 0,59,-1
+ 1 -1 -1 1 0 6 c 2,62,-1
+ 11 88 l 2,63,-1
+ 19 149 51 219 95 219 c 0,66,-1
+ 134 219 151 182 151 134 c 0,69,-1
+ 151 119 149 103 146 87 c 2,72,-1
+ 131 6 l 2,44,-1
+281 6 m 2,73,-1
+ 280 1 277 -3 274 -3 c 0,76,-1
+ 267 -3 270 17 270 26 c 0,79,-1
+ 270 68 259 120 228 120 c 0,82,-1
+ 195 120 173 59 163 10 c 0,85,-1
+ 161 3 156 -1 153 -1 c 0,88,-1
+ 151 -1 149 1 150 6 c 2,91,-1
+ 161 88 l 2,92,-1
+ 169 149 201 219 245 219 c 0,95,-1
+ 284 219 301 182 301 134 c 0,98,-1
+ 301 119 299 103 296 87 c 2,101,-1
+ 281 6 l 2,73,-1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEE9F uniEEE1
 Colour: ffff78
 EndChar
@@ -20633,7 +20803,7 @@ EndChar
 StartChar: uniEB1E
 Encoding: 60190 60190 461
 Width: 1044
-Flags: HW
+Flags: W
 HStem: 0 21G<2 4.5 120.5 125.5 212.875 232 303.061 314> 120 99<54.286 105.938>
 VStem: 11 140<58.65 161.503> 120 31<31.3125 101.332> 120 11<-2.64857 33.9771> 1011 16<434 442.824>
 DStem2: 211 0 232 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277> 498 279 477 181 0.859456 0.511209<-164.673 503.142> 1029 531 1071 641 0.187112 0.982339<0 98.842>
@@ -20654,50 +20824,51 @@ AnchorPoint: "Tonal" 619 458 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-477 181 m 6,13,14
-315 98 m 1,0,1
- 337 167 439 244 498 279 c 2,2,-1
- 883 508 l 1,3,4
- 883 508 948 545 981 556 c 1,5,-1
- 1001 557 l 1,6,7
- 1011 553 1021 542 1029 531 c 1,8,-1
- 1048 628 l 1,9,-1
- 1071 641 l 1,10,-1
- 1027 410 l 1,11,-1
- 1011 434 l 1,12,-1
- 1011 435 l 1,13,14
- 1001 448 982 456 977 460 c 1,15,16
- 952 460 862 410 862 410 c 1,17,-1
- 477 181 l 2,18,19
- 413 143 328 84 300 0 c 1,20,-1
- 315 98 l 1,0,1
-131 6 m 2,21,22
- 130 1 127 -3 124 -3 c 0,23,24
- 117 -3 120 17 120 26 c 0,25,26
- 120 68 109 120 78 120 c 0,27,28
- 45 120 24 59 13 10 c 0,29,30
- 11 3 6 -1 3 -1 c 0,31,32
- 1 -1 -1 1 0 6 c 2,33,-1
- 11 88 l 2,34,35
- 19 149 51 219 95 219 c 0,36,37
- 134 219 151 182 151 134 c 0,38,39
- 151 119 149 103 146 87 c 2,40,-1
- 131 6 l 2,21,22
-186 141 m 1,41,42
- 194 157 211 173 229 187 c 1,43,-1
- 237 264 l 1,44,-1
- 258 275 l 1,45,-1
- 251 203 l 1,46,47
- 275 218 296 229 296 229 c 1,48,-1
- 283 134 l 1,49,50
- 283 134 264 125 242 110 c 1,51,-1
- 232 11 l 1,52,-1
- 211 0 l 1,53,-1
- 220 96 l 1,54,55
- 200 81 181 62 171 43 c 1,56,-1
- 186 141 l 1,41,42
+477 181 m 6,0,-1
+315 98 m 1,1,-1
+ 337 167 439 244 498 279 c 2,4,-1
+ 883 508 l 1,5,-1
+ 883 508 948 545 981 556 c 1,8,-1
+ 1001 557 l 1,9,-1
+ 1011 553 1021 542 1029 531 c 1,12,-1
+ 1048 628 l 1,13,-1
+ 1071 641 l 1,14,-1
+ 1027 410 l 1,15,-1
+ 1011 434 l 1,16,-1
+ 1011 435 l 1,17,-1
+ 1001 448 982 456 977 460 c 1,20,-1
+ 952 460 862 410 862 410 c 1,23,-1
+ 477 181 l 2,24,-1
+ 413 143 328 84 300 0 c 1,27,-1
+ 315 98 l 1,1,-1
+131 6 m 2,28,-1
+ 130 1 127 -3 124 -3 c 0,31,-1
+ 117 -3 120 17 120 26 c 0,34,-1
+ 120 68 109 120 78 120 c 0,37,-1
+ 45 120 24 59 13 10 c 0,40,-1
+ 11 3 6 -1 3 -1 c 0,43,-1
+ 1 -1 -1 1 0 6 c 2,46,-1
+ 11 88 l 2,47,-1
+ 19 149 51 219 95 219 c 0,50,-1
+ 134 219 151 182 151 134 c 0,53,-1
+ 151 119 149 103 146 87 c 2,56,-1
+ 131 6 l 2,28,-1
+186 141 m 1,57,-1
+ 194 157 211 173 229 187 c 1,60,-1
+ 237 264 l 1,61,-1
+ 258 275 l 1,62,-1
+ 251 203 l 1,63,-1
+ 275 218 296 229 296 229 c 1,66,-1
+ 283 134 l 1,67,-1
+ 283 134 264 125 242 110 c 1,70,-1
+ 232 11 l 1,71,-1
+ 211 0 l 1,72,-1
+ 220 96 l 1,73,-1
+ 200 81 181 62 171 43 c 1,76,-1
+ 186 141 l 1,57,-1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEEA0 uniEEE1
 Colour: ffff78
 EndChar
@@ -20705,7 +20876,7 @@ EndChar
 StartChar: uniEB1F
 Encoding: 60191 60191 462
 Width: 1044
-Flags: HW
+Flags: W
 HStem: 0 21G<2 4.5 120.5 125.5 212.875 232 303.061 314> 120 99<54.286 105.938>
 VStem: 11 140<58.65 161.503> 120 31<31.3125 101.332> 120 11<-2.64857 33.9771> 1011 16<434 442.824>
 DStem2: 211 0 232 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277> 498 279 477 181 0.859456 0.511209<-164.673 503.142> 1029 531 1071 641 0.187112 0.982339<0 98.842>
@@ -20726,60 +20897,61 @@ AnchorPoint: "Tonal" 628 467 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-477 181 m 2,13,14
-730 240 m 1,0,1
- 752 284 835 327 835 327 c 1,2,-1
- 822 232 l 1,3,4
- 822 232 740 191 715 142 c 1,5,-1
- 730 240 l 1,0,1
-577 150 m 1,6,7
- 599 194 682 237 682 237 c 1,8,-1
- 669 142 l 1,9,10
- 669 142 587 101 562 52 c 1,11,-1
- 577 150 l 1,6,7
-315 98 m 1,12,13
- 337 167 439 244 498 279 c 2,14,-1
- 883 508 l 1,15,16
- 883 508 951 547 984 556 c 1,17,-1
- 1003 556 l 1,18,19
- 1012 551 1022 541 1029 531 c 1,20,-1
- 1048 628 l 1,21,-1
- 1071 641 l 1,22,-1
- 1027 410 l 1,23,-1
- 1011 434 l 1,24,-1
- 1011 435 l 1,25,26
- 1001 448 982 456 977 460 c 1,27,28
- 952 460 862 410 862 410 c 1,29,-1
- 477 181 l 2,30,31
- 413 143 328 84 300 0 c 1,32,-1
- 315 98 l 1,12,13
-131 6 m 2,33,34
- 130 1 127 -3 124 -3 c 0,35,36
- 117 -3 120 17 120 26 c 0,37,38
- 120 68 109 120 78 120 c 0,39,40
- 45 120 24 59 13 10 c 0,41,42
- 11 3 6 0 3 0 c 0,43,44
- 1 0 -1 1 0 6 c 2,45,-1
- 11 88 l 2,46,47
- 19 149 51 219 95 219 c 0,48,49
- 134 219 151 182 151 134 c 0,50,51
- 151 119 149 103 146 87 c 2,52,-1
- 131 6 l 2,33,34
-186 141 m 1,53,54
- 194 157 211 173 229 187 c 1,55,-1
- 237 264 l 1,56,-1
- 258 275 l 1,57,-1
- 251 203 l 1,58,59
- 275 218 296 229 296 229 c 1,60,-1
- 283 134 l 1,61,62
- 283 134 264 125 242 110 c 1,63,-1
- 232 11 l 1,64,-1
- 211 0 l 1,65,-1
- 220 96 l 1,66,67
- 200 81 181 62 171 43 c 1,68,-1
- 186 141 l 1,53,54
+477 181 m 2,0,-1
+730 240 m 1,1,-1
+ 752 284 835 327 835 327 c 1,4,-1
+ 822 232 l 1,5,-1
+ 822 232 740 191 715 142 c 1,8,-1
+ 730 240 l 1,1,-1
+577 150 m 1,9,-1
+ 599 194 682 237 682 237 c 1,12,-1
+ 669 142 l 1,13,-1
+ 669 142 587 101 562 52 c 1,16,-1
+ 577 150 l 1,9,-1
+315 98 m 1,17,-1
+ 337 167 439 244 498 279 c 2,20,-1
+ 883 508 l 1,21,-1
+ 883 508 951 547 984 556 c 1,24,-1
+ 1003 556 l 1,25,-1
+ 1012 551 1022 541 1029 531 c 1,28,-1
+ 1048 628 l 1,29,-1
+ 1071 641 l 1,30,-1
+ 1027 410 l 1,31,-1
+ 1011 434 l 1,32,-1
+ 1011 435 l 1,33,-1
+ 1001 448 982 456 977 460 c 1,36,-1
+ 952 460 862 410 862 410 c 1,39,-1
+ 477 181 l 2,40,-1
+ 413 143 328 84 300 0 c 1,43,-1
+ 315 98 l 1,17,-1
+131 6 m 2,44,-1
+ 130 1 127 -3 124 -3 c 0,47,-1
+ 117 -3 120 17 120 26 c 0,50,-1
+ 120 68 109 120 78 120 c 0,53,-1
+ 45 120 24 59 13 10 c 0,56,-1
+ 11 3 6 0 3 0 c 0,59,-1
+ 1 0 -1 1 0 6 c 2,62,-1
+ 11 88 l 2,63,-1
+ 19 149 51 219 95 219 c 0,66,-1
+ 134 219 151 182 151 134 c 0,69,-1
+ 151 119 149 103 146 87 c 2,72,-1
+ 131 6 l 2,44,-1
+186 141 m 1,73,-1
+ 194 157 211 173 229 187 c 1,76,-1
+ 237 264 l 1,77,-1
+ 258 275 l 1,78,-1
+ 251 203 l 1,79,-1
+ 275 218 296 229 296 229 c 1,82,-1
+ 283 134 l 1,83,-1
+ 283 134 264 125 242 110 c 1,86,-1
+ 232 11 l 1,87,-1
+ 211 0 l 1,88,-1
+ 220 96 l 1,89,-1
+ 200 81 181 62 171 43 c 1,92,-1
+ 186 141 l 1,73,-1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Priznak Composition-1" uniEEA1 uniEEE1
 Colour: ffff78
 EndChar
@@ -20809,7 +20981,7 @@ EndChar
 StartChar: uniEB28
 Encoding: 60200 60200 464
 Width: 342
-Flags: HW
+Flags: W
 HStem: 0 324
 VStem: 20 312
 AnchorPoint: "Shaidur" -72 258 basechar 0
@@ -20853,7 +21025,7 @@ EndChar
 StartChar: uniEB29
 Encoding: 60201 60201 465
 Width: 290
-Flags: HW
+Flags: W
 HStem: -104 98<166.18 233.996> 0 21G<87.2 103.434>
 VStem: 131 29<-50 66.75> 150 12<53.7333 99.6799>
 AnchorPoint: "Shaidur" -52.8699 179.2 basechar 0
@@ -20903,7 +21075,7 @@ EndChar
 StartChar: uniEB2A
 Encoding: 60202 60202 466
 Width: 148
-Flags: HW
+Flags: W
 HStem: 0 21G<90.6667 123.564>
 VStem: 10 128
 AnchorPoint: "Shaidur" -71 120.1 basechar 0
@@ -20941,7 +21113,7 @@ EndChar
 StartChar: uniEB2B
 Encoding: 60203 60203 467
 Width: 292
-Flags: HW
+Flags: W
 HStem: 0 21G<165.061 173>
 VStem: 10 272
 AnchorPoint: "Shaidur" -91 138.1 basechar 0
@@ -20985,7 +21157,7 @@ EndChar
 StartChar: uniEB2C
 Encoding: 60204 60204 468
 Width: 333
-Flags: HW
+Flags: W
 HStem: -4 98<206.18 273.996>
 VStem: 171 29<50 166.75> 190 12<153.733 199.68>
 AnchorPoint: "Shaidur" -90 132 basechar 0
@@ -21035,7 +21207,7 @@ EndChar
 StartChar: uniEB2E
 Encoding: 60206 60206 469
 Width: 287
-Flags: HW
+Flags: W
 HStem: 0 21G<87.2 103.434> 379 93<104.052 217.548>
 VStem: 231 18<80 98> 249 28<179.607 378.425>
 DStem2: 231 80 249 80 0.141421 0.989949<2.54558 173.634>
@@ -21087,7 +21259,7 @@ EndChar
 StartChar: uniEB30
 Encoding: 60208 60208 470
 Width: 237
-Flags: HW
+Flags: W
 HStem: 0 21G<102.863 136.434> 409 93<54.0517 167.548>
 VStem: 181 18<110 128> 199 28<209.607 408.425>
 DStem2: 181 110 199 110 0.141421 0.989949<2.54558 173.634>
@@ -21139,7 +21311,7 @@ EndChar
 StartChar: uniEB32
 Encoding: 60210 60210 471
 Width: 193
-Flags: HW
+Flags: W
 HStem: 0 21G<102.863 136.434> 421 98<62.0148 139.52>
 VStem: 26 13<353.076 383.491> 36 142<380.9 491.055> 147 12<287.182 333.8> 150 28<323.802 446.5>
 AnchorPoint: "Shaidur" -72.5 268.1 basechar 0
@@ -21262,6 +21434,7 @@ SplineSet
  187 392 191 391 195 391 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: 4cff40
 EndChar
 
@@ -21322,6 +21495,7 @@ SplineSet
  326 56 329 72 329 86 c 0xc4
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE90 uniEE50
 Colour: 4cff40
@@ -21386,6 +21560,7 @@ SplineSet
  345 -86 327 -154 277 -154 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 2 0 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE93 uniEE50 uniEE55
 Colour: 4cff40
@@ -21443,6 +21618,7 @@ SplineSet
  268 415 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 2 234 343 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE50 uniEE58
 Colour: 4cff40
@@ -21506,6 +21682,7 @@ SplineSet
  23 100 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 2 225 335 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE8F uniEE51 uniEE58
 Colour: 4cff40
@@ -21572,6 +21749,7 @@ SplineSet
  473 56 476 72 476 86 c 0xc4
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 235 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE94 uniEE50
 Colour: 4cff40
@@ -21964,7 +22142,7 @@ EndChar
 StartChar: uniEB36
 Encoding: 60214 60214 485
 Width: 935
-Flags: HW
+Flags: W
 HStem: 1 21G<419 510.207> 117 92<109.577 301.753 633.317 825.423> 345 92<109.577 301.753 633.317 825.423>
 LayerCount: 3
 Fore
@@ -22468,6 +22646,7 @@ SplineSet
  368 64 350 -4 300 -4 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE55
 Colour: 4cff40
@@ -22532,6 +22711,7 @@ SplineSet
  219 99 l 1
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEE87 uniEE8D
 Colour: 4cff40
@@ -22598,6 +22778,7 @@ SplineSet
  187 392 191 391 195 391 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: 4cff40
 EndChar
 
@@ -22822,7 +23003,6 @@ Encoding: 60162 60162 568
 Width: 1000
 VWidth: 0
 LayerCount: 3
-Substitution2: "Depriznakify-1" uniEE9A
 Colour: ffff78
 EndChar
 
@@ -22901,7 +23081,7 @@ EndChar
 StartChar: uniEB2F
 Encoding: 60207 60207 578
 Width: 329
-Flags: HW
+Flags: W
 HStem: -124 98<206.18 273.996> 0 21G<87.2 103.434> 379 93<104.052 217.548>
 VStem: 171 31<-18.9138 52.7812> 190 12<33.7333 79.783> 231 18<80 98> 249 28<179.607 378.425>
 DStem2: 231 80 249 80 0.141421 0.989949<2.54558 173.634>
@@ -22965,7 +23145,7 @@ EndChar
 StartChar: uniEB31
 Encoding: 60209 60209 579
 Width: 329
-Flags: HW
+Flags: W
 HStem: -14 98<206.18 273.996> 0 21G<102.863 136.434> 429 93<104.052 217.548>
 VStem: 171 31<91.0862 162.781> 190 12<143.733 189.783> 231 18<130 148> 249 28<229.607 428.425>
 DStem2: 231 130 249 130 0.141421 0.989949<2.54558 173.634>
@@ -25185,6 +25365,7 @@ SplineSet
  473 56 476 72 476 86 c 0xc4
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
@@ -25252,6 +25433,7 @@ SplineSet
  325 94 307 26 257 26 c 0
 EndSplineSet
 Validated: 1
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffb54c
 EndChar
 
