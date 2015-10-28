@@ -36,3 +36,5 @@ wait
 zip -DrX PomorskyUnicode-$VERSION.zip PomorskyUnicode.otf PomorskyUnicode.ttf PomorskyUnicode.woff $DOCS
 zip -DrX PomorskyUnicode-src.zip PomorskyUnicode.sfd PomorskyUnicode.gdl PomorskyUnicode-WOFF-metadata.xml $DOCS
 
+## generate picture for the website
+fontimage --width 375 --height 40  --pixelsize 40  --text "   ЧИ́НЪ ВЕЧЕ́РНИ" --o PomorskyUnicode.png PomorskyUnicode.otf
