@@ -4,33 +4,39 @@ COPYRIGHT INFORMATION
 
 The Menaion font was originally designed by Victor A. Baranov at http://www.manuscripts.ru/
 
-Reencoded for Unicode by Aleksandr Andreev for the Ponomar Project (http://www.ponomar.net/). Used with permission of the original author.
+Reencoded for Unicode by Aleksandr Andreev for the Ponomar Project (http://www.ponomar.net/). 
+Used with permission of the original author.
 
-Menaion Unicode is Copyright (C) 2013-2015 Aleksandr Andreev. Portions Copyright (C) 2010 Victor A. Baranov.
+Menaion Unicode is Copyright (C) 2013-2015 Aleksandr Andreev. 
+Portions Copyright (C) 2010 Victor A. Baranov.
 
 Menaion Unicode is licensed EITHER:
 	* under the SIL Open Font License version 1.1, a copy of which is reproduced in OFL.txt
-	* or, as part of the Ponomar software, under the GNU General Public License, v. 3 (or any later version)
-	   with the font exception (see LICENSE for details)
-AT YOUR CHOOSING
+	* or, as part of the Ponomar software, under the GNU General Public License, v. 3 
+            (or any later version) with the font exception (see LICENSE for details)
+AT YOUR CHOOSING.
 
 Regardless of the License, it is understood that Menaion Unicode is free software.
-As such, it comes with ABSOLUTELY NO WARRANTY; without even the implied warranty of
+As such, it comes with ABSOLUTELY NO WARRANTY; without even the implied warranties of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 FONT INFORMATION
 
-The Menaion typeface is supposed to used for working with text of Ustav-era manuscripts. It contains the full repertoire of necessary Cyrillic and Glagolitic glyphs as well as glyphs of Byzantine Ecphonetic notation of the kind used in Cyrillic or Glagolitic manuscripts.
+The Menaion typeface is supposed to be used for working with text of Ustav-era manuscripts. It contains the full repertoire of necessary Cyrillic and Glagolitic glyphs as well as glyphs of Byzantine Ecphonetic notation of the kind used in Cyrillic or Glagolitic manuscripts.
 
 The following files are distributed in this package:
-	* MenaionUnicode.otf : OpenType-CFF font (PostScript outlines) with OpenType features; the internal font name is Menaion Unicode
-	* MenaionUnicode.woff : Web Open Font Format font (TrueType outlines) with OpenType features; the internal font name is Menaion Unicode
+	* MenaionUnicode.otf : OpenType-CFF font (PostScript outlines) with OpenType features; 
+            the internal font name is Menaion Unicode
+	* MenaionUnicode.woff : WOFF font (TrueType outlines) with OpenType features;
+            the internal font name is Menaion Unicode
 				  This font is intended for embedding into webpages
-	* MenaionUnicodeSIL.ttf : TrueType font (TrueType outlines) with OpenType and SIL Graphite features;
-				   The internal font name is Menaion Unicode TT
-	The difference in internal font names allows you to have both the OpenType and TrueType versions installed simultaneously
+	* MenaionUnicodeSIL.ttf : TrueType font (TrueType outlines) with OpenType
+            and SIL Graphite features; The internal font name is Menaion Unicode TT.
+	The difference in internal font names allows you to have both the OpenType and
+         TrueType versions installed simultaneously
 
-	* MenaionUnicode.pdf : The PDF documents demonstrates some features of the font, and lists the available features
+	* MenaionUnicode.pdf : The PDF documents demonstrates some features of the font, 
+            and lists the available features.
 
 Available characters, OpenType and SIL Graphite features:
 	* See the MenaionUnicode.pdf file for documentation and examples
