@@ -16,6 +16,7 @@ LayerCount: 3
 Layer: 0 1 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 1 "TTFLayer"  0
+NeedsXUIDChange: 1
 XUID: [1021 130 1332205325 10107922]
 UseXUID: 1
 FSType: 0
@@ -23,7 +24,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1269256071
-ModificationTime: 1446381083
+ModificationTime: 1446400701
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -35,9 +36,9 @@ OS2TypoAOffset: 1
 OS2TypoDescent: -250
 OS2TypoDOffset: 1
 OS2TypoLinegap: 950
-OS2WinAscent: 176
+OS2WinAscent: 0
 OS2WinAOffset: 1
-OS2WinDescent: 15
+OS2WinDescent: 0
 OS2WinDOffset: 1
 HheadAscent: 176
 HheadAOffset: 1
@@ -904,7 +905,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 900 18 6
+WinInfo: 900 18 7
 BeginPrivate: 6
 BlueValues 23 [-20 0 433 453 610 630]
 OtherBlues 11 [-216 -200]
@@ -923,7 +924,7 @@ BeginChars: 1114112 1134
 
 StartChar: uni0020
 Encoding: 32 32 0
-Width: 300
+Width: 500
 Flags: W
 LayerCount: 3
 EndChar
@@ -74743,8 +74744,8 @@ Encoding: 1155 1155 357
 Width: 0
 GlyphClass: 4
 Flags: W
-HStem: 543 129<-700 -590> 622 126<-92 26> 622 50<-590 -92>
-VStem: -700 110<543 622> -92 118<672 748>
+HStem: 543 129<-527 -417> 622 126<-92 26> 622 50<-417 -92>
+VStem: -527 110<543 622> -92 118<672 748>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
@@ -74793,9 +74794,9 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
-AnchorPoint: "Stacking" -358 802 basemark 0
-AnchorPoint: "Stacking" -344 543 mark 0
-AnchorPoint: "Diacritic" -344 544 mark 0
+AnchorPoint: "Stacking" -237 802 basemark 0
+AnchorPoint: "Stacking" -241 543 mark 0
+AnchorPoint: "Diacritic" -241 544 mark 0
 LayerCount: 3
 Fore
 SplineSet
@@ -74803,26 +74804,24 @@ SplineSet
  -92 748 l 1
  26 748 l 1
  26 622 l 1x58
- -590 622 l 1x38
- -590 543 l 1
- -700 543 l 1
- -700 672 l 1x98
+ -416 622 l 1x38
+ -416 543 l 1
+ -526 543 l 1
+ -526 672 l 1x98
  -92 672 l 1x38
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 -92 672 m 1,0,-1
  -92 748 l 1,1,-1
  26 748 l 1,2,-1
  26 622 l 1,3,-1
- -590 622 l 1,4,-1
- -590 543 l 1,5,-1
- -700 543 l 1,6,-1
- -700 672 l 1,7,-1
+ -417 622 l 1,4,-1
+ -417 543 l 1,5,-1
+ -527 543 l 1,6,-1
+ -527 672 l 1,7,-1
  -92 672 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2027
@@ -82670,9 +82669,9 @@ StartChar: uniA66F
 Encoding: 42607 42607 404
 Width: 0
 GlyphClass: 4
-Flags: W
-HStem: 624 150<-716 -586 -156 -26> 730 44<-586 -156>
-VStem: -716 130<624 730> -156 130<624 730>
+Flags: WO
+HStem: 624 150<-585 -455 -156 -26> 730 44<-455 -156>
+VStem: -585 130<624 730> -156 130<624 730>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
@@ -82721,36 +82720,34 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
-AnchorPoint: "Stacking" -368 852 basemark 0
-AnchorPoint: "Stacking" -376 622 mark 0
-AnchorPoint: "Diacritic" -376 622 mark 0
+AnchorPoint: "Stacking" -301 852 basemark 0
+AnchorPoint: "Stacking" -309 622 mark 0
+AnchorPoint: "Diacritic" -309 622 mark 0
 LayerCount: 3
 Fore
 SplineSet
--586 624 m 1xb0
- -716 624 l 1
- -716 774 l 1
+-455 624 m 1xb0
+ -585 624 l 1
+ -585 774 l 1
  -26 774 l 1
  -26 624 l 1
  -156 624 l 1xb0
  -156 730 l 1
- -586 730 l 1x70
- -586 624 l 1xb0
+ -455 730 l 1x70
+ -455 624 l 1xb0
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
--586 624 m 1,0,-1
- -716 624 l 1,1,-1
- -716 774 l 1,2,-1
+-455 624 m 1,0,-1
+ -585 624 l 1,1,-1
+ -585 774 l 1,2,-1
  -26 774 l 1,3,-1
  -26 624 l 1,4,-1
  -156 624 l 1,5,-1
  -156 730 l 1,6,-1
- -586 730 l 1,7,-1
- -586 624 l 1,0,-1
+ -455 730 l 1,7,-1
+ -455 624 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2DF1
@@ -139476,7 +139473,7 @@ EndChar
 
 StartChar: uni202F
 Encoding: 8239 8239 664
-Width: 195
+Width: 250
 VWidth: 0
 Flags: W
 LayerCount: 3
@@ -161969,10 +161966,10 @@ EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 750
-Width: 300
+Width: 500
 VWidth: 0
 Flags: W
-AnchorPoint: "Numeral" 160 358 basechar 0
+AnchorPoint: "Numeral" 263 358 basechar 0
 LayerCount: 3
 EndChar
 
@@ -270270,7 +270267,7 @@ EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 1095
-Width: 1000
+Width: 778
 VWidth: 0
 Flags: W
 LayerCount: 3
@@ -270286,7 +270283,7 @@ EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 1097
-Width: 333
+Width: 260
 VWidth: 0
 Flags: W
 LayerCount: 3
@@ -270294,7 +270291,7 @@ EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 1098
-Width: 250
+Width: 195
 VWidth: 0
 Flags: W
 LayerCount: 3
@@ -270302,7 +270299,7 @@ EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 1099
-Width: 167
+Width: 130
 VWidth: 0
 Flags: W
 LayerCount: 3
@@ -270310,7 +270307,7 @@ EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 1100
-Width: 167
+Width: 97
 VWidth: 0
 Flags: W
 LayerCount: 3
@@ -270318,7 +270315,7 @@ EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 1101
-Width: 100
+Width: 40
 VWidth: 0
 Flags: W
 LayerCount: 3
