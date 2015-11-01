@@ -4,7 +4,17 @@
 <glyph PSName="uni0020" UID="0020"/>
 <glyph PSName="uni003A" UID="003A"/>
 <glyph PSName="uni003B" UID="003B"/>
-<glyph PSName="uni00CB" UID="00CB"/>
+<glyph PSName="uni00CB" UID="00CB">
+    <point type='Stacking'>
+        <location x='296' y='929'/>
+    </point>
+    <point type='_Diacritic'>
+        <location x='294' y='700'/>
+    </point>
+    <point type='_Stacking'>
+        <location x='294' y='701'/>
+    </point>
+</glyph>
 <glyph PSName="uni00A8" UID="00A8"/>
 <glyph PSName="uni2030" UID="2030"/>
 <glyph PSName="uni2039" UID="2039"/>
@@ -2598,12 +2608,12 @@
 </glyph>
 <glyph PSName="uni047C" UID="047C">
     <point type='Diacritic'>
-        <location x='566' y='937'/>
+        <location x='567' y='1073'/>
     </point>
 </glyph>
 <glyph PSName="uni047D" UID="047D">
     <point type='Diacritic'>
-        <location x='471' y='705'/>
+        <location x='463' y='865'/>
     </point>
 </glyph>
 <glyph PSName="uni200C" UID="200C"/>
@@ -3098,7 +3108,7 @@
 <glyph PSName="uni2E2F" UID="2E2F"/>
 <glyph PSName="uniFE26" UID="FE26">
     <point type='_Diacritic'>
-        <location x='-298' y='555'/>
+        <location x='-252' y='555'/>
     </point>
 </glyph>
 <glyph PSName="uniFE2E" UID="FE2E">
@@ -3108,7 +3118,7 @@
 </glyph>
 <glyph PSName="uniFE2F" UID="FE2F">
     <point type='_Diacritic'>
-        <location x='-102' y='555'/>
+        <location x='-80' y='545'/>
     </point>
 </glyph>
 <glyph PSName="u1D002" UID="1D002"/>
@@ -3128,7 +3138,7 @@
 <glyph PSName="u1D011" UID="1D011"/>
 <glyph PSName="uni1C82" UID="1C82">
     <point type='Diacritic'>
-        <location x='248' y='563'/>
+        <location x='199' y='563'/>
     </point>
 </glyph>
 <glyph PSName="uni1C81" UID="1C81">
@@ -3152,83 +3162,179 @@
 <glyph PSName="u1D014" UID="1D014"/>
 <glyph PSName="u1D012" UID="1D012"/>
 <glyph PSName="uni03070300" UID="E02E">
+    <point type='Stacking'>
+        <location x='-236' y='935'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-235' y='586'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-236' y='583'/>
+    </point>
 </glyph>
 <glyph PSName="uni03080300" UID="E032">
+    <point type='Stacking'>
+        <location x='-161' y='941'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-161' y='584'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-161' y='589'/>
+    </point>
 </glyph>
 <glyph PSName="uni03080301" UID="E031">
+    <point type='Stacking'>
+        <location x='-161' y='941'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-159' y='590'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-161' y='589'/>
+    </point>
 </glyph>
 <glyph PSName="uni04850485" UID="E025">
+    <point type='Stacking'>
+        <location x='-97' y='817'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-99' y='466'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-97' y='465'/>
+    </point>
 </glyph>
 <glyph PSName="uni04860485" UID="E034">
+    <point type='Stacking'>
+        <location x='-320' y='830'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-321' y='476'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-320' y='478'/>
+    </point>
 </glyph>
 <glyph PSName="uni04860302" UID="E029">
+    <point type='Stacking'>
+        <location x='-407' y='1115'/>
+    </point>
     <point type='_Diacritic'>
+        <location x='-425' y='472'/>
+    </point>
+    <point type='_Stacking'>
         <location x='-425' y='472'/>
     </point>
 </glyph>
 <glyph PSName="uni04850300" UID="E022">
+    <point type='Stacking'>
+        <location x='-113' y='817'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-115' y='464'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-113' y='465'/>
+    </point>
 </glyph>
 <glyph PSName="uni04850301" UID="E021">
+    <point type='Stacking'>
+        <location x='-187' y='849'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-187' y='498'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-187' y='497'/>
+    </point>
 </glyph>
 <glyph PSName="uni04860486" UID="E024">
+    <point type='Stacking'>
+        <location x='-333' y='810'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-333' y='460'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-333' y='458'/>
+    </point>
 </glyph>
 <glyph PSName="uni04860311" UID="E005">
+    <point type='Stacking'>
+        <location x='-182' y='967'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-203' y='506'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-205' y='504'/>
+    </point>
 </glyph>
 <glyph PSName="uni04850302" UID="E02A">
+    <point type='Stacking'>
+        <location x='-413' y='1094'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-385' y='482'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-383' y='481'/>
+    </point>
 </glyph>
 <glyph PSName="uniA67D0301" UID="E037">
+    <point type='Stacking'>
+        <location x='-113' y='902'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-117' y='548'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-113' y='550'/>
+    </point>
 </glyph>
 <glyph PSName="uniA67D0300" UID="E038">
+    <point type='Stacking'>
+        <location x='-117' y='992'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-119' y='546'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-117' y='547'/>
+    </point>
 </glyph>
 <glyph PSName="uni04860300" UID="E003">
+    <point type='Stacking'>
+        <location x='-128' y='803'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-127' y='450'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-128' y='451'/>
+    </point>
 </glyph>
 <glyph PSName="uni04860301" UID="E001">
+    <point type='Stacking'>
+        <location x='-132' y='799'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-185' y='480'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-186' y='483'/>
+    </point>
 </glyph>
 <glyph PSName="uni04850311" UID="E026">
+    <point type='Stacking'>
+        <location x='-191' y='970'/>
+    </point>
     <point type='_Diacritic'>
-        <location x='-201' y='434'/>
+        <location x='-206' y='429'/>
+    </point>
+    <point type='_Stacking'>
+        <location x='-206' y='433'/>
     </point>
 </glyph>
 <glyph PSName="uni041E.narrow" UID="E2E0">
@@ -3793,9 +3899,29 @@
     </point>
 </glyph>
 <glyph PSName="uni03070301" UID="E02D">
+    <point type='Stacking'>
+        <location x='-158' y='947'/>
+    </point>
     <point type='_Diacritic'>
         <location x='-159' y='590'/>
     </point>
+    <point type='_Stacking'>
+        <location x='-158' y='595'/>
+    </point>
 </glyph>
+<glyph PSName="uni00C0" UID="00C0"/>
+<glyph PSName="uni00C7" UID="00C7"/>
+<glyph PSName="uni00C8" UID="00C8"/>
+<glyph PSName="uni00C9" UID="00C9"/>
+<glyph PSName="uni00CA" UID="00CA"/>
+<glyph PSName="uni00CF" UID="00CF"/>
+<glyph PSName="uni00D1" UID="00D1"/>
+<glyph PSName="uni00D4" UID="00D4"/>
+<glyph PSName="uni00D6" UID="00D6"/>
+<glyph PSName="uni00EA" UID="00EA"/>
+<glyph PSName="uni00EB" UID="00EB"/>
+<glyph PSName="uni00EF" UID="00EF"/>
+<glyph PSName="uni00F1" UID="00F1"/>
+<glyph PSName="uni0327" UID="0327"/>
 
 </font>
