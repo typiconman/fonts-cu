@@ -16,7 +16,6 @@ LayerCount: 3
 Layer: 0 1 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 1 "TTFLayer"  0
-NeedsXUIDChange: 1
 XUID: [1021 130 1332205325 10107922]
 UseXUID: 1
 FSType: 0
@@ -24,18 +23,18 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1269256071
-ModificationTime: 1446380103
+ModificationTime: 1446381083
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 50
+LineGap: 475
 VLineGap: 0
 Panose: 2 0 0 0 0 0 0 0 0 0
 OS2TypoAscent: 50
 OS2TypoAOffset: 1
 OS2TypoDescent: -250
 OS2TypoDOffset: 1
-OS2TypoLinegap: 100
+OS2TypoLinegap: 950
 OS2WinAscent: 176
 OS2WinAOffset: 1
 OS2WinDescent: 15
@@ -905,7 +904,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 792 18 6
+WinInfo: 900 18 6
 BeginPrivate: 6
 BlueValues 23 [-20 0 433 453 610 630]
 OtherBlues 11 [-216 -200]
