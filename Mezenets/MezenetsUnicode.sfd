@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1446276303
+ModificationTime: 1447433473
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -109,13 +109,15 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60066 18 7
+WinInfo: 61020 18 7
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
 BlueFuzz 1 1
 EndPrivate
 Grid
+-1000 276 m 0
+ 2000 276 l 0
 -1000 356.333 m 5
  -0.00543691 356.915 1000.01 356.472 2000 356.333 c 5
 -1000 202.6 m 0
@@ -5960,23 +5962,23 @@ AnchorPoint: "Shaidur" 15 342 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-61 100 m 1
- 82 166 187 208 187 208 c 1
- 173 115 l 1
- 173 115 54 63 33 0 c 1
- 92 620 l 1
- 110 620 l 1
- 61 100 l 1
-389 324 m 1
- 411 368 494 411 494 411 c 1
- 481 316 l 1
- 481 316 399 275 374 226 c 1
- 389 324 l 1
-236 234 m 1
- 258 278 341 321 341 321 c 1
- 328 226 l 1
- 328 226 246 185 221 136 c 1
- 236 234 l 1
+61 100 m 5
+ 82 166 187 208 187 208 c 5
+ 173 115 l 5
+ 173 115 54 63 33 0 c 5
+ 92 620 l 5
+ 110 620 l 5
+ 61 100 l 5
+389 324 m 5
+ 411 368 494 411 494 411 c 5
+ 481 316 l 5
+ 481 316 399 275 374 226 c 5
+ 389 324 l 5
+236 234 m 5
+ 258 278 341 321 341 321 c 5
+ 328 226 l 5
+ 328 226 246 185 221 136 c 5
+ 236 234 l 5
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -6011,25 +6013,25 @@ LayerCount: 3
 Fore
 SplineSet
 61 100 m 1xe0
- 82 166 187 208 187 208 c 1
+ 82 166 187 208 187 208 c 5
  173 115 l 1
  173 115 54 63 33 0 c 1
  92 620 l 1
  110 620 l 1
  61 100 l 1xe0
-261 156 m 2xe4
- 260 151 257 147 254 147 c 0
- 251 147 248 151 249 160 c 0xe4
- 251 178 252 196 252 212 c 0
- 252 250 243 277 204 281 c 1
- 196 281 l 2
- 177 281 153 273 141 223 c 0
- 138 211 126 207 128 219 c 2xf2
- 138 292 l 2
- 146 353 177 379 215 379 c 0
- 261 379 280 334 280 281 c 0xe8
- 280 267 279 252 276 237 c 2
- 261 156 l 2xe4
+261 156 m 6xe4
+ 260 151 257 147 254 147 c 4
+ 251 147 248 151 249 160 c 4xe4
+ 251 178 252 196 252 212 c 4
+ 252 250 243 277 204 281 c 5
+ 196 281 l 6
+ 177 281 153 273 141 223 c 4
+ 138 211 126 207 128 219 c 6xf2
+ 138 292 l 6
+ 146 353 177 379 215 379 c 4
+ 261 379 280 334 280 281 c 4xe8
+ 280 267 279 252 276 237 c 6
+ 261 156 l 6xe4
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -6076,16 +6078,16 @@ SplineSet
  20 0 l 1
  1 0 l 1
  15 78 l 1xe8
-190 445 m 1
- 186 418 179 381 173 346 c 1
- 89 401 l 1
- 106 500 l 1
- 190 445 l 1
-300 373 m 1
- 283 274 l 1
- 199 329 l 1
- 216 428 l 1
- 300 373 l 1
+190 445 m 5
+ 186 418 179 381 173 346 c 5
+ 89 401 l 5
+ 106 500 l 5
+ 190 445 l 5
+300 373 m 5
+ 283 274 l 5
+ 199 329 l 5
+ 216 428 l 5
+ 300 373 l 5
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -6119,19 +6121,19 @@ AnchorPoint: "Shaidur" 15 342 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-233 279 m 2
- 618 508 l 1
- 618 508 705 558 729 558 c 0
- 748 558 772 522 779 508 c 1
- 762 410 l 1
- 755 424 731 460 712 460 c 0
- 687 460 597 410 597 410 c 1
- 212 181 l 2
- 91 109 33 0 33 0 c 1
- 94 620 l 1
- 112 620 l 1
- 62 100 l 1
- 85 169 174 244 233 279 c 2
+233 279 m 6
+ 618 508 l 5
+ 618 508 705 558 729 558 c 4
+ 748 558 772 522 779 508 c 5
+ 762 410 l 5
+ 755 424 731 460 712 460 c 4
+ 687 460 597 410 597 410 c 5
+ 212 181 l 6
+ 91 109 33 0 33 0 c 5
+ 94 620 l 5
+ 112 620 l 5
+ 62 100 l 5
+ 85 169 174 244 233 279 c 6
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -7422,30 +7424,30 @@ SplineSet
  477 181 l 2
  413 143 328 84 300 0 c 1
  315 98 l 1xe0
-131 6 m 2xe4
- 130 1 127 -3 124 -3 c 0
- 117 -3 120 17 120 26 c 0xe4
- 120 68 109 120 78 120 c 0
- 45 120 23 59 13 10 c 0
- 11 3 6 0 3 0 c 0
- 1 0 -1 1 0 6 c 2
- 11 88 l 2
- 19 149 51 219 95 219 c 0
- 134 219 151 182 151 134 c 0xf0
- 151 119 149 103 146 87 c 2
- 131 6 l 2xe4
-281 6 m 2xe080
- 280 1 277 -3 274 -3 c 0
- 267 -3 270 17 270 26 c 0xe080
- 270 68 259 120 228 120 c 0
- 195 120 174 59 163 10 c 0
- 161 3 156 0 153 0 c 0
- 151 0 149 1 150 6 c 2
- 161 88 l 2
- 169 149 201 219 245 219 c 0
- 284 219 301 182 301 134 c 0xe2
- 301 119 299 103 296 87 c 2
- 281 6 l 2xe080
+131 6 m 6xe4
+ 130 1 127 -3 124 -3 c 4
+ 117 -3 120 17 120 26 c 4xe4
+ 120 68 109 120 78 120 c 4
+ 45 120 23 59 13 10 c 4
+ 11 3 6 0 3 0 c 4
+ 1 0 -1 1 0 6 c 6
+ 11 88 l 6
+ 19 149 51 219 95 219 c 4
+ 134 219 151 182 151 134 c 4xf0
+ 151 119 149 103 146 87 c 6
+ 131 6 l 6xe4
+281 6 m 6xe080
+ 280 1 277 -3 274 -3 c 4
+ 267 -3 270 17 270 26 c 4xe080
+ 270 68 259 120 228 120 c 4
+ 195 120 174 59 163 10 c 4
+ 161 3 156 0 153 0 c 4
+ 151 0 149 1 150 6 c 6
+ 161 88 l 6
+ 169 149 201 219 245 219 c 4
+ 284 219 301 182 301 134 c 4xe2
+ 301 119 299 103 296 87 c 6
+ 281 6 l 6xe080
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -7490,16 +7492,16 @@ SplineSet
  486 181 l 2
  422 143 337 84 309 0 c 1
  324 98 l 1xe0
-737 240 m 1
- 759 284 842 327 842 327 c 1
- 829 232 l 1
- 829 232 747 191 722 142 c 1
- 737 240 l 1
-584 150 m 1
- 606 194 689 237 689 237 c 1
- 676 142 l 1
- 676 142 594 101 569 52 c 1
- 584 150 l 1
+737 240 m 5
+ 759 284 842 327 842 327 c 5
+ 829 232 l 5
+ 829 232 747 191 722 142 c 5
+ 737 240 l 5
+584 150 m 5
+ 606 194 689 237 689 237 c 5
+ 676 142 l 5
+ 676 142 594 101 569 52 c 5
+ 584 150 l 5
 140 6 m 2xe4
  139 1 136 -3 133 -3 c 0
  126 -3 129 17 129 26 c 0xe4
@@ -7568,31 +7570,31 @@ SplineSet
  477 181 l 2
  413 143 328 84 300 0 c 1
  315 98 l 1xe0
-131 6 m 2xe4
- 130 1 127 -3 124 -3 c 0
- 117 -3 120 17 120 26 c 0xe4
- 120 68 109 120 78 120 c 0
- 45 120 24 59 13 10 c 0
- 11 3 6 0 3 0 c 0
- 1 0 -1 1 0 6 c 2
- 11 88 l 2
- 19 149 51 219 95 219 c 0
- 134 219 151 182 151 134 c 0xf0
- 151 119 149 103 146 87 c 2
- 131 6 l 2xe4
-186 141 m 1
- 194 157 211 173 229 187 c 1
- 237 264 l 1
- 258 275 l 1
- 251 203 l 1
- 275 218 296 229 296 229 c 1
- 283 134 l 1
- 283 134 264 125 242 110 c 1
- 232 11 l 1
- 211 0 l 1
- 220 96 l 1
- 200 81 181 62 171 43 c 1
- 186 141 l 1
+131 6 m 6xe4
+ 130 1 127 -3 124 -3 c 4
+ 117 -3 120 17 120 26 c 4xe4
+ 120 68 109 120 78 120 c 4
+ 45 120 24 59 13 10 c 4
+ 11 3 6 0 3 0 c 4
+ 1 0 -1 1 0 6 c 6
+ 11 88 l 6
+ 19 149 51 219 95 219 c 4
+ 134 219 151 182 151 134 c 4xf0
+ 151 119 149 103 146 87 c 6
+ 131 6 l 6xe4
+186 141 m 5
+ 194 157 211 173 229 187 c 5
+ 237 264 l 5
+ 258 275 l 5
+ 251 203 l 5
+ 275 218 296 229 296 229 c 5
+ 283 134 l 5
+ 283 134 264 125 242 110 c 5
+ 232 11 l 5
+ 211 0 l 5
+ 220 96 l 5
+ 200 81 181 62 171 43 c 5
+ 186 141 l 5
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -7844,18 +7846,18 @@ SplineSet
  177 181 l 2
  113 143 28 84 0 0 c 1
  15 98 l 1xe0
-387 26 m 0
- 343 26 326 59 326 101 c 0xf0
- 326 113 327 127 330 140 c 2
- 345 222 l 2
- 347 232 358 235 357 217 c 0xe8
- 356 204 355 190 355 178 c 0xf0
- 355 151 362 124 399 124 c 0
- 436 124 457 198 466 249 c 0
- 467 256 472 260 475 260 c 0
- 478 260 480 258 479 253 c 2
- 465 157 l 2
- 455 94 437 26 387 26 c 0
+387 26 m 4
+ 343 26 326 59 326 101 c 4xf0
+ 326 113 327 127 330 140 c 6
+ 345 222 l 6
+ 347 232 358 235 357 217 c 4xe8
+ 356 204 355 190 355 178 c 4xf0
+ 355 151 362 124 399 124 c 4
+ 436 124 457 198 466 249 c 4
+ 467 256 472 260 475 260 c 4
+ 478 260 480 258 479 253 c 6
+ 465 157 l 6
+ 455 94 437 26 387 26 c 4
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -8212,19 +8214,19 @@ AnchorPoint: "Shaidur" 8 191 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-25 98 m 2xe8
- 55 272 59 391 187 391 c 0
- 258 391 287 344 287 241 c 0xe8
- 287 200 283 150 274 91 c 2
- 261 0 l 1
- 241 0 l 1xf0
- 253 91 l 2
- 257 122 260 152 260 178 c 0
- 260 246 240 292 170 292 c 0
- 97 292 73 238 47 98 c 2
- 29 0 l 1
- 8 0 l 1
- 25 98 l 2xe8
+25 98 m 6xe8
+ 55 272 59 391 187 391 c 4
+ 258 391 287 344 287 241 c 4xe8
+ 287 200 283 150 274 91 c 6
+ 261 0 l 5
+ 241 0 l 5xf0
+ 253 91 l 6
+ 257 122 260 152 260 178 c 4
+ 260 246 240 292 170 292 c 4
+ 97 292 73 238 47 98 c 6
+ 29 0 l 5
+ 8 0 l 5
+ 25 98 l 6xe8
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -8271,20 +8273,20 @@ SplineSet
  112 620 l 1
  62 100 l 1
  85 169 174 244 233 279 c 2
-478 256 m 1
- 488 279 518 302 539 316 c 0
- 553 325 568 335 583 343 c 1
- 570 248 l 1
- 540 232 515 214 490 193 c 0
- 478 183 469 170 463 158 c 1
- 478 256 l 1
-325 166 m 1
- 335 189 365 212 386 226 c 0
- 400 235 415 245 430 253 c 1
- 417 158 l 1
- 387 142 362 124 337 103 c 0
- 325 93 316 80 310 68 c 1
- 325 166 l 1
+478 256 m 5
+ 488 279 518 302 539 316 c 4
+ 553 325 568 335 583 343 c 5
+ 570 248 l 5
+ 540 232 515 214 490 193 c 4
+ 478 183 469 170 463 158 c 5
+ 478 256 l 5
+325 166 m 5
+ 335 189 365 212 386 226 c 4
+ 400 235 415 245 430 253 c 5
+ 417 158 l 5
+ 387 142 362 124 337 103 c 4
+ 325 93 316 80 310 68 c 5
+ 325 166 l 5
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -10098,16 +10100,16 @@ SplineSet
  437 181 l 2
  373 143 288 84 260 0 c 1
  275 98 l 1
-57 224 m 1
- 137 99 l 1
- 120 0 l 1
- 40 125 l 1
- 57 224 l 1
-162 224 m 1
- 242 99 l 1
- 225 0 l 1
- 145 125 l 1
- 162 224 l 1
+57 224 m 5
+ 137 99 l 5
+ 120 0 l 5
+ 40 125 l 5
+ 57 224 l 5
+162 224 m 5
+ 242 99 l 5
+ 225 0 l 5
+ 145 125 l 5
+ 162 224 l 5
 EndSplineSet
 Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
@@ -12545,7 +12547,7 @@ SplineSet
  58 79 l 1xd0
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Ligature2: "'ccmp' Priznak-based Compositions-1" uniEE7A uniEE5C
 Colour: faff80
 EndChar
@@ -12799,7 +12801,7 @@ SplineSet
  402 193 l 1
 EndSplineSet
 Validated: 1
-Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Ligature2: "'ccmp' Priznak-based Compositions-1" uniEE7B uniEE5C
 Colour: faff80
 EndChar
@@ -20403,6 +20405,7 @@ SplineSet
  545 0 l 1xb9
  580 301 l 1
 EndSplineSet
+Validated: 1
 Position2: "Advance neume with cinnabar mark-1" dx=200 dy=0 dh=0 dv=0
 Colour: faff80
 EndChar
@@ -21719,6 +21722,7 @@ SplineSet
  91 109 33 0 33 0 c 1
  86 531 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAE uniEEE0
 Colour: faff80
 EndChar
@@ -21766,6 +21770,7 @@ SplineSet
  618 508 705 558 729 558 c 4
  740 558 752 547 762 534 c 5
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAE uniEEE1
 Colour: faff80
 EndChar
@@ -23748,6 +23753,7 @@ SplineSet
  5 125 l 1
  22 224 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEA5 uniEEE0
 Colour: faff80
 EndChar
@@ -23796,6 +23802,7 @@ SplineSet
  5 125 l 1
  22 224 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEA5 uniEEE1
 Comment: "Why is it mapped here?" 
 Colour: faff80
@@ -23884,6 +23891,7 @@ SplineSet
  136 320 136 295 142 272 c 0
  160 193 204 134 244 78 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAC uniEEE0
 Colour: faff80
 EndChar
@@ -24071,6 +24079,7 @@ SplineSet
  285 109 227 0 227 0 c 1
  288 620 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAF uniEEE0
 Colour: faff80
 EndChar
@@ -24120,6 +24129,7 @@ SplineSet
  110 620 l 1
  61 100 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAA uniEEE1
 Colour: faff80
 EndChar
@@ -24199,6 +24209,7 @@ SplineSet
  142 356 119 264 119 182 c 0
  119 161 120 140 124 122 c 0
 EndSplineSet
+Validated: 1
 Colour: faff80
 EndChar
 
@@ -24269,6 +24280,7 @@ SplineSet
  142 356 119 264 119 182 c 0
  119 161 120 140 124 122 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAB uniEEE0
 Colour: faff80
 EndChar
@@ -24340,6 +24352,7 @@ SplineSet
  142 356 119 264 119 182 c 0
  119 161 120 140 124 122 c 0
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAB uniEEE1
 Colour: faff80
 EndChar
@@ -24442,6 +24455,7 @@ SplineSet
  136 320 136 295 142 272 c 0
  160 193 204 134 244 78 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAC uniEEE1
 Colour: faff80
 EndChar
@@ -24504,6 +24518,7 @@ SplineSet
  40 125 l 1
  57 224 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEA2 uniEEE1
 Colour: faff80
 EndChar
@@ -24567,6 +24582,7 @@ SplineSet
  966 558 980 543 991 529 c 1
  1009 628 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEA3 uniEEE1
 Colour: faff80
 EndChar
@@ -24633,6 +24649,7 @@ SplineSet
  575 81 556 62 546 43 c 1
  561 141 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEA4 uniEEE1
 Colour: faff80
 EndChar
@@ -24708,6 +24725,7 @@ SplineSet
  110 620 l 1
  61 100 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAA uniEEE0
 Colour: faff80
 EndChar
@@ -24858,6 +24876,7 @@ SplineSet
  336 116 325 100 320 84 c 1
  339 186 l 1
 EndSplineSet
+Validated: 1
 LCarets2: 1 0 
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAD uniEEE0
 Colour: faff80
@@ -24937,6 +24956,7 @@ SplineSet
  336 116 325 100 320 84 c 1
  339 186 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAD uniEEE1
 Colour: faff80
 EndChar
@@ -25026,6 +25046,7 @@ SplineSet
  207 302 90 253 69 190 c 1
  87 290 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "'ccmp' Priznak Composition-1" uniEEAF uniEEE1
 Colour: faff80
 EndChar
@@ -26752,9 +26773,40 @@ EndChar
 
 StartChar: uniEE63
 Encoding: 61027 61027 828
-Width: 1000
-VWidth: 0
+Width: 325
+VWidth: 999
+Flags: W
+HStem: -3 21G<2 4.5 120.5 125.5 152 154.5 270.5 275.5> 120 99<54.2083 105.938 204.286 255.938>
+VStem: 11 140<58.65 161.503> 120 31<31.3125 101.332> 120 11<-2.64857 33.9771> 161 140<58.65 161.503> 270 31<31.3125 101.332> 270 11<-2.64857 33.9771>
 LayerCount: 3
+Fore
+SplineSet
+131 6 m 6xc8
+ 130 1 127 -3 124 -3 c 4
+ 117 -3 120 17 120 26 c 4xc8
+ 120 68 109 120 78 120 c 4
+ 45 120 23 59 13 10 c 4
+ 11 3 6 0 3 0 c 4
+ 1 0 -1 1 0 6 c 6
+ 11 88 l 6
+ 19 149 51 219 95 219 c 4
+ 134 219 151 182 151 134 c 4xe0
+ 151 119 149 103 146 87 c 6
+ 131 6 l 6xc8
+281 6 m 6xc1
+ 280 1 277 -3 274 -3 c 4
+ 267 -3 270 17 270 26 c 4xc1
+ 270 68 259 120 228 120 c 4
+ 195 120 174 59 163 10 c 4
+ 161 3 156 0 153 0 c 4
+ 151 0 149 1 150 6 c 6
+ 161 88 l 6
+ 169 149 201 219 245 219 c 4
+ 284 219 301 182 301 134 c 4xc4
+ 301 119 299 103 296 87 c 6
+ 281 6 l 6xc1
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -26840,25 +26892,195 @@ EndChar
 
 StartChar: uniEEA6
 Encoding: 61094 61094 839
-Width: 1000
-VWidth: 0
+Width: 919
+VWidth: 999
+Flags: W
+HStem: 0 21G<12 14.5 130.5 135.5 163.061 174> 120 99<64.286 115.938> 460 98<796.698 868.058>
+VStem: 21 140<58.65 161.503> 130 31<31.3125 101.332> 130 11<-2.64857 33.9771>
+DStem2: 358 279 337 181 0.859456 0.511209<-164.673 503.142>
+AnchorPoint: "Podtinka" 11.6329 -10 basechar 0
+AnchorPoint: "Zevok" 1016 638 basechar 0
+AnchorPoint: "Udarka" 25 454 basechar 0
+AnchorPoint: "Kupnaya" 475 -115 basechar 0
+AnchorPoint: "Kachka" 439 556 basechar 0
+AnchorPoint: "Lomka" 866 52 basechar 0
+AnchorPoint: "Tikhaya" 332 218.5 basechar 0
+AnchorPoint: "Oblachko" 842 635 basechar 0
+AnchorPoint: "Podchashie" 574 219 basechar 0
+AnchorPoint: "Zaderzhka" 1015 491.9 basechar 0
+AnchorPoint: "Tonal" 450 450 basechar 0
+AnchorPoint: "Podvertka" 887 350 basechar 0
+AnchorPoint: "Borzaya" 22 302 basechar 0
+AnchorPoint: "Otsechka" 929 364 basechar 0
+AnchorPoint: "Shaidur" 158 304 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+175 98 m 1xe0
+ 197 167 299 244 358 279 c 2
+ 743 508 l 1
+ 743 508 830 558 854 558 c 0
+ 873 558 897 522 904 508 c 1
+ 887 410 l 1
+ 880 424 856 460 837 460 c 0
+ 812 460 722 410 722 410 c 1
+ 337 181 l 2
+ 273 143 188 84 160 0 c 1
+ 175 98 l 1xe0
+141 6 m 6xe4
+ 140 1 137 -3 134 -3 c 4
+ 127 -3 130 17 130 26 c 4xe4
+ 130 68 119 120 88 120 c 4
+ 55 120 34 59 23 10 c 4
+ 21 3 16 0 13 0 c 4
+ 11 0 9 1 10 6 c 6
+ 21 88 l 6
+ 29 149 61 219 105 219 c 4
+ 144 219 161 182 161 134 c 4xf0
+ 161 119 159 103 156 87 c 6
+ 141 6 l 6xe4
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEA7
 Encoding: 61095 61095 840
-Width: 1000
-VWidth: 0
+Width: 1068
+VWidth: 999
+Flags: W
+HStem: 0 17G<12 14.5 130.5 135.5 242.667 269.742> 120 99<64.286 115.938> 552 98<950.698 1022.06>
+VStem: 21 140<58.65 161.503> 130 31<31.3125 101.332> 130 11<-2.64857 33.9771>
+DStem2: 289 234 276 144 0.858753 0.512389<0 764.719>
+AnchorPoint: "Podtinka" 11.6329 -10 basechar 0
+AnchorPoint: "Zevok" 1170 730 basechar 0
+AnchorPoint: "Udarka" 25 454 basechar 0
+AnchorPoint: "Kupnaya" 629 -23 basechar 0
+AnchorPoint: "Kachka" 593 648 basechar 0
+AnchorPoint: "Lomka" 1020 144 basechar 0
+AnchorPoint: "Tikhaya" 486 310.5 basechar 0
+AnchorPoint: "Oblachko" 996 727 basechar 0
+AnchorPoint: "Podchashie" 728 311 basechar 0
+AnchorPoint: "Zaderzhka" 1169 583.9 basechar 0
+AnchorPoint: "Tonal" 604 542 basechar 0
+AnchorPoint: "Podvertka" 1041 442 basechar 0
+AnchorPoint: "Borzaya" 22 302 basechar 0
+AnchorPoint: "Otsechka" 1083 456 basechar 0
+AnchorPoint: "Shaidur" 152 334 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+245 246 m 1xe0
+ 230 229 210 206 190 184 c 1
+ 156 259 l 1
+ 210 320 l 1
+ 245 246 l 1xe0
+307 58 m 1
+ 252 -4 l 1
+ 217 71 l 1
+ 272 133 l 1
+ 307 58 l 1
+289 234 m 1
+ 346 278 453 336 512 371 c 2
+ 897 600 l 1
+ 897 600 984 650 1008 650 c 0
+ 1027 650 1051 614 1058 600 c 1
+ 1041 502 l 1
+ 1034 516 1010 552 991 552 c 0
+ 966 552 876 502 876 502 c 1
+ 491 273 l 2
+ 427 235 402 223 276 144 c 1
+ 289 234 l 1
+141 6 m 2xe4
+ 140 1 137 -3 134 -3 c 0
+ 127 -3 130 17 130 26 c 0xe4
+ 130 68 119 120 88 120 c 0
+ 55 120 34 59 23 10 c 0
+ 21 3 16 0 13 0 c 0
+ 11 0 9 1 10 6 c 2
+ 21 88 l 2
+ 29 149 61 219 105 219 c 0
+ 144 219 161 182 161 134 c 0xf0
+ 161 119 159 103 156 87 c 2
+ 141 6 l 2xe4
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEA8
 Encoding: 61096 61096 841
-Width: 1000
-VWidth: 0
+Width: 1250
+VWidth: 999
+Flags: W
+HStem: -3 21G<17 19.5 135.5 140.5 182 184.5 300.5 305.5 412.667 439.742> 120 99<69.7613 120.938 234.286 285.938> 552 98<1120.7 1192.06>
+VStem: 26 140<58.65 161.503> 135 31<31.3125 101.332> 135 11<-2.64857 33.9771> 191 140<58.65 161.503> 300 31<31.3125 101.332> 300 11<-2.64857 33.9771>
+DStem2: 459 234 446 144 0.858753 0.512389<0 764.719>
+AnchorPoint: "Podtinka" 181.633 -10 basechar 0
+AnchorPoint: "Zevok" 1340 730 basechar 0
+AnchorPoint: "Udarka" 195 454 basechar 0
+AnchorPoint: "Kupnaya" 799 -23 basechar 0
+AnchorPoint: "Kachka" 763 648 basechar 0
+AnchorPoint: "Lomka" 1190 144 basechar 0
+AnchorPoint: "Tikhaya" 656 310.5 basechar 0
+AnchorPoint: "Oblachko" 1166 727 basechar 0
+AnchorPoint: "Podchashie" 898 311 basechar 0
+AnchorPoint: "Zaderzhka" 1339 583.9 basechar 0
+AnchorPoint: "Tonal" 774 542 basechar 0
+AnchorPoint: "Podvertka" 1211 442 basechar 0
+AnchorPoint: "Borzaya" 192 302 basechar 0
+AnchorPoint: "Otsechka" 1253 456 basechar 0
+AnchorPoint: "Shaidur" 322 334 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+146 6 m 2xe4
+ 145 1 142 -3 139 -3 c 0
+ 132 -3 135 17 135 26 c 0xe4
+ 135 68 124 120 93 120 c 0
+ 60 120 37 59 26 10 c 0
+ 24 3 21 0 18 0 c 0
+ 16 0 14 1 15 6 c 2
+ 26 88 l 2
+ 34 149 66 219 110 219 c 0
+ 149 219 166 182 166 134 c 0xf0
+ 166 119 164 103 161 87 c 2
+ 146 6 l 2xe4
+415 246 m 1
+ 400 229 380 206 360 184 c 1
+ 326 259 l 1
+ 380 320 l 1
+ 415 246 l 1
+477 58 m 1
+ 422 -4 l 1
+ 387 71 l 1
+ 442 133 l 1
+ 477 58 l 1
+459 234 m 1
+ 516 278 623 336 682 371 c 2
+ 1067 600 l 1
+ 1067 600 1154 650 1178 650 c 0
+ 1197 650 1221 614 1228 600 c 1
+ 1211 502 l 1
+ 1204 516 1180 552 1161 552 c 0
+ 1136 552 1046 502 1046 502 c 1
+ 661 273 l 2
+ 597 235 572 223 446 144 c 1
+ 459 234 l 1
+311 6 m 2xe080
+ 310 1 307 -3 304 -3 c 0
+ 297 -3 300 17 300 26 c 0xe080
+ 300 68 289 120 258 120 c 0
+ 225 120 204 59 193 10 c 0
+ 191 3 186 0 183 0 c 0
+ 181 0 179 1 180 6 c 2
+ 191 88 l 2
+ 199 149 231 219 275 219 c 0
+ 314 219 331 182 331 134 c 0xe2
+ 331 119 329 103 326 87 c 2
+ 311 6 l 2xe080
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -26866,6 +27088,7 @@ StartChar: uniEEA9
 Encoding: 61097 61097 842
 Width: 1000
 VWidth: 0
+Flags: W
 LayerCount: 3
 Colour: ffb54c
 EndChar
@@ -27108,9 +27331,67 @@ EndChar
 
 StartChar: uniEE97
 Encoding: 61079 61079 847
-Width: 1000
+Width: 530
 VWidth: 0
+Flags: W
+HStem: -3 21G<302.5 305.5> 0 100<391.69 469.112> 131 98<214.034 291.395>
+VStem: 178 13<63.0764 93.491> 188 142<90.9 201.191> 299 12<-2.81836 43.8> 302 28<33.6506 157.5> 369 12<139.324 187.375> 502 13<172.498 215.667>
+AnchorPoint: "Podtinka" 11 -16 basechar 0
+AnchorPoint: "Zevok" 192 474 basechar 0
+AnchorPoint: "Udarka" 192 474 basechar 0
+AnchorPoint: "Kupnaya" 188 -108 basechar 0
+AnchorPoint: "Kachka" 191 474 basechar 0
+AnchorPoint: "Lomka" 191 474 basechar 0
+AnchorPoint: "Tikhaya" 62 110.5 basechar 0
+AnchorPoint: "Oblachko" 191 475 basechar 0
+AnchorPoint: "Podchashie" 191 475 basechar 0
+AnchorPoint: "Zaderzhka" 191 473.9 basechar 0
+AnchorPoint: "Tonal" 300 550 basechar 0
+AnchorPoint: "Podvertka" 193 474 basechar 0
+AnchorPoint: "Borzaya" 193 474 basechar 0
+AnchorPoint: "Otsechka" 544 22 basechar 0
+AnchorPoint: "Shaidur" 11 191 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+515 205 m 1x6180
+ 506 123 l 1
+ 506 64 472 0 425 0 c 0
+ 419 0 414 2 408 4 c 0
+ 377 13 356 38 356 83 c 0
+ 356 91 357 100 359 109 c 2
+ 369 182 l 2
+ 371 194 381 187 381 174 c 0
+ 381 172 381 169 381 166 c 0
+ 381 121 400 108 417 103 c 0
+ 425 101 431 100 437 100 c 0
+ 482 100 494 156 502 205 c 0
+ 505 220 515 219 515 205 c 1x6180
+23 100 m 1
+ 44 166 159 208 159 208 c 1
+ 143 112 l 1
+ 143 112 26 63 5 0 c 1
+ 23 100 l 1
+83 290 m 1
+ 104 356 219 398 219 398 c 1
+ 203 302 l 1
+ 203 302 86 253 65 190 c 1
+ 83 290 l 1
+311 6 m 2xa580
+ 310 1 307 -3 304 -3 c 0
+ 301 -3 298 1 299 10 c 0xa580
+ 301 28 302 46 302 62 c 0
+ 302 100 293 127 254 131 c 0
+ 252 131 249 131 246 131 c 0
+ 227 131 203 123 191 73 c 0
+ 188 61 176 57 178 69 c 2xb380
+ 188 142 l 2
+ 196 203 227 229 265 229 c 0
+ 311 229 330 184 330 131 c 0xa980
+ 330 117 329 102 326 87 c 2
+ 311 6 l 2xa580
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -27125,77 +27406,528 @@ EndChar
 StartChar: uniEEB0
 Encoding: 61104 61104 849
 Width: 1000
-VWidth: 0
+VWidth: 999
+Flags: W
+HStem: -5 26G<12.6 19.5 229.968 247.779> 460 98<866.698 938.058>
+VStem: 289 18<602 620>
+DStem2: 228 0 257 100 0.0979143 0.995195<102.359 622.994> 428 279 407 181 0.859456 0.511209<-143.168 503.142>
+AnchorPoint: "Podtinka" 13 -21 basechar 0
+AnchorPoint: "Zevok" 1012 639 basechar 0
+AnchorPoint: "Udarka" 0 342 basechar 0
+AnchorPoint: "Kupnaya" 522 -115 basechar 0
+AnchorPoint: "Kachka" 454 556 basechar 0
+AnchorPoint: "Lomka" 877 52 basechar 0
+AnchorPoint: "Tikhaya" 293 170.5 basechar 0
+AnchorPoint: "Oblachko" 855 639 basechar 0
+AnchorPoint: "Podchashie" 558 166 basechar 0
+AnchorPoint: "Zaderzhka" 1020 483.9 basechar 0
+AnchorPoint: "Tonal" 494 450 basechar 0
+AnchorPoint: "Podvertka" 893 341 basechar 0
+AnchorPoint: "Borzaya" -1 146 basechar 0
+AnchorPoint: "Otsechka" 943 349 basechar 0
+AnchorPoint: "Shaidur" 153 368 basechar 0
 LayerCount: 3
-Colour: ffb54c
-EndChar
-
-StartChar: uniEEB1
-Encoding: 61105 61105 850
-Width: 1000
-VWidth: 0
-LayerCount: 3
+Fore
+SplineSet
+428 279 m 6
+ 813 508 l 5
+ 813 508 900 558 924 558 c 4
+ 943 558 967 522 974 508 c 5
+ 957 410 l 5
+ 950 424 926 460 907 460 c 4
+ 882 460 792 410 792 410 c 5
+ 407 181 l 6
+ 286 109 228 0 228 0 c 5
+ 289 620 l 5
+ 307 620 l 5
+ 257 100 l 5
+ 280 169 369 244 428 279 c 6
+27 95 m 1
+ 48 161 163 203 163 203 c 1
+ 147 107 l 1
+ 147 107 30 58 9 -5 c 1
+ 27 95 l 1
+87 285 m 1
+ 108 351 223 393 223 393 c 1
+ 207 297 l 1
+ 207 297 90 248 69 185 c 1
+ 87 285 l 1
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEB2
-Encoding: 61106 61106 851
-Width: 1000
-VWidth: 0
+Encoding: 61106 61106 850
+Width: 1090
+VWidth: 999
+Flags: W
+HStem: 0 18G<13 15.5 131.5 136.5 163 165.5 281.5 286.5 338.968 356.779> 120 99<65.2083 116.938 215.286 266.938> 460 98<975.698 1047.06>
+VStem: 22 140<58.65 161.503> 131 31<31.3125 101.332> 131 11<-2.64857 33.9771> 172 140<58.65 161.503> 281 31<31.3125 101.332> 281 11<-2.64857 33.9771> 398 18<602 620>
+DStem2: 337 0 366 100 0.0979143 0.995195<102.359 622.994> 537 279 516 181 0.859456 0.511209<-143.168 503.142>
+AnchorPoint: "Podtinka" 17 -21 basechar 0
+AnchorPoint: "Zevok" 1121 639 basechar 0
+AnchorPoint: "Udarka" 109 342 basechar 0
+AnchorPoint: "Kupnaya" 631 -115 basechar 0
+AnchorPoint: "Kachka" 563 556 basechar 0
+AnchorPoint: "Lomka" 986 52 basechar 0
+AnchorPoint: "Tikhaya" 402 170.5 basechar 0
+AnchorPoint: "Oblachko" 964 639 basechar 0
+AnchorPoint: "Podchashie" 667 166 basechar 0
+AnchorPoint: "Zaderzhka" 1129 483.9 basechar 0
+AnchorPoint: "Tonal" 603 450 basechar 0
+AnchorPoint: "Podvertka" 1002 341 basechar 0
+AnchorPoint: "Borzaya" -30 197.6 basechar 0
+AnchorPoint: "Otsechka" 1052 349 basechar 0
+AnchorPoint: "Shaidur" 262 368 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+142 6 m 2xe440
+ 141 1 138 -3 135 -3 c 0
+ 128 -3 131 17 131 26 c 0xe440
+ 131 68 120 120 89 120 c 0
+ 56 120 34 59 24 10 c 0
+ 22 3 17 0 14 0 c 0
+ 12 0 10 1 11 6 c 2
+ 22 88 l 2
+ 30 149 62 219 106 219 c 0
+ 145 219 162 182 162 134 c 0xf040
+ 162 119 160 103 157 87 c 2
+ 142 6 l 2xe440
+292 6 m 2xe0c0
+ 291 1 288 -3 285 -3 c 0
+ 278 -3 281 17 281 26 c 0xe0c0
+ 281 68 270 120 239 120 c 0
+ 206 120 185 59 174 10 c 0
+ 172 3 167 0 164 0 c 0
+ 162 0 160 1 161 6 c 2
+ 172 88 l 2
+ 180 149 212 219 256 219 c 0
+ 295 219 312 182 312 134 c 0xe240
+ 312 119 310 103 307 87 c 2
+ 292 6 l 2xe0c0
+537 279 m 2
+ 922 508 l 1
+ 922 508 1009 558 1033 558 c 0
+ 1052 558 1076 522 1083 508 c 1
+ 1066 410 l 1
+ 1059 424 1035 460 1016 460 c 0
+ 991 460 901 410 901 410 c 1
+ 516 181 l 2
+ 395 109 337 0 337 0 c 1
+ 398 620 l 1
+ 416 620 l 1
+ 366 100 l 1
+ 389 169 478 244 537 279 c 2
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEB3
-Encoding: 61107 61107 852
-Width: 1000
-VWidth: 0
+Encoding: 61107 61107 851
+Width: 1090
+VWidth: 999
+Flags: W
+HStem: 0 18G<13 15.5 131.5 136.5 163 165.5 281.5 286.5 338.968 356.779> 120 99<65.2083 116.938 215.286 266.938> 460 98<975.698 1047.06>
+VStem: 22 140<58.65 161.503> 131 31<31.3125 101.332> 131 11<-2.64857 33.9771> 172 140<58.65 161.503> 281 31<31.3125 101.332> 281 11<-2.64857 33.9771> 398 18<602 620>
+DStem2: 337 0 366 100 0.0979143 0.995195<102.359 622.994> 537 279 516 181 0.859456 0.511209<-143.168 503.142>
+AnchorPoint: "Podtinka" 17 -21 basechar 0
+AnchorPoint: "Zevok" 1121 639 basechar 0
+AnchorPoint: "Udarka" 109 342 basechar 0
+AnchorPoint: "Kupnaya" 631 -115 basechar 0
+AnchorPoint: "Kachka" 563 556 basechar 0
+AnchorPoint: "Lomka" 986 52 basechar 0
+AnchorPoint: "Tikhaya" 402 170.5 basechar 0
+AnchorPoint: "Oblachko" 964 639 basechar 0
+AnchorPoint: "Podchashie" 703 88 basechar 0
+AnchorPoint: "Zaderzhka" 1129 483.9 basechar 0
+AnchorPoint: "Tonal" 603 450 basechar 0
+AnchorPoint: "Podvertka" 1002 341 basechar 0
+AnchorPoint: "Borzaya" -30 197.6 basechar 0
+AnchorPoint: "Otsechka" 1052 349 basechar 0
+AnchorPoint: "Shaidur" 262 368 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+737 240 m 1xe040
+ 759 284 842 327 842 327 c 1
+ 829 232 l 1
+ 829 232 747 191 722 142 c 1
+ 737 240 l 1xe040
+584 150 m 1
+ 606 194 689 237 689 237 c 1
+ 676 142 l 1
+ 676 142 594 101 569 52 c 1
+ 584 150 l 1
+142 6 m 2xe440
+ 141 1 138 -3 135 -3 c 0
+ 128 -3 131 17 131 26 c 0xe440
+ 131 68 120 120 89 120 c 0
+ 56 120 34 59 24 10 c 0
+ 22 3 17 0 14 0 c 0
+ 12 0 10 1 11 6 c 2
+ 22 88 l 2
+ 30 149 62 219 106 219 c 0
+ 145 219 162 182 162 134 c 0xf040
+ 162 119 160 103 157 87 c 2
+ 142 6 l 2xe440
+292 6 m 2xe0c0
+ 291 1 288 -3 285 -3 c 0
+ 278 -3 281 17 281 26 c 0xe0c0
+ 281 68 270 120 239 120 c 0
+ 206 120 185 59 174 10 c 0
+ 172 3 167 0 164 0 c 0
+ 162 0 160 1 161 6 c 2
+ 172 88 l 2
+ 180 149 212 219 256 219 c 0
+ 295 219 312 182 312 134 c 0xe240
+ 312 119 310 103 307 87 c 2
+ 292 6 l 2xe0c0
+537 279 m 2
+ 922 508 l 1
+ 922 508 1009 558 1033 558 c 0
+ 1052 558 1076 522 1083 508 c 1
+ 1066 410 l 1
+ 1059 424 1035 460 1016 460 c 0
+ 991 460 901 410 901 410 c 1
+ 516 181 l 2
+ 395 109 337 0 337 0 c 1
+ 398 620 l 1
+ 416 620 l 1
+ 366 100 l 1
+ 389 169 478 244 537 279 c 2
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEB4
-Encoding: 61108 61108 853
-Width: 1000
-VWidth: 0
+Encoding: 61108 61108 852
+Width: 1085
+VWidth: 999
+Flags: W
+HStem: 0 18G<12 14.5 130.5 135.5 222.875 242 323.968 341.779> 120 99<64.286 115.938> 460 98<960.698 1032.06>
+VStem: 21 140<58.65 161.503> 130 31<31.3125 101.332> 130 11<-2.64857 33.9771> 383 18<602 620>
+DStem2: 221 0 242 11 0.0980107 0.995185<13.0053 96.4199 205.943 265.277> 322 0 351 100 0.0979143 0.995195<102.359 622.994> 522 279 501 181 0.859456 0.511209<-143.168 503.142>
+AnchorPoint: "Podtinka" 13.633 -20 basechar 0
+AnchorPoint: "Zevok" 1106 639 basechar 0
+AnchorPoint: "Udarka" 94 342 basechar 0
+AnchorPoint: "Kupnaya" 616 -115 basechar 0
+AnchorPoint: "Kachka" 548 556 basechar 0
+AnchorPoint: "Lomka" 971 52 basechar 0
+AnchorPoint: "Tikhaya" 387 170.5 basechar 0
+AnchorPoint: "Oblachko" 949 639 basechar 0
+AnchorPoint: "Podchashie" 652 166 basechar 0
+AnchorPoint: "Zaderzhka" 1114 483.9 basechar 0
+AnchorPoint: "Tonal" 588 450 basechar 0
+AnchorPoint: "Podvertka" 987 341 basechar 0
+AnchorPoint: "Borzaya" -15 197.6 basechar 0
+AnchorPoint: "Otsechka" 1037 349 basechar 0
+AnchorPoint: "Shaidur" 247 368 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+141 6 m 2xe6
+ 140 1 137 -3 134 -3 c 0
+ 127 -3 130 17 130 26 c 0xe6
+ 130 68 119 120 88 120 c 0
+ 55 120 34 59 23 10 c 0
+ 21 3 16 0 13 0 c 0
+ 11 0 9 1 10 6 c 2
+ 21 88 l 2
+ 29 149 61 219 105 219 c 0
+ 144 219 161 182 161 134 c 0xf2
+ 161 119 159 103 156 87 c 2
+ 141 6 l 2xe6
+196 141 m 1
+ 204 157 221 173 239 187 c 1
+ 247 264 l 1
+ 268 275 l 1
+ 261 203 l 1
+ 285 218 306 229 306 229 c 1
+ 293 134 l 1
+ 293 134 274 125 252 110 c 1
+ 242 11 l 1
+ 221 0 l 1
+ 230 96 l 1
+ 210 81 191 62 181 43 c 1
+ 196 141 l 1
+522 279 m 2
+ 907 508 l 1
+ 907 508 994 558 1018 558 c 0
+ 1037 558 1061 522 1068 508 c 1
+ 1051 410 l 1
+ 1044 424 1020 460 1001 460 c 0
+ 976 460 886 410 886 410 c 1
+ 501 181 l 2
+ 380 109 322 0 322 0 c 1
+ 383 620 l 1
+ 401 620 l 1
+ 351 100 l 1
+ 374 169 463 244 522 279 c 2
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEB5
-Encoding: 61109 61109 854
-Width: 1000
-VWidth: 0
+Encoding: 61109 61109 853
+Width: 1043
+VWidth: 999
+Flags: W
+HStem: 0 21G<107.2 123.434 212.2 228.434 273.968 291.779> 460 98<910.698 982.058>
+VStem: 333 18<602 620>
+DStem2: 272 0 301 100 0.0979143 0.995195<102.359 622.994> 472 279 451 181 0.859456 0.511209<-143.168 503.142>
+AnchorPoint: "Podtinka" 13.633 -20 basechar 0
+AnchorPoint: "Zevok" 1056 639 basechar 0
+AnchorPoint: "Udarka" 94 342 basechar 0
+AnchorPoint: "Kupnaya" 566 -115 basechar 0
+AnchorPoint: "Kachka" 498 556 basechar 0
+AnchorPoint: "Lomka" 921 52 basechar 0
+AnchorPoint: "Tikhaya" 337 170.5 basechar 0
+AnchorPoint: "Oblachko" 899 639 basechar 0
+AnchorPoint: "Podchashie" 602 166 basechar 0
+AnchorPoint: "Zaderzhka" 1064 483.9 basechar 0
+AnchorPoint: "Tonal" 538 450 basechar 0
+AnchorPoint: "Podvertka" 937 341 basechar 0
+AnchorPoint: "Borzaya" -15 197.6 basechar 0
+AnchorPoint: "Otsechka" 987 349 basechar 0
+AnchorPoint: "Shaidur" 247 368 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+57 224 m 1
+ 137 99 l 1
+ 120 0 l 1
+ 40 125 l 1
+ 57 224 l 1
+162 224 m 1
+ 242 99 l 1
+ 225 0 l 1
+ 145 125 l 1
+ 162 224 l 1
+472 279 m 2
+ 857 508 l 1
+ 857 508 944 558 968 558 c 0
+ 987 558 1011 522 1018 508 c 1
+ 1001 410 l 1
+ 994 424 970 460 951 460 c 0
+ 926 460 836 410 836 410 c 1
+ 451 181 l 2
+ 330 109 272 0 272 0 c 1
+ 333 620 l 1
+ 351 620 l 1
+ 301 100 l 1
+ 324 169 413 244 472 279 c 2
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEB6
-Encoding: 61110 61110 855
-Width: 1000
-VWidth: 0
+Encoding: 61110 61110 854
+Width: 956
+VWidth: 999
+Flags: W
+HStem: 0 18G<12 14.5 130.5 135.5 191.968 209.779> 120 99<64.286 115.938> 460 98<828.698 900.058>
+VStem: 21 140<58.65 161.503> 130 31<31.3125 101.332> 130 11<-2.64857 33.9771> 251 18<602 620>
+DStem2: 190 0 219 100 0.0979143 0.995195<102.359 622.994> 390 279 369 181 0.859456 0.511209<-143.168 503.142>
+AnchorPoint: "Podtinka" 13.633 -20 basechar 0
+AnchorPoint: "Zevok" 974 639 basechar 0
+AnchorPoint: "Udarka" 94 342 basechar 0
+AnchorPoint: "Kupnaya" 484 -115 basechar 0
+AnchorPoint: "Kachka" 416 556 basechar 0
+AnchorPoint: "Lomka" 839 52 basechar 0
+AnchorPoint: "Tikhaya" 255 170.5 basechar 0
+AnchorPoint: "Oblachko" 817 639 basechar 0
+AnchorPoint: "Podchashie" 520 166 basechar 0
+AnchorPoint: "Zaderzhka" 982 483.9 basechar 0
+AnchorPoint: "Tonal" 456 450 basechar 0
+AnchorPoint: "Podvertka" 855 341 basechar 0
+AnchorPoint: "Borzaya" -15 197.6 basechar 0
+AnchorPoint: "Otsechka" 905 349 basechar 0
+AnchorPoint: "Shaidur" 165 368 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+141 6 m 2xe6
+ 140 1 137 -3 134 -3 c 0
+ 127 -3 130 17 130 26 c 0xe6
+ 130 68 119 120 88 120 c 0
+ 55 120 34 59 23 10 c 0
+ 21 3 16 0 13 0 c 0
+ 11 0 9 1 10 6 c 2
+ 21 88 l 2
+ 29 149 61 219 105 219 c 0
+ 144 219 161 182 161 134 c 0xf2
+ 161 119 159 103 156 87 c 2
+ 141 6 l 2xe6
+390 279 m 6
+ 775 508 l 5
+ 775 508 862 558 886 558 c 4
+ 905 558 929 522 936 508 c 5
+ 919 410 l 5
+ 912 424 888 460 869 460 c 4
+ 844 460 754 410 754 410 c 5
+ 369 181 l 6
+ 248 109 190 0 190 0 c 5
+ 251 620 l 5
+ 269 620 l 5
+ 219 100 l 5
+ 242 169 331 244 390 279 c 6
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEB7
-Encoding: 61111 61111 856
-Width: 1000
-VWidth: 0
+Encoding: 61111 61111 855
+Width: 1090
+VWidth: 999
+Flags: W
+HStem: 0 17G<12 14.5 130.5 135.5 242.667 269.742> 120 99<64.7613 115.938> 568 98<968.698 1040.06>
+VStem: 21 140<58.65 161.503> 130 31<31.3125 101.332> 130 11<-2.64857 33.9771> 391 18<710 728>
+DStem2: 355 267 509 289 0.848679 0.528909<0 697.001>
+AnchorPoint: "Podtinka" 11.6329 -10 basechar 0
+AnchorPoint: "Zevok" 1170 730 basechar 0
+AnchorPoint: "Udarka" 25 454 basechar 0
+AnchorPoint: "Kupnaya" 629 -23 basechar 0
+AnchorPoint: "Kachka" 593 648 basechar 0
+AnchorPoint: "Lomka" 1020 144 basechar 0
+AnchorPoint: "Tikhaya" 486 310.5 basechar 0
+AnchorPoint: "Oblachko" 996 727 basechar 0
+AnchorPoint: "Podchashie" 728 311 basechar 0
+AnchorPoint: "Zaderzhka" 1169 583.9 basechar 0
+AnchorPoint: "Tonal" 604 542 basechar 0
+AnchorPoint: "Podvertka" 1041 442 basechar 0
+AnchorPoint: "Borzaya" 22 302 basechar 0
+AnchorPoint: "Otsechka" 1083 456 basechar 0
+AnchorPoint: "Shaidur" 152 334 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+588 416 m 6xe2
+ 915 616 l 5
+ 915 616 1002 666 1026 666 c 4
+ 1045 666 1069 630 1076 616 c 5
+ 1059 518 l 5
+ 1052 532 1028 568 1009 568 c 4
+ 984 568 894 518 894 518 c 5
+ 509 289 l 6
+ 388 217 315 164 315 164 c 5
+ 391 728 l 5
+ 409 728 l 5
+ 355 267 l 5
+ 483 357 551 394 588 416 c 6xe2
+245 246 m 1
+ 230 229 210 206 190 184 c 1
+ 156 259 l 1
+ 210 320 l 1
+ 245 246 l 1
+307 58 m 1
+ 252 -4 l 1
+ 217 71 l 1
+ 272 133 l 1
+ 307 58 l 1
+141 6 m 2xe6
+ 140 1 137 -3 134 -3 c 0
+ 127 -3 130 17 130 26 c 0xe6
+ 130 68 119 120 88 120 c 0
+ 55 120 32 59 21 10 c 0
+ 19 3 16 0 13 0 c 0
+ 11 0 9 1 10 6 c 2
+ 21 88 l 2
+ 29 149 61 219 105 219 c 0
+ 144 219 161 182 161 134 c 0xf2
+ 161 119 159 103 156 87 c 2
+ 141 6 l 2xe6
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEB8
-Encoding: 61112 61112 857
-Width: 1000
-VWidth: 0
+Encoding: 61112 61112 856
+Width: 1255
+VWidth: 999
+Flags: W
+HStem: -3 21G<17 19.5 135.5 140.5 182 184.5 300.5 305.5 412.541 440.033> 120 99<69.7613 120.938 234.286 285.938> 568 98<1133.7 1205.06>
+VStem: 26 140<58.65 161.503> 135 31<31.3125 101.332> 135 11<-2.64857 33.9771> 191 140<58.65 161.503> 300 31<31.3125 101.332> 300 11<-2.64857 33.9771> 556 18<710 728>
+DStem2: 520 267 674 289 0.848679 0.528909<0 697.001>
+AnchorPoint: "Zaderzhka" 1306 504 basechar 0
+AnchorPoint: "Kupnaya" 856 4.10001 basechar 0
+AnchorPoint: "Zevok" 1300 599 basechar 0
+AnchorPoint: "Otsechka" 1248 456 basechar 0
+AnchorPoint: "Podvertka" 1206 442 basechar 0
+AnchorPoint: "Tonal" 769 542 basechar 0
+AnchorPoint: "Podchashie" 893 311 basechar 0
+AnchorPoint: "Oblachko" 1161 727 basechar 0
+AnchorPoint: "Tikhaya" 651 310.5 basechar 0
+AnchorPoint: "Lomka" 1185 144 basechar 0
+AnchorPoint: "Kachka" 758 648 basechar 0
+AnchorPoint: "Podtinka" 181.633 -10 basechar 0
+AnchorPoint: "Udarka" 195 454 basechar 0
+AnchorPoint: "Borzaya" 192 302 basechar 0
+AnchorPoint: "Shaidur" 322 334 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+753 416 m 2xe040
+ 1080 616 l 1
+ 1080 616 1167 666 1191 666 c 0
+ 1210 666 1234 630 1241 616 c 1
+ 1224 518 l 1
+ 1217 532 1193 568 1174 568 c 0
+ 1149 568 1059 518 1059 518 c 1
+ 674 289 l 2
+ 553 217 480 164 480 164 c 1
+ 556 728 l 1
+ 574 728 l 1
+ 520 267 l 1
+ 648 357 716 394 753 416 c 2xe040
+146 6 m 2xe440
+ 145 1 142 -3 139 -3 c 0
+ 132 -3 135 17 135 26 c 0xe440
+ 135 68 124 120 93 120 c 0
+ 60 120 37 59 26 10 c 0
+ 24 3 21 0 18 0 c 0
+ 16 0 14 1 15 6 c 2
+ 26 88 l 2
+ 34 149 66 219 110 219 c 0
+ 149 219 166 182 166 134 c 0xf040
+ 166 119 164 103 161 87 c 2
+ 146 6 l 2xe440
+415 246 m 1
+ 400 229 380 206 360 184 c 1
+ 326 259 l 1
+ 380 320 l 1
+ 415 246 l 1
+477 58 m 1
+ 422 -3 l 1
+ 387 71 l 1
+ 442 133 l 1
+ 477 58 l 1
+311 6 m 2xe0c0
+ 310 1 307 -3 304 -3 c 0
+ 297 -3 300 17 300 26 c 0xe0c0
+ 300 68 289 120 258 120 c 0
+ 225 120 204 59 193 10 c 0
+ 191 3 186 0 183 0 c 0
+ 181 0 179 1 180 6 c 2
+ 191 88 l 2
+ 199 149 231 219 275 219 c 0
+ 314 219 331 182 331 134 c 0xe240
+ 331 119 329 103 326 87 c 2
+ 311 6 l 2xe0c0
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEB9
-Encoding: 61113 61113 858
+Encoding: 61113 61113 857
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27203,63 +27935,338 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEBA
-Encoding: 61114 61114 859
-Width: 1000
+Encoding: 61114 61114 858
+Width: 1140
 VWidth: 0
+Flags: W
+HStem: 0 21G<34.9032 43.5> 637 98<1013.07 1082.06>
+VStem: 92 18<602 620>
+DStem2: 33 0 61 100 0.0947333 0.995503<102.203 622.801> 341 321 328 226 0.86215 0.506653<-133.191 -59.34 44.3169 118.168 167.044 177.508 234.802 771.16>
+AnchorPoint: "Podtinka" 46.6329 -10 basechar 0
+AnchorPoint: "Zevok" 1221 840 basechar 0
+AnchorPoint: "Udarka" 1 454 basechar 0
+AnchorPoint: "Kupnaya" 591 -46 basechar 0
+AnchorPoint: "Kachka" 717 733 basechar 0
+AnchorPoint: "Lomka" 1106 229 basechar 0
+AnchorPoint: "Tikhaya" 69 224.5 basechar 0
+AnchorPoint: "Oblachko" 1086 842 basechar 0
+AnchorPoint: "Podchashie" 814 392 basechar 0
+AnchorPoint: "Zaderzhka" 1223 660.9 basechar 0
+AnchorPoint: "Tonal" 771 677 basechar 0
+AnchorPoint: "Podvertka" 1116 534 basechar 0
+AnchorPoint: "Borzaya" 7.62939e-06 360 basechar 0
+AnchorPoint: "Otsechka" 1160 536 basechar 0
+AnchorPoint: "Shaidur" 547 533 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+61 100 m 1
+ 82 166 187 208 187 208 c 1
+ 173 115 l 1
+ 173 115 54 63 33 0 c 1
+ 92 620 l 1
+ 110 620 l 1
+ 61 100 l 1
+389 324 m 1
+ 411 368 494 411 494 411 c 1
+ 481 316 l 1
+ 481 316 399 275 374 226 c 1
+ 389 324 l 1
+236 234 m 1
+ 258 278 341 321 341 321 c 1
+ 328 226 l 1
+ 328 226 246 185 221 136 c 1
+ 236 234 l 1
+544 439 m 1
+ 957 683 l 1
+ 957 683 1044 735 1068 735 c 0
+ 1087 735 1111 697 1118 683 c 1
+ 1101 587 l 1
+ 1094 601 1070 637 1051 637 c 0
+ 1026 637 936 587 936 587 c 1
+ 523 341 l 1
+ 544 439 l 1
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEBB
-Encoding: 61115 61115 860
-Width: 1000
+Encoding: 61115 61115 859
+Width: 980
 VWidth: 0
+Flags: W
+HStem: 0 21G<34.9032 43.5> 550 98<866.698 938.058>
+VStem: 92 18<602 620> 289 18<692 710>
+DStem2: 33 0 61 100 0.0947333 0.995503<102.203 622.801> 189 210 173 115 0.85639 0.51633<-155.601 -62.7536 100.037 228.137 726.411 789.377> 234 154 264 267 0.0984404 0.995143<115.404 558.714>
+AnchorPoint: "Otsechka" 943 439 basechar 0
+AnchorPoint: "Podvertka" 893 431 basechar 0
+AnchorPoint: "Tonal" 494 540 basechar 0
+AnchorPoint: "Zaderzhka" 1020 573.9 basechar 0
+AnchorPoint: "Podchashie" 558 256 basechar 0
+AnchorPoint: "Oblachko" 855 729 basechar 0
+AnchorPoint: "Lomka" 877 142 basechar 0
+AnchorPoint: "Kachka" 454 646 basechar 0
+AnchorPoint: "Kupnaya" 522 -25 basechar 0
+AnchorPoint: "Zevok" 1012 729 basechar 0
+AnchorPoint: "Podtinka" 46.6329 -10 basechar 0
+AnchorPoint: "Udarka" 1 454 basechar 0
+AnchorPoint: "Tikhaya" 69 224.5 basechar 0
+AnchorPoint: "Borzaya" 7.62939e-06 360 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+428 369 m 6
+ 813 598 l 5
+ 813 598 900 648 924 648 c 4
+ 943 648 967 612 974 598 c 5
+ 957 500 l 5
+ 950 514 926 550 907 550 c 4
+ 882 550 792 500 792 500 c 5
+ 407 271 l 6
+ 286 199 234 154 234 154 c 5
+ 289 710 l 5
+ 307 710 l 5
+ 264 267 l 5
+ 381 341 369 334 428 369 c 6
+61 100 m 1
+ 82 166 189 210 189 210 c 1
+ 173 115 l 1
+ 173 115 54 63 33 0 c 1
+ 92 620 l 1
+ 110 620 l 1
+ 61 100 l 1
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEBC
-Encoding: 61116 61116 861
-Width: 1000
+Encoding: 61116 61116 860
+Width: 1280
 VWidth: 0
+Flags: W
+HStem: 0 21G<34.9032 43.5> 736 98<1164.33 1235.66>
+VStem: 92 18<602 620> 586 18<878 896>
+DStem2: 33 0 61 100 0.0947333 0.995503<102.203 622.801> 341 321 328 226 0.856706 0.515806<-134.017 -60.1387 44.654 117.36 257.934 952.373> 532 340 562 454 0.0966675 0.995317<116.366 558.616>
+AnchorPoint: "Kachka" 751.5 832.5 basechar 0
+AnchorPoint: "Lomka" 1174.5 328.5 basechar 0
+AnchorPoint: "Podchashie" 855.5 442.5 basechar 0
+AnchorPoint: "Zaderzhka" 1317.5 760.4 basechar 0
+AnchorPoint: "Tonal" 791.5 726.5 basechar 0
+AnchorPoint: "Podvertka" 1190.5 617.5 basechar 0
+AnchorPoint: "Otsechka" 1240.5 625.5 basechar 0
+AnchorPoint: "Podtinka" 46.6329 -10 basechar 0
+AnchorPoint: "Zevok" 1221 840 basechar 0
+AnchorPoint: "Udarka" 1 454 basechar 0
+AnchorPoint: "Kupnaya" 591 -46 basechar 0
+AnchorPoint: "Tikhaya" 69 224.5 basechar 0
+AnchorPoint: "Oblachko" 1086 842 basechar 0
+AnchorPoint: "Borzaya" 7.62939e-06 360 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+726 556 m 6
+ 1110 784 l 5
+ 1110 784 1198 834 1222 834 c 4
+ 1240 834 1264 798 1272 784 c 5
+ 1254 686 l 5
+ 1248 700 1224 736 1204 736 c 4
+ 1180 736 1090 686 1090 686 c 5
+ 704 458 l 6
+ 584 386 532 340 532 340 c 5
+ 586 896 l 5
+ 604 896 l 5
+ 562 454 l 5
+ 678 528 666 520 726 556 c 6
+61 100 m 1
+ 82 166 187 208 187 208 c 1
+ 173 115 l 1
+ 173 115 54 63 33 0 c 1
+ 92 620 l 1
+ 110 620 l 1
+ 61 100 l 1
+389 324 m 1
+ 411 368 494 411 494 411 c 1
+ 481 316 l 1
+ 481 316 399 275 374 226 c 1
+ 389 324 l 1
+236 234 m 1
+ 258 278 341 321 341 321 c 1
+ 328 226 l 1
+ 328 226 246 185 221 136 c 1
+ 236 234 l 1
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEBD
-Encoding: 61117 61117 862
-Width: 1000
-VWidth: 0
+Encoding: 61117 61117 861
+Width: 630
+VWidth: 999
+Flags: W
+HStem: 0 69<61 154> 239 62<483 577>
+VStem: 23 86<56 126.743> 523 87<190 274>
+DStem2: 289 145 424 205 0.84753 0.530748<-159.101 222.746>
+AnchorPoint: "Podtinka" 79.5889 -66.0176 basechar 0
+AnchorPoint: "Zevok" 270.892 367.495 basechar 0
+AnchorPoint: "Udarka" 271.832 367.829 basechar 0
+AnchorPoint: "Kupnaya" 77.7012 -66.6953 basechar 0
+AnchorPoint: "Kachka" 266.782 367.064 basechar 0
+AnchorPoint: "Lomka" 272.768 368.173 basechar 0
+AnchorPoint: "Tikhaya" 271.656 368.304 basechar 0
+AnchorPoint: "Oblachko" 272.348 372.274 basechar 0
+AnchorPoint: "Podchashie" 269.793 373.474 basechar 0
+AnchorPoint: "Zaderzhka" 272.736 368.268 basechar 0
+AnchorPoint: "Tonal" 277.876 354.069 basechar 0
+AnchorPoint: "Podvertka" 271.923 376.377 basechar 0
+AnchorPoint: "Borzaya" 271.065 372.875 basechar 0
+AnchorPoint: "Otsechka" 270.983 376.036 basechar 0
+AnchorPoint: "Shaidur" 272.267 375.435 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+144 69 m 0
+ 164 69 187 81 201 90 c 2
+ 289 145 l 2
+ 362 190 435 235 506 281 c 0
+ 522 291 547 301 568 301 c 0
+ 586 301 601 294 606 274 c 0
+ 609 265 610 256 610 248 c 0
+ 610 210 585 184 555 156 c 1
+ 467 98 l 1
+ 498 126 523 152 523 190 c 0
+ 523 198 522 207 519 216 c 0
+ 515 233 506 239 494 239 c 0
+ 472 239 442 216 424 205 c 0
+ 322 143 224 80 124 17 c 0
+ 109 9 89 0 71 0 c 0
+ 51 0 32 10 26 36 c 0
+ 24 44 23 52 23 60 c 0
+ 23 104 52 149 92 173 c 2
+ 168 220 l 1
+ 168 220 109 168 109 113 c 0
+ 109 85 123 69 144 69 c 0
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEBE
-Encoding: 61118 61118 863
-Width: 1000
-VWidth: 0
+Encoding: 61118 61118 862
+Width: 778
+VWidth: 999
+Flags: W
+HStem: 0 69<61 154> 239 62<483 577> 274 6<650 650.97> 278 26<675 740>
+VStem: 23 86<56 126.743> 523 87<190 274> 712 62<226.473 275.774>
+DStem2: 289 145 424 205 0.84753 0.530748<-159.101 222.746>
+AnchorPoint: "Podtinka" 79.5889 -66.0176 basechar 0
+AnchorPoint: "Zevok" 549.892 400.495 basechar 0
+AnchorPoint: "Udarka" 550.832 400.829 basechar 0
+AnchorPoint: "Kupnaya" 77.7012 -66.6953 basechar 0
+AnchorPoint: "Kachka" 545.782 400.064 basechar 0
+AnchorPoint: "Lomka" 551.768 401.173 basechar 0
+AnchorPoint: "Tikhaya" 550.656 401.304 basechar 0
+AnchorPoint: "Oblachko" 551.348 405.274 basechar 0
+AnchorPoint: "Podchashie" 548.793 406.474 basechar 0
+AnchorPoint: "Zaderzhka" 551.736 401.268 basechar 0
+AnchorPoint: "Tonal" 556.876 387.069 basechar 0
+AnchorPoint: "Podvertka" 550.923 409.377 basechar 0
+AnchorPoint: "Borzaya" 550.065 405.875 basechar 0
+AnchorPoint: "Otsechka" 549.983 409.036 basechar 0
+AnchorPoint: "Shaidur" 551.267 408.435 basechar 0
 LayerCount: 3
+Fore
+SplineSet
+728 304 m 0x9e
+ 752 304 774 288 774 264 c 0
+ 774 236 738 212 708 202 c 2
+ 656 184 l 2
+ 648 182 646 190 656 194 c 0
+ 680 204 712 218 712 242 c 0
+ 712 260 700 278 678 278 c 0x9e
+ 672 278 666 276 656 274 c 0
+ 650 272 644 278 650 280 c 2xae
+ 696 298 l 2
+ 708 302 718 304 728 304 c 0x9e
+144 69 m 0
+ 164 69 187 81 201 90 c 2
+ 289 145 l 2
+ 362 190 435 235 506 281 c 0
+ 522 291 547 301 568 301 c 0xce
+ 586 301 601 294 606 274 c 0xae
+ 609 265 610 256 610 248 c 0
+ 610 210 585 184 555 156 c 1
+ 467 98 l 1
+ 498 126 523 152 523 190 c 0
+ 523 198 522 207 519 216 c 0
+ 515 233 506 239 494 239 c 0xce
+ 472 239 442 216 424 205 c 0
+ 322 143 224 80 124 17 c 1
+ 109 9 89 0 71 0 c 0
+ 51 0 32 10 26 36 c 0
+ 24 44 23 52 23 60 c 0
+ 23 104 52 149 92 173 c 2
+ 168 220 l 1
+ 168 220 109 168 109 113 c 0
+ 109 85 123 69 144 69 c 0
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEBF
-Encoding: 61119 61119 864
-Width: 1000
-VWidth: 0
+Encoding: 61119 61119 863
+Width: 569
+Flags: W
+HStem: 0 34<411.93 459.26> 229 94<145.337 436.022>
+VStem: 10 69<69.9313 173.989> 503 51<71.0372 190.477>
 LayerCount: 3
+Fore
+SplineSet
+426 0 m 1
+ 417 0 410 4 410 14 c 1
+ 413 22 428 30 438 34 c 1
+ 472 55 493 80 501 108 c 1
+ 503 115 503 123 503 130 c 0
+ 503 178 472 215 413 225 c 0
+ 391 229 356 229 324 229 c 0
+ 309 229 295 229 283 229 c 2
+ 282 229 l 2
+ 279 229 277 229 275 229 c 0
+ 183 229 95 209 80 129 c 0
+ 79 126 79 124 79 121 c 0
+ 79 103 88 83 106 64 c 0
+ 114 54 117 45 115 36 c 2
+ 110 3 l 2
+ 109 -2 108 -3 107 -3 c 0
+ 106 -3 106 -3 105 -3 c 0
+ 104 -3 103 0 101 0 c 0
+ 43 34 10 79 10 145 c 0
+ 10 158 11 171 13 185 c 1
+ 26 236 78 284 156 304 c 0
+ 212 319 251 323 289 323 c 0
+ 312 323 335 322 360 320 c 0
+ 479 313 554 224 554 112 c 0
+ 554 97 552 97 549 81 c 1
+ 536 53 488 11 426 0 c 1
+EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEC0
-Encoding: 61120 61120 865
-Width: 1000
-VWidth: 0
+Encoding: 61120 61120 864
+Width: 506
+VWidth: 999
+Flags: W
 LayerCount: 3
 Colour: ffb54c
 EndChar
 
 StartChar: uniEEC1
-Encoding: 61121 61121 866
+Encoding: 61121 61121 865
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27267,7 +28274,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEC2
-Encoding: 61122 61122 867
+Encoding: 61122 61122 866
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27275,7 +28282,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEC3
-Encoding: 61123 61123 868
+Encoding: 61123 61123 867
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27283,7 +28290,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEC4
-Encoding: 61124 61124 869
+Encoding: 61124 61124 868
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27291,7 +28298,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEC5
-Encoding: 61125 61125 870
+Encoding: 61125 61125 869
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27299,7 +28306,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEC6
-Encoding: 61126 61126 871
+Encoding: 61126 61126 870
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27307,7 +28314,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEC7
-Encoding: 61127 61127 872
+Encoding: 61127 61127 871
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27315,7 +28322,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEC8
-Encoding: 61128 61128 873
+Encoding: 61128 61128 872
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27323,7 +28330,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEC9
-Encoding: 61129 61129 874
+Encoding: 61129 61129 873
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27331,7 +28338,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEECA
-Encoding: 61130 61130 875
+Encoding: 61130 61130 874
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27339,7 +28346,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEECB
-Encoding: 61131 61131 876
+Encoding: 61131 61131 875
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27347,7 +28354,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEECC
-Encoding: 61132 61132 877
+Encoding: 61132 61132 876
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27355,7 +28362,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEECD
-Encoding: 61133 61133 878
+Encoding: 61133 61133 877
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27363,7 +28370,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEECE
-Encoding: 61134 61134 879
+Encoding: 61134 61134 878
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27371,7 +28378,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEECF
-Encoding: 61135 61135 880
+Encoding: 61135 61135 879
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27379,7 +28386,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED0
-Encoding: 61136 61136 881
+Encoding: 61136 61136 880
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27387,7 +28394,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED1
-Encoding: 61137 61137 882
+Encoding: 61137 61137 881
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27395,7 +28402,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED2
-Encoding: 61138 61138 883
+Encoding: 61138 61138 882
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27403,7 +28410,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED3
-Encoding: 61139 61139 884
+Encoding: 61139 61139 883
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27411,7 +28418,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED4
-Encoding: 61140 61140 885
+Encoding: 61140 61140 884
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27419,7 +28426,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED5
-Encoding: 61141 61141 886
+Encoding: 61141 61141 885
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27427,7 +28434,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED6
-Encoding: 61142 61142 887
+Encoding: 61142 61142 886
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27435,7 +28442,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED7
-Encoding: 61143 61143 888
+Encoding: 61143 61143 887
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27443,7 +28450,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED8
-Encoding: 61144 61144 889
+Encoding: 61144 61144 888
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27451,7 +28458,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEED9
-Encoding: 61145 61145 890
+Encoding: 61145 61145 889
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27459,7 +28466,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEDA
-Encoding: 61146 61146 891
+Encoding: 61146 61146 890
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27467,7 +28474,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEDB
-Encoding: 61147 61147 892
+Encoding: 61147 61147 891
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27475,7 +28482,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEDC
-Encoding: 61148 61148 893
+Encoding: 61148 61148 892
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27483,7 +28490,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEDD
-Encoding: 61149 61149 894
+Encoding: 61149 61149 893
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27491,7 +28498,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEDE
-Encoding: 61150 61150 895
+Encoding: 61150 61150 894
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27499,7 +28506,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEDF
-Encoding: 61151 61151 896
+Encoding: 61151 61151 895
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27507,7 +28514,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEE2
-Encoding: 61154 61154 897
+Encoding: 61154 61154 896
 Width: 837
 VWidth: 0
 Flags: W
@@ -27676,7 +28683,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEE3
-Encoding: 61155 61155 898
+Encoding: 61155 61155 897
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27684,7 +28691,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEE4
-Encoding: 61156 61156 899
+Encoding: 61156 61156 898
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27692,7 +28699,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEE5
-Encoding: 61157 61157 900
+Encoding: 61157 61157 899
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27700,7 +28707,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEE6
-Encoding: 61158 61158 901
+Encoding: 61158 61158 900
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27708,7 +28715,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEE7
-Encoding: 61159 61159 902
+Encoding: 61159 61159 901
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27716,7 +28723,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEE8
-Encoding: 61160 61160 903
+Encoding: 61160 61160 902
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27724,7 +28731,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEE9
-Encoding: 61161 61161 904
+Encoding: 61161 61161 903
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27732,7 +28739,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEEA
-Encoding: 61162 61162 905
+Encoding: 61162 61162 904
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27740,7 +28747,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEEB
-Encoding: 61163 61163 906
+Encoding: 61163 61163 905
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27748,7 +28755,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEEC
-Encoding: 61164 61164 907
+Encoding: 61164 61164 906
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27756,7 +28763,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEED
-Encoding: 61165 61165 908
+Encoding: 61165 61165 907
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27764,7 +28771,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEEE
-Encoding: 61166 61166 909
+Encoding: 61166 61166 908
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27772,7 +28779,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEEF
-Encoding: 61167 61167 910
+Encoding: 61167 61167 909
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27780,7 +28787,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF0
-Encoding: 61168 61168 911
+Encoding: 61168 61168 910
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27788,7 +28795,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF1
-Encoding: 61169 61169 912
+Encoding: 61169 61169 911
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27796,7 +28803,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF2
-Encoding: 61170 61170 913
+Encoding: 61170 61170 912
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27804,7 +28811,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF3
-Encoding: 61171 61171 914
+Encoding: 61171 61171 913
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27812,7 +28819,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF4
-Encoding: 61172 61172 915
+Encoding: 61172 61172 914
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27820,7 +28827,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF5
-Encoding: 61173 61173 916
+Encoding: 61173 61173 915
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27828,7 +28835,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF6
-Encoding: 61174 61174 917
+Encoding: 61174 61174 916
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27836,7 +28843,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF7
-Encoding: 61175 61175 918
+Encoding: 61175 61175 917
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27844,7 +28851,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF8
-Encoding: 61176 61176 919
+Encoding: 61176 61176 918
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27852,7 +28859,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEF9
-Encoding: 61177 61177 920
+Encoding: 61177 61177 919
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27860,7 +28867,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEFA
-Encoding: 61178 61178 921
+Encoding: 61178 61178 920
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27868,7 +28875,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEFB
-Encoding: 61179 61179 922
+Encoding: 61179 61179 921
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27876,7 +28883,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEFC
-Encoding: 61180 61180 923
+Encoding: 61180 61180 922
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27884,7 +28891,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEFD
-Encoding: 61181 61181 924
+Encoding: 61181 61181 923
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27892,7 +28899,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEFE
-Encoding: 61182 61182 925
+Encoding: 61182 61182 924
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27900,7 +28907,7 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEEFF
-Encoding: 61183 61183 926
+Encoding: 61183 61183 925
 Width: 1000
 VWidth: 0
 LayerCount: 3
@@ -27908,11 +28915,78 @@ Colour: ffb54c
 EndChar
 
 StartChar: uniEA73
-Encoding: 60019 60019 927
+Encoding: 60019 60019 926
 Width: 1000
 VWidth: 0
 LayerCount: 3
 Colour: 4cff40
+EndChar
+
+StartChar: uniEEB1
+Encoding: 61105 61105 927
+Width: 1000
+VWidth: 999
+Flags: W
+HStem: -5 26G<12.6 19.5 229.968 247.779> 460 98<866.698 938.058>
+VStem: 289 18<602 620>
+DStem2: 228 0 257 100 0.0979143 0.995195<102.359 622.994> 428 279 407 181 0.859456 0.511209<-143.168 503.142>
+AnchorPoint: "Podtinka" 13 -21 basechar 0
+AnchorPoint: "Zevok" 1012 639 basechar 0
+AnchorPoint: "Udarka" 0 342 basechar 0
+AnchorPoint: "Kupnaya" 522 -115 basechar 0
+AnchorPoint: "Kachka" 454 556 basechar 0
+AnchorPoint: "Lomka" 877 52 basechar 0
+AnchorPoint: "Tikhaya" 293 170.5 basechar 0
+AnchorPoint: "Oblachko" 855 639 basechar 0
+AnchorPoint: "Podchashie" 642 91 basechar 0
+AnchorPoint: "Zaderzhka" 1020 483.9 basechar 0
+AnchorPoint: "Tonal" 494 450 basechar 0
+AnchorPoint: "Podvertka" 893 341 basechar 0
+AnchorPoint: "Borzaya" -1 146 basechar 0
+AnchorPoint: "Otsechka" 943 349 basechar 0
+AnchorPoint: "Shaidur" 153 368 basechar 0
+LayerCount: 3
+Fore
+SplineSet
+671 264 m 1
+ 681 288 711 310 732 324 c 0
+ 746 334 761 344 776 352 c 1
+ 763 256 l 1
+ 733 240 708 222 683 202 c 0
+ 671 192 662 178 656 166 c 1
+ 671 264 l 1
+518 174 m 1
+ 528 198 558 220 579 234 c 0
+ 593 244 608 254 623 262 c 1
+ 610 166 l 1
+ 580 150 555 132 530 112 c 0
+ 518 102 509 88 503 76 c 1
+ 518 174 l 1
+428 279 m 2
+ 813 508 l 1
+ 813 508 900 558 924 558 c 0
+ 943 558 967 522 974 508 c 1
+ 957 410 l 1
+ 950 424 926 460 907 460 c 0
+ 882 460 792 410 792 410 c 1
+ 407 181 l 2
+ 286 109 228 0 228 0 c 1
+ 289 620 l 1
+ 307 620 l 1
+ 257 100 l 1
+ 280 169 369 244 428 279 c 2
+27 95 m 1
+ 48 161 163 203 163 203 c 1
+ 147 107 l 1
+ 147 107 30 58 9 -5 c 1
+ 27 95 l 1
+87 285 m 1
+ 108 351 223 393 223 393 c 1
+ 207 297 l 1
+ 207 297 90 248 69 185 c 1
+ 87 285 l 1
+EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
