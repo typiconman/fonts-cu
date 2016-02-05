@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1451816374
+ModificationTime: 1453902791
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -45,11 +45,12 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' Precomposed Neumes"  {"'ccmp' Precomposed Neumes-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 8 0 "'ccmp' Priznak Composition"  {"'ccmp' Priznak Composition-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 8 0 "'ccmp' Demestvenny Ligatures"  {"'ccmp' Demestvenny Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Priznak-based Compositions"  {"'ccmp' Priznak-based Compositions-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp'  Contextual Prizakification"  {"'ccmp'  Contextual Prizakification-1"  } ['ccmp' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Depriznakify"  {"Depriznakify-1"  } []
 Lookup: 1 0 0 "Priznakify"  {"Priznakify-1"  } []
-Lookup: 263 0 0 "'kern' Horizontal Kerning with Shaidur Marks"  {"'kern' Horizontal Kerning with Shaidur Marks-1"  } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 263 0 0 "'kern' Horizontal Kerning with Shaidur Marks"  {"'kern' Horizontal Kerning with Shaidur Marks-1"  } []
 Lookup: 260 0 0 "'mark' Black Marking Positions"  {"'mark' Black Marking Positions-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Cinnabar Pitch Marking Positioning"  {"'mark' Cinnabar Pitch Marking Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Cinnabar Indicatory Mark Positioning"  {"'mark' Cinnabar Indicatory Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -109,7 +110,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60192 18 7
+WinInfo: 60948 18 7
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -1863,7 +1864,7 @@ Flags: W
 LayerCount: 3
 EndChar
 
-StartChar: afii301
+StartChar: uni200D
 Encoding: 8205 8205 67
 Width: 817
 VWidth: 2048
@@ -28220,6 +28221,7 @@ SplineSet
  26 395 24 392 22 391 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEEC0 uniEE5D
 Colour: ffa600
 EndChar
 
@@ -28280,6 +28282,7 @@ SplineSet
  26 395 24 392 22 391 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC0 uni200D uniEEC5
 Colour: ffa600
 EndChar
 
@@ -28347,6 +28350,7 @@ SplineSet
  26 395 24 392 22 391 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC0 uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -29064,6 +29068,7 @@ SplineSet
  25 98 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE7A uniEECD
 Colour: ffa600
 EndChar
 
@@ -29129,6 +29134,7 @@ SplineSet
  25 98 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE7A uniEE79
 Colour: ffa600
 EndChar
 
@@ -29136,6 +29142,7 @@ StartChar: uniEB8C
 Encoding: 60300 60300 666
 Width: 580
 VWidth: 999
+GlyphClass: 3
 Flags: W
 HStem: 0 21G<0 23.8462 185 206.74> 234 79<78.9854 184.693> 394 8<401.76 403> 410 56<447.5 529>
 VStem: 0 20<0 20> 185 19<0 19> 201 24<66.1562 205.307> 488 77<369.118 406.906>
@@ -29191,6 +29198,7 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE7D uniEE5E
 Colour: ffa600
 EndChar
 
@@ -29253,6 +29261,7 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE7D uniEE89
 Colour: ffa600
 EndChar
 
@@ -29328,6 +29337,7 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE7D uniEE89 uniEE89
 Colour: ffa600
 EndChar
 
@@ -29397,6 +29407,7 @@ SplineSet
  432 453 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC5 uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -29464,6 +29475,7 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEEC3 uniEE5E
 Colour: ffa600
 EndChar
 
@@ -29531,6 +29543,7 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC3 uniEE89
 Colour: ffa600
 EndChar
 
@@ -29750,6 +29763,7 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEEC4 uniEE5E
 Colour: ffa600
 EndChar
 
@@ -29822,6 +29836,7 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC4 uniEE89
 Colour: ffa600
 EndChar
 
@@ -30505,6 +30520,7 @@ SplineSet
  34 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEECC uniEE5E
 Colour: ffa600
 EndChar
 
@@ -30565,6 +30581,7 @@ SplineSet
  34 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEECC uniEE5A
 Colour: ffa600
 EndChar
 
@@ -30764,6 +30781,7 @@ SplineSet
  34 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECC uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -30830,6 +30848,7 @@ SplineSet
  722 558 741 524 751 508 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECC uni200D uniEE89
 Colour: ffa600
 EndChar
 
