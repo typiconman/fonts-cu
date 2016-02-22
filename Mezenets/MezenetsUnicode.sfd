@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1454684237
+ModificationTime: 1456121230
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -110,7 +110,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60237 27 10
+WinInfo: 60156 27 10
 BeginPrivate: 3
 BlueValues 31 [-14 0 450 460 662 676 683 683]
 OtherBlues 11 [-218 -218]
@@ -126,7 +126,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Podtinka"  "'mark' Black Marking Positions-1" "DoubleShaidur"  "'mkmk' Double Shaidur Attachment-1" "Zevok"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Udarka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Kupnaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Kachka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Lomka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Tikhaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Oblachko"  "'mark' Black Marking Positions-1" "Podchashie"  "'mark' Black Marking Positions-1" "Zaderzhka"  "'mark' Black Marking Positions-1" "Tonal"  "'mark' Black Marking Positions-1" "Podvertka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Borzaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Otsechka"  "'mark' Black Marking Positions-1" "Shaidur"  "'mark' Cinnabar Pitch Marking Positioning-1" 
-BeginChars: 1114112 928
+BeginChars: 1114112 931
 
 StartChar: uni0002
 Encoding: 2 2 0
@@ -10649,6 +10649,7 @@ SplineSet
  182 108 170 140 159 160 c 0
  142 190 109 229 77 229 c 0x12e4
 EndSplineSet
+Validated: 33
 Colour: ffb54c
 EndChar
 
@@ -25950,6 +25951,7 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE70 uniEE5D
 Colour: ffa600
 EndChar
 
@@ -26005,6 +26007,7 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE70 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -26055,6 +26058,7 @@ SplineSet
  85 169 174 244 233 279 c 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE70 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -26113,6 +26117,7 @@ SplineSet
  779 509 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE70 uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -26175,6 +26180,7 @@ SplineSet
  25 352 37 377 76 388 c 1xc0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE72 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -26231,6 +26237,7 @@ SplineSet
  25 352 37 377 76 388 c 1xc0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE72 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -26293,6 +26300,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE74 uniEE5D
 Colour: ffa600
 EndChar
 
@@ -26498,6 +26506,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEE70 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -26580,6 +26589,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEE74
 Colour: ffa600
 EndChar
 
@@ -26672,6 +26682,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEE74 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -26758,6 +26769,8 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 4 0 0 0 0 
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEE74 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -26853,6 +26866,7 @@ SplineSet
  1426 558 1457 534 1458 501 c 2xfa
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEE74 uni200D uniEE7A
 Colour: ffa600
 EndChar
 
@@ -26915,6 +26929,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -26985,6 +27000,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -27068,6 +27084,7 @@ SplineSet
  1182 412 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEEC3
 Colour: ffa600
 EndChar
 
@@ -27155,6 +27172,8 @@ SplineSet
  752 100 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEECC
 Colour: ffa600
 EndChar
 
@@ -27252,6 +27271,7 @@ SplineSet
  466 528 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEECC uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -27351,6 +27371,7 @@ SplineSet
  1438 558 1462 522 1469 508 c 1xfa
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEECC uni200D uniEE7A
 Colour: ffa600
 EndChar
 
@@ -27439,6 +27460,8 @@ SplineSet
  872 96 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEED8
 Colour: ffa600
 EndChar
 
@@ -27532,6 +27555,7 @@ SplineSet
  872 96 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEED8 uniEE5A
 Colour: ffa600
 EndChar
 
@@ -27633,6 +27657,7 @@ SplineSet
  872 96 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEED8 uniEE5E
 Colour: ffa600
 EndChar
 
@@ -27731,6 +27756,7 @@ SplineSet
  748 558 772 524 779 510 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEED8 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -27823,6 +27849,7 @@ SplineSet
  748 558 772 524 779 510 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEED8 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -27922,6 +27949,7 @@ SplineSet
  748 558 772 524 779 510 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEED8 uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -28040,6 +28068,7 @@ SplineSet
  748 558 772 524 779 510 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEED8 uni200D uniEED8
 Colour: ffa600
 EndChar
 
@@ -28163,6 +28192,8 @@ SplineSet
  748 558 772 524 779 510 c 1
 EndSplineSet
 Validated: 1
+LCarets2: 5 0 0 0 0 0 
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE74 uni200D uniEED8 uni200D uniEED8 uniEE5A
 Colour: ffa600
 EndChar
 
@@ -28222,6 +28253,7 @@ SplineSet
  26 395 24 392 22 391 c 1
 EndSplineSet
 Validated: 1
+LCarets2: 1 0 
 Ligature2: "'ccmp' Precomposed Neumes-1" uniEEC0 uniEE5D
 Colour: ffa600
 EndChar
@@ -28283,7 +28315,7 @@ SplineSet
  26 395 24 392 22 391 c 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC0 uni200D uniEEC5
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC0 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -28411,6 +28443,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE75 uniEE89
 Colour: ffa600
 EndChar
 
@@ -28475,6 +28508,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE75 uniEE89 uniEE89
 Colour: ffa600
 EndChar
 
@@ -28552,6 +28586,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE75 uniEE89 uniEE89 uniEE89
 Colour: ffa600
 EndChar
 
@@ -28581,38 +28616,39 @@ AnchorPoint: "Shaidur" 15 342 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-646 479 m 4
- 672 479 693 454 693 426 c 4
- 693 423 693 419 692 415 c 4
- 683 385 646 357 608 335 c 6
- 532 290 l 5
- 526 283 523 296 532 302 c 4
- 568 328 605 356 613 382 c 4
- 613 385 614 387 614 390 c 4
- 614 409 597 426 580 426 c 4
- 567 426 552 420 538 413 c 4
- 522 407 524 417 531 423 c 5
- 587 458 l 6
- 604 468 625 479 646 479 c 4
-61 100 m 5
- 82 166 187 208 187 208 c 5
- 173 115 l 5
- 173 115 54 63 33 0 c 5
- 92 620 l 5
- 110 620 l 5
- 61 100 l 5
-389 324 m 5
- 411 368 494 411 494 411 c 5
- 481 316 l 5
- 481 316 399 275 374 226 c 5
- 389 324 l 5
-236 234 m 5
- 258 278 341 321 341 321 c 5
- 328 226 l 5
- 328 226 246 185 221 136 c 5
- 236 234 l 5
+646 479 m 0
+ 672 479 693 454 693 426 c 0
+ 693 423 693 419 692 415 c 0
+ 683 385 646 357 608 335 c 2
+ 532 290 l 1
+ 526 283 523 296 532 302 c 0
+ 568 328 605 356 613 382 c 0
+ 613 385 614 387 614 390 c 0
+ 614 409 597 426 580 426 c 0
+ 567 426 552 420 538 413 c 0
+ 522 407 524 417 531 423 c 1
+ 587 458 l 2
+ 604 468 625 479 646 479 c 0
+61 100 m 1
+ 82 166 187 208 187 208 c 1
+ 173 115 l 1
+ 173 115 54 63 33 0 c 1
+ 92 620 l 1
+ 110 620 l 1
+ 61 100 l 1
+389 324 m 1
+ 411 368 494 411 494 411 c 1
+ 481 316 l 1
+ 481 316 399 275 374 226 c 1
+ 389 324 l 1
+236 234 m 1
+ 258 278 341 321 341 321 c 1
+ 328 226 l 1
+ 328 226 246 185 221 136 c 1
+ 236 234 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE76 uniEE5E
 Colour: ffa600
 EndChar
 
@@ -28674,6 +28710,7 @@ SplineSet
  236 234 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE76 uniEE89
 Colour: ffa600
 EndChar
 
@@ -28703,31 +28740,31 @@ AnchorPoint: "Shaidur" 15 342 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-537 344 m 5
- 545 438 l 5
- 578 471 618 501 648 519 c 6
- 812 616 l 5
- 773 655 l 5
- 790 754 l 5
- 871 672 l 5
- 881 768 l 5
- 904 782 l 5
- 892 664 l 5
- 1033 748 l 5
- 1033 748 1120 798 1144 798 c 4
- 1163 798 1187 762 1194 748 c 5
- 1177 650 l 5
- 1170 664 1146 700 1127 700 c 4
- 1102 700 1012 650 1012 650 c 5
- 938 606 l 5
- 981 563 l 5
- 964 464 l 5
- 881 547 l 5
- 873 463 l 5
- 849 449 l 5
- 860 560 l 5
- 627 421 l 6
- 603 407 556 360 537 344 c 5
+537 344 m 1
+ 545 438 l 1
+ 578 471 618 501 648 519 c 2
+ 812 616 l 1
+ 773 655 l 1
+ 790 754 l 1
+ 871 672 l 1
+ 881 768 l 1
+ 904 782 l 1
+ 892 664 l 1
+ 1033 748 l 1
+ 1033 748 1120 798 1144 798 c 0
+ 1163 798 1187 762 1194 748 c 1
+ 1177 650 l 1
+ 1170 664 1146 700 1127 700 c 0
+ 1102 700 1012 650 1012 650 c 1
+ 938 606 l 1
+ 981 563 l 1
+ 964 464 l 1
+ 881 547 l 1
+ 873 463 l 1
+ 849 449 l 1
+ 860 560 l 1
+ 627 421 l 2
+ 603 407 556 360 537 344 c 1
 61 100 m 1
  82 166 187 208 187 208 c 1
  173 115 l 1
@@ -28815,6 +28852,7 @@ SplineSet
  544 439 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEAA uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -28881,6 +28919,7 @@ SplineSet
  61 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEEC2 uniEE5E
 Colour: ffa600
 EndChar
 
@@ -28944,6 +28983,7 @@ SplineSet
  96 468 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEEC1 uniEE89
 Colour: ffa600
 EndChar
 
@@ -29010,6 +29050,7 @@ SplineSet
  261 156 l 2xe4
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE77 uniEECC
 Colour: ffa600
 EndChar
 
@@ -29624,6 +29665,7 @@ SplineSet
  15 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEEC3 uniEEC7
 Colour: ffa600
 EndChar
 
@@ -29692,6 +29734,7 @@ SplineSet
  586 527 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECE uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -29908,6 +29951,7 @@ SplineSet
  15 98 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEE84 uniEE5D
 Colour: ffa600
 EndChar
 
@@ -29990,6 +30034,7 @@ SplineSet
  713 558 737 529 744 515 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE84 uni200D uniEED8
 Colour: ffa600
 EndChar
 
@@ -30082,6 +30127,7 @@ SplineSet
  842 96 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE84 uni200D uniEED8 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -30184,6 +30230,7 @@ SplineSet
  713 558 737 529 744 515 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE84 uni200D uniEED8 uni200D uniEE70 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -30254,6 +30301,7 @@ SplineSet
  719 424 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECA uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -30344,6 +30392,8 @@ SplineSet
  842 96 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECA uni200D uniEED8
 Colour: ffa600
 EndChar
 
@@ -30444,6 +30494,7 @@ SplineSet
  275 150 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE84 uni200D uniEED8 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -30648,6 +30699,7 @@ SplineSet
  34 100 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECC uni200D uniEE70
 Colour: ffa600
 EndChar
@@ -30724,6 +30776,7 @@ SplineSet
  34 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC7 uni200D uniEE70 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -30783,6 +30836,7 @@ SplineSet
  34 100 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECC uni200D uniEE75
 Colour: ffa600
 EndChar
@@ -30850,6 +30904,7 @@ SplineSet
  722 558 741 524 751 508 c 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECC uni200D uniEE89
 Colour: ffa600
 EndChar
@@ -30921,6 +30976,7 @@ SplineSet
  38 100 l 1xf4
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEEC7 uni200D uniEE7A
 Colour: ffa600
 EndChar
 
@@ -31175,6 +31231,7 @@ SplineSet
  27 -50 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE9A uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -31246,6 +31303,7 @@ SplineSet
  27 -50 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE9D uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -31311,6 +31369,7 @@ SplineSet
  27 -50 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE9D uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -31383,6 +31442,7 @@ SplineSet
  479 150 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEE9D uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -31448,6 +31508,7 @@ SplineSet
  87 140 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED1 uniEE50
 Colour: ffa600
 EndChar
 
@@ -31518,6 +31579,7 @@ SplineSet
  87 140 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED1 uniEE51
 Colour: ffa600
 EndChar
 
@@ -31588,6 +31650,7 @@ SplineSet
  566 376 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED1 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -31652,6 +31715,7 @@ SplineSet
  566 376 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED1 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -31723,6 +31787,7 @@ SplineSet
  566 376 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED1 uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -31788,6 +31853,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED8 uniEE50
 Colour: ffa600
 EndChar
 
@@ -31858,6 +31924,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED8 uniEE51
 Colour: ffa600
 EndChar
 
@@ -31922,6 +31989,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED8 uniEE5D
 Colour: ffa600
 EndChar
 
@@ -31996,6 +32064,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED8 uniEE5E
 Colour: ffa600
 EndChar
 
@@ -32061,6 +32130,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED8 uniEE5A
 Colour: ffa600
 EndChar
 
@@ -32131,6 +32201,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED8 uniEE50 uniEE5A
 Colour: ffa600
 EndChar
 
@@ -32206,6 +32277,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomposed Neumes-1" uniEED8 uniEE51 uniEE5A
 Colour: ffa600
 EndChar
 
@@ -32276,6 +32348,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -32356,6 +32429,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEE70 uni200D uniEE70
 Colour: ffa600
 EndChar
 
@@ -32440,6 +32514,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEE74
 Colour: ffa600
 EndChar
 
@@ -32529,6 +32604,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEE74 uniEE5A
 Colour: ffa600
 EndChar
 
@@ -32593,6 +32669,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEE75
 Colour: ffa600
 EndChar
 
@@ -32667,6 +32744,7 @@ SplineSet
  1144 324 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEE76
 Colour: ffa600
 EndChar
 
@@ -32758,6 +32836,7 @@ SplineSet
  1366 468 1386 479 1408 479 c 0xd0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEB6F
 Colour: ffa600
 EndChar
 
@@ -32837,6 +32916,7 @@ SplineSet
  1150 325 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEC2
 Colour: ffa600
 EndChar
 
@@ -32930,6 +33010,7 @@ SplineSet
  1150 325 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEB70
 Colour: ffa600
 EndChar
 
@@ -33002,6 +33083,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -33085,6 +33167,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEC3
 Colour: ffa600
 EndChar
 
@@ -33173,6 +33256,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEC4
 Colour: ffa600
 EndChar
 
@@ -33274,6 +33358,8 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEBC6 uni200D uniEE5E
 Colour: ffa600
 EndChar
 
@@ -33361,6 +33447,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEC5
 Colour: ffa600
 EndChar
 
@@ -33459,6 +33546,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEC8
 Colour: ffa600
 EndChar
 
@@ -33562,6 +33650,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEC9
 Colour: ffa600
 EndChar
 
@@ -33655,6 +33744,7 @@ SplineSet
  1145 351 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEECA
 Colour: ffa600
 EndChar
 
@@ -33752,6 +33842,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEECB
 Colour: ffa600
 EndChar
 
@@ -33840,6 +33931,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEC7
 Colour: ffa600
 EndChar
 
@@ -33932,6 +34024,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEED8
 Colour: ffa600
 EndChar
 
@@ -34036,6 +34129,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEED8 uniEE5E
 Colour: ffa600
 EndChar
 
@@ -34132,6 +34226,7 @@ SplineSet
  24 224 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEED8 uniEE5A
 Colour: ffa600
 EndChar
 
@@ -34234,6 +34329,7 @@ SplineSet
  828 427 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEB97 uni200D uniEE89
 Colour: ffa600
 EndChar
 
@@ -34982,6 +35078,7 @@ SplineSet
  30 296 l 1
  52 296 l 1
 EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -35456,6 +35553,7 @@ SplineSet
  203 302 86 253 65 190 c 1
  83 290 l 1
 EndSplineSet
+Validated: 33
 Colour: ffb54c
 EndChar
 
@@ -37408,6 +37506,7 @@ SplineSet
  207 152 90 103 69 40 c 1
  87 140 l 1
 EndSplineSet
+Validated: 1
 Colour: ffb54c
 EndChar
 
@@ -38397,6 +38496,2440 @@ SplineSet
  87 285 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: uniEC46
+Encoding: 60486 60486 928
+Width: 817
+VWidth: 2048
+Flags: W
+HStem: 28 12<790 802> 39 12<5 17 147 159 288 300 429 441 571 583 712 724> 50 12<83 95 225 237 366 378 507 519 649 661 790 802> 59 12<5 17> 66 11<42 53 755 766> 74 12<790 802> 82 12<5 17> 90 12<41 53> 114 42<324.921 396.114> 158 12<755 767> 166 12<790 802> 175 11<5 16> 181 12<41 53 755 767> 189 12<790 802> 198 12<5 17> 204 12<41 53 755 767> 212 12<790 802> 290 12<5 17> 297 11<42 53 755 766> 305 12<790 802> 313 12<5 17> 319 13<40 53 755 768> 328 12<790 802> 336 12<5 17> 343 12<41 53 755 767> 351 12<790 802> 428 13<5 18> 431 42<198 305> 435 12<41 53 755 767> 443 12<790 802> 452 12<5 17> 458 12<41 53 755 767> 466 13<789 802> 475 12<5 17> 481 12<41 53 755 767> 490 11<791 802> 567 12<5 17> 575 12<41 53 755 767> 582 12<790 802> 590 12<5 17> 597 11<42 53 755 766> 605 12<790 802> 613 12<5 17> 622 12<41 53> 628 44<134 239> 689 12<755 767> 697 12<790 802> 706 11<5 16> 712 12<41 53 755 767> 721 11<791 802> 732 11<5 16 147 158 288 299 429 440 571 582 712 723> 743 12<83 95 225 237 366 378 507 519 649 661 790 802> 752 12<5 17>
+VStem: 12 10<286 296 420 430> 16 10<94 104 153 163 629 639 763 773> 20 11<19 30 494 505 554 565 687 698> 28 10<228 238 361 371 420 430> 34 10<94 104 629 639 763 773> 40 11<19 30> 46 7<364 371 498 505> 54 11<728 739 762 773> 60 11<19 30 53 64> 75 10<728 738 763 773> 155 10<728 738 763 773> 161 10<19 29 54 64> 175 10<728 738 763 773> 181 10<19 29 54 64> 195 10<728 738 763 773> 201 10<19 29 54 64> 215 10<728 738 763 773> 300 11<53 64 728 739> 315 11<728 739 762 773> 321 11<19 30 53 64> 335 11<728 739 762 773> 341 11<19 30 53 64> 356 10<728 738 763 773> 404 52<163.804 360 431 497.375> 436 10<728 738> 442 10<19 29 54 64> 456 10<728 738 763 773> 462 10<19 29 54 64> 476 10<728 738 763 773> 482 10<19 29 54 64> 496 10<728 738 763 773> 571 1<62 64> 582 10<54 64 728 738> 597 11<728 739 762 773> 603 11<19 30 53 64> 617 11<728 739 762 773> 623 11<19 30 53 64> 632 58<591.501 672> 637 11<728 739 762 773> 718 10<728 738> 724 10<19 29 54 64> 738 10<728 738 763 773> 744 10<19 29 54 64> 755 11<286 297 762 773> 764 10<19 29 495 505 554 564 687 697> 771 11<227 238 360 371 420 431> 777 11<93 104 153 164 628 639 762 773> 784 10<19 29 495 505 687 697> 794 8<230 238 363 371>
+DStem2: 5 764 5 752 0.670913 0.741536<0 12.0411> 5 741 5 729 0.663307 0.748347<0 42.5197> 5 717 5 706 0.66088 0.750491<0 73.7498> 5 694 10 687 0.652242 0.758011<0 104.235> 5 625 5 613 0.662574 0.748997<0 19.0994> 5 602 5 590 0.655872 0.754872<0 49.574 216.178 226.808> 5 579 5 567 0.655906 0.754842<0 63.9417 215.423 257.288> 5 556 14 554 0.655324 0.755348<4.38722 63.9355 234.772 287.767> 5 487 5 475 0.6573 0.753629<0 24.7394 326.231 343.915> 5 464 5 452 0.682805 0.730601<0 55.2184> 5 441 5 428 0.656572 0.754263<0 63.1945 430.945 440.165> 5 348 5 336 0.656135 0.754643<0 31.1356 510.507 559.425> 5 325 5 313 0.656135 0.754643<0 61.6151 540.986 559.425> 5 302 5 290 0.673434 0.739247<0 63.3732 629.286 637.762> 5 210 5 198 0.656179 0.754606<0 37.5334 693.384 746.37> 5 186 5 175 0.656242 0.754551<0 63.9453 724.619 774.948> 5 163 6 153 0.65561 0.7551<0 63.9386 755.092 774.941> 5 94 5 82 0.643556 0.765399<0 13.446 879.366 887.176> 5 71 5 59 0.656858 0.754014<0 43.9314 878.336 930.658> 5 48 5 36 0.656837 0.754033<0 63.1975 908.815 961.138> 5 25 11 19 0.668402 0.743801<0 63.3229 952.674 972.52> 8 420 18 420 0.656232 0.75456<6.56232 59.7128 427.468 467.166> 12 286 22 286 0.6729 0.739734<6.729 53.4796 618.657 658.345> 16 153 26 153 0.661031 0.750359<6.61031 46.9689> 20 687 30 687 0.647134 0.762377<6.47134 41.9396 60.3785 106.476> 20 19 31 19 0.656437 0.754381<7.2208 59.5482> 24 554 34 554 0.655324 0.755348<6.55324 34.8667 236.938 289.933> 28 420 38 420 0.656232 0.75456<6.56232 29.2333 414.837 467.166> 32 286 42 286 0.655756 0.754973<6.55756 22.8306> 40 19 51 19 0.654931 0.755689<7.20424 59.5483> 60 19 71 19 0.658505 0.752577<7.24355 44.1198> 75 728 85 728 0.645942 0.763386<6.45942 22.0795> 81 19 91 19 0.64476 0.764385<6.4476 12.8486 979.368 985.769> 147 49 147 37 0.656179 0.754606<0 19.8494 906.741 959.727> 147 26 151 19 0.656503 0.754323<0 50.3289 925.672 988.963> 161 19 171 19 0.656762 0.754098<6.56762 59.5481 904.411 966.951> 181 19 191 19 0.656781 0.754082<6.56781 59.5481 892.541 937.226> 201 19 211 19 0.656801 0.754064<6.56801 45.5127 893.198 905.993> 288 50 288 38 0.641848 0.766832<0 18.4378 727.635 768.095> 288 27 292 19 0.656874 0.754<0 48.918 710.15 773.445> 301 19 312 19 0.656925 0.753956<7.22618 59.5481 716.063 753.597> 315 728 326 728 0.656179 0.754606<7.21797 59.5482> 321 19 332 19 0.656956 0.753929<7.22652 59.5481 716.72 723.117> 341 19 352 19 0.639294 0.768962<7.03224 46.7228> 362 19 372 19 0.638313 0.769777<6.38313 15.6014 615.731 631.352> 429 51 429 39 0.657007 0.753885<0 17.6846 496.967 557.926> 429 28 432 19 0.657498 0.753457<0 48.1644 527.452 557.931> 436 728 446 728 0.656179 0.754606<-656.343 -649.289 6.56179 59.5482> 442 19 452 19 0.654931 0.755689<6.54931 59.5483> 482 19 492 19 0.658505 0.752577<6.58505 47.6945 415.328 467.068> 462 19 472 19 0.635576 0.772038<6.35576 59.5292> 553 623 508 604 0.257548 -0.966265<6.76937 136.587> 571 743 571 732 0.649262 0.760565<0 39.0485> 571 51 571 39 0.655687 0.755033<0 17.028 318.405 343.242> 571 28 574 19 0.655324 0.755348<0 47.5076> 583 19 594 19 0.655324 0.755348<7.20857 59.5483> 603 19 614 19 0.613191 0.789935<6.7451 59.4615 248.822 277.238> 617 728 628 728 0.656429 0.754388<7.22072 57.5496> 623 19 634 19 0.657724 0.753259<7.23496 48.3445 200.562 263.112> 643 19 654 19 0.657919 0.753089<7.2371 17.8672 184.47 232.634> 712 744 712 732 0.656377 0.754433<0 38.288> 712 52 712 40 0.658505 0.752577<0 15.616> 712 28 714 19 0.656618 0.754223<0 47.5072> 718 728 728 728 0.654931 0.755689<6.54931 59.5483> 724 19 734 19 0.529101 0.848559<5.29101 53.8144 65.6185 100.17> 744 19 754 19 0.654501 0.756061<6.54501 79.5444> 755 632 755 620 0.656781 0.754082<-806.405 -797.94 0 9.21926> 755 586 755 574 0.656874 0.754<0 62.5411> 755 470 755 458 0.657369 0.753569<0 46.096> 755 447 755 435 0.649652 0.760231<0 63.2236> 502 19 513 19 0.6 0.8<6.6 16.6> 755 286 766 286 0.656524 0.754305<7.22177 62.5374> 755 193 755 181 0.656524 0.754305<0 59.5482> 764 19 774 19 0.65362 0.756823<6.5362 49.0559> 780 153 790 153 0.660628 0.750714<6.60628 24.2931> 784 19 794 19 0.650791 0.759257<6.50791 18.5476>
+LayerCount: 3
+Fore
+SplineSet
+802 767 m 1x008000000000800206101c
+ 755 712 l 1
+ 755 724 l 1
+ 797 773 l 1
+ 802 773 l 1
+ 802 767 l 1x008000000000800206101c
+787 773 m 1
+ 748 728 l 1
+ 738 728 l 1x008000000000000206101c02
+ 777 773 l 1
+ 787 773 l 1
+802 743 m 1x008000000004100206101c
+ 755 689 l 1
+ 755 701 l 1
+ 802 755 l 1
+ 802 743 l 1x008000000004100206101c
+767 773 m 1
+ 728 728 l 1
+ 718 728 l 1x008000000000000206101c08
+ 757 773 l 1
+ 767 773 l 1
+802 721 m 1x008000000000400206101c
+ 773 687 l 1
+ 763 687 l 1
+ 802 732 l 1
+ 802 721 l 1x008000000000400206101c
+802 697 m 1x008000000002000206101c
+ 794 687 l 1
+ 783 687 l 1
+ 802 709 l 1
+ 802 697 l 1x008000000002000206101c
+727 773 m 1
+ 712 755 l 1x008000000000100206101c
+ 712 768 l 1
+ 716 773 l 1
+ 727 773 l 1
+747 773 m 1
+ 712 732 l 1x008000000000200206101c
+ 712 744 l 1
+ 737 773 l 1
+ 747 773 l 1
+661 743 m 1x008000000000100206101c10
+ 648 728 l 1
+ 637 728 l 1
+ 661 755 l 1
+ 661 743 l 1x008000000000100206101c10
+661 766 m 1
+ 628 728 l 1
+ 617 728 l 1x008000000000000206101c80
+ 656 773 l 1
+ 661 773 l 1
+ 661 766 l 1
+661 728 m 1
+ 657 728 l 1
+ 661 732 l 1x008000000000200206101c
+ 661 728 l 1
+771 639 m 1
+ 755 620 l 1
+ 755 632 l 1
+ 761 639 l 1
+ 771 639 l 1
+791 639 m 1
+ 755 597 l 1
+ 755 608 l 1x008000000080000206101c
+ 781 639 l 1
+ 791 639 l 1
+802 628 m 1x008000000008000206101c
+ 755 574 l 1
+ 755 586 l 1
+ 801 639 l 1
+ 802 639 l 1
+ 802 628 l 1x008000000008000206101c
+647 773 m 1
+ 608 728 l 1
+ 597 728 l 1x008000000000000206101e
+ 636 773 l 1
+ 647 773 l 1
+802 605 m 1x008000000040000206101c
+ 757 554 l 1
+ 755 554 l 1
+ 755 562 l 1
+ 802 617 l 1
+ 802 605 l 1x008000000040000206101c
+627 773 m 1
+ 588 728 l 1
+ 577 728 l 1
+ 616 773 l 1
+ 627 773 l 1
+802 582 m 1x008000000200000206101c
+ 777 554 l 1
+ 767 554 l 1
+ 802 594 l 1
+ 802 582 l 1x008000000200000206101c
+802 559 m 1
+ 798 554 l 1
+ 787 554 l 1
+ 802 571 l 1
+ 802 559 l 1
+586 773 m 1
+ 571 755 l 1x008000000000100206101c
+ 571 767 l 1
+ 576 773 l 1
+ 586 773 l 1
+606 773 m 1
+ 571 732 l 1
+ 571 743 l 1x008000000000200206101c
+ 596 773 l 1
+ 606 773 l 1
+519 743 m 1x008000000000100206101c
+ 506 728 l 1
+ 496 728 l 1
+ 519 755 l 1
+ 519 743 l 1x008000000000100206101c
+519 766 m 1
+ 486 728 l 1
+ 476 728 l 1x008000000000000206105c
+ 515 773 l 1
+ 519 773 l 1
+ 519 766 l 1
+519 728 m 1
+ 516 728 l 1
+ 519 732 l 1x008000000000200206101c
+ 519 728 l 1
+755 505 m 1
+ 755 504 l 1
+ 755 505 l 1
+775 505 m 1
+ 755 481 l 1
+ 755 493 l 1x008000002000000206101c
+ 765 505 l 1
+ 775 505 l 1
+796 505 m 1
+ 755 458 l 1
+ 755 470 l 1x008000010000000206101c
+ 785 505 l 1
+ 796 505 l 1
+505 773 m 1
+ 466 728 l 1
+ 456 728 l 1x008000000000000206111c
+ 495 773 l 1
+ 505 773 l 1
+802 490 m 1x008000081000000206101c
+ 755 435 l 1
+ 755 447 l 1
+ 802 501 l 1
+ 802 490 l 1x008000081000000206101c
+485 773 m 1
+ 446 728 l 1
+ 436 728 l 1x008000000000000206141c
+ 475 773 l 1
+ 485 773 l 1
+802 466 m 1x008000008000000206101c
+ 762 420 l 1
+ 755 420 l 1
+ 755 424 l 1
+ 802 479 l 1
+ 802 466 l 1x008000008000000206101c
+802 443 m 1x008000040000000206101c
+ 782 420 l 1
+ 771 420 l 1
+ 802 455 l 1
+ 802 443 l 1x008000040000000206101c
+802 420 m 1
+ 792 420 l 1
+ 802 432 l 1
+ 802 420 l 1
+445 773 m 1
+ 429 755 l 1x008000000000100206101c
+ 429 767 l 1
+ 435 773 l 1
+ 445 773 l 1
+465 773 m 1
+ 429 732 l 1
+ 429 743 l 1x008000000000200206101c
+ 455 773 l 1
+ 465 773 l 1
+378 765 m 1
+ 346 728 l 1
+ 335 728 l 1x008000000000000206501c
+ 374 773 l 1
+ 378 773 l 1
+ 378 765 l 1
+378 742 m 1
+ 366 728 l 1
+ 356 728 l 1
+ 378 754 l 1
+ 378 742 l 1
+378 728 m 1
+ 376 728 l 1
+ 378 730 l 1
+ 378 728 l 1
+759 371 m 1
+ 755 366 l 1
+ 755 371 l 1
+ 759 371 l 1
+779 371 m 1
+ 755 343 l 1
+ 755 355 l 1x008000800000000206101c
+ 769 371 l 1
+ 779 371 l 1
+800 371 m 1
+ 755 319 l 1
+ 755 332 l 1x008004000000000206101c
+ 789 371 l 1
+ 800 371 l 1
+365 773 m 1
+ 326 728 l 1
+ 315 728 l 1x008000000000000207101c
+ 354 773 l 1
+ 365 773 l 1
+802 351 m 1x008020400000000206101c
+ 755 297 l 1
+ 755 308 l 1
+ 802 363 l 1
+ 802 351 l 1x008020400000000206101c
+345 773 m 1
+ 306 728 l 1
+ 295 728 l 1
+ 334 773 l 1
+ 345 773 l 1
+802 328 m 1x008002000000000206101c
+ 766 286 l 1
+ 755 286 l 1
+ 802 340 l 1
+ 802 328 l 1x008002000000000206101c
+802 305 m 1x008010000000000206101c
+ 786 286 l 1
+ 775 286 l 1
+ 802 317 l 1
+ 802 305 l 1x008010000000000206101c
+802 286 m 1
+ 796 286 l 1
+ 802 294 l 1
+ 802 286 l 1
+305 773 m 1
+ 288 754 l 1
+ 288 766 l 1
+ 294 773 l 1
+ 305 773 l 1
+325 773 m 1
+ 288 730 l 1
+ 288 743 l 1x008000000000200206101c
+ 314 773 l 1
+ 325 773 l 1
+438 493 m 1x008000102028000206189d20
+ 448 555 474 605 484 672 c 1
+ 544 672 l 1
+ 544 662 547 646 553 623 c 0
+ 562 594 575 550 590 491 c 1
+ 591 509 600 539 613 581 c 0
+ 626 619 631 650 632 672 c 1
+ 690 672 l 1
+ 690 658 682 628 665 583 c 0
+ 645 530 628 494 614 431 c 1
+ 558 431 l 1
+ 558 444 554 462 545 487 c 0x008000104008000206189d20
+ 533 521 514 569 508 604 c 1
+ 505 586 500 564 491 538 c 2
+ 470 473 l 2
+ 467 464 464 450 462 431 c 1
+ 406 431 l 1
+ 405 445 397 475 381 520 c 0
+ 361 574 344 609 330 672 c 1
+ 395 672 l 1
+ 396 662 398 646 404 625 c 0
+ 413 596 425 552 438 493 c 1x008000102028000206189d20
+237 764 m 1x008000000000080216101c
+ 205 728 l 1
+ 195 728 l 1
+ 234 773 l 1
+ 237 773 l 1
+ 237 764 l 1x008000000000080216101c
+237 741 m 1
+ 225 728 l 1
+ 215 728 l 1
+ 237 753 l 1
+ 237 741 l 1
+237 728 m 1
+ 235 728 l 1
+ 237 730 l 1
+ 237 728 l 1
+764 238 m 1
+ 755 227 l 1
+ 755 238 l 1
+ 764 238 l 1
+784 238 m 1
+ 755 204 l 1
+ 755 216 l 1x008100000000000206101c
+ 773 238 l 1
+ 784 238 l 1
+802 235 m 1
+ 755 181 l 1
+ 755 193 l 1x008800000000000206101c
+ 794 238 l 1
+ 802 238 l 1
+ 802 235 l 1
+224 773 m 1
+ 185 728 l 1
+ 175 728 l 1x008000000000000246101c
+ 214 773 l 1
+ 224 773 l 1
+802 212 m 1x00c080000000000206101c
+ 755 158 l 1
+ 755 170 l 1
+ 802 224 l 1
+ 802 212 l 1x00c080000000000206101c
+204 773 m 1
+ 165 728 l 1
+ 155 728 l 1x008000000000000306101c
+ 194 773 l 1
+ 204 773 l 1
+802 189 m 1x008400000000000206101c
+ 770 153 l 1
+ 760 153 l 1
+ 802 201 l 1
+ 802 189 l 1x008400000000000206101c
+802 166 m 1x00a000000000000206101c
+ 790 153 l 1
+ 780 153 l 1
+ 802 178 l 1
+ 802 166 l 1x00a000000000000206101c
+802 153 m 1
+ 800 153 l 1
+ 802 155 l 1
+ 802 153 l 1
+164 773 m 1
+ 147 753 l 1
+ 147 765 l 1
+ 154 773 l 1
+ 164 773 l 1
+184 773 m 1
+ 147 730 l 1
+ 147 741 l 1
+ 174 773 l 1
+ 184 773 l 1
+95 763 m 1
+ 65 728 l 1
+ 54 728 l 1x008000000000000a06101c
+ 93 773 l 1
+ 95 773 l 1
+ 95 763 l 1
+95 740 m 1
+ 85 728 l 1
+ 75 728 l 1
+ 95 752 l 1x008000000000080206101c
+ 95 740 l 1
+95 728 m 1
+ 95 729 l 1
+ 95 728 l 1
+768 104 m 1
+ 755 89 l 1
+ 755 101 l 1
+ 757 104 l 1
+ 768 104 l 1
+788 104 m 1
+ 755 66 l 1
+ 755 77 l 1x088000000000000206101c
+ 777 104 l 1
+ 788 104 l 1
+802 74 m 1x048000000000000206101c01
+ 754 19 l 1
+ 744 19 l 1
+ 802 86 l 1
+ 802 74 l 1x048000000000000206101c01
+802 97 m 1
+ 734 19 l 1
+ 724 19 l 1x008000000000000206101c04
+ 798 104 l 1
+ 802 104 l 1
+ 802 97 l 1
+802 51 m 1x408000000000000206101c
+ 774 19 l 1
+ 764 19 l 1
+ 802 63 l 1
+ 802 51 l 1x408000000000000206101c
+802 28 m 1x808000000000000206101c
+ 794 19 l 1
+ 784 19 l 1
+ 802 40 l 1
+ 802 28 l 1x808000000000000206101c
+24 773 m 1
+ 5 752 l 1
+ 5 764 l 1x008000000000080206101c
+ 13 773 l 1
+ 24 773 l 1
+44 773 m 1x008000000000004206101c
+ 5 729 l 1
+ 5 741 l 1
+ 33 773 l 1
+ 44 773 l 1x008000000000004206101c
+84 773 m 1
+ 10 687 l 1
+ 5 687 l 1
+ 5 694 l 1
+ 73 773 l 1
+ 84 773 l 1
+64 773 m 1
+ 5 706 l 1
+ 5 717 l 1
+ 53 773 l 1x008000000001001206101c
+ 64 773 l 1
+307 477 m 1
+ 305 431 l 1
+ 130 431 l 1
+ 133 472 l 1
+ 155 500 231 604 239 632 c 1
+ 208 632 173 631 133 628 c 1
+ 134 672 l 1
+ 303 672 l 1
+ 300 632 l 1
+ 239 551 205 498 198 473 c 1x008000100008000206101c
+ 225 473 262 474 307 477 c 1
+53 714 m 1x008000000000011206101c
+ 30 687 l 1
+ 20 687 l 1
+ 53 726 l 1
+ 53 714 l 1x008000000000011206101c
+53 691 m 1
+ 50 687 l 1
+ 40 687 l 1x008000000000002206101c
+ 53 703 l 1
+ 53 691 l 1
+713 64 m 1
+ 712 63 l 1
+ 712 64 l 1
+ 713 64 l 1
+733 64 m 1
+ 712 40 l 1x808000000000000206101c
+ 712 52 l 1
+ 722 64 l 1
+ 733 64 l 1
+753 64 m 1
+ 714 19 l 1
+ 712 19 l 1
+ 712 28 l 1
+ 743 64 l 1
+ 753 64 l 1
+661 50 m 1x208000000000000206101c40
+ 634 19 l 1
+ 623 19 l 1
+ 661 62 l 1
+ 661 50 l 1x208000000000000206101c40
+661 27 m 1
+ 654 19 l 1
+ 643 19 l 1
+ 661 39 l 1x408000000000000206101c
+ 661 27 l 1
+7 639 m 1
+ 5 636 l 1
+ 5 639 l 1
+ 7 639 l 1
+28 639 m 1x008000000020008206101c
+ 5 613 l 1
+ 5 625 l 1
+ 18 639 l 1
+ 28 639 l 1x008000000020008206101c
+48 639 m 1
+ 5 590 l 1
+ 5 602 l 1x008000000100008206101c
+ 38 639 l 1
+ 48 639 l 1
+653 64 m 1
+ 614 19 l 1
+ 603 19 l 1x008000000000000206101d
+ 642 64 l 1
+ 653 64 l 1
+53 622 m 1x008000000810001206101c
+ 5 567 l 1
+ 5 579 l 1
+ 53 634 l 1
+ 53 622 l 1x008000000810001206101c
+633 64 m 1
+ 594 19 l 1
+ 583 19 l 1
+ 622 64 l 1
+ 633 64 l 1
+53 599 m 1
+ 14 554 l 1
+ 5 554 l 1
+ 5 556 l 1
+ 53 610 l 1
+ 53 599 l 1
+53 575 m 1x008000000400005206101c
+ 34 554 l 1
+ 24 554 l 1
+ 53 587 l 1
+ 53 575 l 1x008000000400005206101c
+353 156 m 0
+ 393 156 404 178 404 221 c 0
+ 404 278 403 324 401 360 c 1
+ 458 360 l 1
+ 456 322 456 277 456 224 c 0x008080000000000206181c
+ 456 151 423 114 358 114 c 0
+ 346 114 334 116 322 118 c 1
+ 325 162 l 1
+ 335 158 344 156 353 156 c 0
+53 554 m 1x008000000000005206101c
+ 44 554 l 1
+ 53 564 l 1
+ 53 554 l 1x008000000000005206101c
+572 64 m 1
+ 571 62 l 1x208000000000000206101c
+ 571 64 l 1
+ 572 64 l 1
+592 64 m 1
+ 571 39 l 1
+ 571 51 l 1x408000000000000206101c
+ 582 64 l 1
+ 592 64 l 1
+612 64 m 1
+ 574 19 l 1
+ 571 19 l 1
+ 571 28 l 1x808000000000000206101c
+ 602 64 l 1
+ 612 64 l 1
+519 50 m 1x208000000000000206103c
+ 492 19 l 1
+ 482 19 l 1
+ 519 62 l 1
+ 519 50 l 1x208000000000000206103c
+519 27 m 1
+ 513 19 l 1
+ 502 19 l 1
+ 519 39 l 1x408000000000000206101c
+ 519 27 l 1
+12 505 m 1x008000000000040206101c
+ 5 498 l 1
+ 5 505 l 1
+ 12 505 l 1x008000000000040206101c
+32 505 m 1
+ 5 475 l 1
+ 5 487 l 1x008000004000040206101c
+ 22 505 l 1
+ 32 505 l 1
+52 505 m 1
+ 5 452 l 1
+ 5 464 l 1x008000020000000206101c
+ 42 505 l 1
+ 52 505 l 1
+511 64 m 1
+ 472 19 l 1
+ 462 19 l 1x008000000000000206109c
+ 501 64 l 1
+ 511 64 l 1
+53 483 m 1x008000200000001206101c
+ 5 428 l 1
+ 5 441 l 1
+ 53 495 l 1
+ 53 483 l 1x008000200000001206101c
+491 64 m 1
+ 452 19 l 1
+ 442 19 l 1x008000000000000206121c
+ 481 64 l 1
+ 491 64 l 1
+53 460 m 1x008000000000001206101c
+ 18 420 l 1
+ 8 420 l 1
+ 53 472 l 1
+ 53 460 l 1x008000000000001206101c
+53 437 m 1
+ 38 420 l 1
+ 28 420 l 1x008000000000009206101c
+ 53 449 l 1
+ 53 437 l 1
+53 420 m 1
+ 48 420 l 1
+ 53 426 l 1
+ 53 420 l 1
+431 64 m 1
+ 429 62 l 1x208000000000000206101c
+ 429 64 l 1
+ 431 64 l 1
+451 64 m 1
+ 429 39 l 1
+ 429 51 l 1x408000000000000206101c
+ 441 64 l 1
+ 451 64 l 1
+471 64 m 1
+ 432 19 l 1
+ 429 19 l 1
+ 429 28 l 1x808000000000000206101c
+ 461 64 l 1
+ 471 64 l 1
+378 49 m 1
+ 352 19 l 1
+ 341 19 l 1x008000000000000206301c
+ 378 61 l 1
+ 378 49 l 1
+378 26 m 1
+ 372 19 l 1
+ 362 19 l 1
+ 378 38 l 1
+ 378 26 l 1
+16 371 m 1x008000000000020206101c
+ 5 359 l 1
+ 5 371 l 1
+ 16 371 l 1x008000000000020206101c
+36 371 m 1
+ 5 336 l 1
+ 5 348 l 1x008001000000020206101c
+ 26 371 l 1
+ 36 371 l 1
+53 368 m 1x008008000000001206101c
+ 5 313 l 1
+ 5 325 l 1
+ 46 371 l 1
+ 53 371 l 1
+ 53 368 l 1x008008000000001206101c
+371 64 m 1
+ 332 19 l 1
+ 321 19 l 1x008000000000000206901c
+ 360 64 l 1
+ 371 64 l 1
+53 344 m 1x008040000000001206101c
+ 5 290 l 1
+ 5 302 l 1
+ 53 357 l 1
+ 53 344 l 1x008040000000001206101c
+351 64 m 1
+ 312 19 l 1
+ 301 19 l 1
+ 340 64 l 1
+ 351 64 l 1
+53 321 m 1
+ 22 286 l 1
+ 12 286 l 1x008000000000041206101c
+ 53 333 l 1
+ 53 321 l 1
+53 298 m 1
+ 42 286 l 1
+ 32 286 l 1
+ 53 310 l 1
+ 53 298 l 1
+53 286 m 1
+ 52 286 l 1
+ 53 287 l 1
+ 53 286 l 1
+291 64 m 1
+ 288 61 l 1
+ 288 64 l 1
+ 291 64 l 1
+311 64 m 1
+ 288 38 l 1
+ 288 50 l 1x208000000000000206101c
+ 300 64 l 1
+ 311 64 l 1
+331 64 m 1
+ 292 19 l 1
+ 288 19 l 1
+ 288 27 l 1
+ 320 64 l 1
+ 331 64 l 1
+237 48 m 1
+ 211 19 l 1
+ 201 19 l 1x00800000000000020e101c
+ 237 60 l 1
+ 237 48 l 1
+237 25 m 1
+ 231 19 l 1
+ 221 19 l 1
+ 237 37 l 1
+ 237 25 l 1
+20 238 m 1x008000000000010206101c
+ 5 221 l 1
+ 5 233 l 1
+ 10 238 l 1
+ 20 238 l 1x008000000000010206101c
+40 238 m 1x008200000000002206101c
+ 5 198 l 1
+ 5 210 l 1
+ 30 238 l 1
+ 40 238 l 1x008200000000002206101c
+230 64 m 1
+ 191 19 l 1
+ 181 19 l 1x008000000000000226101c
+ 220 64 l 1
+ 230 64 l 1
+53 229 m 1x009000000000001206101c
+ 5 175 l 1
+ 5 186 l 1
+ 50 238 l 1
+ 53 238 l 1
+ 53 229 l 1x009000000000001206101c
+210 64 m 1
+ 171 19 l 1
+ 161 19 l 1x008000000000000286101c
+ 200 64 l 1
+ 210 64 l 1
+53 206 m 1x008000000000001206101c
+ 6 153 l 1
+ 5 153 l 1
+ 5 163 l 1
+ 53 218 l 1
+ 53 206 l 1x008000000000001206101c
+53 183 m 1
+ 26 153 l 1
+ 16 153 l 1x008000000000021206101c
+ 53 195 l 1
+ 53 183 l 1
+53 160 m 1
+ 46 153 l 1
+ 36 153 l 1
+ 53 172 l 1
+ 53 160 l 1
+150 64 m 1
+ 147 60 l 1
+ 147 64 l 1
+ 150 64 l 1
+190 64 m 1
+ 151 19 l 1
+ 147 19 l 1
+ 147 26 l 1
+ 180 64 l 1
+ 190 64 l 1
+170 64 m 1
+ 147 37 l 1
+ 147 49 l 1
+ 160 64 l 1
+ 170 64 l 1
+95 47 m 1
+ 71 19 l 1
+ 60 19 l 1
+ 95 59 l 1x108000000000000606101c
+ 95 47 l 1
+95 24 m 1
+ 91 19 l 1
+ 81 19 l 1
+ 95 36 l 1
+ 95 24 l 1
+24 104 m 1
+ 5 82 l 1
+ 5 94 l 1x028000000000000206101c
+ 14 104 l 1
+ 24 104 l 1
+44 104 m 1x108000000000004206101c
+ 5 59 l 1
+ 5 71 l 1
+ 34 104 l 1
+ 44 104 l 1x108000000000004206101c
+90 64 m 1
+ 51 19 l 1
+ 40 19 l 1x008000000000002206101c
+ 79 64 l 1
+ 90 64 l 1
+53 90 m 1x018000000000001206101c
+ 5 36 l 1
+ 5 48 l 1
+ 53 102 l 1
+ 53 90 l 1x018000000000001206101c
+70 64 m 1
+ 31 19 l 1
+ 20 19 l 1x008000000000010206101c
+ 59 64 l 1
+ 70 64 l 1
+53 67 m 1x008000000000001206101c
+ 11 19 l 1
+ 5 19 l 1
+ 5 25 l 1
+ 53 79 l 1
+ 53 67 l 1x008000000000001206101c
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniEC45
+Encoding: 60485 60485 929
+Width: 802
+VWidth: 2048
+Flags: W
+HStem: 77 61<380.282 422.718> 97 62<303.282 345.718 456.282 499.718> 153 62<247.282 290.718 512.282 554.718> 230 61<226.767 269.718 533.282 575.718> 306 62<247.282 290.718 512.282 554.718> 362 62<303.282 345.718> 427 41<197.863 300.109 397.448 470.383 551.956 617.945> 431 45<244.937 301 552.733 582.438> 436 14G<51 67 764.889 781> 438 117<471.25 521> 452 28G<22 38.2963 736 752.596> 575 14G<50.5294 67 764.5 781> 592 27G<22 38.3265 736 752.279> 626 46<246.688 283.913 452.936 500.783> 633 45<187.984 284.811 392.111 501.338> 756 20G<22 107 156 242 291 377 426 512 561 646 695 781>
+VStem: 113 56<495.482 612.434> 218 61<239.282 281.718> 238 62<162.282 205.718 315.282 358.718> 294 61<106.282 149.718 371.282 414.718> 316 56<492.642 612.434> 371 61<86.2821 128.718> 447 62<106.282 149.718> 465 56<468 555> 503 61<162.282 205.718 315.282 358.718> 524 61<239.282 281.718> 627 50<474.804 675>
+LayerCount: 3
+Fore
+SplineSet
+781 770 m 1
+ 736 715 l 1
+ 736 727 l 1
+ 776 776 l 1
+ 781 776 l 1
+ 781 770 l 1
+767 776 m 1
+ 730 731 l 1
+ 720 731 l 1
+ 757 776 l 1
+ 767 776 l 1
+781 746 m 1
+ 736 692 l 1
+ 736 704 l 1
+ 781 759 l 1
+ 781 746 l 1
+748 776 m 1
+ 711 731 l 1
+ 701 731 l 1
+ 738 776 l 1
+ 748 776 l 1
+781 723 m 1
+ 754 690 l 1
+ 744 690 l 1
+ 781 735 l 1
+ 781 723 l 1
+781 700 m 1
+ 773 690 l 1
+ 763 690 l 1
+ 781 712 l 1
+ 781 700 l 1
+709 776 m 1
+ 695 759 l 1
+ 695 771 l 1
+ 700 776 l 1
+ 709 776 l 1
+729 776 m 1
+ 695 735 l 1
+ 695 747 l 1
+ 719 776 l 1
+ 729 776 l 1
+646 746 m 1
+ 634 731 l 1
+ 624 731 l 1
+ 646 758 l 1
+ 646 746 l 1
+646 769 m 1
+ 615 731 l 1
+ 605 731 l 1
+ 642 776 l 1
+ 646 776 l 1
+ 646 769 l 1
+646 731 m 1
+ 643 731 l 1
+ 646 734 l 1
+ 646 731 l 1
+752 641 m 1
+ 736 622 l 1
+ 736 633 l 1
+ 742 641 l 1
+ 752 641 l 1
+771 641 m 1
+ 736 598 l 1
+ 736 610 l 1
+ 761 641 l 1
+ 771 641 l 1
+781 633 m 1
+ 736 575 l 1
+ 736 587 l 1
+ 780 641 l 1
+ 781 641 l 1
+ 781 633 l 1
+633 776 m 1
+ 596 731 l 1
+ 586 731 l 1
+ 623 776 l 1
+ 633 776 l 1
+781 607 m 1
+ 739 555 l 1
+ 736 555 l 1
+ 736 564 l 1
+ 781 619 l 1
+ 781 607 l 1
+614 776 m 1
+ 577 731 l 1
+ 567 731 l 1
+ 604 776 l 1
+ 614 776 l 1
+781 584 m 1
+ 758 555 l 1
+ 748 555 l 1
+ 781 595 l 1
+ 781 584 l 1
+781 560 m 1
+ 777 555 l 1
+ 767 555 l 1
+ 781 572 l 1
+ 781 560 l 1
+576 776 m 1
+ 561 758 l 1
+ 561 770 l 1
+ 566 776 l 1
+ 576 776 l 1
+595 776 m 1
+ 561 734 l 1
+ 561 746 l 1
+ 585 776 l 1
+ 595 776 l 1
+512 746 m 1
+ 499 731 l 1
+ 489 731 l 1
+ 512 758 l 1
+ 512 746 l 1
+512 769 m 1
+ 480 731 l 1
+ 470 731 l 1
+ 507 776 l 1
+ 512 776 l 1
+ 512 769 l 1
+512 731 m 1
+ 509 731 l 1
+ 512 734 l 1
+ 512 731 l 1
+737 506 m 1
+ 736 505 l 1
+ 736 506 l 1
+ 737 506 l 1
+756 506 m 1
+ 736 482 l 1
+ 736 494 l 1
+ 746 506 l 1
+ 756 506 l 1
+775 506 m 1
+ 736 459 l 1
+ 736 471 l 1
+ 765 506 l 1
+ 775 506 l 1
+498 776 m 1
+ 461 731 l 1
+ 451 731 l 1
+ 488 776 l 1
+ 498 776 l 1
+781 491 m 1
+ 736 435 l 1
+ 736 448 l 1
+ 781 502 l 1
+ 781 491 l 1
+479 776 m 1
+ 442 731 l 1
+ 432 731 l 1
+ 469 776 l 1
+ 479 776 l 1
+781 467 m 1
+ 743 420 l 1
+ 736 420 l 1
+ 736 424 l 1
+ 781 479 l 1
+ 781 467 l 1
+781 444 m 1
+ 762 420 l 1
+ 752 420 l 1
+ 781 456 l 1
+ 781 444 l 1
+781 420 m 1
+ 771 420 l 1
+ 781 431 l 1
+ 781 420 l 1
+441 776 m 1
+ 426 758 l 1
+ 426 770 l 1
+ 431 776 l 1
+ 441 776 l 1
+460 776 m 1
+ 426 734 l 1
+ 426 746 l 1
+ 450 776 l 1
+ 460 776 l 1
+679 675 m 1
+ 677 538 l 1
+ 677 427 677 427 583 427 c 0
+ 565 427 565 427 549 431 c 1
+ 553 476 l 1
+ 566 469 566 469 586 469 c 0
+ 627 469 627 469 627 534 c 2
+ 625 675 l 1
+ 679 675 l 1
+377 768 m 1
+ 346 731 l 1
+ 336 731 l 1
+ 373 776 l 1
+ 377 776 l 1
+ 377 768 l 1
+377 745 m 1
+ 365 731 l 1
+ 355 731 l 1
+ 377 757 l 1
+ 377 745 l 1
+377 731 m 1
+ 375 731 l 1
+ 377 733 l 1
+ 377 731 l 1
+740 371 m 1
+ 736 366 l 1
+ 736 371 l 1
+ 740 371 l 1
+760 371 m 1
+ 736 342 l 1
+ 736 355 l 1
+ 750 371 l 1
+ 760 371 l 1
+779 371 m 1
+ 736 319 l 1
+ 736 331 l 1
+ 769 371 l 1
+ 779 371 l 1
+364 776 m 1
+ 327 731 l 1
+ 317 731 l 1
+ 354 776 l 1
+ 364 776 l 1
+781 351 m 1
+ 736 296 l 1
+ 736 308 l 1
+ 781 363 l 1
+ 781 351 l 1
+345 776 m 1
+ 308 731 l 1
+ 298 731 l 1
+ 335 776 l 1
+ 345 776 l 1
+781 327 m 1
+ 747 286 l 1
+ 737 286 l 1
+ 781 340 l 1
+ 781 327 l 1
+781 304 m 1
+ 766 286 l 1
+ 756 286 l 1
+ 781 316 l 1
+ 781 304 l 1
+781 286 m 1
+ 775 286 l 1
+ 781 293 l 1
+ 781 286 l 1
+307 776 m 1
+ 291 757 l 1
+ 291 769 l 1
+ 297 776 l 1
+ 307 776 l 1
+326 776 m 1
+ 291 733 l 1
+ 291 746 l 1
+ 316 776 l 1
+ 326 776 l 1
+242 767 m 1
+ 212 731 l 1
+ 202 731 l 1
+ 239 776 l 1
+ 242 776 l 1
+ 242 767 l 1
+242 744 m 1
+ 231 731 l 1
+ 221 731 l 1
+ 242 756 l 1
+ 242 744 l 1
+242 731 m 1
+ 241 731 l 1
+ 242 732 l 1
+ 242 731 l 1
+745 237 m 1
+ 736 226 l 1
+ 736 237 l 1
+ 745 237 l 1
+520 496 m 1
+ 521 438 l 1
+ 475 427 475 427 446 427 c 0
+ 388 427 388 427 352 459.5 c 128
+ 316 492 316 492 316 548.5 c 128
+ 316 605 316 605 354.5 641.5 c 128
+ 393 678 393 678 452 678 c 0
+ 482 678 482 678 506 672 c 1
+ 500 625 l 1
+ 466 633 466 633 438.5 633 c 128
+ 411 633 411 633 391.5 611.5 c 128
+ 372 590 372 590 372 553 c 256
+ 372 516 372 516 393.5 492 c 128
+ 415 468 415 468 450 468 c 0
+ 459 468 459 468 471 470 c 1
+ 465 555 l 1
+ 521 555 l 1
+ 520 496 l 1
+764 237 m 1
+ 736 203 l 1
+ 736 215 l 1
+ 754 237 l 1
+ 764 237 l 1
+781 234 m 1
+ 736 180 l 1
+ 736 192 l 1
+ 773 237 l 1
+ 781 237 l 1
+ 781 234 l 1
+230 776 m 1
+ 193 731 l 1
+ 183 731 l 1
+ 220 776 l 1
+ 230 776 l 1
+781 211 m 1
+ 736 156 l 1
+ 736 168 l 1
+ 781 223 l 1
+ 781 211 l 1
+211 776 m 1
+ 174 731 l 1
+ 164 731 l 1
+ 201 776 l 1
+ 211 776 l 1
+781 188 m 1
+ 750 151 l 1
+ 741 151 l 1
+ 781 200 l 1
+ 781 188 l 1
+781 165 m 1
+ 770 151 l 1
+ 760 151 l 1
+ 781 177 l 1
+ 781 165 l 1
+781 151 m 1
+ 779 151 l 1
+ 781 154 l 1
+ 781 151 l 1
+173 776 m 1
+ 156 756 l 1
+ 156 768 l 1
+ 163 776 l 1
+ 173 776 l 1
+192 776 m 1
+ 156 732 l 1
+ 156 744 l 1
+ 182 776 l 1
+ 192 776 l 1
+534 368 m 256
+ 546 368 546 368 555 359 c 128
+ 564 350 564 350 564 337 c 128
+ 564 324 564 324 555 315 c 128
+ 546 306 546 306 533.5 306 c 128
+ 521 306 521 306 512 315 c 128
+ 503 324 503 324 503 337 c 128
+ 503 350 503 350 512 359 c 128
+ 521 368 521 368 534 368 c 256
+107 766 m 1
+ 78 731 l 1
+ 68 731 l 1
+ 105 776 l 1
+ 107 776 l 1
+ 107 766 l 1
+107 743 m 1
+ 97 731 l 1
+ 87 731 l 1
+ 107 755 l 1
+ 107 743 l 1
+749 102 m 1
+ 736 87 l 1
+ 736 99 l 1
+ 739 102 l 1
+ 749 102 l 1
+768 102 m 1
+ 736 63 l 1
+ 736 75 l 1
+ 758 102 l 1
+ 768 102 l 1
+554 291 m 256
+ 567 291 567 291 576 282 c 128
+ 585 273 585 273 585 260.5 c 128
+ 585 248 585 248 576 239 c 128
+ 567 230 567 230 554.5 230 c 128
+ 542 230 542 230 533 239 c 128
+ 524 248 524 248 524 260.5 c 128
+ 524 273 524 273 533 282 c 128
+ 542 291 542 291 554 291 c 256
+781 72 m 1
+ 736 16 l 1
+ 726 16 l 1
+ 781 84 l 1
+ 781 72 l 1
+781 95 m 1
+ 716 16 l 1
+ 706 16 l 1
+ 777 102 l 1
+ 781 102 l 1
+ 781 95 l 1
+781 48 m 1
+ 755 16 l 1
+ 745 16 l 1
+ 781 60 l 1
+ 781 48 l 1
+781 25 m 1
+ 774 16 l 1
+ 764 16 l 1
+ 781 37 l 1
+ 781 25 l 1
+39 776 m 1
+ 22 755 l 1
+ 22 767 l 1
+ 29 776 l 1
+ 39 776 l 1
+58 776 m 1
+ 22 732 l 1
+ 22 744 l 1
+ 48 776 l 1
+ 58 776 l 1
+96 776 m 1
+ 26 690 l 1
+ 22 690 l 1
+ 22 697 l 1
+ 86 776 l 1
+ 96 776 l 1
+77 776 m 1
+ 22 708 l 1
+ 22 720 l 1
+ 67 776 l 1
+ 77 776 l 1
+67 717 m 1
+ 45 690 l 1
+ 35 690 l 1
+ 67 729 l 1
+ 67 717 l 1
+169 554 m 128
+ 169 518 169 518 190.5 495 c 128
+ 212 472 212 472 241.5 472 c 128
+ 271 472 271 472 301 480 c 1
+ 301 434 l 1
+ 274 427 274 427 244 427 c 0
+ 185 427 185 427 149 459.5 c 128
+ 113 492 113 492 113 548.5 c 128
+ 113 605 113 605 151 641.5 c 128
+ 189 678 189 678 246 678 c 0
+ 268 678 268 678 290 672 c 1
+ 283 626 l 1
+ 263 633 263 633 234.5 633 c 128
+ 206 633 206 633 187.5 611.5 c 128
+ 169 590 169 590 169 554 c 128
+67 693 m 1
+ 64 690 l 1
+ 54 690 l 1
+ 67 705 l 1
+ 67 693 l 1
+696 61 m 1
+ 695 61 l 1
+ 696 61 l 1
+715 61 m 1
+ 695 37 l 1
+ 695 49 l 1
+ 705 61 l 1
+ 715 61 l 1
+734 61 m 1
+ 697 16 l 1
+ 695 16 l 1
+ 695 26 l 1
+ 724 61 l 1
+ 734 61 l 1
+325 424 m 256
+ 337 424 337 424 346 415 c 128
+ 355 406 355 406 355 393 c 128
+ 355 380 355 380 346 371 c 128
+ 337 362 337 362 324.5 362 c 128
+ 312 362 312 362 303 371 c 128
+ 294 380 294 380 294 393 c 128
+ 294 406 294 406 303 415 c 128
+ 312 424 312 424 325 424 c 256
+534 215 m 256
+ 546 215 546 215 555 206 c 128
+ 564 197 564 197 564 184 c 128
+ 564 171 564 171 555 162 c 128
+ 546 153 546 153 533.5 153 c 128
+ 521 153 521 153 512 162 c 128
+ 503 171 503 171 503 184 c 128
+ 503 197 503 197 512 206 c 128
+ 521 215 521 215 534 215 c 256
+646 48 m 1
+ 621 16 l 1
+ 611 16 l 1
+ 646 60 l 1
+ 646 48 l 1
+646 24 m 1
+ 640 16 l 1
+ 630 16 l 1
+ 646 36 l 1
+ 646 24 l 1
+23 641 m 1
+ 22 638 l 1
+ 22 641 l 1
+ 23 641 l 1
+43 641 m 1
+ 22 615 l 1
+ 22 627 l 1
+ 33 641 l 1
+ 43 641 l 1
+62 641 m 1
+ 22 592 l 1
+ 22 604 l 1
+ 52 641 l 1
+ 62 641 l 1
+639 61 m 1
+ 602 16 l 1
+ 592 16 l 1
+ 629 61 l 1
+ 639 61 l 1
+67 624 m 1
+ 22 569 l 1
+ 22 581 l 1
+ 67 636 l 1
+ 67 624 l 1
+620 61 m 1
+ 582 16 l 1
+ 572 16 l 1
+ 610 61 l 1
+ 620 61 l 1
+67 600 m 1
+ 30 555 l 1
+ 22 555 l 1
+ 22 558 l 1
+ 67 612 l 1
+ 67 600 l 1
+67 577 m 1
+ 49 555 l 1
+ 39 555 l 1
+ 67 589 l 1
+ 67 577 l 1
+67 555 m 1
+ 58 555 l 1
+ 67 566 l 1
+ 67 555 l 1
+562 61 m 1
+ 561 60 l 1
+ 561 61 l 1
+ 562 61 l 1
+581 61 m 1
+ 561 36 l 1
+ 561 48 l 1
+ 571 61 l 1
+ 581 61 l 1
+600 61 m 1
+ 563 16 l 1
+ 561 16 l 1
+ 561 25 l 1
+ 590 61 l 1
+ 600 61 l 1
+269 368 m 256
+ 282 368 282 368 291 359 c 128
+ 300 350 300 350 300 337 c 128
+ 300 324 300 324 291 315 c 128
+ 282 306 282 306 269 306 c 128
+ 256 306 256 306 247 315 c 128
+ 238 324 238 324 238 337 c 128
+ 238 350 238 350 247 359 c 128
+ 256 368 256 368 269 368 c 256
+478 159 m 256
+ 491 159 491 159 500 150 c 128
+ 509 141 509 141 509 128 c 128
+ 509 115 509 115 500 106 c 128
+ 491 97 491 97 478 97 c 128
+ 465 97 465 97 456 106 c 128
+ 447 115 447 115 447 128 c 128
+ 447 141 447 141 456 150 c 128
+ 465 159 465 159 478 159 c 256
+512 48 m 1
+ 486 16 l 1
+ 476 16 l 1
+ 512 60 l 1
+ 512 48 l 1
+512 24 m 1
+ 505 16 l 1
+ 495 16 l 1
+ 512 36 l 1
+ 512 24 l 1
+28 506 m 1
+ 22 499 l 1
+ 22 506 l 1
+ 28 506 l 1
+47 506 m 1
+ 22 476 l 1
+ 22 487 l 1
+ 37 506 l 1
+ 47 506 l 1
+66 506 m 1
+ 22 452 l 1
+ 22 465 l 1
+ 56 506 l 1
+ 66 506 l 1
+504 61 m 1
+ 467 16 l 1
+ 457 16 l 1
+ 494 61 l 1
+ 504 61 l 1
+248 291 m 256
+ 261 291 261 291 270 282 c 128
+ 279 273 279 273 279 260.5 c 128
+ 279 248 279 248 270 239 c 128
+ 261 230 261 230 248 230 c 128
+ 235 230 235 230 226.5 239 c 128
+ 218 248 218 248 218 260.5 c 128
+ 218 273 218 273 226.5 282 c 128
+ 235 291 235 291 248 291 c 256
+401 138 m 256
+ 414 138 414 138 423 129 c 128
+ 432 120 432 120 432 107.5 c 128
+ 432 95 432 95 423 86 c 128
+ 414 77 414 77 401.5 77 c 128
+ 389 77 389 77 380 86 c 128
+ 371 95 371 95 371 107.5 c 128
+ 371 120 371 120 380 129 c 128
+ 389 138 389 138 401 138 c 256
+67 484 m 1
+ 22 429 l 1
+ 22 441 l 1
+ 67 496 l 1
+ 67 484 l 1
+485 61 m 1
+ 448 16 l 1
+ 438 16 l 1
+ 475 61 l 1
+ 485 61 l 1
+67 461 m 1
+ 34 420 l 1
+ 24 420 l 1
+ 67 473 l 1
+ 67 461 l 1
+67 437 m 1
+ 53 420 l 1
+ 43 420 l 1
+ 67 450 l 1
+ 67 437 l 1
+67 420 m 1
+ 62 420 l 1
+ 67 426 l 1
+ 67 420 l 1
+427 61 m 1
+ 426 60 l 1
+ 426 61 l 1
+ 427 61 l 1
+446 61 m 1
+ 426 36 l 1
+ 426 48 l 1
+ 437 61 l 1
+ 446 61 l 1
+466 61 m 1
+ 429 16 l 1
+ 426 16 l 1
+ 426 25 l 1
+ 456 61 l 1
+ 466 61 l 1
+269 215 m 256
+ 282 215 282 215 291 206 c 128
+ 300 197 300 197 300 184 c 128
+ 300 171 300 171 291 162 c 128
+ 282 153 282 153 269 153 c 128
+ 256 153 256 153 247 162 c 128
+ 238 171 238 171 238 184 c 128
+ 238 197 238 197 247 206 c 128
+ 256 215 256 215 269 215 c 256
+325 159 m 256
+ 337 159 337 159 346 150 c 128
+ 355 141 355 141 355 128 c 128
+ 355 115 355 115 346 106 c 128
+ 337 97 337 97 324.5 97 c 128
+ 312 97 312 97 303 106 c 128
+ 294 115 294 115 294 128 c 128
+ 294 141 294 141 303 150 c 128
+ 312 159 312 159 325 159 c 256
+377 46 m 1
+ 352 16 l 1
+ 342 16 l 1
+ 377 59 l 1
+ 377 46 l 1
+377 23 m 1
+ 371 16 l 1
+ 361 16 l 1
+ 377 35 l 1
+ 377 23 l 1
+32 371 m 1
+ 22 359 l 1
+ 22 371 l 1
+ 32 371 l 1
+51 371 m 1
+ 22 336 l 1
+ 22 348 l 1
+ 41 371 l 1
+ 51 371 l 1
+67 368 m 1
+ 22 313 l 1
+ 22 325 l 1
+ 60 371 l 1
+ 67 371 l 1
+ 67 368 l 1
+370 61 m 1
+ 333 16 l 1
+ 323 16 l 1
+ 360 61 l 1
+ 370 61 l 1
+67 344 m 1
+ 22 290 l 1
+ 22 301 l 1
+ 67 357 l 1
+ 67 344 l 1
+351 61 m 1
+ 314 16 l 1
+ 304 16 l 1
+ 341 61 l 1
+ 351 61 l 1
+67 321 m 1
+ 38 286 l 1
+ 28 286 l 1
+ 67 333 l 1
+ 67 321 l 1
+67 298 m 1
+ 57 286 l 1
+ 47 286 l 1
+ 67 310 l 1
+ 67 298 l 1
+67 286 m 1
+ 66 286 l 1
+ 67 287 l 1
+ 67 286 l 1
+293 61 m 1
+ 291 59 l 1
+ 291 61 l 1
+ 293 61 l 1
+313 61 m 1
+ 291 35 l 1
+ 291 47 l 1
+ 303 61 l 1
+ 313 61 l 1
+332 61 m 1
+ 295 16 l 1
+ 291 16 l 1
+ 291 24 l 1
+ 322 61 l 1
+ 332 61 l 1
+242 46 m 1
+ 218 16 l 1
+ 208 16 l 1
+ 242 58 l 1
+ 242 46 l 1
+242 22 m 1
+ 237 16 l 1
+ 227 16 l 1
+ 242 34 l 1
+ 242 22 l 1
+36 237 m 1
+ 22 220 l 1
+ 22 232 l 1
+ 26 237 l 1
+ 36 237 l 1
+55 237 m 1
+ 22 197 l 1
+ 22 208 l 1
+ 45 237 l 1
+ 55 237 l 1
+236 61 m 1
+ 199 16 l 1
+ 189 16 l 1
+ 226 61 l 1
+ 236 61 l 1
+67 228 m 1
+ 22 173 l 1
+ 22 185 l 1
+ 64 237 l 1
+ 67 237 l 1
+ 67 228 l 1
+217 61 m 1
+ 180 16 l 1
+ 170 16 l 1
+ 207 61 l 1
+ 217 61 l 1
+67 205 m 1
+ 22 151 l 1
+ 22 162 l 1
+ 67 217 l 1
+ 67 205 l 1
+67 182 m 1
+ 41 151 l 1
+ 32 151 l 1
+ 67 193 l 1
+ 67 182 l 1
+67 158 m 1
+ 61 151 l 1
+ 51 151 l 1
+ 67 170 l 1
+ 67 158 l 1
+159 61 m 1
+ 156 58 l 1
+ 156 61 l 1
+ 159 61 l 1
+198 61 m 1
+ 161 16 l 1
+ 156 16 l 1
+ 156 23 l 1
+ 188 61 l 1
+ 198 61 l 1
+179 61 m 1
+ 156 34 l 1
+ 156 46 l 1
+ 169 61 l 1
+ 179 61 l 1
+107 45 m 1
+ 84 16 l 1
+ 74 16 l 1
+ 107 57 l 1
+ 107 45 l 1
+107 21 m 1
+ 103 16 l 1
+ 93 16 l 1
+ 107 33 l 1
+ 107 21 l 1
+40 102 m 1
+ 22 80 l 1
+ 22 92 l 1
+ 30 102 l 1
+ 40 102 l 1
+59 102 m 1
+ 22 57 l 1
+ 22 69 l 1
+ 49 102 l 1
+ 59 102 l 1
+102 61 m 1
+ 65 16 l 1
+ 55 16 l 1
+ 92 61 l 1
+ 102 61 l 1
+67 88 m 1
+ 22 33 l 1
+ 22 46 l 1
+ 67 100 l 1
+ 67 88 l 1
+83 61 m 1
+ 46 16 l 1
+ 36 16 l 1
+ 73 61 l 1
+ 83 61 l 1
+67 65 m 1
+ 27 16 l 1
+ 22 16 l 1
+ 22 22 l 1
+ 67 77 l 1
+ 67 65 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: uniEC47
+Encoding: 60487 60487 930
+Width: 797
+VWidth: 2048
+Flags: W
+HStem: 13 12<779 791> 24 13<6 19 145 158 284 297 423 436 563 576 702 715> 36 12<82 94 222 234 361 373 500 512 639 651 779 791> 45 13<6 19> 52 12<41 53 744 756> 61 12<779 791> 78 12<41 53> 103 43<471.514 540.469> 148 12<744 756> 157 12<779 791> 166 12<6 18> 172 13<40 53 744 757> 181 12<779 791> 190 12<6 18> 196 13<40 53 744 757> 205 12<779 791> 286 12<6 18> 293 12<41 53 744 756> 301 13<778 791> 310 12<6 18> 316 13<40 53 744 757> 325 13<778 791> 334 12<6 18> 340 13<40 53 744 757> 349 13<778 791> 431 45<196 303> 431 11<6 17> 437 12<41 53 744 756> 445 13<778 791> 454 13<6 19> 461 12<41 53 744 756> 469 13<778 791> 478 12<6 18> 485 12<41 53 744 756> 493 13<778 791> 574 13<6 19> 581 13<40 53 744 757> 590 12<779 791> 598 13<6 19> 605 12<41 53 744 756> 614 12<779 791> 629 18G<6 47 744 791> 638 46<132 236> 701 13<744 757> 710 12<779 791> 719 12<6 18> 725 12<41 53 744 756> 734 12<779 791> 745 13<6 19 145 158 284 297 423 436 563 576 702 715> 757 13<81 94 221 234 360 373 499 512 638 651 778 791>
+VStem: 6 8<563 571> 8 10<421 431> 14 10<82 92 143 153 282 292 778 788> 20 11<3 14 499 510 560 571 698 709> 28 10<221 231 360 370 421 431> 34 10<82 92 637 647 778 788> 40 11<3 14 359 370 499 510> 54 10<741 751 778 788> 60 10<3 13 40 50> 74 10<741 751 778 788> 153 10<741 751 778 788> 159 10<3 13 40 50> 173 10<741 751 778 788> 178 51<108 292> 179 10<3 13 40 50> 193 10<741 751 778 788> 198 11<3 14 39 50> 212 11<741 752 777 788> 296 10<40 50 741 751> 311 10<741 751 778 788> 317 10<3 13 40 50> 331 10<741 751 778 788> 337 10<3 13 40 50> 341 42<108 135 183 359> 351 10<741 751 778 788> 357 10<3 13 40 50> 430 10<741 751> 436 10<3 13 40 50> 450 10<741 751 778 788> 456 10<3 13 40 50> 469 11<741 752 777 788> 475 11<3 14 39 50> 489 10<741 751 778 788> 495 10<3 13 40 50> 548 52<152.215 359 431 497.107> 563 1<48 50> 569 10<741 751> 575 10<3 13 40 50> 589 10<741 751 778 788> 595 10<3 13 40 50> 607 11<741 752 777 788> 615 10<3 13 40 50> 623 58<598.278 684> 628 11<741 752 777 788> 712 11<39 50 741 752> 727 11<741 752 777 788> 733 10<3 13 40 50> 745 10<282 292> 749 10<143 153 639 649 778 788> 753 10<3 13 500 510 560 570 700 710> 760 11<220 231 359 370 421 432> 766 11<81 92 143 154 636 647 777 788> 773 10<3 13 500 510 700 710>
+DStem2: 6 779 6 766 0.633238 0.773957<0 11.3983> 6 755 6 743 0.635105 0.772425<0 42.6379> 6 731 6 719 0.636881 0.770962<0 73.8783> 6 707 10 698 0.629943 0.776642<0 105.114> 6 611 6 598 0.641723 0.766937<0 47.5031> 6 587 6 574 0.635201 0.772347<0 63.8377 218.82 260.685> 6 563 14 560 0.636182 0.771539<2.77483 63.8483 237.215 291.29> 6 490 6 478 0.634146 0.773213<0 25.6106 331.686 349.487> 6 467 6 454 0.662624 0.748952<0 55.3968> 6 442 6 431 0.635707 0.77193<0 64.6151 438.411 447.629> 6 346 6 334 0.635404 0.77218<0 31.2404 517.871 568.319> 6 322 6 310 0.67136 0.741132<0 61.7573 620.878 629.353> 6 298 6 286 0.636182 0.771539<0 63.8483> 6 226 6 213 0.634481 0.772938<0 6.40262 673.428 727.522> 6 202 6 190 0.635345 0.772228<0 37.6429 704.678 758.762> 6 178 6 166 0.635441 0.772149<0 63.8403 735.919 787.139> 6 154 7 143 0.635222 0.77233<0 63.8379 766.522 787.137> 6 82 6 69 0.635632 0.771992<0 12.805 875.914 914.964> 6 58 6 45 0.63578 0.77187<0 44.0454 891.489 945.569> 20 698 30 698 0.624695 0.780869<6.24695 43.2601 61.0639 108.697> 20 3 31 3 0.638572 0.769562<7.0243 61.0737> 24 560 34 560 0.634161 0.773201<6.34161 36.1743 240.781 294.878> 32 282 42 282 0.635065 0.772459<6.35065 23.3783> 74 741 84 741 0.628869 0.777511<6.28869 22.685> 145 780 145 768 0.684817 0.728715<-200.853 -183.891 0 10.6234> 193 741 203 741 0.635512 0.772091<6.35512 55.3954> 285 277 250 240 0.506744 -0.862096<-42.5537 109.415> 436 3 446 3 0.63577 0.771879<6.3577 60.4376> 448 566 484 544 0.282166 0.959365<-69.8135 59.1477> 6 10 11 3 0.635881 0.771787<0 63.845 953.971 1005.19> 8 421 18 421 0.635412 0.772173<6.35412 61.0248 434.824 475.282> 12 282 22 282 0.65362 0.756823<6.5362 54.044 628.885 667.931> 17 143 26 143 0.650209 0.759755<5.85188 46.9599 840.498 848.307> 28 421 38 421 0.635412 0.772173<6.35412 29.0122 421.198 475.282> 40 3 51 3 0.646943 0.762538<7.11638 61.0701 1023.06 1029.46> 60 3 70 3 0.646943 0.762538<6.46943 44.8722 991.816 1029.46> 145 35 145 22 0.635813 0.771843<0 19.8432 921.958 976.038> 145 11 149 3 0.635985 0.771701<0 50.4479 941.21 1005.83> 159 3 169 3 0.635851 0.771812<6.35851 60.4375 920.731 984.576> 179 3 189 3 0.636251 0.771482<6.36251 60.4372 908.657 953.339> 198 3 209 3 0.664076 0.747665<7.30483 47.0844 821.652 861.348> 284 35 284 23 0.604557 0.796562<0 19.2031 760.813 770.813> 284 12 288 3 0.636719 0.771096<0 49.6767 722.391 787.016> 297 3 308 3 0.636249 0.771484<6.99874 61.0734 728.117 767.168> 311 741 321 741 0.635412 0.772173<6.35412 61.0732> 317 3 327 3 0.636083 0.77162<6.36084 60.4373 728.116 735.154> 337 3 347 3 0.635227 0.772326<6.35227 47.5826 640.066 656.459> 351 741 361 741 0.635404 0.77218<6.35404 25.5616> 357 3 367 3 0.635227 0.772326<6.35227 16.3422 608.826 656.459> 423 37 423 24 0.636182 0.771539<0 17.6642 504.939 567.42> 423 13 426 3 0.637284 0.770629<0 48.2691 536.191 567.432> 456 3 466 3 0.635412 0.772173<6.35412 60.4378 453.259 475.282> 475 3 486 3 0.636664 0.771141<7.00331 49.0042 422.655 475.918> 495 3 505 3 0.636159 0.771558<6.36159 17.7587 391.414 455.262> 546 633 501 613 0.256406 -0.966569<7.7931 141.464> 563 37 563 24 0.635512 0.772091<0 17.0278 323.891 348.729> 432 497 455 431 0.189737 0.981835<0.887954 125.907> 563 13 565 3 0.636182 0.771539<0 48.2686> 575 3 585 3 0.636182 0.771539<6.36182 60.4373 266.452 294.877> 595 3 605 3 0.634161 0.773201<6.34161 60.4386 235.213 294.878> 615 3 625 3 0.635201 0.772347<6.35201 48.3547 203.199 267.809> 702 37 702 25 0.634493 0.772928<0 16.393 66.0681 71.0633> 702 13 704 3 0.634183 0.773183<0 47.6333 66.068 101.669> 707 741 718 741 0.635671 0.77196<6.99238 61.0733> 713 3 724 3 0.634183 0.773183<6.97602 112.867> 733 3 743 3 0.638018 0.770022<6.38018 81.6663> 744 594 744 581 0.636103 0.771604<0 63.8474> 744 449 744 437 0.636182 0.771539<0 63.8483> 745 282 755 282 0.634739 0.772726<6.34739 62.4252> 634 3 645 3 0.5547 0.83205<6.1017 16.9184> 753 3 763 3 0.636881 0.770962<6.36881 50.4142> 769 143 779 143 0.645942 0.763386<6.45942 24.8981> 772 700 782 700 0.648171 0.761495<6.48171 19.9302> 773 3 783 3 0.633238 0.773957<6.33238 19.1379>
+LayerCount: 3
+Fore
+SplineSet
+791 782 m 1
+ 744 725 l 1
+ 744 737 l 1
+ 785 788 l 1
+ 791 788 l 1
+ 791 782 l 1
+776 788 m 1
+ 738 741 l 1
+ 727 741 l 1
+ 766 788 l 1
+ 776 788 l 1
+791 758 m 1
+ 744 701 l 1
+ 744 714 l 1
+ 791 770 l 1
+ 791 758 l 1
+756 788 m 1
+ 718 741 l 1
+ 707 741 l 1
+ 746 788 l 1
+ 756 788 l 1
+791 734 m 1
+ 762 700 l 1
+ 752 700 l 1
+ 791 746 l 1
+ 791 734 l 1
+791 710 m 1
+ 782 700 l 1
+ 772 700 l 1
+ 791 722 l 1
+ 791 710 l 1
+717 788 m 1
+ 702 770 l 1
+ 702 783 l 1
+ 706 788 l 1
+ 717 788 l 1
+736 788 m 1
+ 702 746 l 1
+ 702 759 l 1
+ 726 788 l 1
+ 736 788 l 1
+651 757 m 1
+ 639 741 l 1
+ 628 741 l 1
+ 651 770 l 1
+ 651 757 l 1
+651 781 m 1
+ 619 741 l 1
+ 609 741 l 1
+ 647 788 l 1
+ 651 788 l 1
+ 651 781 l 1
+651 741 m 1
+ 648 741 l 1
+ 651 745 l 1
+ 651 741 l 1
+760 649 m 1
+ 744 629 l 1
+ 744 641 l 1
+ 750 649 l 1
+ 760 649 l 1
+780 647 m 1
+ 744 605 l 1
+ 744 617 l 1
+ 770 647 l 1
+ 780 647 l 1
+791 638 m 1
+ 744 581 l 1
+ 744 594 l 1
+ 790 647 l 1
+ 791 647 l 1
+ 791 638 l 1
+637 788 m 1
+ 599 741 l 1
+ 589 741 l 1
+ 627 788 l 1
+ 637 788 l 1
+791 614 m 1
+ 747 560 l 1
+ 744 560 l 1
+ 744 569 l 1
+ 791 626 l 1
+ 791 614 l 1
+618 788 m 1
+ 579 741 l 1
+ 569 741 l 1
+ 607 788 l 1
+ 618 788 l 1
+791 590 m 1
+ 766 560 l 1
+ 756 560 l 1
+ 791 602 l 1
+ 791 590 l 1
+791 565 m 1
+ 786 560 l 1
+ 776 560 l 1
+ 791 578 l 1
+ 791 565 l 1
+578 788 m 1
+ 563 770 l 1
+ 563 782 l 1
+ 568 788 l 1
+ 578 788 l 1
+598 788 m 1
+ 563 745 l 1
+ 563 758 l 1
+ 588 788 l 1
+ 598 788 l 1
+512 757 m 1
+ 499 741 l 1
+ 489 741 l 1
+ 512 770 l 1
+ 512 757 l 1
+512 781 m 1
+ 480 741 l 1
+ 469 741 l 1
+ 508 788 l 1
+ 512 788 l 1
+ 512 781 l 1
+512 741 m 1
+ 509 741 l 1
+ 512 745 l 1
+ 512 741 l 1
+745 510 m 1
+ 744 509 l 1
+ 744 510 l 1
+ 745 510 l 1
+764 510 m 1
+ 744 485 l 1
+ 744 497 l 1
+ 754 510 l 1
+ 764 510 l 1
+784 510 m 1
+ 744 461 l 1
+ 744 473 l 1
+ 774 510 l 1
+ 784 510 l 1
+498 788 m 1
+ 460 741 l 1
+ 450 741 l 1
+ 488 788 l 1
+ 498 788 l 1
+791 493 m 1
+ 744 437 l 1
+ 744 449 l 1
+ 791 506 l 1
+ 791 493 l 1
+478 788 m 1
+ 440 741 l 1
+ 430 741 l 1
+ 468 788 l 1
+ 478 788 l 1
+791 469 m 1
+ 751 421 l 1
+ 744 421 l 1
+ 744 425 l 1
+ 791 482 l 1
+ 791 469 l 1
+791 445 m 1
+ 771 421 l 1
+ 760 421 l 1
+ 791 458 l 1
+ 791 445 l 1
+791 421 m 1
+ 780 421 l 1
+ 791 434 l 1
+ 791 421 l 1
+439 788 m 1
+ 423 770 l 1
+ 423 782 l 1
+ 429 788 l 1
+ 439 788 l 1
+459 788 m 1
+ 423 745 l 1
+ 423 758 l 1
+ 448 788 l 1
+ 459 788 l 1
+373 780 m 1
+ 341 741 l 1
+ 331 741 l 1
+ 369 788 l 1
+ 373 788 l 1
+ 373 780 l 1
+373 756 m 1
+ 361 741 l 1
+ 351 741 l 1
+ 373 768 l 1
+ 373 756 l 1
+373 741 m 1
+ 371 741 l 1
+ 373 744 l 1
+ 373 741 l 1
+749 370 m 1
+ 744 365 l 1
+ 744 370 l 1
+ 749 370 l 1
+768 370 m 1
+ 744 340 l 1
+ 744 353 l 1
+ 758 370 l 1
+ 768 370 l 1
+788 370 m 1
+ 744 316 l 1
+ 744 329 l 1
+ 778 370 l 1
+ 788 370 l 1
+360 788 m 1
+ 321 741 l 1
+ 311 741 l 1
+ 350 788 l 1
+ 360 788 l 1
+791 349 m 1
+ 744 293 l 1
+ 744 305 l 1
+ 791 362 l 1
+ 791 349 l 1
+340 788 m 1
+ 302 741 l 1
+ 291 741 l 1
+ 330 788 l 1
+ 340 788 l 1
+791 325 m 1
+ 755 282 l 1
+ 745 282 l 1
+ 791 338 l 1
+ 791 325 l 1
+791 301 m 1
+ 775 282 l 1
+ 764 282 l 1
+ 791 314 l 1
+ 791 301 l 1
+791 282 m 1
+ 784 282 l 1
+ 791 289 l 1
+ 791 282 l 1
+300 788 m 1
+ 284 768 l 1
+ 284 781 l 1
+ 290 788 l 1
+ 300 788 l 1
+320 788 m 1
+ 284 744 l 1
+ 284 757 l 1
+ 310 788 l 1
+ 320 788 l 1
+681 684 m 1
+ 681 656 681 656 665.5 613.5 c 128
+ 650 571 650 571 636.5 536 c 128
+ 623 501 623 501 619.5 491.5 c 128
+ 616 482 616 482 605 431 c 1
+ 550 431 l 1
+ 550 452 550 452 538 491 c 1
+ 506 586 506 586 501 613 c 1
+ 496 579 496 579 484 544 c 1
+ 464 476 l 2
+ 460 465 460 465 455 431 c 1
+ 400 431 l 1
+ 400 454 400 454 367 549.5 c 128
+ 334 645 334 645 325 684 c 1
+ 390 684 l 1
+ 390 662 390 662 399 635 c 1
+ 420 555 420 555 432 497 c 1
+ 437 529 437 529 448 566 c 2
+ 468 634 l 2
+ 475 658 475 658 478 684 c 1
+ 536 684 l 1
+ 536 666 536 666 556 591 c 128
+ 576 516 576 516 581 495 c 1
+ 584 524 584 524 603.5 586.5 c 128
+ 623 649 623 649 623 684 c 1
+ 681 684 l 1
+234 779 m 1
+ 203 741 l 1
+ 193 741 l 1
+ 231 788 l 1
+ 234 788 l 1
+ 234 779 l 1
+234 755 m 1
+ 223 741 l 1
+ 212 741 l 1
+ 234 768 l 1
+ 234 755 l 1
+234 741 m 1
+ 232 741 l 1
+ 234 743 l 1
+ 234 741 l 1
+753 231 m 1
+ 744 220 l 1
+ 744 231 l 1
+ 753 231 l 1
+773 231 m 1
+ 744 196 l 1
+ 744 209 l 1
+ 762 231 l 1
+ 773 231 l 1
+791 229 m 1
+ 744 172 l 1
+ 744 185 l 1
+ 782 231 l 1
+ 791 231 l 1
+ 791 229 l 1
+221 788 m 1
+ 183 741 l 1
+ 173 741 l 1
+ 211 788 l 1
+ 221 788 l 1
+791 205 m 1
+ 744 148 l 1
+ 744 160 l 1
+ 791 217 l 1
+ 791 205 l 1
+202 788 m 1
+ 163 741 l 1
+ 153 741 l 1
+ 191 788 l 1
+ 202 788 l 1
+791 181 m 1
+ 759 143 l 1
+ 749 143 l 1
+ 791 193 l 1
+ 791 181 l 1
+791 157 m 1
+ 779 143 l 1
+ 769 143 l 1
+ 791 169 l 1
+ 791 157 l 1
+791 143 m 1
+ 789 143 l 1
+ 791 145 l 1
+ 791 143 l 1
+162 788 m 1
+ 145 768 l 1
+ 145 780 l 1
+ 152 788 l 1
+ 162 788 l 1
+182 788 m 1
+ 145 743 l 1
+ 145 756 l 1
+ 172 788 l 1
+ 182 788 l 1
+94 778 m 1
+ 64 741 l 1
+ 54 741 l 1
+ 92 788 l 1
+ 94 788 l 1
+ 94 778 l 1
+94 754 m 1
+ 84 741 l 1
+ 74 741 l 1
+ 94 766 l 1
+ 94 754 l 1
+94 741 m 1
+ 94 742 l 1
+ 94 741 l 1
+757 92 m 1
+ 744 76 l 1
+ 744 88 l 1
+ 747 92 l 1
+ 757 92 l 1
+777 92 m 1
+ 744 52 l 1
+ 744 64 l 1
+ 766 92 l 1
+ 777 92 l 1
+791 61 m 1
+ 743 3 l 1
+ 733 3 l 1
+ 791 73 l 1
+ 791 61 l 1
+791 85 m 1
+ 724 3 l 1
+ 713 3 l 1
+ 786 92 l 1
+ 791 92 l 1
+ 791 85 l 1
+791 37 m 1
+ 763 3 l 1
+ 753 3 l 1
+ 791 49 l 1
+ 791 37 l 1
+791 13 m 1
+ 783 3 l 1
+ 773 3 l 1
+ 791 25 l 1
+ 791 13 l 1
+24 788 m 1
+ 6 766 l 1
+ 6 779 l 1
+ 13 788 l 1
+ 24 788 l 1
+43 788 m 1
+ 6 743 l 1
+ 6 755 l 1
+ 33 788 l 1
+ 43 788 l 1
+83 788 m 1
+ 10 698 l 1
+ 6 698 l 1
+ 6 707 l 1
+ 73 788 l 1
+ 83 788 l 1
+63 788 m 1
+ 6 719 l 1
+ 6 731 l 1
+ 53 788 l 1
+ 63 788 l 1
+196 476 m 1
+ 303 480 l 1
+ 303 431 l 1
+ 131 431 l 1
+ 131 475 l 1
+ 154 506 154 506 192.5 564.5 c 128
+ 231 623 231 623 236 642 c 1
+ 132 638 l 1
+ 132 684 l 1
+ 299 684 l 1
+ 299 641 l 1
+ 204 509 204 509 196 476 c 1
+602 359 m 1
+ 600 217 l 1
+ 600 103 600 103 503 103 c 0
+ 487 103 487 103 471 107 c 1
+ 471 153 l 1
+ 485 146 485 146 506 146 c 0
+ 548 146 548 146 548 213 c 2
+ 546 359 l 1
+ 602 359 l 1
+53 727 m 1
+ 30 698 l 1
+ 20 698 l 1
+ 53 739 l 1
+ 53 727 l 1
+53 703 m 1
+ 50 698 l 1
+ 39 698 l 1
+ 53 715 l 1
+ 53 703 l 1
+703 50 m 1
+ 702 49 l 1
+ 702 50 l 1
+ 703 50 l 1
+723 50 m 1
+ 702 25 l 1
+ 702 37 l 1
+ 712 50 l 1
+ 723 50 l 1
+742 50 m 1
+ 704 3 l 1
+ 702 3 l 1
+ 702 13 l 1
+ 732 50 l 1
+ 742 50 l 1
+651 36 m 1
+ 625 3 l 1
+ 615 3 l 1
+ 651 48 l 1
+ 651 36 l 1
+651 12 m 1
+ 645 3 l 1
+ 634 3 l 1
+ 651 24 l 1
+ 651 12 l 1
+8 647 m 1
+ 6 647 l 1
+ 8 647 l 1
+28 647 m 1
+ 6 622 l 1
+ 6 635 l 1
+ 18 647 l 1
+ 28 647 l 1
+47 647 m 1
+ 6 598 l 1
+ 6 611 l 1
+ 37 647 l 1
+ 47 647 l 1
+643 50 m 1
+ 605 3 l 1
+ 595 3 l 1
+ 633 50 l 1
+ 643 50 l 1
+53 631 m 1
+ 6 574 l 1
+ 6 587 l 1
+ 53 643 l 1
+ 53 631 l 1
+624 50 m 1
+ 585 3 l 1
+ 575 3 l 1
+ 613 50 l 1
+ 624 50 l 1
+53 607 m 1
+ 14 560 l 1
+ 6 560 l 1
+ 6 563 l 1
+ 53 619 l 1
+ 53 607 l 1
+53 583 m 1
+ 34 560 l 1
+ 24 560 l 1
+ 53 595 l 1
+ 53 583 l 1
+53 560 m 1
+ 43 560 l 1
+ 53 571 l 1
+ 53 560 l 1
+564 50 m 1
+ 563 48 l 1
+ 563 50 l 1
+ 564 50 l 1
+584 50 m 1
+ 563 24 l 1
+ 563 37 l 1
+ 574 50 l 1
+ 584 50 l 1
+604 50 m 1
+ 565 3 l 1
+ 563 3 l 1
+ 563 13 l 1
+ 594 50 l 1
+ 604 50 l 1
+512 36 m 1
+ 486 3 l 1
+ 475 3 l 1
+ 512 48 l 1
+ 512 36 l 1
+512 12 m 1
+ 505 3 l 1
+ 495 3 l 1
+ 512 24 l 1
+ 512 12 l 1
+383 215 m 1
+ 386 108 l 1
+ 335 108 l 1
+ 332 121 332 121 296 172 c 0
+ 237 256 237 256 223 292 c 1
+ 228 200 l 1
+ 228 154 l 1
+ 229 108 l 1
+ 178 108 l 1
+ 181 239 l 1
+ 178 359 l 1
+ 239 359 l 1
+ 241 345 241 345 288 272 c 128
+ 335 199 335 199 341 183 c 1
+ 341 198 341 198 337.5 256 c 128
+ 334 314 334 314 334 359 c 1
+ 386 359 l 1
+ 383 262 l 1
+ 383 215 l 1
+12 510 m 1
+ 6 502 l 1
+ 6 510 l 1
+ 12 510 l 1
+32 510 m 1
+ 6 478 l 1
+ 6 490 l 1
+ 22 510 l 1
+ 32 510 l 1
+52 510 m 1
+ 6 454 l 1
+ 6 467 l 1
+ 41 510 l 1
+ 52 510 l 1
+504 50 m 1
+ 466 3 l 1
+ 456 3 l 1
+ 494 50 l 1
+ 504 50 l 1
+53 487 m 1
+ 6 431 l 1
+ 6 442 l 1
+ 53 499 l 1
+ 53 487 l 1
+484 50 m 1
+ 446 3 l 1
+ 436 3 l 1
+ 474 50 l 1
+ 484 50 l 1
+53 463 m 1
+ 18 421 l 1
+ 8 421 l 1
+ 53 475 l 1
+ 53 463 l 1
+53 438 m 1
+ 38 421 l 1
+ 28 421 l 1
+ 53 451 l 1
+ 53 438 l 1
+53 421 m 1
+ 48 421 l 1
+ 53 427 l 1
+ 53 421 l 1
+425 50 m 1
+ 423 48 l 1
+ 423 50 l 1
+ 425 50 l 1
+445 50 m 1
+ 423 24 l 1
+ 423 37 l 1
+ 435 50 l 1
+ 445 50 l 1
+465 50 m 1
+ 426 3 l 1
+ 423 3 l 1
+ 423 13 l 1
+ 454 50 l 1
+ 465 50 l 1
+373 35 m 1
+ 347 3 l 1
+ 337 3 l 1
+ 373 47 l 1
+ 373 35 l 1
+373 11 m 1
+ 367 3 l 1
+ 357 3 l 1
+ 373 23 l 1
+ 373 11 l 1
+16 370 m 1
+ 6 358 l 1
+ 6 370 l 1
+ 16 370 l 1
+36 370 m 1
+ 6 334 l 1
+ 6 346 l 1
+ 26 370 l 1
+ 36 370 l 1
+53 367 m 1
+ 6 310 l 1
+ 6 322 l 1
+ 45 370 l 1
+ 53 370 l 1
+ 53 367 l 1
+366 50 m 1
+ 327 3 l 1
+ 317 3 l 1
+ 355 50 l 1
+ 366 50 l 1
+53 342 m 1
+ 6 286 l 1
+ 6 298 l 1
+ 53 355 l 1
+ 53 342 l 1
+346 50 m 1
+ 308 3 l 1
+ 297 3 l 1
+ 336 50 l 1
+ 346 50 l 1
+53 318 m 1
+ 22 282 l 1
+ 12 282 l 1
+ 53 331 l 1
+ 53 318 l 1
+53 295 m 1
+ 42 282 l 1
+ 32 282 l 1
+ 53 307 l 1
+ 53 295 l 1
+53 282 m 1
+ 52 282 l 1
+ 53 283 l 1
+ 53 282 l 1
+287 50 m 1
+ 284 47 l 1
+ 284 50 l 1
+ 287 50 l 1
+306 50 m 1
+ 284 23 l 1
+ 284 35 l 1
+ 296 50 l 1
+ 306 50 l 1
+326 50 m 1
+ 288 3 l 1
+ 284 3 l 1
+ 284 12 l 1
+ 316 50 l 1
+ 326 50 l 1
+234 34 m 1
+ 209 3 l 1
+ 198 3 l 1
+ 234 46 l 1
+ 234 34 l 1
+234 10 m 1
+ 229 3 l 1
+ 218 3 l 1
+ 234 22 l 1
+ 234 10 l 1
+20 231 m 1
+ 6 213 l 1
+ 6 226 l 1
+ 10 231 l 1
+ 20 231 l 1
+40 231 m 1
+ 6 190 l 1
+ 6 202 l 1
+ 30 231 l 1
+ 40 231 l 1
+227 50 m 1
+ 189 3 l 1
+ 179 3 l 1
+ 217 50 l 1
+ 227 50 l 1
+53 222 m 1
+ 6 166 l 1
+ 6 178 l 1
+ 50 231 l 1
+ 53 231 l 1
+ 53 222 l 1
+208 50 m 1
+ 169 3 l 1
+ 159 3 l 1
+ 197 50 l 1
+ 208 50 l 1
+53 198 m 1
+ 7 143 l 1
+ 6 143 l 1
+ 6 154 l 1
+ 53 211 l 1
+ 53 198 l 1
+53 174 m 1
+ 26 143 l 1
+ 17 143 l 1
+ 53 187 l 1
+ 53 174 l 1
+53 150 m 1
+ 46 143 l 1
+ 36 143 l 1
+ 53 162 l 1
+ 53 150 l 1
+148 50 m 1
+ 145 46 l 1
+ 145 50 l 1
+ 148 50 l 1
+188 50 m 1
+ 149 3 l 1
+ 145 3 l 1
+ 145 11 l 1
+ 177 50 l 1
+ 188 50 l 1
+168 50 m 1
+ 145 22 l 1
+ 145 35 l 1
+ 158 50 l 1
+ 168 50 l 1
+94 33 m 1
+ 70 3 l 1
+ 60 3 l 1
+ 94 45 l 1
+ 94 33 l 1
+94 9 m 1
+ 90 3 l 1
+ 80 3 l 1
+ 94 21 l 1
+ 94 9 l 1
+24 92 m 1
+ 6 69 l 1
+ 6 82 l 1
+ 14 92 l 1
+ 24 92 l 1
+44 92 m 1
+ 6 45 l 1
+ 6 58 l 1
+ 34 92 l 1
+ 44 92 l 1
+89 50 m 1
+ 51 3 l 1
+ 40 3 l 1
+ 79 50 l 1
+ 89 50 l 1
+53 78 m 1
+ 6 21 l 1
+ 6 34 l 1
+ 53 90 l 1
+ 53 78 l 1
+69 50 m 1
+ 31 3 l 1
+ 20 3 l 1
+ 59 50 l 1
+ 69 50 l 1
+53 54 m 1
+ 11 3 l 1
+ 6 3 l 1
+ 6 10 l 1
+ 53 66 l 1
+ 53 54 l 1
+EndSplineSet
+Validated: 257
 EndChar
 EndChars
 EndSplineFont
