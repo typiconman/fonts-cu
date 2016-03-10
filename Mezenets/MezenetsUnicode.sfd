@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1397905996
-ModificationTime: 1457620309
+ModificationTime: 1457631330
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -126,7 +126,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Podtinka"  "'mark' Black Marking Positions-1" "DoubleShaidur"  "'mkmk' Double Shaidur Attachment-1" "Zevok"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Udarka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Kupnaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Kachka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Lomka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Tikhaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Oblachko"  "'mark' Black Marking Positions-1" "Podchashie"  "'mark' Black Marking Positions-1" "Zaderzhka"  "'mark' Black Marking Positions-1" "Tonal"  "'mark' Black Marking Positions-1" "Podvertka"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Borzaya"  "'mark' Cinnabar Indicatory Mark Positioning-1" "Otsechka"  "'mark' Black Marking Positions-1" "Shaidur"  "'mark' Cinnabar Pitch Marking Positioning-1" 
-BeginChars: 1114112 930
+BeginChars: 1114112 931
 
 StartChar: uni0002
 Encoding: 2 2 0
@@ -31320,21 +31320,21 @@ SplineSet
  889 184 l 2
  768 112 711 3 711 3 c 1
  739 103 l 1
-989 179 m 1
- 1011 223 1094 266 1094 266 c 1
- 1081 171 l 1
- 1081 171 999 130 974 81 c 1
- 989 179 l 1
-1269 351 m 1
- 1302 401 1368 422 1368 422 c 1
- 1352 331 l 1
- 1352 331 1280 309 1246 253 c 1
- 1269 351 l 1
-847 77 m 1
- 869 121 952 164 952 164 c 1
- 939 69 l 1
- 939 69 857 28 832 -21 c 1
- 847 77 l 1
+989 179 m 5
+ 1011 223 1094 266 1094 266 c 5
+ 1081 171 l 5
+ 1081 171 999 130 974 81 c 5
+ 989 179 l 5
+1269 351 m 5
+ 1302 401 1368 422 1368 422 c 5
+ 1352 331 l 5
+ 1352 331 1280 309 1246 253 c 5
+ 1269 351 l 5
+847 77 m 5
+ 869 121 952 164 952 164 c 5
+ 939 69 l 5
+ 939 69 857 28 832 -21 c 5
+ 847 77 l 5
 38 100 m 1
  62 169 150 244 210 279 c 2
  374 376 l 1
@@ -31364,6 +31364,7 @@ SplineSet
  38 100 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEECC uni200D uniEEC9
 Colour: ffa600
 EndChar
@@ -33948,6 +33949,7 @@ SplineSet
  138 100 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEC9
 Colour: ffa600
 EndChar
@@ -41663,6 +41665,111 @@ SplineSet
  53 54 l 1
 EndSplineSet
 Validated: 257
+EndChar
+
+StartChar: uniEBD4
+Encoding: 60372 60372 930
+Width: 1675
+VWidth: 999
+Flags: W
+HStem: 0 7G<74.2 90.4343 115.6 129.669 887.097 903.265 927.6 941.778 1055.27 1065> 460 98<748.332 819.431 1567.41 1629.45>
+VStem: 828 28<197 444.7>
+DStem2: 310 279 288 181 0.860038 0.51023<-149.305 190.539 293.801 502.423> 452 514 434 415 0.708951 -0.705258<57.0594 112.923 209.794 269.405> 510 209 534 223 0.0998125 0.995006<16.3256 100.705 224.082 320.601> 1122 275 1100 177 0.85906 0.511875<-149.089 191.05 294.172 502.766> 1264 511 1246 411 0.710799 -0.703395<57.5451 112.706 210.278 270.104> 1322 205 1346 219 0.0995037 0.995037<16.3186 100.698 225.077 321.596>
+AnchorPoint: "Podtinka" 488.633 -116 basechar 0
+AnchorPoint: "Zevok" 1729 617 basechar 0
+AnchorPoint: "Udarka" 12 454 basechar 0
+AnchorPoint: "Kupnaya" 491 -115 basechar 0
+AnchorPoint: "Kachka" 403 556 basechar 0
+AnchorPoint: "Lomka" 830 52 basechar 0
+AnchorPoint: "Tikhaya" 240 190.5 basechar 0
+AnchorPoint: "Oblachko" 1591 618 basechar 0
+AnchorPoint: "Podchashie" 575 149 basechar 0
+AnchorPoint: "Zaderzhka" 1731 444.9 basechar 0
+AnchorPoint: "Tonal" 399 437 basechar 0
+AnchorPoint: "Podvertka" 1669 326 basechar 0
+AnchorPoint: "Borzaya" -65 210 basechar 0
+AnchorPoint: "Otsechka" 1726 324 basechar 0
+AnchorPoint: "Shaidur" 145 304 basechar 0
+LayerCount: 3
+Fore
+SplineSet
+1210 186 m 1
+ 1232 230 1314 272 1314 272 c 1
+ 1302 178 l 1
+ 1302 178 1220 136 1194 88 c 1
+ 1210 186 l 1
+1490 358 m 1
+ 1522 408 1588 428 1588 428 c 1
+ 1572 338 l 1
+ 1572 338 1500 316 1466 260 c 1
+ 1490 358 l 1
+1068 84 m 1
+ 1090 128 1172 170 1172 170 c 1
+ 1160 76 l 1
+ 1160 76 1078 34 1052 -14 c 1
+ 1068 84 l 1
+828 427 m 1
+ 818 442 802 460 788 460 c 0
+ 764 460 674 410 674 410 c 1
+ 600 366 l 1
+ 642 323 l 1
+ 626 224 l 1
+ 542 307 l 1
+ 534 223 l 1
+ 510 209 l 1
+ 522 320 l 1
+ 288 181 l 2
+ 168 109 110 0 110 0 c 1
+ 138 100 l 1
+ 162 169 250 244 310 279 c 2
+ 474 376 l 1
+ 434 415 l 1
+ 452 514 l 1
+ 532 432 l 1
+ 542 528 l 1
+ 566 542 l 1
+ 554 424 l 1
+ 694 508 l 1
+ 694 508 782 558 806 558 c 0
+ 824 558 848 524 856 510 c 1
+ 856 406 856 301 856 197 c 1
+ 916 95 l 1
+ 900 -3 l 1
+ 820 121 l 1
+ 828 168 l 1
+ 828 427 l 1
+950 97 m 1
+ 974 165 1062 241 1122 275 c 1
+ 1286 373 l 1
+ 1246 411 l 1
+ 1264 511 l 1
+ 1344 429 l 1
+ 1354 525 l 1
+ 1378 539 l 1
+ 1366 421 l 1
+ 1506 505 l 1
+ 1506 505 1594 555 1618 555 c 0
+ 1636 555 1660 519 1668 505 c 1
+ 1650 407 l 1
+ 1644 421 1620 457 1600 457 c 0
+ 1576 457 1486 407 1486 407 c 1
+ 1412 363 l 1
+ 1454 319 l 1
+ 1438 221 l 1
+ 1354 303 l 1
+ 1346 219 l 1
+ 1322 205 l 1
+ 1334 317 l 1
+ 1100 177 l 2
+ 980 105 922 -3 922 -3 c 1
+ 950 97 l 1
+24 224 m 1
+ 104 99 l 1
+ 87 0 l 1
+ 7 125 l 1
+ 24 224 l 1
+EndSplineSet
+Ligature2: "'ccmp' Demestvenny Ligatures-1" uniEED8 uni200D uniEEDA
 EndChar
 EndChars
 EndSplineFont
