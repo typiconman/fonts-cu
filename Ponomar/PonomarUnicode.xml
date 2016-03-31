@@ -218,7 +218,20 @@
 <glyph PSName="uni040B" UID="040B"/>
 <glyph PSName="uni040C" UID="040C"/>
 <glyph PSName="uni040D" UID="040D"/>
-<glyph PSName="uni040E" UID="040E"/>
+<glyph PSName="uni040E" UID="040E">
+    <point type='Diacritic'>
+        <location x='386' y='1090'/>
+    </point>
+    <point type='DoubleTitlo'>
+        <location x='672' y='832'/>
+    </point>
+    <point type='HalfMark'>
+        <location x='374' y='827'/>
+    </point>
+    <point type='Yerok'>
+        <location x='575' y='829'/>
+    </point>
+</glyph>
 <glyph PSName="uni040F" UID="040F"/>
 <glyph PSName="uni0410" UID="0410">
     <point type='Diacritic'>
@@ -488,16 +501,16 @@
 </glyph>
 <glyph PSName="uniA64A" UID="A64A">
     <point type='Diacritic'>
-        <location x='365' y='829'/>
+        <location x='360' y='830'/>
     </point>
     <point type='DoubleTitlo'>
         <location x='714' y='830'/>
     </point>
     <point type='HalfMark'>
-        <location x='363' y='828'/>
+        <location x='365' y='828'/>
     </point>
     <point type='Yerok'>
-        <location x='550' y='827'/>
+        <location x='494' y='827'/>
     </point>
 </glyph>
 <glyph PSName="uni0424" UID="0424">
@@ -3335,16 +3348,16 @@
 </glyph>
 <glyph PSName="uni0423" UID="0423">
     <point type='Diacritic'>
-        <location x='360' y='830'/>
+        <location x='365' y='829'/>
     </point>
     <point type='DoubleTitlo'>
-        <location x='714' y='830'/>
+        <location x='667' y='828'/>
     </point>
     <point type='HalfMark'>
-        <location x='365' y='828'/>
+        <location x='363' y='828'/>
     </point>
     <point type='Yerok'>
-        <location x='494' y='827'/>
+        <location x='550' y='827'/>
     </point>
 </glyph>
 <glyph PSName="uni1C80" UID="1C80">
@@ -4820,6 +4833,36 @@ Proposed for inclusion</note>
 <glyph PSName="u1F90B" UID="1F90B">
     <point type='Numeral'>
         <location x='228' y='396'/>
+    </point>
+</glyph>
+<glyph PSName="uni0423.var" UID="E37A">
+    <point type='Diacritic'>
+        <location x='365' y='829'/>
+    </point>
+    <point type='DoubleTitlo'>
+        <location x='714' y='830'/>
+    </point>
+    <point type='HalfMark'>
+        <location x='363' y='828'/>
+    </point>
+    <point type='Yerok'>
+        <location x='550' y='827'/>
+    </point>
+    <note>Variant of U+0423 that looks like U+A64A
+</note>
+</glyph>
+<glyph PSName="uni040E.var" UID="E37B">
+    <point type='Diacritic'>
+        <location x='383' y='1071'/>
+    </point>
+    <point type='DoubleTitlo'>
+        <location x='714' y='830'/>
+    </point>
+    <point type='HalfMark'>
+        <location x='385' y='830'/>
+    </point>
+    <point type='Yerok'>
+        <location x='626' y='828'/>
     </point>
 </glyph>
 
