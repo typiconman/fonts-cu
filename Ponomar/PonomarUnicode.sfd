@@ -24,7 +24,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1459404522
+ModificationTime: 1459681632
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1247,7 +1247,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 486 18 7
+WinInfo: 72 18 7
 BeginPrivate: 9
 BlueValues 31 [-18 0 437 460 577 597 770 788]
 BlueScale 8 0.039625
@@ -1302,7 +1302,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 471859 235929 157286 458228 1048576 157286 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "below"  "'mark' Cyrillic Marks Below-1" "right"  "'mark' Left and Right Marks-1" "left"  "'mark' Left and Right Marks-1" "HalfMark"  "'mark' Mark Positioning lookup 0 subtable" "DoubleTitlo"  "'mark' Mark Positioning lookup 0 subtable" "Yerok"  "'mark' Mark Positioning lookup 0 subtable" "Numeral"  "'mark' Slavonic numerals-1" "stacking"  "'mkmk' Mark to Mark lookup 9-1" "Diacritic"  "'mark' Mark Positioning lookup 0 subtable" 
-BeginChars: 1114114 715
+BeginChars: 1114114 717
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -3133,24 +3133,25 @@ EndChar
 
 StartChar: uni002D
 Encoding: 45 45 10
-Width: 459
+Width: 375
 GlyphClass: 2
 Flags: W
-HStem: 240 96<6 453>
+HStem: 240 96<17.7812 357.219>
+VStem: 14 347<241.388 334.552>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 3
+ 5
 MDAP[rnd]
 PUSHB_5
- 0
+ 9
  10
  0
  21
  4
 CALL
 PUSHB_5
- 0
+ 9
  10
  0
  21
@@ -3158,10 +3159,27 @@ PUSHB_5
 CALL
 SVTCA[x-axis]
 PUSHB_1
- 4
+ 10
 MDAP[rnd]
+PUSHB_1
+ 7
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 2
+ 15
+ 0
+ 7
+ 4
+CALL
+PUSHB_5
+ 2
+ 15
+ 0
+ 7
+ 4
+CALL
 PUSHB_2
- 5
+ 11
  1
 CALL
 SVTCA[y-axis]
@@ -3171,22 +3189,24 @@ EndTTInstrs
 LayerCount: 3
 Fore
 SplineSet
-6 336 m 5
- 453 336 l 5
- 453 240 l 5
- 6 240 l 5
- 6 336 l 5
+329 336 m 6
+ 356 336 361 314 361 287 c 4
+ 361 260 356 240 329 240 c 6
+ 46 240 l 6
+ 19 240 14 260 14 287 c 4
+ 14 314 19 336 46 336 c 6
+ 329 336 l 6
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
-6 336 m 1,0,-1
- 453 336 l 1,1,-1
- 453 240 l 1,2,-1
- 6 240 l 1,3,-1
- 6 336 l 1,0,-1
+329 336 m 2,0,1
+ 361 336 361 336 361 287 c 0,2,3
+ 361 240 361 240 329 240 c 2,4,-1
+ 46 240 l 2,5,6
+ 14 240 14 240 14 287 c 0,7,8
+ 14 336 14 336 46 336 c 2,9,-1
+ 329 336 l 2,0,1
 EndSplineSet
-Validated: 19457
 Colour: ff00
 EndChar
 
@@ -5122,27 +5142,27 @@ EndChar
 
 StartChar: uni003D
 Encoding: 61 61 25
-Width: 451
+Width: 376
 GlyphClass: 2
 Flags: W
-HStem: 203 96<0 448> 395 96<0 447>
+HStem: 203 96<17.7812 357.219> 395 96<17.7812 358.219>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 7
+ 15
 MDAP[rnd]
 PUSHB_5
- 4
+ 19
  10
  0
  21
  4
 CALL
 PUSHB_1
- 3
+ 5
 MDAP[rnd]
 PUSHB_5
- 0
+ 9
  10
  0
  21
@@ -5150,10 +5170,10 @@ PUSHB_5
 CALL
 SVTCA[x-axis]
 PUSHB_1
- 8
+ 20
 MDAP[rnd]
 PUSHB_2
- 9
+ 21
  1
 CALL
 SVTCA[y-axis]
@@ -5163,32 +5183,38 @@ EndTTInstrs
 LayerCount: 3
 Fore
 SplineSet
-0 491 m 1
- 447 491 l 1
- 447 395 l 1
- 0 395 l 1
- 0 491 l 1
-0 299 m 1
- 448 299 l 1
- 448 203 l 1
- 0 203 l 1
- 0 299 l 1
+330 491 m 2
+ 356 491 362 469 362 442 c 0
+ 362 415 356 395 330 395 c 2
+ 46 395 l 2
+ 20 395 14 415 14 442 c 0
+ 14 469 20 491 46 491 c 2
+ 330 491 l 2
+329 299 m 2
+ 356 299 361 277 361 250 c 0
+ 361 223 356 203 329 203 c 2
+ 46 203 l 2
+ 19 203 14 223 14 250 c 0
+ 14 277 19 299 46 299 c 2
+ 329 299 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
-0 491 m 1,0,-1
- 447 491 l 1,1,-1
- 447 395 l 1,2,-1
- 0 395 l 1,3,-1
- 0 491 l 1,0,-1
-0 299 m 1,4,-1
- 448 299 l 1,5,-1
- 448 203 l 1,6,-1
- 0 203 l 1,7,-1
- 0 299 l 1,4,-1
+330 491 m 2,0,1
+ 362 491 362 491 362 442 c 0,2,3
+ 362 395 362 395 330 395 c 2,4,-1
+ 46 395 l 2,5,6
+ 14 395 14 395 14 442 c 0,7,8
+ 14 491 14 491 46 491 c 2,9,-1
+ 330 491 l 2,0,1
+329 299 m 2,10,11
+ 361 299 361 299 361 250 c 0,12,13
+ 361 203 361 203 329 203 c 2,14,-1
+ 46 203 l 2,15,16
+ 14 203 14 203 14 250 c 0,17,18
+ 14 299 14 299 46 299 c 2,19,-1
+ 329 299 l 2,10,11
 EndSplineSet
-Validated: 19457
 Colour: ff00
 EndChar
 
@@ -5695,24 +5721,32 @@ EndChar
 
 StartChar: uni005F
 Encoding: 95 95 31
-Width: 468
+Width: 375
 GlyphClass: 2
 Flags: W
-HStem: -48 96<0 438>
+HStem: 0 96<17.0059 357.994>
+VStem: 14 347<1.15037 94.7421>
 TtInstrs:
 SVTCA[y-axis]
-PUSHB_1
+PUSHB_3
+ 5
  3
-MDAP[rnd]
-PUSHB_5
  0
+CALL
+PUSHB_5
+ 9
  10
  0
  21
  4
 CALL
-PUSHB_5
+PUSHB_3
+ 5
+ 3
  0
+CALL
+PUSHB_5
+ 9
  10
  0
  21
@@ -5720,10 +5754,27 @@ PUSHB_5
 CALL
 SVTCA[x-axis]
 PUSHB_1
- 4
+ 10
 MDAP[rnd]
+PUSHB_1
+ 7
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 2
+ 15
+ 0
+ 7
+ 4
+CALL
+PUSHB_5
+ 2
+ 15
+ 0
+ 7
+ 4
+CALL
 PUSHB_2
- 5
+ 11
  1
 CALL
 SVTCA[y-axis]
@@ -5733,22 +5784,24 @@ EndTTInstrs
 LayerCount: 3
 Fore
 SplineSet
-0 48 m 1
- 438 48 l 5
- 438 -48 l 1
- 0 -48 l 1
- 0 48 l 1
+329 96 m 2
+ 356 96 361 74 361 47 c 0
+ 361 20 356 0 329 0 c 2
+ 46 0 l 2
+ 19 0 14 20 14 47 c 0
+ 14 74 19 96 46 96 c 2
+ 329 96 l 2
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
-0 48 m 1,0,-1
- 438 48 l 1,1,-1
- 438 -48 l 1,2,-1
- 0 -48 l 1,3,-1
- 0 48 l 1,0,-1
+329 96 m 2,0,1
+ 361 96 361 96 361 47 c 0,2,3
+ 361 0 361 0 329 0 c 2,4,-1
+ 46 0 l 2,5,6
+ 14 0 14 0 14 47 c 0,7,8
+ 14 96 14 96 46 96 c 2,9,-1
+ 329 96 l 2,0,1
 EndSplineSet
-Validated: 19457
 Colour: ff00
 EndChar
 
@@ -12234,11 +12287,11 @@ LayerCount: 3
 Fore
 Refer: 46 774 N 1 0 0 1 545 262 2
 Refer: 361 1059 N 1 0 0 1 1 1 2
-Validated: 98305
+Validated: 32769
 Layer: 2
 Refer: 46 774 N 1 0 0 1 545 262 2
 Refer: 361 1059 N 1 0 0 1 1 1 2
-Validated: 98305
+Validated: 32769
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni040E.var
 Ligature2: "Cyrillic Canonical Equivalents" uni0423 uni0306
 LCarets2: 1 0 
@@ -18083,7 +18136,7 @@ SplineSet
  144 32 248 8 335 8 c 0
  422 8 527 32 527 119 c 0
 EndSplineSet
-Validated: 8391681
+Validated: 3073
 Layer: 2
 SplineSet
 642 778 m 1,0,-1
@@ -18153,7 +18206,7 @@ SplineSet
  257 8 257 8 335 8 c 128,-1,53
  413 8 413 8 470 34 c 128,-1,54
 EndSplineSet
-Validated: 8391681
+Validated: 3073
 Colour: ff00
 EndChar
 
@@ -49272,24 +49325,24 @@ EndChar
 
 StartChar: uni2013
 Encoding: 8211 8211 186
-Width: 568
+Width: 498
 GlyphClass: 2
 Flags: W
-HStem: 240 96<6 561>
+HStem: 240 96<17.7812 480.219>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 3
+ 5
 MDAP[rnd]
 PUSHB_5
- 0
+ 9
  10
  0
  21
  4
 CALL
 PUSHB_5
- 0
+ 9
  10
  0
  21
@@ -49297,10 +49350,10 @@ PUSHB_5
 CALL
 SVTCA[x-axis]
 PUSHB_1
- 4
+ 10
 MDAP[rnd]
 PUSHB_2
- 5
+ 11
  1
 CALL
 SVTCA[y-axis]
@@ -49310,45 +49363,47 @@ EndTTInstrs
 LayerCount: 3
 Fore
 SplineSet
-6 336 m 1
- 561 336 l 1
- 561 240 l 1
- 6 240 l 1
- 6 336 l 1
+452 336 m 6
+ 479 336 484 314 484 287 c 4
+ 484 260 479 240 452 240 c 6
+ 46 240 l 6
+ 19 240 14 260 14 287 c 4
+ 14 314 19 336 46 336 c 6
+ 452 336 l 6
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
-6 336 m 1,0,-1
- 561 336 l 1,1,-1
- 561 240 l 1,2,-1
- 6 240 l 1,3,-1
- 6 336 l 1,0,-1
+452 336 m 2,0,1
+ 484 336 484 336 484 287 c 0,2,3
+ 484 240 484 240 452 240 c 2,4,-1
+ 46 240 l 2,5,6
+ 14 240 14 240 14 287 c 0,7,8
+ 14 336 14 336 46 336 c 2,9,-1
+ 452 336 l 2,0,1
 EndSplineSet
-Validated: 19457
 Colour: ff00
 EndChar
 
 StartChar: uni2014
 Encoding: 8212 8212 187
-Width: 835
+Width: 698
 GlyphClass: 2
 Flags: W
-HStem: 240 96<6 826>
+HStem: 240 96<17.4453 680.555>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 3
+ 4
 MDAP[rnd]
 PUSHB_5
- 0
+ 7
  10
  0
  21
  4
 CALL
 PUSHB_5
- 0
+ 7
  10
  0
  21
@@ -49356,10 +49411,10 @@ PUSHB_5
 CALL
 SVTCA[x-axis]
 PUSHB_1
- 4
+ 8
 MDAP[rnd]
 PUSHB_2
- 5
+ 9
  1
 CALL
 SVTCA[y-axis]
@@ -49369,22 +49424,24 @@ EndTTInstrs
 LayerCount: 3
 Fore
 SplineSet
-6 336 m 1
- 826 336 l 1
- 826 240 l 1
- 6 240 l 1
- 6 336 l 1
+652 336 m 6
+ 679 336 684 314 684 287 c 4
+ 684 260 679 240 652 240 c 6
+ 46 240 l 6
+ 19 240 14 260 14 287 c 4
+ 14 314 19 336 46 336 c 6
+ 652 336 l 6
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
-6 336 m 1,0,-1
- 826 336 l 1,1,-1
- 826 240 l 1,2,-1
- 6 240 l 1,3,-1
- 6 336 l 1,0,-1
+652 336 m 2,0,1
+ 684 336 684 336 684 288 c 128,-1,2
+ 684 240 684 240 652 240 c 2,3,-1
+ 46 240 l 2,4,5
+ 14 240 14 240 14 288 c 128,-1,6
+ 14 336 14 336 46 336 c 2,7,-1
+ 652 336 l 2,0,1
 EndSplineSet
-Validated: 19457
 Colour: ff00
 EndChar
 
@@ -76995,23 +77052,24 @@ EndChar
 
 StartChar: uni2011
 Encoding: 8209 8209 286
-Width: 457
+Width: 375
 Flags: W
-HStem: 240 96<6 453>
+HStem: 240 96<17.7812 357.219>
+VStem: 14 347<241.388 334.552>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 3
+ 5
 MDAP[rnd]
 PUSHB_5
- 0
+ 9
  10
  0
  21
  4
 CALL
 PUSHB_5
- 0
+ 9
  10
  0
  21
@@ -77019,10 +77077,27 @@ PUSHB_5
 CALL
 SVTCA[x-axis]
 PUSHB_1
- 4
+ 10
 MDAP[rnd]
+PUSHB_1
+ 7
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 2
+ 15
+ 0
+ 7
+ 4
+CALL
+PUSHB_5
+ 2
+ 15
+ 0
+ 7
+ 4
+CALL
 PUSHB_2
- 5
+ 11
  1
 CALL
 SVTCA[y-axis]
@@ -77032,22 +77107,24 @@ EndTTInstrs
 LayerCount: 3
 Fore
 SplineSet
-6 336 m 1
- 453 336 l 1
- 453 240 l 1
- 6 240 l 1
- 6 336 l 1
+329 336 m 2
+ 356 336 361 314 361 287 c 0
+ 361 260 356 240 329 240 c 2
+ 46 240 l 2
+ 19 240 14 260 14 287 c 0
+ 14 314 19 336 46 336 c 2
+ 329 336 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
-6 336 m 1,0,-1
- 453 336 l 1,1,-1
- 453 240 l 1,2,-1
- 6 240 l 1,3,-1
- 6 336 l 1,0,-1
+329 336 m 2,0,1
+ 361 336 361 336 361 287 c 0,2,3
+ 361 240 361 240 329 240 c 2,4,-1
+ 46 240 l 2,5,6
+ 14 240 14 240 14 287 c 0,7,8
+ 14 336 14 336 46 336 c 2,9,-1
+ 329 336 l 2,0,1
 EndSplineSet
-Validated: 19457
 Colour: ff00
 EndChar
 
@@ -145765,23 +145842,24 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 564
-Width: 457
+Width: 375
 Flags: W
-HStem: 240 96<6 453>
+HStem: 240 96<17.7812 357.219>
+VStem: 14 347<241.388 334.552>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
- 3
+ 5
 MDAP[rnd]
 PUSHB_5
- 0
+ 9
  10
  0
  21
  4
 CALL
 PUSHB_5
- 0
+ 9
  10
  0
  21
@@ -145789,10 +145867,27 @@ PUSHB_5
 CALL
 SVTCA[x-axis]
 PUSHB_1
- 4
+ 10
 MDAP[rnd]
+PUSHB_1
+ 7
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 2
+ 15
+ 0
+ 7
+ 4
+CALL
+PUSHB_5
+ 2
+ 15
+ 0
+ 7
+ 4
+CALL
 PUSHB_2
- 5
+ 11
  1
 CALL
 SVTCA[y-axis]
@@ -145802,22 +145897,24 @@ EndTTInstrs
 LayerCount: 3
 Fore
 SplineSet
-6 336 m 1
- 453 336 l 1
- 453 240 l 1
- 6 240 l 1
- 6 336 l 1
+329 336 m 2
+ 356 336 361 314 361 287 c 0
+ 361 260 356 240 329 240 c 2
+ 46 240 l 2
+ 19 240 14 260 14 287 c 0
+ 14 314 19 336 46 336 c 2
+ 329 336 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
-6 336 m 1,0,-1
- 453 336 l 1,1,-1
- 453 240 l 1,2,-1
- 6 240 l 1,3,-1
- 6 336 l 1,0,-1
+329 336 m 2,0,1
+ 361 336 361 336 361 287 c 0,2,3
+ 361 240 361 240 329 240 c 2,4,-1
+ 46 240 l 2,5,6
+ 14 240 14 240 14 287 c 0,7,8
+ 14 336 14 336 46 336 c 2,9,-1
+ 329 336 l 2,0,1
 EndSplineSet
-Validated: 19457
 EndChar
 
 StartChar: uni00660074
@@ -200329,7 +200426,7 @@ SplineSet
  234 426 266 394 266 355 c 1
  261 321 234 287 196 285 c 1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 61 355 m 128,-1,1
@@ -201190,7 +201287,7 @@ SplineSet
  335 375 376 383 428 383 c 0
  560 383 648 326 648 186 c 0xdb74
 EndSplineSet
-Validated: 8408065
+Validated: 19457
 Layer: 2
 SplineSet
 358 136 m 1,0,1
@@ -203316,7 +203413,7 @@ SplineSet
  -419 758 l 2
  -419 714 -402 671 -358 671 c 0
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 -358 671 m 128,-1,1
@@ -203409,7 +203506,7 @@ SplineSet
  -310 651 -297.5 649 -286.5 649 c 1
  -276.5 619 -274 578 -270 542 c 1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 -322 651 m 2,0,-1
@@ -204973,7 +205070,7 @@ SplineSet
 597.38 696.189 m 1
 597.374 696.116 m 1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 587 132 m 1,0,1
@@ -205172,7 +205269,7 @@ SplineSet
 597.38 696.189 m 5
 597.374 696.116 m 5
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 587 132 m 1,0,1
@@ -205400,7 +205497,7 @@ SplineSet
  70 231 146 125 236 75 c 0
  288 47 342 32 399 32 c 1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 414 489 m 256,0,1
@@ -205648,7 +205745,7 @@ SplineSet
  70 231 146 125 236 75 c 0
  288 47 342 32 399 32 c 1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 355 467.5 m 128,-1,1
@@ -205832,7 +205929,7 @@ SplineSet
  70 231 146 125 236 75 c 0
  288 47 342 32 399 32 c 1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 220 489 m 256,0,1
@@ -205985,7 +206082,7 @@ SplineSet
  70 231 146 125 236 75 c 0
  288 47 342 32 399 32 c 1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 326 357 m 256,0,1
@@ -207193,7 +207290,7 @@ SplineSet
  112 548 l 1xdc
  137 570 144 570 172 585 c 1
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 182 386 m 0,0,1
@@ -207681,7 +207778,7 @@ SplineSet
  69 10 112 42 124 49 c 1
  93 94 l 2
 EndSplineSet
-Validated: 543745
+Validated: 19457
 Layer: 2
 SplineSet
 176 388 m 0,0,1
@@ -207769,10 +207866,10 @@ AnchorPoint: "Diacritic" 365 829 basechar 0
 LayerCount: 3
 Fore
 Refer: 86 42570 N 1 0 0 1 0 0 2
-Validated: 98305
+Validated: 32769
 Layer: 2
 Refer: 86 42570 N 1 0 0 1 0 0 2
-Validated: 98305
+Validated: 32769
 Comment: "Variant of U+-0423 that looks like U+-A64A+AAoA" 
 Colour: ff00
 EndChar
@@ -207794,12 +207891,182 @@ LayerCount: 3
 Fore
 Refer: 46 774 N 1 0 0 1 562 261 2
 Refer: 86 42570 N 1 0 0 1 0 0 2
-Validated: 98305
+Validated: 32769
 Layer: 2
 Refer: 46 774 N 1 0 0 1 562 261 2
 Refer: 86 42570 N 1 0 0 1 0 0 2
-Validated: 98305
+Validated: 32769
 Colour: ff00
+EndChar
+
+StartChar: uniEC4C
+Encoding: 60492 60492 715
+Width: 281
+GlyphClass: 2
+Flags: W
+HStem: 0 96<13.4453 268.555>
+VStem: 10 262<1.41797 94.582>
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 4
+ 3
+ 0
+CALL
+PUSHB_5
+ 7
+ 10
+ 0
+ 21
+ 4
+CALL
+PUSHB_3
+ 4
+ 3
+ 0
+CALL
+PUSHB_5
+ 7
+ 10
+ 0
+ 21
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 8
+MDAP[rnd]
+PUSHB_1
+ 6
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 2
+ 15
+ 0
+ 8
+ 4
+CALL
+PUSHB_5
+ 2
+ 15
+ 0
+ 8
+ 4
+CALL
+PUSHB_2
+ 9
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 3
+Fore
+SplineSet
+240 96 m 2
+ 267 96 272 74 272 47 c 0
+ 272 20 267 0 240 0 c 2
+ 42 0 l 2
+ 15 0 10 20 10 47 c 0
+ 10 74 15 96 42 96 c 2
+ 240 96 l 2
+EndSplineSet
+Layer: 2
+SplineSet
+240 96 m 2,0,1
+ 272 96 272 96 272 48 c 128,-1,2
+ 272 0 272 0 240 0 c 2,3,-1
+ 42 0 l 2,4,5
+ 10 0 10 0 10 48 c 128,-1,6
+ 10 96 10 96 42 96 c 2,7,-1
+ 240 96 l 2,0,1
+EndSplineSet
+EndChar
+
+StartChar: uniEC4D
+Encoding: 60493 60493 716
+Width: 188
+GlyphClass: 2
+Flags: W
+HStem: 0 96<10.7812 177.219>
+VStem: 7 174<1.38843 94.5525>
+TtInstrs:
+SVTCA[y-axis]
+PUSHB_3
+ 5
+ 3
+ 0
+CALL
+PUSHB_5
+ 9
+ 10
+ 0
+ 21
+ 4
+CALL
+PUSHB_3
+ 5
+ 3
+ 0
+CALL
+PUSHB_5
+ 9
+ 10
+ 0
+ 21
+ 4
+CALL
+SVTCA[x-axis]
+PUSHB_1
+ 10
+MDAP[rnd]
+PUSHB_1
+ 7
+MDRP[rp0,rnd,white]
+PUSHB_5
+ 2
+ 15
+ 0
+ 12
+ 4
+CALL
+PUSHB_5
+ 2
+ 15
+ 0
+ 12
+ 4
+CALL
+PUSHB_2
+ 11
+ 1
+CALL
+SVTCA[y-axis]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 3
+Fore
+SplineSet
+149 96 m 2
+ 176 96 181 74 181 47 c 0
+ 181 20 176 0 149 0 c 2
+ 39 0 l 2
+ 12 0 7 20 7 47 c 0
+ 7 74 12 96 39 96 c 2
+ 149 96 l 2
+EndSplineSet
+Layer: 2
+SplineSet
+149 96 m 2,0,1
+ 181 96 181 96 181 47 c 0,2,3
+ 181 0 181 0 149 0 c 2,4,-1
+ 39 0 l 2,5,6
+ 7 0 7 0 7 47 c 0,7,8
+ 7 96 7 96 39 96 c 2,9,-1
+ 149 96 l 2,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
