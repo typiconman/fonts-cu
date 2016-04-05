@@ -128,6 +128,21 @@ table (feature)
 			}
 		}
 	}
+	dottedi {
+		id = "doti";
+		name.LG_USENG = string("Cyrillic i has dot");
+		default = no;
+		settings {
+			no {
+				value = 0;
+				name.LG_USENG = "No";
+			}
+			yes {
+				value = 1;
+				name.LG_USENG = "Yes";
+			}
+		}
+	}
 	truncation {
 		id = "trnc";
 		name.LG_USENG = string("Use truncated forms");
@@ -161,6 +176,10 @@ table (language)
 	latin {
 		languages = ("en", "fr", "sq", "af", "br", "ca", "cs", "kw", "cy", "da", "de", "nl", "et", "eu", "fi", "hr", "hu", "is", "id", "it", "lv", "lt", "lb", "nn", "nb", "no", "pl", "pt", "sk", "sl", "es", "sw", "tl", "tr", "vi", "wa", "la");
 		punctuation = modern;
+	};
+	cyrillic {
+		languages = ("be", "kk", "kjh", "kv", "rue", "uk");
+		dottedi = yes;
 	};
 endtable;
 
@@ -1469,6 +1488,10 @@ table (sub)
 		if (hyph == 1)
 			g002d > g005f;
 			g2010 > g005f;
+		endif;
+
+		if (dottedi == 1)
+			g0456 > g0456_0307;
 		endif;
 	endpass;
 

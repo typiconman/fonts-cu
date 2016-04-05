@@ -24,7 +24,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1459681632
+ModificationTime: 1459874248
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -69,7 +69,8 @@ Lookup: 4 0 0 "Cyrillic ZWJ-based Ligatures"  {"Cyrillic ZWJ-based Ligatures-1" 
 Lookup: 3 0 0 "'salt' Stylistic Alternatives"  {"'salt' Stylistic Alternatives-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss02' Latin Blackletter chars"  {"'ss02' Latin Blackletter chars-1"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'liga' Standard Ligatures in Latin lookup 20"  {"'liga' Standard Ligatures in Latin lookup 20-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 19"  {"'locl' Localized Forms in Latin lookup 19-1"  } ['locl' ('latn' <'ENG ' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 19"  {"'locl' Localized Forms in Latin lookup 19-1"  } ['locl' ('latn' <'AFK ' 'DAN ' 'DEU ' 'ENG ' 'ESP ' 'FRA ' 'HUN ' 'IRI ' 'ITA ' 'NLD ' 'NOR ' 'PTG ' 'SVE ' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic"  {"'locl' Localized Forms in Cyrillic-1"  } ['locl' ('cyrl' <'BEL ' 'KAZ ' 'KHA ' 'KOP ' 'KOZ ' 'RSY ' 'UKR ' > ) ]
 Lookup: 1 0 0 "Short Yat Substitution"  {"Short Yat Substitution-1"  } []
 Lookup: 1 0 0 "Uk Short Substitution"  {"Uk Short Substitution-1"  } []
 Lookup: 1 0 0 "Uk Short From Left Substitution"  {"Uk Short From Left Substitution-1"  } []
@@ -95,7 +96,7 @@ KernClass2: 34 31 "'kern' Horizontal Kerning lookup 9-1"
  15 uni0434 uni1C81
  15 uni0435 uni0465
  7 uni0437
- 55 uni0438 uni0439 uni043F uni0447 uni0448 uni0449 uni0456
+ 67 uni0438 uni0439 uni043F uni0447 uni0448 uni0449 uni0456 uni04560307
  31 uni043D uni044A uni044B uni044F
  79 uni043E uni047B uni047D uni04E9 uniA64D uniA669 uniA66B uniA66D uniA699 uniA69B
  7 uni0440
@@ -122,7 +123,7 @@ KernClass2: 34 31 "'kern' Horizontal Kerning lookup 9-1"
  7 uniA64B
  7 uni1C82
  23 uni0430 uni043C uni0467
- 175 uni0431 uni0432 uni0433 uni0438 uni0439 uni043A uni043D uni043F uni0448 uni0449 uni044B uni044C uni044E uni0456 uni0465 uni0469 uni046D uni0491 uni0495 uni04A5 uni051F uniA657
+ 11 uni04560307
  23 uni0434 uni052B uni1C81
  15 uni0435 uni0441
  7 uni0436
@@ -252,7 +253,7 @@ KernClass2: 29 31 "'kern' Church Slavonic Capital and Lowercase"
  7 uni0478
  15 uni047C uniA64C
  23 uni0430 uni043C uni0467
- 135 uni0431 uni0432 uni0433 uni0438 uni043A uni043D uni0448 uni044B uni044C uni044E uni0456 uni0491 uni0495 uni04A5 uni04BB uni051F uniA657
+ 11 uni04560307
  23 uni0434 uni052B uni1C81
  15 uni0435 uni0441
  7 uni0436
@@ -1247,7 +1248,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 72 18 7
+WinInfo: 504 18 7
 BeginPrivate: 9
 BlueValues 31 [-18 0 437 460 577 597 770 788]
 BlueScale 8 0.039625
@@ -3207,6 +3208,7 @@ SplineSet
  14 336 14 336 46 336 c 2,9,-1
  329 336 l 2,0,1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives-1" uni005F
 Colour: ff00
 EndChar
 
@@ -31430,6 +31432,7 @@ SplineSet
  182 14 182 14 182 0 c 1,0,1
 EndSplineSet
 Validated: 19457
+Substitution2: "'locl' Localized Forms in Cyrillic-1" uni04560307
 Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
@@ -97262,6 +97265,7 @@ SplineSet
 123 442 m 0,34,-1
 EndSplineSet
 Validated: 19457
+LCarets2: 1 0 
 Ligature2: "Cyrillic Canonical Equivalents" uni0456 uni0307
 Colour: ffff00
 EndChar
@@ -145915,6 +145919,7 @@ SplineSet
  14 336 14 336 46 336 c 2,9,-1
  329 336 l 2,0,1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives-1" uni005F
 EndChar
 
 StartChar: uni00660074
