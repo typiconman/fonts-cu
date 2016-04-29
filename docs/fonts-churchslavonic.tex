@@ -24,7 +24,7 @@
 
 %% KEYBOARD DRIVER VERSION AND RELEASE DATES
 \def\filedate{April 26, 2016}
-\def\fileversion{version 0.1 $\beta$}
+\def\fileversion{version 1.0}
 
 %% fontspec declarations:
 \setmainfont[Ligatures = TeX]{Linux Libertine O}
@@ -64,7 +64,7 @@ representing Church Slavonic text.
 
 The fonts are designed to work with Unicode text encoded in UTF-8.
 Texts encoded in legacy codepages (such as HIP and UCS) may be
-converted to Unicode using a separate bundle of utilties.
+converted to Unicode using a separate bundle of utilities.
 See the \href{http://sci.ponomar.net/}
 {Slavonic Computing Initiative website} for more information.
 
@@ -113,7 +113,7 @@ Generally speaking, it includes most (but not all) characters in the Cyrillic,
 Cyrillic Supplement, Cyrillic Extended-A, Cyrillic Extended-B, Cyrillic Extended-C
 (as of Unicode 9.0), Glagolitic, and Glagolitic Extension blocks of Unicode.
 Characters not used in Church Slavonic, however, are not included (except for some
-characers used in modern Russian, Ukrainian, Belarussian, Serbian and
+characters used in modern Russian, Ukrainian, Belorussian, Serbian and
 Macedonian for purposes of compatibility with some applications).
 
 \section{Installation and Usage}
@@ -139,7 +139,7 @@ PostScript outlines (also called OpenType-CFF fonts).
 Both the TrueType version and the OpenType-CFF version support
 the same set of advanced \hyperlink{OT}{OpenType} features.
 
-The OpenType-CFF fonts use PostScript oputlines, based
+The OpenType-CFF fonts use PostScript outlines, based
 on third-order (cubic) Bézier curves, while the TrueType fonts 
 use second-order (quadratic) curves. There is also a significant difference in
 hinting (grid fitting): TrueType instructions theoretically allow to
@@ -217,7 +217,7 @@ you will need a Unicode-aware \TeX{} engine, such as
 You will also need a way to enter the Unicode characters that are not
 directly accessible from standard keyboards. We recommend
 installing a Church Slavonic or Russian-Extended keyboard layout, 
-avilable from the \href{http://www.ponomar.net/cu_support/keyboard.html}
+available from the \href{http://www.ponomar.net/cu_support/keyboard.html}
 {Slavonic Computing Initiative website}. It is also possible to enter
 characters using the Windows Character Map utility or by codepoint,
 but this is not recommended.
@@ -269,7 +269,7 @@ do not support OpenType or Graphite features.
 \item If you are a computer programmer and need to work with glyphs
 on a low level without relying on OpenType: having all alternatives
 mapped to the PUA allows for a simple way to access glyphs by codepoint
-instead of working with glyph indeces, which can change between versions
+instead of working with glyph indexes, which can change between versions
 of a font.
 
 \end{itemize}
@@ -381,13 +381,13 @@ Technical Note \#41: Church Slavonic Typography in Unicode}.
 
 Language-based features such as the \texttt{loca} (localized forms) feature
 provide access to language-specific alternate glyph forms, such as the
-alternate forms of the Cyrillic Letter I used in Ukrainian and Belarussian:
+alternate forms of the Cyrillic Letter I used in Ukrainian and Belorussian:
 
 \begin{figure}[h]
 \centering
 \begin{tabular}{ll}
 \large{  {\slv і } } &  (Church Slavonic text) \\
-\large{ {\slv і̇ } } & (Ukrainain text) \\
+\large{ {\slv і̇ } } & (Ukrainian text) \\
 \end{tabular}
 \end{figure}
 
@@ -658,7 +658,7 @@ U+0404		& {\slv\large Є}	& {\salt\large Є} \\
 \end{table}
 
 For the Cyrillic letters, the stylistic alternatives feature also allows access
-to truncated letterforms; the order of the alternate forms is always: lower truncation,
+to truncated letter forms; the order of the alternate forms is always: lower truncation,
 upper truncation, left truncation, right truncation. Table~\ref{trunc} demonstrates
 which truncated forms are available. Generally speaking, truncation should
 be handled automatically by desktop publishing software and \TeX{}, though
@@ -703,7 +703,7 @@ Blackletter &
 \end{figure}
 
 \noindent Note that as of version 2.0 of the font, the ASCII digits (commonly called
-``arabic numerals'') are provided in roman form. Use Stylistic Set 2 to access
+``Arabic numerals'') are provided in roman form. Use Stylistic Set 2 to access
 the blackletter forms, if necessary.
 
 \subsection{SIL Graphite Features}
@@ -748,7 +748,7 @@ the exception of the ``hyph'' feature, they duplicate the functionality
 of OpenType features):
 
 \begin{itemize}
-\item The ``Truncation'' feature (``trnc'') provides the same funcionality
+\item The ``Truncation'' feature (``trnc'') provides the same functionality
 as stylistic alternatives (for truncation) above. The possible values are:
 \verb+1+ (lower truncation), \verb+2+ (upper truncation),
 \verb+3+ (left truncation) and \verb+4+ (right truncation).
@@ -766,7 +766,7 @@ provides a localized form of U+0456 Cyrillic I for use in Ukrainian
 text. Possible values are |0| (no) and |1| (yes).
 
 \item The ``Use underscore for hyphenation'' feature (``hyph'')
-replaces all instances of U+002D Hyphen-Minus and U+2010 Hypehn
+replaces all instances of U+002D Hyphen-Minus and U+2010 Hyphen
 with U+005F Low Line (underscore) for use as a hyphenation
 character. This is meant as a workaround to 
 \href{https://bugs.documentfoundation.org/show_bug.cgi?id=85731}
@@ -780,7 +780,7 @@ added to LibreOffice.
 \section{Fedorovsk Unicode}
 
 Fedorovsk Unicode is based on the Fedorovsk font designed by Nikita Simmons.
-It has been reencoded for Unicode, with added OpenType and Graphite features
+It has been re-encoded for Unicode, with added OpenType and Graphite features
 by Aleksandr Andreev. The Fedorovsk typeface is supposed to reproduce the typeface
 of the printed editions of Ivan Fedorov produced in Moscow, for example, the
 Apostol of 1564. The font is intended primarily for typesetting pre-Nikonian (Old Rite)
@@ -942,9 +942,9 @@ U+1F545	& {\graph{\large 🕅 }}	& {\graphA{\large 🕅}} & {\graphB{\large 🕅
 \end{table}
 
 \noindent Two additional Graphite features are defined: ``Accent Positions'',
-with values ``left'' and ``right'', which mimicks the behavior
+with values ``left'' and ``right'', which mimics the behavior
 of stylistic sets 1 and 2; and ``Equal Baseline'' (with value ``yes''),
-which mimicks the behavior of Stylistic Set 10.
+which mimics the behavior of Stylistic Set 10.
 
 \textbf{Please note}: the SIL Graphite features in Fedorovsk Unicode
 currently are broken. The reason for this is not known.
@@ -958,7 +958,7 @@ notation of the kind used in Cyrillic or Glagolitic manuscripts.
 
 The Menaion font was originally designed by Victor A. Baranov at
 \href{http://www.manuscripts.ru/}{the Manuscript Project}. It was
-reencoded for Unicode by Aleksandr Andreev with permission of the original author.
+re-encoded for Unicode by Aleksandr Andreev with permission of the original author.
 
 \newfontfamily{\glyphfont}{Menaion Unicode}
 
@@ -1052,7 +1052,7 @@ SIL Graphite.
 \centering
 \caption{Ligatures available in the Menaion Unicode font \label{menligs}}
 \begin{tabular}{lcc}
-Name	& Sequence	& Apperance \\
+Name	& Sequence	& Appearance \\
 \hline
 Small Ligature I-Ye &	U+0438 U+200D U+0435 	& {\glyphfont{\large и‍е }} \\
 Small Ligature En-I	&	U+043d U+200D U+0438 	& {\graph{\large н‍и }} \\
@@ -1093,7 +1093,7 @@ hagiographic and polemical works of the Pomortsy and Fedoseyevtsy communities,
 and is a traditional and ``organic'' style of lettering lacking any obvious influence
 from western European and Latin typography.
 The Pomorsky typeface was originally designed by Nikita Simmons.
-It was edited and reencoded for Unicode by Aleksandr Andreev.
+It was edited and re-encoded for Unicode by Aleksandr Andreev.
 It is intended for use with
 \emph{bukvitsi} (drop caps) and decorative titling.
 
@@ -1173,7 +1173,7 @@ Here are some known issues:
 Since it is not expected for these fonts to be heavily used to typeset Latin
 text, this issue is not a very high priority for resultion.
 
-\item Ponomar Uniocode has Graphite-based kerning for Cyrillic 
+\item Ponomar Unicode has Graphite-based kerning for Cyrillic 
 characters starting in version 2.0, but it is defective. In particular,
 inserting a diacritical mark will break the kerning between two letters.
 This will be fixed in version 2.1.
@@ -1184,8 +1184,8 @@ Pomorsky Unicode.
 \end{itemize}
 
 \noindent There may be other issues, but before reporting such issues,
-please check that your software propertly supports OpenType and / or
-SIL Graphite. We suggest checking for expected behaviour in \XeTeX{}
+please check that your software properly supports OpenType and / or
+SIL Graphite. We suggest checking for expected behavior in \XeTeX{}
 or \LuaTeX{}.
 
 \section{Credits}
@@ -1195,16 +1195,16 @@ The authors would like to thank the following people:
 \begin{itemize}
 
 \item Vladislav Dorosh, who allowed his
-\href{http://irmologion.ru/fonts.html}{Hirmos} font to be reencoded
+\href{http://irmologion.ru/fonts.html}{Hirmos} font to be re-encoded
 in Unicode and modified, leading to the creation of the Ponomar font.
 
 \item Viktor Baranov of the \href{http://www.manuscripts.ru/}{Manuscripts}
-project, who allowed the reencoding and modification of his Menaion font.
+project, who allowed the re-encoding and modification of his Menaion font.
 
 \item Michael Ivanovich for help in designing the characters for Sakha
 (Yakut), partially taken from his Sakha UCS font.
 
-\item Alexey Kryukov, who answered various qestions about FontForge
+\item Alexey Kryukov, who answered various questions about FontForge
 and whose extensive documentation for the 
 \href{https://github.com/akryukov/oldstand/}{Old Standard} font was 
 consulted and partially reused.
