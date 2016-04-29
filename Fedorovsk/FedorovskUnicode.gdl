@@ -2,7 +2,7 @@
 /*
     This is FedorovskUnicode.gdl : Graphite Description Language file for Fedorovsk Unicode 3.1 font.
     
-    Copyright (C) 2013-2015 ALEKSANDR ANDREEV. THIS CODE IS PART OF THE PONOMAR PROJECT.
+    Copyright (C) 2013-2016 ALEKSANDR ANDREEV. THIS CODE IS PART OF THE PONOMAR PROJECT.
     
     THIS CODE IS LICENSED UNDER THE SAME LICENSE AS THE PONOMAR SOFTWARE.
     
@@ -349,7 +349,7 @@ g0311 = glyphid(169) {StackingS = point(-186m, 937m); DiacriticM = point(-192m, 
 g0327 = glyphid(170);
 g033e = glyphid(171) {StackingS = point(-41m, 853m); YerokM = point(-132m, 547m); StackingM = point(-132m, 547m)};
 g034f = glyphid(172);
-g0358 = glyphid(173) {StackingS = point(-65m, 828m); RightM = point(-70m, 687m); StackingM = point(-71m, 688m)};
+g0358 = glyphid(173) {RightM = point(-70m, 687m); StackingM = point(-71m, 688m); StackingS = point(-65m, 828m)};
 g0400 = glyphid(174) {DiacriticS = point(284m, 948m); YerokS = point(282m, 949m); HalfMarkS = point(266m, 752m)};
 g0401 = glyphid(175) {HalfMarkS = point(266m, 752m); YerokS = point(266m, 888m); DiacriticS = point(264m, 887m)};
 g0402 = glyphid(176) {DiacriticS = point(347m, 742m); HalfMarkS = point(348m, 752m); YerokS = point(589m, 644m)};
@@ -1231,8 +1231,9 @@ table (sub)
 		ga64b > ga64b_short / _ cLargeMarks;
 		g0463 > g0463_short / _ cLargeMarks;
 		ga64b_0301 > ga64b_0301_alt2 / _ cLargeMarkBefore;
+		/* XXX: these rules are breaking Graphite, so we're removing them
 		ga64b_0300 > ga64b_0300_alt1 / _ cLargeMarkBefore;
-		ga64b_0311 > ga64b_0311_alt2 / _ cLargeMarkBefore;
+		ga64b_0311 > ga64b_0311_alt2 / _ cLargeMarkBefore;*/
 	endpass;
 endtable;
 
