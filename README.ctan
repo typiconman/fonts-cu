@@ -1,0 +1,49 @@
+fonts-churchslavonic
+=====================
+
+Collection of free fonts for Church Slavonic language (also known as Church Slavic
+and Old Church Slavonic), ISO 639-1 code "cu".
+
+All fonts use Unicode character encoding and are intended for Unicode TeX engines
+only.
+
+
+Installation:
+-------------
+
+	tlmgr install fonts-churchslavonic
+
+
+Using fonts
+-----------
+
+Use "fontspec" LaTeX package to load any of the installed fonts. For example:
+
+	\newfontfamily\ponomar[Script=Cyrillic,HyphenChar=_]{Ponomar Unicode}
+	
+
+Support
+-------
+
+For bug reports and support questions, please use GitHub issue tracker:
+
+	https://github.com/typiconman/fonts-cu/issues
+
+
+Authors
+-------
+
+Fonts are maintained by the Slavonic Comuting Initiative. Please see documentation
+for more information about the authors of individual fonts.
+
+Maintainers
+-----------
+
+Mike Kroutikov <pgmmpk@gmail.com>.
+Aleksandr Andreev <aleksandr.andreev@gmail.com>.
+
+License
+-------
+
+SIL Open Font License version 1.1
+
