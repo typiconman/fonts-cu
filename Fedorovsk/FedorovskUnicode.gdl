@@ -1240,7 +1240,7 @@ endtable;
 table (pos)
 	// increase bearing of letters enclosed in a numeral mark
 	pass (1)
-	//	cTakesNumeralDia { shift.x = 150m } / _ cNumeralDia;
+		cTakesNumeralDia { shift.x = 150m } / _ cNumeralDia;
 		if (baseline == 1)
 			cUpperCaseLetters { shift.y = 153m };
 		endif;
