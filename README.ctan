@@ -19,7 +19,7 @@ Using fonts
 
 Use "fontspec" LaTeX package to load any of the installed fonts. For example:
 
-	\newfontfamily\ponomar[Script=Cyrillic,HyphenChar=_]{Ponomar Unicode}
+	\newfontfamily\ponomar[Script=Cyrillic,HyphenChar=_]{PonomarUnicode.otf}
 	
 
 Support
