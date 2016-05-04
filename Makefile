@@ -2,27 +2,8 @@ all: fonts doc ctan
 
 FONTS = Ponomar Fedorovsk Menaion Pomorsky
 
-fonts: $(FONTS)
-
-Ponomar: Ponomar/PonomarUnicode.ttf
-
-Ponomar/PonomarUnicode.ttf:
-	(cd Ponomar/ && $(MAKE))
-
-Fedorovsk: Fedorovsk/FedorovskUnicode.ttf
-
-Fedorovsk/FedorovskUnicode.ttf:
-	(cd Fedorovsk/ && $(MAKE))
-
-Menaion: Menaion/MenaionUnicode.ttf
-
-Menaion/MenaionUnicode.ttf:
-	(cd Menaion/ && $(MAKE))
-
-Pomorsky: Pomorsky/PomorskyUnicode.ttf
-
-Pomorsky/PomorskyUnicode.ttf:
-	(cd Pomorsky/ && $(MAKE))
+fonts:
+	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE); cd ..;)
 
 doc: fonts-churchslavonic.pdf
 
@@ -35,23 +16,31 @@ ctan: fonts-churchslavonic.zip
 
 fonts-churchslavonic.zip:
 	rm -f *.zip
+	cp README.ctan /tmp/README
 	zip -j $@ Ponomar/PonomarUnicode.otf Ponomar/PonomarUnicode.ttf \
 				Fedorovsk/FedorovskUnicode.otf Fedorovsk/FedorovskUnicode.ttf \
 				Menaion/MenaionUnicode.otf Menaion/MenaionUnicode.ttf \
 				Pomorsky/PomorskyUnicode.otf Pomorsky/PomorskyUnicode.ttf \
-				fonts-churchslavonic.pdf LICENSE OFL.txt GPL.txt README.ctan
+				fonts-churchslavonic.pdf LICENSE OFL.txt GPL.txt
+	zip -j $@ /tmp/README
 	zip -DrX $@ docs/fonts-churchslavonic.tex docs/*.png
+	rm -f /tmp/README
 
-# XXX: Future use
-#images:
-#fontimage --width 375 --height 40 --pixelsize 40 --text "   ЧИ́НЪ ВЕЧЕ́РНИ" --o PomorskyUnicode.png PomorskyUnicode.otf
+images: $(FONTS)
+	rm -f *.png
+	(cd Ponomar/ && fontimage --width 375 --height 40 --pixelsize 26 --text "   Хрⷭ҇то́съ воскре́се и҆з̾ ме́ртвыхъ " --o ../PonomarUnicode.png PonomarUnicode.otf)
+	(cd Fedorovsk/ && fontimage --width 375 --height 40 --pixelsize 26 --text "   Хрⷭ҇то́съ вᲂскре́се и҆з̾ ме́ртвыхъ " --o ../FedorovskUnicode.png FedorovskUnicode.otf)
+	(cd Menaion/ && fontimage --width 375 --height 40 --pixelsize 16 --text "   искони бѣ слово · ⰋⰔⰍⰑⰐⰉ ⰁⰡ ⰔⰎⰑⰂⰑ " --o ../MenaionUnicode.png MenaionUnicode.otf)
+	(cd Pomorsky/ && fontimage --width 375 --height 40 --pixelsize 40 --text "   ЧИ́НЪ ВЕЧЕ́РНИ" --o ../PomorskyUnicode.png PomorskyUnicode.otf)
+
+install: $(FONTS)
+	ls ~/.fonts/
+	$(foreach font, $(FONTS), cp $(font)/*.otf ~/.fonts/;)
+	$(foreach font, $(FONTS), cp $(font)/*.ttf ~/.fonts/;)
 
 clean:
-	(cd Ponomar/ && $(MAKE) clean)
-	(cd Fedorovsk/ && $(MAKE) clean)
-	(cd Menaion/ && $(MAKE) clean)
-	(cd Pomorsky/ && $(MAKE) clean)
+	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) clean; cd ..;)
 	rm -f fonts-churchslavonic.pdf
 	(cd docs/ && rm -f *.aux *.glo *.idx *.log *.out *.pdf *.toc)
-	rm -f *.zip
+	rm -f *.zip *.png
 
