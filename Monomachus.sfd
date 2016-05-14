@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1315915564
-ModificationTime: 1463212179
+ModificationTime: 1463253378
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -145,7 +145,7 @@ KernClass2: 31 48 "'kern' Class-based kerning for Cyrillic"
  17 afii10072 uni04C2
  9 afii10073
  45 afii10077 afii10078 afii10106 uniA665 uniA667
- 98 afii10080 uni0461 uni0479 uni047B uniA64D uniA655 uniA66B uniA66D uniA699 uniA69B afii10080.narrow
+ 89 afii10080 uni0461 uni0479 uni047B uniA64D uniA655 uniA66B uniA66D uniA699 uniA69B uni1C82
  9 afii10082
  9 afii10084
  35 afii10085 uni0471 afii10196 uni0477
@@ -412,11 +412,11 @@ ContextSub2: class "'locl'&'ss01' Contextual Accent Forms for Romanian-1"  3 3 3
   FClassNames: "All_Others"  "PreCedilla"  "Cedilla"  
 EndFPST
 ContextSub2: class "'ccmp' Cyrillic Accents-1"  3 3 3 1
-  Class: 1719 afii10051 afii10053 afii10054 afii10055 afii10057 afii10058 afii10059 afii10060 afii10145 afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 afii10037 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 afii10047 afii10048 afii10049 afii10065 afii10066 afii10067 afii10068 afii10069 afii10070 afii10072 afii10073 afii10074 afii10076 afii10077 afii10078 afii10079 afii10080 afii10081 afii10082 afii10083 afii10084 afii10085 afii10086 afii10087 afii10088 afii10089 afii10090 afii10091 afii10092 afii10093 afii10094 afii10095 afii10096 afii10097 afii10099 afii10101 afii10102 afii10103 afii10105 afii10106 afii10107 afii10108 afii10193 uni0460 uni0461 afii10146 afii10194 uni0464 uni0465 uni0466 uni0467 uni0468 uni0469 uni046A uni046B uni046C uni046D uni046E uni046F uni0470 uni0471 afii10147 afii10195 afii10148 afii10196 uni0476 uni0477 uni0478 uni0479 uni047A uni047B uni047C uni047D uni047E uni047F uni0480 uni0481 afii10050 afii10098 uni04A4 uni04A5 uniA640 uniA641 uniA642 uniA643 uniA644 uniA645 uniA646 uniA647 uniA648 uniA649 uniA64A uniA64B uniA64C uniA64D uniA64E uniA64F uniA650 uniA651 uniA652 uniA653 uniA654 uniA655 uniA656 uniA657 uniA658 uniA659 uniA65A uniA65B uniA65C uniA65D uniA65E uniA65F uniA660 uniA661 uniA662 uniA663 uniA664 uniA665 uniA666 uniA667 uniA668 uniA669 uniA66A uniA66B uniA66C uniA66D uniA66E uniA698 uniA699 uniA69A uniA69B uni0478.cap afii10103.dieresis afii10103.dotaccent afii10146.low afii10194.low uniA64B.low afii10043.modern afii10091.modern afii10080.narrow afii10041.old afii10089.old uniA653.low
+  Class: 1710 afii10051 afii10053 afii10054 afii10055 afii10057 afii10058 afii10059 afii10060 afii10145 afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 afii10037 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 afii10047 afii10048 afii10049 afii10065 afii10066 afii10067 afii10068 afii10069 afii10070 afii10072 afii10073 afii10074 afii10076 afii10077 afii10078 afii10079 afii10080 afii10081 afii10082 afii10083 afii10084 afii10085 afii10086 afii10087 afii10088 afii10089 afii10090 afii10091 afii10092 afii10093 afii10094 afii10095 afii10096 afii10097 afii10099 afii10101 afii10102 afii10103 afii10105 afii10106 afii10107 afii10108 afii10193 uni0460 uni0461 afii10146 afii10194 uni0464 uni0465 uni0466 uni0467 uni0468 uni0469 uni046A uni046B uni046C uni046D uni046E uni046F uni0470 uni0471 afii10147 afii10195 afii10148 afii10196 uni0476 uni0477 uni0478 uni0479 uni047A uni047B uni047C uni047D uni047E uni047F uni0480 uni0481 afii10050 afii10098 uni04A4 uni04A5 uniA640 uniA641 uniA642 uniA643 uniA644 uniA645 uniA646 uniA647 uniA648 uniA649 uniA64A uniA64B uniA64C uniA64D uniA64E uniA64F uniA650 uniA651 uniA652 uniA653 uniA654 uniA655 uniA656 uniA657 uniA658 uniA659 uniA65A uniA65B uniA65C uniA65D uniA65E uniA65F uniA660 uniA661 uniA662 uniA663 uniA664 uniA665 uniA666 uniA667 uniA668 uniA669 uniA66A uniA66B uniA66C uniA66D uniA66E uniA698 uniA699 uniA69A uniA69B uni0478.cap afii10103.dieresis afii10103.dotaccent afii10146.low afii10194.low uniA64B.low afii10043.modern afii10091.modern uni1C82 afii10041.old afii10089.old uniA653.low
   Class: 60 brevecmb uni0307 uni0308 uni0308_acutecomb uni0308_gravecomb
-  BClass: 1719 afii10051 afii10053 afii10054 afii10055 afii10057 afii10058 afii10059 afii10060 afii10145 afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 afii10037 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 afii10047 afii10048 afii10049 afii10065 afii10066 afii10067 afii10068 afii10069 afii10070 afii10072 afii10073 afii10074 afii10076 afii10077 afii10078 afii10079 afii10080 afii10081 afii10082 afii10083 afii10084 afii10085 afii10086 afii10087 afii10088 afii10089 afii10090 afii10091 afii10092 afii10093 afii10094 afii10095 afii10096 afii10097 afii10099 afii10101 afii10102 afii10103 afii10105 afii10106 afii10107 afii10108 afii10193 uni0460 uni0461 afii10146 afii10194 uni0464 uni0465 uni0466 uni0467 uni0468 uni0469 uni046A uni046B uni046C uni046D uni046E uni046F uni0470 uni0471 afii10147 afii10195 afii10148 afii10196 uni0476 uni0477 uni0478 uni0479 uni047A uni047B uni047C uni047D uni047E uni047F uni0480 uni0481 afii10050 afii10098 uni04A4 uni04A5 uniA640 uniA641 uniA642 uniA643 uniA644 uniA645 uniA646 uniA647 uniA648 uniA649 uniA64A uniA64B uniA64C uniA64D uniA64E uniA64F uniA650 uniA651 uniA652 uniA653 uniA654 uniA655 uniA656 uniA657 uniA658 uniA659 uniA65A uniA65B uniA65C uniA65D uniA65E uniA65F uniA660 uniA661 uniA662 uniA663 uniA664 uniA665 uniA666 uniA667 uniA668 uniA669 uniA66A uniA66B uniA66C uniA66D uniA66E uniA698 uniA699 uniA69A uniA69B uni0478.cap afii10103.dieresis afii10103.dotaccent afii10146.low afii10194.low uniA64B.low afii10043.modern afii10091.modern afii10080.narrow afii10041.old afii10089.old uniA653.low
+  BClass: 1710 afii10051 afii10053 afii10054 afii10055 afii10057 afii10058 afii10059 afii10060 afii10145 afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 afii10037 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 afii10047 afii10048 afii10049 afii10065 afii10066 afii10067 afii10068 afii10069 afii10070 afii10072 afii10073 afii10074 afii10076 afii10077 afii10078 afii10079 afii10080 afii10081 afii10082 afii10083 afii10084 afii10085 afii10086 afii10087 afii10088 afii10089 afii10090 afii10091 afii10092 afii10093 afii10094 afii10095 afii10096 afii10097 afii10099 afii10101 afii10102 afii10103 afii10105 afii10106 afii10107 afii10108 afii10193 uni0460 uni0461 afii10146 afii10194 uni0464 uni0465 uni0466 uni0467 uni0468 uni0469 uni046A uni046B uni046C uni046D uni046E uni046F uni0470 uni0471 afii10147 afii10195 afii10148 afii10196 uni0476 uni0477 uni0478 uni0479 uni047A uni047B uni047C uni047D uni047E uni047F uni0480 uni0481 afii10050 afii10098 uni04A4 uni04A5 uniA640 uniA641 uniA642 uniA643 uniA644 uniA645 uniA646 uniA647 uniA648 uniA649 uniA64A uniA64B uniA64C uniA64D uniA64E uniA64F uniA650 uniA651 uniA652 uniA653 uniA654 uniA655 uniA656 uniA657 uniA658 uniA659 uniA65A uniA65B uniA65C uniA65D uniA65E uniA65F uniA660 uniA661 uniA662 uniA663 uniA664 uniA665 uniA666 uniA667 uniA668 uniA669 uniA66A uniA66B uniA66C uniA66D uniA66E uniA698 uniA699 uniA69A uniA69B uni0478.cap afii10103.dieresis afii10103.dotaccent afii10146.low afii10194.low uniA64B.low afii10043.modern afii10091.modern uni1C82 afii10041.old afii10089.old uniA653.low
   BClass: 60 brevecmb uni0307 uni0308 uni0308_acutecomb uni0308_gravecomb
-  FClass: 1719 afii10051 afii10053 afii10054 afii10055 afii10057 afii10058 afii10059 afii10060 afii10145 afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 afii10037 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 afii10047 afii10048 afii10049 afii10065 afii10066 afii10067 afii10068 afii10069 afii10070 afii10072 afii10073 afii10074 afii10076 afii10077 afii10078 afii10079 afii10080 afii10081 afii10082 afii10083 afii10084 afii10085 afii10086 afii10087 afii10088 afii10089 afii10090 afii10091 afii10092 afii10093 afii10094 afii10095 afii10096 afii10097 afii10099 afii10101 afii10102 afii10103 afii10105 afii10106 afii10107 afii10108 afii10193 uni0460 uni0461 afii10146 afii10194 uni0464 uni0465 uni0466 uni0467 uni0468 uni0469 uni046A uni046B uni046C uni046D uni046E uni046F uni0470 uni0471 afii10147 afii10195 afii10148 afii10196 uni0476 uni0477 uni0478 uni0479 uni047A uni047B uni047C uni047D uni047E uni047F uni0480 uni0481 afii10050 afii10098 uni04A4 uni04A5 uniA640 uniA641 uniA642 uniA643 uniA644 uniA645 uniA646 uniA647 uniA648 uniA649 uniA64A uniA64B uniA64C uniA64D uniA64E uniA64F uniA650 uniA651 uniA652 uniA653 uniA654 uniA655 uniA656 uniA657 uniA658 uniA659 uniA65A uniA65B uniA65C uniA65D uniA65E uniA65F uniA660 uniA661 uniA662 uniA663 uniA664 uniA665 uniA666 uniA667 uniA668 uniA669 uniA66A uniA66B uniA66C uniA66D uniA66E uniA698 uniA699 uniA69A uniA69B uni0478.cap afii10103.dieresis afii10103.dotaccent afii10146.low afii10194.low uniA64B.low afii10043.modern afii10091.modern afii10080.narrow afii10041.old afii10089.old uniA653.low
+  FClass: 1710 afii10051 afii10053 afii10054 afii10055 afii10057 afii10058 afii10059 afii10060 afii10145 afii10017 afii10018 afii10019 afii10020 afii10021 afii10022 afii10024 afii10025 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10032 afii10033 afii10034 afii10035 afii10036 afii10037 afii10038 afii10039 afii10040 afii10041 afii10042 afii10043 afii10044 afii10045 afii10046 afii10047 afii10048 afii10049 afii10065 afii10066 afii10067 afii10068 afii10069 afii10070 afii10072 afii10073 afii10074 afii10076 afii10077 afii10078 afii10079 afii10080 afii10081 afii10082 afii10083 afii10084 afii10085 afii10086 afii10087 afii10088 afii10089 afii10090 afii10091 afii10092 afii10093 afii10094 afii10095 afii10096 afii10097 afii10099 afii10101 afii10102 afii10103 afii10105 afii10106 afii10107 afii10108 afii10193 uni0460 uni0461 afii10146 afii10194 uni0464 uni0465 uni0466 uni0467 uni0468 uni0469 uni046A uni046B uni046C uni046D uni046E uni046F uni0470 uni0471 afii10147 afii10195 afii10148 afii10196 uni0476 uni0477 uni0478 uni0479 uni047A uni047B uni047C uni047D uni047E uni047F uni0480 uni0481 afii10050 afii10098 uni04A4 uni04A5 uniA640 uniA641 uniA642 uniA643 uniA644 uniA645 uniA646 uniA647 uniA648 uniA649 uniA64A uniA64B uniA64C uniA64D uniA64E uniA64F uniA650 uniA651 uniA652 uniA653 uniA654 uniA655 uniA656 uniA657 uniA658 uniA659 uniA65A uniA65B uniA65C uniA65D uniA65E uniA65F uniA660 uniA661 uniA662 uniA663 uniA664 uniA665 uniA666 uniA667 uniA668 uniA669 uniA66A uniA66B uniA66C uniA66D uniA66E uniA698 uniA699 uniA69A uniA69B uni0478.cap afii10103.dieresis afii10103.dotaccent afii10146.low afii10194.low uniA64B.low afii10043.modern afii10091.modern uni1C82 afii10041.old afii10089.old uniA653.low
   FClass: 60 brevecmb uni0307 uni0308 uni0308_acutecomb uni0308_gravecomb
  2 0 0
   ClsList: 1 2
@@ -1296,25 +1296,24 @@ ShortTable: cvt  74
 EndShort
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Alexey Kryukov" "" "http://www.thessalonica.org.ru" "http://www.thessalonica.org.ru" "Copyright (c) 2011, Alexey Kryukov (alexios@thessalonica.org.ru),+AAoA-with Reserved Font Name +ACIA-Monomachus+ACIA.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/ofl" 
 GaspTable: 3 10 8 19 5 65535 15 1
-OtfFeatName: 'ss01' 1033 "Combinations with Comma Below for Romanian" 1049 "+BCEEPgRHBDUEQgQwBD0EOARP +BEEA +BD0EOAQ2BD0ENQQ5 +BDcEMAQ/BE8EQgQ+BDkA +BDQEOwRP +BEAEQwQ8BEsEPQRBBDoEPgQzBD4A +BE8ENwRLBDoEMAAA" 
-OtfFeatName: 'ss06' 1033 "Display Cyrillic Decimal i with Dotaccent" 1049 "+BB4EQgQ+BDEEQAQwBDYEMARCBEwA +BDQENQRBBE8EQgQ4BEcEPQQ+BDUA i +BEEA +BD4ENAQ9BD4EOQAA +BEIEPgRHBDoEPgQ5" 
-OtfFeatName: 'ss07' 1033 "Display Cyrillic Decimal i with Dieresis" 1049 "+BB4EQgQ+BDEEQAQwBDYEMARCBEwA +BDQENQRBBE8EQgQ4BEcEPQQ+BDUA i +BEEA +BDQEMgRDBDwETwAA +BEIEPgRHBDoEMAQ8BDgA" 
-OtfFeatName: 'ss08' 1033 "Use Sharp Cyrillic Ze instead of the Round Form" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BD4EQQRCBEAEQwRO +BEQEPgRABDwEQwAA +BDEEQwQ6BDIESwAA +ACIEFwAi +BDIEPAQ1BEEEQgQ+ +BD4EOgRABEMEMwQ7BD4EOQAA" 
-OtfFeatName: 'ss09' 1033 "Use the Historic (Double-Sided) Form for Cyrillic Che" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BDgEQQRCBD4EQAQ4BEcENQRBBDoEQwRO (+BDQEMgRDBEEEQgQ+BEAEPgQ9BD0ETgRO) +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEJwAi" 
-OtfFeatName: 'ss10' 1033 "Use the Modern Form for Cyrillic Shcha" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BEEEPgQyBEAENQQ8BDUEPQQ9BEMETgAA +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEKQAi" 
-OtfFeatName: 'ss11' 1033 "Connecting Cyrillic YERY" 1049 "+BBEEQwQ6BDIEMAAA +ACIEKwAi +BEEA +BEEEPgQ1BDQEOAQ9BDgEQgQ1BDsETAQ9BD4EOQAA +BDsEOAQ9BDgENQQ5" 
-OtfFeatName: 'ss12' 1033 "Cyrillic Tverdo with Three Legs" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BEQEPgRABDwEQwAA +BEEA +BEIEQAQ1BDwETwAA +BDwEMARHBEIEMAQ8BDgA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEIgAi" 
-OtfFeatName: 'ss13' 1033 "Cyrillic Yat with Long Back Beak" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +ACIETwQ6BD4EQAQ9BEMETgAi +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIELwRCBEwAIgAA " 
-OtfFeatName: 'ss15' 1033 "Add Pokrytie to Combining Letters when Appropriate" 1049 "+BBAEMgRCBD4EPAQwBEIEOARHBDUEQQQ6BDgA +BDQEPgQxBDAEMgQ7BE8EQgRM +BD8EPgQ6BEAESwRCBDgENQAA +BDoA +BDIESwQ9BD4EQQQ9BEsEPAAA +BDEEQwQ6BDIEMAQ8" 
+OtfFeatName: 'ss15' 1049 "+BBAEMgRCBD4EPAQwBEIEOARHBDUEQQQ6BDgA +BDQEPgQxBDAEMgQ7BE8EQgRM +BD8EPgQ6BEAESwRCBDgENQAA +BDoA +BDIESwQ9BD4EQQQ9BEsEPAAA +BDEEQwQ6BDIEMAQ8" 1033 "Add Pokrytie to Combining Letters when Appropriate" 
+OtfFeatName: 'ss13' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +ACIETwQ6BD4EQAQ9BEMETgAi +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIELwRCBEwAIgAA " 1033 "Cyrillic Yat with Long Back Beak" 
+OtfFeatName: 'ss12' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BEQEPgRABDwEQwAA +BEEA +BEIEQAQ1BDwETwAA +BDwEMARHBEIEMAQ8BDgA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEIgAi" 1033 "Cyrillic Tverdo with Three Legs" 
+OtfFeatName: 'ss11' 1049 "+BBEEQwQ6BDIEMAAA +ACIEKwAi +BEEA +BEEEPgQ1BDQEOAQ9BDgEQgQ1BDsETAQ9BD4EOQAA +BDsEOAQ9BDgENQQ5" 1033 "Connecting Cyrillic YERY" 
+OtfFeatName: 'ss10' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BEEEPgQyBEAENQQ8BDUEPQQ9BEMETgAA +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEKQAi" 1033 "Use the Modern Form for Cyrillic Shcha" 
+OtfFeatName: 'ss09' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BDgEQQRCBD4EQAQ4BEcENQRBBDoEQwRO (+BDQEMgRDBEEEQgQ+BEAEPgQ9BD0ETgRO) +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEJwAi" 1033 "Use the Historic (Double-Sided) Form for Cyrillic Che" 
+OtfFeatName: 'ss08' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BD4EQQRCBEAEQwRO +BEQEPgRABDwEQwAA +BDEEQwQ6BDIESwAA +ACIEFwAi +BDIEPAQ1BEEEQgQ+ +BD4EOgRABEMEMwQ7BD4EOQAA" 1033 "Use Sharp Cyrillic Ze instead of the Round Form" 
+OtfFeatName: 'ss07' 1049 "+BB4EQgQ+BDEEQAQwBDYEMARCBEwA +BDQENQRBBE8EQgQ4BEcEPQQ+BDUA i +BEEA +BDQEMgRDBDwETwAA +BEIEPgRHBDoEMAQ8BDgA" 1033 "Display Cyrillic Decimal i with Dieresis" 
+OtfFeatName: 'ss06' 1049 "+BB4EQgQ+BDEEQAQwBDYEMARCBEwA +BDQENQRBBE8EQgQ4BEcEPQQ+BDUA i +BEEA +BD4ENAQ9BD4EOQAA +BEIEPgRHBDoEPgQ5" 1033 "Display Cyrillic Decimal i with Dotaccent" 
+OtfFeatName: 'ss01' 1049 "+BCEEPgRHBDUEQgQwBD0EOARP +BEEA +BD0EOAQ2BD0ENQQ5 +BDcEMAQ/BE8EQgQ+BDkA +BDQEOwRP +BEAEQwQ8BEsEPQRBBDoEPgQzBD4A +BE8ENwRLBDoEMAAA" 1033 "Combinations with Comma Below for Romanian" 
 Encoding: UnicodeFull
-Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 312
-WinInfo: 459 27 10
+WinInfo: 7236 27 10
 BeginPrivate: 6
 BlueValues 35 [-48 0 946 980 1420 1456 1532 1564]
 OtherBlues 21 [-370 -382 -600 -578]
@@ -1330,7 +1329,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 270336 135168 90112 490496 -1048576 90112 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "DblMark"  "'mark' Positioning for Double Marks" "Yerik"  "'mark' Positioning for Cyrillic Yerik" "CyrTopCap"  "'mark' Positioning for Cyrillic Capital Marks" "Kamora"  "'mark' Positioning for Kamora" "Vzmet"  "'mkmk' Positioning for Vzmet" "CyrMark"  "'mark' Positioning for Cyrillic Marks" "HighMark"  "'mark' Positioning for High Marks" "TopCap"  "'mark' Positioning for Capital Accents" "Grave"  "'mark' Positioning for Grave" "Acute"  "'mark' Positioning for Acute" "Bottom"  "'mark' Positioning for Bottom Accents" "Top"  "'mark' Positioning for Top Accents" 
-BeginChars: 1114234 836
+BeginChars: 1114232 837
 
 StartChar: space
 Encoding: 32 32 0
@@ -57054,7 +57053,7 @@ SplineSet
  226 694 226 694 226 598 c 0,28,29
 EndSplineSet
 Kerns2: 432 -60 "'kern' Pairwise Kerning for Cyrillic"  479 -32 "'kern' Pairwise Kerning for Cyrillic"  421 -54 "'kern' Pairwise Kerning for Cyrillic"  443 -58 "'kern' Pairwise Kerning for Cyrillic"  435 -32 "'kern' Pairwise Kerning for Cyrillic"  418 -102 "'kern' Pairwise Kerning for Cyrillic"  425 -24 "'kern' Pairwise Kerning for Cyrillic"  426 -24 "'kern' Pairwise Kerning for Cyrillic"  469 -46 "'kern' Pairwise Kerning for Cyrillic"  483 -28 "'kern' Pairwise Kerning for Cyrillic"  433 -28 "'kern' Pairwise Kerning for Cyrillic"  481 -136 "'kern' Pairwise Kerning for Cyrillic"  638 -46 "'kern' Pairwise Kerning for Cyrillic"  485 -28 "'kern' Pairwise Kerning for Cyrillic"  460 -28 "'kern' Pairwise Kerning for Cyrillic"  648 -96 "'kern' Pairwise Kerning for Cyrillic" 
-AlternateSubs2: "'salt' Stylistic Alternatives for Old Cyrillic-1" afii10080.narrow
+AlternateSubs2: "'salt' Stylistic Alternatives for Old Cyrillic-1" uni1C82
 Colour: ff00ff
 EndChar
 
@@ -57695,7 +57694,7 @@ SplineSet
  54 904 54 904 54 924 c 0,0,1
 EndSplineSet
 Kerns2: 485 56 "'kern' Pairwise Kerning for Cyrillic"  483 56 "'kern' Pairwise Kerning for Cyrillic"  433 56 "'kern' Pairwise Kerning for Cyrillic"  418 -178 "'kern' Pairwise Kerning for Cyrillic"  431 -28 "'kern' Pairwise Kerning for Cyrillic"  626 -48 "'kern' Pairwise Kerning for Cyrillic"  511 -136 "'kern' Pairwise Kerning for Cyrillic"  447 -28 "'kern' Pairwise Kerning for Cyrillic"  446 -28 "'kern' Pairwise Kerning for Cyrillic"  638 -162 "'kern' Pairwise Kerning for Cyrillic"  489 -62 "'kern' Pairwise Kerning for Cyrillic"  434 -176 "'kern' Pairwise Kerning for Cyrillic"  469 -162 "'kern' Pairwise Kerning for Cyrillic"  426 -118 "'kern' Pairwise Kerning for Cyrillic"  473 -60 "'kern' Pairwise Kerning for Cyrillic"  425 -134 "'kern' Pairwise Kerning for Cyrillic"  421 -36 "'kern' Pairwise Kerning for Cyrillic"  430 -76 "'kern' Pairwise Kerning for Cyrillic"  450 -56 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  428 -44 "'kern' Pairwise Kerning for Cyrillic"  443 -88 "'kern' Pairwise Kerning for Cyrillic"  419 -28 "'kern' Pairwise Kerning for Cyrillic"  414 -136 "'kern' Pairwise Kerning for Cyrillic" 
-Substitution2: "'ss12' Cyrillic Tverdo with three legs-1" afii10084.triple
+Substitution2: "'ss12' Cyrillic Tverdo with three legs-1" uni1C85
 EndChar
 
 StartChar: afii10085
@@ -70667,11 +70666,11 @@ AnchorPoint: "Acute" 1122 1140 basechar 0
 LayerCount: 3
 Fore
 Refer: 433 1091 N 1 0 0 1 578 0 2
-Refer: 818 -1 N 1 0 0 1 0 0 2
+Refer: 818 7298 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
 Refer: 433 1091 N 1 0 0 1 578 0 2
-Refer: 818 -1 N 1 0 0 1 0 0 2
+Refer: 818 7298 N 1 0 0 1 0 0 2
 Kerns2: 511 -166 "'kern' Pairwise Kerning for Cyrillic"  638 -192 "'kern' Pairwise Kerning for Cyrillic"  469 -192 "'kern' Pairwise Kerning for Cyrillic"  428 -76 "'kern' Pairwise Kerning for Cyrillic"  425 -166 "'kern' Pairwise Kerning for Cyrillic"  426 -144 "'kern' Pairwise Kerning for Cyrillic"  418 -192 "'kern' Pairwise Kerning for Cyrillic"  443 -92 "'kern' Pairwise Kerning for Cyrillic"  431 -60 "'kern' Pairwise Kerning for Cyrillic"  445 -28 "'kern' Pairwise Kerning for Cyrillic"  450 -104 "'kern' Pairwise Kerning for Cyrillic"  430 -80 "'kern' Pairwise Kerning for Cyrillic"  481 -178 "'kern' Pairwise Kerning for Cyrillic"  421 -52 "'kern' Pairwise Kerning for Cyrillic"  434 -162 "'kern' Pairwise Kerning for Cyrillic"  414 -166 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
@@ -79767,8 +79766,8 @@ Refer: 10 42 N 1 0 0 1 0 -736 2
 Refer: 10 42 N 1 0 0 1 0 96 2
 EndChar
 
-StartChar: uni2053
-Encoding: 8275 8275 555
+StartChar: uni2E43
+Encoding: 11843 11843 555
 Width: 2048
 VWidth: 2110
 Flags: W
@@ -125814,8 +125813,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii10080.narrow
-Encoding: 1114219 -1 818
+StartChar: uni1C82
+Encoding: 7298 7298 818
 Width: 632
 VWidth: 0
 GlyphClass: 2
@@ -125951,11 +125950,11 @@ SplineSet
  243 694 243 694 193.5 628 c 128,-1,25
  144 562 144 562 144 474 c 0,16,17
 EndSplineSet
-Kerns2: 420 -28 "'kern' Pairwise Kerning for Cyrillic"  418 -74 "'kern' Pairwise Kerning for Cyrillic"  425 -40 "'kern' Pairwise Kerning for Cyrillic"  426 -14 "'kern' Pairwise Kerning for Cyrillic"  509 -28 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 509 -28 "'kern' Pairwise Kerning for Cyrillic"  426 -14 "'kern' Pairwise Kerning for Cyrillic"  425 -40 "'kern' Pairwise Kerning for Cyrillic"  418 -74 "'kern' Pairwise Kerning for Cyrillic"  420 -28 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni0487.narrow
-Encoding: 1114220 -1 819
+Encoding: 1114219 -1 819
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -126071,7 +126070,7 @@ Colour: ffff00
 EndChar
 
 StartChar: afii10041.old
-Encoding: 1114221 -1 820
+Encoding: 1114220 -1 820
 Width: 1470
 Flags: W
 HStem: 0 60<490 594 876 980> 1360 60<48 152 434 538 932 1036 1318 1422>
@@ -126289,7 +126288,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10089.old
-Encoding: 1114222 -1 821
+Encoding: 1114221 -1 821
 Width: 1054
 VWidth: 0
 Flags: W
@@ -126462,7 +126461,7 @@ Kerns2: 418 -108 "'kern' Pairwise Kerning for Cyrillic"  426 -60 "'kern' Pairwis
 EndChar
 
 StartChar: uniA641.short
-Encoding: 1114223 -1 822
+Encoding: 1114222 -1 822
 Width: 956
 VWidth: 0
 Flags: W
@@ -126697,7 +126696,7 @@ PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uni0488 dx=638 dy
 EndChar
 
 StartChar: uni2DE3.small
-Encoding: 1114224 -1 823
+Encoding: 1114223 -1 823
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -126962,7 +126961,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DE4.small
-Encoding: 1114225 -1 824
+Encoding: 1114224 -1 824
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -127308,7 +127307,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DE5.small
-Encoding: 1114226 -1 825
+Encoding: 1114225 -1 825
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -127553,7 +127552,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DE8.small
-Encoding: 1114227 -1 826
+Encoding: 1114226 -1 826
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -127793,7 +127792,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DEE.small
-Encoding: 1114228 -1 827
+Encoding: 1114227 -1 827
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -127946,8 +127945,8 @@ EndSplineSet
 Colour: ffff00
 EndChar
 
-StartChar: afii10084.triple
-Encoding: 1114229 -1 828
+StartChar: uni1C85
+Encoding: 7301 7301 828
 Width: 1670
 VWidth: 0
 Flags: W
@@ -128089,7 +128088,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DEE.uni047E
-Encoding: 1114230 -1 829
+Encoding: 1114228 -1 829
 Width: 880
 VWidth: 0
 Flags: W
@@ -128244,7 +128243,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DEE.uni047F
-Encoding: 1114231 -1 830
+Encoding: 1114229 -1 830
 Width: 880
 VWidth: 0
 Flags: W
@@ -128397,7 +128396,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0487.wide
-Encoding: 1114232 -1 831
+Encoding: 1114230 -1 831
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -128784,7 +128783,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA69E_uni0487
-Encoding: 1114233 -1 833
+Encoding: 1114231 -1 833
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -128881,6 +128880,54 @@ SplineSet
  -659 1315 l 1,13,-1
  -658 1382 l 1,14,-1
  -304 1382 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: uni1C81
+Encoding: 7297 7297 836
+Width: 1156
+VWidth: 0
+Flags: W
+HStem: 0 60<306 699> 940 20G<498.5 541.5>
+AnchorPoint: "Yerik" 844 1060 basechar 0
+AnchorPoint: "CyrMark" 574 1100 basechar 0
+LayerCount: 3
+Fore
+SplineSet
+16 33 m 0
+ 16 47 28 60 55 60 c 2
+ 180 60 l 2
+ 212 60 230 66 260 133 c 0
+ 332 295 477 697 477 784 c 0
+ 477 806 471 846 458 880 c 0
+ 453 892 447 915 447 923 c 0
+ 447 954 476 960 521 960 c 0
+ 562 960 629 960 658 955 c 0
+ 688 950 694 934 699 908 c 0
+ 735 723 839 360 928 156 c 0
+ 957 90 972 60 1030 60 c 2
+ 1087 60 l 2
+ 1114 60 1126 47 1126 33 c 0
+ 1126 14 1116 -14 1109 -32 c 0
+ 1084 -99 1036 -246 1015 -342 c 0
+ 1012 -356 1007 -372 983 -372 c 0
+ 959 -372 951 -357 949 -342 c 0
+ 934 -232 911 -112 873 -56 c 0
+ 857 -32 826 0 783 0 c 2
+ 359 0 l 2
+ 316 0 285 -32 269 -56 c 0
+ 231 -112 208 -232 193 -342 c 0
+ 191 -357 183 -372 159 -372 c 0
+ 135 -372 130 -356 127 -342 c 0
+ 106 -246 58 -99 33 -32 c 0
+ 26 -14 16 14 16 33 c 0
+304 68 m 9
+ 306 60 l 25
+ 699 60 l 25
+ 705 68 l 17
+ 636 258 569 449 521 650 c 9
+ 510 650 l 17
+ 463 482 380 254 304 68 c 9
 EndSplineSet
 EndChar
 EndChars
