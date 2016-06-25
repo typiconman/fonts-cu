@@ -1,6 +1,6 @@
 all: fonts doc ctan
 
-FONTS = Ponomar Fedorovsk Menaion Pomorsky
+FONTS = Ponomar Fedorovsk Menaion Pomorsky Indiction
 
 fonts:
 	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE); cd ..;)
@@ -21,6 +21,7 @@ fonts-churchslavonic.zip:
 				Fedorovsk/FedorovskUnicode.otf Fedorovsk/FedorovskUnicode.ttf \
 				Menaion/MenaionUnicode.otf Menaion/MenaionUnicode.ttf \
 				Pomorsky/PomorskyUnicode.otf Pomorsky/PomorskyUnicode.ttf \
+				Indiction/IndictionUnicode.otf Indiction/IndictionUnicode.ttf \
 				fonts-churchslavonic.pdf LICENSE OFL.txt GPL.txt
 	zip -j $@ /tmp/README
 	zip -DrX $@ docs/fonts-churchslavonic.tex docs/*.png
@@ -32,6 +33,7 @@ images: $(FONTS)
 	(cd Fedorovsk/ && fontimage --width 375 --height 40 --pixelsize 26 --text "   Хрⷭ҇то́съ вᲂскре́се и҆з̾ ме́ртвыхъ " --o ../FedorovskUnicode.png FedorovskUnicode.otf)
 	(cd Menaion/ && fontimage --width 375 --height 40 --pixelsize 16 --text "   искони бѣ слово · ⰋⰔⰍⰑⰐⰉ ⰁⰡ ⰔⰎⰑⰂⰑ " --o ../MenaionUnicode.png MenaionUnicode.otf)
 	(cd Pomorsky/ && fontimage --width 375 --height 40 --pixelsize 40 --text "   ЧИ́НЪ ВЕЧЕ́РНИ" --o ../PomorskyUnicode.png PomorskyUnicode.otf)
+	(cd Indiction/ && fontimage --width 375 --height 40 --pixelsize 40 --text "   АБВГД " --o ../PomorskyUnicode.png PomorskyUnicode.otf)
 
 install: $(FONTS)
 	ls ~/.fonts/
