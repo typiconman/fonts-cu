@@ -1,0 +1,33 @@
+This is Indiction Unicode 1.0, a font for decorative drop caps in Church Slavonic.
+
+COPYRIGHT INFORMATION
+
+The typeface is standard and is used in liturgical books published since the late 19th century.
+The Indyction font was originally developed by Vladislav V. Dorosh.
+Copyright (c) Vladislav V. Dorosh, Calmius Software, 1996-98, 2002
+Distributed as Indyction UCS as part of CSLTeX, licensed under the LaTeX Project Public License.
+Reencoded for Unicode and edited by Aleksandr Andreev, Slavonic Computing Initiative, 2016.
+Distributed as Indiction Unicode under the SIL Open Font License.
+
+Fine tuning and OpenType tables and Graphite GDL instructions by Aleksandr Andreev.
+
+Indiction Unicode is Copyright 2016 Aleksandr Andreev.
+
+Indiction Unicode is licensed under the SIL Open Font License version 1.1,\
+a copy of which is reproduced in OFL.txt.
+
+It is understood that Indiction Unicode is free software.
+As such, it comes with ABSOLUTELY NO WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+The following files are distributed in this package:
+	* IndictionUnicode.otf : OpenType-CFF font (PostScript outlines) with OpenType features; the internal font name is Indiction Unicode
+	* IndictionUnicode.woff : Web Open Font Format font (TrueType outlines) with OpenType features; the internal font name is Indiction Unicode
+				  This font is intended for embedding into webpages
+	* IndictionUnicode.ttf : TrueType font (TrueType outlines) with OpenType and SIL Graphite features;
+				   The internal font name is Indiction Unicode TT
+	The difference in internal font names allows you to have both the OpenType and TrueType versions installed simultaneously
+
+BUGS
+
+Please report all problems to Aleksandr Andreev (aleksandr.andreev@gmail.com)
