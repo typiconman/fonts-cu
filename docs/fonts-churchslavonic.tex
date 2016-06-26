@@ -21,6 +21,8 @@
 \usepackage{polyglossia}
 \setmainlanguage[variant=american]{english}
 \setotherlanguages{russian,churchslavonic}
+\usepackage{churchslavonic}
+\usepackage{lettrine}
 
 %% KEYBOARD DRIVER VERSION AND RELEASE DATES
 \def\filedate{April 26, 2016}
@@ -30,8 +32,10 @@
 \setmainfont[Ligatures = TeX]{Linux Libertine O}
 \setsansfont{DejaVu Sans}
 \setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}
+\newfontfamily\churchslavonicfont[Script=Cyrillic,Ligatures=TeX,Scale=1.33333333,HyphenChar="005F]{PonomarUnicode.otf} 
 \newfontfamily{\slv}[Scale=MatchLowercase]{Ponomar Unicode}
 \newfontfamily{\ust}[Scale=MatchLowercase]{Menaion Unicode}
+\newfontfamily{\ind}{Indiction Unicode}
 
 \linespread{1.05}
 \lineskiplimit=-1em
@@ -42,7 +46,15 @@
 % COMMENT THE NEXT LINE TO INCLUDE THE CODE
 \AtBeginDocument{\OnlyDescription}
 
-% FOR DRAWING KEY CAPS
+\makeatletter
+\def\ps@cuNum{%
+\def\@oddfoot{\footnotesize\hfil\cuNum{\value{page}}\hfil\hbox to 0pt{\hss\usebox\NextWordBox}}%}%
+\let\@evenfoot\@oddfoot
+}%
+\def\cu@lettrine{\lettrine[lines=3,findent=0pt,nindent=0pt]}
+\def\cuLettrine{\cu@tokenizeletter\cu@lettrine}
+\renewcommand{\LettrineFontHook}{\ind \cuKinovarColor}
+\makeatother
 \begin{document}
 
 \title{Church Slavonic Fonts}
@@ -538,9 +550,7 @@ of this package. Examples of text set in Ponomar Unicode are presented below.
 \subsection{Synodal Church Slavonic}
 
 \begin{churchslavonic}
-{\slv \large
 Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаде́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ. Не та́кѡ нечести́вїи, не та́кѡ: но ꙗ҆́кѡ пра́хъ, є҆го́же возмета́етъ вѣ́тръ ѿ лица̀ землѝ. Сегѡ̀ ра́ди не воскре́снꙋтъ нечести́вїи на сꙋ́дъ, нижѐ грѣ̑шницы въ совѣ́тъ првⷣныхъ. Ꙗ҆́кѡ вѣ́сть гдⷭ҇ь пꙋ́ть првⷣныхъ, и҆ пꙋ́ть нечести́выхъ поги́бнетъ.
-}
 \end{churchslavonic}
 
 \subsection{Kievan Church Slavonic}
@@ -548,9 +558,7 @@ of this package. Examples of text set in Ponomar Unicode are presented below.
 Kievan Church Slavonic uses a number of variant glyph forms, such as U+1C81 Long-Legged De ({\slv ᲁ}) and U+A641 Variant Ze ({\slv ꙁ}):
 
 \begin{churchslavonic}
-{\slv \large
 Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́ᲁе на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣᲁа́лищи гꙋби́телей не сѣ́ᲁе: но въ зако́нѣ гᲁⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́ᲁетъ ꙗ҆́кѡ дре́во насажᲁе́ное при и҆схо́ᲁищихъ во́ᲁъ, є҆́же плоᲁъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаᲁе́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ. Не та́кѡ нечести́вїи, не та́кѡ: но ꙗ҆́кѡ пра́хъ, є҆го́же воꙁмета́етъ вѣ́тръ ѿ лица̀ землѝ. Сегѡ̀ ра́ᲁи не воскре́снꙋтъ нечести́вїи на сꙋ́ᲁъ, нижѐ грѣ̑шницы въ совѣ́тъ првⷣныхъ. Ꙗ҆́кѡ вѣ́сть гᲁⷭ҇ь пꙋ́ть првⷣныхъ, и҆ пꙋ́ть нечести́выхъ поги́бнетъ.
-}
 \end{churchslavonic}
 
 \subsection{Other Languages}
@@ -561,38 +569,29 @@ are fully supported by the font: Romanian (Moldovan) in its Cyrillic alphabet, A
 \noindent Here is an example of the Lord's Prayer in Romanian (Moldovan) Cyrillic: \\
 
 \begin{churchslavonic}
-{\slv \large 
-Та́тъль но́стрꙋ ка́реле є҆́щй ꙟ҆ Че́рюрй: ᲃ︀фн҃цѣ́скъсе Нꙋ́меле тъ́ꙋ: ві́е ꙟ҆пъръці́ѧ та̀: фі́е во́ѧ та̀, прекꙋ́мь ꙟ҆ Че́рю̆ шѝ пре пъмѫ́нть. Пѫ́йнѣ но́астръ чѣ̀ ᲁепꙋ́рꙋрѣ ᲁъ́не но́аѡ а҆́стъꙁй. Шѝ не ꙗ҆́ртъ но́аѡ греша́леле но́астре, прекꙋ́мь шѝ но́й є҆ртъ́мь греши́цилѡрь но́щри. Ши́ нꙋ́не ᲁꙋ́че пре но́й ꙟ҆ и҆спи́тъ. Чѝ не и҆ꙁбъвѣ́ще ᲁе че́ль ръ́ꙋ. 
-} \\
+Та́тъль но́стрꙋ ка́реле є҆́щй ꙟ҆ Че́рюрй: ᲃ︀фн҃цѣ́скъсе Нꙋ́меле тъ́ꙋ: ві́е ꙟ҆пъръці́ѧ та̀: фі́е во́ѧ та̀, прекꙋ́мь ꙟ҆ Че́рю̆ шѝ пре пъмѫ́нть. Пѫ́йнѣ но́астръ чѣ̀ ᲁепꙋ́рꙋрѣ ᲁъ́не но́аѡ а҆́стъꙁй. Шѝ не ꙗ҆́ртъ но́аѡ греша́леле но́астре, прекꙋ́мь шѝ но́й є҆ртъ́мь греши́цилѡрь но́щри. Ши́ нꙋ́не ᲁꙋ́че пре но́й ꙟ҆ и҆спи́тъ. Чѝ не и҆ꙁбъвѣ́ще ᲁе че́ль ръ́ꙋ. \\
 \end{churchslavonic}
 
 \noindent And here is an example of the Lord's Prayer in Aleut Cyrillic: \\
 
 \begin{churchslavonic}
-{\slv \large
-Тꙋмани́нъ А́даԟъ! А҆́манъ акꙋ́х̑тхинъ и́нинъ кꙋ́ҥинъ, А́са́нъ амчꙋг̑а́сѧ́да́г̑та, Аҥали́нъ а҆ԟа́г̑та, Анꙋхтана́тхинъ малга́г̑танъ и́нимъ кꙋ́ганъ ка́юхъ та́намъ кꙋ́ганъ. Ԟалга́дамъ анꙋхтана̀ ҥи̑нъ аԟача́ ꙋ̆а҆ѧ́мъ: ка́юхъ тꙋма́нинъ а́д̑ꙋнъ ҥи̑нъ игни́да, а҆ма́кꙋнъ тꙋ́манъ ка́юхъ малгалиги́нъ ҥи̑нъ ад̑ꙋг̑и́нанъ игнида́кꙋнъ: ка́юхъ тꙋ́манъ сꙋглатачх̑и́г̑анах̑тхинъ, та́г̑а ад̑алю́дамъ илѧ́нъ тꙋ́манъ аг̑г̑ича.
-} \\
+Тꙋмани́нъ А́даԟъ! А҆́манъ акꙋ́х̑тхинъ и́нинъ кꙋ́ҥинъ, А́са́нъ амчꙋг̑а́сѧ́да́г̑та, Аҥали́нъ а҆ԟа́г̑та, Анꙋхтана́тхинъ малга́г̑танъ и́нимъ кꙋ́ганъ ка́юхъ та́намъ кꙋ́ганъ. Ԟалга́дамъ анꙋхтана̀ ҥи̑нъ аԟача́ ꙋ̆а҆ѧ́мъ: ка́юхъ тꙋма́нинъ а́д̑ꙋнъ ҥи̑нъ игни́да, а҆ма́кꙋнъ тꙋ́манъ ка́юхъ малгалиги́нъ ҥи̑нъ ад̑ꙋг̑и́нанъ игнида́кꙋнъ: ка́юхъ тꙋ́манъ сꙋглатачх̑и́г̑анах̑тхинъ, та́г̑а ад̑алю́дамъ илѧ́нъ тꙋ́манъ аг̑г̑ича. \\
 \end{churchslavonic}
 
 \noindent And here is an example of the Lord's Prayer in Yakut (Sakha): \\
 
 \begin{churchslavonic}
-{\slv \large
-Халланнаръ юрдюлѧригѧрь баръ агабытъ бисенѧ ! Свѧтейдѧннинь а̄тыҥъ эенѧ ; кѧллинь царстваҥъ эенѧ ; сирь юрдюгѧрь кёҥюлюҥь эенѧ , халланъ юрдюгѧрь курдукъ боллунъ ; бюгюҥю кюннѧги асыръ аспытынъ бисенинь кулу бисеха бюгюнь ; бисиги да естѧрбитинь халларъ бисеха , хайтахъ бисиги да халларабытъ беэбить естѧхтѧрбитигѧрь ; килѧримѧ да бисигини альԫархайга ; хата быса бисигини албынтанъ .
-} \\
+Халланнаръ юрдюлѧригѧрь баръ агабытъ бисенѧ ! Свѧтейдѧннинь а̄тыҥъ эенѧ ; кѧллинь царстваҥъ эенѧ ; сирь юрдюгѧрь кёҥюлюҥь эенѧ , халланъ юрдюгѧрь курдукъ боллунъ ; бюгюҥю кюннѧги асыръ аспытынъ бисенинь кулу бисеха бюгюнь ; бисиги да естѧрбитинь халларъ бисеха , хайтахъ бисиги да халларабытъ беэбить естѧхтѧрбитигѧрь ; килѧримѧ да бисигини альԫархайга ; хата быса бисигини албынтанъ . \\
 \end{churchslavonic}
 
 \noindent Here is an example using the Typicon symbols from Nikita Syrnikov's book {\slv Клю́чъ къ церко́вномꙋ ᲂу҆ста́вꙋ}:
 
 \begin{churchslavonic}
-{\slv \large
 і\textcolor{red}{і}꙼̇ ⧟̇҃ іѡа́ннꙋ і̲꙼ на лиⷮ бл҃жеⷩ҇, па́влꙋ пѣⷭ҇ г҃. а і҆оа́ннꙋ ѕ҃.
 
 и᷷͏҃і і\textcolor{red}{і}꙼̇ ⧟̲̇҃ кири́лꙋ і̲꙼ коⷣ и҆ и҆́коⷭ҇ о҆́бщїй и҆ коⷣ а҆фана́сїю.
 
 д҃ 🤉 іі̲ и҆си́дорꙋ ⹇ гео́ргїю кири́лѣ ⹉
-
-}
 \end{churchslavonic}
 
 \subsection{Font Features}
@@ -1172,6 +1171,43 @@ The font was reencoded for Unicode and edited by Aleksandr Andreev, and is now
 distributed as Indiction Unicode under the SIL Open Font License.
 It is intended for use with
 \emph{bukvitsi} (drop caps) in modern Church Slavonic editions.
+The character shapes are demonstrated in Table~\ref{indict}.
+
+\begin{table}[htbp]
+\centering
+\caption{Character shapes provided by Indiction Unicode \label{indict}}
+{\fontsize{38pt}{1.5em}
+\begin{tabular}{cccc}
+	{\ind А}	& {\ind Б} & {\ind В} & {\ind Г} \\
+
+	{\ind Е}	& {\ind Ж} & {\ind Ѕ} & {\ind З} \\
+	
+	{\ind И}	&  {\ind І} & {\ind К}	& {\ind Л} \\
+
+	{\ind М} & {\ind Н} & 	{\ind О} & {\ind Ѻ} \\
+
+	{\ind П} & {\ind Р} & {\ind С}	& {\ind Т} \\
+
+	{\ind Ꙋ} & {\ind Ф} & {\ind Х} & {\ind Ѡ} \\
+
+	{\ind Ѽ} & {\ind Ꙍ} & {\ind Ѿ}	& {\ind Ц} \\
+
+	{\ind Ч} & {\ind Ш} & {\ind Щ} & {\ind Ъ} \\
+
+	{\ind Ы} & {\ind Ь} & {\ind Ѣ} & {\ind Ю} \\
+
+	{\ind Ꙗ} & {\ind Ѧ} & {\ind Ѯ} & {\ind Ѱ} \\
+
+	{\ind Ѳ} & {\ind Ѵ} & {\ind Ѷ} \\
+\end{tabular}
+}
+\end{table}
+
+\subsection{Sample Texts}
+
+\begin{churchslavonic}
+\cuLettrine Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаде́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ.
+\end{churchslavonic}
 
 \section{Known Issues}
 
