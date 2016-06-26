@@ -38,7 +38,8 @@
 \newfontfamily{\ind}{Indiction Unicode}
 
 \linespread{1.05}
-\lineskiplimit=-1em
+%\lineskip=0pt
+\lineskiplimit=0em
 \frenchspacing
 \EnableCrossrefs
 \CodelineIndex
@@ -1112,8 +1113,6 @@ characters are not available.
 \newfontfamily{\simple}[StylisticSet=1]{Pomorsky Unicode}
 \newfontfamily{\salt}[Alternate=0]{Pomorsky Unicode}
 \newfontfamily{\salta}[Alternate=1]{Pomorsky Unicode}
-\newfontfamily{\saltb}[Alternate=2]{Pomorsky Unicode}
-\newfontfamily{\saltc}[Alternate=3]{Pomorsky Unicode}
 
 The base form, the ``simple'' form, and any stylistic alternatives of 
 a character are demonstrated in Table~\ref{pomor}.
@@ -1129,9 +1128,9 @@ a character are demonstrated in Table~\ref{pomor}.
 	
 	{\glyphfont И}{\simple И}	& {\glyphfont Й}{\simple Й} & {\glyphfont І}{\simple І} & {\glyphfont Ї}{\simple Ї} \\
 
-	{\glyphfont К}{\simple К}{\salt К}	& {\glyphfont Л}{\simple Л} & {\glyphfont М}{\simple М} & {\glyphfont Н}{\simple Н} \\
+	{\glyphfont К}{\simple К}{\salt К}{\salta К}	& {\glyphfont Л}{\simple Л} & {\glyphfont М}{\simple М} & {\glyphfont Н}{\simple Н} \\
 
-	{\glyphfont О}{\simple О}	& {\glyphfont Ѻ}{\simple Ѻ} & {\glyphfont П}{\simple П} & {\glyphfont Р}{\simple Р}{\salt Р} \\
+	{\glyphfont О}{\simple О}	& {\glyphfont Ѻ}{\simple Ѻ} & {\glyphfont П}{\simple П} & {\glyphfont Р}{\simple Р}{\salt Р}{\salta Р} \\
 
 	{\glyphfont С}{\simple С}	& {\glyphfont Т}{\simple Т} & {\glyphfont ОУ}{\simple ОУ} & {\glyphfont Ꙋ}{\simple Ꙋ} \\
 
@@ -1156,7 +1155,6 @@ a character are demonstrated in Table~\ref{pomor}.
 {\fontsize{48pt}{2em} \simple ЧИ́НЪ ВЕЧЕ́РНИ.} \\
 {\fontsize{48pt}{2em} \glyphfont СѶНѠ́ДИКЪ.} \\
 {\fontsize{48pt}{2em} \simple СѶНѠ́ДИКЪ.} \\
-{\fontsize{48pt}{2em} \simple\salt СѶНѠ́ДИКЪ.} \\
 \end{tabular}
 \end{center}
 
