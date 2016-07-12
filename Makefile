@@ -10,6 +10,7 @@ doc: fonts-churchslavonic.pdf
 fonts-churchslavonic.pdf:
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
+	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	mv docs/fonts-churchslavonic.pdf ./
 
 ctan: fonts-churchslavonic.zip
@@ -33,7 +34,7 @@ images: $(FONTS)
 	(cd Fedorovsk/ && fontimage --width 375 --height 40 --pixelsize 26 --text "   Хрⷭ҇то́съ вᲂскре́се и҆з̾ ме́ртвыхъ " --o ../FedorovskUnicode.png FedorovskUnicode.otf)
 	(cd Menaion/ && fontimage --width 375 --height 40 --pixelsize 16 --text "   искони бѣ слово · ⰋⰔⰍⰑⰐⰉ ⰁⰡ ⰔⰎⰑⰂⰑ " --o ../MenaionUnicode.png MenaionUnicode.otf)
 	(cd Pomorsky/ && fontimage --width 375 --height 40 --pixelsize 40 --text "   ЧИ́НЪ ВЕЧЕ́РНИ" --o ../PomorskyUnicode.png PomorskyUnicode.otf)
-	(cd Indiction/ && fontimage --width 375 --height 40 --pixelsize 40 --text "   АБВГД " --o ../PomorskyUnicode.png PomorskyUnicode.otf)
+	(cd Indiction/ && fontimage --width 375 --height 40 --pixelsize 35 --text "   АБВГДЕЖЅЗИКЛ " --o ../IndictionUnicode.png IndictionUnicode.otf)
 
 install: $(FONTS)
 	ls ~/.fonts/
