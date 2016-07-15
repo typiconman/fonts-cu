@@ -1,0 +1,15 @@
+Source: fonts-churchslavonic
+Maintainer: Aleksandr Andreev <aleksandr.andreev@gmail.com>
+Section: fonts
+Priority: optional
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9)
+Homepage: http://sci.ponomar.net/
+Vcs-Git: https://github.com/typiconman/fonts-cu.git
+
+Package: fonts-churchslavonic
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Fonts for Church Slavonic
+ This package provides OpenType and TrueType fonts for Church Slavonic.

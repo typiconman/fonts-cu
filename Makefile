@@ -40,10 +40,13 @@ install: $(FONTS)
 	ls ~/.fonts/
 	$(foreach font, $(FONTS), cp $(font)/*.otf ~/.fonts/;)
 	$(foreach font, $(FONTS), cp $(font)/*.ttf ~/.fonts/;)
+	$(foreach font, $(FONTS), cp $(font)/*.otf ./ && cp $(font)/*.ttf ./;)
+	# To create debian package run debuild -us -uc
 
 clean:
 	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) clean; cd ..;)
 	rm -f fonts-churchslavonic.pdf
+	rm -f *.otf *.ttf
 	(cd docs/ && rm -f *.aux *.glo *.idx *.log *.out *.pdf *.toc)
 	rm -f *.zip *.png
 
