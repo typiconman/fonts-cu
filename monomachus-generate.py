@@ -1,42 +1,47 @@
-#####################################################################
-#
-# This file is part of Monomachus font family
-# (http://www.thessalonica.org.ru/en/monomachus.html) and is
-# Copyright (C) 2011 Alexey Kryukov <amkryukov@gmail.com>
-# with Reserved Font Name "Monomachus".
-#
-# This Font Software is licensed under the SIL Open Font License,
-# Version 1.1.
-#
-# You should have received a copy of the license along with this Font
-# Software. If this is not the case, go to (http://scripts.sil.org/OFL)
-# for all the details including a FAQ.
-#
-#####################################################################/
-
 import fontforge
 
-base_name = "Monomachus"
-fontrev = 1.0
+##
+## THIS FILE IS A FONTFORGE SCRIPT THAT GENERATES THE MONOMAKH FONT FAMILY
+##
+##
 
-def process_font(name):
-    filename = name
-    font = fontforge.open(filename + ".sfd")
+base_name = "MonomakhUnicode"
+full_name  = "Monomakh Unicode"
 
-    woff_meta = name + "-WOFF-metadata.xml"
-    f = file( woff_meta,'r' )
-    lines = f.readlines()
-    f.close()
-    font.version = str( fontrev )
-    font.sfntRevision = fontrev
-    font.woffMetadata = "".join( lines )
-    font.generate( filename + ".woff",layer="TTF" )
+## open up the font
+font = fontforge.open(base_name + ".sfd")
 
-    font.encoding = "mac"
-    font.generate(filename + ".ttf",flags=("opentype","old-kern","PfEd-colors","PfEd-lookups","dummy-dsig"),layer="TTF")
+## Evidently, this can break Evince, so it may need to be commented out
+font.head_optimized_for_cleartype = True
 
-    font.em = 1000
-    font.generate(filename + ".otf",flags=("opentype","PfEd-colors","PfEd-lookups"),layer="Fore")
-    font.close()
+ttnames = list( font.sfnt_names )
+for ttname in ttnames:
+	if ttname[1] == 'SubFamil':
+		ttnames.append( ( ttname[0],'Fullname',"%s %s" % ( full_name,ttname[2] ) ) )
+font.sfnt_names = tuple( ttnames )
 
-process_font( base_name )
+font.generate( base_name + ".otf", flags=( "opentype", "PfEd-colors", "PfEd-lookups"), layer="Fore" )
+
+woff_meta = base_name + "-WOFF-metadata.xml"
+f = file( woff_meta, 'r')
+lines = f.readlines()
+f.close()
+font.woffMetadata = "".join( lines )
+font.generate( base_name + ".woff", flags=( "opentype"), layer="TTFLayer" )
+
+# Append the TT suffix
+for i in range( 0, len( ttnames )):
+	ttname = ttnames[i]
+	if ttname[1] == 'Fullname':
+		ttnames[i] = ( ttname[0],'Fullname',ttname[2].replace( full_name,full_name + " TT" ) )
+	if ttname[1] == 'Preferred Family':
+		ttnames[i] = ( ttname[0],'Preferred Family',ttname[2].replace( full_name,full_name + " TT" ) )
+
+font.sfnt_names = tuple( ttnames )
+font.familyname = full_name + " TT"
+font.fullname = full_name + " TT"
+font.fontname = base_name + "TT"
+
+font.generate( base_name + ".ttf", flags=( "opentype", "old-kern", "PfEd-colors", "PfEd-lookups", "dummy-dsig" ), layer="TTFLayer" )
+font.close()
+
