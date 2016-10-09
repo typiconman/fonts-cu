@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1315915564
-ModificationTime: 1468778171
+ModificationTime: 1476005806
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -48,7 +48,6 @@ Lookup: 1 0 0 "'ss08' Sharp Cyrillic Zemlya"  {"'ss08' Sharp Cyrillic Zemlya-1" 
 Lookup: 1 0 0 "'ss09' Double-Sided Cyrillic Cherv"  {"'ss09' Double-Sided Cyrillic Cherv-1"  } ['ss09' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'ss10' Modern Form for Cyrillic Shcha"  {"'ss10' Modern Form for Cyrillic Shcha-1"  } ['ss10' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'ss11' Connecting YERY"  {"'ss11' Connecting YERY-1" ("connecting" ) } ['ss11' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
-Lookup: 1 0 0 "'ss12' Cyrillic Tverdo with Three Legs"  {"'ss12' Cyrillic Tverdo with three legs-1" ("triple" ) } ['ss12' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 1 0 0 "'ss13' Cyrillic Yat with a Long Back Beak"  {"'ss13' Cyrillic Yat with a Long Back Beak-1" ("anchor" ) } ['ss13' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 3 0 0 "'salt' Stylistic Alternatives for Old Cyrillic"  {"'salt' Stylistic Alternatives for Old Cyrillic-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
 Lookup: 5 0 0 "'ccmp' Decomposition Before Combining Marks"  {"'ccmp' Decomposition before Combining Marks"  "'ccmp' Dotless Variants"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'MOL ' 'ROM ' 'dflt' > ) ]
@@ -1314,7 +1313,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 312
-WinInfo: 0 27 10
+WinInfo: 594 27 10
 BeginPrivate: 6
 BlueValues 35 [-48 0 946 980 1420 1456 1532 1564]
 OtherBlues 21 [-370 -382 -600 -578]
@@ -1330,7 +1329,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 270336 135168 90112 490496 -1048576 90112 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "DblMark"  "'mark' Positioning for Double Marks" "Yerik"  "'mark' Positioning for Cyrillic Yerik" "CyrTopCap"  "'mark' Positioning for Cyrillic Capital Marks" "Kamora"  "'mark' Positioning for Kamora" "Vzmet"  "'mkmk' Positioning for Vzmet" "CyrMark"  "'mark' Positioning for Cyrillic Marks" "HighMark"  "'mark' Positioning for High Marks" "TopCap"  "'mark' Positioning for Capital Accents" "Grave"  "'mark' Positioning for Grave" "Acute"  "'mark' Positioning for Acute" "Bottom"  "'mark' Positioning for Bottom Accents" "Top"  "'mark' Positioning for Top Accents" 
-BeginChars: 1114232 844
+BeginChars: 1114157 843
 
 StartChar: space
 Encoding: 32 32 0
@@ -34295,11 +34294,11 @@ HStem: -548 76<479.302 792.16> 288 72<497.849 697.593> 900 72<435.125 639.006> 1
 VStem: 111 214<-21 206> 152 202<507.968 762.398> 782 202<494.731 752.258> 864 156<-372.859 -218.844> 892 204<1029.45 1185.18>
 LayerCount: 3
 Fore
-Refer: 807 -1 N 1 0 0 1 128 -380 2
+Refer: 806 -1 N 1 0 0 1 128 -380 2
 Refer: 71 103 N 1 0 0 1 0 0 3
 Validated: 32769
 Layer: 2
-Refer: 807 -1 N 1 0 0 1 128 -380 2
+Refer: 806 -1 N 1 0 0 1 128 -380 2
 Refer: 71 103 N 1 0 0 1 0 0 3
 EndChar
 
@@ -34427,11 +34426,11 @@ HStem: -12 60<44.0587 203.544 446.456 605.941 672.059 831.544 1074.46 1233.94> 8
 VStem: 210 230<54.7166 770.922 822 1439.39> 838 230<54.7166 828.444>
 LayerCount: 3
 Fore
-Refer: 807 -1 N 1 0 0 1 196 0 2
+Refer: 806 -1 N 1 0 0 1 196 0 2
 Refer: 72 104 N 1 0 0 1 0 0 3
 Validated: 32769
 Layer: 2
-Refer: 807 -1 N 1 0 0 1 196 0 2
+Refer: 806 -1 N 1 0 0 1 196 0 2
 Refer: 72 104 N 1 0 0 1 0 0 3
 EndChar
 
@@ -35394,11 +35393,11 @@ VStem: 182 320<1276.91 1447.09> 238 230<54.7166 855.388> 290 123<-319.5 -138.186
 LayerCount: 3
 Fore
 Refer: 336 729 N 1 0 0 1 -98 80 2
-Refer: 804 -1 N 1 0 0 1 0 0 3
+Refer: 803 57916 N 1 0 0 1 0 0 3
 Validated: 32769
 Layer: 2
 Refer: 336 729 N 1 0 0 1 -98 80 2
-Refer: 804 -1 N 1 0 0 1 0 0 3
+Refer: 803 57916 N 1 0 0 1 0 0 3
 Ligature2: "'ccmp' Simple Glyph Composition-1" i uni0328
 Substitution2: "Dotless Variants-1" iogonek.dotless
 EndChar
@@ -36142,11 +36141,11 @@ HStem: -12 60<44.0587 203.544 446.456 605.941> 1460 62<44.0323 173.815> 1522 20<
 VStem: 210 230<54.7166 1439.39> 222 460
 LayerCount: 3
 Fore
-Refer: 806 -1 N 1 0 0 1 -126 0 2
+Refer: 805 -1 N 1 0 0 1 -126 0 2
 Refer: 76 108 N 1 0 0 1 0 0 3
 Validated: 32769
 Layer: 2
-Refer: 806 -1 N 1 0 0 1 -126 0 2
+Refer: 805 -1 N 1 0 0 1 -126 0 2
 Refer: 76 108 N 1 0 0 1 0 0 3
 EndChar
 
@@ -54186,7 +54185,7 @@ SplineSet
  398 576 398 576 359 485 c 0,54,55
  302 352 302 352 302 222 c 0,38,39
 EndSplineSet
-Kerns2: 821 -28 "'kern' Pairwise Kerning for Cyrillic"  460 -14 "'kern' Pairwise Kerning for Cyrillic"  447 -32 "'kern' Pairwise Kerning for Cyrillic"  446 -32 "'kern' Pairwise Kerning for Cyrillic"  435 -48 "'kern' Pairwise Kerning for Cyrillic"  431 -14 "'kern' Pairwise Kerning for Cyrillic"  419 -32 "'kern' Pairwise Kerning for Cyrillic"  430 -44 "'kern' Pairwise Kerning for Cyrillic"  437 -28 "'kern' Pairwise Kerning for Cyrillic"  433 -14 "'kern' Pairwise Kerning for Cyrillic"  432 -64 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -28 "'kern' Pairwise Kerning for Cyrillic"  460 -14 "'kern' Pairwise Kerning for Cyrillic"  447 -32 "'kern' Pairwise Kerning for Cyrillic"  446 -32 "'kern' Pairwise Kerning for Cyrillic"  435 -48 "'kern' Pairwise Kerning for Cyrillic"  431 -14 "'kern' Pairwise Kerning for Cyrillic"  419 -32 "'kern' Pairwise Kerning for Cyrillic"  430 -44 "'kern' Pairwise Kerning for Cyrillic"  437 -28 "'kern' Pairwise Kerning for Cyrillic"  433 -14 "'kern' Pairwise Kerning for Cyrillic"  432 -64 "'kern' Pairwise Kerning for Cyrillic" 
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=588 dy=0 dh=574 dv=0 dx=0 dy=0 dh=680 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=448 dy=0 dh=430 dv=0 dx=0 dy=0 dh=536 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=670 dy=0 dh=652 dv=0 dx=0 dy=0 dh=758 dv=0
@@ -55007,7 +55006,7 @@ SplineSet
  510 650 l 1,61,62
  441 403 441 403 304 68 c 9,55,-1
 EndSplineSet
-Kerns2: 450 -80 "'kern' Pairwise Kerning for Cyrillic"  813 -148 "'kern' Pairwise Kerning for Cyrillic"  812 -166 "'kern' Pairwise Kerning for Cyrillic"  624 -128 "'kern' Pairwise Kerning for Cyrillic"  789 -178 "'kern' Pairwise Kerning for Cyrillic"  630 -178 "'kern' Pairwise Kerning for Cyrillic"  460 -102 "'kern' Pairwise Kerning for Cyrillic"  447 -106 "'kern' Pairwise Kerning for Cyrillic"  446 -106 "'kern' Pairwise Kerning for Cyrillic"  485 -148 "'kern' Pairwise Kerning for Cyrillic"  483 -148 "'kern' Pairwise Kerning for Cyrillic"  440 -178 "'kern' Pairwise Kerning for Cyrillic"  465 -166 "'kern' Pairwise Kerning for Cyrillic"  428 -96 "'kern' Pairwise Kerning for Cyrillic"  419 -106 "'kern' Pairwise Kerning for Cyrillic"  433 -102 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 450 -80 "'kern' Pairwise Kerning for Cyrillic"  812 -148 "'kern' Pairwise Kerning for Cyrillic"  811 -166 "'kern' Pairwise Kerning for Cyrillic"  624 -128 "'kern' Pairwise Kerning for Cyrillic"  789 -178 "'kern' Pairwise Kerning for Cyrillic"  630 -178 "'kern' Pairwise Kerning for Cyrillic"  460 -102 "'kern' Pairwise Kerning for Cyrillic"  447 -106 "'kern' Pairwise Kerning for Cyrillic"  446 -106 "'kern' Pairwise Kerning for Cyrillic"  485 -148 "'kern' Pairwise Kerning for Cyrillic"  483 -148 "'kern' Pairwise Kerning for Cyrillic"  440 -178 "'kern' Pairwise Kerning for Cyrillic"  465 -166 "'kern' Pairwise Kerning for Cyrillic"  428 -96 "'kern' Pairwise Kerning for Cyrillic"  419 -106 "'kern' Pairwise Kerning for Cyrillic"  433 -102 "'kern' Pairwise Kerning for Cyrillic" 
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=530 dy=112 dh=380 dv=0 dx=0 dy=0 dh=680 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=386 dy=112 dh=236 dv=0 dx=0 dy=0 dh=536 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=608 dy=112 dh=458 dv=0 dx=0 dy=0 dh=758 dv=0
@@ -56443,7 +56442,7 @@ SplineSet
  131 0 l 2,45,46
  88 0 88 0 88 53 c 0,0,1
 EndSplineSet
-Kerns2: 450 -28 "'kern' Pairwise Kerning for Cyrillic"  813 -98 "'kern' Pairwise Kerning for Cyrillic"  812 -80 "'kern' Pairwise Kerning for Cyrillic"  624 -98 "'kern' Pairwise Kerning for Cyrillic"  789 -64 "'kern' Pairwise Kerning for Cyrillic"  626 -42 "'kern' Pairwise Kerning for Cyrillic"  460 -56 "'kern' Pairwise Kerning for Cyrillic"  447 -30 "'kern' Pairwise Kerning for Cyrillic"  446 -30 "'kern' Pairwise Kerning for Cyrillic"  437 -44 "'kern' Pairwise Kerning for Cyrillic"  485 -56 "'kern' Pairwise Kerning for Cyrillic"  483 -56 "'kern' Pairwise Kerning for Cyrillic"  419 -30 "'kern' Pairwise Kerning for Cyrillic"  465 -80 "'kern' Pairwise Kerning for Cyrillic"  630 -64 "'kern' Pairwise Kerning for Cyrillic"  440 -64 "'kern' Pairwise Kerning for Cyrillic"  433 -56 "'kern' Pairwise Kerning for Cyrillic"  428 -42 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 450 -28 "'kern' Pairwise Kerning for Cyrillic"  812 -98 "'kern' Pairwise Kerning for Cyrillic"  811 -80 "'kern' Pairwise Kerning for Cyrillic"  624 -98 "'kern' Pairwise Kerning for Cyrillic"  789 -64 "'kern' Pairwise Kerning for Cyrillic"  626 -42 "'kern' Pairwise Kerning for Cyrillic"  460 -56 "'kern' Pairwise Kerning for Cyrillic"  447 -30 "'kern' Pairwise Kerning for Cyrillic"  446 -30 "'kern' Pairwise Kerning for Cyrillic"  437 -44 "'kern' Pairwise Kerning for Cyrillic"  485 -56 "'kern' Pairwise Kerning for Cyrillic"  483 -56 "'kern' Pairwise Kerning for Cyrillic"  419 -30 "'kern' Pairwise Kerning for Cyrillic"  465 -80 "'kern' Pairwise Kerning for Cyrillic"  630 -64 "'kern' Pairwise Kerning for Cyrillic"  440 -64 "'kern' Pairwise Kerning for Cyrillic"  433 -56 "'kern' Pairwise Kerning for Cyrillic"  428 -42 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10078
@@ -56723,7 +56722,7 @@ SplineSet
  121 0 121 0 106.5 41.5 c 128,-1,82
  92 83 92 83 92 136 c 0,0,1
 EndSplineSet
-Kerns2: 450 -28 "'kern' Pairwise Kerning for Cyrillic"  479 -52 "'kern' Pairwise Kerning for Cyrillic"  813 -80 "'kern' Pairwise Kerning for Cyrillic"  812 -72 "'kern' Pairwise Kerning for Cyrillic"  624 -80 "'kern' Pairwise Kerning for Cyrillic"  789 -88 "'kern' Pairwise Kerning for Cyrillic"  626 -32 "'kern' Pairwise Kerning for Cyrillic"  460 -44 "'kern' Pairwise Kerning for Cyrillic"  447 -32 "'kern' Pairwise Kerning for Cyrillic"  446 -32 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  485 -44 "'kern' Pairwise Kerning for Cyrillic"  483 -44 "'kern' Pairwise Kerning for Cyrillic"  419 -32 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  630 -88 "'kern' Pairwise Kerning for Cyrillic"  440 -88 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -24 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 450 -28 "'kern' Pairwise Kerning for Cyrillic"  479 -52 "'kern' Pairwise Kerning for Cyrillic"  812 -80 "'kern' Pairwise Kerning for Cyrillic"  811 -72 "'kern' Pairwise Kerning for Cyrillic"  624 -80 "'kern' Pairwise Kerning for Cyrillic"  789 -88 "'kern' Pairwise Kerning for Cyrillic"  626 -32 "'kern' Pairwise Kerning for Cyrillic"  460 -44 "'kern' Pairwise Kerning for Cyrillic"  447 -32 "'kern' Pairwise Kerning for Cyrillic"  446 -32 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  485 -44 "'kern' Pairwise Kerning for Cyrillic"  483 -44 "'kern' Pairwise Kerning for Cyrillic"  419 -32 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  630 -88 "'kern' Pairwise Kerning for Cyrillic"  440 -88 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -24 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10079
@@ -57378,7 +57377,7 @@ SplineSet
  383 866 383 866 331.5 802.5 c 128,-1,52
  280 739 280 739 280 633 c 0,36,37
 EndSplineSet
-Kerns2: 418 -52 "'kern' Pairwise Kerning for Cyrillic"  433 -32 "'kern' Pairwise Kerning for Cyrillic"  432 -102 "'kern' Pairwise Kerning for Cyrillic"  483 -32 "'kern' Pairwise Kerning for Cyrillic"  485 -32 "'kern' Pairwise Kerning for Cyrillic"  460 -32 "'kern' Pairwise Kerning for Cyrillic"  440 -74 "'kern' Pairwise Kerning for Cyrillic"  630 -74 "'kern' Pairwise Kerning for Cyrillic"  789 -74 "'kern' Pairwise Kerning for Cyrillic"  624 -44 "'kern' Pairwise Kerning for Cyrillic"  465 -56 "'kern' Pairwise Kerning for Cyrillic"  812 -56 "'kern' Pairwise Kerning for Cyrillic"  813 -88 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 418 -52 "'kern' Pairwise Kerning for Cyrillic"  433 -32 "'kern' Pairwise Kerning for Cyrillic"  432 -102 "'kern' Pairwise Kerning for Cyrillic"  483 -32 "'kern' Pairwise Kerning for Cyrillic"  485 -32 "'kern' Pairwise Kerning for Cyrillic"  460 -32 "'kern' Pairwise Kerning for Cyrillic"  440 -74 "'kern' Pairwise Kerning for Cyrillic"  630 -74 "'kern' Pairwise Kerning for Cyrillic"  789 -74 "'kern' Pairwise Kerning for Cyrillic"  624 -44 "'kern' Pairwise Kerning for Cyrillic"  465 -56 "'kern' Pairwise Kerning for Cyrillic"  811 -56 "'kern' Pairwise Kerning for Cyrillic"  812 -88 "'kern' Pairwise Kerning for Cyrillic" 
 Colour: ff00ff
 EndChar
 
@@ -57695,7 +57694,6 @@ SplineSet
  54 904 54 904 54 924 c 0,0,1
 EndSplineSet
 Kerns2: 485 56 "'kern' Pairwise Kerning for Cyrillic"  483 56 "'kern' Pairwise Kerning for Cyrillic"  433 56 "'kern' Pairwise Kerning for Cyrillic"  418 -178 "'kern' Pairwise Kerning for Cyrillic"  431 -28 "'kern' Pairwise Kerning for Cyrillic"  626 -48 "'kern' Pairwise Kerning for Cyrillic"  511 -136 "'kern' Pairwise Kerning for Cyrillic"  447 -28 "'kern' Pairwise Kerning for Cyrillic"  446 -28 "'kern' Pairwise Kerning for Cyrillic"  638 -162 "'kern' Pairwise Kerning for Cyrillic"  489 -62 "'kern' Pairwise Kerning for Cyrillic"  434 -176 "'kern' Pairwise Kerning for Cyrillic"  469 -162 "'kern' Pairwise Kerning for Cyrillic"  426 -118 "'kern' Pairwise Kerning for Cyrillic"  473 -60 "'kern' Pairwise Kerning for Cyrillic"  425 -134 "'kern' Pairwise Kerning for Cyrillic"  421 -36 "'kern' Pairwise Kerning for Cyrillic"  430 -76 "'kern' Pairwise Kerning for Cyrillic"  450 -56 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  428 -44 "'kern' Pairwise Kerning for Cyrillic"  443 -88 "'kern' Pairwise Kerning for Cyrillic"  419 -28 "'kern' Pairwise Kerning for Cyrillic"  414 -136 "'kern' Pairwise Kerning for Cyrillic" 
-Substitution2: "'ss12' Cyrillic Tverdo with three legs-1" uni1C85
 EndChar
 
 StartChar: afii10085
@@ -58189,7 +58187,7 @@ SplineSet
  548 683 548 683 459 584 c 0,72,73
  332 444 332 444 332 274 c 0,62,63
 EndSplineSet
-Kerns2: 813 -96 "'kern' Pairwise Kerning for Cyrillic"  812 -116 "'kern' Pairwise Kerning for Cyrillic"  624 -96 "'kern' Pairwise Kerning for Cyrillic"  460 -74 "'kern' Pairwise Kerning for Cyrillic"  447 -44 "'kern' Pairwise Kerning for Cyrillic"  446 -44 "'kern' Pairwise Kerning for Cyrillic"  485 -74 "'kern' Pairwise Kerning for Cyrillic"  419 -44 "'kern' Pairwise Kerning for Cyrillic"  465 -116 "'kern' Pairwise Kerning for Cyrillic"  432 -176 "'kern' Pairwise Kerning for Cyrillic"  483 -74 "'kern' Pairwise Kerning for Cyrillic"  433 -74 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 812 -96 "'kern' Pairwise Kerning for Cyrillic"  811 -116 "'kern' Pairwise Kerning for Cyrillic"  624 -96 "'kern' Pairwise Kerning for Cyrillic"  460 -74 "'kern' Pairwise Kerning for Cyrillic"  447 -44 "'kern' Pairwise Kerning for Cyrillic"  446 -44 "'kern' Pairwise Kerning for Cyrillic"  485 -74 "'kern' Pairwise Kerning for Cyrillic"  419 -44 "'kern' Pairwise Kerning for Cyrillic"  465 -116 "'kern' Pairwise Kerning for Cyrillic"  432 -176 "'kern' Pairwise Kerning for Cyrillic"  483 -74 "'kern' Pairwise Kerning for Cyrillic"  433 -74 "'kern' Pairwise Kerning for Cyrillic" 
 Colour: ff
 EndChar
 
@@ -59613,7 +59611,7 @@ SplineSet
  692 426 692 426 692 404 c 2,60,-1
  692 90 l 2,45,46
 EndSplineSet
-Kerns2: 812 -148 "'kern' Pairwise Kerning for Cyrillic"  460 -118 "'kern' Pairwise Kerning for Cyrillic"  447 -68 "'kern' Pairwise Kerning for Cyrillic"  446 -68 "'kern' Pairwise Kerning for Cyrillic"  437 -106 "'kern' Pairwise Kerning for Cyrillic"  433 -118 "'kern' Pairwise Kerning for Cyrillic"  821 -162 "'kern' Pairwise Kerning for Cyrillic"  432 -148 "'kern' Pairwise Kerning for Cyrillic"  419 -68 "'kern' Pairwise Kerning for Cyrillic"  465 -148 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 811 -148 "'kern' Pairwise Kerning for Cyrillic"  460 -118 "'kern' Pairwise Kerning for Cyrillic"  447 -68 "'kern' Pairwise Kerning for Cyrillic"  446 -68 "'kern' Pairwise Kerning for Cyrillic"  437 -106 "'kern' Pairwise Kerning for Cyrillic"  433 -118 "'kern' Pairwise Kerning for Cyrillic"  820 -162 "'kern' Pairwise Kerning for Cyrillic"  432 -148 "'kern' Pairwise Kerning for Cyrillic"  419 -68 "'kern' Pairwise Kerning for Cyrillic"  465 -148 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10093
@@ -59919,7 +59917,7 @@ SplineSet
  382 426 382 426 382 404 c 2,41,-1
  382 90 l 2,26,27
 EndSplineSet
-Kerns2: 812 -148 "'kern' Pairwise Kerning for Cyrillic"  460 -118 "'kern' Pairwise Kerning for Cyrillic"  447 -68 "'kern' Pairwise Kerning for Cyrillic"  446 -68 "'kern' Pairwise Kerning for Cyrillic"  465 -148 "'kern' Pairwise Kerning for Cyrillic"  419 -68 "'kern' Pairwise Kerning for Cyrillic"  821 -162 "'kern' Pairwise Kerning for Cyrillic"  433 -118 "'kern' Pairwise Kerning for Cyrillic"  437 -106 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -148 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 811 -148 "'kern' Pairwise Kerning for Cyrillic"  460 -118 "'kern' Pairwise Kerning for Cyrillic"  447 -68 "'kern' Pairwise Kerning for Cyrillic"  446 -68 "'kern' Pairwise Kerning for Cyrillic"  465 -148 "'kern' Pairwise Kerning for Cyrillic"  419 -68 "'kern' Pairwise Kerning for Cyrillic"  820 -162 "'kern' Pairwise Kerning for Cyrillic"  433 -118 "'kern' Pairwise Kerning for Cyrillic"  437 -106 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -148 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10095
@@ -61541,7 +61539,7 @@ SplineSet
 EndSplineSet
 AlternateSubs2: "'salt' Stylistic Alternatives for Old Cyrillic-1" afii10103.dieresis afii10103.dotaccent
 Substitution2: "'ss06' Cyrillic i with dot above-1" afii10103.dotaccent
-Substitution2: "'ss07' Cyrillic i with two dots above-1" afii10103.dieresis
+Substitution2: "'ss07' Cyrillic i with two dots above-1" afii10104
 EndChar
 
 StartChar: afii10104
@@ -61572,11 +61570,11 @@ VStem: 310 268<1154.36 1389.64> 329 230<-364.153 936.965>
 LayerCount: 3
 Fore
 Refer: 795 -1 N 1 0 0 1 4 0 2
-Refer: 805 -1 N 1 0 0 1 0 0 3
+Refer: 804 57477 N 1 0 0 1 0 0 3
 Validated: 32769
 Layer: 2
 Refer: 795 -1 N 1 0 0 1 4 0 2
-Refer: 805 -1 N 1 0 0 1 0 0 3
+Refer: 804 57477 N 1 0 0 1 0 0 3
 Substitution2: "Dotless Variants-1" afii10105.dotless
 EndChar
 
@@ -62296,7 +62294,7 @@ SplineSet
  938 426 938 426 938 404 c 2,55,-1
  938 90 l 2,40,41
 EndSplineSet
-Kerns2: 812 -148 "'kern' Pairwise Kerning for Cyrillic"  460 -118 "'kern' Pairwise Kerning for Cyrillic"  447 -68 "'kern' Pairwise Kerning for Cyrillic"  446 -68 "'kern' Pairwise Kerning for Cyrillic"  432 -148 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic"  437 -106 "'kern' Pairwise Kerning for Cyrillic"  433 -118 "'kern' Pairwise Kerning for Cyrillic"  821 -162 "'kern' Pairwise Kerning for Cyrillic"  419 -68 "'kern' Pairwise Kerning for Cyrillic"  465 -148 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 811 -148 "'kern' Pairwise Kerning for Cyrillic"  460 -118 "'kern' Pairwise Kerning for Cyrillic"  447 -68 "'kern' Pairwise Kerning for Cyrillic"  446 -68 "'kern' Pairwise Kerning for Cyrillic"  432 -148 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic"  437 -106 "'kern' Pairwise Kerning for Cyrillic"  433 -118 "'kern' Pairwise Kerning for Cyrillic"  820 -162 "'kern' Pairwise Kerning for Cyrillic"  419 -68 "'kern' Pairwise Kerning for Cyrillic"  465 -148 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10108
@@ -63861,7 +63859,7 @@ SplineSet
  734 425 734 425 734 404 c 2,81,-1
  734 90 l 2,66,67
 EndSplineSet
-Kerns2: 431 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  432 -106 "'kern' Pairwise Kerning for Cyrillic"  821 -74 "'kern' Pairwise Kerning for Cyrillic"  437 -44 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 431 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  432 -106 "'kern' Pairwise Kerning for Cyrillic"  820 -74 "'kern' Pairwise Kerning for Cyrillic"  437 -44 "'kern' Pairwise Kerning for Cyrillic" 
 Substitution2: "'ss13' Cyrillic Yat with a Long Back Beak-1" afii10194.anchor
 Substitution2: "Low Variants for Accents-1" afii10194.low
 EndChar
@@ -65172,7 +65170,7 @@ SplineSet
  558 652 558 652 508 594 c 0,78,79
  436 511 436 511 436 494 c 0,61,62
 EndSplineSet
-Kerns2: 460 -44 "'kern' Pairwise Kerning for Cyrillic"  821 -76 "'kern' Pairwise Kerning for Cyrillic"  437 -64 "'kern' Pairwise Kerning for Cyrillic"  430 -14 "'kern' Pairwise Kerning for Cyrillic"  428 -28 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -118 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 460 -44 "'kern' Pairwise Kerning for Cyrillic"  820 -76 "'kern' Pairwise Kerning for Cyrillic"  437 -64 "'kern' Pairwise Kerning for Cyrillic"  430 -14 "'kern' Pairwise Kerning for Cyrillic"  428 -28 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -118 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni0468
@@ -66058,7 +66056,7 @@ SplineSet
  325 -10 325 -10 267 -10 c 128,-1,96
  209 -10 209 -10 152 0 c 1,19,-1
 EndSplineSet
-Kerns2: 460 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -118 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -28 "'kern' Pairwise Kerning for Cyrillic"  430 -14 "'kern' Pairwise Kerning for Cyrillic"  437 -64 "'kern' Pairwise Kerning for Cyrillic"  821 -76 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 460 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -118 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -28 "'kern' Pairwise Kerning for Cyrillic"  430 -14 "'kern' Pairwise Kerning for Cyrillic"  437 -64 "'kern' Pairwise Kerning for Cyrillic"  820 -76 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni046A
@@ -66782,7 +66780,7 @@ SplineSet
  542 886 l 2,79,80
  505 886 505 886 505 867 c 0,66,67
 EndSplineSet
-Kerns2: 446 -44 "'kern' Pairwise Kerning for Cyrillic"  447 -44 "'kern' Pairwise Kerning for Cyrillic"  419 -44 "'kern' Pairwise Kerning for Cyrillic"  821 -56 "'kern' Pairwise Kerning for Cyrillic"  432 -74 "'kern' Pairwise Kerning for Cyrillic"  437 -44 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 446 -44 "'kern' Pairwise Kerning for Cyrillic"  447 -44 "'kern' Pairwise Kerning for Cyrillic"  419 -44 "'kern' Pairwise Kerning for Cyrillic"  820 -56 "'kern' Pairwise Kerning for Cyrillic"  432 -74 "'kern' Pairwise Kerning for Cyrillic"  437 -44 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni046C
@@ -69938,7 +69936,7 @@ SplineSet
  544 632 544 632 490 545.5 c 128,-1,57
  436 459 436 459 436 346 c 128,-1,58
 EndSplineSet
-Kerns2: 813 -162 "'kern' Pairwise Kerning for Cyrillic"  624 -162 "'kern' Pairwise Kerning for Cyrillic"  460 -140 "'kern' Pairwise Kerning for Cyrillic"  447 -102 "'kern' Pairwise Kerning for Cyrillic"  446 -102 "'kern' Pairwise Kerning for Cyrillic"  485 -140 "'kern' Pairwise Kerning for Cyrillic"  428 -142 "'kern' Pairwise Kerning for Cyrillic"  433 -140 "'kern' Pairwise Kerning for Cyrillic"  483 -140 "'kern' Pairwise Kerning for Cyrillic"  419 -102 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 812 -162 "'kern' Pairwise Kerning for Cyrillic"  624 -162 "'kern' Pairwise Kerning for Cyrillic"  460 -140 "'kern' Pairwise Kerning for Cyrillic"  447 -102 "'kern' Pairwise Kerning for Cyrillic"  446 -102 "'kern' Pairwise Kerning for Cyrillic"  485 -140 "'kern' Pairwise Kerning for Cyrillic"  428 -142 "'kern' Pairwise Kerning for Cyrillic"  433 -140 "'kern' Pairwise Kerning for Cyrillic"  483 -140 "'kern' Pairwise Kerning for Cyrillic"  419 -102 "'kern' Pairwise Kerning for Cyrillic" 
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=492 dy=112 dh=304 dv=0 dx=0 dy=0 dh=680 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=348 dy=112 dh=160 dv=0 dx=0 dy=0 dh=536 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=570 dy=112 dh=382 dv=0 dx=0 dy=0 dh=758 dv=0
@@ -70667,11 +70665,11 @@ AnchorPoint: "Acute" 1122 1140 basechar 0
 LayerCount: 3
 Fore
 Refer: 433 1091 N 1 0 0 1 578 0 2
-Refer: 818 7298 N 1 0 0 1 0 0 2
+Refer: 817 7298 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
 Refer: 433 1091 N 1 0 0 1 578 0 2
-Refer: 818 7298 N 1 0 0 1 0 0 2
+Refer: 817 7298 N 1 0 0 1 0 0 2
 Kerns2: 511 -166 "'kern' Pairwise Kerning for Cyrillic"  638 -192 "'kern' Pairwise Kerning for Cyrillic"  469 -192 "'kern' Pairwise Kerning for Cyrillic"  428 -76 "'kern' Pairwise Kerning for Cyrillic"  425 -166 "'kern' Pairwise Kerning for Cyrillic"  426 -144 "'kern' Pairwise Kerning for Cyrillic"  418 -192 "'kern' Pairwise Kerning for Cyrillic"  443 -92 "'kern' Pairwise Kerning for Cyrillic"  431 -60 "'kern' Pairwise Kerning for Cyrillic"  445 -28 "'kern' Pairwise Kerning for Cyrillic"  450 -104 "'kern' Pairwise Kerning for Cyrillic"  430 -80 "'kern' Pairwise Kerning for Cyrillic"  481 -178 "'kern' Pairwise Kerning for Cyrillic"  421 -52 "'kern' Pairwise Kerning for Cyrillic"  434 -162 "'kern' Pairwise Kerning for Cyrillic"  414 -166 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
@@ -72195,11 +72193,11 @@ AnchorPoint: "Yerik" 1744 1520 basechar 0
 LayerCount: 3
 Fore
 Refer: 625 42572 N 1 0 0 1 0 0 3
-Refer: 829 -1 N 1 0 0 1 564 0 2
+Refer: 828 -1 N 1 0 0 1 564 0 2
 Validated: 32769
 Layer: 2
 Refer: 625 42572 N 1 0 0 1 0 0 3
-Refer: 829 -1 N 1 0 0 1 564 0 2
+Refer: 828 -1 N 1 0 0 1 564 0 2
 EndChar
 
 StartChar: uni047F
@@ -72216,11 +72214,11 @@ AnchorPoint: "CyrMark" 766 1444 basechar 0
 AnchorPoint: "Acute" 1544 1140 basechar 0
 LayerCount: 3
 Fore
-Refer: 830 -1 N 1 0 0 1 328 0 2
+Refer: 829 -1 N 1 0 0 1 328 0 2
 Refer: 463 1121 N 1 0 0 1 0 0 3
 Validated: 32769
 Layer: 2
-Refer: 830 -1 N 1 0 0 1 328 0 2
+Refer: 829 -1 N 1 0 0 1 328 0 2
 Refer: 463 1121 N 1 0 0 1 0 0 3
 EndChar
 
@@ -95335,7 +95333,7 @@ SplineSet
  582 426 582 426 582 404 c 2,58,-1
  582 90 l 2,43,44
 EndSplineSet
-Kerns2: 431 -44 "'kern' Pairwise Kerning for Cyrillic"  465 -148 "'kern' Pairwise Kerning for Cyrillic"  419 -68 "'kern' Pairwise Kerning for Cyrillic"  432 -148 "'kern' Pairwise Kerning for Cyrillic"  821 -162 "'kern' Pairwise Kerning for Cyrillic"  433 -118 "'kern' Pairwise Kerning for Cyrillic"  437 -106 "'kern' Pairwise Kerning for Cyrillic"  446 -68 "'kern' Pairwise Kerning for Cyrillic"  447 -68 "'kern' Pairwise Kerning for Cyrillic"  460 -118 "'kern' Pairwise Kerning for Cyrillic"  812 -148 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 431 -44 "'kern' Pairwise Kerning for Cyrillic"  465 -148 "'kern' Pairwise Kerning for Cyrillic"  419 -68 "'kern' Pairwise Kerning for Cyrillic"  432 -148 "'kern' Pairwise Kerning for Cyrillic"  820 -162 "'kern' Pairwise Kerning for Cyrillic"  433 -118 "'kern' Pairwise Kerning for Cyrillic"  437 -106 "'kern' Pairwise Kerning for Cyrillic"  446 -68 "'kern' Pairwise Kerning for Cyrillic"  447 -68 "'kern' Pairwise Kerning for Cyrillic"  460 -118 "'kern' Pairwise Kerning for Cyrillic"  811 -148 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA650
@@ -96109,7 +96107,7 @@ SplineSet
  1114 425 1114 425 1114 404 c 2,98,-1
  1114 90 l 2,83,84
 EndSplineSet
-Kerns2: 437 -44 "'kern' Pairwise Kerning for Cyrillic"  821 -74 "'kern' Pairwise Kerning for Cyrillic"  432 -106 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 437 -44 "'kern' Pairwise Kerning for Cyrillic"  820 -74 "'kern' Pairwise Kerning for Cyrillic"  432 -106 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic" 
 Substitution2: "Low Variants for Accents-1" uniA653.low
 EndChar
 
@@ -97976,7 +97974,7 @@ SplineSet
  473 342 473 342 356 369 c 1,66,67
  302 263 302 263 302 121 c 0,52,53
 EndSplineSet
-Kerns2: 460 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -118 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -28 "'kern' Pairwise Kerning for Cyrillic"  430 -14 "'kern' Pairwise Kerning for Cyrillic"  437 -64 "'kern' Pairwise Kerning for Cyrillic"  821 -76 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 460 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -118 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -28 "'kern' Pairwise Kerning for Cyrillic"  430 -14 "'kern' Pairwise Kerning for Cyrillic"  437 -64 "'kern' Pairwise Kerning for Cyrillic"  820 -76 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA65A
@@ -99635,7 +99633,7 @@ SplineSet
  325 -10 325 -10 267 -10 c 128,-1,86
  209 -10 209 -10 152 0 c 1,34,-1
 EndSplineSet
-Kerns2: 460 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -118 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -28 "'kern' Pairwise Kerning for Cyrillic"  430 -14 "'kern' Pairwise Kerning for Cyrillic"  437 -64 "'kern' Pairwise Kerning for Cyrillic"  821 -76 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 460 -44 "'kern' Pairwise Kerning for Cyrillic"  432 -118 "'kern' Pairwise Kerning for Cyrillic"  433 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -28 "'kern' Pairwise Kerning for Cyrillic"  430 -14 "'kern' Pairwise Kerning for Cyrillic"  437 -64 "'kern' Pairwise Kerning for Cyrillic"  820 -76 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA65E
@@ -100195,7 +100193,7 @@ SplineSet
  77 -8 77 -8 67.5 10.5 c 128,-1,56
  58 29 58 29 58 86 c 0,0,1
 EndSplineSet
-Kerns2: 813 -76 "'kern' Pairwise Kerning for Cyrillic"  624 -76 "'kern' Pairwise Kerning for Cyrillic"  821 -118 "'kern' Pairwise Kerning for Cyrillic"  437 -88 "'kern' Pairwise Kerning for Cyrillic"  432 -166 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 812 -76 "'kern' Pairwise Kerning for Cyrillic"  624 -76 "'kern' Pairwise Kerning for Cyrillic"  820 -118 "'kern' Pairwise Kerning for Cyrillic"  437 -88 "'kern' Pairwise Kerning for Cyrillic"  432 -166 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA660
@@ -118205,12 +118203,12 @@ VStem: -32 494 122 320<427.543 1006.96> 716 226<1123.19 1316.8> 844 320<110.379 
 LayerCount: 3
 Fore
 Refer: 625 42572 N 1 0 0 1 0 0 3
-Refer: 829 -1 N 1 0 0 1 604 0 2
+Refer: 828 -1 N 1 0 0 1 604 0 2
 Refer: 694 63182 N 1 0 0 1 -80 0 2
 Validated: 32769
 Layer: 2
 Refer: 625 42572 N 1 0 0 1 0 0 3
-Refer: 829 -1 N 1 0 0 1 604 0 2
+Refer: 828 -1 N 1 0 0 1 604 0 2
 Refer: 694 63182 N 1 0 0 1 -80 0 2
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni047E gravecomb
 EndChar
@@ -118226,12 +118224,12 @@ VStem: 122 320<427.543 1006.96> 716 226<1123.19 1316.8> 844 320<110.379 504> 849
 LayerCount: 3
 Fore
 Refer: 625 42572 N 1 0 0 1 0 0 3
-Refer: 829 -1 N 1 0 0 1 524 0 2
+Refer: 828 -1 N 1 0 0 1 524 0 2
 Refer: 691 63177 N 1 0 0 1 1208 0 2
 Validated: 32769
 Layer: 2
 Refer: 625 42572 N 1 0 0 1 0 0 3
-Refer: 829 -1 N 1 0 0 1 524 0 2
+Refer: 828 -1 N 1 0 0 1 524 0 2
 Refer: 691 63177 N 1 0 0 1 1208 0 2
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni047E acutecomb
 EndChar
@@ -118888,7 +118886,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DE0_uni0487
-Encoding: 1114123 -1 722
+Encoding: 62688 62688 722
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -118899,19 +118897,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -8 0 2
+Refer: 818 -1 N 1 0 0 1 -8 0 2
 Refer: 576 11744 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -8 0 2
+Refer: 818 -1 N 1 0 0 1 -8 0 2
 Refer: 576 11744 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE0 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE1_uni0487
-Encoding: 1114124 -1 723
+Encoding: 62689 62689 723
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -118922,19 +118919,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -32 -36 2
+Refer: 818 -1 N 1 0 0 1 -32 -36 2
 Refer: 577 11745 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -32 -36 2
+Refer: 818 -1 N 1 0 0 1 -32 -36 2
 Refer: 577 11745 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE1 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE2_uni0487
-Encoding: 1114125 -1 724
+Encoding: 62690 62690 724
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -118945,23 +118941,22 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 578 11746 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 578 11746 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE2 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE3_uni0487
-Encoding: 1114126 -1 725
+Encoding: 62691 62691 725
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: 1110 173<-696.969 -643.471 -222.887 -189.651> 1239 44<-601.743 -379.001> 1499 111<-511.125 -454.756> 1524 126<120.179 248.384> 1810 60<-623.089 -296.492>
 VStem: -752 636<1240.32 1282.99>
 DStem2: -640 1323 -587 1330 0.515132 0.857111<-4.65684 233.199> -331 1550 -470 1489 0.437466 -0.899235<-19.2576 208.051>
@@ -118969,41 +118964,38 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -18 0 2
-Refer: 823 -1 N 1 0 0 1 0 0 2
-Validated: 32769
+Refer: 818 -1 N 1 0 0 1 -18 0 2
+Refer: 822 63459 N 1 0 0 1 0 0 2
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -18 0 2
-Refer: 823 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+Refer: 818 -1 N 1 0 0 1 -18 0 2
+Refer: 822 63459 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE3 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE4_uni0487
-Encoding: 1114127 -1 726
+Encoding: 62692 62692 726
 Width: 0
 VWidth: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
 HStem: 1084 136<-844.603 -693.829 -186.171 -35.3969> 1333 62<-535.874 -516 -364 -344.126> 1426 169<357.485 534.5> 1532 58<-801.496 -670.514 -209.486 -78.5037> 1824 60<-711.068 -274.893>
 VStem: -880 124<1413.78 1531.99> -555 230<1294.09 1446.17> -516 152<1097.58 1333 1395 1567.85> -124 124<1413.78 1531.99>
 AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 831 -1 N 1 0 0 1 -18 0 2
-Refer: 824 -1 N 1 0 0 1 0 0 2
-Validated: 32769
+Refer: 830 -1 N 1 0 0 1 -18 0 2
+Refer: 823 63460 N 1 0 0 1 0 0 2
 Layer: 2
-Refer: 831 -1 N 1 0 0 1 -18 0 2
-Refer: 824 -1 N 1 0 0 1 0 0 2
+Refer: 830 -1 N 1 0 0 1 -18 0 2
+Refer: 823 63460 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE4 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE5_uni0487
-Encoding: 1114128 -1 727
+Encoding: 62693 62693 727
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119014,19 +119006,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -8 0 2
-Refer: 825 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 -8 0 2
+Refer: 824 63461 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -8 0 2
-Refer: 825 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+Refer: 818 -1 N 1 0 0 1 -8 0 2
+Refer: 824 63461 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE5 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE6_uni0487
-Encoding: 1114129 -1 728
+Encoding: 62694 62694 728
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119037,19 +119028,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 582 11750 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 582 11750 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE6 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE7_uni0487
-Encoding: 1114130 -1 729
+Encoding: 62695 62695 729
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119060,19 +119050,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 583 11751 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 583 11751 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE7 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE8_uni0487
-Encoding: 1114131 -1 730
+Encoding: 62696 62696 730
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119084,18 +119073,17 @@ AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
 Refer: 501 1159 N 1 0 0 1 0 0 2
-Refer: 826 -1 N 1 0 0 1 0 0 2
+Refer: 825 63464 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
 Refer: 501 1159 N 1 0 0 1 0 0 2
-Refer: 826 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+Refer: 825 63464 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE8 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DE9_uni0487
-Encoding: 1114132 -1 731
+Encoding: 62697 62697 731
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119107,19 +119095,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 585 11753 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 585 11753 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE9 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DEA_uni0487
-Encoding: 1114133 -1 732
+Encoding: 62698 62698 732
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119130,19 +119117,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 4 0 2
+Refer: 818 -1 N 1 0 0 1 4 0 2
 Refer: 586 11754 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 4 0 2
+Refer: 818 -1 N 1 0 0 1 4 0 2
 Refer: 586 11754 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DEA uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DEB_uni0487
-Encoding: 1114134 -1 733
+Encoding: 62699 62699 733
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119153,19 +119139,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -24 0 2
+Refer: 818 -1 N 1 0 0 1 -24 0 2
 Refer: 587 11755 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -24 0 2
+Refer: 818 -1 N 1 0 0 1 -24 0 2
 Refer: 587 11755 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DEB uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DEC_uni0487
-Encoding: 1114135 -1 734
+Encoding: 62700 62700 734
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119176,19 +119161,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 32 0 2
+Refer: 818 -1 N 1 0 0 1 32 0 2
 Refer: 588 11756 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 32 0 2
+Refer: 818 -1 N 1 0 0 1 32 0 2
 Refer: 588 11756 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DEC uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DED_uni0487
-Encoding: 1114136 -1 735
+Encoding: 62701 62701 735
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119199,19 +119183,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 24 0 2
+Refer: 818 -1 N 1 0 0 1 24 0 2
 Refer: 589 11757 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 24 0 2
+Refer: 818 -1 N 1 0 0 1 24 0 2
 Refer: 589 11757 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DED uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DEE_uni0487
-Encoding: 1114137 -1 736
+Encoding: 62702 62702 736
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119223,18 +119206,17 @@ AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
 Refer: 501 1159 N 1 0 0 1 -22 0 2
-Refer: 827 -1 N 1 0 0 1 0 0 2
+Refer: 826 63470 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
 Refer: 501 1159 N 1 0 0 1 -22 0 2
-Refer: 827 -1 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+Refer: 826 63470 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DEE uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DEF_uni0487
-Encoding: 1114138 -1 737
+Encoding: 62703 62703 737
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119252,13 +119234,12 @@ Validated: 32769
 Layer: 2
 Refer: 501 1159 N 1 0 0 1 0 96 2
 Refer: 591 11759 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DEF uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF0_uni0487
-Encoding: 1114139 -1 738
+Encoding: 62704 62704 738
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119270,19 +119251,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 592 11760 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 592 11760 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF0 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF1_uni0487
-Encoding: 1114140 -1 739
+Encoding: 62705 62705 739
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119293,19 +119273,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -20 0 2
+Refer: 818 -1 N 1 0 0 1 -20 0 2
 Refer: 593 11761 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -20 0 2
+Refer: 818 -1 N 1 0 0 1 -20 0 2
 Refer: 593 11761 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF1 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF2_uni0487
-Encoding: 1114141 -1 740
+Encoding: 62706 62706 740
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119317,19 +119296,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 831 -1 N 1 0 0 1 0 0 2
+Refer: 830 -1 N 1 0 0 1 0 0 2
 Refer: 594 11762 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 831 -1 N 1 0 0 1 0 0 2
+Refer: 830 -1 N 1 0 0 1 0 0 2
 Refer: 594 11762 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF2 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF3_uni0487
-Encoding: 1114142 -1 741
+Encoding: 62707 62707 741
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119341,18 +119319,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 831 -1 N 1 0 0 1 0 0 2
+Refer: 830 -1 N 1 0 0 1 0 0 2
 Refer: 595 11763 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 831 -1 N 1 0 0 1 0 0 2
+Refer: 830 -1 N 1 0 0 1 0 0 2
 Refer: 595 11763 N 1 0 0 1 0 0 2
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF3 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF4_uni0487
-Encoding: 1114143 -1 742
+Encoding: 62708 62708 742
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119363,19 +119341,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 596 11764 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 596 11764 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF4 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF6_uni0487
-Encoding: 1114144 -1 743
+Encoding: 62710 62710 743
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119387,19 +119364,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 24 0 2
+Refer: 818 -1 N 1 0 0 1 24 0 2
 Refer: 598 11766 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 24 0 2
+Refer: 818 -1 N 1 0 0 1 24 0 2
 Refer: 598 11766 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF6 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF7_uni0487
-Encoding: 1114145 -1 744
+Encoding: 62711 62711 744
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119410,19 +119386,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 599 11767 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 599 11767 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF7 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF8_uni0487
-Encoding: 1114146 -1 745
+Encoding: 62712 62712 745
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119434,19 +119409,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 600 11768 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 600 11768 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF8 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DF9_uni0487
-Encoding: 1114147 -1 746
+Encoding: 62713 62713 746
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119463,13 +119437,12 @@ Validated: 32769
 Layer: 2
 Refer: 601 11769 N 1 0 0 1 0 0 2
 Refer: 501 1159 N 1 0 0 1 50 120 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DF9 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DFA_uni0487
-Encoding: 1114148 -1 747
+Encoding: 62714 62714 747
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119487,13 +119460,12 @@ Validated: 32769
 Layer: 2
 Refer: 602 11770 N 1 0 0 1 0 0 2
 Refer: 501 1159 N 1 0 0 1 -24 62 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DFA uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DFB_uni0487
-Encoding: 1114149 -1 748
+Encoding: 62715 62715 748
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119505,19 +119477,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -8 0 2
+Refer: 818 -1 N 1 0 0 1 -8 0 2
 Refer: 603 11771 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -8 0 2
+Refer: 818 -1 N 1 0 0 1 -8 0 2
 Refer: 603 11771 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DFB uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DFC_uni0487
-Encoding: 1114150 -1 749
+Encoding: 62716 62716 749
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119535,13 +119506,12 @@ Validated: 32769
 Layer: 2
 Refer: 604 11772 N 1 0 0 1 0 0 2
 Refer: 501 1159 N 1 0 0 1 -70 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DFC uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DFD_uni0487
-Encoding: 1114151 -1 750
+Encoding: 62717 62717 750
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119553,19 +119523,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -8 0 2
+Refer: 818 -1 N 1 0 0 1 -8 0 2
 Refer: 605 11773 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -8 0 2
+Refer: 818 -1 N 1 0 0 1 -8 0 2
 Refer: 605 11773 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DFD uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DFE_uni0487
-Encoding: 1114152 -1 751
+Encoding: 62718 62718 751
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119583,13 +119552,12 @@ Validated: 32769
 Layer: 2
 Refer: 606 11774 N 1 0 0 1 0 0 2
 Refer: 501 1159 N 1 0 0 1 -12 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DFE uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uni2DFF_uni0487
-Encoding: 1114153 -1 752
+Encoding: 62719 62719 752
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119601,19 +119569,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 831 -1 N 1 0 0 1 -48 0 2
+Refer: 830 -1 N 1 0 0 1 -48 0 2
 Refer: 607 11775 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 831 -1 N 1 0 0 1 -48 0 2
+Refer: 830 -1 N 1 0 0 1 -48 0 2
 Refer: 607 11775 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DFF uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uniA674_uni0487
-Encoding: 1114154 -1 753
+Encoding: 63092 63092 753
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119624,19 +119591,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 665 42612 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 665 42612 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uniA674 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uniA675_uni0487
-Encoding: 1114155 -1 754
+Encoding: 63093 63093 754
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119648,19 +119614,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 666 42613 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 0 0 2
 Refer: 666 42613 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uniA675 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uniA676_uni0487
-Encoding: 1114156 -1 755
+Encoding: 63094 63094 755
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119682,7 +119647,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uniA677_uni0487
-Encoding: 1114157 -1 756
+Encoding: 63095 63095 756
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119700,13 +119665,12 @@ Validated: 32769
 Layer: 2
 Refer: 668 42615 N 1 0 0 1 0 0 2
 Refer: 501 1159 N 1 0 0 1 -4 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uniA677 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uniA678_uni0487
-Encoding: 1114158 -1 757
+Encoding: 63096 63096 757
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119717,19 +119681,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -124 0 2
+Refer: 818 -1 N 1 0 0 1 -124 0 2
 Refer: 669 42616 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -124 0 2
+Refer: 818 -1 N 1 0 0 1 -124 0 2
 Refer: 669 42616 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uniA678 uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uniA679_uni0487
-Encoding: 1114159 -1 758
+Encoding: 63097 63097 758
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119751,7 +119714,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uniA67A_uni0487
-Encoding: 1114160 -1 759
+Encoding: 63098 63098 759
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119762,19 +119725,18 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 819 -1 N 1 0 0 1 -92 0 2
+Refer: 818 -1 N 1 0 0 1 -92 0 2
 Refer: 671 42618 N 1 0 0 1 0 0 2
 Validated: 32769
 Layer: 2
-Refer: 819 -1 N 1 0 0 1 -92 0 2
+Refer: 818 -1 N 1 0 0 1 -92 0 2
 Refer: 671 42618 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uniA67A uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uniA67B_uni0487
-Encoding: 1114161 -1 760
+Encoding: 63099 63099 760
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119791,13 +119753,12 @@ Validated: 32769
 Layer: 2
 Refer: 672 42619 N 1 0 0 1 0 0 2
 Refer: 501 1159 N 1 0 0 1 -10 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uniA67B uni0487
 Colour: ffff00
 EndChar
 
 StartChar: uniA69F_uni0487
-Encoding: 1114162 -1 761
+Encoding: 63135 63135 761
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -119814,13 +119775,12 @@ Validated: 32769
 Layer: 2
 Refer: 501 1159 N 1 0 0 1 -28 0 2
 Refer: 681 42655 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uniA69F uni0487
 Colour: ffff00
 EndChar
 
 StartChar: afii10194.anchor
-Encoding: 1114163 -1 762
+Encoding: 58511 58511 762
 Width: 1468
 VWidth: 0
 Flags: W
@@ -120119,7 +120079,7 @@ Substitution2: "Low Variants for Accents-1" afii10194.lowanchor
 EndChar
 
 StartChar: gravecomb.cap
-Encoding: 1114164 -1 763
+Encoding: 1114115 -1 763
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120138,7 +120098,7 @@ Colour: ffff00
 EndChar
 
 StartChar: acutecomb.cap
-Encoding: 1114165 -1 764
+Encoding: 1114116 -1 764
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120157,7 +120117,7 @@ Colour: ffff00
 EndChar
 
 StartChar: circumflexcmb.cap
-Encoding: 1114166 -1 765
+Encoding: 1114117 -1 765
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120174,7 +120134,7 @@ Colour: ffff00
 EndChar
 
 StartChar: tildecomb.cap
-Encoding: 1114167 -1 766
+Encoding: 1114118 -1 766
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120191,7 +120151,7 @@ Colour: ffff00
 EndChar
 
 StartChar: macroncmb.cap
-Encoding: 1114168 -1 767
+Encoding: 1114119 -1 767
 Width: 0
 VWidth: 2078
 GlyphClass: 4
@@ -120210,7 +120170,7 @@ Colour: ffff00
 EndChar
 
 StartChar: brevecmb.cap
-Encoding: 1114169 -1 768
+Encoding: 1114120 -1 768
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120228,7 +120188,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0307.cap
-Encoding: 1114170 -1 769
+Encoding: 1114121 -1 769
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120246,7 +120206,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0308.cap
-Encoding: 1114171 -1 770
+Encoding: 1114122 -1 770
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120264,7 +120224,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni030A.cap
-Encoding: 1114172 -1 771
+Encoding: 1114123 -1 771
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120282,7 +120242,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni030B.cap
-Encoding: 1114173 -1 772
+Encoding: 1114124 -1 772
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120300,7 +120260,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni030C.cap
-Encoding: 1114174 -1 773
+Encoding: 1114125 -1 773
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120317,7 +120277,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni030F.cap
-Encoding: 1114175 -1 774
+Encoding: 1114126 -1 774
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120335,7 +120295,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0311.cap
-Encoding: 1114176 -1 775
+Encoding: 1114127 -1 775
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120353,7 +120313,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0327.cap
-Encoding: 1114177 -1 776
+Encoding: 1114128 -1 776
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120370,7 +120330,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0328.cap
-Encoding: 1114178 -1 777
+Encoding: 1114129 -1 777
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120387,7 +120347,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0478.cap
-Encoding: 1114179 -1 778
+Encoding: 58243 58243 778
 Width: 2720
 VWidth: 0
 Flags: W
@@ -120408,7 +120368,7 @@ Refer: 396 1054 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0485.cap
-Encoding: 1114180 -1 779
+Encoding: 1114130 -1 779
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120648,7 +120608,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0308_gravecomb.cap
-Encoding: 1114182 -1 781
+Encoding: 1114131 -1 781
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120791,7 +120751,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0308_acutecomb.cap
-Encoding: 1114183 -1 782
+Encoding: 1114132 -1 782
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -120934,7 +120894,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0485_gravecomb.cap
-Encoding: 1114184 -1 783
+Encoding: 1114133 -1 783
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -121079,7 +121039,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0485_acutecomb.cap
-Encoding: 1114185 -1 784
+Encoding: 1114134 -1 784
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -121526,7 +121486,7 @@ Colour: ffff00
 EndChar
 
 StartChar: periodcentered.cat
-Encoding: 1114188 -1 787
+Encoding: 1114135 -1 787
 Width: 528
 VWidth: 2078
 GlyphClass: 5
@@ -121602,7 +121562,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10093.connecting
-Encoding: 1114189 -1 788
+Encoding: 58487 58487 788
 Width: 1406
 VWidth: 0
 Flags: W
@@ -121827,7 +121787,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA651.connecting
-Encoding: 1114190 -1 789
+Encoding: 58474 58474 789
 Width: 1716
 VWidth: 0
 Flags: W
@@ -122115,7 +122075,7 @@ EndSplineSet
 EndChar
 
 StartChar: brevecmb.cyrcap
-Encoding: 1114191 -1 790
+Encoding: 1114136 -1 790
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -122133,7 +122093,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0308.cyrcap
-Encoding: 1114192 -1 791
+Encoding: 1114137 -1 791
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -122151,7 +122111,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0308_gravecomb.cyrcap
-Encoding: 1114193 -1 792
+Encoding: 1114138 -1 792
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -122305,7 +122265,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0308_acutecomb.cyrcap
-Encoding: 1114194 -1 793
+Encoding: 1114139 -1 793
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -122459,7 +122419,7 @@ Colour: ffff00
 EndChar
 
 StartChar: dieresis.cyrl
-Encoding: 1114195 -1 794
+Encoding: 1114140 -1 794
 Width: 880
 VWidth: 0
 Flags: W
@@ -122562,7 +122522,7 @@ EndSplineSet
 EndChar
 
 StartChar: dotaccent.cyrl
-Encoding: 1114196 -1 795
+Encoding: 1114141 -1 795
 Width: 880
 VWidth: 0
 Flags: W
@@ -122637,7 +122597,7 @@ EndSplineSet
 EndChar
 
 StartChar: brevecmb.cyrl
-Encoding: 1114197 -1 796
+Encoding: 1114142 -1 796
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -122656,7 +122616,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0307.cyrl
-Encoding: 1114198 -1 797
+Encoding: 1114143 -1 797
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -122675,7 +122635,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0308.cyrl
-Encoding: 1114199 -1 798
+Encoding: 1114144 -1 798
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -122694,7 +122654,7 @@ Colour: ffff00
 EndChar
 
 StartChar: Dieresis.cyrl
-Encoding: 1114200 -1 799
+Encoding: 1114145 -1 799
 Width: 880
 VWidth: 0
 Flags: W
@@ -122797,7 +122757,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0308_gravecomb.cyrl
-Encoding: 1114201 -1 800
+Encoding: 1114146 -1 800
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -122940,7 +122900,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni0308_acutecomb.cyrl
-Encoding: 1114202 -1 801
+Encoding: 1114147 -1 801
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -123082,26 +123042,8 @@ Substitution2: "Capital Accents-1" uni0308_acutecomb.cyrcap
 Colour: ffff00
 EndChar
 
-StartChar: afii10103.dieresis
-Encoding: 1114203 -1 802
-Width: 534
-VWidth: 0
-Flags: W
-HStem: -10 21<245 289> 934 20<284 326> 1102 240<-34.542 184.542 349.458 568.542>
-VStem: -45 240<1112.46 1331.54> 152 230<-6.37571 936.965> 339 240<1112.46 1331.54>
-LayerCount: 3
-Fore
-Refer: 452 1110 N 1 0 0 1 0 0 3
-Refer: 794 -1 N 1 0 0 1 -173 0 2
-Validated: 32769
-Layer: 2
-Refer: 452 1110 N 1 0 0 1 0 0 3
-Refer: 794 -1 N 1 0 0 1 -173 0 2
-Substitution2: "Dotless Variants-1" afii10103
-EndChar
-
 StartChar: afii10103.dotaccent
-Encoding: 1114204 -1 803
+Encoding: 59686 59686 802
 Width: 534
 VWidth: 0
 Flags: W
@@ -123119,7 +123061,7 @@ Substitution2: "Dotless Variants-1" afii10103
 EndChar
 
 StartChar: iogonek.dotless
-Encoding: 1114205 -1 804
+Encoding: 57916 57916 803
 Width: 686
 VWidth: 0
 GlyphClass: 2
@@ -123369,7 +123311,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10105.dotless
-Encoding: 1114206 -1 805
+Encoding: 57477 57477 804
 Width: 712
 VWidth: 0
 GlyphClass: 5
@@ -123469,7 +123411,7 @@ EndSplineSet
 EndChar
 
 StartChar: acute.high
-Encoding: 1114207 -1 806
+Encoding: 1114148 -1 805
 Width: 880
 VWidth: 0
 Flags: W
@@ -123543,7 +123485,7 @@ EndSplineSet
 EndChar
 
 StartChar: circumflex.high
-Encoding: 1114208 -1 807
+Encoding: 1114149 -1 806
 Width: 880
 VWidth: 0
 Flags: W
@@ -123623,7 +123565,7 @@ EndSplineSet
 EndChar
 
 StartChar: acutecomb.high
-Encoding: 1114209 -1 808
+Encoding: 1114150 -1 807
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -123633,15 +123575,15 @@ VStem: -532 460
 AnchorPoint: "HighMark" -440 1620 mark 0
 LayerCount: 3
 Fore
-Refer: 806 -1 N 1 0 0 1 -880 0 2
+Refer: 805 -1 N 1 0 0 1 -880 0 2
 Validated: 32769
 Layer: 2
-Refer: 806 -1 N 1 0 0 1 -880 0 2
+Refer: 805 -1 N 1 0 0 1 -880 0 2
 Colour: ffff00
 EndChar
 
 StartChar: circumflexcmb.high
-Encoding: 1114210 -1 809
+Encoding: 1114151 -1 808
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -123650,15 +123592,15 @@ HStem: 1612 342
 AnchorPoint: "HighMark" -440 1620 mark 0
 LayerCount: 3
 Fore
-Refer: 807 -1 N 1 0 0 1 -880 0 2
+Refer: 806 -1 N 1 0 0 1 -880 0 2
 Validated: 32769
 Layer: 2
-Refer: 807 -1 N 1 0 0 1 -880 0 2
+Refer: 806 -1 N 1 0 0 1 -880 0 2
 Colour: ffff00
 EndChar
 
 StartChar: uniA66F.large
-Encoding: 1114211 -1 810
+Encoding: 57372 57372 809
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -123797,7 +123739,7 @@ Colour: ffff00
 EndChar
 
 StartChar: afii10146.low
-Encoding: 1114212 -1 811
+Encoding: 57586 57586 810
 Width: 1610
 VWidth: 0
 Flags: W
@@ -124073,7 +124015,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10194.low
-Encoding: 1114213 -1 812
+Encoding: 57580 57580 811
 Width: 1360
 VWidth: 0
 Flags: W
@@ -124388,11 +124330,11 @@ SplineSet
  734 425 734 425 734 404 c 2,80,-1
  734 90 l 2,65,66
 EndSplineSet
-Kerns2: 437 -44 "'kern' Pairwise Kerning for Cyrillic"  821 -74 "'kern' Pairwise Kerning for Cyrillic"  432 -106 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 431 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  432 -106 "'kern' Pairwise Kerning for Cyrillic"  820 -74 "'kern' Pairwise Kerning for Cyrillic"  437 -44 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA64B.low
-Encoding: 1114214 -1 813
+Encoding: 57572 57572 812
 Width: 982
 VWidth: 0
 Flags: W
@@ -124639,7 +124581,7 @@ Kerns2: 418 -104 "'kern' Pairwise Kerning for Cyrillic"
 EndChar
 
 StartChar: uniA653.low
-Encoding: 1114215 -1 814
+Encoding: 57584 57584 813
 Width: 1740
 VWidth: 0
 Flags: W
@@ -124977,11 +124919,11 @@ SplineSet
  1114 425 1114 425 1114 404 c 2,97,-1
  1114 90 l 2,82,83
 EndSplineSet
-Kerns2: 437 -44 "'kern' Pairwise Kerning for Cyrillic"  821 -74 "'kern' Pairwise Kerning for Cyrillic"  432 -106 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  431 -44 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 431 -44 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  432 -106 "'kern' Pairwise Kerning for Cyrillic"  820 -74 "'kern' Pairwise Kerning for Cyrillic"  437 -44 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10194.lowanchor
-Encoding: 1114216 -1 815
+Encoding: 57585 57585 814
 Width: 1468
 VWidth: 0
 Flags: W
@@ -125283,7 +125225,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10043.modern
-Encoding: 1114217 -1 816
+Encoding: 58421 58421 815
 Width: 2062
 VWidth: 0
 Flags: W
@@ -125576,7 +125518,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10091.modern
-Encoding: 1114218 -1 817
+Encoding: 58427 58427 816
 Width: 1768
 VWidth: 0
 Flags: W
@@ -125808,7 +125750,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C82
-Encoding: 7298 7298 818
+Encoding: 7298 7298 817
 Width: 632
 VWidth: 0
 GlyphClass: 2
@@ -125951,7 +125893,7 @@ Kerns2: 509 -28 "'kern' Pairwise Kerning for Cyrillic"  426 -14 "'kern' Pairwise
 EndChar
 
 StartChar: uni0487.narrow
-Encoding: 1114219 -1 819
+Encoding: 1114153 -1 818
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -126067,7 +126009,7 @@ Colour: ffff00
 EndChar
 
 StartChar: afii10041.old
-Encoding: 1114220 -1 820
+Encoding: 58400 58400 819
 Width: 1470
 Flags: W
 HStem: 0 60<490 594 876 980> 1360 60<48 152 434 538 932 1036 1318 1422>
@@ -126285,7 +126227,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10089.old
-Encoding: 1114221 -1 821
+Encoding: 58408 58408 820
 Width: 1054
 VWidth: 0
 Flags: W
@@ -126454,11 +126396,11 @@ SplineSet
  405 376 405 376 390 378 c 0,34,35
  88 428 88 428 88 705 c 2,0,-1
 EndSplineSet
-Kerns2: 418 -108 "'kern' Pairwise Kerning for Cyrillic"  426 -60 "'kern' Pairwise Kerning for Cyrillic"  425 -74 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 428 -14 "'kern' Pairwise Kerning for Cyrillic"  425 -74 "'kern' Pairwise Kerning for Cyrillic"  426 -60 "'kern' Pairwise Kerning for Cyrillic"  418 -108 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA641.short
-Encoding: 1114222 -1 822
+Encoding: 57568 57568 821
 Width: 956
 VWidth: 0
 Flags: W
@@ -126684,16 +126626,16 @@ SplineSet
  152 745 152 745 110 816 c 1,55,56
  76 876 76 876 76 905 c 0,0,1
 EndSplineSet
-PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=642 dy=160 dh=604 dv=0 dx=0 dy=0 dh=680 dv=0
-PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=498 dy=128 dh=460 dv=0 dx=0 dy=0 dh=536 dv=0
-PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=720 dy=128 dh=682 dv=0 dx=0 dy=0 dh=758 dv=0
-PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uni20DD dx=544 dy=128 dh=506 dv=0 dx=0 dy=0 dh=582 dv=0
-PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uni0489 dx=720 dy=128 dh=682 dv=0 dx=0 dy=0 dh=758 dv=0
-PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uni0488 dx=638 dy=128 dh=600 dv=0 dx=0 dy=0 dh=676 dv=0
+PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uni0488 dx=638 dy=128 dh=600 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=0 dh=676 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uni0489 dx=720 dy=128 dh=682 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=0 dh=758 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uni20DD dx=544 dy=128 dh=506 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=0 dh=582 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=720 dy=128 dh=682 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=0 dh=758 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=498 dy=128 dh=460 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=0 dh=536 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=642 dy=160 dh=604 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=0 dh=680 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni2DE3.small
-Encoding: 1114223 -1 823
+Encoding: 63459 63459 822
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -126958,7 +126900,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DE4.small
-Encoding: 1114224 -1 824
+Encoding: 63460 63460 823
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -127304,7 +127246,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DE5.small
-Encoding: 1114225 -1 825
+Encoding: 63461 63461 824
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -127549,7 +127491,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DE8.small
-Encoding: 1114226 -1 826
+Encoding: 63464 63464 825
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -127789,7 +127731,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni2DEE.small
-Encoding: 1114227 -1 827
+Encoding: 63470 63470 826
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -127943,7 +127885,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni1C85
-Encoding: 7301 7301 828
+Encoding: 7301 7301 827
 Width: 1670
 VWidth: 0
 Flags: W
@@ -128078,7 +128020,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DEE.uni047E
-Encoding: 1114228 -1 829
+Encoding: 1114154 -1 828
 Width: 880
 VWidth: 0
 Flags: W
@@ -128233,7 +128175,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DEE.uni047F
-Encoding: 1114229 -1 830
+Encoding: 1114155 -1 829
 Width: 880
 VWidth: 0
 Flags: W
@@ -128386,7 +128328,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0487.wide
-Encoding: 1114230 -1 831
+Encoding: 1114156 -1 830
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -128511,7 +128453,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uniA69E
-Encoding: 42654 42654 832
+Encoding: 42654 42654 831
 Width: 0
 VWidth: 0
 Flags: W
@@ -128775,7 +128717,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uniA69E_uni0487
-Encoding: 1114231 -1 833
+Encoding: 63134 63134 832
 Width: 0
 VWidth: 0
 GlyphClass: 4
@@ -128786,14 +128728,14 @@ AnchorPoint: "CyrTopCap" -440 1080 mark 0
 AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
-Refer: 832 42654 N 1 0 0 1 0 0 2
-Refer: 819 -1 N 1 0 0 1 18 146 2
-Validated: 98305
+Refer: 831 42654 N 1 0 0 1 0 0 2
+Refer: 818 -1 N 1 0 0 1 18 146 2
+Validated: 32769
 Ligature2: "'ccmp' Simple Glyph Composition-1" uniA69E uni0487
 EndChar
 
 StartChar: uniFE2E
-Encoding: 65070 65070 834
+Encoding: 65070 65070 833
 Width: 0
 VWidth: 0
 Flags: W
@@ -128910,7 +128852,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniFE2F
-Encoding: 65071 65071 835
+Encoding: 65071 65071 834
 Width: 0
 VWidth: 0
 Flags: W
@@ -129014,7 +128956,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C81
-Encoding: 7297 7297 836
+Encoding: 7297 7297 835
 Width: 1156
 VWidth: 0
 Flags: W
@@ -129344,7 +129286,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C80
-Encoding: 7296 7296 837
+Encoding: 7296 7296 836
 Width: 955
 VWidth: 0
 Flags: W
@@ -129568,7 +129510,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C83
-Encoding: 7299 7299 838
+Encoding: 7299 7299 837
 Width: 1146
 VWidth: 0
 Flags: W
@@ -129752,7 +129694,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C84
-Encoding: 7300 7300 839
+Encoding: 7300 7300 838
 Width: 788
 VWidth: 0
 Flags: W
@@ -129891,7 +129833,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C86
-Encoding: 7302 7302 840
+Encoding: 7302 7302 839
 Width: 960
 VWidth: 0
 Flags: W
@@ -130206,7 +130148,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C87
-Encoding: 7303 7303 841
+Encoding: 7303 7303 840
 Width: 940
 VWidth: 0
 Flags: W
@@ -130505,7 +130447,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C88
-Encoding: 7304 7304 842
+Encoding: 7304 7304 841
 Width: 632
 VWidth: 0
 Flags: W
@@ -130899,7 +130841,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniFE26
-Encoding: 65062 65062 843
+Encoding: 65062 65062 842
 Width: 0
 VWidth: 0
 Flags: W
@@ -130910,7 +130852,7 @@ AnchorPoint: "CyrMark" -440 1100 mark 0
 LayerCount: 3
 Fore
 Refer: 110 175 N 1 0 0 1 -844 168 2
-Validated: 98305
+Validated: 32769
 Layer: 2
 Refer: 110 175 N 1 0 0 1 -844 168 2
 EndChar
