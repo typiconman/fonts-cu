@@ -1,39 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-    <uniqueid id="ru.org.thessalonica.Monomachus" />
-    <vendor name="Font Vendor" url="http://www.thessalonica.org.ru" />
+    <uniqueid id="net.ponomar.MonomakhUnicode" />
+    <vendor name="Ponomar Technologies, Inc." url="http://www.ponomar.net/" />
+    <credits>
+        <credit
+            name="Alexey Kryukov"
+            url="http://www.thessalonica.org.ru"
+            role="Original design of Monomachus font" />
+        <credit
+            name="Aleksandr Andreev"
+            url="http://www.ponomar.net/"
+            role="Reencoding, redesing, and other features" />
+    </credits>
     <description>
         <text lang="en">
-            Theano is a common name for some fonts I have designed from historic
-            samples. Most of these fonts were initially intended as Greek-only
-            faces, but finally I found it interesting to supplement them with
-            stylistically compatible Latin letters, thus reproducing the general
-            look of old classical text editions. For this reason Theano fonts currently
-            have no additional weights or styles and don't provide extensive Unicode
-            coverage: just a standard set of Latin and Greek characters (including
-            the full polytonic set) and some additional characters I found interesting
-            to design. Nevertheless I decided to make them publicly available in the
-            hope they can be useful for other classicists or medievalists.
+            Originally released as Monomachus, this font has been reencoded and renamed,
+	    with permission from original author.
 
-            The package is named after Theano, a famous Ancient Greek woman
-            philosopher, who was first a student of Pythagoras, and supposedly became
-            his wife. In 1211 or 1212 Michael Choniates, a highly educated Greek
-            Metropolitan of Athens, wrote a large poem devoted to Theano (the προοίμιον
-            of that poem is used as an epigraph for this document). Thus Theano seemed a
-            good example of a person joining the ancient and the medieval world.
-            Another reason for which I selected her name is that it starts from
-            theta, just like Thessalonica (Θεσσαλονίκη in Greek)~--- the name of my
-            keyboard input and conversion utility for Ancient Greek.
-
-            Theano Didot is a classicist face, with both its Roman and Greek
-            parts implemented in Didot style. Unlike Old Standard, this font is
-            designed from French sources.
+	    Monomakh Unicode is a font intended for typesetting Ustav-era Church Slavonic text.
+	    See documentation for more information.
         </text>
     </description>
     <license url="http://scripts.sil.org/ofl" id="org.sil.ofl.11">
         <text lang="en">
-            Copyright (c) 2011 Alexey Kryukov (http://www.thessalonica.org.ru),
-            with Reserved Font Name "Monomachus".
+            Copyright (c) 2016 Aleksandr Andreev (http://sci.ponomar.net/),
+            without Reserved Font Name.
 
             This Font Software is licensed under the SIL Open Font License, Version 1.1.
             This license is copied below, and is also available with a FAQ at:

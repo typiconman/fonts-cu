@@ -1,14 +1,14 @@
 FONTLOG
-Monomachus font family
+Monomakh Unicode font family
 ========================
 
-This file provides detailed information on the Monomachus font. This information
-should be distributed along with the Monomachus font and any derivative works.
+This file provides detailed information on the Monomakh Unicode font. This information
+should be distributed along with the Monomakh Unicode font and any derivative works.
 
 Basic Font Information
 ----------------------
 
-Monomachus is a Cyrillic font implemented in a mixed ustav/poluustav
+Monomakh Unicode is a Cyrillic font implemented in a mixed ustav/poluustav
 style and intended to cover needs of researches dealing with Slavic
 history and philology. It includes all historical Cyrillic characters
 currently defined in the Unicode standard and, unlike most other Old
@@ -21,6 +21,12 @@ as Latin.
 
 ChangeLog
 ---------
+2016 Oct 9 (Aleksandr Andreev) Version 1.1
+
+     * Rename Monomachus to Monomakh Unicode
+     * Reencode characters in the PUA
+     * Add characters for Unicode 9.0
+
 2012 Aug 12 (Alexey Kryukov) Version 1.0-prerelease
 
     * Move the development to the github platform and publish the current
