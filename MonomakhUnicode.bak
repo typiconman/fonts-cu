@@ -1,0 +1,3750 @@
+/*********************************************************************
+/*
+/* This file is part of the Monomakh Unicode font project
+/* (http://sci.ponomar.net/) and is
+/* Copyright (C) 2016 Aleksandr Andreev <aleksandr.andreev@gmail.com>,
+/* Based on Monomachus
+/* Copyright (C) 2011 Alexey Kryukov <amkryukov@gmail.com>,
+/* with Reserved Font Name "Monomachus".
+/*
+/* This Font Software is licensed under the SIL Open Font License,
+/* Version 1.1.
+/*
+/* You should have received a copy of the license along with this Font
+/* Software. If this is not the case, go to (http://scripts.sil.org/OFL)
+/* for all the details including a FAQ.
+/*
+/*********************************************************************/
+
+#define opt4(a) [a [a [a [a]? ]? ]? ]?
+#define attDone user1
+#define attDigit user2
+
+AutoPseudo = false;
+Bidi = false;
+environment { MUnits = 2048 }
+
+table( feature )
+	ligatures {
+		id = "liga";
+		name.0x0409 = string( "Latin Ligatures" );
+		name.0x0419 = string( "Латинские лигатуры" );
+		default = common;
+		settings {
+			no {
+				value = 0;
+				name.0x0409 = string( "No Ligatures" );
+				name.0x0419 = string( "Без лигатур" );
+			}
+			common {
+				value = 2;
+				name.0x0409 = string( "Common Ligatures" );
+				name.0x0419 = string( "Стандартные лигатуры" );
+			}
+		}
+	}
+	diphthong {
+		id = "dphl";
+		name.0x0409 = string( "Diphthong Ligatures" );
+		name.0x0419 = string( "Лигатуры для латинских диграфов" );
+	}
+	romanian {
+		id = "rolc";
+		name.0x0409 = string( "Localized Forms for Romanian" );
+		name.0x0419 = string( "Локализованные формы для румынского языка (в латинице)" );
+		default = no;
+		settings {
+			no {
+				value = 0;
+				name.0x0409 = string( "No Localized Forms" );
+				name.0x0419 = string( "Без локализованных форм" );
+			}
+			required {
+				value = 1;
+				name.0x0409 = string( "Required Localized Forms" );
+				name.0x0419 = string( "Обязательные локализованные формы" );
+			}
+		}
+	}
+	cyrdecimali {
+		id = "deci";
+		name.0x0409 = string( "Cyrillic Decimal I" );
+		name.0x0419 = string( "Кириллическое десятичное «І»" );
+		default = nodots;
+		settings {
+			nodots {
+				value = 0;
+				name.0x0409 = string( "Without Dots" );
+				name.0x0419 = string( "Без точек" );
+			}
+			singledot {
+				value = 1;
+				name.0x0409 = string( "With a Single Dot" );
+				name.0x0419 = string( "С одной точкой" );
+			}
+			doubledot {
+				value = 2;
+				name.0x0409 = string( "With a Double Dot" );
+				name.0x0419 = string( "С двумя точками" );
+			}
+		}
+	}
+	cyrzemlya {
+		id = "zeml";
+		name.0x0409 = string( "Cyrillic Zemlya" );
+		name.0x0419 = string( "Кириллическое «З» («Земля»)" );
+		default = round;
+		settings {
+			round {
+				value = 0;
+				name.0x0409 = string( "Round" );
+				name.0x0419 = string( "Округлая форма" );
+			}
+			sharp {
+				value = 1;
+				name.0x0409 = string( "Sharp" );
+				name.0x0419 = string( "Заостренная форма" );
+			}
+		}
+	}
+	cyrcherv {
+		id = "chrv";
+		name.0x0409 = string( "Cyrillic Cherv" );
+		name.0x0419 = string( "Кириллическое «Ч» («Червь»)" );
+		default = modern;
+		settings {
+			modern {
+				value = 0;
+				name.0x0409 = string( "Modern (Single Sided)" );
+				name.0x0419 = string( "Современная форма (односторонняя)" );
+			}
+			old {
+				value = 1;
+				name.0x0409 = string( "Old (Double Sided)" );
+				name.0x0419 = string( "Архаическая форма (двусторонняя)" );
+			}
+		}
+	}
+	cyrshcha {
+		id = "shch";
+		name.0x0409 = string( "Cyrillic Shcha" );
+		name.0x0419 = string( "Кириллическое «Щ» («Ща»)" );
+		default = old;
+		settings {
+			modern {
+				value = 0;
+				name.0x0409 = string( "Modern (Descender Right)" );
+				name.0x0419 = string( "Современная форма (выносная справа)" );
+			}
+			old {
+				value = 1;
+				name.0x0409 = string( "Old (Descender Centered)" );
+				name.0x0419 = string( "Архаическая форма (выносная посередине)" );
+			}
+		}
+	}
+	cyrlcyery {
+		id = "yery";
+		name.0x0409 = string( "Cyrillic Yery" );
+		name.0x0419 = string( "Кириллическое «Ы»" );
+		default = disconnected;
+		settings {
+			disconnected {
+				value = 0;
+				name.0x0409 = string( "Without a Connecting Line" );
+				name.0x0419 = string( "Без соединительной линии" );
+			}
+			connected {
+				value = 1;
+				name.0x0409 = string( "With a Connecting Line" );
+				name.0x0419 = string( "С соединительной линией" );
+			}
+		}
+	}
+	cyrlctverdo {
+		id = "tvrd";
+		name.0x0409 = string( "Cyrillic Tverdo" );
+		name.0x0419 = string( "Кириллическое «Т»" );
+		default = single;
+		settings {
+			single {
+				value = 0;
+				name.0x0409 = string( "With One Leg" );
+				name.0x0419 = string( "С одной вертикалью" );
+			}
+			triple {
+				value = 1;
+				name.0x0409 = string( "With Three Legs" );
+				name.0x0419 = string( "С тремя вертикалями" );
+			}
+		}
+	}
+	cyrlcyat {
+		id = "cyat";
+		name.0x0409 = string( "Cyrillic Yat" );
+		name.0x0419 = string( "Кириллический «Ять»" );
+		default = backbeak;
+		settings {
+			backbeak {
+				value = 0;
+				name.0x0409 = string( "With a Back Beak" );
+				name.0x0419 = string( "С клювом сзади" );
+			}
+			backstem {
+				value = 1;
+				name.0x0409 = string( "With an Additional Vertical Stem" );
+				name.0x0419 = string( "С дополнительной вертикалью" );
+			}
+		}
+	}
+	lettertitlos {
+		id = "lttl";
+		name.0x0409 = string( "Cyrillic Combining Letters (Letter-Titlos)" );
+		name.0x0419 = string( "Кириллические буквотитла" );
+		default = notitlo;
+		settings {
+			notitlo {
+				value = 0;
+				name.0x0409 = string( "Without Pokrytie (Unicode Compliant)" );
+				name.0x0419 = string( "Не добавлять покрытие" );
+			}
+			withtitlo {
+				value = 1;
+				name.0x0409 = string( "Add Pokrytie, when Appropriate" );
+				// NB: parsing fails if there is a string with capital Cyrillic DE
+				name.0x0419 = string( "добавлять покрытие, если требуется правилами набора для ЦС" );
+			}
+		}
+	}
+	osdigits {
+		id = "cnum";
+		name.0x0409 = string( "Convert Arabic Digits to Church Slavonic" );
+		name.0x0419 = string( "Преобразовывать арабские цифры в славянские" );
+	}
+	hipnotation {
+		id = "hipb";
+		name.0x0409 = string( "Convert HIP-6B Keystrokes to Church Slavonic Characters" );
+		name.0x0419 = string( "Преобразовывать последовательности HIP-6B в ЦС символы" );
+	}
+endtable
+
+table( language )
+	romanian {
+		languages = ( "ro", "ron", "mo", "mol" );
+		romanian = required;
+	}
+endtable
+
+table( glyph )
+/*********************************************************************
+/*          Glyph Properties and Variable Definitions                *
+/*********************************************************************/
+
+	g_space = postscript( "space" );
+	g_exclam = postscript( "exclam" );
+	g_quotedbl = postscript( "quotedbl" );
+	g_numbersign = postscript( "numbersign" );
+	g_dollar = postscript( "dollar" );
+	g_percent = postscript( "percent" );
+	g_ampersand = postscript( "ampersand" );
+	g_quotesingle = postscript( "quotesingle" );
+	g_parenleft = postscript( "parenleft" );
+	g_parenright = postscript( "parenright" );
+	g_asterisk = postscript( "asterisk" );
+	g_plus = postscript( "plus" );
+	g_comma = postscript( "comma" );
+	g_hyphen = postscript( "hyphen" );
+	g_period = postscript( "period" );
+	g_slash = postscript( "slash" );
+	g_zero = postscript( "zero" );
+	g_one = postscript( "one" );
+	g_two = postscript( "two" );
+	g_three = postscript( "three" );
+	g_four = postscript( "four" );
+	g_five = postscript( "five" );
+	g_six = postscript( "six" );
+	g_seven = postscript( "seven" );
+	g_eight = postscript( "eight" );
+	g_nine = postscript( "nine" );
+	g_colon = postscript( "colon" );
+	g_semicolon = postscript( "semicolon" );
+	g_less = postscript( "less" );
+	g_equal = postscript( "equal" );
+	g_greater = postscript( "greater" );
+	g_question = postscript( "question" );
+	g_at = postscript( "at" );
+	g_A = postscript( "A" ) {
+		apBottom_base = point( 592m, 0m );
+		apTopCap_base = point( 688m, 1560m );
+	};
+	g_B = postscript( "B" ) {
+		apBottom_base = point( 592m, 0m );
+	};
+	g_C = postscript( "C" ) {
+		apBottom_base = point( 830m, 0m );
+		apTopCap_base = point( 830m, 1560m );
+	};
+	g_D = postscript( "D" ) {
+		apBottom_base = point( 640m, 0m );
+		apTopCap_base = point( 640m, 1560m );
+	};
+	g_E = postscript( "E" ) {
+		apBottom_base = point( 630m, 0m );
+		apTopCap_base = point( 622m, 1560m );
+	};
+	g_F = postscript( "F" ) {
+		apBottom_base = point( 344m, 0m );
+	};
+	g_G = postscript( "G" ) {
+		apTopCap_base = point( 830m, 1560m );
+		apBottom_base = point( 836m, 0m );
+	};
+	g_H = postscript( "H" ) {
+		apTopCap_base = point( 800m, 1560m );
+		apBottom_base = point( 800m, 0m );
+	};
+	g_I = postscript( "I" ) {
+		apTopCap_base = point( 341m, 1560m );
+		apBottom_base = point( 341m, 0m );
+	};
+	g_J = postscript( "J" ) {
+		apBottom_base = point( 404m, 0m );
+		apTopCap_base = point( 690m, 1560m );
+	};
+	g_K = postscript( "K" ) {
+		apBottom_base = point( 830m, 0m );
+	};
+	g_L = postscript( "L" ) {
+		apTopCap_base = point( 404m, 1560m );
+		apBottom_base = point( 672m, 0m );
+	};
+	g_M = postscript( "M" ) {
+		apBottom_base = point( 906m, 0m );
+	};
+	g_N = postscript( "N" ) {
+		apTopCap_base = point( 836m, 1560m );
+		apBottom_base = point( 798m, 0m );
+	};
+	g_O = postscript( "O" ) {
+		apTopCap_base = point( 830m, 1560m );
+		apBottom_base = point( 830m, 0m );
+	};
+	g_P = postscript( "P" ) {
+		apBottom_base = point( 344m, 0m );
+	};
+	g_Q = postscript( "Q" ) {
+		apBottom_base = point( 440m, 0m );
+	};
+	g_R = postscript( "R" ) {
+		apTopCap_base = point( 626m, 1560m );
+		apBottom_base = point( 816m, 0m );
+	};
+	g_S = postscript( "S" ) {
+		apTopCap_base = point( 648m, 1560m );
+		apBottom_base = point( 626m, 0m );
+	};
+	g_T = postscript( "T" ) {
+		apTopCap_base = point( 770m, 1560m );
+		apBottom_base = point( 762m, 0m );
+	};
+	g_U = postscript( "U" ) {
+		apBottom_base = point( 762m, 0m );
+		apTopCap_base = point( 772m, 1560m );
+	};
+	g_V = postscript( "V" ) {
+		apBottom_base = point( 706m, 0m );
+	};
+	g_W = postscript( "W" ) {
+		apBottom_base = point( 1092m, 0m );
+		apTopCap_base = point( 1154m, 1560m );
+	};
+	g_X = postscript( "X" ) {
+		apBottom_base = point( 676m, 0m );
+	};
+	g_Y = postscript( "Y" ) {
+		apBottom_base = point( 734m, 0m );
+		apTopCap_base = point( 776m, 1560m );
+	};
+	g_Z = postscript( "Z" ) {
+		apBottom_base = point( 702m, 0m );
+		apTopCap_base = point( 744m, 1560m );
+	};
+	g_bracketleft = postscript( "bracketleft" );
+	g_backslash = postscript( "backslash" );
+	g_bracketright = postscript( "bracketright" );
+	g_asciicircum = postscript( "asciicircum" );
+	g_underscore = postscript( "underscore" );
+	g_grave = postscript( "grave" );
+	g_a = postscript( "a" ) {
+		apBottom_base = point( 496m, 0m );
+		apAcute_base = point( 532m, 1140m );
+		apGrave_base = point( 532m, 1120m );
+		apTop_base = point( 532m, 1100m );
+	};
+	g_b = postscript( "b" ) {
+		apBottom_base = point( 606m, 0m );
+	};
+	g_c = postscript( "c" ) {
+		apBottom_base = point( 504m, 0m );
+		apAcute_base = point( 552m, 1140m );
+		apGrave_base = point( 552m, 1120m );
+		apTop_base = point( 552m, 1100m );
+	};
+	g_d = postscript( "d" ) {
+		apBottom_base = point( 636m, 0m );
+	};
+	g_e = postscript( "e" ) {
+		apBottom_base = point( 528m, 0m );
+		apAcute_base = point( 556m, 1140m );
+		apGrave_base = point( 556m, 1120m );
+		apTop_base = point( 556m, 1100m );
+	};
+	g_f = postscript( "f" ) {
+		apBottom_base = point( 354m, 0m );
+	};
+	g_g = postscript( "g" ) {
+		apHighMark_base = point( 580m, 1240m );
+		apAcute_base = point( 580m, 1100m );
+		apGrave_base = point( 580m, 1120m );
+		apTop_base = point( 580m, 1100m );
+	};
+	g_h = postscript( "h" ) {
+		apHighMark_base = point( 636m, 1620m );
+		apBottom_base = point( 636m, 0m );
+	};
+	g_i = postscript( "i" ) {
+		apBottom_base = point( 353m, 0m );
+	};
+	g_j = postscript( "j" );
+	g_k = postscript( "k" ) {
+		apBottom_base = point( 690m, 0m );
+	};
+	g_l = postscript( "l" ) {
+		apHighMark_base = point( 314m, 1620m );
+		apBottom_base = point( 325m, 0m );
+	};
+	g_m = postscript( "m" ) {
+		apBottom_base = point( 956m, 0m );
+	};
+	g_n = postscript( "n" ) {
+		apAcute_base = point( 656m, 1140m );
+		apGrave_base = point( 656m, 1120m );
+		apTop_base = point( 656m, 1100m );
+		apBottom_base = point( 656m, 0m );
+	};
+	g_o = postscript( "o" ) {
+		apGrave_base = point( 586m, 1120m );
+		apAcute_base = point( 586m, 1140m );
+		apBottom_base = point( 586m, 0m );
+		apTop_base = point( 586m, 1100m );
+	};
+	g_p = postscript( "p" ) {
+		apBottom_base = point( 894m, 0m );
+	};
+	g_q = postscript( "q" ) {
+		apBottom_base = point( 426m, 0m );
+	};
+	g_r = postscript( "r" ) {
+		apAcute_base = point( 592m, 1140m );
+		apGrave_base = point( 592m, 1120m );
+		apTop_base = point( 592m, 1100m );
+		apBottom_base = point( 384m, 0m );
+	};
+	g_s = postscript( "s" ) {
+		apAcute_base = point( 472m, 1140m );
+		apGrave_base = point( 472m, 1120m );
+		apTop_base = point( 472m, 1100m );
+		apBottom_base = point( 474m, 0m );
+	};
+	g_t = postscript( "t" ) {
+		apBottom_base = point( 480m, 0m );
+	};
+	g_u = postscript( "u" ) {
+		apBottom_base = point( 636m, 0m );
+		apAcute_base = point( 616m, 1140m );
+		apGrave_base = point( 616m, 1120m );
+		apTop_base = point( 616m, 1100m );
+	};
+	g_v = postscript( "v" ) {
+		apBottom_base = point( 566m, 0m );
+	};
+	g_w = postscript( "w" ) {
+		apBottom_base = point( 830m, 0m );
+		apHighMark_base = point( 902m, 1140m );
+		apGrave_base = point( 902m, 1120m );
+		apTop_base = point( 902m, 1100m );
+	};
+	g_x = postscript( "x" ) {
+		apBottom_base = point( 620m, 0m );
+	};
+	g_y = postscript( "y" ) {
+		apBottom_base = point( 892m, 0m );
+		apAcute_base = point( 614m, 1140m );
+		apGrave_base = point( 614m, 1120m );
+		apTop_base = point( 614m, 1100m );
+	};
+	g_z = postscript( "z" ) {
+		apBottom_base = point( 532m, 0m );
+		apHighMark_base = point( 550m, 1140m );
+		apGrave_base = point( 550m, 1120m );
+		apTop_base = point( 550m, 1100m );
+	};
+	g_braceleft = postscript( "braceleft" );
+	g_bar = postscript( "bar" );
+	g_braceright = postscript( "braceright" );
+	g_asciitilde = postscript( "asciitilde" );
+	g_nonbreakingspace = postscript( "nonbreakingspace" );
+	g_exclamdown = postscript( "exclamdown" );
+	g_cent = postscript( "cent" );
+	g_sterling = postscript( "sterling" );
+	g_currency = postscript( "currency" );
+	g_yen = postscript( "yen" );
+	g_brokenbar = postscript( "brokenbar" );
+	g_section = postscript( "section" );
+	g_dieresis = postscript( "dieresis" );
+	g_copyright = postscript( "copyright" );
+	g_ordfeminine = postscript( "ordfeminine" );
+	g_guillemotleft = postscript( "guillemotleft" );
+	g_logicalnot = postscript( "logicalnot" );
+	g_sfthyphen = postscript( "sfthyphen" );
+	g_registered = postscript( "registered" );
+	g_macron = postscript( "macron" );
+	g_degree = postscript( "degree" );
+	g_plusminus = postscript( "plusminus" );
+	g_twosuperior = postscript( "twosuperior" );
+	g_threesuperior = postscript( "threesuperior" );
+	g_acute = postscript( "acute" );
+	g_mu1 = postscript( "mu1" );
+	g_paragraph = postscript( "paragraph" );
+	g_periodcentered = postscript( "periodcentered" );
+	g_cedilla = postscript( "cedilla" );
+	g_onesuperior = postscript( "onesuperior" );
+	g_ordmasculine = postscript( "ordmasculine" );
+	g_guillemotright = postscript( "guillemotright" );
+	g_onequarter = postscript( "onequarter" );
+	g_onehalf = postscript( "onehalf" );
+	g_threequarters = postscript( "threequarters" );
+	g_questiondown = postscript( "questiondown" );
+	g_Agrave = postscript( "Agrave" );
+	g_Aacute = postscript( "Aacute" );
+	g_Acircumflex = postscript( "Acircumflex" );
+	g_Atilde = postscript( "Atilde" );
+	g_Adieresis = postscript( "Adieresis" );
+	g_Aring = postscript( "Aring" );
+	g_AE = postscript( "AE" ) {
+		apBottom_base = point( 1012m, 0m );
+		apTopCap_base = point( 972m, 1560m );
+		component.A = box( 0m,boundingbox.bottom,976m,boundingbox.top );
+		component.E = box( 976m,boundingbox.bottom,advancewidth,boundingbox.top );
+	};
+	g_Ccedilla = postscript( "Ccedilla" );
+	g_Egrave = postscript( "Egrave" );
+	g_Eacute = postscript( "Eacute" );
+	g_Ecircumflex = postscript( "Ecircumflex" );
+	g_Edieresis = postscript( "Edieresis" );
+	g_Igrave = postscript( "Igrave" );
+	g_Iacute = postscript( "Iacute" );
+	g_Icircumflex = postscript( "Icircumflex" );
+	g_Idieresis = postscript( "Idieresis" );
+	g_Eth = postscript( "Eth" ) {
+		apBottom_base = point( 640m, 0m );
+	};
+	g_Ntilde = postscript( "Ntilde" );
+	g_Ograve = postscript( "Ograve" );
+	g_Oacute = postscript( "Oacute" );
+	g_Ocircumflex = postscript( "Ocircumflex" );
+	g_Otilde = postscript( "Otilde" );
+	g_Odieresis = postscript( "Odieresis" );
+	g_multiply = postscript( "multiply" );
+	g_Oslash = postscript( "Oslash" ) {
+		apBottom_base = point( 830m, 0m );
+		apTopCap_base = point( 830m, 1560m );
+	};
+	g_Ugrave = postscript( "Ugrave" );
+	g_Uacute = postscript( "Uacute" );
+	g_Ucircumflex = postscript( "Ucircumflex" );
+	g_Udieresis = postscript( "Udieresis" );
+	g_Yacute = postscript( "Yacute" );
+	g_Thorn = postscript( "Thorn" ) {
+		apBottom_base = point( 344m, 0m );
+	};
+	g_germandbls = postscript( "germandbls" );
+	g_agrave = postscript( "agrave" );
+	g_aacute = postscript( "aacute" );
+	g_acircumflex = postscript( "acircumflex" );
+	g_atilde = postscript( "atilde" );
+	g_adieresis = postscript( "adieresis" );
+	g_aring = postscript( "aring" );
+	g_ae = postscript( "ae" ) {
+		apBottom_base = point( 736m, 2m );
+		apTop_base = point( 832m, 1100m );
+		apAcute_base = point( 832m, 1140m );
+		apGrave_base = point( 832m, 1120m );
+		component.a = box( 0m,boundingbox.bottom,750m,boundingbox.top );
+		component.e = box( 750m,boundingbox.bottom,advancewidth,boundingbox.top );
+	};
+	g_ccedilla = postscript( "ccedilla" );
+	g_egrave = postscript( "egrave" );
+	g_eacute = postscript( "eacute" );
+	g_ecircumflex = postscript( "ecircumflex" );
+	g_edieresis = postscript( "edieresis" );
+	g_igrave = postscript( "igrave" );
+	g_iacute = postscript( "iacute" );
+	g_icircumflex = postscript( "icircumflex" );
+	g_idieresis = postscript( "idieresis" );
+	g_eth = postscript( "eth" ) {
+		apBottom_base = point( 554m, 0m );
+	};
+	g_ntilde = postscript( "ntilde" );
+	g_ograve = postscript( "ograve" );
+	g_oacute = postscript( "oacute" );
+	g_ocircumflex = postscript( "ocircumflex" );
+	g_otilde = postscript( "otilde" );
+	g_odieresis = postscript( "odieresis" );
+	g_divide = postscript( "divide" );
+	g_oslash = postscript( "oslash" ) {
+		apBottom_base = point( 586m, 0m );
+		apTop_base = point( 586m, 1100m );
+		apAcute_base = point( 586m, 1140m );
+		apGrave_base = point( 586m, 1120m );
+	};
+	g_ugrave = postscript( "ugrave" );
+	g_uacute = postscript( "uacute" );
+	g_ucircumflex = postscript( "ucircumflex" );
+	g_udieresis = postscript( "udieresis" );
+	g_yacute = postscript( "yacute" );
+	g_thorn = postscript( "thorn" ) {
+		apBottom_base = point( 894m, 0m );
+	};
+	g_ydieresis = postscript( "ydieresis" );
+	g_Amacron = postscript( "Amacron" );
+	g_amacron = postscript( "amacron" );
+	g_Abreve = postscript( "Abreve" );
+	g_abreve = postscript( "abreve" );
+	g_Aogonek = postscript( "Aogonek" ) {
+		apTopCap_base = point( 688m, 1560m );
+	};
+	g_aogonek = postscript( "aogonek" ) {
+		apTop_base = point( 532m, 1100m );
+		apGrave_base = point( 532m, 1120m );
+		apAcute_base = point( 532m, 1140m );
+	};
+	g_Cacute = postscript( "Cacute" );
+	g_cacute = postscript( "cacute" );
+	g_Ccircumflex = postscript( "Ccircumflex" );
+	g_ccircumflex = postscript( "ccircumflex" );
+	g_Cdotaccent = postscript( "Cdotaccent" );
+	g_cdotaccent = postscript( "cdotaccent" );
+	g_Ccaron = postscript( "Ccaron" );
+	g_ccaron = postscript( "ccaron" );
+	g_Dcaron = postscript( "Dcaron" );
+	g_dcaron = postscript( "dcaron" );
+	g_Dcroat = postscript( "Dcroat" ) {
+		apBottom_base = point( 640m, 0m );
+	};
+	g_dcroat = postscript( "dcroat" );
+	g_Emacron = postscript( "Emacron" );
+	g_emacron = postscript( "emacron" );
+	g_Ebreve = postscript( "Ebreve" );
+	g_ebreve = postscript( "ebreve" );
+	g_Edotaccent = postscript( "Edotaccent" );
+	g_edotaccent = postscript( "edotaccent" );
+	g_Eogonek = postscript( "Eogonek" ) {
+		apTopCap_base = point( 622m, 1560m );
+	};
+	g_eogonek = postscript( "eogonek" ) {
+		apTop_base = point( 556m, 1100m );
+		apGrave_base = point( 556m, 1120m );
+		apAcute_base = point( 556m, 1140m );
+	};
+	g_Ecaron = postscript( "Ecaron" );
+	g_ecaron = postscript( "ecaron" );
+	g_Gcircumflex = postscript( "Gcircumflex" );
+	g_gcircumflex = postscript( "gcircumflex" );
+	g_Gbreve = postscript( "Gbreve" );
+	g_gbreve = postscript( "gbreve" );
+	g_Gdotaccent = postscript( "Gdotaccent" );
+	g_gdotaccent = postscript( "gdotaccent" );
+	g_Gcommaaccent = postscript( "Gcommaaccent" );
+	g_gcommaaccent = postscript( "gcommaaccent" );
+	g_Hcircumflex = postscript( "Hcircumflex" );
+	g_hcircumflex = postscript( "hcircumflex" );
+	g_Hbar = postscript( "Hbar" );
+	g_hbar = postscript( "hbar" );
+	g_Itilde = postscript( "Itilde" );
+	g_itilde = postscript( "itilde" );
+	g_Imacron = postscript( "Imacron" );
+	g_imacron = postscript( "imacron" );
+	g_Ibreve = postscript( "Ibreve" );
+	g_ibreve = postscript( "ibreve" );
+	g_Iogonek = postscript( "Iogonek" ) {
+		apTopCap_base = point( 341m, 1560m );
+	};
+	g_iogonek = postscript( "iogonek" );
+	g_Idotaccent = postscript( "Idotaccent" );
+	g_dotlessi = postscript( "dotlessi" ) {
+		apAcute_base = point( 342m, 1140m );
+		apGrave_base = point( 342m, 1120m );
+		apTop_base = point( 342m, 1100m );
+		apBottom_base = point( 353m, 0m );
+	};
+	g_IJ = postscript( "IJ" );
+	g_ij = postscript( "ij" );
+	g_Jcircumflex = postscript( "Jcircumflex" );
+	g_jcircumflex = postscript( "jcircumflex" );
+	g_Kcommaaccent = postscript( "Kcommaaccent" );
+	g_kcommaaccent = postscript( "kcommaaccent" );
+	g_kgreenlandic = postscript( "kgreenlandic" );
+	g_Lacute = postscript( "Lacute" );
+	g_lacute = postscript( "lacute" );
+	g_Lcommaaccent = postscript( "Lcommaaccent" );
+	g_lcommaaccent = postscript( "lcommaaccent" );
+	g_Lcaron = postscript( "Lcaron" );
+	g_lcaron = postscript( "lcaron" );
+	g_Ldot = postscript( "Ldot" );
+	g_ldot = postscript( "ldot" );
+	g_Lslash = postscript( "Lslash" );
+	g_lslash = postscript( "lslash" );
+	g_Nacute = postscript( "Nacute" );
+	g_nacute = postscript( "nacute" );
+	g_Ncommaaccent = postscript( "Ncommaaccent" );
+	g_ncommaaccent = postscript( "ncommaaccent" );
+	g_Ncaron = postscript( "Ncaron" );
+	g_ncaron = postscript( "ncaron" );
+	g_napostrophe = postscript( "napostrophe" );
+	g_Eng = postscript( "Eng" );
+	g_eng = postscript( "eng" );
+	g_Omacron = postscript( "Omacron" );
+	g_omacron = postscript( "omacron" );
+	g_Obreve = postscript( "Obreve" );
+	g_obreve = postscript( "obreve" );
+	g_Ohungarumlaut = postscript( "Ohungarumlaut" );
+	g_ohungarumlaut = postscript( "ohungarumlaut" );
+	g_OE = postscript( "OE" ) {
+		apBottom_base = point( 1222m, 0m );
+		apTopCap_base = point( 1222m, 1560m );
+		component.O = box( 0m,boundingbox.bottom,1220m,boundingbox.top );
+		component.E = box( 1220m,boundingbox.bottom,advancewidth,boundingbox.top );
+	};
+	g_oe = postscript( "oe" ) {
+		apBottom_base = point( 892m, 0m );
+		apTop_base = point( 892m, 1100m );
+		apAcute_base = point( 892m, 1140m );
+		apGrave_base = point( 892m, 1120m );
+		component.o = box( 0m,boundingbox.bottom,878m,boundingbox.top );
+		component.e = box( 878m,boundingbox.bottom,advancewidth,boundingbox.top );
+	};
+	g_Racute = postscript( "Racute" );
+	g_racute = postscript( "racute" );
+	g_Rcommaaccent = postscript( "Rcommaaccent" );
+	g_rcommaaccent = postscript( "rcommaaccent" );
+	g_Rcaron = postscript( "Rcaron" );
+	g_rcaron = postscript( "rcaron" );
+	g_Sacute = postscript( "Sacute" );
+	g_sacute = postscript( "sacute" );
+	g_Scircumflex = postscript( "Scircumflex" );
+	g_scircumflex = postscript( "scircumflex" );
+	g_Scedilla = postscript( "Scedilla" );
+	g_scedilla = postscript( "scedilla" );
+	g_Scaron = postscript( "Scaron" );
+	g_scaron = postscript( "scaron" );
+	g_Tcommaaccent = postscript( "Tcommaaccent" );
+	g_tcommaaccent = postscript( "tcommaaccent" );
+	g_Tcaron = postscript( "Tcaron" );
+	g_tcaron = postscript( "tcaron" );
+	g_Tbar = postscript( "Tbar" );
+	g_tbar = postscript( "tbar" );
+	g_Utilde = postscript( "Utilde" );
+	g_utilde = postscript( "utilde" );
+	g_Umacron = postscript( "Umacron" );
+	g_umacron = postscript( "umacron" );
+	g_Ubreve = postscript( "Ubreve" );
+	g_ubreve = postscript( "ubreve" );
+	g_Uring = postscript( "Uring" );
+	g_uring = postscript( "uring" );
+	g_Uhungarumlaut = postscript( "Uhungarumlaut" );
+	g_uhungarumlaut = postscript( "uhungarumlaut" );
+	g_Uogonek = postscript( "Uogonek" ) {
+		apTopCap_base = point( 772m, 1560m );
+	};
+	g_uogonek = postscript( "uogonek" ) {
+		apTop_base = point( 616m, 1100m );
+		apGrave_base = point( 616m, 1120m );
+		apAcute_base = point( 616m, 1140m );
+	};
+	g_Wcircumflex = postscript( "Wcircumflex" );
+	g_wcircumflex = postscript( "wcircumflex" );
+	g_Ycircumflex = postscript( "Ycircumflex" );
+	g_ycircumflex = postscript( "ycircumflex" );
+	g_Ydieresis = postscript( "Ydieresis" );
+	g_Zacute = postscript( "Zacute" );
+	g_zacute = postscript( "zacute" );
+	g_Zdotaccent = postscript( "Zdotaccent" );
+	g_zdotaccent = postscript( "zdotaccent" );
+	g_Zcaron = postscript( "Zcaron" );
+	g_zcaron = postscript( "zcaron" );
+	g_longs = postscript( "longs" );
+	g_florin = postscript( "florin" );
+	g_Scommaaccent = postscript( "Scommaaccent" );
+	g_scommaaccent = postscript( "scommaaccent" );
+	g_uni021A = postscript( "uni021A" );
+	g_uni021B = postscript( "uni021B" );
+	g_uni0232 = postscript( "uni0232" );
+	g_uni0233 = postscript( "uni0233" );
+	g_uni0237 = postscript( "uni0237" ) {
+		apAcute_base = point( 455m, 1140m );
+		apGrave_base = point( 455m, 1120m );
+		apTop_base = point( 455m, 1110m );
+	};
+	g_uni02BB = postscript( "uni02BB" );
+	g_apostrophe = postscript( "afii57929" );
+	g_afii64937 = postscript( "afii64937" );
+	g_circumflex = postscript( "circumflex" );
+	g_caron = postscript( "caron" );
+	g_uni02C9 = postscript( "uni02C9" );
+	g_uni02CA = postscript( "uni02CA" );
+	g_uni02CB = postscript( "uni02CB" );
+	g_breve = postscript( "breve" );
+	g_dotaccent = postscript( "dotaccent" );
+	g_ring = postscript( "ring" );
+	g_ogonek = postscript( "ogonek" );
+	g_tilde = postscript( "tilde" );
+	g_hungarumlaut = postscript( "hungarumlaut" );
+	g_gravecomb = postscript( "gravecomb" ) {
+		apGrave_mark = point( -440m, 1120m );
+	};
+	g_acutecomb = postscript( "acutecomb" ) {
+		apAcute_mark = point( -440m, 1140m );
+	};
+	g_circumflexcmb = postscript( "circumflexcmb" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_tildecomb = postscript( "tildecomb" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_macroncmb = postscript( "macroncmb" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni0305 = postscript( "uni0305" );
+	g_brevecmb = postscript( "brevecmb" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni0307 = postscript( "uni0307" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni0308 = postscript( "uni0308" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni030A = postscript( "uni030A" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni030B = postscript( "uni030B" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni030C = postscript( "uni030C" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni030F = postscript( "uni030F" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0311 = postscript( "uni0311" ) {
+		apKamora_mark = point( -440m, 1120m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0312 = postscript( "uni0312" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni0313 = postscript( "uni0313" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni0314 = postscript( "uni0314" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_dotbelowcomb = postscript( "dotbelowcomb" ) {
+		apBottom_mark = point( -440m, 0m );
+	};
+	g_uni0326 = postscript( "uni0326" ) {
+		apBottom_mark = point( -440m, 0m );
+	};
+	g_uni0327 = postscript( "uni0327" );
+	g_uni0328 = postscript( "uni0328" );
+	g_uni032F = postscript( "uni032F" ) {
+		apBottom_mark = point( -440m, 0m );
+	};
+	g_uni033E = postscript( "uni033E" ) {
+		apYerik_mark = point( -440m, 1060m );
+	};
+	g_uni0360 = postscript( "uni0360" ) {
+		apDblMark_mark = point( 0m, 1100m );
+	};
+	g_uni0361 = postscript( "uni0361" ) {
+		apDblMark_mark = point( 0m, 1100m );
+	};
+	g_uni0400 = postscript( "uni0400" );
+	g_cyrYO = postscript( "afii10023" );
+	g_cyrDJE = postscript( "afii10051" );
+	g_cyrGJE = postscript( "afii10052" );
+	g_cyrIE = postscript( "afii10053" ) {
+		apDblMark_base = point( 1346m, 1560m );
+		apYerik_base = point( 983m, 1520m );
+		apCyrTopCap_base = point( 708m, 1540m );
+	};
+	g_cyrDZE = postscript( "afii10054" ) {
+		apDblMark_base = point( 1362m, 1560m );
+		apYerik_base = point( 991m, 1520m );
+		apCyrTopCap_base = point( 696m, 1540m );
+	};
+	g_cyrII = postscript( "afii10055" ) {
+		apDblMark_base = point( 682m, 1560m );
+		apYerik_base = point( 341m, 1520m );
+		apCyrTopCap_base = point( 341m, 1540m );
+	};
+	g_cyrYI = postscript( "afii10056" );
+	g_cyrJE = postscript( "afii10057" );
+	g_cyrLJE = postscript( "afii10058" );
+	g_cyrNJE = postscript( "afii10059" );
+	g_cyrTSHE = postscript( "afii10060" );
+	g_cyrKJE = postscript( "afii10061" );
+	g_uni040D = postscript( "uni040D" );
+	g_cyrUSHRT = postscript( "afii10062" );
+	g_cyrDZHE = postscript( "afii10145" ) {
+		apDblMark_base = point( 1438m, 1560m );
+		apYerik_base = point( 1030m, 1520m );
+		apCyrTopCap_base = point( 719m, 1540m );
+	};
+	g_cyrA = postscript( "afii10017" ) {
+		apDblMark_base = point( 1300m, 1560m );
+		apYerik_base = point( 1060m, 1520m );
+		apCyrTopCap_base = point( 916m, 1540m );
+	};
+	g_cyrB = postscript( "afii10018" ) {
+		apDblMark_base = point( 1246m, 1560m );
+		apYerik_base = point( 877m, 1520m );
+		apCyrTopCap_base = point( 628m, 1540m );
+	};
+	g_cyrV = postscript( "afii10019" ) {
+		apDblMark_base = point( 1238m, 1560m );
+		apYerik_base = point( 890m, 1520m );
+		apCyrTopCap_base = point( 678m, 1540m );
+	};
+	g_cyrG = postscript( "afii10020" ) {
+		apDblMark_base = point( 1134m, 1560m );
+		apYerik_base = point( 867m, 1520m );
+		apCyrTopCap_base = point( 628m, 1540m );
+	};
+	g_cyrD = postscript( "afii10021" ) {
+		apDblMark_base = point( 1394m, 1560m );
+		apYerik_base = point( 1036m, 1520m );
+		apCyrTopCap_base = point( 702m, 1540m );
+	};
+	g_cyrE = postscript( "afii10022" ) {
+		apDblMark_base = point( 1346m, 1560m );
+		apYerik_base = point( 983m, 1520m );
+		apCyrTopCap_base = point( 708m, 1540m );
+	};
+	g_cyrZH = postscript( "afii10024" ) {
+		apDblMark_base = point( 1904m, 1560m );
+		apYerik_base = point( 1408m, 1520m );
+		apCyrTopCap_base = point( 952m, 1540m );
+	};
+	g_cyrZ = postscript( "afii10025" ) {
+		apDblMark_base = point( 1412m, 1560m );
+		apYerik_base = point( 1018m, 1520m );
+		apCyrTopCap_base = point( 752m, 1540m );
+	};
+	g_cyrI = postscript( "afii10026" ) {
+		apDblMark_base = point( 1438m, 1560m );
+		apYerik_base = point( 1030m, 1520m );
+		apCyrTopCap_base = point( 719m, 1540m );
+	};
+	g_cyrISHRT = postscript( "afii10027" );
+	g_cyrK = postscript( "afii10028" ) {
+		apDblMark_base = point( 1354m, 1560m );
+		apYerik_base = point( 978m, 1520m );
+		apCyrTopCap_base = point( 660m, 1540m );
+	};
+	g_cyrL = postscript( "afii10029" ) {
+		apDblMark_base = point( 1260m, 1560m );
+		apYerik_base = point( 1003m, 1520m );
+		apCyrTopCap_base = point( 810m, 1540m );
+	};
+	g_cyrM = postscript( "afii10030" ) {
+		apDblMark_base = point( 1960m, 1560m );
+		apYerik_base = point( 1520m, 1520m );
+		apCyrTopCap_base = point( 1144m, 1540m );
+	};
+	g_cyrN = postscript( "afii10031" ) {
+		apDblMark_base = point( 1438m, 1560m );
+		apYerik_base = point( 1030m, 1520m );
+		apCyrTopCap_base = point( 719m, 1540m );
+	};
+	g_cyrO = postscript( "afii10032" ) {
+		apDblMark_base = point( 1404m, 1560m );
+		apYerik_base = point( 997m, 1520m );
+		apCyrTopCap_base = point( 702m, 1540m );
+	};
+	g_cyrP = postscript( "afii10033" ) {
+		apDblMark_base = point( 1438m, 1560m );
+		apYerik_base = point( 1030m, 1520m );
+		apCyrTopCap_base = point( 719m, 1540m );
+	};
+	g_cyrR = postscript( "afii10034" ) {
+		apDblMark_base = point( 1218m, 1560m );
+		apYerik_base = point( 901m, 1520m );
+		apCyrTopCap_base = point( 656m, 1540m );
+	};
+	g_cyrS = postscript( "afii10035" ) {
+		apDblMark_base = point( 1416m, 1560m );
+		apYerik_base = point( 1025m, 1520m );
+		apCyrTopCap_base = point( 706m, 1540m );
+	};
+	g_cyrT = postscript( "afii10036" ) {
+		apDblMark_base = point( 1450m, 1560m );
+		apYerik_base = point( 1069m, 1520m );
+		apCyrTopCap_base = point( 725m, 1540m );
+	};
+	g_cyrU = postscript( "afii10037" ) {
+		apDblMark_base = point( 1480m, 1560m );
+		apYerik_base = point( 1129m, 1520m );
+		apCyrTopCap_base = point( 796m, 1540m );
+	};
+	g_cyrF = postscript( "afii10038" ) {
+		apDblMark_base = point( 1750m, 1560m );
+		apYerik_base = point( 1352m, 1520m );
+		apCyrTopCap_base = point( 875m, 1540m );
+	};
+	g_cyrH = postscript( "afii10039" ) {
+		apDblMark_base = point( 1420m, 1560m );
+		apYerik_base = point( 1057m, 1520m );
+		apCyrTopCap_base = point( 750m, 1540m );
+	};
+	g_cyrC = postscript( "afii10040" ) {
+		apDblMark_base = point( 1490m, 1560m );
+		apYerik_base = point( 1083m, 1520m );
+		apCyrTopCap_base = point( 712m, 1540m );
+	};
+	g_cyrCH = postscript( "afii10041" ) {
+		apDblMark_base = point( 1294m, 1560m );
+		apYerik_base = point( 912m, 1520m );
+		apCyrTopCap_base = point( 626m, 1540m );
+	};
+	g_cyrSH = postscript( "afii10042" ) {
+		apDblMark_base = point( 1994m, 1560m );
+		apYerik_base = point( 1336m, 1520m );
+		apCyrTopCap_base = point( 997m, 1540m );
+	};
+	g_cyrSHCH = postscript( "afii10043" ) {
+		apDblMark_base = point( 1994m, 1560m );
+		apYerik_base = point( 1336m, 1520m );
+		apCyrTopCap_base = point( 997m, 1540m );
+	};
+	g_cyrHRDSN = postscript( "afii10044" ) {
+		apDblMark_base = point( 1656m, 1560m );
+		apYerik_base = point( 1175m, 1520m );
+		apCyrTopCap_base = point( 766m, 1540m );
+	};
+	g_cyrERY = postscript( "afii10045" ) {
+		apDblMark_base = point( 1860m, 1560m );
+		apYerik_base = point( 1353m, 1520m );
+		apCyrTopCap_base = point( 942m, 1540m );
+	};
+	g_cyrSFTSN = postscript( "afii10046" ) {
+		apDblMark_base = point( 1222m, 1560m );
+		apYerik_base = point( 752m, 1520m );
+		apCyrTopCap_base = point( 354m, 1540m );
+	};
+	g_cyrEREV = postscript( "afii10047" ) {
+		apDblMark_base = point( 1434m, 1560m );
+		apYerik_base = point( 1028m, 1520m );
+		apCyrTopCap_base = point( 734m, 1540m );
+	};
+	g_cyrYU = postscript( "afii10048" ) {
+		apDblMark_base = point( 1992m, 1560m );
+		apYerik_base = point( 1426m, 1520m );
+		apCyrTopCap_base = point( 972m, 1540m );
+	};
+	g_cyrYA = postscript( "afii10049" ) {
+		apYerik_base = point( 992m, 1520m );
+		apCyrTopCap_base = point( 760m, 1540m );
+	};
+	g_cyra = postscript( "afii10065" ) {
+		apYerik_base = point( 705m, 1060m );
+		apAcute_base = point( 532m, 1140m );
+		apGrave_base = point( 532m, 1120m );
+		apCyrMark_base = point( 532m, 1100m );
+	};
+	g_cyrb = postscript( "afii10066" ) {
+		apYerik_base = point( 708m, 1060m );
+		apCyrMark_base = point( 516m, 1100m );
+	};
+	g_cyrv = postscript( "afii10067" ) {
+		apCyrMark_base = point( 516m, 1100m );
+	};
+	g_cyrg = postscript( "afii10068" ) {
+		apYerik_base = point( 686m, 1060m );
+		apAcute_base = point( 508m, 1140m );
+		apCyrMark_base = point( 508m, 1100m );
+	};
+	g_cyrd = postscript( "afii10069" ) {
+		apYerik_base = point( 844m, 1060m );
+		apCyrMark_base = point( 574m, 1100m );
+	};
+	g_cyre = postscript( "afii10070" ) {
+		apYerik_base = point( 574m, 1060m );
+		apAcute_base = point( 464m, 1140m );
+		apGrave_base = point( 464m, 1120m );
+		apCyrMark_base = point( 464m, 1100m );
+	};
+	g_cyrzh = postscript( "afii10072" ) {
+		apYerik_base = point( 1116m, 1060m );
+		apCyrMark_base = point( 772m, 1100m );
+	};
+	g_cyrz = postscript( "afii10073" ) {
+		apYerik_base = point( 776m, 1060m );
+		apCyrMark_base = point( 548m, 1100m );
+	};
+	g_cyri = postscript( "afii10074" ) {
+		apYerik_base = point( 742m, 1060m );
+		apCyrMark_base = point( 545m, 1100m );
+		apGrave_base = point( 545m, 1120m );
+		apAcute_base = point( 545m, 1140m );
+	};
+	g_cyrishrt = postscript( "afii10075" );
+	g_cyrk = postscript( "afii10076" ) {
+		apYerik_base = point( 768m, 1060m );
+		apAcute_base = point( 536m, 1140m );
+		apCyrMark_base = point( 536m, 1100m );
+	};
+	g_cyrl = postscript( "afii10077" ) {
+		apYerik_base = point( 735m, 1060m );
+		apCyrMark_base = point( 542m, 1100m );
+	};
+	g_cyrm = postscript( "afii10078" ) {
+		apYerik_base = point( 1087m, 1060m );
+		apCyrMark_base = point( 760m, 1100m );
+	};
+	g_cyrn = postscript( "afii10079" ) {
+		apYerik_base = point( 742m, 1060m );
+		apCyrMark_base = point( 545m, 1100m );
+	};
+	g_cyro = postscript( "afii10080" ) {
+		apYerik_base = point( 711m, 1060m );
+		apCyrMark_base = point( 502m, 1100m );
+		apGrave_base = point( 502m, 1120m );
+		apAcute_base = point( 502m, 1140m );
+	};
+	g_cyrp = postscript( "afii10081" ) {
+		apYerik_base = point( 736m, 1060m );
+		apCyrMark_base = point( 541m, 1100m );
+	};
+	g_cyrr = postscript( "afii10082" ) {
+		apYerik_base = point( 701m, 1060m );
+		apCyrMark_base = point( 522m, 1100m );
+	};
+	g_cyrs = postscript( "afii10083" ) {
+		apYerik_base = point( 626m, 1060m );
+		apCyrMark_base = point( 476m, 1100m );
+	};
+	g_cyrt = postscript( "afii10084" ) {
+		apYerik_base = point( 830m, 1060m );
+		apCyrMark_base = point( 571m, 1100m );
+	};
+	g_cyru = postscript( "afii10085" ) {
+		apYerik_base = point( 815m, 1060m );
+		apCyrMark_base = point( 544m, 1100m );
+		apGrave_base = point( 544m, 1120m );
+		apAcute_base = point( 544m, 1140m );
+	};
+	g_cyrf = postscript( "afii10086" ) {
+		apDblMark_base = point( 1762m, 1100m );
+		apYerik_base = point( 1118m, 1060m );
+		apCyrMark_base = point( 742m, 1372m );
+	};
+	g_cyrh = postscript( "afii10087" ) {
+		apYerik_base = point( 740m, 1060m );
+		apCyrMark_base = point( 496m, 1100m );
+	};
+	g_cyrc = postscript( "afii10088" ) {
+		apYerik_base = point( 843m, 1060m );
+		apCyrMark_base = point( 542m, 1100m );
+	};
+	g_cyrch = postscript( "afii10089" ) {
+		apYerik_base = point( 680m, 1060m );
+		apCyrMark_base = point( 488m, 1100m );
+	};
+	g_cyrsh = postscript( "afii10090" ) {
+		apYerik_base = point( 1176m, 1060m );
+		apCyrMark_base = point( 835m, 1100m );
+	};
+	g_cyrshch = postscript( "afii10091" ) {
+		apYerik_base = point( 1176m, 1060m );
+		apCyrMark_base = point( 835m, 1100m );
+	};
+	g_cyrhrdsn = postscript( "afii10092" ) {
+		apYerik_base = point( 916m, 1060m );
+		apCyrMark_base = point( 572m, 1100m );
+		apGrave_base = point( 572m, 1120m );
+		apAcute_base = point( 572m, 1140m );
+	};
+	g_cyrery = postscript( "afii10093" ) {
+		apYerik_base = point( 974m, 1060m );
+		apCyrMark_base = point( 708m, 1100m );
+		apGrave_base = point( 708m, 1120m );
+		apAcute_base = point( 708m, 1140m );
+	};
+	g_cyrsftsn = postscript( "afii10094" ) {
+		apYerik_base = point( 710m, 1060m );
+		apCyrMark_base = point( 472m, 1100m );
+		apGrave_base = point( 472m, 1120m );
+		apAcute_base = point( 472m, 1140m );
+	};
+	g_cyrerev = postscript( "afii10095" ) {
+		apYerik_base = point( 839m, 1060m );
+		apCyrMark_base = point( 612m, 1100m );
+		apGrave_base = point( 612m, 1120m );
+		apAcute_base = point( 612m, 1140m );
+	};
+	g_cyryu = postscript( "afii10096" ) {
+		apYerik_base = point( 782m, 1060m );
+		apCyrMark_base = point( 544m, 1100m );
+		apGrave_base = point( 544m, 1120m );
+		apAcute_base = point( 544m, 1140m );
+	};
+	g_cyrya = postscript( "afii10097" ) {
+		apYerik_base = point( 719m, 1060m );
+		apCyrMark_base = point( 548m, 1100m );
+		apGrave_base = point( 548m, 1120m );
+		apAcute_base = point( 548m, 1140m );
+	};
+	g_uni0450 = postscript( "uni0450" );
+	g_cyryo = postscript( "afii10071" );
+	g_cyrdje = postscript( "afii10099" );
+	g_cyrgje = postscript( "afii10100" );
+	g_cyrie = postscript( "afii10101" ) {
+		apYerik_base = point( 778m, 1060m );
+		apCyrMark_base = point( 588m, 1100m );
+		apGrave_base = point( 588m, 1120m );
+		apAcute_base = point( 588m, 1140m );
+	};
+	g_cyrdze = postscript( "afii10102" ) {
+		apYerik_base = point( 759m, 1060m );
+		apCyrMark_base = point( 542m, 1100m );
+	};
+	g_cyrii = postscript( "afii10103" ) {
+		apYerik_base = point( 267m, 1060m );
+		apCyrMark_base = point( 267m, 1100m );
+		apGrave_base = point( 267m, 1120m );
+		apAcute_base = point( 267m, 1140m );
+	};
+	g_cyryi = postscript( "afii10104" );
+	g_cyrje = postscript( "afii10105" );
+	g_cyrlje = postscript( "afii10106" );
+	g_cyrnje = postscript( "afii10107" );
+	g_cyrtshe = postscript( "afii10108" );
+	g_cyrkje = postscript( "afii10109" );
+	g_uni045D = postscript( "uni045D" );
+	g_cyrushrt = postscript( "afii10110" );
+	g_cyrdzhe = postscript( "afii10193" ) {
+		apYerik_base = point( 758m, 1060m );
+		apCyrMark_base = point( 556m, 1100m );
+	};
+	g_uni0460 = postscript( "uni0460" ) {
+		apDblMark_base = point( 2062m, 1560m );
+		apYerik_base = point( 1514m, 1520m );
+		apCyrTopCap_base = point( 1078m, 1540m );
+	};
+	g_uni0461 = postscript( "uni0461" ) {
+		apYerik_base = point( 1106m, 1060m );
+		apCyrMark_base = point( 786m, 1100m );
+		apGrave_base = point( 786m, 1120m );
+		apAcute_base = point( 786m, 1140m );
+	};
+	g_cyrYAT = postscript( "afii10146" );
+	g_cyryat = postscript( "afii10194" ) {
+		apKamora_base = point( 630m, 1536m );
+		apGrave_base = point( 332m, 1120m );
+		apAcute_base = point( 928m, 1140m );
+	};
+	g_uni0464 = postscript( "uni0464" ) {
+		apDblMark_base = point( 1930m, 1560m );
+		apYerik_base = point( 1412m, 1520m );
+		apCyrTopCap_base = point( 976m, 1540m );
+	};
+	g_uni0465 = postscript( "uni0465" ) {
+		apYerik_base = point( 1096m, 1060m );
+		apCyrMark_base = point( 788m, 1100m );
+		apGrave_base = point( 788m, 1120m );
+		apAcute_base = point( 788m, 1140m );
+	};
+	g_uni0466 = postscript( "uni0466" ) {
+		apDblMark_base = point( 1704m, 1560m );
+		apYerik_base = point( 1302m, 1520m );
+		apCyrTopCap_base = point( 900m, 1540m );
+	};
+	g_uni0467 = postscript( "uni0467" ) {
+		apYerik_base = point( 994m, 1060m );
+		apCyrMark_base = point( 684m, 1100m );
+		apGrave_base = point( 684m, 1120m );
+		apAcute_base = point( 684m, 1140m );
+	};
+	g_uni0468 = postscript( "uni0468" ) {
+		apDblMark_base = point( 2336m, 1560m );
+		apYerik_base = point( 1650m, 1520m );
+		apCyrTopCap_base = point( 1012m, 1540m );
+	};
+	g_uni0469 = postscript( "uni0469" ) {
+		apYerik_base = point( 1272m, 1060m );
+		apCyrMark_base = point( 796m, 1100m );
+		apGrave_base = point( 796m, 1120m );
+		apAcute_base = point( 796m, 1140m );
+	};
+	g_uni046A = postscript( "uni046A" ) {
+		apDblMark_base = point( 1846m, 1560m );
+		apYerik_base = point( 1385m, 1520m );
+		apCyrTopCap_base = point( 964m, 1540m );
+	};
+	g_uni046B = postscript( "uni046B" ) {
+		apYerik_base = point( 1063m, 1060m );
+		apCyrMark_base = point( 726m, 1100m );
+		apGrave_base = point( 726m, 1120m );
+		apAcute_base = point( 726m, 1140m );
+	};
+	g_uni046C = postscript( "uni046C" ) {
+		apDblMark_base = point( 2464m, 1560m );
+		apYerik_base = point( 1870m, 1520m );
+		apCyrTopCap_base = point( 1316m, 1540m );
+	};
+	g_uni046D = postscript( "uni046D" ) {
+		apYerik_base = point( 1400m, 1060m );
+		apCyrMark_base = point( 952m, 1100m );
+		apGrave_base = point( 952m, 1120m );
+		apAcute_base = point( 952m, 1140m );
+	};
+	g_uni046E = postscript( "uni046E" ) {
+		apYerik_base = point( 1166m, 1520m );
+		apCyrTopCap_base = point( 654m, 1822m );
+	};
+	g_uni046F = postscript( "uni046F" ) {
+		apDblMark_base = point( 1236m, 1286m );
+		apYerik_base = point( 1028m, 1060m );
+		apCyrMark_base = point( 574m, 1286m );
+	};
+	g_uni0470 = postscript( "uni0470" ) {
+		apYerik_base = point( 1402m, 1520m );
+		apCyrTopCap_base = point( 897m, 1822m );
+	};
+	g_uni0471 = postscript( "uni0471" ) {
+		apDblMark_base = point( 1776m, 1100m );
+		apYerik_base = point( 1180m, 1060m );
+		apCyrMark_base = point( 724m, 1372m );
+	};
+	g_cyrFITA = postscript( "afii10147" ) {
+		apDblMark_base = point( 1316m, 1560m );
+		apYerik_base = point( 953m, 1520m );
+		apCyrTopCap_base = point( 658m, 1540m );
+	};
+	g_cyrfita = postscript( "afii10195" ) {
+		apYerik_base = point( 930m, 1060m );
+		apCyrMark_base = point( 636m, 1100m );
+	};
+	g_cyrIZH = postscript( "afii10148" ) {
+		apDblMark_base = point( 1526m, 1560m );
+		apYerik_base = point( 1166m, 1520m );
+		apCyrTopCap_base = point( 824m, 1540m );
+	};
+	g_cyrizh = postscript( "afii10196" ) {
+		apYerik_base = point( 815m, 1060m );
+		apAcute_base = point( 544m, 1140m );
+		apGrave_base = point( 544m, 1120m );
+		apCyrMark_base = point( 544m, 1100m );
+	};
+	g_uni0476 = postscript( "uni0476" );
+	g_uni0477 = postscript( "uni0477" );
+	g_uni0478 = postscript( "uni0478" ) {
+		apYerik_base = point( 2185m, 1060m );
+		apCyrMark_base = point( 1914m, 1100m );
+		apGrave_base = point( 1914m, 1120m );
+		apAcute_base = point( 1914m, 1140m );
+	};
+	g_uni0479 = postscript( "uni0479" ) {
+		apYerik_base = point( 1393m, 1060m );
+		apCyrMark_base = point( 1122m, 1100m );
+		apGrave_base = point( 1122m, 1120m );
+		apAcute_base = point( 1122m, 1140m );
+	};
+	g_uni047A = postscript( "uni047A" ) {
+		apDblMark_base = point( 2216m, 1560m );
+		apYerik_base = point( 1750m, 1520m );
+		apCyrTopCap_base = point( 1396m, 1540m );
+	};
+	g_uni047B = postscript( "uni047B" ) {
+		apYerik_base = point( 1329m, 1060m );
+		apCyrMark_base = point( 1136m, 1100m );
+		apGrave_base = point( 1136m, 1120m );
+		apAcute_base = point( 1136m, 1140m );
+	};
+	g_uni047C = postscript( "uni047C" );
+	g_uni047D = postscript( "uni047D" );
+	g_uni047E = postscript( "uni047E" ) {
+		apDblMark_base = point( 2008m, 1962m );
+		apYerik_base = point( 1744m, 1520m );
+	};
+	g_uni047F = postscript( "uni047F" ) {
+		apDblMark_base = point( 1480m, 1444m );
+		apYerik_base = point( 1522m, 1060m );
+		apGrave_base = point( 46m, 1120m );
+		apCyrMark_base = point( 766m, 1444m );
+		apAcute_base = point( 1544m, 1140m );
+	};
+	g_uni0480 = postscript( "uni0480" ) {
+		apDblMark_base = point( 1416m, 1560m );
+		apYerik_base = point( 1025m, 1520m );
+		apCyrTopCap_base = point( 706m, 1540m );
+	};
+	g_uni0481 = postscript( "uni0481" ) {
+		apYerik_base = point( 857m, 1060m );
+		apCyrMark_base = point( 592m, 1100m );
+	};
+	g_uni0482 = postscript( "uni0482" );
+	g_uni0483 = postscript( "uni0483" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0484 = postscript( "uni0484" );
+	g_uni0485 = postscript( "uni0485" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0486 = postscript( "uni0486" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0487 = postscript( "uni0487" );
+	g_uni0488 = postscript( "uni0488" );
+	g_uni0489 = postscript( "uni0489" );
+	g_cyrGUP = postscript( "afii10050" );
+	g_cyrgup = postscript( "afii10098" ) {
+		apYerik_base = point( 486m, 1060m );
+	};
+	g_uni04A4 = postscript( "uni04A4" ) {
+		apDblMark_base = point( 1890m, 1560m );
+		apYerik_base = point( 1349m, 1520m );
+		apCyrTopCap_base = point( 836m, 1540m );
+	};
+	g_uni04A5 = postscript( "uni04A5" ) {
+		apYerik_base = point( 1032m, 1060m );
+		apCyrMark_base = point( 694m, 1100m );
+	};
+	g_uni0510 = postscript( "uni0510" ) {
+		apCyrTopCap_base = point( 668m, 1540m );
+		apYerik_base = point( 998m, 1520m );
+		apDblMark_base = point( 1320m, 1560m );
+	};
+	g_uni0511 = postscript( "uni0511" ) {
+		apCyrMark_base = point( 444m, 1100m );
+		apGrave_base = point( 444m, 1120m );
+		apAcute_base = point( 444m, 1140m );
+		apYerik_base = point( 568m, 1060m );
+	};
+	g_uni04C1 = postscript( "uni04C1" );
+	g_uni04C2 = postscript( "uni04C2" );
+	g_uni04D0 = postscript( "uni04D0" );
+	g_uni04D1 = postscript( "uni04D1" );
+	g_uni10FB = postscript( "uni10FB" );
+	g_uni2000 = postscript( "uni2000" );
+	g_uni2001 = postscript( "uni2001" );
+	g_uni2002 = postscript( "uni2002" );
+	g_uni2003 = postscript( "uni2003" );
+	g_uni2004 = postscript( "uni2004" );
+	g_uni2005 = postscript( "uni2005" );
+	g_uni2006 = postscript( "uni2006" );
+	g_uni2007 = postscript( "uni2007" );
+	g_uni2008 = postscript( "uni2008" );
+	g_uni2009 = postscript( "uni2009" );
+	g_uni200A = postscript( "uni200A" );
+	g_uni200B = postscript( "uni200B" );
+	g_ZWNJ = postscript( "afii61664" );
+	g_ZWJ = postscript( "afii301" );
+	g_figuredash = postscript( "figuredash" );
+	g_endash = postscript( "endash" );
+	g_emdash = postscript( "emdash" );
+	g_horizontalbar = postscript( "afii00208" );
+	g_uni2016 = postscript( "uni2016" );
+	g_quoteleft = postscript( "quoteleft" );
+	g_quoteright = postscript( "quoteright" );
+	g_quotesinglbase = postscript( "quotesinglbase" );
+	g_quotedblleft = postscript( "quotedblleft" );
+	g_quotedblright = postscript( "quotedblright" );
+	g_quotedblbase = postscript( "quotedblbase" );
+	g_dagger = postscript( "dagger" );
+	g_daggerdbl = postscript( "daggerdbl" );
+	g_bullet = postscript( "bullet" );
+	g_onedotenleader = postscript( "onedotenleader" );
+	g_twodotenleader = postscript( "twodotenleader" );
+	g_ellipsis = postscript( "ellipsis" );
+	g_uni202F = postscript( "uni202F" );
+	g_perthousand = postscript( "perthousand" );
+	g_guilsinglleft = postscript( "guilsinglleft" );
+	g_guilsinglright = postscript( "guilsinglright" );
+	g_uni203B = postscript( "uni203B" );
+	g_uni203E = postscript( "uni203E" );
+	g_uni2042 = postscript( "uni2042" );
+	g_fraction = postscript( "fraction" );
+	g_uni2051 = postscript( "uni2051" );
+	g_uni2056 = postscript( "uni2056" );
+	g_uni2058 = postscript( "uni2058" );
+	g_uni2059 = postscript( "uni2059" );
+	g_uni205A = postscript( "uni205A" );
+	g_uni205B = postscript( "uni205B" );
+	g_uni205C = postscript( "uni205C" );
+	g_uni205D = postscript( "uni205D" );
+	g_uni205E = postscript( "uni205E" );
+	g_wj = postscript( "uni2060" );
+	g_foursuperior = postscript( "foursuperior" );
+	g_Euro = postscript( "Euro" );
+	g_uni20DD = postscript( "uni20DD" );
+	g_numerosign = postscript( "afii61352" );
+	g_trademark = postscript( "trademark" );
+	g_angleleft = postscript( "angleleft" );
+	g_angleright = postscript( "angleright" );
+	g_uni25CC = postscript( "uni25CC" );
+	g_uni27E8 = postscript( "uni27E8" );
+	g_uni27E9 = postscript( "uni27E9" );
+	g_uni2DE0 = postscript( "uni2DE0" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -452m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE1 = postscript( "uni2DE1" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -460m, 1624m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE2 = postscript( "uni2DE2" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -430m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE3 = postscript( "uni2DE3" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE4 = postscript( "uni2DE4" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE5 = postscript( "uni2DE5" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -503m, 1720m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE6 = postscript( "uni2DE6" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE7 = postscript( "uni2DE7" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -418m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE8 = postscript( "uni2DE8" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE9 = postscript( "uni2DE9" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEA = postscript( "uni2DEA" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -416m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEB = postscript( "uni2DEB" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEC = postscript( "uni2DEC" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -372m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DED = postscript( "uni2DED" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -404m, 1644m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEE = postscript( "uni2DEE" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEF = postscript( "uni2DEF" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -420m, 1840m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF0 = postscript( "uni2DF0" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF1 = postscript( "uni2DF1" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF2 = postscript( "uni2DF2" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1720m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF3 = postscript( "uni2DF3" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1720m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF4 = postscript( "uni2DF4" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+		apVzmet_basemark = point( -440m, 1660m );
+	};
+	g_uni2DF5 = postscript( "uni2DF5" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF6 = postscript( "uni2DF6" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -416m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF7 = postscript( "uni2DF7" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -428m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF8 = postscript( "uni2DF8" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1720m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF9 = postscript( "uni2DF9" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -376m, 1840m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFA = postscript( "uni2DFA" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -402m, 1743m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFB = postscript( "uni2DFB" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFC = postscript( "uni2DFC" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -468m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFD = postscript( "uni2DFD" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFE = postscript( "uni2DFE" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFF = postscript( "uni2DFF" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -468m, 1720m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2E2A = postscript( "uni2E2A" );
+	g_uni2E2B = postscript( "uni2E2B" );
+	g_uni2E2C = postscript( "uni2E2C" );
+	g_uni2E2D = postscript( "uni2E2D" );
+	g_uni2E2F = postscript( "uni2E2F" );
+	g_uniA640 = postscript( "uniA640" ) {
+		apDblMark_base = point( 1220m, 1560m );
+		apYerik_base = point( 923m, 1520m );
+		apCyrTopCap_base = point( 670m, 1540m );
+	};
+	g_uniA641 = postscript( "uniA641" ) {
+		apYerik_base = point( 713m, 1060m );
+		apCyrMark_base = point( 494m, 1100m );
+	};
+	g_uniA642 = postscript( "uniA642" ) {
+		apDblMark_base = point( 1220m, 1560m );
+		apYerik_base = point( 933m, 1520m );
+		apCyrTopCap_base = point( 670m, 1540m );
+	};
+	g_uniA643 = postscript( "uniA643" ) {
+		apYerik_base = point( 722m, 1060m );
+		apCyrMark_base = point( 494m, 1100m );
+	};
+	g_uniA644 = postscript( "uniA644" ) {
+		apDblMark_base = point( 1284m, 1560m );
+	};
+	g_uniA645 = postscript( "uniA645" ) {
+		apYerik_base = point( 727m, 1060m );
+		apCyrMark_base = point( 512m, 1100m );
+	};
+	g_uniA646 = postscript( "uniA646" ) {
+		apDblMark_base = point( 940m, 1560m );
+		apYerik_base = point( 332m, 1520m );
+		apCyrTopCap_base = point( 332m, 1540m );
+	};
+	g_uniA647 = postscript( "uniA647" ) {
+		apYerik_base = point( 288m, 1060m );
+		apCyrMark_base = point( 288m, 1100m );
+		apGrave_base = point( 288m, 1120m );
+		apAcute_base = point( 288m, 1140m );
+	};
+	g_uniA648 = postscript( "uniA648" );
+	g_uniA649 = postscript( "uniA649" );
+	g_uniA64A = postscript( "uniA64A" ) {
+		apDblMark_base = point( 1490m, 1560m );
+		apYerik_base = point( 1146m, 1520m );
+		apCyrTopCap_base = point( 846m, 1540m );
+	};
+	g_uniA64B = postscript( "uniA64B" );
+	g_uniA64C = postscript( "uniA64C" ) {
+		apDblMark_base = point( 2008m, 1560m );
+		apYerik_base = point( 1445m, 1520m );
+		apCyrTopCap_base = point( 1004m, 1540m );
+	};
+	g_uniA64D = postscript( "uniA64D" ) {
+		apYerik_base = point( 1472m, 1060m );
+		apCyrMark_base = point( 1044m, 1100m );
+		apGrave_base = point( 1044m, 1120m );
+		apAcute_base = point( 1044m, 1140m );
+	};
+	g_uniA64E = postscript( "uniA64E" ) {
+		apYerik_base = point( 1040m, 1520m );
+		apCyrTopCap_base = point( 642m, 1540m );
+	};
+	g_uniA64F = postscript( "uniA64F" ) {
+		apYerik_base = point( 816m, 1060m );
+		apCyrMark_base = point( 484m, 1100m );
+		apGrave_base = point( 484m, 1120m );
+		apAcute_base = point( 484m, 1140m );
+	};
+	g_uniA650 = postscript( "uniA650" ) {
+		apDblMark_base = point( 2294m, 1560m );
+		apYerik_base = point( 1765m, 1520m );
+		apCyrTopCap_base = point( 1332m, 1540m );
+	};
+	g_uniA651 = postscript( "uniA651" ) {
+		apYerik_base = point( 1226m, 1060m );
+		apAcute_base = point( 900m, 1140m );
+		apGrave_base = point( 900m, 1120m );
+		apCyrMark_base = point( 900m, 1100m );
+	};
+	g_uniA652 = postscript( "uniA652" ) {
+		apYerik_base = point( 1680m, 1520m );
+		apCyrTopCap_base = point( 654m, 1540m );
+	};
+	g_uniA653 = postscript( "uniA653" ) {
+		apKamora_base = point( 1010m, 1536m );
+		apGrave_base = point( 752m, 1120m );
+		apAcute_base = point( 1308m, 1140m );
+	};
+	g_uniA654 = postscript( "uniA654" ) {
+		apDblMark_base = point( 1992m, 1560m );
+		apYerik_base = point( 1466m, 1520m );
+		apCyrTopCap_base = point( 1036m, 1540m );
+	};
+	g_uniA655 = postscript( "uniA655" ) {
+		apYerik_base = point( 748m, 1060m );
+		apCyrMark_base = point( 552m, 1100m );
+		apGrave_base = point( 552m, 1120m );
+		apAcute_base = point( 552m, 1140m );
+	};
+	g_uniA656 = postscript( "uniA656" ) {
+		apDblMark_base = point( 1898m, 1560m );
+		apYerik_base = point( 1375m, 1520m );
+		apCyrTopCap_base = point( 948m, 1540m );
+	};
+	g_uniA657 = postscript( "uniA657" ) {
+		apYerik_base = point( 1015m, 1060m );
+		apAcute_base = point( 696m, 1140m );
+		apGrave_base = point( 696m, 1120m );
+		apCyrMark_base = point( 696m, 1100m );
+	};
+	g_uniA658 = postscript( "uniA658" ) {
+		apDblMark_base = point( 1704m, 1560m );
+		apYerik_base = point( 1302m, 1520m );
+		apCyrTopCap_base = point( 900m, 1540m );
+	};
+	g_uniA659 = postscript( "uniA659" ) {
+		apYerik_base = point( 994m, 1060m );
+		apCyrMark_base = point( 684m, 1100m );
+		apGrave_base = point( 684m, 1120m );
+		apAcute_base = point( 684m, 1140m );
+	};
+	g_uniA65A = postscript( "uniA65A" ) {
+		apDblMark_base = point( 2002m, 1560m );
+		apYerik_base = point( 1510m, 1520m );
+		apCyrTopCap_base = point( 1042m, 1540m );
+	};
+	g_uniA65B = postscript( "uniA65B" ) {
+		apYerik_base = point( 1063m, 1060m );
+		apCyrMark_base = point( 726m, 1100m );
+		apGrave_base = point( 726m, 1120m );
+		apAcute_base = point( 726m, 1140m );
+	};
+	g_uniA65C = postscript( "uniA65C" ) {
+		apDblMark_base = point( 2336m, 1560m );
+		apYerik_base = point( 1650m, 1520m );
+		apCyrTopCap_base = point( 1012m, 1540m );
+	};
+	g_uniA65D = postscript( "uniA65D" ) {
+		apYerik_base = point( 1272m, 1060m );
+		apCyrMark_base = point( 796m, 1100m );
+		apGrave_base = point( 796m, 1120m );
+		apAcute_base = point( 796m, 1140m );
+	};
+	g_uniA65E = postscript( "uniA65E" ) {
+		apDblMark_base = point( 1878m, 1560m );
+		apYerik_base = point( 1394m, 1520m );
+		apCyrTopCap_base = point( 939m, 1540m );
+	};
+	g_uniA65F = postscript( "uniA65F" ) {
+		apYerik_base = point( 986m, 1060m );
+		apCyrMark_base = point( 677m, 1100m );
+		apGrave_base = point( 677m, 1120m );
+		apAcute_base = point( 677m, 1140m );
+	};
+	g_uniA660 = postscript( "uniA660" ) {
+		apDblMark_base = point( 1442m, 1560m );
+	};
+	g_uniA661 = postscript( "uniA661" );
+	g_uniA662 = postscript( "uniA662" ) {
+		apDblMark_base = point( 1522m, 1560m );
+		apYerik_base = point( 1173m, 1520m );
+		apCyrTopCap_base = point( 872m, 1540m );
+	};
+	g_uniA663 = postscript( "uniA663" ) {
+		apYerik_base = point( 999m, 1060m );
+		apCyrMark_base = point( 768m, 1100m );
+	};
+	g_uniA664 = postscript( "uniA664" ) {
+		apDblMark_base = point( 1612m, 1560m );
+		apYerik_base = point( 1249m, 1520m );
+		apCyrTopCap_base = point( 918m, 1540m );
+	};
+	g_uniA665 = postscript( "uniA665" ) {
+		apYerik_base = point( 989m, 1060m );
+		apCyrMark_base = point( 774m, 1100m );
+	};
+	g_uniA666 = postscript( "uniA666" ) {
+		apDblMark_base = point( 2312m, 1560m );
+		apYerik_base = point( 1790m, 1520m );
+		apCyrTopCap_base = point( 1300m, 1540m );
+	};
+	g_uniA667 = postscript( "uniA667" ) {
+		apYerik_base = point( 1354m, 1060m );
+		apCyrMark_base = point( 990m, 1100m );
+	};
+	g_uniA668 = postscript( "uniA668" ) {
+		apDblMark_base = point( 1632m, 1560m );
+		apYerik_base = point( 1168m, 1520m );
+		apCyrTopCap_base = point( 816m, 1540m );
+	};
+	g_uniA669 = postscript( "uniA669" ) {
+		apYerik_base = point( 743m, 1060m );
+		apCyrMark_base = point( 526m, 1100m );
+		apGrave_base = point( 526m, 1120m );
+		apAcute_base = point( 526m, 1140m );
+	};
+	g_uniA66A = postscript( "uniA66A" ) {
+		apDblMark_base = point( 2216m, 1560m );
+		apYerik_base = point( 1750m, 1520m );
+		apCyrTopCap_base = point( 1396m, 1540m );
+	};
+	g_uniA66B = postscript( "uniA66B" ) {
+		apYerik_base = point( 1329m, 1060m );
+		apCyrMark_base = point( 1136m, 1100m );
+		apGrave_base = point( 1136m, 1120m );
+		apAcute_base = point( 1136m, 1140m );
+	};
+	g_uniA66C = postscript( "uniA66C" ) {
+		apDblMark_base = point( 2720m, 1560m );
+		apYerik_base = point( 1984m, 1520m );
+		apCyrTopCap_base = point( 1360m, 1540m );
+	};
+	g_uniA66D = postscript( "uniA66D" ) {
+		apYerik_base = point( 1304m, 1060m );
+		apCyrMark_base = point( 904m, 1100m );
+		apGrave_base = point( 904m, 1120m );
+		apAcute_base = point( 904m, 1140m );
+	};
+	g_uniA66E = postscript( "uniA66E" ) {
+		apYerik_base = point( 1063m, 1272m );
+		apAcute_base = point( 754m, 1352m );
+		apGrave_base = point( 754m, 1332m );
+		apCyrMark_base = point( 754m, 1312m );
+	};
+	g_uniA66F = postscript( "uniA66F" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA670 = postscript( "uniA670" );
+	g_uniA671 = postscript( "uniA671" );
+	g_uniA672 = postscript( "uniA672" );
+	g_uniA673 = postscript( "uniA673" );
+	g_uniA674 = postscript( "uniA674" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -412m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA675 = postscript( "uniA675" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA676 = postscript( "uniA676" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1757m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA677 = postscript( "uniA677" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA678 = postscript( "uniA678" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -564m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA679 = postscript( "uniA679" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -448m, 1720m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA67A = postscript( "uniA67A" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -532m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA67B = postscript( "uniA67B" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -408m, 1660m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA67C = postscript( "uniA67C" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA67D = postscript( "uniA67D" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA67E = postscript( "uniA67E" );
+	g_uniA67F = postscript( "uniA67F" );
+	g_uniA698 = postscript( "uniA698" ) {
+		apDblMark_base = point( 2264m, 1560m );
+		apYerik_base = point( 1642m, 1520m );
+		apCyrTopCap_base = point( 1132m, 1540m );
+	};
+	g_uniA699 = postscript( "uniA699" ) {
+		apYerik_base = point( 1219m, 1060m );
+		apCyrMark_base = point( 854m, 1100m );
+		apGrave_base = point( 854m, 1120m );
+		apAcute_base = point( 854m, 1140m );
+	};
+	g_uniA69A = postscript( "uniA69A" ) {
+		apDblMark_base = point( 2216m, 1560m );
+		apYerik_base = point( 1750m, 1520m );
+		apCyrTopCap_base = point( 1396m, 1540m );
+	};
+	g_uniA69B = postscript( "uniA69B" ) {
+		apYerik_base = point( 1329m, 1060m );
+		apCyrMark_base = point( 1136m, 1100m );
+		apGrave_base = point( 1136m, 1120m );
+		apAcute_base = point( 1136m, 1140m );
+	};
+	g_uniA69F = postscript( "uniA69F" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apVzmet_basemark = point( -440m, 1720m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_Dotaccent = postscript( "Dotaccent" );
+	g_Breve = postscript( "Breve" );
+	g_Ogonek = postscript( "Ogonek" );
+	g_Cedilla = postscript( "Cedilla" );
+	g_Ring = postscript( "Ring" );
+	g_Tilde = postscript( "Tilde" );
+	g_Circumflex = postscript( "Circumflex" );
+	g_dotlessj = postscript( "dotlessj" );
+	g_commaaccent = postscript( "commaaccent" );
+	g_Acute = postscript( "Acute" );
+	g_Caron = postscript( "Caron" );
+	g_Dieresis = postscript( "Dieresis" );
+	g_Grave = postscript( "Grave" );
+	g_Hungarumlaut = postscript( "Hungarumlaut" );
+	g_Macron = postscript( "Macron" );
+	g_cyrBreve = postscript( "cyrBreve" );
+	g_cyrFlex = postscript( "cyrFlex" );
+	g_dblGrave = postscript( "dblGrave" );
+	g_cyrbreve = postscript( "cyrbreve" );
+	g_cyrflex = postscript( "cyrflex" );
+	g_dblgrave = postscript( "dblgrave" );
+	g_fi = postscript( "fi" ) {
+		component.f = box( 0m,boundingbox.bottom,720m,boundingbox.top );
+		component.i = box( 720m,boundingbox.bottom,advancewidth,boundingbox.top );
+	};
+	g_fl = postscript( "fl" ) {
+		component.f = box( 0m,boundingbox.bottom,720m,boundingbox.top );
+		component.l = box( 720m,boundingbox.bottom,advancewidth,boundingbox.top );
+	};
+	g_u1F540 = postscript( "u1F540" );
+	g_u1F541 = postscript( "u1F541" );
+	g_u1F542 = postscript( "u1F542" );
+	g_u1F543 = postscript( "u1F543" );
+	g_u1F544 = postscript( "u1F544" );
+	g_u1F545 = postscript( "u1F545" );
+	g_caroncommaaccent = postscript( "caroncommaaccent" );
+	g_smalldot = postscript( "smalldot" );
+	g_uni0308_gravecomb = postscript( "uni0308_gravecomb" ) {
+		apTop_mark = point( -432m, 1100m );
+	};
+	g_uni0308_acutecomb = postscript( "uni0308_acutecomb" ) {
+		apTop_mark = point( -440m, 1100m );
+	};
+	g_uni047E_gravecomb = postscript( "uni047E_gravecomb" );
+	g_uni047E_acutecomb = postscript( "uni047E_acutecomb" );
+	g_uni0485_gravecomb = postscript( "uni0485_gravecomb" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0485_acutecomb = postscript( "uni0485_acutecomb" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0486_gravecomb = postscript( "uni0486_gravecomb" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0486_acutecomb = postscript( "uni0486_acutecomb" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE0_uni0487 = postscript( "uni2DE0_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE1_uni0487 = postscript( "uni2DE1_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE2_uni0487 = postscript( "uni2DE2_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE3_uni0487 = postscript( "uni2DE3_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE4_uni0487 = postscript( "uni2DE4_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE5_uni0487 = postscript( "uni2DE5_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE6_uni0487 = postscript( "uni2DE6_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE7_uni0487 = postscript( "uni2DE7_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE8_uni0487 = postscript( "uni2DE8_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE9_uni0487 = postscript( "uni2DE9_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEA_uni0487 = postscript( "uni2DEA_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEB_uni0487 = postscript( "uni2DEB_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEC_uni0487 = postscript( "uni2DEC_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DED_uni0487 = postscript( "uni2DED_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEE_uni0487 = postscript( "uni2DEE_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEF_uni0487 = postscript( "uni2DEF_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF0_uni0487 = postscript( "uni2DF0_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF1_uni0487 = postscript( "uni2DF1_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF2_uni0487 = postscript( "uni2DF2_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF3_uni0487 = postscript( "uni2DF3_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF4_uni0487 = postscript( "uni2DF4_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF6_uni0487 = postscript( "uni2DF6_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF7_uni0487 = postscript( "uni2DF7_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF8_uni0487 = postscript( "uni2DF8_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DF9_uni0487 = postscript( "uni2DF9_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFA_uni0487 = postscript( "uni2DFA_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFB_uni0487 = postscript( "uni2DFB_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFC_uni0487 = postscript( "uni2DFC_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFD_uni0487 = postscript( "uni2DFD_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFE_uni0487 = postscript( "uni2DFE_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DFF_uni0487 = postscript( "uni2DFF_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA674_uni0487 = postscript( "uniA674_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA675_uni0487 = postscript( "uniA675_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA676_uni0487 = postscript( "uniA676_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA677_uni0487 = postscript( "uniA677_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA678_uni0487 = postscript( "uniA678_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA679_uni0487 = postscript( "uniA679_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA67A_uni0487 = postscript( "uniA67A_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA67B_uni0487 = postscript( "uniA67B_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uniA69F_uni0487 = postscript( "uniA69F_uni0487" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_cyryat_anchor = postscript( "afii10194.anchor" ) {
+		apKamora_base = point( 738m, 1536m );
+		apGrave_base = point( 332m, 1120m );
+		apAcute_base = point( 1036m, 1140m );
+	};
+	g_gravecomb_cap = postscript( "gravecomb.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_acutecomb_cap = postscript( "acutecomb.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_circumflexcmb_cap = postscript( "circumflexcmb.cap" ) {
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_tildecomb_cap = postscript( "tildecomb.cap" ) {
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_macroncmb_cap = postscript( "macroncmb.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_brevecmb_cap = postscript( "brevecmb.cap" ) {
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_uni0307_cap = postscript( "uni0307.cap" ) {
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_uni0308_cap = postscript( "uni0308.cap" ) {
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_uni030A_cap = postscript( "uni030A.cap" ) {
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_uni030B_cap = postscript( "uni030B.cap" ) {
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_uni030C_cap = postscript( "uni030C.cap" ) {
+		apTopCap_mark = point( -440m, 1560m );
+	};
+	g_uni030F_cap = postscript( "uni030F.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0311_cap = postscript( "uni0311.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0327_cap = postscript( "uni0327.cap" );
+	g_uni0328_cap = postscript( "uni0328.cap" );
+	g_uni0478_cap = postscript( "uni0478.cap" ) {
+		apDblMark_base = point( 2674m, 1560m );
+		apYerik_base = point( 2348m, 1520m );
+		apCyrTopCap_base = point( 2040m, 1540m );
+	};
+	g_uni0485_cap = postscript( "uni0485.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0486_cap = postscript( "uni0486.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0308_gravecomb_cap = postscript( "uni0308_gravecomb.cap" ) {
+		apTopCap_mark = point( -424m, 1560m );
+	};
+	g_uni0308_acutecomb_cap = postscript( "uni0308_acutecomb.cap" ) {
+		apTopCap_mark = point( -456m, 1560m );
+	};
+	g_uni0485_gravecomb_cap = postscript( "uni0485_gravecomb.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0485_acutecomb_cap = postscript( "uni0485_acutecomb.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0486_gravecomb_cap = postscript( "uni0486_gravecomb.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0486_acutecomb_cap = postscript( "uni0486_acutecomb.cap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_periodcentered_cat = postscript( "periodcentered.cat" );
+	g_cyrery_connecting = postscript( "afii10093.connecting" ) {
+		apYerik_base = point( 974m, 1060m );
+		apCyrMark_base = point( 708m, 1100m );
+		apGrave_base = point( 708m, 1120m );
+		apAcute_base = point( 708m, 1140m );
+	};
+	g_uniA651_connecting = postscript( "uniA651.connecting" ) {
+		apYerik_base = point( 1226m, 1060m );
+		apAcute_base = point( 900m, 1140m );
+		apGrave_base = point( 900m, 1120m );
+		apCyrMark_base = point( 900m, 1100m );
+	};
+	g_brevecmb_cyrcap = postscript( "brevecmb.cyrcap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0308_cyrcap = postscript( "uni0308.cyrcap" ) {
+		apCyrTopCap_mark = point( -440m, 1540m );
+	};
+	g_uni0308_gravecomb_cyrcap = postscript( "uni0308_gravecomb.cyrcap" ) {
+		apCyrTopCap_mark = point( -420m, 1540m );
+	};
+	g_uni0308_acutecomb_cyrcap = postscript( "uni0308_acutecomb.cyrcap" ) {
+		apCyrTopCap_mark = point( -452m, 1540m );
+	};
+	g_dieresis_cyrl = postscript( "dieresis.cyrl" );
+	g_dotaccent_cyrl = postscript( "dotaccent.cyrl" );
+	g_brevecmb_cyrl = postscript( "brevecmb.cyrl" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0307_cyrl = postscript( "uni0307.cyrl" ) {
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0308_cyrl = postscript( "uni0308.cyrl" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_Dieresis_cyrl = postscript( "Dieresis.cyrl" );
+	g_uni0308_gravecomb_cyrl = postscript( "uni0308_gravecomb.cyrl" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni0308_acutecomb_cyrl = postscript( "uni0308_acutecomb.cyrl" ) {
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_cyrii_dieresis = postscript( "afii10103.dieresis" );
+	g_cyrii_dotaccent = postscript( "afii10103.dotaccent" );
+	g_iogonek_dotless = postscript( "iogonek.dotless" ) {
+		apTop_base = point( 342m, 1100m );
+		apGrave_base = point( 342m, 1120m );
+		apAcute_base = point( 342m, 1140m );
+	};
+	g_cyrje_dotless = postscript( "afii10105.dotless" ) {
+		apYerik_base = point( 502m, 1060m );
+		apAcute_base = point( 444m, 1140m );
+		apGrave_base = point( 444m, 1120m );
+		apCyrMark_base = point( 444m, 1100m );
+	};
+	g_acute_high = postscript( "acute.high" );
+	g_circumflex_high = postscript( "circumflex.high" );
+	g_acutecomb_high = postscript( "acutecomb.high" ) {
+		apHighMark_mark = point( -440m, 1620m );
+	};
+	g_circumflexcmb_high = postscript( "circumflexcmb.high" ) {
+		apHighMark_mark = point( -440m, 1620m );
+	};
+	g_uniA66F_large = postscript( "uniA66F.large" ) {
+		apVzmet_mark = point( -440m, 1660m );
+	};
+	g_cyrYAT_low = postscript( "afii10146.low" ) {
+		apDblMark_base = point( 1610m, 1560m );
+		apYerik_base = point( 1101m, 1520m );
+		apCyrTopCap_base = point( 698m, 1540m );
+	};
+	g_cyryat_low = postscript( "afii10194.low" ) {
+		apYerik_base = point( 959m, 1046m );
+		apCyrMark_base = point( 630m, 1086m );
+	};
+	g_uniA64B_low = postscript( "uniA64B.low" ) {
+		apCyrMark_base = point( 780m, 1286m );
+		apDblMark_base = point( 1252m, 1100m );
+		apYerik_base = point( 858m, 1246m );
+		apAcute_base = point( 624m, 1326m );
+		apGrave_base = point( 592m, 1306m );
+	};
+	g_uniA653_low = postscript( "uniA653.low" ) {
+		apYerik_base = point( 1339m, 1046m );
+		apCyrMark_base = point( 1010m, 1086m );
+	};
+	g_cyryat_lowanchor = postscript( "afii10194.lowanchor" ) {
+		apCyrMark_base = point( 734m, 1086m );
+		apYerik_base = point( 1063m, 1046m );
+	};
+	g_cyrSHCH_modern = postscript( "afii10043.modern" );
+	g_cyrshch_modern = postscript( "afii10091.modern" );
+	g_cyro_narrow = postscript( "afii10080.narrow" ) {
+		apYerik_base = point( 328m, 1060m );
+		apCyrMark_base = point( 328m, 1100m );
+		apGrave_base = point( 328m, 1120m );
+		apAcute_base = point( 328m, 1140m );
+	};
+	g_uni0487_narrow = postscript( "uni0487.narrow" );
+	g_cyrCH_old = postscript( "afii10041.old" ) {
+		apDblMark_base = point( 1470m, 1560m );
+		apYerik_base = point( 1078m, 1520m );
+		apCyrTopCap_base = point( 735m, 1540m );
+	};
+	g_cyrch_old = postscript( "afii10089.old" ) {
+		apYerik_base = point( 746m, 1060m );
+		apCyrMark_base = point( 527m, 1100m );
+	};
+	g_uniA641_short = postscript( "uniA641.short" );
+	g_uni2DE3_small = postscript( "uni2DE3.small" ) {
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE4_small = postscript( "uni2DE4.small" ) {
+		apVzmet_basemark = point( -440m, 1720m );
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE5_small = postscript( "uni2DE5.small" ) {
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DE8_small = postscript( "uni2DE8.small" ) {
+		apVzmet_basemark = point( -406m, 1660m );
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_uni2DEE_small = postscript( "uni2DEE.small" ) {
+		apVzmet_basemark = point( -440m, 1660m );
+		apCyrTopCap_mark = point( -440m, 1080m );
+		apCyrMark_mark = point( -440m, 1100m );
+	};
+	g_cyrt_triple = postscript( "afii10084.triple" ) {
+		apYerik_base = point( 1176m, 1060m );
+		apCyrMark_base = point( 835m, 1100m );
+	};
+	g_uni2DEE_uni047E = postscript( "uni2DEE.uni047E" );
+	g_uni2DEE_uni047F = postscript( "uni2DEE.uni047F" );
+	g_uni0487_wide = postscript( "uni0487.wide" );
+
+/*********************************************************************
+/*                     Class Definitions                             *
+/*********************************************************************/
+
+	clsTopMarks = ( g_gravecomb g_acutecomb g_circumflexcmb g_tildecomb g_macroncmb g_uni0305 g_brevecmb
+		g_uni0307 g_uni0308 g_uni030A g_uni030B g_uni030C g_uni030F g_uni0311 g_uni0312 g_uni0313
+		g_uni0314 g_uni033E g_uni0360 g_uni0361 g_uni0483 g_uni0484 g_uni0485 g_uni0486 g_uni0487
+		g_uni0488 g_uni0489 g_uni20DD g_uni2DE0 g_uni2DE1 g_uni2DE2 g_uni2DE3 g_uni2DE4 g_uni2DE5
+		g_uni2DE6 g_uni2DE7 g_uni2DE8 g_uni2DE9 g_uni2DEA g_uni2DEB g_uni2DEC g_uni2DED g_uni2DEE
+		g_uni2DEF g_uni2DF0 g_uni2DF1 g_uni2DF2 g_uni2DF3 g_uni2DF4 g_uni2DF5 g_uni2DF6 g_uni2DF7
+		g_uni2DF8 g_uni2DF9 g_uni2DFA g_uni2DFB g_uni2DFC g_uni2DFD g_uni2DFE g_uni2DFF g_uniA66F
+		g_uniA670 g_uniA671 g_uniA672 g_uniA674 g_uniA675 g_uniA676 g_uniA677 g_uniA678 g_uniA679
+		g_uniA67A g_uniA67B g_uniA67C g_uniA67D g_uniA69F g_uni0308_gravecomb g_uni0308_acutecomb
+		g_uni0485_gravecomb g_uni0485_acutecomb g_uni0486_gravecomb g_uni0486_acutecomb
+		g_uni2DE0_uni0487 g_uni2DE1_uni0487 g_uni2DE2_uni0487 g_uni2DE3_uni0487 g_uni2DE4_uni0487
+		g_uni2DE5_uni0487 g_uni2DE6_uni0487 g_uni2DE7_uni0487 g_uni2DE8_uni0487 g_uni2DE9_uni0487
+		g_uni2DEA_uni0487 g_uni2DEB_uni0487 g_uni2DEC_uni0487 g_uni2DED_uni0487 g_uni2DEE_uni0487
+		g_uni2DEF_uni0487 g_uni2DF0_uni0487 g_uni2DF1_uni0487 g_uni2DF2_uni0487 g_uni2DF3_uni0487
+		g_uni2DF4_uni0487 g_uni2DF6_uni0487 g_uni2DF7_uni0487 g_uni2DF8_uni0487 g_uni2DF9_uni0487
+		g_uni2DFA_uni0487 g_uni2DFB_uni0487 g_uni2DFC_uni0487 g_uni2DFD_uni0487 g_uni2DFE_uni0487
+		g_uni2DFF_uni0487 g_uniA674_uni0487 g_uniA675_uni0487 g_uniA676_uni0487 g_uniA677_uni0487
+		g_uniA678_uni0487 g_uniA679_uni0487 g_uniA67A_uni0487 g_uniA67B_uni0487 g_uniA69F_uni0487
+		g_gravecomb_cap g_acutecomb_cap g_circumflexcmb_cap g_tildecomb_cap g_macroncmb_cap
+		g_brevecmb_cap g_uni0307_cap g_uni0308_cap g_uni030A_cap g_uni030B_cap g_uni030C_cap
+		g_uni030F_cap g_uni0311_cap g_uni0327_cap g_uni0328_cap g_uni0485_cap g_uni0486_cap
+		g_uni0308_gravecomb_cap g_uni0308_acutecomb_cap g_uni0485_gravecomb_cap g_uni0485_acutecomb_cap
+		g_uni0486_gravecomb_cap g_uni0486_acutecomb_cap g_brevecmb_cyrcap g_uni0308_cyrcap
+		g_uni0308_gravecomb_cyrcap g_uni0308_acutecomb_cyrcap g_brevecmb_cyrl g_uni0307_cyrl
+		g_uni0308_cyrl g_uni0308_gravecomb_cyrl g_uni0308_acutecomb_cyrl g_acutecomb_high
+		g_circumflexcmb_high g_uniA66F_large g_uni0487_narrow g_uni2DE3_small g_uni2DE4_small
+		g_uni2DE5_small g_uni2DE8_small g_uni2DEE_small g_uni0487_wide );
+	clsBotMarks = ( g_dotbelowcomb g_uni0326 g_uni0327 g_uni0328 g_uni032F );
+	clsDoubleMarks = ( g_uni0360 g_uni0361 );
+	clsMarks = ( clsTopMarks clsBotMarks clsDoubleMarks );
+
+	clsWithOgonek = ( g_Aogonek g_aogonek g_Eogonek g_eogonek g_Iogonek g_iogonek g_Uogonek g_uogonek );
+	clsNoOgonek = ( g_A g_a g_E g_e g_I g_i g_U g_u );
+	clsWithCedilla = ( g_Ccedilla g_ccedilla g_Scedilla g_scedilla g_Tcommaaccent g_tcommaaccent );
+	clsNoCedilla = ( g_C g_c g_S g_s g_T g_t );
+	clsForCommaaccent = ( g_G g_K g_k g_L g_l g_N g_n g_R g_r );
+	clsForCommaCaron = ( g_d g_L g_l g_t );
+	clsWithCommaCaron = ( g_dcaron g_Lcaron g_lcaron g_tcaron );
+	clsRomCedilla = ( g_Scedilla g_scedilla g_Tcommaaccent g_tcommaaccent );
+	clsRomComma = ( g_Scommaaccent g_scommaaccent g_uni021A g_uni021B );
+
+	clsDotted = ( g_i g_j g_iogonek g_cyrje g_cyrii_dieresis g_cyrii_dotaccent );
+	clsDotless = ( g_dotlessi g_dotlessj g_iogonek_dotless g_cyrje_dotless g_cyrii g_cyrii );
+
+	clsWithDieresis = ( g_Adieresis g_Edieresis g_Idieresis g_Odieresis g_Udieresis g_Ydieresis
+		g_adieresis g_edieresis g_idieresis g_odieresis g_udieresis g_ydieresis
+		g_cyrYO g_cyrYI g_cyryo g_cyryi );
+	clsNoDieresis = ( g_A g_E g_I g_O g_U g_Y g_a g_e g_i g_o g_u g_y g_cyrE g_cyrII g_cyre g_cyrii );
+	clsComposableMarks = ( g_acutecomb g_gravecomb );
+	clsCompositeMarks = ( g_uni0308_acutecomb g_uni0308_gravecomb );
+	clsEnclosingMarks = ( g_uni0488 g_uni0489 g_uni20DD g_uniA670 g_uniA671 g_uniA672 );
+	clsTallLC = ( g_b g_d g_f g_h g_k g_l g_thorn g_dcroat g_lslash );
+	clsCyrYat = ( g_cyryat g_cyryat_anchor g_uniA653 );
+	clsCyrYatLow = ( g_cyryat_low g_cyryat_lowanchor g_uniA653_low );
+
+	clsRaisableAccents = ( g_acutecomb g_circumflexcmb );
+	clsRaisedAccents = ( g_acutecomb_high g_circumflexcmb_high );
+
+	clsCyrAccents = ( g_acutecomb g_gravecomb g_uni0311 );
+	clsCyrOtherMarks = ( g_uni030F g_uni033E g_uni0483 g_uni0485 g_uni0486 unicode( 0x2DE0 .. 0x2DFF )
+		g_uniA66F unicode( 0xA674 .. 0xA67D ) g_uniA69F
+		g_uni0485_gravecomb g_uni0485_acutecomb g_uni0486_gravecomb g_uni0486_acutecomb g_uni2DE0_uni0487
+		g_uni2DE1_uni0487 g_uni2DE2_uni0487 g_uni2DE3_uni0487 g_uni2DE4_uni0487 g_uni2DE5_uni0487 g_uni2DE6_uni0487
+		g_uni2DE7_uni0487 g_uni2DE8_uni0487 g_uni2DE9_uni0487 g_uni2DEA_uni0487 g_uni2DEB_uni0487 g_uni2DEC_uni0487
+		g_uni2DED_uni0487 g_uni2DEE_uni0487 g_uni2DEF_uni0487 g_uni2DF0_uni0487 g_uni2DF1_uni0487 g_uni2DF2_uni0487
+		g_uni2DF3_uni0487 g_uni2DF4_uni0487 g_uni2DF6_uni0487 g_uni2DF7_uni0487 g_uni2DF8_uni0487 g_uni2DF9_uni0487
+		g_uni2DFA_uni0487 g_uni2DFB_uni0487 g_uni2DFC_uni0487 g_uni2DFD_uni0487 g_uni2DFE_uni0487 g_uni2DFF_uni0487
+		g_uniA674_uni0487 g_uniA675_uni0487 g_uniA676_uni0487 g_uniA677_uni0487 g_uniA678_uni0487 g_uniA679_uni0487
+		g_uniA67A_uni0487 g_uniA67B_uni0487 g_uniA69F_uni0487 );
+	clsCyrLetters = ( unicode( 0x0400 .. 0x0481 ) g_cyrGUP g_cyrgup g_uni04A4 g_uni04A5 g_uni04C1 g_uni04C2
+		g_uni04D0 g_uni04D1 unicode( 0xA640 .. 0xA66E ) unicode( 0xA698 .. 0xA69B )
+		g_uni0478_cap g_cyrYAT_low g_cyryat_low g_uniA64B_low g_uniA653_low g_cyrSHCH_modern g_cyrshch_modern
+		g_cyro_narrow g_cyrCH_old g_cyrch_old g_uniA641_short g_cyrery_connecting g_uniA651_connecting );
+	clsCyrillizableMarks = ( g_brevecmb g_uni0307 g_uni0308 g_uni0308_acutecomb g_uni0308_gravecomb );
+	clsCyrillizedMarks = ( g_brevecmb_cyrl g_uni0307_cyrl g_uni0308_cyrl g_uni0308_acutecomb_cyrl g_uni0308_gravecomb_cyrl );
+	clsUC = ( unicode( 0x0041 .. 0x005A ) g_AE g_Ccedilla g_Eth g_Oslash g_Thorn g_Aogonek g_Dcroat g_Eogonek
+		g_Hbar g_Iogonek g_Lslash g_Eng g_OE g_Scedilla g_Tcommaaccent g_Tbar g_Uogonek g_Scommaaccent g_uni021A
+		unicode( 0x0400 .. 0x042F ) g_uni0460 g_cyrYAT g_uni0464 g_uni0466 g_uni0468 g_uni046A g_uni046C
+		g_uni046E g_uni0470 g_cyrFITA g_cyrIZH g_uni0476 g_uni047A g_uni047E g_uni0480 g_cyrGUP g_uni04A4
+		g_uniA640 g_uniA642 g_uniA644 g_uniA646 g_uniA648 g_uniA64A g_uniA64C g_uniA64E
+		g_uniA650 g_uniA652 g_uniA654 g_uniA656 g_uniA658 g_uniA65A g_uniA65C g_uniA65E
+		g_uniA660 g_uniA662 g_uniA664 g_uniA666 g_uniA668 g_uniA66A g_uniA66C g_uniA698 g_uniA69A
+		g_uni0478_cap g_cyrYAT_low g_cyrSHCH_modern g_cyrCH_old );
+	clsLCMarks = ( g_gravecomb g_acutecomb g_circumflexcmb g_tildecomb g_macroncmb g_brevecmb
+		g_uni0307 g_uni0308 g_uni030A g_uni030B g_uni030C g_uni0308_gravecomb g_uni0308_acutecomb );
+	clsLCCyrMarks = ( g_uni030F g_uni0311 g_uni0485 g_uni0486 g_uni0485_gravecomb g_uni0485_acutecomb
+		g_uni0486_gravecomb g_uni0486_acutecomb	g_brevecmb_cyrl g_uni0308_cyrl g_uni0308_gravecomb_cyrl
+		g_uni0308_acutecomb_cyrl );
+	clsUCMarks = ( g_gravecomb_cap g_acutecomb_cap g_circumflexcmb_cap g_tildecomb_cap g_macroncmb_cap g_brevecmb_cap
+		g_uni0307_cap g_uni0308_cap g_uni030A_cap g_uni030B_cap g_uni030C_cap g_uni0308_gravecomb_cap g_uni0308_acutecomb_cap );
+	clsUCCyrMarks = ( g_uni030F_cap g_uni0311_cap g_uni0485_cap g_uni0486_cap g_uni0485_gravecomb_cap g_uni0485_acutecomb_cap
+		g_uni0486_gravecomb_cap g_uni0486_acutecomb_cap g_brevecmb_cyrcap g_uni0308_cyrcap
+		g_uni0308_gravecomb_cyrcap g_uni0308_acutecomb_cyrcap );
+
+	clsCyrCombLetters = ( unicode( 0x2DE0 .. 0x2DF4 ) unicode( 0x2DF6 .. 0x2DFF ) unicode( 0xA674 .. 0xA67B ) g_uniA69F );
+	clsCyrCombLettersPokrytieALL = ( g_uni2DE0_uni0487 g_uni2DE1_uni0487 g_uni2DE2_uni0487 g_uni2DE3_uni0487 g_uni2DE4_uni0487
+		g_uni2DE5_uni0487 g_uni2DE6_uni0487 g_uni2DE7_uni0487 g_uni2DE8_uni0487 g_uni2DE9_uni0487
+		g_uni2DEA_uni0487 g_uni2DEB_uni0487 g_uni2DEC_uni0487 g_uni2DED_uni0487 g_uni2DEE_uni0487
+		g_uni2DEF_uni0487 g_uni2DF0_uni0487 g_uni2DF1_uni0487 g_uni2DF2_uni0487 g_uni2DF3_uni0487
+		g_uni2DF4_uni0487 g_uni2DF6_uni0487 g_uni2DF7_uni0487 g_uni2DF8_uni0487 g_uni2DF9_uni0487
+		g_uni2DFA_uni0487 g_uni2DFB_uni0487 g_uni2DFC_uni0487 g_uni2DFD_uni0487 g_uni2DFE_uni0487
+		g_uni2DFF_uni0487 g_uniA674_uni0487 g_uniA675_uni0487 g_uniA676_uni0487 g_uniA677_uni0487
+		g_uniA678_uni0487 g_uniA679_uni0487 g_uniA67A_uni0487 g_uniA67B_uni0487 g_uniA69F_uni0487 );
+	clsCyrCombLettersGetPokrytie = ( g_uni2DE0 g_uni2DE1 g_uni2DE2 g_uni2DE6 g_uni2DE7 g_uni2DE8
+		g_uni2DE9 g_uni2DEA g_uni2DEB g_uni2DEC g_uni2DED g_uni2DF0 g_uni2DF1 g_uni2DF2 g_uni2DF3 );
+	clsCyrCombLettersPokrytieSTD = ( g_uni2DE0_uni0487 g_uni2DE1_uni0487 g_uni2DE2_uni0487 g_uni2DE6_uni0487
+		g_uni2DE7_uni0487 g_uni2DE8_uni0487 g_uni2DE9_uni0487 g_uni2DEA_uni0487 g_uni2DEB_uni0487
+		g_uni2DEC_uni0487 g_uni2DED_uni0487 g_uni2DF0_uni0487 g_uni2DF1_uni0487 g_uni2DF2_uni0487
+		g_uni2DF3_uni0487 );
+	clsCyrCombLettersNorm = ( unicode( 0x2DE0 .. 0x2DE2 ) g_uni2DE6 g_uni2DE7 unicode( 0x2DE9 .. 0x2DED )
+		unicode( 0x2DEF .. 0x2DFF ) unicode( 0xA674 .. 0xA67B ) g_uniA69F );
+	clsCyrCombLettersLarge = ( g_uni2DE3 g_uni2DE4 g_uni2DE5 g_uni2DE8 g_uni2DEE );
+	clsCyrCombLettersSmall = ( g_uni2DE3_small g_uni2DE4_small g_uni2DE5_small g_uni2DE8_small g_uni2DEE_small );
+
+	clsDigits = unicode( 0x0030 .. 0x0039 );
+	clsDigitsNoZero = unicode( 0x0031 .. 0x0039 );
+	clsDigitsExcOne = ( g_zero unicode( 0x0032 .. 0x0039 ) );
+	clsCyrUnits = ( g_wj g_cyra g_cyrv g_cyrg g_cyrd g_cyrie g_cyrdze g_cyrz g_cyri g_cyrfita );
+	clsCyrUnitsNoZero = ( g_cyra g_cyrv g_cyrg g_cyrd g_cyrie g_cyrdze g_cyrz g_cyri g_cyrfita );
+	clsCyrTens = ( g_wj g_cyrii g_cyrk g_cyrl g_cyrm g_cyrn g_uni046F g_uni047B g_cyrp g_cyrch );
+	clsCyrHundreds = ( g_wj g_cyrr g_cyrs g_cyrt g_cyru g_cyrf g_cyrh g_uni0471 g_uni0461 g_cyrc );
+	clsCyrUnitsFull = ( clsCyrUnits g_cyre g_uniA641 );
+
+	clsHipSymbols = ( g_numbersign g_quotesingle g_grave g_asciicircum g_equal g_dollar g_quotedbl g_asciitilde g_at );
+	clsFromHipSymbols = ( g_uni0482 g_acutecomb g_gravecomb g_uni0311 g_uni0486 g_uni0485 g_uni030F g_uni0483 g_uniA67E );
+	clsHipUCJota = ( g_J g_cyrJE );
+	clsHipLCJota = ( g_j g_cyrje );
+	clsHipUCJotaPrefixed = ( g_A g_cyrA g_E g_cyrE g_U g_cyrSFTSN g_cyrYA );
+	clsHipLCJotaPrefixed = ( g_a g_cyra g_e g_cyre g_u g_cyrsftsn g_cyrya );
+	clsFromHipUCJotaPrefixed = ( g_uniA656 g_uniA656 g_uni0464 g_uni0464 g_uni046C g_cyrYAT g_uni0468 );
+	clsFromHipLCJotaPrefixed = ( g_uniA657 g_uniA657 g_uni0465 g_uni0465 g_uni046D g_cyryat g_uni0469 );
+	clsHipUnderscorePrefixed = ( g_E g_cyrE g_e g_cyre g_I g_i g_O g_cyrO g_o g_cyro g_Y g_cyrU g_y g_cyru g_W g_w );
+	clsHipUCK = ( g_K g_cyrK );
+	clsHipUCS = ( g_C g_cyrS );
+	clsHipLCK = ( g_k g_cyrk );
+	clsHipLCS = ( g_c g_cyrs );
+	clsFromHipUnderscorePrefixed = ( g_cyrIE g_cyrIE g_cyrie g_cyrie g_cyrII g_cyrii g_uni047A g_uni047A
+		g_uni047B g_uni047B g_cyrU g_cyrU g_cyru g_cyru g_uni047C g_uni047D );
+	clsHipLetters = ( g_A g_a g_B g_b g_C g_c g_E g_e g_F g_f g_H g_h g_I g_i g_K g_k g_M g_m g_O g_o g_P g_p
+		g_S g_s g_T g_t g_U g_u g_W g_w g_X g_x g_Y g_y g_cyrU g_cyru g_cyrYA g_cyrya );
+	clsFromHipLetters = ( g_cyrA g_cyra g_cyrV g_cyrv g_cyrS g_cyrs g_cyrE g_cyre g_cyrFITA g_cyrfita
+		g_cyrN g_cyrn g_cyrII g_cyrii_dieresis g_cyrK g_cyrk g_cyrM g_cyrm g_cyrO g_cyro g_cyrR	g_cyrr
+		g_cyrDZE g_cyrdze g_cyrT g_cyrt g_uni046A g_uni046B g_uni0460 g_uni0461 g_cyrH g_cyrh g_uniA64A
+		g_uniA64B g_uniA64A g_uniA64B g_uni0466 g_uni0467 );
+	clsHipUCTitlosPokrytie = ( g_cyrG g_cyrO g_cyrR g_cyrS g_cyrCH g_cyrB g_cyrV
+		g_cyrK g_cyrL g_cyrN g_cyrP g_cyrC g_cyrSH );
+	clsHipLCTitlosPokrytie = ( g_cyrg g_cyro g_cyrr g_cyrs g_cyrch g_cyrb g_cyrv
+		g_cyrk g_cyrl g_cyrn g_cyrp g_cyrc g_cyrsh );
+	clsHipUCTitlosNoPokrytie = ( g_cyrD g_cyrZH g_cyrZ g_cyrM g_cyrT g_cyrH g_cyrFITA g_cyrHRDSN g_cyrI );
+	clsHipLCTitlosNoPokrytie = ( g_cyrd g_cyrzh g_cyrz g_cyrm g_cyrt g_cyrh g_cyrfita g_cyrhrdsn g_cyri );
+	clsFromHipTitlosPokrytie = ( g_uni2DE2 g_uni2DEA g_uni2DEC g_uni2DED g_uni2DF1 g_uni2DE0 g_uni2DE1
+		g_uni2DE6 g_uni2DE7 g_uni2DE9 g_uni2DEB g_uni2DF0 g_uni2DF2 );
+	clsFromHipTitlosNoPokrytie = ( g_uni2DE3 g_uni2DE4 g_uni2DE5 g_uni2DE8 g_uni2DEE g_uni2DEF g_uni2DF4
+		g_uni033E g_uni030F );
+
+	clsapBottom_mark = ( g_dotbelowcomb g_uni0326 g_uni032F );
+	clsapBottom_base = ( g_A g_B g_C g_D g_E g_F g_G g_H g_I g_J g_K g_L g_M g_N g_O g_P g_Q g_R g_S g_T g_U g_V g_W g_X g_Y g_Z g_a g_b g_c g_d g_e g_f g_h g_i g_k g_l g_m g_n g_o g_p g_q g_r g_s g_t g_u g_v g_w g_x g_y g_z g_AE g_Eth g_Oslash g_Thorn g_ae g_eth g_oslash g_thorn g_Dcroat g_dotlessi g_OE g_oe );
+	clsapTopCap_mark = ( g_gravecomb_cap g_acutecomb_cap g_circumflexcmb_cap g_tildecomb_cap g_macroncmb_cap g_brevecmb_cap g_uni0307_cap g_uni0308_cap g_uni030A_cap g_uni030B_cap g_uni030C_cap g_uni0308_gravecomb_cap g_uni0308_acutecomb_cap );
+	clsapTopCap_base = ( g_A g_C g_D g_E g_G g_H g_I g_J g_L g_N g_O g_R g_S g_T g_U g_W g_Y g_Z g_AE g_Oslash g_Aogonek g_Eogonek g_Iogonek g_OE g_Uogonek );
+	clsapAcute_base = ( g_a g_c g_e g_g g_n g_o g_r g_s g_u g_y g_ae g_oslash g_aogonek g_eogonek g_dotlessi g_oe g_uogonek g_uni0237 g_cyra g_cyrg g_cyre g_cyri g_cyrk g_cyro g_cyru g_cyrhrdsn g_cyrery g_cyrsftsn g_cyrerev g_cyryu g_cyrya g_cyrie g_cyrii g_uni0461 g_cyryat g_uni0465 g_uni0467 g_uni0469 g_uni046B g_uni046D g_cyrizh g_uni0478 g_uni0479 g_uni047B g_uni047F g_uniA647 g_uniA64D g_uniA64F g_uniA651 g_uniA653 g_uniA655 g_uniA657 g_uniA659 g_uniA65B g_uniA65D g_uniA65F g_uniA669 g_uniA66B g_uniA66D g_uniA66E g_uniA699 g_uniA69B g_cyryat_anchor g_cyrery_connecting g_uniA651_connecting g_iogonek_dotless g_cyrje_dotless g_uniA64B_low g_cyro_narrow );
+	clsapGrave_base = ( g_a g_c g_e g_g g_n g_o g_r g_s g_u g_w g_y g_z g_ae g_oslash g_aogonek g_eogonek g_dotlessi g_oe g_uogonek g_uni0237 g_cyra g_cyre g_cyri g_cyro g_cyru g_cyrhrdsn g_cyrery g_cyrsftsn g_cyrerev g_cyryu g_cyrya g_cyrie g_cyrii g_uni0461 g_cyryat g_uni0465 g_uni0467 g_uni0469 g_uni046B g_uni046D g_cyrizh g_uni0478 g_uni0479 g_uni047B g_uni047F g_uniA647 g_uniA64D g_uniA64F g_uniA651 g_uniA653 g_uniA655 g_uniA657 g_uniA659 g_uniA65B g_uniA65D g_uniA65F g_uniA669 g_uniA66B g_uniA66D g_uniA66E g_uniA699 g_uniA69B g_cyryat_anchor g_cyrery_connecting g_uniA651_connecting g_iogonek_dotless g_cyrje_dotless g_uniA64B_low g_cyro_narrow );
+	clsapTop_mark = ( g_circumflexcmb g_tildecomb g_macroncmb g_brevecmb g_uni0307 g_uni0308 g_uni030A g_uni030B g_uni030C g_uni0312 g_uni0313 g_uni0314 g_uni0308_gravecomb g_uni0308_acutecomb );
+	clsapTop_base = ( g_a g_c g_e g_g g_n g_o g_r g_s g_u g_w g_y g_z g_ae g_oslash g_aogonek g_eogonek g_dotlessi g_oe g_uogonek g_uni0237 g_iogonek_dotless );
+	clsapHighMark_mark = ( g_acutecomb_high g_circumflexcmb_high );
+	clsapHighMark_base = ( g_g g_h g_l g_w g_z );
+	clsapCyrMark_mark = ( g_macroncmb g_uni030F g_uni0311 g_uni0483 g_uni0485 g_uni0486 g_uni2DE0 g_uni2DE1 g_uni2DE2 g_uni2DE3 g_uni2DE4 g_uni2DE5 g_uni2DE6 g_uni2DE7 g_uni2DE8 g_uni2DE9 g_uni2DEA g_uni2DEB g_uni2DEC g_uni2DED g_uni2DEE g_uni2DEF g_uni2DF0 g_uni2DF1 g_uni2DF2 g_uni2DF3 g_uni2DF4 g_uni2DF5 g_uni2DF6 g_uni2DF7 g_uni2DF8 g_uni2DF9 g_uni2DFA g_uni2DFB g_uni2DFC g_uni2DFD g_uni2DFE g_uni2DFF g_uniA66F g_uniA674 g_uniA675 g_uniA676 g_uniA677 g_uniA678 g_uniA679 g_uniA67A g_uniA67B g_uniA67C g_uniA67D g_uniA69F g_uni0485_gravecomb g_uni0485_acutecomb g_uni0486_gravecomb g_uni0486_acutecomb g_uni2DE0_uni0487 g_uni2DE1_uni0487 g_uni2DE2_uni0487 g_uni2DE3_uni0487 g_uni2DE4_uni0487 g_uni2DE5_uni0487 g_uni2DE6_uni0487 g_uni2DE7_uni0487 g_uni2DE8_uni0487 g_uni2DE9_uni0487 g_uni2DEA_uni0487 g_uni2DEB_uni0487 g_uni2DEC_uni0487 g_uni2DED_uni0487 g_uni2DEE_uni0487 g_uni2DEF_uni0487 g_uni2DF0_uni0487 g_uni2DF1_uni0487 g_uni2DF2_uni0487 g_uni2DF3_uni0487 g_uni2DF4_uni0487 g_uni2DF6_uni0487 g_uni2DF7_uni0487 g_uni2DF8_uni0487 g_uni2DF9_uni0487 g_uni2DFA_uni0487 g_uni2DFB_uni0487 g_uni2DFC_uni0487 g_uni2DFD_uni0487 g_uni2DFE_uni0487 g_uni2DFF_uni0487 g_uniA674_uni0487 g_uniA675_uni0487 g_uniA676_uni0487 g_uniA677_uni0487 g_uniA678_uni0487 g_uniA679_uni0487 g_uniA67A_uni0487 g_uniA67B_uni0487 g_uniA69F_uni0487 g_brevecmb_cyrl g_uni0307_cyrl g_uni0308_cyrl g_uni0308_gravecomb_cyrl g_uni0308_acutecomb_cyrl g_uni2DE3_small g_uni2DE4_small g_uni2DE5_small g_uni2DE8_small g_uni2DEE_small );
+	clsapCyrMark_base = ( g_cyra g_cyrb g_cyrv g_cyrg g_cyrd g_cyre g_cyrzh g_cyrz g_cyri g_cyrk g_cyrl g_cyrm g_cyrn g_cyro g_cyrp g_cyrr g_cyrs g_cyrt g_cyru g_cyrf g_cyrh g_cyrc g_cyrch g_cyrsh g_cyrshch g_cyrhrdsn g_cyrery g_cyrsftsn g_cyrerev g_cyryu g_cyrya g_cyrie g_cyrdze g_cyrii g_cyrdzhe g_uni0461 g_uni0465 g_uni0467 g_uni0469 g_uni046B g_uni046D g_uni046F g_uni0471 g_cyrfita g_cyrizh g_uni0478 g_uni0479 g_uni047B g_uni047F g_uni0481 g_uni04A5 g_uniA641 g_uniA643 g_uniA645 g_uniA647 g_uniA64D g_uniA64F g_uniA651 g_uniA655 g_uniA657 g_uniA659 g_uniA65B g_uniA65D g_uniA65F g_uniA663 g_uniA665 g_uniA667 g_uniA669 g_uniA66B g_uniA66D g_uniA66E g_uniA699 g_uniA69B g_cyrery_connecting g_uniA651_connecting g_cyrje_dotless g_cyryat_low g_uniA64B_low g_uniA653_low g_cyryat_lowanchor g_cyro_narrow g_cyrch_old g_cyrt_triple );
+	clsapKamora_base = ( g_cyryat g_uniA653 g_cyryat_anchor );
+	clsapYerik_base = ( g_cyrIE g_cyrDZE g_cyrII g_cyrDZHE g_cyrA g_cyrB g_cyrV g_cyrG g_cyrD g_cyrE g_cyrZH g_cyrZ g_cyrI g_cyrK g_cyrL g_cyrM g_cyrN g_cyrO g_cyrP g_cyrR g_cyrS g_cyrT g_cyrU g_cyrF g_cyrH g_cyrC g_cyrCH g_cyrSH g_cyrSHCH g_cyrHRDSN g_cyrERY g_cyrSFTSN g_cyrEREV g_cyrYU g_cyrYA g_cyra g_cyrb g_cyrg g_cyrd g_cyre g_cyrzh g_cyrz g_cyri g_cyrk g_cyrl g_cyrm g_cyrn g_cyro g_cyrp g_cyrr g_cyrs g_cyrt g_cyru g_cyrf g_cyrh g_cyrc g_cyrch g_cyrsh g_cyrshch g_cyrhrdsn g_cyrery g_cyrsftsn g_cyrerev g_cyryu g_cyrya g_cyrie g_cyrdze g_cyrii g_cyrdzhe g_uni0460 g_uni0461 g_uni0464 g_uni0465 g_uni0466 g_uni0467 g_uni0468 g_uni0469 g_uni046A g_uni046B g_uni046C g_uni046D g_uni046E g_uni046F g_uni0470 g_uni0471 g_cyrFITA g_cyrfita g_cyrIZH g_cyrizh g_uni0478 g_uni0479 g_uni047A g_uni047B g_uni047E g_uni047F g_uni0480 g_uni0481 g_cyrgup g_uni04A4 g_uni04A5 g_uniA640 g_uniA641 g_uniA642 g_uniA643 g_uniA645 g_uniA646 g_uniA647 g_uniA64A g_uniA64C g_uniA64D g_uniA64E g_uniA64F g_uniA650 g_uniA651 g_uniA652 g_uniA654 g_uniA655 g_uniA656 g_uniA657 g_uniA658 g_uniA659 g_uniA65A g_uniA65B g_uniA65C g_uniA65D g_uniA65E g_uniA65F g_uniA662 g_uniA663 g_uniA664 g_uniA665 g_uniA666 g_uniA667 g_uniA668 g_uniA669 g_uniA66A g_uniA66B g_uniA66C g_uniA66D g_uniA66E g_uniA698 g_uniA699 g_uniA69A g_uniA69B g_uni0478_cap g_cyrery_connecting g_uniA651_connecting g_cyrje_dotless g_cyrYAT_low g_cyryat_low g_uniA64B_low g_uniA653_low g_cyryat_lowanchor g_cyro_narrow g_cyrCH_old g_cyrch_old g_cyrt_triple );
+	clsapDblMark_mark = ( g_uni0360 g_uni0361 );
+	clsapDblMark_base = ( g_cyrIE g_cyrDZE g_cyrII g_cyrDZHE g_cyrA g_cyrB g_cyrV g_cyrG g_cyrD g_cyrE g_cyrZH g_cyrZ g_cyrI g_cyrK g_cyrL g_cyrM g_cyrN g_cyrO g_cyrP g_cyrR g_cyrS g_cyrT g_cyrU g_cyrF g_cyrH g_cyrC g_cyrCH g_cyrSH g_cyrSHCH g_cyrHRDSN g_cyrERY g_cyrSFTSN g_cyrEREV g_cyrYU g_cyrf g_uni0460 g_uni0464 g_uni0466 g_uni0468 g_uni046A g_uni046C g_uni046F g_uni0471 g_cyrFITA g_cyrIZH g_uni047A g_uni047E g_uni047F g_uni0480 g_uni04A4 g_uniA640 g_uniA642 g_uniA644 g_uniA646 g_uniA64A g_uniA64C g_uniA650 g_uniA654 g_uniA656 g_uniA658 g_uniA65A g_uniA65C g_uniA65E g_uniA660 g_uniA662 g_uniA664 g_uniA666 g_uniA668 g_uniA66A g_uniA66C g_uniA698 g_uniA69A g_uni0478_cap g_cyrYAT_low g_uniA64B_low g_cyrCH_old );
+	clsapCyrTopCap_mark = ( g_uni0483 g_uni2DE0 g_uni2DE1 g_uni2DE2 g_uni2DE3 g_uni2DE4 g_uni2DE5 g_uni2DE6 g_uni2DE7 g_uni2DE8 g_uni2DE9 g_uni2DEA g_uni2DEB g_uni2DEC g_uni2DED g_uni2DEE g_uni2DEF g_uni2DF0 g_uni2DF1 g_uni2DF2 g_uni2DF3 g_uni2DF4 g_uni2DF5 g_uni2DF6 g_uni2DF7 g_uni2DF8 g_uni2DF9 g_uni2DFA g_uni2DFB g_uni2DFC g_uni2DFD g_uni2DFE g_uni2DFF g_uniA66F g_uniA674 g_uniA675 g_uniA676 g_uniA677 g_uniA678 g_uniA679 g_uniA67A g_uniA67B g_uniA67C g_uniA67D g_uniA69F g_uni2DE0_uni0487 g_uni2DE1_uni0487 g_uni2DE2_uni0487 g_uni2DE3_uni0487 g_uni2DE4_uni0487 g_uni2DE5_uni0487 g_uni2DE6_uni0487 g_uni2DE7_uni0487 g_uni2DE8_uni0487 g_uni2DE9_uni0487 g_uni2DEA_uni0487 g_uni2DEB_uni0487 g_uni2DEC_uni0487 g_uni2DED_uni0487 g_uni2DEE_uni0487 g_uni2DEF_uni0487 g_uni2DF0_uni0487 g_uni2DF1_uni0487 g_uni2DF2_uni0487 g_uni2DF3_uni0487 g_uni2DF4_uni0487 g_uni2DF6_uni0487 g_uni2DF7_uni0487 g_uni2DF8_uni0487 g_uni2DF9_uni0487 g_uni2DFA_uni0487 g_uni2DFB_uni0487 g_uni2DFC_uni0487 g_uni2DFD_uni0487 g_uni2DFE_uni0487 g_uni2DFF_uni0487 g_uniA674_uni0487 g_uniA675_uni0487 g_uniA676_uni0487 g_uniA677_uni0487 g_uniA678_uni0487 g_uniA679_uni0487 g_uniA67A_uni0487 g_uniA67B_uni0487 g_uniA69F_uni0487 g_gravecomb_cap g_acutecomb_cap g_macroncmb_cap g_uni030F_cap g_uni0311_cap g_uni0485_cap g_uni0486_cap g_uni0485_gravecomb_cap g_uni0485_acutecomb_cap g_uni0486_gravecomb_cap g_uni0486_acutecomb_cap g_brevecmb_cyrcap g_uni0308_cyrcap g_uni0308_gravecomb_cyrcap g_uni0308_acutecomb_cyrcap g_uni0307_cyrl g_uni2DE3_small g_uni2DE4_small g_uni2DE5_small g_uni2DE8_small g_uni2DEE_small );
+	clsapCyrTopCap_base = ( g_cyrIE g_cyrDZE g_cyrII g_cyrDZHE g_cyrA g_cyrB g_cyrV g_cyrG g_cyrD g_cyrE g_cyrZH g_cyrZ g_cyrI g_cyrK g_cyrL g_cyrM g_cyrN g_cyrO g_cyrP g_cyrR g_cyrS g_cyrT g_cyrU g_cyrF g_cyrH g_cyrC g_cyrCH g_cyrSH g_cyrSHCH g_cyrHRDSN g_cyrERY g_cyrSFTSN g_cyrEREV g_cyrYU g_cyrYA g_uni0460 g_uni0464 g_uni0466 g_uni0468 g_uni046A g_uni046C g_uni046E g_uni0470 g_cyrFITA g_cyrIZH g_uni047A g_uni0480 g_uni04A4 g_uniA640 g_uniA642 g_uniA646 g_uniA64A g_uniA64C g_uniA64E g_uniA650 g_uniA652 g_uniA654 g_uniA656 g_uniA658 g_uniA65A g_uniA65C g_uniA65E g_uniA662 g_uniA664 g_uniA666 g_uniA668 g_uniA66A g_uniA66C g_uniA698 g_uniA69A g_uni0478_cap g_cyrYAT_low g_cyrCH_old );
+	clsapVzmet_basemark = ( g_uni2DE0 g_uni2DE1 g_uni2DE2 g_uni2DE5 g_uni2DE6 g_uni2DE7 g_uni2DE9 g_uni2DEA g_uni2DEB g_uni2DEC g_uni2DED g_uni2DEF g_uni2DF0 g_uni2DF1 g_uni2DF2 g_uni2DF3 g_uni2DF4 g_uni2DF6 g_uni2DF7 g_uni2DF8 g_uni2DF9 g_uni2DFA g_uni2DFB g_uni2DFC g_uni2DFD g_uni2DFE g_uni2DFF g_uniA674 g_uniA675 g_uniA676 g_uniA677 g_uniA678 g_uniA679 g_uniA67A g_uniA67B g_uniA69F g_uni2DE3_small g_uni2DE4_small g_uni2DE5_small g_uni2DE8_small g_uni2DEE_small );
+
+	// 'kern' Class-based kerning for Cyrillic
+
+	clsLKerncyrGJE = ( g_cyrGJE g_cyrG g_uni04A4 );
+	clsLKerncyrIE = ( g_cyrIE g_cyrE g_cyrS g_uni0464 );
+	clsLKerncyrKJE = ( g_cyrKJE g_cyrK );
+	clsLKerncyrL = ( g_cyrL g_cyrM );
+	clsLKerncyrO = ( g_cyrO g_cyrYU g_cyrFITA g_uniA668 g_uniA66C g_uniA698 );
+	clsLKerncyrUSHRT = ( g_cyrUSHRT g_cyrU g_cyrIZH g_uni0476 g_uni0478_cap );
+	clsLKerncyrC = ( g_cyrC g_cyrSHCH_modern );
+	clsLKerncyrLJE = ( g_cyrLJE g_cyrNJE g_cyrHRDSN g_cyrSFTSN g_uniA64E );
+	clsLKerncyrYAT = ( g_cyrYAT g_uniA652 g_cyrYAT_low );
+	clsLKernuni0466 = ( g_uni0466 g_uni0468 g_uniA658 g_uniA65C );
+	clsLKernuni046A = ( g_uni046A g_uni046C );
+	clsLKernuni047A = ( g_uni047A g_uniA66A g_uniA69A );
+	clsLKernuni047E = ( g_uni047E g_uniA64C g_uni047E_gravecomb g_uni047E_acutecomb );
+
+	clsLKerncyra = ( g_cyra g_uni04D1 g_uniA657 );
+	clsLKerncyrg = ( g_cyrg g_cyrgje g_uni04A5 );
+	clsLKerncyre = ( g_cyre g_cyryo g_uni0450 );
+	clsLKerncyrzh = ( g_cyrzh g_uni04C2 );
+	clsLKerncyrk = ( g_cyrk g_cyrkje );
+	clsLKerncyru = ( g_cyru g_cyrushrt g_uni0478 g_uni0479 );
+	clsLKerncyrizh = ( g_cyrizh g_uni0477 );
+	clsLKerncyryu = ( g_cyryu g_cyro_narrow );
+	clsLKerncyrhrdsn = ( g_cyrhrdsn g_cyrsftsn g_cyrnje g_uniA64F );
+	clsLKerncyryat = ( g_cyryat g_cyryat_low g_uniA653 g_uniA653_low );
+	clsLKerncyrsmyus = ( g_uni0467 g_uni0469 g_uniA659 g_uniA65B );
+	clsLKerncyrbyus = ( g_uni046B g_uni046D );
+
+	clsRKerncyrA = ( g_cyrA g_uni04D0 );
+	clsRKerncyrD = ( g_cyrD g_uniA662 );
+	clsRKernuni0400 = ( g_uni0400 g_cyrYO g_cyrIE g_cyrE g_cyrS );
+	clsRKerncyrZH = ( g_cyrZH g_uni04C1 );
+	clsRKernuniA640 = ( g_uniA640 g_uniA642 );
+	clsRKerncyrLJE = ( g_cyrLJE g_cyrL g_cyrM g_uniA664 g_uniA666 );
+	clsRKerncyrO = ( g_cyrO g_cyrFITA );
+	clsRKerncyrUSHRT = ( g_cyrUSHRT g_cyrU g_uni0478_cap );
+	clsRKerncyrHRDSN = ( g_cyrHRDSN g_cyrYAT g_uniA650 g_cyrYAT_low );
+	clsRKernuni0466 = ( g_uni0466 g_uniA658 );
+	clsRKernuni047E = ( g_uni047E g_uniA64C );
+	clsRKerncyrIZH = ( g_cyrIZH g_uni0476 );
+	clsRKerncyra = ( g_cyra g_uni04D1 );
+	clsRKerncyrb = ( g_cyrb g_cyrv g_cyrg g_cyri g_cyrk g_cyrn g_cyrp g_cyrc g_cyrsh g_cyrshch g_cyrery g_cyryu g_cyrgje g_cyrii g_cyrnje g_cyrkje g_uni045D g_cyrdzhe g_uni0465 g_uni0469 g_uni046D g_cyrgup g_uni04A5 g_uniA647 g_uniA657 g_uniA65D g_uniA661 g_uniA653_low g_cyrshch_modern g_cyrery_connecting g_uniA651_connecting );
+	clsRKerncyrd = ( g_cyrd g_uniA663 );
+	clsRKerncyre = ( g_cyre g_uni0450 g_cyryo );
+	clsRKerncyrzh = ( g_cyrzh g_uni04C2 );
+	clsRKerncyrl = ( g_cyrl g_cyrm g_cyrlje g_uniA665 g_uniA667 );
+	clsRKerncyro = ( g_cyro g_uni0461 g_uni0479 g_uni047B g_uniA64D g_uniA655 g_uniA66B g_uniA66D g_uniA699 g_uniA69B g_cyro_narrow );
+	clsRKerncyru = ( g_cyru g_uni0471 g_cyrizh g_uni0477 );
+	clsRKerncyrhrdsn = ( g_cyrhrdsn g_uniA651 );
+	clsRKerncyrsmyus = ( g_uni0467 g_uniA659 g_uniA65F );
+	clsRKerncomma = ( g_comma g_period );
+
+	clsRKerncyryat = ( g_cyryat g_cyryat_low );
+	clsRKerncyrizh = ( g_cyrizh g_uni0477 );
+
+	// 'kern' Horizontal Kerning for Latin
+
+	clsLKernA = ( g_A g_Agrave g_Aacute g_Acircumflex g_Atilde g_Adieresis g_Aring g_Amacron g_Abreve g_Aogonek );
+	clsLKernC = ( g_C g_Ccedilla g_Cacute g_Ccircumflex g_Cdotaccent g_Ccaron );
+	clsLKernD = ( g_D g_Eth g_Dcaron );
+	clsLKernN = ( g_N g_Ntilde g_Nacute g_Ncommaaccent g_Eng );
+	clsLKernJ = ( g_J g_Jcircumflex );
+	clsLKernK = ( g_K g_Kcommaaccent );
+	clsLKernL = ( g_L g_Lslash g_Lacute );
+	clsLKernO = ( g_O g_Ograve g_Oacute g_Ocircumflex g_Otilde g_Odieresis g_Omacron g_Obreve g_Ohungarumlaut );
+	clsLKernR = ( g_R g_Racute g_Rcommaaccent );
+	clsLKernS = ( g_S g_Sacute g_Scircumflex g_Scedilla g_Scaron g_Scommaaccent );
+	clsLKernT = ( g_T g_Tcommaaccent g_Tcaron );
+	clsLKernU = ( g_U g_Ugrave g_Uacute g_Ucircumflex g_Udieresis g_Utilde g_Umacron g_Ubreve g_Uring g_Uhungarumlaut g_Uogonek );
+	clsLKernV = ( g_V g_W g_Wcircumflex );
+	clsLKernY = ( g_Y g_Yacute g_Ydieresis g_uni0232 );
+	clsLKerna = ( g_a g_aacute g_agrave g_acircumflex g_atilde g_adieresis g_aring g_amacron g_abreve g_aogonek );
+	clsLKernb = ( g_b g_o g_p g_oacute g_ograve g_ocircumflex g_otilde g_odieresis g_omacron g_obreve g_ohungarumlaut );
+	clsLKernk = ( g_k g_kgreenlandic g_kcommaaccent );
+	clsLKernr = ( g_r g_racute g_rcommaaccent g_rcaron );
+	clsLKernv = ( g_v g_w g_wcircumflex );
+	clsLKerny = ( g_y g_yacute g_ydieresis g_uni0233 );
+	clsLKernquoteleft = ( g_quoteleft g_quotedblleft );
+
+	clsRKerncomma_kernHorizontalKerningforLatin = ( g_comma g_period g_ellipsis );
+	clsRKernA = ( g_A g_Agrave g_Aacute g_Acircumflex g_Atilde g_Adieresis g_Aring g_Amacron g_Abreve g_Aogonek );
+	clsRKernC = ( g_C g_G g_Ccedilla g_Cacute g_Ccircumflex g_Cdotaccent g_Ccaron g_Gcircumflex g_Gbreve g_Gdotaccent g_Gcommaaccent );
+	clsRKernJ = ( g_J g_Jcircumflex );
+	clsRKernO = ( g_O g_Q g_Ograve g_Oacute g_Ocircumflex g_Otilde g_Odieresis g_Omacron g_Obreve g_Ohungarumlaut g_OE );
+	clsRKernT = ( g_T g_Tcommaaccent g_Tcaron );
+	clsRKernU = ( g_U g_Ugrave g_Uacute g_Ucircumflex g_Udieresis g_Utilde g_Umacron g_Ubreve g_Uring g_Uhungarumlaut g_Uogonek );
+	clsRKernV = ( g_V g_W g_Wcircumflex );
+	clsRKernY = ( g_Y g_Yacute g_Ydieresis g_uni0232 );
+	clsRKernAE = ( g_AE );
+	clsRKerna = ( g_a g_aacute g_aogonek g_ae );
+	clsRKernagrave = ( g_agrave g_acircumflex g_atilde g_adieresis g_aring g_amacron g_abreve );
+	clsRKernc = ( g_c g_d g_e g_o g_ccedilla g_dcaron g_dcroat g_eacute g_eogonek g_oacute g_oe );
+	clsRKernegrave = ( g_egrave g_ecircumflex g_edieresis g_emacron g_ebreve g_edotaccent g_ecaron g_cacute g_cdotaccent g_ccircumflex g_ccaron g_ograve g_ocircumflex g_otilde g_odieresis g_omacron g_obreve g_ohungarumlaut );
+	clsRKerni = ( g_i g_n g_dotlessi g_iacute g_nacute );
+	clsRKernj = ( g_j g_jcircumflex g_uni0237 );
+	clsRKernu = ( g_u g_uacute );
+	clsRKernv = ( g_v g_w g_wcircumflex );
+	clsRKerny = ( g_y g_yacute );
+	clsRKernquoteright = ( g_quoteright g_quotedblright );
+	clsRKerns = ( g_s g_sacute g_scircumflex g_scedilla g_scaron g_scommaaccent );
+
+endtable
+
+table( substitution )
+	pass( 1 ) { MaxBackup = 2; MaxRuleLoop = 4 }
+
+	if ( hipnotation )
+
+		g_backslash clsHipSymbols > @1 clsFromHipSymbols$2 / ^ _ _;
+		clsHipSymbols > clsFromHipSymbols$1;
+
+		g_cyro g_underscore g_cyru > g_uni0479:( 1 2 3 ) _ _;
+		g_underscore clsHipUCK clsHipUCS > g_uni046E:( 1 2 3 ) _ _;
+		g_underscore clsHipUCK clsHipLCS > g_uni046E:( 1 2 3 ) _ _;
+		g_underscore clsHipLCK clsHipLCS > g_uni046F:( 1 2 3 ) _ _;
+		g_underscore g_cyrP clsHipUCS > g_uni0470:( 1 2 3 ) _ _;
+		g_underscore g_cyrP clsHipLCS > g_uni0470:( 1 2 3 ) _ _;
+		g_underscore g_cyrp clsHipLCS > g_uni0471:( 1 2 3 ) _ _;
+		g_W g_backslash g_cyrT > g_uni047E:( 1 2 3 ) _ _;
+		g_W g_backslash g_cyrt > g_uni047E:( 1 2 3 ) _ _;
+		g_w g_backslash g_cyrT > g_uni047F:( 1 2 3 ) _ _;
+		g_w g_backslash g_cyrt > g_uni047F:( 1 2 3 ) _ _;
+
+		g_underscore clsHipUnderscorePrefixed > _ clsFromHipUnderscorePrefixed$2:( 1 2 );
+		clsHipUCJota clsHipUCJotaPrefixed > _ clsFromHipUCJotaPrefixed$2:( 1 2 );
+		clsHipUCJota clsHipLCJotaPrefixed > _ clsFromHipUCJotaPrefixed$2:( 1 2 );
+		clsHipLCJota clsHipLCJotaPrefixed > _ clsFromHipLCJotaPrefixed$2:( 1 2 );
+		clsHipLetters > clsFromHipLetters$1;
+		g_backslash clsHipUCTitlosPokrytie > clsFromHipTitlosPokrytie$2:( 2 ) g_uni0487:( 1 );
+		g_backslash clsHipLCTitlosPokrytie > clsFromHipTitlosPokrytie$2:( 2 ) g_uni0487:( 1 );
+		g_backslash clsHipUCTitlosNoPokrytie > _ clsFromHipTitlosNoPokrytie$2:( 1 2 );
+		g_backslash clsHipLCTitlosNoPokrytie > _ clsFromHipTitlosNoPokrytie$2:( 1 2 );
+	endif
+
+	if ( osdigits )
+		clsDigits clsDigits clsDigits clsDigits clsDigits > @1 @2 @3 @4 @5;
+		g_zero? g_zero? g_zero? g_zero > @1 @2 @3 @4;
+
+		// Convert Arabic digits to Slavonic, placing titlo above the second character
+		// from the end of sequence. Note that padding zeros are ignored, while other
+		// zeros are converted to WJ's.
+		clsDigitsNoZero clsDigits clsDigits clsDigits > \
+			g_uni0482:1 clsCyrUnitsNoZero$1:1 {attDigit = 1} clsCyrHundreds$2:2 {attDigit = 1} clsCyrTens$3:3 {attDigit = 1} g_uni0483:3 clsCyrUnits$4:4 {attDigit = 1} / ^ _ _ _ _;
+		g_zero? clsDigits clsDigits clsDigits > \
+			@1 clsCyrHundreds$2 {attDigit = 1} clsCyrTens$3:2 {attDigit = 1} g_uni0483:3 clsCyrUnits$4:4 {attDigit = 1} / ^ _ _ _ _;
+		g_zero? g_zero? clsDigits clsDigits > @1 @2 clsCyrTens$3:3 {attDigit = 1} g_uni0483:3 clsCyrUnits$4:4 {attDigit = 1} / ^ _ _ _ _;
+		g_zero? g_zero? g_zero? clsDigitsNoZero > @1 @2 @3 clsCyrUnitsNoZero$4 {attDigit = 1} g_uni0483:4 / ^ _ _ _ _;
+
+		// Now reorder sequences making sure the titlo is always placed above the
+		// second _visible_ digit from the end of sequence. At this stage we also remove
+		// some WJ's, especially those intervening between a base letter and a titlo.
+		// However there is no need to remove them all, as usually they don't harm.
+		clsCyrUnitsNoZero g_wj g_wj g_uni0483 g_wj > @1:( 1 3 4 5 ) _ _ @4 _ / _ {attDigit == 1} _ _ _ _;
+		clsCyrUnitsNoZero clsCyrHundreds g_wj g_uni0483 g_wj > @1 @4 @2:( 2 3 5 ) _ _ / _ {attDigit == 1} _ _ _ _;
+		clsCyrUnitsNoZero g_wj clsCyrTens g_uni0483 g_wj > @1:( 1 2 ) _ @4 @3:( 3 5 ) _ / _ {attDigit == 1} _ _ _ _;
+		clsCyrUnitsNoZero g_wj g_wj g_uni0483 clsCyrUnitsNoZero > @1:( 1 2 3 ) _ _ @4 @5 / _ {attDigit == 1} _ _ _ _;
+
+		clsCyrHundreds clsCyrTens g_uni0483 g_wj > @1 @3 @2:( 2 4 ) _ / _ {attDigit == 1} _ _ _;
+		clsCyrHundreds g_wj g_uni0483 clsCyrUnitsNoZero > @1:( 1 2 ) _ @3 @4 / _ {attDigit == 1} _ _ _;
+		clsCyrHundreds g_wj g_uni0483 g_wj > @1:( 1 2 4 ) _ @3 _ / _ {attDigit == 1} _ _ _;
+
+		// Take care of the numbers between 10 and 20 (units should go before
+		// the letter denoting 10).
+		g_cyrii g_uni0483 clsCyrUnitsNoZero > @3 @2 @1 / _ {attDigit == 1} _ _;
+	endif
+
+	endpass
+
+	pass( 2 ) { MaxBackup = 3; MaxRuleLoop = 6 }
+
+	// Standard compositions and replacements. These are done in those cases
+	// where the correct shape of an accented Unicode character cannot
+	// be obtained by simply combining characters it is canonically
+	// decomposed to.
+
+	clsNoCedilla g_uni0327 > clsWithCedilla$1:( 1 2 ) _ / ^ _ _;
+	clsNoOgonek g_uni0328 > clsWithOgonek$1:( 1 2 ) _ /  ^ _ _;
+	clsForCommaaccent g_uni0327 > @1 g_uni0326;
+	g_g g_uni0327 > g_g g_uni0312;
+	clsForCommaCaron g_uni030C > clsWithCommaCaron$1:( 1 2 ) _;
+
+	g_uni0485 g_acutecomb > g_uni0485_acutecomb:( 1 2 ) _;
+	g_uni0485 g_gravecomb > g_uni0485_gravecomb:( 1 2 ) _;
+	g_uni0486 g_acutecomb > g_uni0486_acutecomb:( 1 2 ) _;
+	g_uni0486 g_gravecomb > g_uni0486_gravecomb:( 1 2 ) _;
+	clsCyrCombLetters g_uni0487 > clsCyrCombLettersPokrytieALL$1:( 1 2 ) _;
+
+	// Language-specific variant forms
+
+	if ( romanian > 0 )
+		clsRomCedilla > clsRomComma$1;
+	endif
+
+	// Optional variant forms
+
+	if ( cyrdecimali == singledot )
+		g_cyrii > g_cyrii_dotaccent;
+	else if ( cyrdecimali == doubledot )
+		g_cyrii > g_cyrii_dieresis;
+	endif
+
+	if ( cyrzemlya == sharp )
+		g_cyrZ > g_uniA640;
+		g_cyrz > g_uniA641;
+	endif
+
+	if ( cyrcherv == old )
+		g_cyrCH > g_cyrCH_old;
+		g_cyrch > g_cyrch_old;
+	endif
+
+	if ( cyrshcha == modern )
+		g_cyrSHCH > g_cyrSHCH_modern;
+		g_cyrshch > g_cyrshch_modern;
+	endif
+
+	if ( cyrlcyery == connected )
+		g_cyrery > g_cyrery_connecting;
+		g_uniA651 > g_uniA651_connecting;
+	endif
+
+	if ( cyrlctverdo == triple )
+		g_cyrt > g_cyrt_triple;
+	endif
+
+	if ( cyrlcyat == backstem )
+		g_cyryat > g_cyryat_anchor;
+	endif
+
+	if ( lettertitlos == withtitlo )
+		clsCyrCombLettersGetPokrytie > clsCyrCombLettersPokrytieSTD$1;
+	endif
+
+	endpass
+
+	pass( 3 ) { MaxBackup = 3; MaxRuleLoop = 6 }
+
+	clsWithDieresis clsComposableMarks > clsNoDieresis$1 clsCompositeMarks$2;
+	clsDotted > clsDotless / _ clsBotMarks? clsTopMarks;
+
+	g_uniA641 clsEnclosingMarks > g_uniA641_short @2;
+
+	clsTallLC clsRaisableAccents > @1 clsRaisedAccents$2;
+
+	g_cyrYAT clsBotMarks? clsCyrAccents > g_cyrYAT_low @2 @3 / _ _ ^ _;
+	g_cyrYAT clsBotMarks? clsCyrOtherMarks > g_cyrYAT_low @2 @3 / _ _ ^ _;
+	clsCyrYat clsBotMarks? clsCyrOtherMarks > clsCyrYatLow$1 @2 @3 / _ _ ^ _;
+	g_uniA64B clsBotMarks? clsCyrAccents > g_uniA64B_low @2 @3 / _ _ ^ _;
+	g_uniA64B clsBotMarks? clsCyrOtherMarks > g_uniA64B_low @2 @3 / _ _ ^ _;
+
+	clsCyrCombLettersNorm g_uniA66F > @1 g_uniA66F_large;
+	clsCyrCombLettersLarge g_uniA66F > clsCyrCombLettersSmall$1 g_uniA66F_large;
+
+	endpass
+
+	pass( 4 ) { MaxBackup = 3; MaxRuleLoop = 6 }
+
+	clsCyrUnitsFull g_uni0483 g_cyrii_dotaccent > @1 @2 @3 / _ _ _ ^ clsCyrLetters ;
+	clsCyrUnitsFull g_uni0483 g_cyrii_dieresis > @1 @2 @3 / _ _ _ ^ clsCyrLetters ;
+	clsCyrUnitsFull g_uni0483 g_cyrii_dotaccent > @1 @2 g_cyrii;
+	clsCyrUnitsFull g_uni0483 g_cyrii_dieresis > @1 @2 g_cyrii;
+
+	clsCyrLetters clsCyrillizableMarks > @1 clsCyrillizedMarks / ^ _ _;
+	clsUC clsLCMarks > @1 clsUCMarks;
+	clsUC clsLCCyrMarks > @1 clsUCCyrMarks;
+
+	endpass
+
+	pass( 5 ) { MaxBackup = 1; MaxRuleLoop = 2 }
+
+    	if ( ligatures == common )
+    		g_f g_i > g_fi:( 1 2 ) {
+    			component { f.reference = @1; i.reference = @2 }
+    		} _;
+    		g_f g_l > g_fl:( 1 2 ) {
+    			component { f.reference = @1; l.reference = @2 }
+    		} _;
+
+		// Don't build ligatures when followed by a combining
+		// mark (otherwise it would be difficult to position it)
+		g_f g_i > @1 @2 / _ _ clsMarks;
+		g_f g_l > @1 @2 / _ _ clsMarks;
+    	endif
+
+	if ( diphthong )
+		g_A g_E > g_AE:( 1 2 ) {
+			component { A.reference = @1; E.reference = @2 }
+		} _;
+		g_A g_e > g_AE:( 1 2 ) {
+			component { A.reference = @1; E.reference = @2 }
+		} _;
+		g_a g_e > g_ae:( 1 2 ) {
+			component { a.reference = @1; e.reference = @2 }
+		} _;
+		g_O g_E > g_OE:( 1 2 ) {
+			component { O.reference = @1; E.reference = @2 }
+		} _;
+		g_O g_e > g_OE:( 1 2 ) {
+			component { O.reference = @1; E.reference = @2 }
+		} _;
+		g_o g_e > g_oe:( 1 2 ) {
+			component { o.reference = @1; e.reference = @2 }
+		} _;
+
+		// Don't build ligatures when followed by a combining
+		// mark (otherwise it would be difficult to position it)
+		g_A g_E > @1 @2 / _ _ clsMarks;
+		g_A g_e > @1 @2 / _ _ clsMarks;
+		g_a g_e > @1 @2 / _ _ clsMarks;
+		g_O g_E > @1 @2 / _ _ clsMarks;
+		g_O g_e > @1 @2 / _ _ clsMarks;
+		g_o g_e > @1 @2 / _ _ clsMarks;
+	endif
+	endpass
+
+endtable
+
+table( positioning )
+	pass( 1 ) { MaxBackup = 6; MaxRuleLoop = 12 }
+
+	clsapBottom_base clsapBottom_mark {
+		attach { to = @1; at = apBottom_base; with = apBottom_mark };
+		attDone = 1
+	} / ^ _ _ {attDone == 0};
+	clsapAcute_base clsBotMarks? g_acutecomb {
+		attach { to = @1; at = apAcute_base; with = apAcute_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapGrave_base clsBotMarks? g_gravecomb {
+		attach { to = @1; at = apGrave_base; with = apGrave_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapTop_base clsBotMarks? clsapTop_mark {
+		attach { to = @1; at = apTop_base; with = apTop_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapHighMark_base clsBotMarks? clsapHighMark_mark {
+		attach { to = @1; at = apHighMark_base; with = apHighMark_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapCyrMark_base clsBotMarks? clsapCyrMark_mark {
+		attach { to = @1; at = apCyrMark_base; with = apCyrMark_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapKamora_base clsBotMarks? g_uni0311 {
+		attach { to = @1; at = apKamora_base; with = apKamora_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapYerik_base clsBotMarks? g_uni033E {
+		attach { to = @1; at = apYerik_base; with = apYerik_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapTopCap_base clsBotMarks? clsapTopCap_mark {
+		attach { to = @1; at = apTopCap_base; with = apTopCap_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapCyrTopCap_base clsBotMarks? clsapCyrTopCap_mark {
+		attach { to = @1; at = apCyrTopCap_base; with = apCyrTopCap_mark };
+		attDone = 1
+	} / ^ _ _ _ {attDone == 0};
+	clsapDblMark_base clsBotMarks? clsTopMarks? clsapDblMark_mark {
+		attach { to = @1; at = apDblMark_base; with = apDblMark_mark };
+		attDone = 1
+	} / ^ _ _ _ _ {attDone == 0};
+	clsapVzmet_basemark g_uniA66F_large {
+		attach { to = @1; at = apVzmet_basemark; with = apVzmet_mark };
+		attDone = 1
+	} / ^ _ _ {attDone == 0};
+	endpass
+
+	pass( 2 ) { MaxBackup = 3; MaxRuleLoop = 6 }
+	// Pairwise kerning:
+
+	g_cyrDJE opt4(clsMarks) g_cyrU { kern.x = -118m } / _ ^ _;
+	g_cyrTSHE opt4(clsMarks) g_cyrU { kern.x = -104m } / _ ^ _;
+
+	g_cyrG opt4(clsMarks) g_cyryo { kern.x = -44m } / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyryo { kern.x = -56m } / _ ^ _;
+	g_cyrU opt4(clsMarks) g_cyryo { kern.x = -62m } / _ ^ _;
+	g_cyrG opt4(clsMarks) g_uni0450 { kern.x = -44m } / _ ^ _;
+	g_cyrT opt4(clsMarks) g_uni0450 { kern.x = -56m } / _ ^ _;
+	g_cyrU opt4(clsMarks) g_uni0450 { kern.x = -62m } / _ ^ _;
+
+	clsLKerncyra opt4(clsMarks) g_cyrh { kern.x = -48m } / _ ^ _;
+	clsLKerncyra opt4(clsMarks) g_cyrs { kern.x = -14m } / _ ^ _;
+	clsLKerncyra opt4(clsMarks) clsRKerncyre { kern.x = -32m } / _ ^ _;
+	clsLKerncyra opt4(clsMarks) g_cyrr { kern.x = -44m } / _ ^ _;
+	clsLKerncyra opt4(clsMarks) g_cyrch { kern.x = -28m } / _ ^ _;
+	clsLKerncyra opt4(clsMarks) clsRKerncyru { kern.x = -14m } / _ ^ _;
+	clsLKerncyra opt4(clsMarks) g_cyrt { kern.x = -64m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_uniA64D { kern.x = -48m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyryo { kern.x = -36m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_uni0450 { kern.x = -36m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_uni047B { kern.x = -28m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyrf { kern.x = -178m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyrm { kern.x = -132m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) clsRKerncyrsmyus { kern.x = -192m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) clsRKerncyra { kern.x = -128m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_uni046B { kern.x = -62m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) clsRKerncyrl { kern.x = -162m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyrs { kern.x = -56m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) clsRKerncyrd { kern.x = -176m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyro { kern.x = -44m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyrerev { kern.x = -92m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyrz { kern.x = -44m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyrr { kern.x = -96m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyrie { kern.x = -72m } / _ ^ _;
+	clsLKerncyrg opt4(clsMarks) g_cyre { kern.x = -36m } / _ ^ _;
+	g_cyrd opt4(clsMarks) g_uniA64B_low { kern.x = -148m } / _ ^ _;
+	g_cyrd opt4(clsMarks) g_uniA64B { kern.x = -148m } / _ ^ _;
+	g_cyrd opt4(clsMarks) g_uniA651_connecting { kern.x = -178m } / _ ^ _;
+	g_cyrd opt4(clsMarks) g_uniA651 { kern.x = -178m } / _ ^ _;
+	g_cyrd opt4(clsMarks) clsRKerncyrizh { kern.x = -148m } / _ ^ _;
+	g_cyrd opt4(clsMarks) g_cyrhrdsn { kern.x = -178m } / _ ^ _;
+	g_cyrd opt4(clsMarks) clsRKerncyryat { kern.x = -166m } / _ ^ _;
+	g_cyrd opt4(clsMarks) g_cyro { kern.x = -96m } / _ ^ _;
+	g_cyrd opt4(clsMarks) clsRKerncyre { kern.x = -106m } / _ ^ _;
+	g_cyrd opt4(clsMarks) clsRKerncyru { kern.x = -102m } / _ ^ _;
+	g_cyrd opt4(clsMarks) g_cyrie { kern.x = -80m } / _ ^ _;
+	clsLKerncyre opt4(clsMarks) clsRKerncyrd { kern.x = -44m } / _ ^ _;
+	clsLKerncyre opt4(clsMarks) g_cyrz { kern.x = -28m } / _ ^ _;
+	clsLKerncyrzh opt4(clsMarks) g_cyryo { kern.x = -28m } / _ ^ _;
+	clsLKerncyrzh opt4(clsMarks) clsRKerncyre { kern.x = -28m } / _ ^ _;
+	clsLKerncyrk opt4(clsMarks) g_cyro { kern.x = -56m } / _ ^ _;
+	clsLKerncyrk opt4(clsMarks) g_uni047B { kern.x = -44m } / _ ^ _;
+	clsLKerncyrk opt4(clsMarks) g_cyre { kern.x = -44m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_uniA64B_low { kern.x = -98m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_uniA64B { kern.x = -98m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_uniA651_connecting { kern.x = -64m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_uniA64D { kern.x = -42m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_cyrch { kern.x = -44m } / _ ^ _;
+	g_cyrl opt4(clsMarks) clsRKerncyrizh { kern.x = -56m } / _ ^ _;
+	g_cyrl opt4(clsMarks) clsRKerncyre { kern.x = -30m } / _ ^ _;
+	g_cyrl opt4(clsMarks) clsRKerncyryat { kern.x = -80m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_uniA651 { kern.x = -64m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_cyrhrdsn { kern.x = -64m } / _ ^ _;
+	g_cyrl opt4(clsMarks) clsRKerncyru { kern.x = -56m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_cyro { kern.x = -42m } / _ ^ _;
+	g_cyrl opt4(clsMarks) g_cyrie { kern.x = -28m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_uniA64B_low { kern.x = -80m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_uniA64B { kern.x = -80m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_uniA651_connecting { kern.x = -88m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_uniA64D { kern.x = -32m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_cyrch { kern.x = -52m } / _ ^ _;
+	g_cyrm opt4(clsMarks) clsRKerncyrizh { kern.x = -44m } / _ ^ _;
+	g_cyrm opt4(clsMarks) clsRKerncyre { kern.x = -32m } / _ ^ _;
+	g_cyrm opt4(clsMarks) clsRKerncyryat { kern.x = -72m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_uniA651 { kern.x = -88m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_cyrhrdsn { kern.x = -88m } / _ ^ _;
+	g_cyrm opt4(clsMarks) clsRKerncyru { kern.x = -44m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_cyro { kern.x = -24m } / _ ^ _;
+	g_cyrm opt4(clsMarks) g_cyrie { kern.x = -28m } / _ ^ _;
+	g_cyro opt4(clsMarks) g_uniA663 { kern.x = -96m } / _ ^ _;
+	g_cyro opt4(clsMarks) g_cyrfita { kern.x = -136m } / _ ^ _;
+	g_cyro opt4(clsMarks) clsRKerncyru { kern.x = -28m } / _ ^ _;
+	g_cyro opt4(clsMarks) clsRKerncyrizh { kern.x = -28m } / _ ^ _;
+	g_cyro opt4(clsMarks) clsRKerncyrsmyus { kern.x = -46m } / _ ^ _;
+	g_cyro opt4(clsMarks) g_cyrm { kern.x = -24m } / _ ^ _;
+	g_cyro opt4(clsMarks) clsRKerncyrl { kern.x = -24m } / _ ^ _;
+	g_cyro opt4(clsMarks) clsRKerncyrd { kern.x = -102m } / _ ^ _;
+	g_cyro opt4(clsMarks) g_cyrh { kern.x = -32m } / _ ^ _;
+	g_cyro opt4(clsMarks) g_cyrerev { kern.x = -58m } / _ ^ _;
+	g_cyro opt4(clsMarks) g_cyrz { kern.x = -54m } / _ ^ _;
+	g_cyro opt4(clsMarks) g_uni0471 { kern.x = -32m } / _ ^ _;
+	g_cyro opt4(clsMarks) g_cyrt { kern.x = -60m } / _ ^ _;
+	g_cyrr opt4(clsMarks) g_uniA64B_low { kern.x = -88m } / _ ^ _;
+	g_cyrr opt4(clsMarks) clsRKerncyryat { kern.x = -56m } / _ ^ _;
+	g_cyrr opt4(clsMarks) g_uniA64B { kern.x = -88m } / _ ^ _;
+	g_cyrr opt4(clsMarks) g_uniA651_connecting { kern.x = -74m } / _ ^ _;
+	g_cyrr opt4(clsMarks) g_uniA651 { kern.x = -74m } / _ ^ _;
+	g_cyrr opt4(clsMarks) g_cyrhrdsn { kern.x = -74m } / _ ^ _;
+	g_cyrr opt4(clsMarks) clsRKerncyrizh { kern.x = -32m } / _ ^ _;
+	g_cyrr opt4(clsMarks) g_cyrt { kern.x = -102m } / _ ^ _;
+	g_cyrr opt4(clsMarks) clsRKerncyru { kern.x = -32m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_uniA64D { kern.x = -48m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyrf { kern.x = -176m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyrd { kern.x = -178m } / _ ^ _;
+	g_cyrt opt4(clsMarks) clsRKerncyrsmyus { kern.x = -162m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyrm { kern.x = -118m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_uni046B { kern.x = -60m } / _ ^ _;
+	g_cyrt opt4(clsMarks) clsRKerncyrl { kern.x = -134m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyrz { kern.x = -36m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyrr { kern.x = -76m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyrie { kern.x = -56m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyrya { kern.x = -14m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyro { kern.x = -44m } / _ ^ _;
+	g_cyrt opt4(clsMarks) g_cyrerev { kern.x = -88m } / _ ^ _;
+	g_cyrt opt4(clsMarks) clsRKerncyre { kern.x = -28m } / _ ^ _;
+	g_cyrt opt4(clsMarks) clsRKerncyra { kern.x = -136m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyro { kern.x = -76m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) clsRKerncyrsmyus { kern.x = -192m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrerev { kern.x = -92m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrs { kern.x = -60m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrya { kern.x = -28m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrie { kern.x = -68m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrm { kern.x = -144m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrr { kern.x = -80m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrfita { kern.x = -178m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrz { kern.x = -52m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) g_cyrf { kern.x = -162m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) clsRKerncyrd { kern.x = -192m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) clsRKerncyrl { kern.x = -166m } / _ ^ _;
+	clsLKerncyru opt4(clsMarks) clsRKerncyra { kern.x = -166m } / _ ^ _;
+	g_cyrf opt4(clsMarks) g_uniA64B_low { kern.x = -96m } / _ ^ _;
+	g_cyrf opt4(clsMarks) g_uniA64B { kern.x = -96m } / _ ^ _;
+	g_cyrf opt4(clsMarks) g_cyre { kern.x = -44m } / _ ^ _;
+	g_cyrf opt4(clsMarks) clsRKerncyryat { kern.x = -116m } / _ ^ _;
+	g_cyrf opt4(clsMarks) g_cyrt { kern.x = -176m } / _ ^ _;
+	g_cyrf opt4(clsMarks) clsRKerncyrizh { kern.x = -74m } / _ ^ _;
+	g_cyrf opt4(clsMarks) clsRKerncyru { kern.x = -74m } / _ ^ _;
+	g_cyrh opt4(clsMarks) g_uniA64D { kern.x = -52m } / _ ^ _;
+	g_cyrh opt4(clsMarks) clsRKerncyre { kern.x = -44m } / _ ^ _;
+	g_cyrh opt4(clsMarks) clsRKerncyra { kern.x = -136m } / _ ^ _;
+	g_cyrh opt4(clsMarks) g_cyrm { kern.x = -102m } / _ ^ _;
+	g_cyrh opt4(clsMarks) clsRKerncyrl { kern.x = -104m } / _ ^ _;
+	g_cyrh opt4(clsMarks) g_cyro { kern.x = -88m } / _ ^ _;
+	g_cyrc opt4(clsMarks) clsRKerncyre { kern.x = -74m } / _ ^ _;
+	g_cyrc opt4(clsMarks) clsRKerncyrhrdsn { kern.x = -74m } / _ ^ _;
+	clsLKerncyrhrdsn opt4(clsMarks) g_cyrch { kern.x = -106m } / _ ^ _;
+	clsLKerncyrhrdsn opt4(clsMarks) clsRKerncyru { kern.x = -118m } / _ ^ _;
+	clsLKerncyrhrdsn opt4(clsMarks) g_cyrch_old { kern.x = -162m } / _ ^ _;
+	clsLKerncyrhrdsn opt4(clsMarks) g_cyrt { kern.x = -148m } / _ ^ _;
+	clsLKerncyrhrdsn opt4(clsMarks) clsRKerncyre { kern.x = -68m } / _ ^ _;
+	clsLKerncyrhrdsn opt4(clsMarks) clsRKerncyryat { kern.x = -148m } / _ ^ _;
+	clsLKerncyrhrdsn opt4(clsMarks) g_cyrs { kern.x = -44m } / _ ^ _;
+	g_cyrerev opt4(clsMarks) clsRKerncyrzh { kern.x = -48m } / _ ^ _;
+	g_cyrerev opt4(clsMarks) clsRKerncyrd { kern.x = -88m } / _ ^ _;
+	g_cyrerev opt4(clsMarks) g_cyrt { kern.x = -60m } / _ ^ _;
+	g_cyrerev opt4(clsMarks) g_cyrh { kern.x = -48m } / _ ^ _;
+	g_cyrerev opt4(clsMarks) g_cyrm { kern.x = -54m } / _ ^ _;
+	g_cyrerev opt4(clsMarks) clsRKerncyrl { kern.x = -54m } / _ ^ _;
+	g_cyrerev opt4(clsMarks) g_cyrz { kern.x = -44m } / _ ^ _;
+	clsLKerncyryu opt4(clsMarks) g_cyrm { kern.x = -14m } / _ ^ _;
+	clsLKerncyryu opt4(clsMarks) clsRKerncyrl { kern.x = -40m } / _ ^ _;
+	clsLKerncyryu opt4(clsMarks) clsRKerncyrd { kern.x = -74m } / _ ^ _;
+	clsLKerncyryu opt4(clsMarks) clsRKerncyrzh { kern.x = -28m } / _ ^ _;
+	g_cyrie opt4(clsMarks) g_cyrr { kern.x = -24m } / _ ^ _;
+	g_cyrlje opt4(clsMarks) g_cyrch { kern.x = -136m } / _ ^ _;
+	g_cyrlje opt4(clsMarks) g_cyrt { kern.x = -178m } / _ ^ _;
+	g_cyrlje opt4(clsMarks) clsRKerncyru { kern.x = -122m } / _ ^ _;
+	clsLKerncyryat opt4(clsMarks) g_cyrs { kern.x = -44m } / _ ^ _;
+	clsLKerncyryat opt4(clsMarks) g_cyro { kern.x = -36m } / _ ^ _;
+	clsLKerncyryat opt4(clsMarks) g_cyrt { kern.x = -106m } / _ ^ _;
+	clsLKerncyryat opt4(clsMarks) g_cyrch_old { kern.x = -74m } / _ ^ _;
+	clsLKerncyryat opt4(clsMarks) g_cyrch { kern.x = -44m } / _ ^ _;
+	g_uni0466 opt4(clsMarks) g_cyrCH_old { kern.x = -146m } / _ ^ _;
+	clsLKerncyrsmyus opt4(clsMarks) g_cyrch_old { kern.x = -76m } / _ ^ _;
+	clsLKerncyrsmyus opt4(clsMarks) g_cyrch { kern.x = -64m } / _ ^ _;
+	clsLKerncyrsmyus opt4(clsMarks) g_cyrr { kern.x = -14m } / _ ^ _;
+	clsLKerncyrsmyus opt4(clsMarks) g_cyro { kern.x = -28m } / _ ^ _;
+	clsLKerncyrsmyus opt4(clsMarks) clsRKerncyru { kern.x = -44m } / _ ^ _;
+	clsLKerncyrsmyus opt4(clsMarks) g_cyrt { kern.x = -118m } / _ ^ _;
+	g_uni046A opt4(clsMarks) g_quotedblright { kern.x = -102m } / _ ^ _;
+	g_uni046A opt4(clsMarks) g_cyrh { kern.x = -64m } / _ ^ _;
+	clsLKerncyrbyus opt4(clsMarks) g_cyre { kern.x = -44m } / _ ^ _;
+	clsLKerncyrbyus opt4(clsMarks) g_cyrch { kern.x = -44m } / _ ^ _;
+	clsLKerncyrbyus opt4(clsMarks) g_cyrch_old { kern.x = -56m } / _ ^ _;
+	g_uni0470 opt4(clsMarks) g_cyri { kern.x = -282m } / _ ^ _;
+	g_uni0471 opt4(clsMarks) clsRKerncyra { kern.x = -132m } / _ ^ _;
+	g_cyrfita opt4(clsMarks) g_uniA64B_low { kern.x = -162m } / _ ^ _;
+	g_cyrfita opt4(clsMarks) g_uniA64B { kern.x = -162m } / _ ^ _;
+	g_cyrfita opt4(clsMarks) g_cyro { kern.x = -142m } / _ ^ _;
+	g_cyrfita opt4(clsMarks) clsRKerncyru { kern.x = -140m } / _ ^ _;
+	g_cyrfita opt4(clsMarks) clsRKerncyrizh { kern.x = -140m } / _ ^ _;
+	g_cyrfita opt4(clsMarks) clsRKerncyre { kern.x = -102m } / _ ^ _;
+	clsLKerncyrizh opt4(clsMarks) clsRKerncyra { kern.x = -144m } / _ ^ _;
+	clsLKerncyrizh opt4(clsMarks) g_cyrs { kern.x = -56m } / _ ^ _;
+	clsLKerncyrizh opt4(clsMarks) clsRKerncyrd { kern.x = -216m } / _ ^ _;
+	clsLKerncyrizh opt4(clsMarks) g_cyro { kern.x = -68m } / _ ^ _;
+	clsLKerncyrizh opt4(clsMarks) clsRKerncyrl { kern.x = -176m } / _ ^ _;
+	clsLKerncyrizh opt4(clsMarks) g_cyrfita { kern.x = -222m } / _ ^ _;
+	clsLKerncyrizh opt4(clsMarks) g_cyrm { kern.x = -152m } / _ ^ _;
+	clsLKerncyrizh opt4(clsMarks) g_cyrr { kern.x = -78m } / _ ^ _;
+	g_uni047B opt4(clsMarks) g_cyrt { kern.x = -62m } / _ ^ _;
+	g_uni047B opt4(clsMarks) g_cyrh { kern.x = -32m } / _ ^ _;
+	g_uni047B opt4(clsMarks) g_cyrm { kern.x = -48m } / _ ^ _;
+	g_uni047B opt4(clsMarks) clsRKerncyrl { kern.x = -56m } / _ ^ _;
+	g_cyrgup opt4(clsMarks) g_cyro { kern.x = -74m } / _ ^ _;
+	g_cyrgup opt4(clsMarks) clsRKerncyrl { kern.x = -178m } / _ ^ _;
+	g_cyrgup opt4(clsMarks) clsRKerncyrd { kern.x = -178m } / _ ^ _;
+	g_cyrgup opt4(clsMarks) clsRKerncyra { kern.x = -164m } / _ ^ _;
+	g_quotedblleft opt4(clsMarks) g_cyrZ { kern.x = -166m } / _ ^ _;
+	g_quotedblleft opt4(clsMarks) g_cyrEREV { kern.x = -148m } / _ ^ _;
+	g_quotedblleft opt4(clsMarks) g_uni046A { kern.x = -148m } / _ ^ _;
+	g_quotedblleft opt4(clsMarks) g_cyrD { kern.x = -266m } / _ ^ _;
+	g_quotedblleft opt4(clsMarks) g_cyrM { kern.x = -228m } / _ ^ _;
+	g_quotedblleft opt4(clsMarks) g_cyrL { kern.x = -252m } / _ ^ _;
+	g_quotedblleft opt4(clsMarks) g_cyrA { kern.x = -102m } / _ ^ _;
+	g_uniA640 opt4(clsMarks) g_cyrL { kern.x = -88m } / _ ^ _;
+	g_uniA640 opt4(clsMarks) g_cyrM { kern.x = -88m } / _ ^ _;
+	g_uniA640 opt4(clsMarks) g_cyrA { kern.x = -74m } / _ ^ _;
+	g_uniA64B opt4(clsMarks) clsRKerncyrd { kern.x = -104m } / _ ^ _;
+	g_uniA64D opt4(clsMarks) clsRKerncyrl { kern.x = -36m } / _ ^ _;
+	g_uniA64D opt4(clsMarks) g_cyrt { kern.x = -48m } / _ ^ _;
+	g_uniA64D opt4(clsMarks) g_cyrh { kern.x = -32m } / _ ^ _;
+	g_uniA65F opt4(clsMarks) g_uniA64B_low { kern.x = -76m } / _ ^ _;
+	g_uniA65F opt4(clsMarks) g_uniA64B { kern.x = -76m } / _ ^ _;
+	g_uniA65F opt4(clsMarks) g_cyrch_old { kern.x = -118m } / _ ^ _;
+	g_uniA65F opt4(clsMarks) g_cyrch { kern.x = -88m } / _ ^ _;
+	g_uniA65F opt4(clsMarks) g_cyrt { kern.x = -166m } / _ ^ _;
+	g_uniA64B_low opt4(clsMarks) clsRKerncyrd { kern.x = -104m } / _ ^ _;
+	g_cyrch_old opt4(clsMarks) clsRKerncyrd { kern.x = -108m } / _ ^ _;
+	g_cyrch_old opt4(clsMarks) clsRKerncyrl { kern.x = -74m } / _ ^ _;
+	g_cyrch_old opt4(clsMarks) g_cyrm { kern.x = -60m } / _ ^ _;
+	g_cyrch_old opt4(clsMarks) g_cyro { kern.x = -14m } / _ ^ _;
+
+	// Combinations with enclosing marks
+
+	g_cyra { shift.x = 588m; advance.x += 574m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_cyra { shift.x = 448m; advance.x += 430m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyra { shift.x = 670m; advance.x += 652m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyra { shift.x = 492m; advance.x += 476m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyra { shift.x = 670m; advance.x += 652m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyra { shift.x = 588m; advance.x += 570m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyrv { shift.x = 600m; advance.x += 562m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_cyrv { shift.x = 456m; advance.x += 418m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyrv { shift.x = 678m; advance.x += 640m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyrv { shift.x = 502m; advance.x += 464m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyrv { shift.x = 678m; advance.x += 640m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyrv { shift.x = 594m; advance.x += 558m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyrg { shift.x = 662m; advance.x += 644m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_cyrg { shift.x = 518m; advance.x += 500m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyrg { shift.x = 740m; advance.x += 722m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyrg { shift.x = 564m; advance.x += 546m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyrg { shift.x = 740m; advance.x += 722m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyrg { shift.x = 658m; advance.x += 640m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyrd { shift.x = 530m; shift.y = 112m; advance.x += 380m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_cyrd { shift.x = 386m; shift.y = 112m; advance.x += 236m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyrd { shift.x = 608m; shift.y = 112m; advance.x += 458m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyrd { shift.x = 432m; shift.y = 112m; advance.x += 282m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyrd { shift.x = 608m; shift.y = 112m; advance.x += 458m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyrd { shift.x = 526m; shift.y = 112m; advance.x += 376m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyre { shift.x = 694m; advance.x += 752m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_cyre { shift.x = 550m; advance.x += 608m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyre { shift.x = 772m; advance.x += 830m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyre { shift.x = 596m; advance.x += 654m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyre { shift.x = 772m; advance.x += 830m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyre { shift.x = 690m; advance.x += 748m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyrz { shift.x = 598m; shift.y = 68m; advance.x += 468m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_cyrz { shift.x = 454m; shift.y = 68m; advance.x += 324m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyrz { shift.x = 676m; shift.y = 68m; advance.x += 546m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyrz { shift.x = 500m; shift.y = 68m; advance.x += 370m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyrz { shift.x = 676m; shift.y = 68m; advance.x += 546m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyrz { shift.x = 595m; shift.y = 68m; advance.x += 464m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyri { shift.x = 575m; advance.x += 470m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_cyri { shift.x = 431m; advance.x += 326m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyri { shift.x = 653m; advance.x += 548m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyri { shift.x = 477m; advance.x += 372m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyri { shift.x = 653m; advance.x += 548m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyri { shift.x = 571m; advance.x += 466m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyrie { shift.x = 624m; shift.y = 68m; advance.x += 540m } g_uniA672 {  advance.x = 680m } / _ ^ _;
+	g_cyrie { shift.x = 444m; advance.x += 396m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyrie { shift.x = 676m; advance.x += 618m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyrie { shift.x = 512m; advance.x += 442m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyrie { shift.x = 672m; advance.x += 618m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyrie { shift.x = 596m; advance.x += 536m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyrdze { shift.x = 610m; shift.y = 56m; advance.x += 500m } g_uniA672 {  advance.x = 680m } / _ ^ _;
+	g_cyrdze { shift.x = 466m; advance.x += 356m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyrdze { shift.x = 688m; advance.x += 578m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyrdze { shift.x = 512m; advance.x += 402m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyrdze { shift.x = 688m; advance.x += 578m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyrdze { shift.x = 606m; advance.x += 496m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_cyrfita { shift.x = 492m; shift.y = 112m; advance.x += 304m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_cyrfita { shift.x = 348m; shift.y = 112m; advance.x += 160m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_cyrfita { shift.x = 570m; shift.y = 112m; advance.x += 382m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_cyrfita { shift.x = 394m; shift.y = 112m; advance.x += 206m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_cyrfita { shift.x = 570m; shift.y = 112m; advance.x += 382m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_cyrfita { shift.x = 488m; shift.y = 112m; advance.x += 300m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_uniA645 { shift.x = 613m; advance.x += 546m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_uniA645 { shift.x = 469m; advance.x += 402m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_uniA645 { shift.x = 691m; advance.x += 624m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_uniA645 { shift.x = 515m; advance.x += 448m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_uniA645 { shift.x = 691m; advance.x += 624m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_uniA645 { shift.x = 609m; advance.x += 542m } g_uni0488 { advance.x = 676m } / _ ^ _;
+	g_uniA641_short { shift.x = 642m; shift.y = 160m; advance.x += 604m } g_uniA672 { advance.x = 680m } / _ ^ _;
+	g_uniA641_short { shift.x = 498m; shift.y = 128m; advance.x += 460m } g_uniA671 { advance.x = 536m } / _ ^ _;
+	g_uniA641_short { shift.x = 720m; shift.y = 128m; advance.x += 682m } g_uniA670 { advance.x = 758m } / _ ^ _;
+	g_uniA641_short { shift.x = 544m; shift.y = 128m; advance.x += 506m } g_uni20DD { advance.x = 582m } / _ ^ _;
+	g_uniA641_short { shift.x = 720m; shift.y = 128m; advance.x += 682m } g_uni0489 { advance.x = 758m } / _ ^ _;
+	g_uniA641_short { shift.x = 638m; shift.y = 128m; advance.x += 600m } g_uni0488 { advance.x = 676m } / _ ^ _;
+
+	endpass
+	pass( 3 ) { MaxBackup = 6; MaxRuleLoop = 12 }
+
+	// 'kern' Class-based kerning for Cyrillic
+	// has 31 left, 46 right classes and 1426 offsets
+
+	g_cyrB opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -36m} / _ ^ _;
+	g_cyrV opt4(clsMarks) g_cyrT {kern.x = -14m} / _ ^ _;
+	g_cyrV opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -74m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrA {kern.x = -84m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrD {kern.x = -222m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKernuni0400 {kern.x = -74m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_uniA644 {kern.x = -74m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_cyrZ {kern.x = -144m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrLJE {kern.x = -162m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrO {kern.x = -62m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_cyrR {kern.x = -60m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrUSHRT {kern.x = 32m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_cyrF {kern.x = -92m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrHRDSN {kern.x = 44m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_cyrEREV {kern.x = -144m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_cyrYA {kern.x = -36m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKernuni0466 {kern.x = -212m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_uni046A {kern.x = -74m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_uni047A {kern.x = -58m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyra {kern.x = -296m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrb {kern.x = -136m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrd {kern.x = -264m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_cyre {kern.x = -212m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_cyrz {kern.x = -138m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrl {kern.x = -206m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyro {kern.x = -244m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_cyrr {kern.x = -222m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyru {kern.x = -56m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrhrdsn {kern.x = -74m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) g_uni046B {kern.x = -162m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncyrsmyus {kern.x = -282m} / _ ^ _;
+	clsLKerncyrGJE opt4(clsMarks) clsRKerncomma {kern.x = -178m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyrA {kern.x = -212m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyrD {kern.x = -192m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyrLJE {kern.x = -266m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyrO {kern.x = -104m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKernuni0466 {kern.x = -272m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyra {kern.x = -366m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyrb {kern.x = -268m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyre {kern.x = -326m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyrzh {kern.x = -236m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) g_cyrz {kern.x = -288m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) clsRKerncyru {kern.x = -284m} / _ ^ _;
+	g_cyrGUP opt4(clsMarks) g_cyrya {kern.x = -308m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKernuni0400 {kern.x = -136m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKerncyrO {kern.x = -128m} / _ ^ _;
+	g_cyrD opt4(clsMarks) g_cyrT {kern.x = -106m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -162m} / _ ^ _;
+	g_cyrD opt4(clsMarks) g_cyrCH {kern.x = -106m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKerncyrHRDSN {kern.x = -132m} / _ ^ _;
+	g_cyrD opt4(clsMarks) g_uni047A {kern.x = -88m} / _ ^ _;
+	g_cyrD opt4(clsMarks) g_uni0460 {kern.x = -126m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKernuni047E {kern.x = -108m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKerncyre {kern.x = -58m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKerncyro {kern.x = -44m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKerncyru {kern.x = -44m} / _ ^ _;
+	g_cyrD opt4(clsMarks) clsRKerncyrhrdsn {kern.x = -164m} / _ ^ _;
+	clsLKerncyrIE opt4(clsMarks) clsRKerncyrD {kern.x = -88m} / _ ^ _;
+	clsLKerncyrIE opt4(clsMarks) clsRKerncyrZH {kern.x = -24m} / _ ^ _;
+	clsLKerncyrIE opt4(clsMarks) clsRKerncyrLJE {kern.x = -14m} / _ ^ _;
+	clsLKerncyrIE opt4(clsMarks) g_cyrT {kern.x = -32m} / _ ^ _;
+	clsLKerncyrIE opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -56m} / _ ^ _;
+	clsLKerncyrIE opt4(clsMarks) g_cyrEREV {kern.x = -40m} / _ ^ _;
+	clsLKerncyrIE opt4(clsMarks) clsRKerncyrIZH {kern.x = -44m} / _ ^ _;
+	clsLKerncyrIE opt4(clsMarks) clsRKerncyrd {kern.x = -52m} / _ ^ _;
+	g_cyrDZE opt4(clsMarks) clsRKerncyrHRDSN {kern.x = -88m} / _ ^ _;
+	g_cyrZH opt4(clsMarks) clsRKernuni0400 {kern.x = -56m} / _ ^ _;
+	g_cyrZH opt4(clsMarks) clsRKerncyrO {kern.x = -72m} / _ ^ _;
+	g_cyrZH opt4(clsMarks) g_uni047A {kern.x = -56m} / _ ^ _;
+	g_cyrZH opt4(clsMarks) clsRKernuni047E {kern.x = -74m} / _ ^ _;
+	g_cyrZH opt4(clsMarks) clsRKerncyru {kern.x = -28m} / _ ^ _;
+	g_cyrZ opt4(clsMarks) clsRKerncyrD {kern.x = -44m} / _ ^ _;
+	g_cyrZ opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -128m} / _ ^ _;
+	clsLKerncyrKJE opt4(clsMarks) clsRKernuni0400 {kern.x = -56m} / _ ^ _;
+	clsLKerncyrKJE opt4(clsMarks) clsRKerncyrO {kern.x = -44m} / _ ^ _;
+	clsLKerncyrKJE opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -28m} / _ ^ _;
+	clsLKerncyrKJE opt4(clsMarks) g_cyrF {kern.x = -64m} / _ ^ _;
+	clsLKerncyrKJE opt4(clsMarks) g_uni047A {kern.x = -74m} / _ ^ _;
+	clsLKerncyrKJE opt4(clsMarks) g_uni0460 {kern.x = -44m} / _ ^ _;
+	clsLKerncyrKJE opt4(clsMarks) clsRKernuni047E {kern.x = -44m} / _ ^ _;
+	clsLKerncyrKJE opt4(clsMarks) clsRKerncyrIZH {kern.x = -24m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) clsRKernuni0400 {kern.x = -62m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) clsRKerncyrO {kern.x = -58m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) g_cyrT {kern.x = -14m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -74m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) g_cyrCH {kern.x = -44m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) clsRKerncyrHRDSN {kern.x = -56m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) g_uni047A {kern.x = -44m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) g_uni0460 {kern.x = -36m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) clsRKernuni047E {kern.x = -28m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) clsRKerncyre {kern.x = -28m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) clsRKerncyru {kern.x = -44m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) clsRKerncyrhrdsn {kern.x = -133m} / _ ^ _;
+	clsLKerncyrL opt4(clsMarks) g_cyrCH_old {kern.x = -56m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) clsRKerncyrD {kern.x = -162m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) clsRKerncyrZH {kern.x = -72m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) clsRKernuniA640 {kern.x = -44m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) clsRKerncyrLJE {kern.x = -32m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) g_cyrT {kern.x = -74m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -210m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) g_cyrH {kern.x = -102m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) clsRKerncyrIZH {kern.x = -118m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) clsRKerncyrd {kern.x = -92m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) clsRKerncyrl {kern.x = -56m} / _ ^ _;
+	clsLKerncyrO opt4(clsMarks) g_cyrCH_old {kern.x = -44m} / _ ^ _;
+	g_cyrR opt4(clsMarks) clsRKerncyrD {kern.x = -192m} / _ ^ _;
+	g_cyrR opt4(clsMarks) g_cyrDZE {kern.x = -102m} / _ ^ _;
+	g_cyrR opt4(clsMarks) g_cyrZ {kern.x = -116m} / _ ^ _;
+	g_cyrR opt4(clsMarks) clsRKerncyrLJE {kern.x = -104m} / _ ^ _;
+	g_cyrR opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -64m} / _ ^ _;
+	g_cyrR opt4(clsMarks) g_cyrEREV {kern.x = -104m} / _ ^ _;
+	g_cyrR opt4(clsMarks) g_cyrJE {kern.x = -222m} / _ ^ _;
+	g_cyrR opt4(clsMarks) clsRKerncyra {kern.x = -206m} / _ ^ _;
+	g_cyrR opt4(clsMarks) clsRKerncyrd {kern.x = -162m} / _ ^ _;
+	g_cyrR opt4(clsMarks) g_cyre {kern.x = -44m} / _ ^ _;
+	g_cyrR opt4(clsMarks) clsRKerncomma {kern.x = -264m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrA {kern.x = -102m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrD {kern.x = -164m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKernuni0400 {kern.x = -92m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyrDZE {kern.x = -132m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_uniA644 {kern.x = -88m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyrZ {kern.x = -162m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrLJE {kern.x = -162m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrO {kern.x = -74m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyrR {kern.x = -74m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyrEREV {kern.x = -162m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyrYA {kern.x = -62m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKernuni0466 {kern.x = -222m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_uni046A {kern.x = -88m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_uni047A {kern.x = -76m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKernuni047E {kern.x = -56m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyra {kern.x = -268m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrb {kern.x = -162m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrd {kern.x = -206m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyre {kern.x = -196m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyrz {kern.x = -206m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrl {kern.x = -206m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyro {kern.x = -206m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyrr {kern.x = -192m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyru {kern.x = -44m} / _ ^ _;
+	g_cyrT opt4(clsMarks) g_cyrf {kern.x = -236m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrhrdsn {kern.x = -88m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncyrsmyus {kern.x = -222m} / _ ^ _;
+	g_cyrT opt4(clsMarks) clsRKerncomma {kern.x = -166m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrA {kern.x = -166m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrD {kern.x = -250m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKernuni0400 {kern.x = -112m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrDZE {kern.x = -148m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrZ {kern.x = -176m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrLJE {kern.x = -252m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrO {kern.x = -166m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrR {kern.x = -74m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrT {kern.x = 56m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrF {kern.x = -118m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrEREV {kern.x = -162m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrYA {kern.x = -92m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKernuni0466 {kern.x = -292m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyra {kern.x = -340m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrb {kern.x = -178m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrd {kern.x = -286m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyre {kern.x = -252m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrzh {kern.x = -132m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrz {kern.x = -240m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrl {kern.x = -268m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyro {kern.x = -296m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrf {kern.x = -296m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncyrsmyus {kern.x = -316m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) g_cyrfita {kern.x = -326m} / _ ^ _;
+	clsLKerncyrUSHRT opt4(clsMarks) clsRKerncomma {kern.x = -222m} / _ ^ _;
+	g_cyrF opt4(clsMarks) clsRKerncyrD {kern.x = -178m} / _ ^ _;
+	g_cyrF opt4(clsMarks) clsRKerncyrLJE {kern.x = -58m} / _ ^ _;
+	g_cyrF opt4(clsMarks) g_cyrT {kern.x = -92m} / _ ^ _;
+	g_cyrF opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -124m} / _ ^ _;
+	g_cyrF opt4(clsMarks) g_cyrEREV {kern.x = -108m} / _ ^ _;
+	g_cyrF opt4(clsMarks) clsRKerncyrIZH {kern.x = -136m} / _ ^ _;
+	g_cyrF opt4(clsMarks) clsRKerncyra {kern.x = -148m} / _ ^ _;
+	g_cyrH opt4(clsMarks) clsRKerncyrO {kern.x = -120m} / _ ^ _;
+	g_cyrH opt4(clsMarks) g_uni047A {kern.x = -102m} / _ ^ _;
+	g_cyrH opt4(clsMarks) clsRKernuni047E {kern.x = -88m} / _ ^ _;
+	g_cyrH opt4(clsMarks) clsRKerncyre {kern.x = -88m} / _ ^ _;
+	g_cyrH opt4(clsMarks) clsRKerncyro {kern.x = -88m} / _ ^ _;
+	g_cyrH opt4(clsMarks) clsRKerncyru {kern.x = -74m} / _ ^ _;
+	clsLKerncyrC opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -44m} / _ ^ _;
+	clsLKerncyrC opt4(clsMarks) clsRKerncyru {kern.x = -24m} / _ ^ _;
+	clsLKerncyrLJE opt4(clsMarks) g_cyrT {kern.x = -206m} / _ ^ _;
+	clsLKerncyrLJE opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -118m} / _ ^ _;
+	clsLKerncyrLJE opt4(clsMarks) g_cyrCH {kern.x = -74m} / _ ^ _;
+	clsLKerncyrLJE opt4(clsMarks) clsRKerncyrHRDSN {kern.x = -148m} / _ ^ _;
+	clsLKerncyrLJE opt4(clsMarks) g_cyrCH_old {kern.x = -156m} / _ ^ _;
+	clsLKerncyrYAT opt4(clsMarks) g_cyrT {kern.x = -32m} / _ ^ _;
+	clsLKerncyrYAT opt4(clsMarks) g_cyrCH {kern.x = -56m} / _ ^ _;
+	g_cyrEREV opt4(clsMarks) clsRKerncyrD {kern.x = -118m} / _ ^ _;
+	g_cyrEREV opt4(clsMarks) clsRKerncyrLJE {kern.x = -32m} / _ ^ _;
+	g_cyrEREV opt4(clsMarks) g_cyrT {kern.x = -58m} / _ ^ _;
+	g_cyrEREV opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -102m} / _ ^ _;
+	g_cyrEREV opt4(clsMarks) clsRKerncyrd {kern.x = -128m} / _ ^ _;
+	g_uni0460 opt4(clsMarks) clsRKerncyrD {kern.x = -182m} / _ ^ _;
+	g_uni0460 opt4(clsMarks) clsRKerncyrLJE {kern.x = -92m} / _ ^ _;
+	g_uni0460 opt4(clsMarks) clsRKerncyrd {kern.x = -118m} / _ ^ _;
+	clsLKernuni0466 opt4(clsMarks) clsRKernuni0400 {kern.x = -48m} / _ ^ _;
+	clsLKernuni0466 opt4(clsMarks) g_cyrT {kern.x = -174m} / _ ^ _;
+	clsLKernuni0466 opt4(clsMarks) g_cyrCH {kern.x = -164m} / _ ^ _;
+	clsLKernuni0466 opt4(clsMarks) g_cyrCH_old {kern.x = -166m} / _ ^ _;
+	clsLKernuni0466 opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -150m} / _ ^ _;
+	clsLKernuni0466 opt4(clsMarks) clsRKerncyru {kern.x = -44m} / _ ^ _;
+	clsLKernuni046A opt4(clsMarks) clsRKernuni0400 {kern.x = -96m} / _ ^ _;
+	clsLKernuni046A opt4(clsMarks) g_cyrT {kern.x = -56m} / _ ^ _;
+	clsLKernuni046A opt4(clsMarks) g_cyrCH {kern.x = -74m} / _ ^ _;
+	clsLKernuni046A opt4(clsMarks) g_cyrCH_old {kern.x = -102m} / _ ^ _;
+	g_uni0470 opt4(clsMarks) clsRKerncyrA {kern.x = -96m} / _ ^ _;
+	g_uni0470 opt4(clsMarks) clsRKernuni0400 {kern.x = -118m} / _ ^ _;
+	g_uni0470 opt4(clsMarks) clsRKerncyrO {kern.x = -118m} / _ ^ _;
+	g_uni0470 opt4(clsMarks) clsRKerncyra {kern.x = -370m} / _ ^ _;
+	clsLKernuni047A opt4(clsMarks) clsRKerncyrD {kern.x = -108m} / _ ^ _;
+	clsLKernuni047A opt4(clsMarks) clsRKerncyrZH {kern.x = -56m} / _ ^ _;
+	clsLKernuni047A opt4(clsMarks) clsRKerncyrLJE {kern.x = -32m} / _ ^ _;
+	clsLKernuni047A opt4(clsMarks) g_cyrT {kern.x = -76m} / _ ^ _;
+	clsLKernuni047A opt4(clsMarks) g_cyrH {kern.x = -118m} / _ ^ _;
+	clsLKernuni047A opt4(clsMarks) g_cyrCH {kern.x = -36m} / _ ^ _;
+	clsLKernuni047A opt4(clsMarks) g_cyrCH_old {kern.x = -56m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) clsRKerncyrD {kern.x = -136m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) clsRKerncyrZH {kern.x = -74m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) clsRKerncyrLJE {kern.x = -36m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) g_cyrT {kern.x = -56m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) g_cyrH {kern.x = -118m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) g_cyrCH {kern.x = -44m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) clsRKerncyrd {kern.x = -102m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) clsRKerncyrl {kern.x = -62m} / _ ^ _;
+	clsLKernuni047E opt4(clsMarks) g_cyrCH_old {kern.x = -74m} / _ ^ _;
+	g_uniA65E opt4(clsMarks) g_cyrT {kern.x = -296m} / _ ^ _;
+	g_uniA65E opt4(clsMarks) g_cyrCH {kern.x = -166m} / _ ^ _;
+	g_uniA65E opt4(clsMarks) clsRKerncyru {kern.x = -44m} / _ ^ _;
+	g_uniA65E opt4(clsMarks) g_cyrCH_old {kern.x = -222m} / _ ^ _;
+	g_uniA646 opt4(clsMarks) clsRKerncyrO {kern.x = -62m} / _ ^ _;
+	g_uniA646 opt4(clsMarks) g_cyrT {kern.x = -152m} / _ ^ _;
+	g_uniA646 opt4(clsMarks) clsRKerncyrUSHRT {kern.x = -206m} / _ ^ _;
+	g_uniA646 opt4(clsMarks) g_cyrF {kern.x = -148m} / _ ^ _;
+	g_uniA646 opt4(clsMarks) clsRKerncyrHRDSN {kern.x = -162m} / _ ^ _;
+	g_uniA646 opt4(clsMarks) clsRKernuni047E {kern.x = -106m} / _ ^ _;
+	g_uniA646 opt4(clsMarks) g_uni0470 {kern.x = -212m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyrA {kern.x = -56m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyrD {kern.x = -178m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKernuni0400 {kern.x = -68m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) g_cyrZ {kern.x = -118m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyrLJE {kern.x = -162m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyrO {kern.x = -88m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) g_cyrF {kern.x = -58m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) g_cyrEREV {kern.x = -138m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKernuni0466 {kern.x = -236m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) g_uni046A {kern.x = -118m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) g_uni047A {kern.x = -56m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKernuni047E {kern.x = -74m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyra {kern.x = -262m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyrb {kern.x = -88m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyre {kern.x = -118m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyrl {kern.x = -206m} / _ ^ _;
+	g_cyrCH_old opt4(clsMarks) clsRKerncyro {kern.x = -136m} / _ ^ _;
+
+	// 'kern' Horizontal Kerning for Latin
+	// has 30 left, 26 right classes and 780 offsets
+
+	clsLKernA opt4(clsMarks) clsRKernC {kern.x = -104m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernO {kern.x = -108m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernT {kern.x = -114m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernU {kern.x = -100m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernV {kern.x = -166m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernY {kern.x = -222m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernc {kern.x = -44m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernegrave {kern.x = -44m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernv {kern.x = -114m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKerny {kern.x = -122m} / _ ^ _;
+	clsLKernA opt4(clsMarks) clsRKernquoteright {kern.x = -244m} / _ ^ _;
+	g_B opt4(clsMarks) clsRKernA {kern.x = -28m} / _ ^ _;
+	g_B opt4(clsMarks) clsRKernV {kern.x = -78m} / _ ^ _;
+	g_B opt4(clsMarks) clsRKernY {kern.x = -128m} / _ ^ _;
+	g_B opt4(clsMarks) clsRKernAE {kern.x = -128m} / _ ^ _;
+	clsLKernC opt4(clsMarks) clsRKernA {kern.x = -14m} / _ ^ _;
+	clsLKernC opt4(clsMarks) clsRKernAE {kern.x = -266m} / _ ^ _;
+	clsLKernD opt4(clsMarks) clsRKernA {kern.x = -124m} / _ ^ _;
+	clsLKernD opt4(clsMarks) clsRKernV {kern.x = -88m} / _ ^ _;
+	clsLKernD opt4(clsMarks) g_X {kern.x = -144m} / _ ^ _;
+	clsLKernD opt4(clsMarks) clsRKernY {kern.x = -132m} / _ ^ _;
+	clsLKernD opt4(clsMarks) clsRKernAE {kern.x = -240m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -232m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKernA {kern.x = -116m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKernJ {kern.x = -76m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKernO {kern.x = -36m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKernAE {kern.x = -276m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKerna {kern.x = -152m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKernagrave {kern.x = -144m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKernc {kern.x = -148m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKernegrave {kern.x = -116m} / _ ^ _;
+	g_F opt4(clsMarks) g_g {kern.x = -180m} / _ ^ _;
+	g_F opt4(clsMarks) clsRKernj {kern.x = -36m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -44m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKernA {kern.x = -58m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKernC {kern.x = -64m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKernJ {kern.x = -48m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKernO {kern.x = -66m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKernAE {kern.x = -180m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKerna {kern.x = -44m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKernagrave {kern.x = -44m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKernc {kern.x = -74m} / _ ^ _;
+	clsLKernN opt4(clsMarks) clsRKernegrave {kern.x = -74m} / _ ^ _;
+	clsLKernJ opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -56m} / _ ^ _;
+	clsLKernJ opt4(clsMarks) clsRKernA {kern.x = -58m} / _ ^ _;
+	clsLKernJ opt4(clsMarks) g_M {kern.x = -14m} / _ ^ _;
+	clsLKernJ opt4(clsMarks) clsRKernAE {kern.x = -178m} / _ ^ _;
+	clsLKernJ opt4(clsMarks) clsRKerna {kern.x = -14m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKernC {kern.x = -236m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKernJ {kern.x = -32m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKernO {kern.x = -206m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKernU {kern.x = -136m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKernV {kern.x = -88m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKernc {kern.x = -60m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKernegrave {kern.x = -60m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKernu {kern.x = -118m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKerny {kern.x = -148m} / _ ^ _;
+	clsLKernK opt4(clsMarks) clsRKerns {kern.x = -28m} / _ ^ _;
+	clsLKernL opt4(clsMarks) clsRKernO {kern.x = -44m} / _ ^ _;
+	clsLKernL opt4(clsMarks) clsRKernT {kern.x = -128m} / _ ^ _;
+	clsLKernL opt4(clsMarks) clsRKernU {kern.x = -48m} / _ ^ _;
+	clsLKernL opt4(clsMarks) clsRKernV {kern.x = -170m} / _ ^ _;
+	clsLKernL opt4(clsMarks) clsRKernY {kern.x = -194m} / _ ^ _;
+	clsLKernL opt4(clsMarks) clsRKerny {kern.x = -112m} / _ ^ _;
+	clsLKernL opt4(clsMarks) clsRKernquoteright {kern.x = -180m} / _ ^ _;
+	g_M opt4(clsMarks) clsRKernO {kern.x = -38m} / _ ^ _;
+	g_M opt4(clsMarks) clsRKernU {kern.x = -18m} / _ ^ _;
+	g_M opt4(clsMarks) clsRKernY {kern.x = -44m} / _ ^ _;
+	g_M opt4(clsMarks) clsRKernc {kern.x = -14m} / _ ^ _;
+	g_M opt4(clsMarks) clsRKernegrave {kern.x = -14m} / _ ^ _;
+	g_M opt4(clsMarks) clsRKerny {kern.x = -44m} / _ ^ _;
+	clsLKernO opt4(clsMarks) clsRKernA {kern.x = -126m} / _ ^ _;
+	clsLKernO opt4(clsMarks) g_M {kern.x = -88m} / _ ^ _;
+	clsLKernO opt4(clsMarks) clsRKernT {kern.x = -20m} / _ ^ _;
+	clsLKernO opt4(clsMarks) clsRKernV {kern.x = -118m} / _ ^ _;
+	clsLKernO opt4(clsMarks) g_X {kern.x = -118m} / _ ^ _;
+	clsLKernO opt4(clsMarks) clsRKernY {kern.x = -138m} / _ ^ _;
+	clsLKernO opt4(clsMarks) clsRKernAE {kern.x = -240m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -212m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKernA {kern.x = -138m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKernJ {kern.x = -128m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKernV {kern.x = -36m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKernY {kern.x = -112m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKernAE {kern.x = -282m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKerna {kern.x = -86m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKernagrave {kern.x = -62m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKernc {kern.x = -82m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKernegrave {kern.x = -72m} / _ ^ _;
+	g_P opt4(clsMarks) g_g {kern.x = -112m} / _ ^ _;
+	g_P opt4(clsMarks) clsRKerns {kern.x = -58m} / _ ^ _;
+	g_Q opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -185m} / _ ^ _;
+	g_Q opt4(clsMarks) clsRKernU {kern.x = -64m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKernC {kern.x = -56m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKernO {kern.x = -140m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKernT {kern.x = -44m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKernU {kern.x = -116m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKernV {kern.x = -150m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKernY {kern.x = -166m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKernc {kern.x = -56m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKernegrave {kern.x = -56m} / _ ^ _;
+	clsLKernR opt4(clsMarks) clsRKerny {kern.x = -112m} / _ ^ _;
+	clsLKernS opt4(clsMarks) clsRKernA {kern.x = -58m} / _ ^ _;
+	clsLKernS opt4(clsMarks) clsRKernU {kern.x = -44m} / _ ^ _;
+	clsLKernS opt4(clsMarks) clsRKernV {kern.x = -48m} / _ ^ _;
+	clsLKernS opt4(clsMarks) clsRKernY {kern.x = -52m} / _ ^ _;
+	clsLKernS opt4(clsMarks) clsRKernAE {kern.x = -98m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -254m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernA {kern.x = -136m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernJ {kern.x = -136m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernO {kern.x = -96m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernY {kern.x = 42m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernAE {kern.x = -260m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKerna {kern.x = -168m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernagrave {kern.x = -136m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernc {kern.x = -196m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernegrave {kern.x = -176m} / _ ^ _;
+	clsLKernT opt4(clsMarks) g_g {kern.x = -234m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernj {kern.x = -36m} / _ ^ _;
+	clsLKernT opt4(clsMarks) clsRKernu {kern.x = -74m} / _ ^ _;
+	clsLKernU opt4(clsMarks) clsRKernA {kern.x = -96m} / _ ^ _;
+	clsLKernU opt4(clsMarks) clsRKernC {kern.x = -56m} / _ ^ _;
+	clsLKernU opt4(clsMarks) g_M {kern.x = -14m} / _ ^ _;
+	clsLKernU opt4(clsMarks) clsRKernO {kern.x = -66m} / _ ^ _;
+	clsLKernU opt4(clsMarks) clsRKernAE {kern.x = -160m} / _ ^ _;
+	clsLKernU opt4(clsMarks) clsRKerna {kern.x = -88m} / _ ^ _;
+	clsLKernU opt4(clsMarks) clsRKernc {kern.x = -74m} / _ ^ _;
+	clsLKernU opt4(clsMarks) clsRKernegrave {kern.x = -74m} / _ ^ _;
+	clsLKernU opt4(clsMarks) g_g {kern.x = -128m} / _ ^ _;
+	clsLKernU opt4(clsMarks) clsRKerns {kern.x = -96m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -288m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernA {kern.x = -182m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernC {kern.x = -122m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernJ {kern.x = -222m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernO {kern.x = -122m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernAE {kern.x = -440m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKerna {kern.x = -190m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernagrave {kern.x = -136m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernc {kern.x = -178m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernegrave {kern.x = -168m} / _ ^ _;
+	clsLKernV opt4(clsMarks) g_g {kern.x = -220m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKerni {kern.x = -64m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernj {kern.x = -64m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKernu {kern.x = -112m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKerny {kern.x = -104m} / _ ^ _;
+	clsLKernV opt4(clsMarks) clsRKerns {kern.x = -208m} / _ ^ _;
+	g_X opt4(clsMarks) clsRKernC {kern.x = -112m} / _ ^ _;
+	g_X opt4(clsMarks) clsRKernO {kern.x = -112m} / _ ^ _;
+	g_X opt4(clsMarks) clsRKernc {kern.x = -64m} / _ ^ _;
+	g_X opt4(clsMarks) clsRKernegrave {kern.x = -64m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -204m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernA {kern.x = -196m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernC {kern.x = -136m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernJ {kern.x = -246m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernO {kern.x = -164m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernAE {kern.x = -288m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKerna {kern.x = -176m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernagrave {kern.x = -148m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernc {kern.x = -204m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernegrave {kern.x = -182m} / _ ^ _;
+	clsLKernY opt4(clsMarks) g_g {kern.x = -196m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKerni {kern.x = -112m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernj {kern.x = -44m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernu {kern.x = -148m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKernv {kern.x = -170m} / _ ^ _;
+	clsLKernY opt4(clsMarks) clsRKerny {kern.x = -152m} / _ ^ _;
+	g_Thorn opt4(clsMarks) clsRKernA {kern.x = -192m} / _ ^ _;
+	g_Thorn opt4(clsMarks) clsRKernAE {kern.x = -176m} / _ ^ _;
+	clsLKerna opt4(clsMarks) clsRKernc {kern.x = -42m} / _ ^ _;
+	clsLKerna opt4(clsMarks) clsRKernj {kern.x = -166m} / _ ^ _;
+	clsLKerna opt4(clsMarks) clsRKernv {kern.x = -96m} / _ ^ _;
+	clsLKerna opt4(clsMarks) clsRKerny {kern.x = -80m} / _ ^ _;
+	clsLKernb opt4(clsMarks) clsRKernj {kern.x = -174m} / _ ^ _;
+	clsLKernb opt4(clsMarks) clsRKernv {kern.x = -72m} / _ ^ _;
+	clsLKernb opt4(clsMarks) g_x {kern.x = -128m} / _ ^ _;
+	clsLKernb opt4(clsMarks) clsRKerny {kern.x = -32m} / _ ^ _;
+	clsLKernk opt4(clsMarks) clsRKerna {kern.x = -24m} / _ ^ _;
+	clsLKernk opt4(clsMarks) clsRKernagrave {kern.x = -24m} / _ ^ _;
+	clsLKernk opt4(clsMarks) clsRKernc {kern.x = -104m} / _ ^ _;
+	clsLKernk opt4(clsMarks) clsRKernegrave {kern.x = -104m} / _ ^ _;
+	clsLKernk opt4(clsMarks) clsRKernj {kern.x = -176m} / _ ^ _;
+	clsLKernk opt4(clsMarks) clsRKernv {kern.x = -42m} / _ ^ _;
+	clsLKernr opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -104m} / _ ^ _;
+	clsLKernr opt4(clsMarks) clsRKernj {kern.x = -102m} / _ ^ _;
+	clsLKernv opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -128m} / _ ^ _;
+	clsLKernv opt4(clsMarks) clsRKerna {kern.x = -102m} / _ ^ _;
+	clsLKernv opt4(clsMarks) clsRKernagrave {kern.x = -102m} / _ ^ _;
+	clsLKernv opt4(clsMarks) clsRKernc {kern.x = -80m} / _ ^ _;
+	clsLKernv opt4(clsMarks) clsRKernegrave {kern.x = -80m} / _ ^ _;
+	clsLKernv opt4(clsMarks) clsRKernj {kern.x = -88m} / _ ^ _;
+	g_x opt4(clsMarks) clsRKernc {kern.x = -96m} / _ ^ _;
+	g_x opt4(clsMarks) clsRKernegrave {kern.x = -96m} / _ ^ _;
+	clsLKerny opt4(clsMarks) clsRKerncomma_kernHorizontalKerningforLatin {kern.x = -144m} / _ ^ _;
+	clsLKerny opt4(clsMarks) clsRKerna {kern.x = -90m} / _ ^ _;
+	clsLKerny opt4(clsMarks) clsRKernagrave {kern.x = -90m} / _ ^ _;
+	clsLKerny opt4(clsMarks) clsRKernc {kern.x = -94m} / _ ^ _;
+	clsLKerny opt4(clsMarks) clsRKernegrave {kern.x = -94m} / _ ^ _;
+	clsLKerny opt4(clsMarks) clsRKerns {kern.x = -44m} / _ ^ _;
+	clsLKernquoteleft opt4(clsMarks) clsRKernA {kern.x = -288m} / _ ^ _;
+	clsLKernquoteleft opt4(clsMarks) clsRKernJ {kern.x = -328m} / _ ^ _;
+	clsLKernquoteleft opt4(clsMarks) clsRKernAE {kern.x = -372m} / _ ^ _;
+
+	endpass
+
+endtable
+
+endenvironment
