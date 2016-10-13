@@ -27,7 +27,7 @@ f = file( woff_meta, 'r')
 lines = f.readlines()
 f.close()
 font.woffMetadata = "".join( lines )
-font.generate( base_name + ".woff", flags=( "opentype"), layer="TTFLayer" )
+font.generate( base_name + ".woff", flags=( "opentype"), layer="TTF" )
 
 # Append the TT suffix
 for i in range( 0, len( ttnames )):
@@ -42,6 +42,6 @@ font.familyname = full_name + " TT"
 font.fullname = full_name + " TT"
 font.fontname = base_name + "TT"
 
-font.generate( base_name + ".ttf", flags=( "opentype", "old-kern", "PfEd-colors", "PfEd-lookups", "dummy-dsig" ), layer="TTFLayer" )
+font.generate( base_name + ".ttf", flags=( "opentype", "old-kern", "PfEd-colors", "PfEd-lookups", "dummy-dsig" ), layer="TTF" )
 font.close()
 
