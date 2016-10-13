@@ -53,6 +53,6 @@ clean:
 	rm -f fonts-churchslavonic.pdf
 	rm -f *.otf *.ttf
 	(cd docs/ && rm -f *.aux *.glo *.idx *.log *.out *.pdf *.toc)
-	(cd rpm/ && rm *.tar.bz2)
+	(cd rpm/ && rm -f *.tar.bz2)
 	rm -f *.zip *.png
 
