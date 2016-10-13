@@ -1,0 +1,68 @@
+FONTLOG
+Monomakh Unicode font family
+========================
+
+This file provides detailed information on the Monomakh Unicode font. This information
+should be distributed along with the Monomakh Unicode font and any derivative works.
+
+Basic Font Information
+----------------------
+
+Monomakh Unicode is a Cyrillic font implemented in a mixed ustav/poluustav
+style and intended to cover needs of researches dealing with Slavic
+history and philology. It includes all historical Cyrillic characters
+currently defined in the Unicode standard and, unlike most other Old
+Cyrillic Unicode fonts, attempts to take full advantage of modern
+smart font technologies (OpenType and Graphite). In particular it
+implements correct diacritics positioning and stacking them over Cyrillic
+letters. The font also includes a set of Latin letters designed to be
+stylistically compatible with the Cyrillic part, but still recognizable
+as Latin.
+
+ChangeLog
+---------
+2016 Oct 9 (Aleksandr Andreev) Version 1.1
+
+     * Rename Monomachus to Monomakh Unicode
+     * Reencode characters in the PUA
+     * Add characters for Unicode 9.0
+
+2012 Aug 12 (Alexey Kryukov) Version 1.0-prerelease
+
+    * Move the development to the github platform and publish the current
+      version as v. 1.0 prerelease.
+
+2011 Nov 1 (Alexey Kryukov)
+
+    * Cosmetic glyph changes.
+
+    * A few additional characters implemented, including U+0510/U+0511
+      (Cyrillic Epsilon aka Reversed Ze), U+2053 (a swung dash, here used
+      to represent a similar punctuation sign, sometimes used in manuscripts)
+      and U+2626 (Orthodox cross).
+
+    * Added alternate forms for Cyrillic lowercase TE and YAT (accessible
+      via OpenType and Graphite features).
+
+    * FONTLOG and documentation added.
+
+2011 Jul 17 (Alexey Kryukov) Version 0.9
+
+    * First release, not officially published, but presented in the fonts@
+      mailing list of Slavonic Typography Community (http://www.cslav.org/).
+
+Acknowledgements
+----------------
+(Here is where contributors can be acknowledged. If you make modifications
+be sure to add your name (N), email (E), web-address (W) and description
+(D). This list is sorted by last name in alphabetical order.)
+
+N: Alexey Kryukov
+E: alexios@thessalonica.org.ru
+W: http://www.thessalonica.org.ru
+D: Original Designer
+
+For more information please visit the Fonts page on Thessalonica's
+website: http://www.thessalonica.org.ru/en/fonts.html.
+
+Or send an email to <alexios at thessalonica dot org dot ru>.
