@@ -20,7 +20,7 @@
     ]{hyperref}
 \usepackage{polyglossia}
 \setmainlanguage[variant=american]{english}
-\setotherlanguages{russian,churchslavonic}
+\setotherlanguages{russian,churchslavonic,romanian}
 \usepackage{churchslavonic}
 \usepackage{lettrine}
 
@@ -1161,30 +1161,34 @@ a character are demonstrated in Table~\ref{pomor}.
 \section{Monomakh Unicode}
 
 Monomakh Unicode is based on the Monomachus font designed by 
-Alexey Kryukov. Used with permission.
-
+Alexey Kryukov. It has been modified with permission.
 Monomakh Unicode is a Cyrillic font implemented in a mixed ustav/poluustav
 style and intended to cover needs of researches dealing with Slavic
 history and philology. It includes all historical Cyrillic characters
-currently defined in the Unicode standard and attempts to take full
-advantage of modern smart font technologies (OpenType and Graphite).
-In particular it implements correct diacritics positioning and stacking.
+currently defined in Unicode attempts to take full
+advantage OpenType and Graphite features.
 The font also includes a set of Latin letters designed to be
-stylistically compatible with the Cyrillic part, but still recognizable
-as Latin.
+stylistically compatible with the Cyrillic part. This may be useful for
+typesetting bilingual editions in Church Slavonic and languages
+written in the Latin script that use many diacritical marks, as in the
+Romanian example below.
 
 %% TODO: write the documentation for this font
+\newfontfamily{\glyphfont}
+      [Renderer=Graphite, RawFeature=
+          {Localized Forms for Romanian=Required Localized Forms}]
+{Monomakh Unicode TT}
 
-\newfontfamily{\glyphfont}{Monomakh Unicode}
+\subsection{Sample Bilingual Text}
 
-\subsection{Sample Text}
-
-\begin{tabular}{p{2in}p{0.05in}p{2in}}
+\begin{tabular}{p{2.25in}p{0.02in}p{2.25in}}
 \begin{churchslavonic}
 {\glyphfont Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ.}
 \end{churchslavonic}
 & &
-{\glyphfont Beatus vir, qui non abiit in consilio impiorum, et in via peccatorum non stetit, et in cathedra pestilentiæ non sedit. Sed in lege Domini voluntas eius, et in lege eius meditabitur die ac nocte. Et erit tamquam lignum, quod plantatum est secus decursus aquarum, quod fructum suum dabit in tempore suo.} \\
+\begin{romanian}
+{\glyphfont Fericit bărbatul, care n-a umblat în sfatul necredincioşilor şi în calea păcătoşilor nu a stat şi pe scaunul hulitorilor n-a şezut; ci în legea Domnului e voia lui şi la legea Lui va cugeta ziua şi noaptea. Şi va fi ca un pom răsădit lângă izvoarele apelor, care rodul său va da la vremea sa.}
+\end{romanian}
 \end{tabular}
 
 \section{Indiction Unicode}
