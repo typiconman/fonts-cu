@@ -25,8 +25,8 @@
 \usepackage{lettrine}
 
 %% KEYBOARD DRIVER VERSION AND RELEASE DATES
-\def\filedate{April 26, 2016}
-\def\fileversion{version 1.0}
+\def\filedate{October 17, 2016}
+\def\fileversion{version 1.1}
 
 %% fontspec declarations:
 \setmainfont[Ligatures = TeX]{Linux Libertine O}
@@ -1187,9 +1187,32 @@ Romanian example below.
 \end{churchslavonic}
 & &
 \begin{romanian}
-{\glyphfont Fericit bărbatul, care n-a umblat în sfatul necredincioşilor şi în calea păcătoşilor nu a stat şi pe scaunul hulitorilor n-a şezut; ci în legea Domnului e voia lui şi la legea Lui va cugeta ziua şi noaptea. Şi va fi ca un pom răsădit lângă izvoarele apelor, care rodul său va da la vremea sa.}
+{\glyphfont Fericit bărbatul, care n-a umblat în sfatul necredincioșilor și în calea păcătoșilor nu a stat și pe scaunul hulitorilor n-a șezut; ci în legea Domnului e voia lui și la legea Lui va cugeta ziua și noaptea. și va fi ca un pom răsădit lângă izvoarele apelor, care rodul său va da la vremea sa.}
 \end{romanian}
 \end{tabular}
+
+\subsection{OpenType and SIL Graphite features}
+
+The Monomakh font offers a number of optional OpenType features that may be turned on or off by the user, coupled with analagous features in SIL Graphite. These are:
+
+\begin{itemize}
+\item Stylistic Set 6 (\emph{ss06}) displays U+0456 Cyrillic Small Letter Ukrainian / Belorussian I with one dot above and Stylistic Set 7 (\emph{ss07}) displays the same character with two dots above. By default, U+0456 is displayed with no dots. The Graphite analog is provided by the feature Cyrillic Decimal I (\emph{deci}), which takes values 0 (default), 1 or 2, for the number of dots on U+0456.
+\item Stylistic Set 8 (\emph{ss08}) displays the characters U+0417 Cyrillic Capital Letter Ze and U+0437 Cyrillic Small Letter Ze as a ``sharp zemlya'', i.e., like the characters U+A640 Cyrillic Capital Letter Zemlya and U+A641 Cyrillic Small Letter Zemlya, respectively. In Graphite the same functionality is provided by the feature Cyrillic Zemlya (\emph{zeml}), which takes values \emph{Round} (0) and \emph{Sharp} (1). Generally, this change should be handled at the codepoint level, so the use of this feature is discouraged.
+\item Stylistic Set 9 (\emph{ss09}) displays the characters U+0427 Cyrillic Capital Letter Che and U+0447 Cyrillic Small Letter Che in their archaic form, with the descender in the middle (e.g., {\glyphfont } instead of {\glyphfont ч}). The same functionality is provided by the Graphite feature Cyrillic Cherv (\emph{chrv}), which takes values \emph{Modern (Single Sided)} (0) and \emph{Old (Double Sided)} (1).
+\item Stylistic Set 10 (\emph{ss10}) displays the characters U+0429 Cyrillic Capital Letter Shcha and U+0449 Cyrillic Small Letter Shcha in their modern form, with the descender on the right (e.g., {\glyphfont } instead of {\glyphfont щ}). The same functionality is provided by the Graphite feature Cyrillic Shcha (\emph{shch}), which takes values \emph{Modern (Descender Right)} (0) and \emph{Old (Descender Centered)} (1).
+\item Stylistic Set 11 (\emph{ss11}) displays the characters U+044B Cyrillic Small Letter Yeru and U+A651 Cyrillic Small Letter Yeru with Back Yer with the two glyphs connected (e.g., {\glyphfont } instead of {\glyphfont ы}). The same functionality is provided by the Graphite feature Cyrillic Yery (\emph{yery}), which takes on values \emph{Without a Connecting Line} (0) and \emph{With a Connecting Line} (1).
+\item Stylistic Set 13 (\emph{ss13}) displays the character U+0463 Cyrillic Small Letter Yat with the left stem extended to the baseline (e.g., as {\glyphfont }). The same functionality is provided by the Graphite feature Cyrillic Yat (\emph{cyat}), which takes values \emph{With a Back Beak} (0) and \emph{With an Additional Vertical Stem} (1). Please note that this is not the same as U+A653 Cyrillic Small Letter Iotified Yat.
+\item The same functionality of these Stylistic Sets is provided in OpenType also by the Stylistic Alternatives (\emph{salt}) feature.
+\item Previous versions of the font provided Stylistic Set 1 (\emph{ss01}), duplicated as Graphite feature Localized Forms for Romanian (\emph{rold}), which displayed U+015E Latin Capital Letter S with Cedilla, U+0162 Latin Capital Letter T with Cedilla, and their lowercase analogs, as U+0218 Latin Capital Letter S with Comma Below, U+021A Latin Capital Letter T with Comma Below, and their lowercase analogs. However, since the use of U+015E, U+0162 and their lowercase analogs for the encoding of Romanian text is considered erroneous, this feature is deprecated. Users are strongly encouraged to convert their text at the codepoint level to use the correct characters for Romanian orthography. However, for the sake of compatibility with text that has been erroneously encoded, this feature is still available.
+\item Stylistic Set 15 (\emph{ss15}), which provides combining Cyrillic letters with an automatic \emph{pokrytie} where warranted by Synodal orthography is also deprecated and may be removed. Users should explicitly encode the \emph{pokrytie} as U+0487 Combining Cyrillic Pokrytie. See  \href{http://www.unicode.org/notes/tn41/}
+{UTN 41: Church Slavonic Typography in Unicode} for more information.
+\end{itemize}
+
+Two additional features are available in SIL Graphite only:
+\begin{itemize}
+\item The Graphite feature Convert Arabic Digits to Church Slavonic (\emph{cnum}), when turned on, will automatically display Western Digits (``Arabic numerals'') as Cyrillic numerals. This is helpful, for example, for page numbering in software that does not support Cyrillic numerals.
+\item The Graphite feature Convert HIP-6B Keystrokes to Church Slavonic Characters (\emph{hipb}), when turned on, will display text encoded in the legacy HIP codepage as Church Slavonic. The use of this feature is discouraged and users are encouraged instead to convert HIP-encoded text to Unicode.
+\end{itemize}
 
 \section{Indiction Unicode}
 
@@ -1282,7 +1305,8 @@ project, who allowed the re-encoding and modification of his Menaion font.
 \item Michael Ivanovich for help in designing the characters for Sakha
 (Yakut), partially taken from his Sakha UCS font.
 
-\item Alexey Kryukov, who answered various questions about FontForge
+\item Alexey Kryukov, who answered various questions about FontForge,
+allowed his Monomachus font to be modified and repackaged,
 and whose extensive documentation for the 
 \href{https://github.com/akryukov/oldstand/}{Old Standard} font was 
 consulted and partially reused.
