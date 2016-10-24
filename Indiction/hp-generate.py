@@ -9,7 +9,7 @@ base_name = "IndictionUnicode"
 full_name  = "Indiction Unicode"
 
 
-#fontforge.setPrefs ("AutoHint", False)
+fontforge.setPrefs ("AutoHint", False)
 #fontforge.setPrefs ("ClearInstrsBigChanges",False )
 #fontforge.setPrefs ( "CopyTTFInstrs",False )
 
