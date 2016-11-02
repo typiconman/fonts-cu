@@ -958,7 +958,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 7
+WinInfo: 450 18 7
 BeginPrivate: 8
 BlueValues 31 [-20 0 386 405 447 466 647 666]
 OtherBlues 21 [-262 -243 -173 -154]
@@ -75886,7 +75886,7 @@ Colour: ff0000
 EndChar
 
 StartChar: uni0426.alt
-Encoding: 58372 58372 236
+Encoding: 58375 58375 236
 Width: 599
 GlyphClass: 2
 Flags: W
@@ -76312,7 +76312,7 @@ SplineSet
  68 -101.55 68 -101.55 68 -93.2998 c 2,0,-1
 EndSplineSet
 Validated: 19457
-Position2: "'ss10' Equal Baseline Kerning Lookup-1" dx=0 dy=150 dh=0 dv=0
+Position2: "'ss10' Equal Baseline Kerning Lookup-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ff00
 EndChar
 
@@ -84177,7 +84177,7 @@ Validated: 19457
 EndChar
 
 StartChar: uni0442200D0432
-Encoding: 59376 59376 257
+Encoding: 59392 59392 257
 Width: 352
 GlyphClass: 3
 Flags: HW
@@ -84645,14 +84645,13 @@ SplineSet
  184 279 184 279 202 304 c 0,144,145
 EndSplineSet
 Validated: 19457
-LCarets2: 2 0 0 
-Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni1C84 uni200D uni0432
 Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni0442 uni200D uni0432
+Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni1C84 uni200D uni0432
 Colour: ffff00
 EndChar
 
 StartChar: uni043B200D0443
-Encoding: 59151 59151 258
+Encoding: 59156 59156 258
 Width: 595
 GlyphClass: 3
 Flags: HW
@@ -85068,13 +85067,12 @@ SplineSet
  305 0 305 0 302 0 c 0,0,1
 EndSplineSet
 Validated: 19457
-LCarets2: 2 0 0 
 Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni043B uni200D uni0443
 Colour: ffff00
 EndChar
 
 StartChar: uni0430200D0443
-Encoding: 58875 58875 259
+Encoding: 58898 58898 259
 Width: 535
 GlyphClass: 3
 Flags: HW
@@ -85469,13 +85467,12 @@ SplineSet
  296 -84 296 -84 304 18 c 1,18,19
 EndSplineSet
 Validated: 19457
-LCarets2: 2 0 0 
 Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni0430 uni200D uni0443
 Colour: ffff00
 EndChar
 
 StartChar: uni0430200D0475
-Encoding: 58876 58876 260
+Encoding: 58899 58899 260
 Width: 565
 GlyphClass: 3
 Flags: HW
@@ -85797,13 +85794,12 @@ SplineSet
  160 178 160 178 160 184 c 0,76,77
 EndSplineSet
 Validated: 19457
-LCarets2: 2 0 0 
 Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni0430 uni200D uni0475
 Colour: ffff00
 EndChar
 
 StartChar: uni043B200D0475
-Encoding: 59152 59152 261
+Encoding: 59157 59157 261
 Width: 600
 GlyphClass: 3
 Flags: HW
@@ -86059,7 +86055,6 @@ SplineSet
  273 -3 l 1,0,1
 EndSplineSet
 Validated: 3073
-LCarets2: 2 0 0 
 Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni043B uni200D uni0475
 Colour: ffff00
 EndChar
@@ -86719,7 +86714,7 @@ Colour: ff0000
 EndChar
 
 StartChar: uni0440200D0463
-Encoding: 59313 59313 264
+Encoding: 59316 59316 264
 Width: 369
 GlyphClass: 3
 Flags: HW
@@ -87137,7 +87132,6 @@ SplineSet
  46 -468.3 46 -468.3 46 -418.3 c 0,0,1
 EndSplineSet
 Validated: 19457
-LCarets2: 2 0 0 
 Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni0440 uni200D uni0463
 Colour: ffff00
 EndChar
@@ -87357,7 +87351,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni2DE3A675
-Encoding: 57478 57478 266
+Encoding: 983075 983075 266
 Width: 1
 GlyphClass: 4
 Flags: W
@@ -87663,12 +87657,13 @@ SplineSet
  -86 809 l 1,122,-1
 EndSplineSet
 Validated: 19457
+LCarets2: 1 0 
 Ligature2: "'ccmp' Church Slavonic Ligatures-1" uni2DE3 uniA675
 Colour: ffff
 EndChar
 
 StartChar: uni2DEEA675
-Encoding: 57502 57502 267
+Encoding: 983215 983215 267
 Width: 1
 GlyphClass: 4
 Flags: W
@@ -88099,7 +88094,7 @@ Colour: ffff
 EndChar
 
 StartChar: uni2DE42DF7
-Encoding: 57486 57486 268
+Encoding: 983088 983088 268
 Width: 1
 GlyphClass: 4
 Flags: W
@@ -165736,7 +165731,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni047F.alt
-Encoding: 58354 58354 518
+Encoding: 58349 58349 518
 Width: 977
 VWidth: 0
 GlyphClass: 3
@@ -166372,7 +166367,7 @@ Colour: ff00
 EndChar
 
 StartChar: uni047E.alt
-Encoding: 58338 58338 519
+Encoding: 58348 58348 519
 Width: 1220
 VWidth: 0
 GlyphClass: 2

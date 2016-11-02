@@ -16,6 +16,7 @@ LayerCount: 3
 Layer: 0 1 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 1 "TTFLayer"  0
+NeedsXUIDChange: 1
 XUID: [1021 130 1332205325 10107924]
 UseXUID: 1
 FSType: 0
@@ -23,7 +24,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1269256071
-ModificationTime: 1446639072
+ModificationTime: 1478108041
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -905,7 +906,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 756 18 7
+WinInfo: 936 18 7
 BeginPrivate: 6
 BlueValues 23 [-20 0 433 453 610 630]
 OtherBlues 11 [-216 -200]
@@ -9041,7 +9042,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni043D0467
-Encoding: 59216 59216 41
+Encoding: 59217 59217 41
 Width: 1493
 GlyphClass: 3
 Flags: W
@@ -9590,7 +9591,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni04410432
-Encoding: 59359 59359 42
+Encoding: 59339 59339 42
 Width: 861
 GlyphClass: 3
 Flags: W
@@ -10046,13 +10047,14 @@ SplineSet
  313 554 l 2,15,16
 EndSplineSet
 Validated: 1
+LCarets2: 2 0 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0440
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0440
 Colour: ffff00
 EndChar
 
 StartChar: uni04100423
-Encoding: 58860 58860 44
+Encoding: 58864 58864 44
 Width: 1211
 GlyphClass: 3
 Flags: W
@@ -10454,13 +10456,13 @@ SplineSet
  421 476 l 1,75,76
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni0423
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni0443
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni0423
 Colour: ffff00
 EndChar
 
 StartChar: uni04300443
-Encoding: 58875 58875 45
+Encoding: 58898 58898 45
 Width: 1025
 GlyphClass: 3
 Flags: W
@@ -10806,7 +10808,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni04300442
-Encoding: 58874 58874 46
+Encoding: 58895 58895 46
 Width: 896
 GlyphClass: 3
 Flags: W
@@ -11074,7 +11076,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni04180415
-Encoding: 59075 59075 47
+Encoding: 59082 59082 47
 Width: 1385
 GlyphClass: 3
 Flags: W
@@ -11977,7 +11979,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni041D0418
-Encoding: 59202 59202 50
+Encoding: 59203 59203 50
 Width: 1302
 GlyphClass: 3
 Flags: W
@@ -12325,7 +12327,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni041D0466
-Encoding: 59207 59207 51
+Encoding: 59208 59208 51
 Width: 1883
 GlyphClass: 3
 Flags: W
@@ -12906,13 +12908,13 @@ SplineSet
  284 78 l 1,7,8
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni041D uni200D uni0467
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni041D uni200D uni0466
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni041D uni200D uni0467
 Colour: ffff00
 EndChar
 
 StartChar: uni04210412
-Encoding: 59358 59358 52
+Encoding: 59328 59328 52
 Width: 1060
 GlyphClass: 3
 Flags: W
@@ -13153,7 +13155,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni04420463
-Encoding: 59389 59389 53
+Encoding: 59420 59420 53
 Width: 920
 GlyphClass: 3
 Flags: W
@@ -13487,8 +13489,8 @@ SplineSet
  500 60 l 1,68,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0463
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0463
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0463
 Colour: ffff00
 EndChar
 
@@ -13800,7 +13802,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni04420432
-Encoding: 59376 59376 55
+Encoding: 59392 59392 55
 Width: 927
 GlyphClass: 3
 Flags: W
@@ -14089,8 +14091,8 @@ SplineSet
  612 377 l 1,52,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0432
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0432
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0432
 Colour: ffff00
 EndChar
 
@@ -14381,7 +14383,7 @@ Colour: ffff00
 EndChar
 
 StartChar: uni04420438
-Encoding: 59377 59377 57
+Encoding: 59401 59401 57
 Width: 992
 GlyphClass: 3
 Flags: W
@@ -14698,13 +14700,13 @@ SplineSet
  721 360 l 2,0,1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0438
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0438
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0438
 Colour: ffff00
 EndChar
 
 StartChar: uni04220420
-Encoding: 59381 59381 58
+Encoding: 59409 59409 58
 Width: 1069
 GlyphClass: 3
 Flags: W
@@ -14931,13 +14933,13 @@ SplineSet
  847 -0 847 -0 707 -2 c 2,14,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0420
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0440
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0420
 Colour: ffff00
 EndChar
 
 StartChar: uni04100442
-Encoding: 58859 58859 59
+Encoding: 58863 58863 59
 Width: 1064
 GlyphClass: 3
 Flags: W
@@ -15216,13 +15218,13 @@ SplineSet
  462 320 l 1,50,51
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni0442
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni1C84
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni0442
 Colour: ffff00
 EndChar
 
 StartChar: uni0422042C
-Encoding: 59369 59369 60
+Encoding: 59370 59370 60
 Width: 1067
 GlyphClass: 3
 Flags: W
@@ -15464,16 +15466,16 @@ SplineSet
  600 60 l 1,48,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni042C
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni044C
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni042C
 Colour: ffff00
 EndChar
 
 StartChar: uni0442044C
-Encoding: 59383 59383 61
+Encoding: 59418 59418 61
 Width: 925
 GlyphClass: 3
-Flags: W
+Flags: HW
 HStem: 0 60<514.5 676.341> 0 46<344.5 382.996> 190 60<514.5 596.15> 387 46<344.5 381.42 526.877 554.5> 477 133<173.5 213.5 675.822 725.5> 554 56<248.725 384.5 514.5 649.375>
 VStem: 384.5 130<60.0113 190 245.139 376.171 433 554>
 TtInstrs:
@@ -15664,7 +15666,6 @@ SplineSet
  568.833 179 543.833 185.333 514.5 190 c 1
  514.5 60 l 1xb2
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 683 477 m 1,0,1
@@ -15711,13 +15712,13 @@ SplineSet
  512 60 l 1,45,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni044C
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni044C
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni044C
 Colour: ffff00
 EndChar
 
 StartChar: uni04420430
-Encoding: 59373 59373 62
+Encoding: 59419 59419 62
 Width: 1323
 GlyphClass: 3
 Flags: W
@@ -16083,8 +16084,8 @@ SplineSet
  314 554 l 2,7,8
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0430
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0430
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0430
 Colour: ffff00
 EndChar
 
@@ -254879,7 +254880,7 @@ Validated: 1
 EndChar
 
 StartChar: uni03070300
-Encoding: 57390 57390 1030
+Encoding: 57388 57388 1030
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -254964,13 +254965,12 @@ SplineSet
  -321 596 -321 596 -347 596 c 256,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0307 uni0300
 Colour: 408fff
 EndChar
 
 StartChar: uni03080300
-Encoding: 57394 57394 1031
+Encoding: 57390 57390 1031
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -255092,13 +255092,12 @@ SplineSet
  -133 597 l 1,24,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0308 uni0300
 Colour: 408fff
 EndChar
 
 StartChar: uni03080301
-Encoding: 57393 57393 1032
+Encoding: 57389 57389 1032
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -255220,13 +255219,12 @@ SplineSet
  -398 628 -398 628 -398 654 c 256,16,17
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0308 uni0301
 Colour: 408fff
 EndChar
 
 StartChar: uni04850485
-Encoding: 57381 57381 1033
+Encoding: 57380 57380 1033
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -255416,13 +255414,12 @@ SplineSet
  -160 651 -160 651 -173 630 c 0,21,22
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0485 uni0485
 Colour: 408fff
 EndChar
 
 StartChar: uni04860485
-Encoding: 57396 57396 1034
+Encoding: 57392 57392 1034
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -255562,13 +255559,12 @@ SplineSet
  -473 712 -473 712 -455.5 729 c 128,-1,18
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0486 uni0485
 Colour: 408fff
 EndChar
 
 StartChar: uni04860302
-Encoding: 57385 57385 1035
+Encoding: 57386 57386 1035
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -255789,13 +255785,12 @@ SplineSet
  -389 639 -389 639 -390 642 c 1,7,8
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0486 uni0302
 Colour: 408fff
 EndChar
 
 StartChar: uni04850300
-Encoding: 57378 57378 1036
+Encoding: 57377 57377 1036
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -255905,13 +255900,12 @@ SplineSet
  -160 651 -160 651 -173 630 c 0,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0485 uni0300
 Colour: 408fff
 EndChar
 
 StartChar: uni04850301
-Encoding: 57377 57377 1037
+Encoding: 57376 57376 1037
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -256029,13 +256023,12 @@ SplineSet
  -162 520 l 1,20,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0485 uni0301
 Colour: 408fff
 EndChar
 
 StartChar: uni04860486
-Encoding: 57380 57380 1038
+Encoding: 57381 57381 1038
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -256195,7 +256188,6 @@ SplineSet
  -389 639 -389 639 -390 642 c 1,16,17
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0486 uni0486
 Colour: 408fff
 EndChar
@@ -256339,7 +256331,7 @@ Colour: 408fff
 EndChar
 
 StartChar: uni04850302
-Encoding: 57386 57386 1040
+Encoding: 57385 57385 1040
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -256571,13 +256563,12 @@ SplineSet
  -550 789 l 1,19,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0485 uni0302
 Colour: 408fff
 EndChar
 
 StartChar: uniA67D0301
-Encoding: 57399 57399 1041
+Encoding: 57395 57395 1041
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -256695,13 +256686,12 @@ SplineSet
  -206 558 l 1,4,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uniA67D uni0301
 Colour: 408fff
 EndChar
 
 StartChar: uniA67D0300
-Encoding: 57400 57400 1042
+Encoding: 57396 57396 1042
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -256804,7 +256794,6 @@ SplineSet
  -206 558 l 1,4,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uniA67D uni0300
 Colour: 408fff
 EndChar
@@ -257189,7 +257178,7 @@ Colour: 408fff
 EndChar
 
 StartChar: uni041E.narrow
-Encoding: 58080 58080 1046
+Encoding: 58097 58097 1046
 Width: 598
 GlyphClass: 2
 Flags: W
@@ -257308,7 +257297,7 @@ SplineSet
  213 -29 213 -29 161 56 c 0,16,17
 EndSplineSet
 Validated: 1
-Kerns2: 198 -162 "'kern' Slavonic Digraphs-1"  230 -84 "'kern' Slavonic Digraphs-1" 
+Kerns2: 230 -84 "'kern' Slavonic Digraphs-1"  198 -162 "'kern' Slavonic Digraphs-1" 
 Colour: ffff00
 EndChar
 
@@ -273462,7 +273451,7 @@ Validated: 1
 EndChar
 
 StartChar: uni03070301
-Encoding: 57389 57389 1119
+Encoding: 57387 57387 1119
 Width: 0
 GlyphClass: 4
 Flags: W
