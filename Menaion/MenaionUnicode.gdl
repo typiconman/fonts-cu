@@ -200,16 +200,16 @@ g00b6 = glyphid(137);
 g00b7 = glyphid(138);
 g00ba = glyphid(139);
 g00bb = glyphid(140);
-g00c0 = glyphid(141);
-g00c7 = glyphid(142);
-g00c8 = glyphid(143);
-g00c9 = glyphid(144);
-g00ca = glyphid(145);
-g00cb = glyphid(146) {StackingM = point(294m, 701m); DiacriticM = point(294m, 700m); StackingS = point(296m, 929m)};
-g00cf = glyphid(147);
-g00d1 = glyphid(148);
-g00d4 = glyphid(149);
-g00d6 = glyphid(150);
+g00c0 = glyphid(141) {DiacriticS = point(362m, 853m)};
+g00c7 = glyphid(142) {DiacriticS = point(355m, 751m)};
+g00c8 = glyphid(143) {DiacriticS = point(299m, 853m)};
+g00c9 = glyphid(144) {DiacriticS = point(310m, 853m)};
+g00ca = glyphid(145) {DiacriticS = point(293m, 869m)};
+g00cb = glyphid(146) {DiacriticS = point(303m, 853m)};
+g00cf = glyphid(147) {DiacriticS = point(145m, 853m)};
+g00d1 = glyphid(148) {DiacriticS = point(359m, 853m)};
+g00d4 = glyphid(149) {DiacriticS = point(344m, 853m)};
+g00d6 = glyphid(150) {DiacriticS = point(344m, 853m)};
 g00d7 = glyphid(151);
 g00d8 = glyphid(152);
 g00e0 = glyphid(153);
@@ -1196,43 +1196,44 @@ g1f90a = glyphid(1133) {NumeralS = point(228m, 396m)};
 g1f90b = glyphid(1134) {NumeralS = point(228m, 396m)};
 
 /* Classes */
-cTakesDiacriticDia = (g0404, g0405, g0406, g0407, g0410, g0411, g0412, g0413,
-    g0414, g0415, g0416, g0417, g0418, g0419, g041a, g041b,
-    g041c, g041d, g041e, g041f, g0420, g0421, g0422, g0423,
-    g0424, g0425, g0426, g0427, g0428, g0429, g042a, g042b,
-    g042c, g042d, g042e, g042f, g0430, g0431, g0432, g0433,
-    g0434, g0435, g0436, g0437, g0438, g0439, g043a, g043b,
-    g043c, g043d, g043e, g043f, g0440, g0441, g0442, g0443,
-    g0444, g0445, g0446, g0447, g0448, g0449, g044a, g044b,
-    g044c, g044d, g044e, g044f, g0454, g0455, g0456, g0457,
-    g0460, g0461, g0462, g0463, g0464, g0465, g0466, g0467,
-    g0468, g0469, g046a, g046b, g046c, g046d, g046e, g046f,
-    g0470, g0471, g0472, g0473, g0474, g0475, g0476, g0477,
-    g0478, g0479, g047a, g047b, g047c, g047d, g047e, g047f,
-    g0490, g0491, g04a4, g04a5, g1c80, g1c81, g1c82, g1c83,
-    g1c84, g1c85, g1c86, g1c87, g1c88, g25cc, g2c00, g2c01,
-    g2c02, g2c03, g2c04, g2c05, g2c06, g2c07, g2c08, g2c09,
-    g2c0a, g2c0b, g2c0c, g2c0d, g2c0e, g2c0f, g2c10, g2c11,
-    g2c12, g2c13, g2c14, g2c15, g2c16, g2c17, g2c18, g2c19,
-    g2c1a, g2c1b, g2c1c, g2c1d, g2c1e, g2c1f, g2c20, g2c21,
-    g2c22, g2c23, g2c24, g2c25, g2c26, g2c27, g2c28, g2c29,
-    g2c2a, g2c2b, g2c2c, g2c2d, g2c2e, g2c30, g2c31, g2c32,
-    g2c33, g2c34, g2c35, g2c36, g2c37, g2c38, g2c39, g2c3a,
-    g2c3b, g2c3c, g2c3d, g2c3e, g2c3f, g2c40, g2c41, g2c42,
-    g2c43, g2c44, g2c45, g2c46, g2c47, g2c48, g2c49, g2c4a,
-    g2c4b, g2c4c, g2c4d, g2c4e, g2c4f, g2c50, g2c51, g2c52,
-    g2c53, g2c54, g2c55, g2c56, g2c57, g2c58, g2c59, g2c5a,
-    g2c5b, g2c5c, g2c5d, g2c5e, ga640, ga641, ga642, ga643,
-    ga644, ga645, ga646, ga647, ga648, ga649, ga64a, ga64b,
-    ga64c, ga64d, ga64e, ga64f, ga650, ga651, ga652, ga653,
-    ga654, ga655, ga656, ga657, ga658, ga659, ga65a, ga65b,
-    ga65c, ga65d, ga65e, ga65f, ga660, ga661, ga662, ga663,
-    ga664, ga665, ga666, ga667, ga668, ga669, ga66a, ga66b,
-    ga66c, ga66d, ga66e, ga698, ga699, ga69a, ga69b, g041e_narrow,
-    g0410_0442, g0410_0423, g0430_0442, g0430_0443, g0418_0415, g0438_0435, g041b_0413, g043b_0433,
-    g041d_0418, g041d_0466, g043d_0438, g043d_0467, g0421_0412, g0441_0432, g0422_0412, g0422_0418,
-    g0442_0440, g0422_042c, g0442_0430, g0442_0432, g0442_0438, g0422_0420, g0442_044c, g0442_0463,
-    g1d00f032a, gece6, gece7, g1d00f);
+cTakesDiacriticDia = (g00c0, g00c7, g00c8, g00c9, g00ca, g00cb, g00cf, g00d1,
+    g00d4, g00d6, g0404, g0405, g0406, g0407, g0410, g0411,
+    g0412, g0413, g0414, g0415, g0416, g0417, g0418, g0419,
+    g041a, g041b, g041c, g041d, g041e, g041f, g0420, g0421,
+    g0422, g0423, g0424, g0425, g0426, g0427, g0428, g0429,
+    g042a, g042b, g042c, g042d, g042e, g042f, g0430, g0431,
+    g0432, g0433, g0434, g0435, g0436, g0437, g0438, g0439,
+    g043a, g043b, g043c, g043d, g043e, g043f, g0440, g0441,
+    g0442, g0443, g0444, g0445, g0446, g0447, g0448, g0449,
+    g044a, g044b, g044c, g044d, g044e, g044f, g0454, g0455,
+    g0456, g0457, g0460, g0461, g0462, g0463, g0464, g0465,
+    g0466, g0467, g0468, g0469, g046a, g046b, g046c, g046d,
+    g046e, g046f, g0470, g0471, g0472, g0473, g0474, g0475,
+    g0476, g0477, g0478, g0479, g047a, g047b, g047c, g047d,
+    g047e, g047f, g0490, g0491, g04a4, g04a5, g1c80, g1c81,
+    g1c82, g1c83, g1c84, g1c85, g1c86, g1c87, g1c88, g25cc,
+    g2c00, g2c01, g2c02, g2c03, g2c04, g2c05, g2c06, g2c07,
+    g2c08, g2c09, g2c0a, g2c0b, g2c0c, g2c0d, g2c0e, g2c0f,
+    g2c10, g2c11, g2c12, g2c13, g2c14, g2c15, g2c16, g2c17,
+    g2c18, g2c19, g2c1a, g2c1b, g2c1c, g2c1d, g2c1e, g2c1f,
+    g2c20, g2c21, g2c22, g2c23, g2c24, g2c25, g2c26, g2c27,
+    g2c28, g2c29, g2c2a, g2c2b, g2c2c, g2c2d, g2c2e, g2c30,
+    g2c31, g2c32, g2c33, g2c34, g2c35, g2c36, g2c37, g2c38,
+    g2c39, g2c3a, g2c3b, g2c3c, g2c3d, g2c3e, g2c3f, g2c40,
+    g2c41, g2c42, g2c43, g2c44, g2c45, g2c46, g2c47, g2c48,
+    g2c49, g2c4a, g2c4b, g2c4c, g2c4d, g2c4e, g2c4f, g2c50,
+    g2c51, g2c52, g2c53, g2c54, g2c55, g2c56, g2c57, g2c58,
+    g2c59, g2c5a, g2c5b, g2c5c, g2c5d, g2c5e, ga640, ga641,
+    ga642, ga643, ga644, ga645, ga646, ga647, ga648, ga649,
+    ga64a, ga64b, ga64c, ga64d, ga64e, ga64f, ga650, ga651,
+    ga652, ga653, ga654, ga655, ga656, ga657, ga658, ga659,
+    ga65a, ga65b, ga65c, ga65d, ga65e, ga65f, ga660, ga661,
+    ga662, ga663, ga664, ga665, ga666, ga667, ga668, ga669,
+    ga66a, ga66b, ga66c, ga66d, ga66e, ga698, ga699, ga69a,
+    ga69b, g041e_narrow, g0410_0442, g0410_0423, g0430_0442, g0430_0443, g0418_0415, g0438_0435,
+    g041b_0413, g043b_0433, g041d_0418, g041d_0466, g043d_0438, g043d_0467, g0421_0412, g0441_0432,
+    g0422_0412, g0422_0418, g0442_0440, g0422_042c, g0442_0432, g0442_0438, g0422_0420, g0442_044c,
+    g0442_0430, g0442_0463, g1d00f032a, gece6, gece7, g1d00f);
 
 cnTakesDiacriticDia = (g00cb, g0300, g0301, g0302, g0303, g0304, g0305, g0306,
     g0307, g0308, g0309, g030a, g030b, g030c, g030d, g030e,

@@ -24,7 +24,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1269256071
-ModificationTime: 1478108041
+ModificationTime: 1478157226
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -906,7 +906,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 936 18 7
+WinInfo: 126 18 7
 BeginPrivate: 6
 BlueValues 23 [-20 0 433 453 610 630]
 OtherBlues 11 [-216 -200]
@@ -1187,12 +1187,10 @@ EndChar
 StartChar: uni00CB
 Encoding: 203 203 3
 Width: 609
-Flags: W
+Flags: HW
 HStem: 0 36<212.625 478.412> 0 18<21 87.52> 329 35<209 429.812> 626 36<209 480.609> 644 18<21 95.6023> 709 96<184.084 265.916 373.337 454.663>
 VStem: 115 94<38.5037 329 364 625.069> 177 96<715.508 798.492> 366 96<716.337 797.663> 458 19<230 279.922 405.988 460> 519 12<517 543.747>
-AnchorPoint: "Diacritic" 294 700.5 mark 0
-AnchorPoint: "Stacking" 294 701.2 mark 0
-AnchorPoint: "Stacking" 296 929.5 basemark 0
+AnchorPoint: "Diacritic" 303.5 853.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -1252,7 +1250,6 @@ SplineSet
  432 625 414 626 391 626 c 2
  209 626 l 1x3660
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 366 757 m 0,0,1
@@ -8315,7 +8312,7 @@ Validated: 1
 EndChar
 
 StartChar: uni04380435
-Encoding: 59089 59089 39
+Encoding: 59099 59099 39
 Width: 1098
 GlyphClass: 3
 Flags: W
@@ -273532,9 +273529,10 @@ EndChar
 StartChar: uni00C0
 Encoding: 192 192 1120
 Width: 715
-Flags: W
+Flags: HW
 HStem: 0 18<8 42.0234 163.836 216 450 496.282 665.869 711> 222 36<216 444>
 DStem2: 94 82 201 222 0.393105 0.919494<-1.53773 170.791 209.79 500.895> 367 677 332 525 0.38521 -0.922829<126.788 416.327 454.941 627.448>
+AnchorPoint: "Diacritic" 362.5 853.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -273579,7 +273577,6 @@ SplineSet
  208 773 l 1
  236 801 236 801 284 818 c 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 284 818 m 1,0,-1
@@ -273633,9 +273630,10 @@ StartChar: uni00C7
 Encoding: 199 199 1121
 Width: 646
 VWidth: 999
-Flags: W
+Flags: HW
 HStem: -200 29<290.314 390.954> -96 32<365.677 410.788> -15 43<281.249 349> 452 21G<584 609> 642 35<284.035 462.091>
 VStem: 28 111<194.07 451.057> 400 62<-166.021 -96.2752>
+AnchorPoint: "Diacritic" 355.5 751.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -273679,7 +273677,6 @@ SplineSet
  520 635 530 631 536 631 c 0
  559 631 573 656 577 677 c 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 577 677 m 1,0,-1
@@ -273742,9 +273739,10 @@ EndChar
 StartChar: uni00C8
 Encoding: 200 200 1122
 Width: 589
-Flags: W
+Flags: HW
 HStem: 0 36<204.158 467.69> 0 18<10 77.7499> 329 35<198 419.937> 626 36<198 470.648> 644 18<10 82.8404>
 VStem: 104 94<49.2516 329 364 625.748> 447 19<230 281.497 405.334 460> 508 12<517 543.857>
+AnchorPoint: "Diacritic" 299.5 853.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -273805,7 +273803,6 @@ SplineSet
  366 733 l 2
  381 722 381 722 381 714 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 198 626 m 1,0,-1
@@ -273876,9 +273873,10 @@ EndChar
 StartChar: uni00C9
 Encoding: 201 201 1123
 Width: 590
-Flags: W
+Flags: HW
 HStem: 0 36<205.158 468.69> 0 18<11 78.7499> 329 35<199 420.937> 626 36<199 471.648> 644 18<11 83.8404>
 VStem: 105 94<49.2516 329 364 625.748> 448 19<230 281.497 405.334 460> 509 12<517 543.857>
+AnchorPoint: "Diacritic" 310.5 853.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -273939,7 +273937,6 @@ SplineSet
  211 724 211 724 226 734 c 2
  350 820 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 199 626 m 1,0,-1
@@ -274003,15 +274000,17 @@ SplineSet
  350 820 l 1,67,68
 EndSplineSet
 Validated: 1
+LCarets2: 1 0 
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0045 uni0301
 EndChar
 
 StartChar: uni00CA
 Encoding: 202 202 1124
 Width: 589
-Flags: W
+Flags: HW
 HStem: 0 36<202.625 468.412> 0 18<11 77.52> 329 35<199 419.812> 626 36<199 470.609> 644 18<11 85.6023>
 VStem: 105 94<38.5037 329 364 625.069> 448 19<230 279.922 405.988 460> 509 12<517 543.747>
+AnchorPoint: "Diacritic" 293.5 869.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -274062,7 +274061,6 @@ SplineSet
  286 814 286 814 294.5 814 c 0
  303 814 303 814 315 808 c 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 199 626 m 1,0,-1
@@ -274138,9 +274136,10 @@ EndChar
 StartChar: uni00CF
 Encoding: 207 207 1125
 Width: 307
-Flags: W
+Flags: HW
 HStem: 0 18<11 78.8902 228.16 295> 644 18<11 71.9426 226.816 295> 709 96<13.0843 94.9157 202.337 283.663>
 VStem: 6 96<715.508 798.492> 106 93<31.716 627.936> 195 96<716.337 797.663>
+AnchorPoint: "Diacritic" 145.5 853.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -274185,7 +274184,6 @@ SplineSet
  34 709 34 709 20 723.5 c 0
  6 738 6 738 6 757 c 0
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 295 18 m 1,0,-1
@@ -274255,10 +274253,11 @@ EndChar
 StartChar: uni00D1
 Encoding: 209 209 1126
 Width: 732
-Flags: W
+Flags: HW
 HStem: -11 21G<599.565 632> 0 18<42 108.684 199.629 272> 644 18<6 62.9757 496 569.725 659.769 726> 694 51<390.236 453.415> 743 55<248.931 346.131>
 VStem: 136 42<32.5671 522> 213 27<694 725.447> 464 27<763.633 794.292> 590 42<166 629.854>
 DStem2: 186 662 136 575 0.631534 -0.775348<0 35.8786 103.497 639.712>
+AnchorPoint: "Diacritic" 359.5 853.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -274314,7 +274313,6 @@ SplineSet
  481 742 472 713 466 706 c 0
  458 698 438 694 404 694 c 2x3780
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 6 662 m 1,0,-1
@@ -274391,9 +274389,10 @@ EndChar
 StartChar: uni00D4
 Encoding: 212 212 1127
 Width: 679
-Flags: W
+Flags: HW
 HStem: -15 35<255.581 418.018> 642 35<252.767 418.973>
 VStem: 12 112<201.116 457.636> 549 112<206.958 456.158>
+AnchorPoint: "Diacritic" 344.5 853.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -274424,7 +274423,6 @@ SplineSet
  338 814 338 814 346 814 c 0
  354 814 354 814 366 808 c 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 343 677 m 0,0,1
@@ -274468,9 +274466,10 @@ EndChar
 StartChar: uni00D6
 Encoding: 214 214 1128
 Width: 679
-Flags: W
+Flags: HW
 HStem: -15 35<255.581 418.018> 642 35<252.767 418.973> 658 96<103.508 186.492 512.283 595.717>
 VStem: 12 112<201.116 457.636> 97 96<665.084 746.916> 506 96<664.283 747.717> 549 112<206.958 456.158>
+AnchorPoint: "Diacritic" 344.5 853.5 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -274510,7 +274509,6 @@ SplineSet
  534 658 534 658 520 672 c 0
  506 686 506 686 506 706 c 0xa4
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 343 677 m 0,0,1
