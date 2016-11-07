@@ -16,7 +16,6 @@ LayerCount: 3
 Layer: 0 1 "Back"  1
 Layer: 1 0 "Fore"  0
 Layer: 2 1 "TTFLayer"  0
-NeedsXUIDChange: 1
 XUID: [1021 130 1332205325 10107924]
 UseXUID: 1
 FSType: 0
@@ -24,7 +23,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1269256071
-ModificationTime: 1478157226
+ModificationTime: 1478517317
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -906,7 +905,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1008 18 7
+WinInfo: 324 18 7
 BeginPrivate: 6
 BlueValues 23 [-20 0 433 453 610 630]
 OtherBlues 11 [-216 -200]
@@ -48279,6 +48278,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Numeral" 460 220 basechar 0
 AnchorPoint: "Diacritic" 704 563 basechar 0
 LayerCount: 3
 Fore
@@ -48319,7 +48319,6 @@ SplineSet
  809 433 l 1
  809 387 l 1
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
 50 46 m 1,0,1

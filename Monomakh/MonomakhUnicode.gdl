@@ -1947,6 +1947,7 @@ table( positioning )
 	g_afii10074 { shift.x = 477m; advance.x += 372m } g20dd { advance.x = 582m } / _ ^ _;
 	g_afii10074 { shift.x = 653m; advance.x += 548m } g0489 { advance.x = 758m } / _ ^ _;
 	g_afii10074 { shift.x = 571m; advance.x += 466m } g0488 { advance.x = 676m } / _ ^ _;
+	g_afii10093 { shift.x = 465m; advance.x += 210m } ga672 { advance.x = 595m } / _ ^ _;
 	g_afii10070 { shift.x = 624m; shift.y = 68m; advance.x += 540m } ga672 {  advance.x = 680m } / _ ^ _;
 	g_afii10070 { shift.x = 444m; advance.x += 396m } ga671 { advance.x = 536m } / _ ^ _;
 	g_afii10070 { shift.x = 676m; advance.x += 618m } ga670 { advance.x = 758m } / _ ^ _;
@@ -1977,6 +1978,7 @@ table( positioning )
 	ga641_short { shift.x = 544m; shift.y = 128m; advance.x += 506m } g20dd { advance.x = 582m } / _ ^ _;
 	ga641_short { shift.x = 720m; shift.y = 128m; advance.x += 682m } g0489 { advance.x = 758m } / _ ^ _;
 	ga641_short { shift.x = 638m; shift.y = 128m; advance.x += 600m } g0488 { advance.x = 676m } / _ ^ _;
+
 	endpass
 
 	pass( 3 ) { MaxBackup = 6; MaxRuleLoop = 12 }

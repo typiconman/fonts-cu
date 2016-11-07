@@ -425,7 +425,7 @@ g0447 = glyphid(245) {LeftS = point(36m, 449m); YerokS = point(288m, 453m); Half
 g0448 = glyphid(246) {YerokS = point(560m, 451m); LeftS = point(36m, 449m); RightS = point(605m, 450m); HalfMarkS = point(337m, 499m); DiacriticS = point(338m, 517m)};
 g0449 = glyphid(247) {HalfMarkS = point(347m, 499m); RightS = point(586m, 450m); DiacriticS = point(348m, 515m); LeftS = point(36m, 449m); YerokS = point(576m, 444m)};
 g044a = glyphid(248) {RightS = point(397m, 450m); DiacriticS = point(250m, 522m); HalfMarkS = point(250m, 499m); LeftS = point(36m, 449m); YerokS = point(314m, 451m)};
-g044b = glyphid(249) {LeftS = point(36m, 449m); YerokS = point(406m, 446m); DiacriticS = point(395m, 515m); RightS = point(433m, 450m); HalfMarkS = point(258m, 499m)};
+g044b = glyphid(249) {DiacriticS = point(395m, 515m); YerokS = point(406m, 446m); LeftS = point(36m, 449m); HalfMarkS = point(258m, 499m); NumeralS = point(230m, 181m); RightS = point(433m, 450m)};
 g044c = glyphid(250) {DiacriticS = point(138m, 522m); RightS = point(295m, 450m); HalfMarkS = point(138m, 499m); YerokS = point(250m, 432m); LeftS = point(36m, 449m)};
 g044d = glyphid(251) {DiacriticS = point(318m, 520m); RightS = point(423m, 450m); HalfMarkS = point(277m, 499m); LeftS = point(36m, 449m); YerokS = point(414m, 449m)};
 g044e = glyphid(252) {DiacriticS = point(354m, 527m); RightS = point(389m, 450m); HalfMarkS = point(236m, 499m); YerokS = point(352m, 458m); LeftS = point(36m, 449m)};
@@ -861,7 +861,7 @@ cnTakesLeftDia = (g0300, g0301, g0302, g0303, g0306, g0307, g0308, g030b,
 
 cTakesNumeralDia = (g0430, g0432, g0433, g0434, g0435, g0437, g0438, g043a,
     g043b, g043c, g043d, g043e, g043f, g0440, g0441, g0442,
-    g0443, g0444, g0445, g0446, g0447, g0455, g0456, g0461,
+    g0443, g0444, g0445, g0446, g0447, g0455, g0456, g0461, g044b,
     g046f, g0471, g0473, g25cc, g0440_trunc, g0444_trunc, g0444_short, g0445_truncl,
     g0445_truncr, g0445_trunc, g0446_trunc, g0471_short, g0471_trunc, g0443_trunc);
 

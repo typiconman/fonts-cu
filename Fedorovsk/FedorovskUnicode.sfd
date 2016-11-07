@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1357765429
-ModificationTime: 1439327170
+ModificationTime: 1478520173
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -155,11 +155,11 @@ ChainSub2: class "'ccmp' Contextual Uk Substitution From Left-1"  3 3 3 1
   FClassNames: "All_Others"  "uk"  "accent"  
 EndFPST
 ChainPos2: class "'kern' Contextual Kerning-1"  3 3 3 1
-  Class: 215 uni0430 uni0432 uni0433 uni0434 uni0435 uni0437 uni0438 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0455 uni0456 uni0461 uni046F uni0471 uni0473
+  Class: 223 uni0430 uni0432 uni0433 uni0434 uni0435 uni0437 uni0438 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni044B uni0455 uni0456 uni0461 uni046F uni0471 uni0473
   Class: 47 uni0488 uni0489 uni20DD uniA670 uniA671 uniA672
-  BClass: 215 uni0430 uni0432 uni0433 uni0434 uni0435 uni0437 uni0438 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0455 uni0456 uni0461 uni046F uni0471 uni0473
+  BClass: 223 uni0430 uni0432 uni0433 uni0434 uni0435 uni0437 uni0438 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni044B uni0455 uni0456 uni0461 uni046F uni0471 uni0473
   BClass: 47 uni0488 uni0489 uni20DD uniA670 uniA671 uniA672
-  FClass: 215 uni0430 uni0432 uni0433 uni0434 uni0435 uni0437 uni0438 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni0455 uni0456 uni0461 uni046F uni0471 uni0473
+  FClass: 223 uni0430 uni0432 uni0433 uni0434 uni0435 uni0437 uni0438 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni044B uni0455 uni0456 uni0461 uni046F uni0471 uni0473
   FClass: 47 uni0488 uni0489 uni20DD uniA670 uniA671 uniA672
  1 0 1
   ClsList: 1
@@ -958,7 +958,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 450 18 7
+WinInfo: 234 18 7
 BeginPrivate: 8
 BlueValues 31 [-20 0 386 405 447 466 647 666]
 OtherBlues 21 [-262 -243 -173 -154]
@@ -5339,7 +5339,7 @@ StartChar: uni0434
 Encoding: 1076 1076 28
 Width: 472
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -163 21G<76 86 299.5 309.5> 0 32<172.062 242.999>
 VStem: 59 38<-162.766 -61.4326> 287 32<-167.918 -126.725> 297 135<-58 11>
 TtInstrs:
@@ -5612,7 +5612,7 @@ SplineSet
  168 36 168 36 172 33 c 0,69,70
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0462
@@ -11759,7 +11759,7 @@ EndSplineSet
 Validated: 3073
 Substitution2: "Yat Short Form Substitution-1" uni0463.short
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0463.short
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0473
@@ -12138,7 +12138,7 @@ SplineSet
  393 136 393 136 357 136 c 0,90,91
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0467
@@ -12936,7 +12936,7 @@ SplineSet
  114 376 l 2,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0460
@@ -18792,7 +18792,7 @@ SplineSet
  50 -0 50 -0 30 4 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0491
@@ -21213,7 +21213,7 @@ SplineSet
  305 395 305 395 309 382 c 0,0,1
 EndSplineSet
 Validated: 3073
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0457
@@ -35710,7 +35710,7 @@ SplineSet
  161 170 161 170 161 175 c 256,54,55
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0431
@@ -35967,7 +35967,7 @@ SplineSet
  174 120 174 120 134 120 c 0,69,70
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0432
@@ -36408,7 +36408,7 @@ SplineSet
  133 19 l 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0435
@@ -36615,7 +36615,7 @@ SplineSet
  151 114 151 114 160 114 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0436
@@ -37502,7 +37502,7 @@ SplineSet
  -45 -116 -45 -116 -52 -91 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0438
@@ -37886,7 +37886,7 @@ SplineSet
  252 37 252 37 252 75 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0439
@@ -38686,7 +38686,7 @@ SplineSet
  158 387 158 387 159 387 c 0,53,54
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni043B
@@ -38902,7 +38902,7 @@ SplineSet
  272 0 272 0 269 0 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni043C
@@ -39225,7 +39225,7 @@ SplineSet
  238 378 238 378 282 378 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni043D
@@ -39487,7 +39487,7 @@ SplineSet
  75 377 75 377 84 377 c 2,0,-1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni043E
@@ -39640,7 +39640,7 @@ SplineSet
  212 300 212 300 169 304 c 0,21,22
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni043F
@@ -39856,7 +39856,7 @@ SplineSet
  64 4 l 2,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0440
@@ -39937,7 +39937,7 @@ SplineSet
 EndSplineSet
 Validated: 3073
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0440.trunc
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0441
@@ -40068,7 +40068,7 @@ SplineSet
  169 140 169 140 181 140 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0442
@@ -40415,7 +40415,7 @@ SplineSet
  42 119 42 119 31 119 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0443
@@ -40749,7 +40749,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0443.trunc
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0444
@@ -41105,7 +41105,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0444.short uni0444.trunc
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0445
@@ -41774,7 +41774,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0445.truncl uni0445.truncr uni0445.trunc
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0446
@@ -42032,7 +42032,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0446.trunc
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0447
@@ -42245,7 +42245,7 @@ SplineSet
  162 213.1 162 213.1 162 219.1 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni0448
@@ -42843,7 +42843,7 @@ StartChar: uni044B
 Encoding: 1099 1099 137
 Width: 509
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -7 21G<37.5 51> 0 33<112.428 169.433> 134 58<128.007 156.056> 321 54<143.187 172.182> 365 20G<440.5 453.5>
 VStem: 10 98<34.0667 133.743> 171 111<33.966 120.246> 333 125<3.35677 211.626> 333 104<24.1701 320.913>
 TtInstrs:
@@ -43064,6 +43064,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Numeral" 230 181.8 basechar 0
 AnchorPoint: "Right" 433 450 basechar 0
 AnchorPoint: "Left" 36 449.5 basechar 0
 AnchorPoint: "HalfMark" 258 499.5 basechar 0
@@ -43198,6 +43199,7 @@ SplineSet
  164 119 164 119 139 130 c 0,94,95
 EndSplineSet
 Validated: 19457
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni044C
@@ -58762,7 +58764,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0471.short uni0471.trunc
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uni047D
@@ -60512,7 +60514,7 @@ SplineSet
  66 515 66 515 66 521 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uniA641

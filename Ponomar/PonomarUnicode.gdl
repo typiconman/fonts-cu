@@ -440,7 +440,7 @@ g0447 = glyphid(252) {YerokS = point(275m, 538m); rightS = point(355m, 536m); Do
 g0448 = glyphid(253) {leftS = point(134m, 535m); DiacriticS = point(437m, 538m); YerokS = point(675m, 538m); rightS = point(747m, 536m); HalfMarkS = point(435m, 538m); DoubleTitloS = point(859m, 538m)};
 g0449 = glyphid(254) {rightS = point(695m, 536m); YerokS = point(625m, 538m); HalfMarkS = point(414m, 537m); DoubleTitloS = point(808m, 539m); leftS = point(134m, 535m); DiacriticS = point(416m, 538m)};
 g044a = glyphid(255) {DoubleTitloS = point(469m, 539m); HalfMarkS = point(242m, 538m); YerokS = point(325m, 539m); rightS = point(371m, 536m); DiacriticS = point(242m, 538m); leftS = point(80m, 535m)};
-g044b = glyphid(256) {YerokS = point(500m, 538m); rightS = point(549m, 536m); HalfMarkS = point(335m, 538m); DoubleTitloS = point(667m, 539m); leftS = point(174m, 535m); DiacriticS = point(336m, 539m)};
+g044b = glyphid(256) {HalfMarkS = point(335m, 538m); NumeralS = point(315m, 224m); DoubleTitloS = point(667m, 539m); rightS = point(549m, 536m); DiacriticS = point(336m, 539m); leftS = point(174m, 535m); YerokS = point(500m, 538m)};
 g044c = glyphid(257) {rightS = point(363m, 536m); YerokS = point(275m, 539m); DoubleTitloS = point(440m, 539m); HalfMarkS = point(238m, 538m); leftS = point(80m, 535m); DiacriticS = point(155m, 537m)};
 g044d = glyphid(258) {leftS = point(148m, 535m); DiacriticS = point(259m, 539m); YerokS = point(400m, 538m); rightS = point(523m, 536m); HalfMarkS = point(319m, 538m); DoubleTitloS = point(603m, 539m)};
 g044e = glyphid(259) {leftS = point(80m, 535m); DiacriticS = point(330m, 539m); YerokS = point(350m, 539m); rightS = point(455m, 536m); HalfMarkS = point(255m, 538m); DoubleTitloS = point(551m, 540m)};
@@ -1032,7 +1032,7 @@ cnTakesHalfMarkDia = (g0300, g0301, g0302, g0303, g0304, g0305, g0306, g0307,
 cTakesNumeralDia = (g0430, g0432, g0433, g0434, g0435, g0437, g0438, g043a,
     g043b, g043c, g043d, g043e, g043f, g0440, g0441, g0442,
     g0443, g0444, g0445, g0446, g0447, g0455, g0456, g0461,
-    g046f, g0471, g0473, g047b, g047f, g0495, g04e9, g051f,
+    g046f, g0471, g0473, g047b, g047f, g0495, g04e9, g051f, g044b,
     g052b, g25cc, g0440_trunc, g0444_trunc1, g0444_trunc2, g0445_trunc1, g0445_trunc2, g0445_trunc3,
     g0446_trunc, g0471_alt, g0471_alt2, g0443_alt, g0471_0327, gef09, gef0a, g1f908,
     g1f909, g1f90a, g1f90b);

@@ -442,7 +442,7 @@ g0447 = glyphid(379) {DiacriticS = point(334m, 563m)};
 g0448 = glyphid(380) {DiacriticS = point(434m, 563m)};
 g0449 = glyphid(381) {DiacriticS = point(428m, 563m)};
 g044a = glyphid(382) {DiacriticS = point(338m, 563m)};
-g044b = glyphid(383) {DiacriticS = point(704m, 563m)};
+g044b = glyphid(383) {DiacriticS = point(704m, 563m); NumeralS = point(460m, 220m)};
 g044c = glyphid(384) {DiacriticS = point(154m, 563m)};
 g044d = glyphid(385) {DiacriticS = point(191m, 593m)};
 g044e = glyphid(386) {DiacriticS = point(316m, 563m)};
@@ -1257,7 +1257,7 @@ cnTakesDiacriticDia = (g00cb, g0300, g0301, g0302, g0303, g0304, g0305, g0306,
     g1e021, g1e023, g1e024, g1e026, g1e027, g1e028, g1e029, g1e02a);
 
 cTakesNumeralDia = (g00a0, g0430, g0432, g0433, g0434, g0435, g0437, g0438,
-    g043a, g043b, g043c, g043d, g043e, g043f, g0455, g0456,
+    g043a, g043b, g043c, g043d, g043e, g043f, g0455, g0456, g044b,
     g046f, g0473, g25cc, g1f908, g1f909, g1f90a, g1f90b);
 
 cnTakesNumeralDia = (g00cb, g0300, g0301, g0302, g0303, g0304, g0305, g0306,
