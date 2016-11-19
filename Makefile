@@ -55,4 +55,5 @@ clean:
 	(cd docs/ && rm -f *.aux *.glo *.idx *.log *.out *.pdf *.toc)
 	(cd rpm/ && rm -f *.tar.bz2)
 	rm -f *.zip *.png
+	debuild clean
 
