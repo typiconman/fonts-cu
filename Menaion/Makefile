@@ -9,5 +9,14 @@ MenaionUnicode.ttf:
 	rm MenaionUnicode.ttf
 	mv MenaionUnicodeSIL.ttf MenaionUnicode.ttf
 
+web: MenaionUnicode.zip
+
+MenaionUnicode.zip:
+	rm -f *.zip
+	zip -j $@ MenaionUnicode.otf MenaionUnicode.ttf \
+				MenaionUnicode.woff \
+				README CHANGES
+
 clean:
-	rm -f *.otf *.ttf *.woff
+	rm -f *.otf *.ttf *.woff *.zip gdlerr.txt
+

@@ -9,5 +9,14 @@ PomorskyUnicode.ttf:
 	rm PomorskyUnicode.ttf
 	mv PomorskyUnicodeSIL.ttf PomorskyUnicode.ttf
 
+web: PomorskyUnicode.zip
+
+PomorskyUnicode.zip:
+	rm -f *.zip
+	zip -j $@ PomorskyUnicode.otf PomorskyUnicode.ttf \
+				PomorskyUnicode.woff \
+				README CHANGES
+
 clean:
-	rm -f *.otf *.ttf *.woff
+	rm -f *.otf *.ttf *.woff *.zip gdlerr.txt
+

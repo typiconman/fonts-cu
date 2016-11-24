@@ -9,5 +9,14 @@ FedorovskUnicode.ttf:
 	rm FedorovskUnicode.ttf
 	mv FedorovskUnicodeSIL.ttf FedorovskUnicode.ttf
 
+web: FedorovskUnicode.zip
+
+FedorovskUnicode.zip:
+	rm -f *.zip
+	zip -j $@ FedorovskUnicode.otf FedorovskUnicode.ttf \
+				FedorovskUnicode.woff \
+				README CHANGES
+
 clean:
-	rm -f *.otf *.ttf *.woff
+	rm -f *.otf *.ttf *.woff *.zip gdlerr.txt
+
