@@ -9,7 +9,7 @@ IndictionUnicode.ttf:
 	rm IndictionUnicode.ttf
 	mv IndictionUnicodeSIL.ttf IndictionUnicode.ttf
 
-web: IndictionUnicode.zip
+site: IndictionUnicode.zip
 
 IndictionUnicode.zip:
 	rm -f *.zip

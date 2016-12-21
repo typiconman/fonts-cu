@@ -9,7 +9,7 @@ MenaionUnicode.ttf:
 	rm MenaionUnicode.ttf
 	mv MenaionUnicodeSIL.ttf MenaionUnicode.ttf
 
-web: MenaionUnicode.zip
+site: MenaionUnicode.zip
 
 MenaionUnicode.zip:
 	rm -f *.zip

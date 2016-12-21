@@ -9,7 +9,7 @@ PonomarUnicode.ttf:
 	rm PonomarUnicode.ttf
 	mv PonomarUnicodeSIL.ttf PonomarUnicode.ttf
 
-web: PonomarUnicode.zip
+site: PonomarUnicode.zip
 
 PonomarUnicode.zip:
 	rm -f *.zip

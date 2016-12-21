@@ -48,9 +48,9 @@ install: $(FONTS)
 	mv fonts-cu.tar.bz2 rpm/
 	# To create debian package run debuild -us -uc
 
-web:
+site:
 	# Creating the separate zip archives for the website
-	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) web; cd ..;)
+	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) site; cd ..;)
 
 clean:
 	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) clean; cd ..;)

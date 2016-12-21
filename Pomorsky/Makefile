@@ -9,7 +9,7 @@ PomorskyUnicode.ttf:
 	rm PomorskyUnicode.ttf
 	mv PomorskyUnicodeSIL.ttf PomorskyUnicode.ttf
 
-web: PomorskyUnicode.zip
+site: PomorskyUnicode.zip
 
 PomorskyUnicode.zip:
 	rm -f *.zip

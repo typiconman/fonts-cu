@@ -9,7 +9,7 @@ FedorovskUnicode.ttf:
 	rm FedorovskUnicode.ttf
 	mv FedorovskUnicodeSIL.ttf FedorovskUnicode.ttf
 
-web: FedorovskUnicode.zip
+site: FedorovskUnicode.zip
 
 FedorovskUnicode.zip:
 	rm -f *.zip

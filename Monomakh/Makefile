@@ -9,13 +9,13 @@ MonomakhUnicode.ttf:
 	rm MonomakhUnicode.ttf
 	mv MonomakhUnicodeSIL.ttf MonomakhUnicode.ttf
 
-web: MonomakhUnicode.zip
+site: MonomakhUnicode.zip
 
 MonomakhUnicode.zip:
 	rm -f *.zip
 	zip -j $@ MonomakhUnicode.otf MonomakhUnicode.ttf \
 				MonomakhUnicode.woff \
-				README FONTLOG.txt
+				README.md FONTLOG.txt
 
 clean:
 	rm -f *.otf *.ttf *.woff *.zip gdlerr.txt
