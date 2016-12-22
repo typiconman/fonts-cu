@@ -27,13 +27,6 @@ font.sfnt_names = tuple( ttnames )
 
 font.generate( base_name + ".otf", flags=( "opentype", "PfEd-colors", "PfEd-lookups"), layer="Fore" )
 
-woff_meta = base_name + "-WOFF-metadata.xml"
-f = file( woff_meta, 'r')
-lines = f.readlines()
-f.close()
-font.woffMetadata = "".join( lines )
-font.generate( base_name + ".woff", flags=( "opentype"), layer="TTFLayer" )
-
 # Append the TT suffix
 for i in range( 0, len( ttnames )):
 	ttname = ttnames[i]

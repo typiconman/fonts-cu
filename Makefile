@@ -29,16 +29,6 @@ fonts-churchslavonic.zip:
 	zip -DrX $@ docs/fonts-churchslavonic.tex docs/*.png
 	rm -f /tmp/README
 
-images: $(FONTS)
-	rm -f *.png
-	(cd Ponomar/ && fontimage --width 375 --height 40 --pixelsize 26 --text "   Хрⷭ҇то́съ воскре́се и҆з̾ ме́ртвыхъ " --o ../PonomarUnicode.png PonomarUnicode.otf)
-	(cd Fedorovsk/ && fontimage --width 375 --height 40 --pixelsize 26 --text "   Хрⷭ҇то́съ вᲂскре́се и҆з̾ ме́ртвыхъ " --o ../FedorovskUnicode.png FedorovskUnicode.otf)
-	(cd Menaion/ && fontimage --width 375 --height 40 --pixelsize 16 --text "   искони бѣ слово · ⰋⰔⰍⰑⰐⰉ ⰁⰡ ⰔⰎⰑⰂⰑ " --o ../MenaionUnicode.png MenaionUnicode.otf)
-	(cd Pomorsky/ && fontimage --width 375 --height 40 --pixelsize 40 --text "   ЧИ́НЪ ВЕЧЕ́РНИ" --o ../PomorskyUnicode.png PomorskyUnicode.otf)
-	(cd Indiction/ && fontimage --width 375 --height 40 --pixelsize 35 --text "   АБВГДЕЖЅЗИКЛ " --o ../IndictionUnicode.png IndictionUnicode.otf)
-	(cd Monomakh/ && fontimage --width 375 --height 40 --pixelsize 26 --text "   Хрⷭ҇то́съ вᲂскре́се и҆з̾ ме́ртвыхъ " --o ../MonomakhUnicode.png MonomakhUnicode.otf)
-
-
 install: $(FONTS)
 	ls ~/.fonts/
 	$(foreach font, $(FONTS), cp $(font)/*.otf ~/.fonts/;)
@@ -51,6 +41,16 @@ install: $(FONTS)
 site:
 	# Creating the separate zip archives for the website
 	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) site; cd ..;)
+
+web: sci-webfonts.zip
+
+sci-webfonts.zip:
+	# Create web fonts
+	rm -f *.zip
+	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) web; cd ..;)
+	zip -j $@ LICENSE GPL.txt OFL.txt \
+		$(foreach font, $(FONTS), $(font)/*.ttf $(font)/*.woff $(font)/*.eot $(font)/*.woff2)
+	zip -DrX $@ css/
 
 clean:
 	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) clean; cd ..;)
