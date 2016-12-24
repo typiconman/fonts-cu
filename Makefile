@@ -46,11 +46,14 @@ web: sci-webfonts.zip
 
 sci-webfonts.zip:
 	# Create web fonts
+	rm -fr fonts/
 	rm -f *.zip
 	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) web; cd ..;)
-	zip -j $@ LICENSE GPL.txt OFL.txt \
-		$(foreach font, $(FONTS), $(font)/*.ttf $(font)/*.woff $(font)/*.eot $(font)/*.woff2)
-	zip -DrX $@ css/
+	mkdir fonts/
+	$(foreach font, $(FONTS), cp $(font)/*.ttf $(font)/*.woff $(font)/*.eot $(font)/*.woff2 fonts/;)
+	zip -j $@ LICENSE GPL.txt OFL.txt
+	zip -DrX $@ css/ fonts/
+	rm -fr fonts/
 
 clean:
 	$(foreach font, $(FONTS), cd $(font)/ && $(MAKE) clean; cd ..;)
