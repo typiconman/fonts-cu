@@ -23,7 +23,7 @@ for ttname in ttnames:
 	if ttname[1] == 'SubFamil':
 		ttnames.append( ( ttname[0],'Fullname',"%s %s" % ( full_name,ttname[2] ) ) )
 font.sfnt_names = tuple( ttnames )
-
+font.em = 1024
 font.generate( base_name + ".ttf", flags=( "opentype", "old-kern", "PfEd-colors", "PfEd-lookups", "dummy-dsig" ), layer="TTFLayer" )
 
 #generate WOFF fonts

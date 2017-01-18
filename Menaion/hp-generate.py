@@ -43,6 +43,7 @@ font.familyname = full_name + " TT"
 font.fullname = full_name + " TT"
 font.fontname = base_name + "TT"
 
+font.em = 1024
 font.generate( base_name + ".ttf", flags=( "opentype", "old-kern", "PfEd-colors", "PfEd-lookups", "dummy-dsig" ), layer="TTFLayer" )
 font.close()
 
