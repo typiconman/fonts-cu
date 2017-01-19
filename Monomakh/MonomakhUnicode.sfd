@@ -8,7 +8,7 @@ UComments: "2011-5-3: Created.+AAoACgAA-Ratios for superscript digits:+AAoA-thin
 Version: 1.1
 ItalicAngle: 0
 UnderlinePosition: -125
-UnderlineWidth: 59.5703
+UnderlineWidth: 59
 Ascent: 732
 Descent: 268
 LayerCount: 3
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1315915564
-ModificationTime: 1484638305
+ModificationTime: 1484812415
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -1316,7 +1316,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 312
-WinInfo: 594 27 10
+WinInfo: 324 27 10
 BeginPrivate: 7
 BlueValues 30 [-8 0 466 476 693 701 753 759]
 OtherBlues 11 [-293 -286]
@@ -44377,9 +44377,9 @@ StartChar: afii10052
 Encoding: 1027 1027 369
 Width: 553
 VWidth: 0
-Flags: HW
-HStem: 0 29<47 98 235 286> 468 10<464 470> 664 29<47 98 235 359> 762 190
-VStem: 98 138<29 664> 257 241
+Flags: W
+HStem: 0 29<47 98 235 286> 468 21<464.5 470> 664 29<47 98 235 359.117> 762 190
+VStem: 98 137<29 664> 257 241 451 32<468.002 537.121>
 LayerCount: 3
 Fore
 Refer: 691 63177 N 1 0 0 1 92 0 2
@@ -46993,9 +46993,9 @@ StartChar: afii10020
 Encoding: 1043 1043 385
 Width: 553
 VWidth: 0
-Flags: HW
-HStem: 0 29<47 98 235 286> 468 10G<464 470> 664 29<47 98 235 359>
-VStem: 98 138<29 664>
+Flags: W
+HStem: 0 29<47 98 235 286> 468 21G<464.5 470> 664 29<47 98 235 359.117>
+VStem: 98 137<29 664> 451 32<468.002 537.121>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
@@ -51107,7 +51107,7 @@ SplineSet
  33.2031 664.062 l 1,0,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 447 -30 "'kern' Pairwise Kerning for Cyrillic"  446 -30 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 446 -30 "'kern' Pairwise Kerning for Cyrillic"  447 -30 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10038
@@ -54306,7 +54306,7 @@ SplineSet
  147.461 171.875 147.461 171.875 147.461 108.398 c 0,38,39
 EndSplineSet
 Validated: 19457
-Kerns2: 820 -14 "'kern' Pairwise Kerning for Cyrillic"  460 -7 "'kern' Pairwise Kerning for Cyrillic"  447 -16 "'kern' Pairwise Kerning for Cyrillic"  446 -16 "'kern' Pairwise Kerning for Cyrillic"  435 -23 "'kern' Pairwise Kerning for Cyrillic"  431 -7 "'kern' Pairwise Kerning for Cyrillic"  419 -16 "'kern' Pairwise Kerning for Cyrillic"  430 -21 "'kern' Pairwise Kerning for Cyrillic"  437 -14 "'kern' Pairwise Kerning for Cyrillic"  433 -7 "'kern' Pairwise Kerning for Cyrillic"  432 -31 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -14 "'kern' Pairwise Kerning for Cyrillic"  437 -14 "'kern' Pairwise Kerning for Cyrillic"  435 -23 "'kern' Pairwise Kerning for Cyrillic"  460 -7 "'kern' Pairwise Kerning for Cyrillic"  433 -7 "'kern' Pairwise Kerning for Cyrillic"  432 -31 "'kern' Pairwise Kerning for Cyrillic"  431 -7 "'kern' Pairwise Kerning for Cyrillic"  430 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -16 "'kern' Pairwise Kerning for Cyrillic"  447 -16 "'kern' Pairwise Kerning for Cyrillic"  419 -16 "'kern' Pairwise Kerning for Cyrillic" 
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=287 dy=0 dh=280 dv=0 dx=0 dy=0 dh=332 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=219 dy=0 dh=210 dv=0 dx=0 dy=0 dh=262 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=327 dy=0 dh=318 dv=0 dx=0 dy=0 dh=370 dv=0
@@ -54964,7 +54964,7 @@ SplineSet
  102.051 -4.88281 102.051 -4.88281 74.2188 0 c 1,0,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 450 -35 "'kern' Pairwise Kerning for Cyrillic"  626 -23 "'kern' Pairwise Kerning for Cyrillic"  447 -18 "'kern' Pairwise Kerning for Cyrillic"  446 -18 "'kern' Pairwise Kerning for Cyrillic"  638 -94 "'kern' Pairwise Kerning for Cyrillic"  511 -62 "'kern' Pairwise Kerning for Cyrillic"  489 -14 "'kern' Pairwise Kerning for Cyrillic"  434 -87 "'kern' Pairwise Kerning for Cyrillic"  426 -64 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  414 -62 "'kern' Pairwise Kerning for Cyrillic"  473 -30 "'kern' Pairwise Kerning for Cyrillic"  425 -79 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  418 -86 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  421 -21 "'kern' Pairwise Kerning for Cyrillic"  430 -47 "'kern' Pairwise Kerning for Cyrillic"  419 -18 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 638 -94 "'kern' Pairwise Kerning for Cyrillic"  626 -23 "'kern' Pairwise Kerning for Cyrillic"  489 -14 "'kern' Pairwise Kerning for Cyrillic"  473 -30 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  450 -30 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  434 -87 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  430 -47 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  426 -30 "'kern' Pairwise Kerning for Cyrillic"  425 -30 "'kern' Pairwise Kerning for Cyrillic"  421 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -18 "'kern' Pairwise Kerning for Cyrillic"  447 -18 "'kern' Pairwise Kerning for Cyrillic"  419 -18 "'kern' Pairwise Kerning for Cyrillic"  418 -86 "'kern' Pairwise Kerning for Cyrillic"  511 -62 "'kern' Pairwise Kerning for Cyrillic"  414 -62 "'kern' Pairwise Kerning for Cyrillic" 
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=323 dy=0 dh=314 dv=0 dx=0 dy=0 dh=332 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=253 dy=0 dh=244 dv=0 dx=0 dy=0 dh=262 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=361 dy=0 dh=353 dv=0 dx=0 dy=0 dh=370 dv=0
@@ -55127,7 +55127,7 @@ SplineSet
  215.332 196.777 215.332 196.777 148.438 33.2031 c 9,55,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 450 -39 "'kern' Pairwise Kerning for Cyrillic"  812 -72 "'kern' Pairwise Kerning for Cyrillic"  811 -81 "'kern' Pairwise Kerning for Cyrillic"  624 -62 "'kern' Pairwise Kerning for Cyrillic"  789 -87 "'kern' Pairwise Kerning for Cyrillic"  630 -87 "'kern' Pairwise Kerning for Cyrillic"  460 -50 "'kern' Pairwise Kerning for Cyrillic"  447 -52 "'kern' Pairwise Kerning for Cyrillic"  446 -52 "'kern' Pairwise Kerning for Cyrillic"  485 -72 "'kern' Pairwise Kerning for Cyrillic"  483 -72 "'kern' Pairwise Kerning for Cyrillic"  440 -87 "'kern' Pairwise Kerning for Cyrillic"  465 -81 "'kern' Pairwise Kerning for Cyrillic"  428 -47 "'kern' Pairwise Kerning for Cyrillic"  419 -52 "'kern' Pairwise Kerning for Cyrillic"  433 -50 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 789 -25 "'kern' Pairwise Kerning for Cyrillic"  630 -25 "'kern' Pairwise Kerning for Cyrillic"  812 -10 "'kern' Pairwise Kerning for Cyrillic"  624 -10 "'kern' Pairwise Kerning for Cyrillic"  485 -10 "'kern' Pairwise Kerning for Cyrillic"  483 -10 "'kern' Pairwise Kerning for Cyrillic"  811 -25 "'kern' Pairwise Kerning for Cyrillic"  465 -25 "'kern' Pairwise Kerning for Cyrillic"  450 -10 "'kern' Pairwise Kerning for Cyrillic"  440 -25 "'kern' Pairwise Kerning for Cyrillic"  460 -50 "'kern' Pairwise Kerning for Cyrillic"  433 -50 "'kern' Pairwise Kerning for Cyrillic"  428 -10 "'kern' Pairwise Kerning for Cyrillic"  446 -20 "'kern' Pairwise Kerning for Cyrillic"  447 -20 "'kern' Pairwise Kerning for Cyrillic"  419 -20 "'kern' Pairwise Kerning for Cyrillic" 
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=259 dy=55 dh=186 dv=0 dx=0 dy=0 dh=332 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=188 dy=55 dh=115 dv=0 dx=0 dy=0 dh=262 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=297 dy=55 dh=224 dv=0 dx=0 dy=0 dh=370 dv=0
@@ -55337,7 +55337,7 @@ SplineSet
  46.875 187.5 46.875 187.5 46.875 240.723 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 418 -21 "'kern' Pairwise Kerning for Cyrillic"  421 -14 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 421 -14 "'kern' Pairwise Kerning for Cyrillic"  418 -21 "'kern' Pairwise Kerning for Cyrillic" 
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=339 dy=0 dh=367 dv=0 dx=0 dy=0 dh=332 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=269 dy=0 dh=297 dv=0 dx=0 dy=0 dh=262 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=377 dy=0 dh=405 dv=0 dx=0 dy=0 dh=370 dv=0
@@ -55698,7 +55698,7 @@ SplineSet
  59.082 437.988 59.082 437.988 41.0156 467.773 c 1,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 447 -14 "'kern' Pairwise Kerning for Cyrillic"  446 -14 "'kern' Pairwise Kerning for Cyrillic"  419 -14 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 446 -14 "'kern' Pairwise Kerning for Cyrillic"  447 -14 "'kern' Pairwise Kerning for Cyrillic"  419 -14 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10073
@@ -56422,16 +56422,16 @@ SplineSet
  102.051 -4.88281 102.051 -4.88281 74.2188 0 c 1,0,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 447 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -27 "'kern' Pairwise Kerning for Cyrillic"  489 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 489 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -27 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10077
 Encoding: 1083 1083 425
 Width: 482
 VWidth: 0
-Flags: HW
-HStem: 0 10G<58 160 357 439> 332 132<218 277>
-VStem: 43 136<0 119>
+Flags: W
+HStem: 0 21G<57.5 160.5 356.5 440> 332 132<218.227 277>
+VStem: 43 136<0.296875 119.067>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
@@ -56563,7 +56563,7 @@ SplineSet
  42.9688 0 42.9688 0 42.9688 25.8789 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 450 -14 "'kern' Pairwise Kerning for Cyrillic"  812 -48 "'kern' Pairwise Kerning for Cyrillic"  811 -39 "'kern' Pairwise Kerning for Cyrillic"  624 -48 "'kern' Pairwise Kerning for Cyrillic"  789 -31 "'kern' Pairwise Kerning for Cyrillic"  626 -21 "'kern' Pairwise Kerning for Cyrillic"  460 -27 "'kern' Pairwise Kerning for Cyrillic"  447 -15 "'kern' Pairwise Kerning for Cyrillic"  446 -15 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic"  485 -27 "'kern' Pairwise Kerning for Cyrillic"  483 -27 "'kern' Pairwise Kerning for Cyrillic"  419 -15 "'kern' Pairwise Kerning for Cyrillic"  465 -39 "'kern' Pairwise Kerning for Cyrillic"  630 -31 "'kern' Pairwise Kerning for Cyrillic"  440 -31 "'kern' Pairwise Kerning for Cyrillic"  433 -27 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 789 -31 "'kern' Pairwise Kerning for Cyrillic"  630 -31 "'kern' Pairwise Kerning for Cyrillic"  626 -21 "'kern' Pairwise Kerning for Cyrillic"  812 -10 "'kern' Pairwise Kerning for Cyrillic"  624 -10 "'kern' Pairwise Kerning for Cyrillic"  485 -27 "'kern' Pairwise Kerning for Cyrillic"  483 -27 "'kern' Pairwise Kerning for Cyrillic"  811 -39 "'kern' Pairwise Kerning for Cyrillic"  465 -39 "'kern' Pairwise Kerning for Cyrillic"  450 -14 "'kern' Pairwise Kerning for Cyrillic"  440 -31 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic"  460 -27 "'kern' Pairwise Kerning for Cyrillic"  433 -27 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -15 "'kern' Pairwise Kerning for Cyrillic"  447 -15 "'kern' Pairwise Kerning for Cyrillic"  419 -15 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10078
@@ -56843,7 +56843,7 @@ SplineSet
  44.9219 40.5273 44.9219 40.5273 44.9219 66.4062 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 450 -14 "'kern' Pairwise Kerning for Cyrillic"  479 -25 "'kern' Pairwise Kerning for Cyrillic"  812 -39 "'kern' Pairwise Kerning for Cyrillic"  811 -35 "'kern' Pairwise Kerning for Cyrillic"  624 -39 "'kern' Pairwise Kerning for Cyrillic"  789 -43 "'kern' Pairwise Kerning for Cyrillic"  626 -16 "'kern' Pairwise Kerning for Cyrillic"  460 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -16 "'kern' Pairwise Kerning for Cyrillic"  446 -16 "'kern' Pairwise Kerning for Cyrillic"  437 -25 "'kern' Pairwise Kerning for Cyrillic"  485 -21 "'kern' Pairwise Kerning for Cyrillic"  483 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -16 "'kern' Pairwise Kerning for Cyrillic"  465 -35 "'kern' Pairwise Kerning for Cyrillic"  630 -43 "'kern' Pairwise Kerning for Cyrillic"  440 -43 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -12 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 789 -43 "'kern' Pairwise Kerning for Cyrillic"  630 -43 "'kern' Pairwise Kerning for Cyrillic"  626 -16 "'kern' Pairwise Kerning for Cyrillic"  812 -39 "'kern' Pairwise Kerning for Cyrillic"  624 -39 "'kern' Pairwise Kerning for Cyrillic"  479 -25 "'kern' Pairwise Kerning for Cyrillic"  485 -21 "'kern' Pairwise Kerning for Cyrillic"  483 -21 "'kern' Pairwise Kerning for Cyrillic"  811 -35 "'kern' Pairwise Kerning for Cyrillic"  465 -35 "'kern' Pairwise Kerning for Cyrillic"  450 -14 "'kern' Pairwise Kerning for Cyrillic"  440 -43 "'kern' Pairwise Kerning for Cyrillic"  437 -25 "'kern' Pairwise Kerning for Cyrillic"  460 -21 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -12 "'kern' Pairwise Kerning for Cyrillic"  446 -16 "'kern' Pairwise Kerning for Cyrillic"  447 -16 "'kern' Pairwise Kerning for Cyrillic"  419 -16 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10079
@@ -57173,7 +57173,7 @@ SplineSet
  110.352 338.867 110.352 338.867 110.352 291.992 c 0,28,29
 EndSplineSet
 Validated: 19457
-Kerns2: 432 -29 "'kern' Pairwise Kerning for Cyrillic"  479 -16 "'kern' Pairwise Kerning for Cyrillic"  421 -26 "'kern' Pairwise Kerning for Cyrillic"  443 -28 "'kern' Pairwise Kerning for Cyrillic"  435 -16 "'kern' Pairwise Kerning for Cyrillic"  418 -50 "'kern' Pairwise Kerning for Cyrillic"  425 -12 "'kern' Pairwise Kerning for Cyrillic"  426 -12 "'kern' Pairwise Kerning for Cyrillic"  469 -22 "'kern' Pairwise Kerning for Cyrillic"  483 -14 "'kern' Pairwise Kerning for Cyrillic"  433 -14 "'kern' Pairwise Kerning for Cyrillic"  481 -66 "'kern' Pairwise Kerning for Cyrillic"  638 -22 "'kern' Pairwise Kerning for Cyrillic"  485 -14 "'kern' Pairwise Kerning for Cyrillic"  460 -14 "'kern' Pairwise Kerning for Cyrillic"  648 -47 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 648 -47 "'kern' Pairwise Kerning for Cyrillic"  638 -22 "'kern' Pairwise Kerning for Cyrillic"  479 -16 "'kern' Pairwise Kerning for Cyrillic"  469 -22 "'kern' Pairwise Kerning for Cyrillic"  485 -14 "'kern' Pairwise Kerning for Cyrillic"  483 -14 "'kern' Pairwise Kerning for Cyrillic"  481 -66 "'kern' Pairwise Kerning for Cyrillic"  443 -28 "'kern' Pairwise Kerning for Cyrillic"  435 -16 "'kern' Pairwise Kerning for Cyrillic"  460 -14 "'kern' Pairwise Kerning for Cyrillic"  433 -14 "'kern' Pairwise Kerning for Cyrillic"  432 -29 "'kern' Pairwise Kerning for Cyrillic"  426 -12 "'kern' Pairwise Kerning for Cyrillic"  425 -12 "'kern' Pairwise Kerning for Cyrillic"  421 -26 "'kern' Pairwise Kerning for Cyrillic"  418 -50 "'kern' Pairwise Kerning for Cyrillic" 
 AlternateSubs2: "'salt' Stylistic Alternatives for Old Cyrillic-1" uni1C82
 Colour: ff00ff
 EndChar
@@ -57498,7 +57498,7 @@ SplineSet
  136.719 360.84 136.719 360.84 136.719 309.082 c 0,36,37
 EndSplineSet
 Validated: 19457
-Kerns2: 418 -25 "'kern' Pairwise Kerning for Cyrillic"  433 -16 "'kern' Pairwise Kerning for Cyrillic"  432 -50 "'kern' Pairwise Kerning for Cyrillic"  483 -16 "'kern' Pairwise Kerning for Cyrillic"  485 -16 "'kern' Pairwise Kerning for Cyrillic"  460 -16 "'kern' Pairwise Kerning for Cyrillic"  440 -36 "'kern' Pairwise Kerning for Cyrillic"  630 -36 "'kern' Pairwise Kerning for Cyrillic"  789 -36 "'kern' Pairwise Kerning for Cyrillic"  624 -21 "'kern' Pairwise Kerning for Cyrillic"  465 -27 "'kern' Pairwise Kerning for Cyrillic"  811 -27 "'kern' Pairwise Kerning for Cyrillic"  812 -43 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 789 -36 "'kern' Pairwise Kerning for Cyrillic"  630 -36 "'kern' Pairwise Kerning for Cyrillic"  812 -43 "'kern' Pairwise Kerning for Cyrillic"  624 -21 "'kern' Pairwise Kerning for Cyrillic"  485 -16 "'kern' Pairwise Kerning for Cyrillic"  483 -16 "'kern' Pairwise Kerning for Cyrillic"  811 -27 "'kern' Pairwise Kerning for Cyrillic"  465 -27 "'kern' Pairwise Kerning for Cyrillic"  440 -36 "'kern' Pairwise Kerning for Cyrillic"  460 -16 "'kern' Pairwise Kerning for Cyrillic"  433 -16 "'kern' Pairwise Kerning for Cyrillic"  432 -50 "'kern' Pairwise Kerning for Cyrillic"  418 -25 "'kern' Pairwise Kerning for Cyrillic" 
 Colour: ff00ff
 EndChar
 
@@ -57814,7 +57814,7 @@ SplineSet
  26.3672 441.406 26.3672 441.406 26.3672 451.172 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 485 27 "'kern' Pairwise Kerning for Cyrillic"  483 27 "'kern' Pairwise Kerning for Cyrillic"  433 27 "'kern' Pairwise Kerning for Cyrillic"  418 -87 "'kern' Pairwise Kerning for Cyrillic"  431 -14 "'kern' Pairwise Kerning for Cyrillic"  626 -23 "'kern' Pairwise Kerning for Cyrillic"  511 -66 "'kern' Pairwise Kerning for Cyrillic"  447 -14 "'kern' Pairwise Kerning for Cyrillic"  446 -14 "'kern' Pairwise Kerning for Cyrillic"  638 -79 "'kern' Pairwise Kerning for Cyrillic"  489 -30 "'kern' Pairwise Kerning for Cyrillic"  434 -86 "'kern' Pairwise Kerning for Cyrillic"  469 -79 "'kern' Pairwise Kerning for Cyrillic"  426 -58 "'kern' Pairwise Kerning for Cyrillic"  473 -29 "'kern' Pairwise Kerning for Cyrillic"  425 -65 "'kern' Pairwise Kerning for Cyrillic"  421 -18 "'kern' Pairwise Kerning for Cyrillic"  430 -37 "'kern' Pairwise Kerning for Cyrillic"  450 -27 "'kern' Pairwise Kerning for Cyrillic"  445 -7 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  443 -43 "'kern' Pairwise Kerning for Cyrillic"  419 -14 "'kern' Pairwise Kerning for Cyrillic"  414 -66 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 638 -79 "'kern' Pairwise Kerning for Cyrillic"  626 -23 "'kern' Pairwise Kerning for Cyrillic"  489 -30 "'kern' Pairwise Kerning for Cyrillic"  473 -29 "'kern' Pairwise Kerning for Cyrillic"  469 -79 "'kern' Pairwise Kerning for Cyrillic"  485 27 "'kern' Pairwise Kerning for Cyrillic"  483 27 "'kern' Pairwise Kerning for Cyrillic"  450 -27 "'kern' Pairwise Kerning for Cyrillic"  445 -7 "'kern' Pairwise Kerning for Cyrillic"  443 -43 "'kern' Pairwise Kerning for Cyrillic"  434 -86 "'kern' Pairwise Kerning for Cyrillic"  433 27 "'kern' Pairwise Kerning for Cyrillic"  431 -14 "'kern' Pairwise Kerning for Cyrillic"  430 -37 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  426 -58 "'kern' Pairwise Kerning for Cyrillic"  425 -65 "'kern' Pairwise Kerning for Cyrillic"  421 -18 "'kern' Pairwise Kerning for Cyrillic"  446 -14 "'kern' Pairwise Kerning for Cyrillic"  447 -14 "'kern' Pairwise Kerning for Cyrillic"  419 -14 "'kern' Pairwise Kerning for Cyrillic"  418 -87 "'kern' Pairwise Kerning for Cyrillic"  511 -66 "'kern' Pairwise Kerning for Cyrillic"  414 -66 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10085
@@ -58007,7 +58007,7 @@ SplineSet
  23.4375 443.359 23.4375 443.359 23.4375 447.754 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 511 -81 "'kern' Pairwise Kerning for Cyrillic"  638 -94 "'kern' Pairwise Kerning for Cyrillic"  428 -37 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  431 -29 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  450 -33 "'kern' Pairwise Kerning for Cyrillic"  426 -70 "'kern' Pairwise Kerning for Cyrillic"  430 -39 "'kern' Pairwise Kerning for Cyrillic"  481 -87 "'kern' Pairwise Kerning for Cyrillic"  421 -25 "'kern' Pairwise Kerning for Cyrillic"  434 -79 "'kern' Pairwise Kerning for Cyrillic"  418 -94 "'kern' Pairwise Kerning for Cyrillic"  425 -81 "'kern' Pairwise Kerning for Cyrillic"  414 -81 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 638 -94 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  481 -87 "'kern' Pairwise Kerning for Cyrillic"  450 -33 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  434 -79 "'kern' Pairwise Kerning for Cyrillic"  431 -29 "'kern' Pairwise Kerning for Cyrillic"  430 -39 "'kern' Pairwise Kerning for Cyrillic"  428 -37 "'kern' Pairwise Kerning for Cyrillic"  426 -70 "'kern' Pairwise Kerning for Cyrillic"  425 -81 "'kern' Pairwise Kerning for Cyrillic"  421 -25 "'kern' Pairwise Kerning for Cyrillic"  418 -94 "'kern' Pairwise Kerning for Cyrillic"  511 -81 "'kern' Pairwise Kerning for Cyrillic"  414 -81 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10086
@@ -58308,7 +58308,7 @@ SplineSet
  162.109 216.797 162.109 216.797 162.109 133.789 c 0,62,63
 EndSplineSet
 Validated: 19457
-Kerns2: 812 -47 "'kern' Pairwise Kerning for Cyrillic"  811 -57 "'kern' Pairwise Kerning for Cyrillic"  624 -47 "'kern' Pairwise Kerning for Cyrillic"  460 -36 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  485 -36 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic"  465 -57 "'kern' Pairwise Kerning for Cyrillic"  432 -86 "'kern' Pairwise Kerning for Cyrillic"  483 -36 "'kern' Pairwise Kerning for Cyrillic"  433 -36 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 812 -47 "'kern' Pairwise Kerning for Cyrillic"  624 -47 "'kern' Pairwise Kerning for Cyrillic"  485 -36 "'kern' Pairwise Kerning for Cyrillic"  483 -36 "'kern' Pairwise Kerning for Cyrillic"  811 -57 "'kern' Pairwise Kerning for Cyrillic"  465 -57 "'kern' Pairwise Kerning for Cyrillic"  460 -36 "'kern' Pairwise Kerning for Cyrillic"  433 -36 "'kern' Pairwise Kerning for Cyrillic"  432 -86 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic" 
 Colour: ff
 EndChar
 
@@ -58711,7 +58711,7 @@ SplineSet
  11.7188 -274.414 11.7188 -274.414 11.7188 -268.066 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 626 -25 "'kern' Pairwise Kerning for Cyrillic"  511 -66 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic"  414 -66 "'kern' Pairwise Kerning for Cyrillic"  426 -50 "'kern' Pairwise Kerning for Cyrillic"  425 -51 "'kern' Pairwise Kerning for Cyrillic"  428 -43 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 626 -25 "'kern' Pairwise Kerning for Cyrillic"  428 -43 "'kern' Pairwise Kerning for Cyrillic"  426 -50 "'kern' Pairwise Kerning for Cyrillic"  425 -51 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic"  511 -66 "'kern' Pairwise Kerning for Cyrillic"  414 -66 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10088
@@ -59732,7 +59732,7 @@ SplineSet
  337.891 43.9453 l 2,45,46
 EndSplineSet
 Validated: 19457
-Kerns2: 811 -72 "'kern' Pairwise Kerning for Cyrillic"  460 -58 "'kern' Pairwise Kerning for Cyrillic"  447 -33 "'kern' Pairwise Kerning for Cyrillic"  446 -33 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  433 -58 "'kern' Pairwise Kerning for Cyrillic"  820 -79 "'kern' Pairwise Kerning for Cyrillic"  432 -72 "'kern' Pairwise Kerning for Cyrillic"  419 -33 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 811 -72 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  820 -79 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  460 -58 "'kern' Pairwise Kerning for Cyrillic"  433 -58 "'kern' Pairwise Kerning for Cyrillic"  432 -72 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -33 "'kern' Pairwise Kerning for Cyrillic"  447 -33 "'kern' Pairwise Kerning for Cyrillic"  419 -33 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10093
@@ -60039,7 +60039,7 @@ SplineSet
  186.523 43.9453 l 2,26,27
 EndSplineSet
 Validated: 19457
-Kerns2: 811 -72 "'kern' Pairwise Kerning for Cyrillic"  460 -58 "'kern' Pairwise Kerning for Cyrillic"  447 -33 "'kern' Pairwise Kerning for Cyrillic"  446 -33 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  419 -33 "'kern' Pairwise Kerning for Cyrillic"  820 -79 "'kern' Pairwise Kerning for Cyrillic"  433 -58 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -72 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 811 -72 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  820 -79 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  460 -58 "'kern' Pairwise Kerning for Cyrillic"  433 -58 "'kern' Pairwise Kerning for Cyrillic"  432 -72 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -33 "'kern' Pairwise Kerning for Cyrillic"  447 -33 "'kern' Pairwise Kerning for Cyrillic"  419 -33 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10095
@@ -60330,7 +60330,7 @@ SplineSet
  22.4609 -57.6172 22.4609 -57.6172 10.7422 -45.4102 c 1,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 509 -23 "'kern' Pairwise Kerning for Cyrillic"  420 -23 "'kern' Pairwise Kerning for Cyrillic"  418 -43 "'kern' Pairwise Kerning for Cyrillic"  432 -29 "'kern' Pairwise Kerning for Cyrillic"  435 -23 "'kern' Pairwise Kerning for Cyrillic"  426 -26 "'kern' Pairwise Kerning for Cyrillic"  425 -26 "'kern' Pairwise Kerning for Cyrillic"  421 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 435 -23 "'kern' Pairwise Kerning for Cyrillic"  432 -29 "'kern' Pairwise Kerning for Cyrillic"  426 -26 "'kern' Pairwise Kerning for Cyrillic"  425 -26 "'kern' Pairwise Kerning for Cyrillic"  421 -21 "'kern' Pairwise Kerning for Cyrillic"  509 -23 "'kern' Pairwise Kerning for Cyrillic"  420 -23 "'kern' Pairwise Kerning for Cyrillic"  418 -43 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10096
@@ -60541,7 +60541,7 @@ SplineSet
  296.875 274.414 296.875 274.414 296.875 231.445 c 0,34,35
 EndSplineSet
 Validated: 19457
-Kerns2: 648 -41 "'kern' Pairwise Kerning for Cyrillic"  509 -14 "'kern' Pairwise Kerning for Cyrillic"  426 -7 "'kern' Pairwise Kerning for Cyrillic"  425 -20 "'kern' Pairwise Kerning for Cyrillic"  418 -55 "'kern' Pairwise Kerning for Cyrillic"  420 -14 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 648 -10 "'kern' Pairwise Kerning for Cyrillic"  426 -7 "'kern' Pairwise Kerning for Cyrillic"  425 -10 "'kern' Pairwise Kerning for Cyrillic"  509 -14 "'kern' Pairwise Kerning for Cyrillic"  420 -14 "'kern' Pairwise Kerning for Cyrillic"  418 -10 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10097
@@ -61061,7 +61061,7 @@ Layer: 2
 Refer: 115 180 N 1 0 0 1 33.2031 0 2
 Refer: 417 1075 N 1 0 0 1 0 0 3
 Validated: 32769
-Kerns2: 447 -18 "'kern' Pairwise Kerning for Cyrillic"  446 -18 "'kern' Pairwise Kerning for Cyrillic"  638 -94 "'kern' Pairwise Kerning for Cyrillic"  419 -18 "'kern' Pairwise Kerning for Cyrillic"  450 -31 "'kern' Pairwise Kerning for Cyrillic"  430 -47 "'kern' Pairwise Kerning for Cyrillic"  421 -21 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  418 -86 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  425 -79 "'kern' Pairwise Kerning for Cyrillic"  473 -30 "'kern' Pairwise Kerning for Cyrillic"  414 -62 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  426 -64 "'kern' Pairwise Kerning for Cyrillic"  434 -87 "'kern' Pairwise Kerning for Cyrillic"  489 -14 "'kern' Pairwise Kerning for Cyrillic"  511 -62 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 638 -94 "'kern' Pairwise Kerning for Cyrillic"  489 -14 "'kern' Pairwise Kerning for Cyrillic"  473 -30 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  450 -30 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  434 -87 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  430 -47 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  426 -30 "'kern' Pairwise Kerning for Cyrillic"  425 -30 "'kern' Pairwise Kerning for Cyrillic"  421 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -18 "'kern' Pairwise Kerning for Cyrillic"  447 -18 "'kern' Pairwise Kerning for Cyrillic"  419 -18 "'kern' Pairwise Kerning for Cyrillic"  418 -86 "'kern' Pairwise Kerning for Cyrillic"  511 -62 "'kern' Pairwise Kerning for Cyrillic"  414 -62 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10101
@@ -62051,7 +62051,7 @@ SplineSet
  411.621 200.684 411.621 200.684 411.621 190.43 c 0,56,57
 EndSplineSet
 Validated: 19457
-Kerns2: 460 -60 "'kern' Pairwise Kerning for Cyrillic"  437 -66 "'kern' Pairwise Kerning for Cyrillic"  432 -87 "'kern' Pairwise Kerning for Cyrillic"  433 -60 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 437 -66 "'kern' Pairwise Kerning for Cyrillic"  460 -60 "'kern' Pairwise Kerning for Cyrillic"  433 -60 "'kern' Pairwise Kerning for Cyrillic"  432 -87 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10107
@@ -62417,7 +62417,7 @@ SplineSet
  458.008 43.9453 l 2,40,41
 EndSplineSet
 Validated: 19457
-Kerns2: 811 -72 "'kern' Pairwise Kerning for Cyrillic"  460 -58 "'kern' Pairwise Kerning for Cyrillic"  447 -33 "'kern' Pairwise Kerning for Cyrillic"  446 -33 "'kern' Pairwise Kerning for Cyrillic"  432 -72 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  433 -58 "'kern' Pairwise Kerning for Cyrillic"  820 -79 "'kern' Pairwise Kerning for Cyrillic"  419 -33 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 811 -72 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  820 -79 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  460 -58 "'kern' Pairwise Kerning for Cyrillic"  433 -58 "'kern' Pairwise Kerning for Cyrillic"  432 -72 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -33 "'kern' Pairwise Kerning for Cyrillic"  447 -33 "'kern' Pairwise Kerning for Cyrillic"  419 -33 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10108
@@ -62660,7 +62660,7 @@ Layer: 2
 Refer: 115 180 N 1 0 0 1 46.875 0 2
 Refer: 424 1082 N 1 0 0 1 0 0 3
 Validated: 32769
-Kerns2: 447 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic"  489 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -27 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 489 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -27 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni045D
@@ -62697,7 +62697,7 @@ Layer: 2
 Refer: 700 63188 N 1 0 0 1 50.7812 0 2
 Refer: 433 1091 N 1 0 0 1 0 0 2
 Validated: 32769
-Kerns2: 511 -81 "'kern' Pairwise Kerning for Cyrillic"  638 -94 "'kern' Pairwise Kerning for Cyrillic"  414 -81 "'kern' Pairwise Kerning for Cyrillic"  425 -81 "'kern' Pairwise Kerning for Cyrillic"  418 -94 "'kern' Pairwise Kerning for Cyrillic"  434 -79 "'kern' Pairwise Kerning for Cyrillic"  421 -25 "'kern' Pairwise Kerning for Cyrillic"  481 -87 "'kern' Pairwise Kerning for Cyrillic"  430 -39 "'kern' Pairwise Kerning for Cyrillic"  426 -70 "'kern' Pairwise Kerning for Cyrillic"  450 -41 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  431 -29 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  428 -37 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 638 -94 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  481 -87 "'kern' Pairwise Kerning for Cyrillic"  450 -41 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  434 -79 "'kern' Pairwise Kerning for Cyrillic"  431 -29 "'kern' Pairwise Kerning for Cyrillic"  430 -39 "'kern' Pairwise Kerning for Cyrillic"  428 -37 "'kern' Pairwise Kerning for Cyrillic"  426 -70 "'kern' Pairwise Kerning for Cyrillic"  425 -81 "'kern' Pairwise Kerning for Cyrillic"  421 -25 "'kern' Pairwise Kerning for Cyrillic"  418 -94 "'kern' Pairwise Kerning for Cyrillic"  511 -81 "'kern' Pairwise Kerning for Cyrillic"  414 -81 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10193
@@ -63984,7 +63984,7 @@ SplineSet
  358.398 43.9453 l 2,66,67
 EndSplineSet
 Validated: 19457
-Kerns2: 431 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -18 "'kern' Pairwise Kerning for Cyrillic"  432 -52 "'kern' Pairwise Kerning for Cyrillic"  820 -36 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -36 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -52 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -18 "'kern' Pairwise Kerning for Cyrillic" 
 Substitution2: "'ss13' Cyrillic Yat with a Long Back Beak-1" afii10194.anchor
 Substitution2: "Low Variants for Accents-1" afii10194.low
 EndChar
@@ -65295,7 +65295,7 @@ SplineSet
  212.891 249.512 212.891 249.512 212.891 241.211 c 0,61,62
 EndSplineSet
 Validated: 19457
-Kerns2: 460 -21 "'kern' Pairwise Kerning for Cyrillic"  820 -37 "'kern' Pairwise Kerning for Cyrillic"  437 -31 "'kern' Pairwise Kerning for Cyrillic"  430 -7 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -58 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -37 "'kern' Pairwise Kerning for Cyrillic"  437 -31 "'kern' Pairwise Kerning for Cyrillic"  460 -21 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -58 "'kern' Pairwise Kerning for Cyrillic"  430 -7 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni0468
@@ -66181,7 +66181,7 @@ SplineSet
  102.051 -4.88281 102.051 -4.88281 74.2188 0 c 1,19,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 460 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -58 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic"  430 -7 "'kern' Pairwise Kerning for Cyrillic"  437 -31 "'kern' Pairwise Kerning for Cyrillic"  820 -37 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -37 "'kern' Pairwise Kerning for Cyrillic"  437 -31 "'kern' Pairwise Kerning for Cyrillic"  460 -21 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -58 "'kern' Pairwise Kerning for Cyrillic"  430 -7 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni046A
@@ -66610,7 +66610,7 @@ SplineSet
  291.992 664.062 291.992 664.062 291.992 649.902 c 0,54,55
 EndSplineSet
 Validated: 19457
-Kerns2: 435 -31 "'kern' Pairwise Kerning for Cyrillic"  538 -50 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 538 -50 "'kern' Pairwise Kerning for Cyrillic"  435 -31 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni046B
@@ -66905,7 +66905,7 @@ SplineSet
  246.582 432.617 246.582 432.617 246.582 423.34 c 0,66,67
 EndSplineSet
 Validated: 19457
-Kerns2: 446 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic"  820 -27 "'kern' Pairwise Kerning for Cyrillic"  432 -36 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -27 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -36 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni046C
@@ -67809,7 +67809,7 @@ SplineSet
  465.332 432.617 465.332 432.617 465.332 423.34 c 0,80,81
 EndSplineSet
 Validated: 19457
-Kerns2: 446 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 437 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -21 "'kern' Pairwise Kerning for Cyrillic"  447 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -21 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni046E
@@ -70061,7 +70061,7 @@ SplineSet
  212.891 224.121 212.891 224.121 212.891 168.945 c 128,-1,58
 EndSplineSet
 Validated: 19457
-Kerns2: 812 -79 "'kern' Pairwise Kerning for Cyrillic"  624 -79 "'kern' Pairwise Kerning for Cyrillic"  460 -68 "'kern' Pairwise Kerning for Cyrillic"  447 -50 "'kern' Pairwise Kerning for Cyrillic"  446 -50 "'kern' Pairwise Kerning for Cyrillic"  485 -68 "'kern' Pairwise Kerning for Cyrillic"  428 -69 "'kern' Pairwise Kerning for Cyrillic"  433 -68 "'kern' Pairwise Kerning for Cyrillic"  483 -68 "'kern' Pairwise Kerning for Cyrillic"  419 -50 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 812 -30 "'kern' Pairwise Kerning for Cyrillic"  624 -30 "'kern' Pairwise Kerning for Cyrillic"  485 -30 "'kern' Pairwise Kerning for Cyrillic"  483 -30 "'kern' Pairwise Kerning for Cyrillic"  460 -30 "'kern' Pairwise Kerning for Cyrillic"  433 -30 "'kern' Pairwise Kerning for Cyrillic"  428 -20 "'kern' Pairwise Kerning for Cyrillic"  446 -20 "'kern' Pairwise Kerning for Cyrillic"  447 -20 "'kern' Pairwise Kerning for Cyrillic"  419 -20 "'kern' Pairwise Kerning for Cyrillic" 
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA672 dx=240 dy=55 dh=148 dv=0 dx=0 dy=0 dh=332 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA671 dx=170 dy=55 dh=78 dv=0 dx=0 dy=0 dh=262 dv=0
 PairPos2: "'kern' Positioning for Enclosing Combining Marks-1" uniA670 dx=278 dy=55 dh=187 dv=0 dx=0 dy=0 dh=370 dv=0
@@ -70714,7 +70714,7 @@ SplineSet
  23.4375 443.359 23.4375 443.359 23.4375 447.754 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 511 -70 "'kern' Pairwise Kerning for Cyrillic"  414 -70 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  418 -105 "'kern' Pairwise Kerning for Cyrillic"  428 -33 "'kern' Pairwise Kerning for Cyrillic"  425 -86 "'kern' Pairwise Kerning for Cyrillic"  481 -108 "'kern' Pairwise Kerning for Cyrillic"  426 -74 "'kern' Pairwise Kerning for Cyrillic"  430 -38 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 481 -108 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  430 -38 "'kern' Pairwise Kerning for Cyrillic"  428 -33 "'kern' Pairwise Kerning for Cyrillic"  426 -74 "'kern' Pairwise Kerning for Cyrillic"  425 -86 "'kern' Pairwise Kerning for Cyrillic"  418 -105 "'kern' Pairwise Kerning for Cyrillic"  511 -70 "'kern' Pairwise Kerning for Cyrillic"  414 -70 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni0476
@@ -70748,7 +70748,7 @@ Layer: 2
 Refer: 702 63190 N 1 0 0 1 50.7812 0 2
 Refer: 483 1141 N 1 0 0 1 0 0 3
 Validated: 32769
-Kerns2: 511 -70 "'kern' Pairwise Kerning for Cyrillic"  414 -70 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  418 -105 "'kern' Pairwise Kerning for Cyrillic"  426 -74 "'kern' Pairwise Kerning for Cyrillic"  481 -108 "'kern' Pairwise Kerning for Cyrillic"  425 -86 "'kern' Pairwise Kerning for Cyrillic"  428 -33 "'kern' Pairwise Kerning for Cyrillic"  430 -38 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 481 -108 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  430 -38 "'kern' Pairwise Kerning for Cyrillic"  428 -33 "'kern' Pairwise Kerning for Cyrillic"  426 -74 "'kern' Pairwise Kerning for Cyrillic"  425 -86 "'kern' Pairwise Kerning for Cyrillic"  418 -105 "'kern' Pairwise Kerning for Cyrillic"  511 -70 "'kern' Pairwise Kerning for Cyrillic"  414 -70 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni0478
@@ -70771,7 +70771,7 @@ Layer: 2
 Refer: 433 1091 N 1 0 0 1 668.945 0 2
 Refer: 396 1054 N 1 0 0 1 0 0 2
 Validated: 32769
-Kerns2: 511 -81 "'kern' Pairwise Kerning for Cyrillic"  638 -94 "'kern' Pairwise Kerning for Cyrillic"  414 -81 "'kern' Pairwise Kerning for Cyrillic"  434 -79 "'kern' Pairwise Kerning for Cyrillic"  421 -25 "'kern' Pairwise Kerning for Cyrillic"  481 -87 "'kern' Pairwise Kerning for Cyrillic"  430 -39 "'kern' Pairwise Kerning for Cyrillic"  450 -41 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  431 -29 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  428 -37 "'kern' Pairwise Kerning for Cyrillic"  418 -94 "'kern' Pairwise Kerning for Cyrillic"  425 -81 "'kern' Pairwise Kerning for Cyrillic"  426 -70 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 638 -94 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  481 -87 "'kern' Pairwise Kerning for Cyrillic"  450 -41 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  434 -79 "'kern' Pairwise Kerning for Cyrillic"  431 -29 "'kern' Pairwise Kerning for Cyrillic"  430 -39 "'kern' Pairwise Kerning for Cyrillic"  428 -37 "'kern' Pairwise Kerning for Cyrillic"  426 -70 "'kern' Pairwise Kerning for Cyrillic"  425 -81 "'kern' Pairwise Kerning for Cyrillic"  421 -25 "'kern' Pairwise Kerning for Cyrillic"  418 -94 "'kern' Pairwise Kerning for Cyrillic"  511 -81 "'kern' Pairwise Kerning for Cyrillic"  414 -81 "'kern' Pairwise Kerning for Cyrillic" 
 AlternateSubs2: "'salt' Stylistic Alternatives for Old Cyrillic-1" uni0478.cap
 EndChar
 
@@ -70795,7 +70795,7 @@ Layer: 2
 Refer: 433 1091 N 1 0 0 1 282.227 0 2
 Refer: 817 7298 N 1 0 0 1 0 0 2
 Validated: 32769
-Kerns2: 511 -81 "'kern' Pairwise Kerning for Cyrillic"  638 -94 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  428 -37 "'kern' Pairwise Kerning for Cyrillic"  425 -81 "'kern' Pairwise Kerning for Cyrillic"  426 -70 "'kern' Pairwise Kerning for Cyrillic"  418 -94 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  431 -29 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  450 -51 "'kern' Pairwise Kerning for Cyrillic"  430 -39 "'kern' Pairwise Kerning for Cyrillic"  481 -87 "'kern' Pairwise Kerning for Cyrillic"  421 -25 "'kern' Pairwise Kerning for Cyrillic"  434 -79 "'kern' Pairwise Kerning for Cyrillic"  414 -81 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 638 -94 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  481 -87 "'kern' Pairwise Kerning for Cyrillic"  450 -51 "'kern' Pairwise Kerning for Cyrillic"  445 -14 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  434 -79 "'kern' Pairwise Kerning for Cyrillic"  431 -29 "'kern' Pairwise Kerning for Cyrillic"  430 -39 "'kern' Pairwise Kerning for Cyrillic"  428 -37 "'kern' Pairwise Kerning for Cyrillic"  426 -70 "'kern' Pairwise Kerning for Cyrillic"  425 -81 "'kern' Pairwise Kerning for Cyrillic"  421 -25 "'kern' Pairwise Kerning for Cyrillic"  418 -94 "'kern' Pairwise Kerning for Cyrillic"  511 -81 "'kern' Pairwise Kerning for Cyrillic"  414 -81 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni047A
@@ -71242,7 +71242,7 @@ SplineSet
  158.203 413.574 158.203 413.574 158.203 230.957 c 128,-1,33
 EndSplineSet
 Validated: 19457
-Kerns2: 432 -30 "'kern' Pairwise Kerning for Cyrillic"  435 -16 "'kern' Pairwise Kerning for Cyrillic"  426 -23 "'kern' Pairwise Kerning for Cyrillic"  425 -27 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 435 -16 "'kern' Pairwise Kerning for Cyrillic"  432 -30 "'kern' Pairwise Kerning for Cyrillic"  426 -23 "'kern' Pairwise Kerning for Cyrillic"  425 -27 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni047C
@@ -75970,7 +75970,7 @@ SplineSet
  102.051 -4.88281 102.051 -4.88281 74.2188 0 c 1,0,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 511 -80 "'kern' Pairwise Kerning for Cyrillic"  428 -36 "'kern' Pairwise Kerning for Cyrillic"  425 -87 "'kern' Pairwise Kerning for Cyrillic"  418 -87 "'kern' Pairwise Kerning for Cyrillic"  414 -80 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 428 -36 "'kern' Pairwise Kerning for Cyrillic"  425 -87 "'kern' Pairwise Kerning for Cyrillic"  418 -87 "'kern' Pairwise Kerning for Cyrillic"  511 -80 "'kern' Pairwise Kerning for Cyrillic"  414 -80 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni04A4
@@ -76487,7 +76487,7 @@ SplineSet
  102.051 -4.88281 102.051 -4.88281 74.2188 0 c 1,0,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 447 -18 "'kern' Pairwise Kerning for Cyrillic"  446 -18 "'kern' Pairwise Kerning for Cyrillic"  638 -94 "'kern' Pairwise Kerning for Cyrillic"  419 -18 "'kern' Pairwise Kerning for Cyrillic"  450 -31 "'kern' Pairwise Kerning for Cyrillic"  430 -47 "'kern' Pairwise Kerning for Cyrillic"  421 -21 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  418 -86 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  425 -79 "'kern' Pairwise Kerning for Cyrillic"  473 -30 "'kern' Pairwise Kerning for Cyrillic"  414 -62 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  426 -64 "'kern' Pairwise Kerning for Cyrillic"  434 -87 "'kern' Pairwise Kerning for Cyrillic"  489 -14 "'kern' Pairwise Kerning for Cyrillic"  511 -62 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 638 -94 "'kern' Pairwise Kerning for Cyrillic"  489 -14 "'kern' Pairwise Kerning for Cyrillic"  473 -30 "'kern' Pairwise Kerning for Cyrillic"  469 -94 "'kern' Pairwise Kerning for Cyrillic"  450 -31 "'kern' Pairwise Kerning for Cyrillic"  443 -45 "'kern' Pairwise Kerning for Cyrillic"  434 -87 "'kern' Pairwise Kerning for Cyrillic"  431 -27 "'kern' Pairwise Kerning for Cyrillic"  430 -47 "'kern' Pairwise Kerning for Cyrillic"  428 -21 "'kern' Pairwise Kerning for Cyrillic"  426 -64 "'kern' Pairwise Kerning for Cyrillic"  425 -79 "'kern' Pairwise Kerning for Cyrillic"  421 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -18 "'kern' Pairwise Kerning for Cyrillic"  447 -18 "'kern' Pairwise Kerning for Cyrillic"  419 -18 "'kern' Pairwise Kerning for Cyrillic"  418 -86 "'kern' Pairwise Kerning for Cyrillic"  511 -62 "'kern' Pairwise Kerning for Cyrillic"  414 -62 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni04C1
@@ -76522,7 +76522,7 @@ Layer: 2
 Refer: 700 63188 N 1 0 0 1 162.109 0 2
 Refer: 420 1078 N 1 0 0 1 0 0 3
 Validated: 32769
-Kerns2: 419 -14 "'kern' Pairwise Kerning for Cyrillic"  446 -14 "'kern' Pairwise Kerning for Cyrillic"  447 -14 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 446 -14 "'kern' Pairwise Kerning for Cyrillic"  447 -14 "'kern' Pairwise Kerning for Cyrillic"  419 -14 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni04D0
@@ -76558,7 +76558,7 @@ Layer: 2
 Refer: 700 63188 N 1 0 0 1 44.9219 0 2
 Refer: 414 1072 N 1 0 0 1 0 0 3
 Validated: 32769
-Kerns2: 432 -31 "'kern' Pairwise Kerning for Cyrillic"  433 -7 "'kern' Pairwise Kerning for Cyrillic"  437 -14 "'kern' Pairwise Kerning for Cyrillic"  430 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -16 "'kern' Pairwise Kerning for Cyrillic"  431 -7 "'kern' Pairwise Kerning for Cyrillic"  435 -23 "'kern' Pairwise Kerning for Cyrillic"  446 -16 "'kern' Pairwise Kerning for Cyrillic"  447 -16 "'kern' Pairwise Kerning for Cyrillic"  460 -7 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 437 -14 "'kern' Pairwise Kerning for Cyrillic"  435 -23 "'kern' Pairwise Kerning for Cyrillic"  460 -7 "'kern' Pairwise Kerning for Cyrillic"  433 -7 "'kern' Pairwise Kerning for Cyrillic"  432 -31 "'kern' Pairwise Kerning for Cyrillic"  431 -7 "'kern' Pairwise Kerning for Cyrillic"  430 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -16 "'kern' Pairwise Kerning for Cyrillic"  447 -16 "'kern' Pairwise Kerning for Cyrillic"  419 -16 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni0510
@@ -77696,7 +77696,7 @@ Layer: 2
 Refer: 534 8216 N 1 0 0 1 185.547 0 2
 Refer: 534 8216 N 1 0 0 1 0 0 2
 Validated: 32769
-Kerns2: 389 -81 "'kern' Pairwise Kerning for Cyrillic"  411 -72 "'kern' Pairwise Kerning for Cyrillic"  472 -72 "'kern' Pairwise Kerning for Cyrillic"  386 -130 "'kern' Pairwise Kerning for Cyrillic"  394 -111 "'kern' Pairwise Kerning for Cyrillic"  393 -123 "'kern' Pairwise Kerning for Cyrillic"  382 -50 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 472 -72 "'kern' Pairwise Kerning for Cyrillic"  411 -72 "'kern' Pairwise Kerning for Cyrillic"  394 -111 "'kern' Pairwise Kerning for Cyrillic"  393 -123 "'kern' Pairwise Kerning for Cyrillic"  389 -81 "'kern' Pairwise Kerning for Cyrillic"  386 -130 "'kern' Pairwise Kerning for Cyrillic"  382 -50 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: quotedblright
@@ -91001,7 +91001,7 @@ SplineSet
  56.6406 4.39453 56.6406 4.39453 56.6406 8.78906 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 393 -43 "'kern' Pairwise Kerning for Cyrillic"  394 -43 "'kern' Pairwise Kerning for Cyrillic"  382 -36 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 394 -43 "'kern' Pairwise Kerning for Cyrillic"  393 -43 "'kern' Pairwise Kerning for Cyrillic"  382 -36 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA641
@@ -94658,7 +94658,7 @@ SplineSet
  35.1562 162.598 35.1562 162.598 35.1562 205.078 c 0,0,1
 EndSplineSet
 Validated: 19457
-Kerns2: 425 -18 "'kern' Pairwise Kerning for Cyrillic"  432 -23 "'kern' Pairwise Kerning for Cyrillic"  435 -16 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 435 -16 "'kern' Pairwise Kerning for Cyrillic"  432 -23 "'kern' Pairwise Kerning for Cyrillic"  425 -18 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA64E
@@ -95240,7 +95240,7 @@ SplineSet
  284.18 43.9453 l 2,43,44
 EndSplineSet
 Validated: 19457
-Kerns2: 431 -21 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  419 -33 "'kern' Pairwise Kerning for Cyrillic"  432 -72 "'kern' Pairwise Kerning for Cyrillic"  820 -79 "'kern' Pairwise Kerning for Cyrillic"  433 -58 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  446 -33 "'kern' Pairwise Kerning for Cyrillic"  447 -33 "'kern' Pairwise Kerning for Cyrillic"  460 -58 "'kern' Pairwise Kerning for Cyrillic"  811 -72 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 811 -72 "'kern' Pairwise Kerning for Cyrillic"  465 -72 "'kern' Pairwise Kerning for Cyrillic"  820 -79 "'kern' Pairwise Kerning for Cyrillic"  437 -52 "'kern' Pairwise Kerning for Cyrillic"  460 -58 "'kern' Pairwise Kerning for Cyrillic"  433 -58 "'kern' Pairwise Kerning for Cyrillic"  432 -72 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -33 "'kern' Pairwise Kerning for Cyrillic"  447 -33 "'kern' Pairwise Kerning for Cyrillic"  419 -33 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA650
@@ -96014,7 +96014,7 @@ SplineSet
  543.945 43.9453 l 2,83,84
 EndSplineSet
 Validated: 19457
-Kerns2: 437 -21 "'kern' Pairwise Kerning for Cyrillic"  820 -36 "'kern' Pairwise Kerning for Cyrillic"  432 -52 "'kern' Pairwise Kerning for Cyrillic"  428 -18 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -36 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -52 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -18 "'kern' Pairwise Kerning for Cyrillic" 
 Substitution2: "Low Variants for Accents-1" uniA653.low
 EndChar
 
@@ -97303,7 +97303,7 @@ SplineSet
  370.117 171.875 370.117 171.875 370.117 108.398 c 0,50,51
 EndSplineSet
 Validated: 19457
-Kerns2: 432 -31 "'kern' Pairwise Kerning for Cyrillic"  433 -7 "'kern' Pairwise Kerning for Cyrillic"  437 -14 "'kern' Pairwise Kerning for Cyrillic"  430 -21 "'kern' Pairwise Kerning for Cyrillic"  419 -16 "'kern' Pairwise Kerning for Cyrillic"  431 -7 "'kern' Pairwise Kerning for Cyrillic"  435 -23 "'kern' Pairwise Kerning for Cyrillic"  446 -16 "'kern' Pairwise Kerning for Cyrillic"  447 -16 "'kern' Pairwise Kerning for Cyrillic"  460 -7 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 437 -14 "'kern' Pairwise Kerning for Cyrillic"  435 -23 "'kern' Pairwise Kerning for Cyrillic"  460 -7 "'kern' Pairwise Kerning for Cyrillic"  433 -7 "'kern' Pairwise Kerning for Cyrillic"  432 -31 "'kern' Pairwise Kerning for Cyrillic"  431 -7 "'kern' Pairwise Kerning for Cyrillic"  430 -21 "'kern' Pairwise Kerning for Cyrillic"  446 -16 "'kern' Pairwise Kerning for Cyrillic"  447 -16 "'kern' Pairwise Kerning for Cyrillic"  419 -16 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA658
@@ -97881,7 +97881,7 @@ SplineSet
  147.461 128.418 147.461 128.418 147.461 59.082 c 0,52,53
 EndSplineSet
 Validated: 19457
-Kerns2: 460 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -58 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic"  430 -7 "'kern' Pairwise Kerning for Cyrillic"  437 -31 "'kern' Pairwise Kerning for Cyrillic"  820 -37 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -37 "'kern' Pairwise Kerning for Cyrillic"  437 -31 "'kern' Pairwise Kerning for Cyrillic"  460 -21 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -58 "'kern' Pairwise Kerning for Cyrillic"  430 -7 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA65A
@@ -99272,7 +99272,7 @@ SplineSet
  102.051 -4.88281 102.051 -4.88281 74.2188 0 c 1,34,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 460 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -58 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic"  430 -7 "'kern' Pairwise Kerning for Cyrillic"  437 -31 "'kern' Pairwise Kerning for Cyrillic"  820 -37 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -37 "'kern' Pairwise Kerning for Cyrillic"  437 -31 "'kern' Pairwise Kerning for Cyrillic"  460 -21 "'kern' Pairwise Kerning for Cyrillic"  433 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -58 "'kern' Pairwise Kerning for Cyrillic"  430 -7 "'kern' Pairwise Kerning for Cyrillic"  428 -14 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA65E
@@ -112569,7 +112569,7 @@ StartChar: Acute
 Encoding: 63177 63177 691
 Width: 429
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: 762 190
 VStem: 165 241
 TtInstrs:
@@ -117252,9 +117252,9 @@ StartChar: .notdef
 Encoding: 1114112 -1 711
 Width: 570
 VWidth: 1014
-Flags: HW
-HStem: 0 60<112 458> 653 60<112 458>
-VStem: 47 62<62 651> 461 62<62 651>
+Flags: W
+HStem: 0 60<111.733 458.267> 653 60<111.733 458.267>
+VStem: 47 62<62.5781 650.422> 461 62<62.5781 650.422>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
@@ -123971,7 +123971,7 @@ SplineSet
  358.398 43.9453 l 2,65,66
 EndSplineSet
 Validated: 19457
-Kerns2: 431 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -18 "'kern' Pairwise Kerning for Cyrillic"  432 -52 "'kern' Pairwise Kerning for Cyrillic"  820 -36 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -36 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -52 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -18 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA64B.low
@@ -124560,7 +124560,7 @@ SplineSet
  543.945 43.9453 l 2,82,83
 EndSplineSet
 Validated: 19457
-Kerns2: 431 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -18 "'kern' Pairwise Kerning for Cyrillic"  432 -52 "'kern' Pairwise Kerning for Cyrillic"  820 -36 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 820 -36 "'kern' Pairwise Kerning for Cyrillic"  437 -21 "'kern' Pairwise Kerning for Cyrillic"  432 -52 "'kern' Pairwise Kerning for Cyrillic"  431 -21 "'kern' Pairwise Kerning for Cyrillic"  428 -18 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: afii10194.lowanchor
@@ -125530,7 +125530,7 @@ SplineSet
  118.652 338.867 118.652 338.867 94.4824 306.641 c 128,-1,13
 EndSplineSet
 Validated: 19457
-Kerns2: 509 -14 "'kern' Pairwise Kerning for Cyrillic"  426 -7 "'kern' Pairwise Kerning for Cyrillic"  425 -20 "'kern' Pairwise Kerning for Cyrillic"  418 -36 "'kern' Pairwise Kerning for Cyrillic"  420 -14 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 426 -7 "'kern' Pairwise Kerning for Cyrillic"  425 -20 "'kern' Pairwise Kerning for Cyrillic"  509 -14 "'kern' Pairwise Kerning for Cyrillic"  420 -14 "'kern' Pairwise Kerning for Cyrillic"  418 -36 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uni0487.narrow
@@ -126037,7 +126037,7 @@ SplineSet
  42.9688 208.984 42.9688 208.984 42.9688 344.238 c 2,0,-1
 EndSplineSet
 Validated: 19457
-Kerns2: 418 -53 "'kern' Pairwise Kerning for Cyrillic"  426 -29 "'kern' Pairwise Kerning for Cyrillic"  425 -36 "'kern' Pairwise Kerning for Cyrillic"  428 -7 "'kern' Pairwise Kerning for Cyrillic" 
+Kerns2: 428 -7 "'kern' Pairwise Kerning for Cyrillic"  426 -29 "'kern' Pairwise Kerning for Cyrillic"  425 -36 "'kern' Pairwise Kerning for Cyrillic"  418 -53 "'kern' Pairwise Kerning for Cyrillic" 
 EndChar
 
 StartChar: uniA641.short
@@ -129083,7 +129083,7 @@ SplineSet
  116 62 l 2
  116 44 119 37 130 22 c 1
  151 -2 189 -13 205 -13 c 0
- 211 -13 225 -13 225 -13 c 0
+ 225 -13 l 0
  285 -13 320 46 320 106 c 0xf4
  320 151 283 201 241 201 c 0
  236 201 228 202 218 202 c 0
