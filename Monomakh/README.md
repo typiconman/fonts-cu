@@ -1,9 +1,11 @@
 Monomakh Unicode font for Old Cyrillic
 ================================
 
-Monomakh Unicode is based on Monomachus. Used with permission.
+Monomakh Unicode is based on
+[Monomachus by A. Kryukov](https://github.com/akryukov/monomachus/).
+Used with permission.
 
-Monomachus is a Cyrillic font implemented in a mixed ustav/poluustav
+Monomakh Unicode is a Cyrillic font implemented in a mixed ustav/poluustav
 style and intended to cover needs of researches dealing with Slavic
 history and philology. It includes all historical Cyrillic characters
 currently defined in the Unicode standard and, unlike most other Old
