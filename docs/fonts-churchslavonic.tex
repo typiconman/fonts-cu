@@ -24,9 +24,9 @@
 \usepackage{churchslavonic}
 \usepackage{lettrine}
 
-%% KEYBOARD DRIVER VERSION AND RELEASE DATES
-\def\filedate{November 4, 2016}
-\def\fileversion{version 1.1}
+%% DOCUMENTATION VERSION AND RELEASE DATES
+\def\filedate{April 17, 2017}
+\def\fileversion{version 1.2}
 
 %% fontspec declarations:
 \setmainfont[Ligatures = TeX]{Linux Libertine O}
@@ -174,23 +174,28 @@ if Graphite support is desired. The following considerations are also in order:
 
 \begin{itemize}
 
-\item In older versions of OpenOffice.org, OpenType-CFF fonts 
-were not properly embedded into PDF files. Moreover, under Unix-based
-systems, OpenOffice.org could not access such fonts at all, so using TTF
-versions was the only option. This was fixed in OpenOffice.org 3.2 and LibreOffice.
+% The information about versions before OpenOffice.org 3.2 is outdated
+% and no longer viewed as relevant
+%\item In older versions of OpenOffice.org, OpenType-CFF fonts 
+%were not properly embedded into PDF files. Moreover, under Unix-based
+%systems, OpenOffice.org could not access such fonts at all, so using TTF
+%versions was the only option. This was fixed in OpenOffice.org 3.2 and LibreOffice.
 
-\item OpenOffice.org and LibreOffice, however, still have no mechanism to 
-turn off and on advanced OpenType features, so if you plan to use optional typographic
-features, you will need to use SIL Graphite, which is only available in the TTF version.
+\item OpenOffice.org and older versions of LibreOffice had no mechanism to 
+turn off and on advanced OpenType features, so if you needed to use optional typographic
+features in these applications, you had to use SIL Graphite, which is only available
+in the TTF version. This limitation has been fixed as of LibreOffice 5.3, which now
+has \href{https://wiki.documentfoundation.org/ReleaseNotes/5.3}{full OpenType support}.
 
 \item OpenType-CFF fonts are poorly supported in the Sun Java Development Kit,
 so we recommend use of the TTF versions in Java programming situations and
 on Android devices.
 
 \item On Microsoft Windows, OpenType glyph positioning is not supported for glyphs
-in the Private Use Area or characters outside of the Unicode 7.0 range. You will 
-need to rely on \hyperlink{Graphite}{SIL Graphite} (only available in the TTF versions)
-for positioning of combining Glagolitic characters and various glyphs in the PUA.
+in the Private Use Area or characters outside of the Unicode 7.0 range. This limitation
+has been resolved in LibreOffice (beginning with version 5.3). In earlier versions
+of LibreOffice, you needed to rely on \hyperlink{Graphite}{SIL Graphite}
+(only available in the TTF versions) for positioning of combining Glagolitic characters.
 
 \end{itemize}
 
@@ -231,7 +236,7 @@ you will need a Unicode-aware \TeX{} engine, such as
 You will also need a way to enter the Unicode characters that are not
 directly accessible from standard keyboards. We recommend
 installing a Church Slavonic or Russian-Extended keyboard layout, 
-available from the \href{http://www.ponomar.net/cu_support/keyboard.html}
+available from the \href{http://sci.ponomar.net/keyboard.html}
 {Slavonic Computing Initiative website}. It is also possible to enter
 characters using the Windows Character Map utility or by codepoint,
 but this is not recommended.
@@ -249,7 +254,7 @@ you will need a Unicode-aware \TeX{} engine, such as
 \XeTeX{} or \LuaTeX.
 
 You will need a keyboard driver to input Unicode characters.
-Under GNU/Linux, this is handled by the |m17n| library and database. See the \href{http://www.ponomar.net/cu_support/keyboard.html}
+Under GNU/Linux, this is handled by the |m17n| library and database. See the \href{http://sci.ponomar.net/keyboard.html}
 {Slavonic Computing Initiative website} for more details.
 
 \subsection{OS X}
@@ -319,20 +324,19 @@ using the \texttt{fontspec} package or using advanced desktop publishing softwar
 such as Adobe InDesign. Most OpenType features are also accessible
 in Microsoft Office 2010 and later (but see below for details).
 LibreOffice also supports OpenType features starting with version 4.1,
-however provides no method to turn on optional features. Please
-see the section on \hyperlink{Graphite}{SIL Graphite}, below.
+and support for turning off and on optional features was added in version 5.3.
 
 \subsection{On GNU/Linux}
 
 OpenType support is provided by the HarfBuzz shaping library, which is 
 accessible through FreeType, part of most standard distributions of the X Window
 System. Thus, OpenType will be available in any application that uses FreeType,
-though many applications lack an interface to turn on and off optional features.
+though some applications lack an interface to turn on and off optional features.
 Generally speaking, you will get best results in \XeTeX{} or \LuaTeX{}
 using the \texttt{fontspec} package. LibreOffice also supports
-OpenType features starting with version 4.1,
-however provides no method to turn on optional features. Please
-see the section on \hyperlink{Graphite}{SIL Graphite}, below.
+OpenType features starting with version 4.1, and support for
+turning off and on optional features was added in version 5.3. Please see the section
+\hyperlink{Graphite}{Support of Advanced Features in LibreOffice}, below.
 
 \subsection{OpenType Features}
 
@@ -416,7 +420,7 @@ Church Slavonic appearances unless another language is specified.
 LibreOffice allows you to specify that text is in Church Slavonic
 starting with version 5.0. This will allow you to take advantage of other
 features, such as Church Slavonic hyphenation (see the
-\href{http://sci.ponomar.net/}{Slavonic Computing Initiative website}
+\href{http://sci.ponomar.net/tools.html}{Slavonic Computing Initiative website}
 for more information). Microsoft Corporation does not recognize
 Church Slavonic as a valid language, so you will not be able to set 
 the language of text to Church Slavonic in any Microsoft
@@ -450,11 +454,13 @@ sets, marking them features \texttt{ss01}, \texttt{ss02}, \ldots{} \texttt{ss20}
 Use of Stylistic Alternatives and Stylistic Sets requires an OpenType-aware
 application that provides an interface to turn off and on advanced features
 (since by default these features are turned off). This is possible in \XeTeX{}
-or \LuaTeX{} using the \texttt{fontspec} package and in advanced desktop
-publishing software such as Adobe InDesign. Microsoft Office and LibreOffice
-currently have no way to access Stylistic Alternatives and Stylistic Sets.
+or \LuaTeX{} using the \texttt{fontspec} package and in LibreOffice
+(starting with version 5.3) by use of a special syntax that appends the needed
+option to the font name. See the section
+\hyperlink{Graphite}{Support of Advanced Features in LibreOffice}, below.
+Microsoft Office currently has no way to access Stylistic Alternatives and Stylistic Sets.
 If necessary, you may access these glyphs by codepoint from the Private
-Use Area, though this is not recommended.
+Use Area. However, relying on the PUA as a data exchange mechanism is discouraged.
 
 \section{SIL Graphite Technology}
 
@@ -471,48 +477,18 @@ Graphite relies on a single engine, and thus all Graphite features are supported
 whenever an application supports Graphite. However, Graphite is not supported widely:
 in addition to SIL's own \href{http://scripts.sil.org/WorldPadDownload}{WorldPad}
 editor (a Windows-only application that requires a .NET runtime), Graphite is
-supported in LibreOffice (starting with OpenOffice.org version 3.2), Mozilla Firefox (starting with
-version 11), and \XeTeX{} (starting with version 0.997). Graphite support is not
-available in Microsoft Office.
+supported in LibreOffice (on GNU/Linux and Windows, starting with
+OpenOffice.org version 3.2; on OS X, starting with LibreOffice version 5.3),
+Mozilla Firefox (starting with version 11), and \XeTeX{} (starting with version 0.997).
+Graphite support is not available in Microsoft Office.
 
 Note that it is currently not possible to add Graphite tables to OpenType-CFF fonts.
-Therefore Graphite is only supported in the TrueType versions of fonts. Mostly
-Graphite will be of interest to LibreOffice users, since LibreOffice does not provide
-any interface to turn off and on OpenType features.
+Therefore Graphite is only supported in the TrueType versions of fonts.
 
 \subsection{Graphite in LibreOffice}
 
-LibreOffice (and all OpenOffice.org derivatives starting with version 3.2)
-automatically recognizes fonts which contain Graphite tables.
-For such fonts Graphite rendering is enabled by default.
-Correct positioning, attachment and substitutions will work automatically.
-However, there is currently no graphical interface that can be used
-to turn additional features on and off. Instead, a special extended font name
-syntax has been developed: in order to activate an optional feature, its ID,
-followed by an equals sign and the ID of the desired setting, are appended
-directly to the font name string. An ampersand is used to separate
-different feature/settings pairs.
-
-For example, the following “font” should be used in order to get
-alternative glyphs for U+1F545 Symbol for Marks Chapter:
-
-\begin{verbatim}
-Ponomar Unicode TT:mark=1
-\end{verbatim}
-
-\noindent for the first alternate glyph, \texttt{mark=2} for the second alternate
-glyph, and so forth.
-
-Of course modifying the font name directly is very inconvenient, since
-it is difficult to remember short tags and numerical values used for
-feature/setting IDs in different fonts. You may try to
-install the \href{https://github.com/thanlwinsoft/groooext}
-{Graphite Font Extension}, which provides a dialog for easier feature selection.
-However, this extension has not been maintained since the passing of its
-developer in 2011, and so may not work correctly in later versions of LibreOffice.
-If you experience problems with Graphite features, you may get better
-results accessing glyphs directly by codepoint from the Private Use Area,
-though this is not recommended.
+See the section
+\hyperlink{Graphite}{Support of Advanced Features in LibreOffice}, below.
 
 \subsection{Graphite in \XeTeX}
 
@@ -536,6 +512,74 @@ passed to the \texttt{RawFeature} option as follows:
 \end{verbatim}
 
 \noindent Please consult the \texttt{fontspec} documentation for more information.
+
+\section{Support of Advanced Features in LibreOffice}
+\hypertarget{LO}{}\label{LO}
+
+Support for OpenType features is available in LibreOffice and all
+OpenOffice.org derivatives starting with version 3.2 of OpenOffice.org.
+In addition, LibreOffice (as well as other OpenOffice.org derivatives)
+automatically recognizes fonts which contain Graphite tables.
+For such fonts, Graphite rendering is enabled by default and the
+OpenType layout tables will be ignored. OpenType and SIL Graphite
+cannot be used simultaneously in LibreOffice, so if you do not want
+SIL Graphite layout, you should only use the OpenType-CFF versions of the fonts.
+
+While correct positioning, attachment and substitutions will work automatically both
+in the OpenType and SIL Graphite fonts, earlier versions of LibreOffice
+had no mechanism to turn off and on optional OpenType features. This
+functionality has become available starting with LibreOffice version 5.3.
+However, there is still no graphical interface that can be used
+to turn such optional features on and off. Instead, a special extended font name
+syntax has been developed: in order to activate an optional feature, its ID,
+followed by an equals sign and the ID of the desired setting, are appended
+directly to the font name string. An ampersand is used to separate
+different feature/settings pairs.
+
+For example, the following “font” should be used in order to enable
+the |mark| SIL Graphite feature and display
+alternative glyphs for U+1F545 Symbol for Marks Chapter:
+
+\begin{verbatim}
+Ponomar Unicode TT:mark=1
+\end{verbatim}
+
+\noindent for the first alternate glyph, \texttt{mark=2} for the second alternate
+glyph, and so forth.
+
+Beginning with LibreOffice version 5.3, the same syntax may be used also
+to turn off and on optional OpenType features, such as Stylistic Alternatives (|salt|)
+and Stylistic Sets (|ss01|, ...) in the OpenType-CFF versions of the fonts.
+For example, to turn on Stylistic Set 1 (|ss01|) in the
+font Ponomar Unicode, change the font name to the following:
+
+\begin{verbatim}
+Ponomar Unicode:ss01=1
+\end{verbatim}
+
+\noindent This feature is not available in Apache OpenOffice;
+since Apache OpenOffice is not well maintained, we suggest users migrate to LibreOffice.
+
+This functionality will be useful for LibreOffice users relying on automatic hyphenation.
+Since LibreOffice has
+\href{https://bugs.documentfoundation.org/show_bug.cgi?id=85731}
+{no mechanism to set the hyphenation character}, the Ponomar Unicode
+and Monomakh Unicode fonts provide the underscore as a hyphenation
+character via Stylistic Set 1 in OpenType and via the |hyph| feature in SIL Graphite.
+
+Of course modifying the font name directly is very inconvenient, since
+it is difficult to remember short tags and numerical values used for
+feature/setting IDs in different fonts. Unfortunately, there is presently no
+graphical interface to support turning off and on OpenType and SIL Graphite
+features.
+
+%You may try to install the \href{https://github.com/thanlwinsoft/groooext}
+%{Graphite Font Extension}, which provides a dialog for easier feature selection.
+%However, this extension has not been maintained since the passing of its
+%developer in 2011, and so may not work correctly in later versions of LibreOffice.
+%If you experience problems with Graphite features, you may get better
+%results accessing glyphs directly by codepoint from the Private Use Area,
+%though this is not recommended.
 
 \section{Ponomar Unicode}
 
@@ -685,7 +729,16 @@ U+A64B  & {\slv{\large ꙋ }}	& {\salt\large ꙋ} & {\salta\large ꙋ} & {\saltb
 \end{tabular}
 \end{table}
 
-\noindent There is also defined Stylistic Set 2 (``ss02''), Blackletter forms.
+Stylistic Set 1 (|ss01|) is provided as a temporary workaround to
+\href{https://bugs.documentfoundation.org/show_bug.cgi?id=85731}
+{LibreOffice Bug 85731}, which does not allow you to specify
+the hyphenation character in LibreOffice. When turned on, it
+replaces all instances of U+002D Hyphen-Minus and U+2010 Hyphen
+with U+005F Low Line (underscore) for use as a hyphenation
+character. Please note that this feature will be deprecated once
+the necessary functionality is added to LibreOffice.
+
+There is also defined Stylistic Set 2 (``ss02''), Blackletter forms.
 When this stylistic set is turned on, 
 Latin letters appear in blackletter as opposed to their modern forms.
 This is useful for setting Latin text side-by-side with Slavonic in
@@ -712,12 +765,9 @@ the blackletter forms, if necessary.
 \newfontfamily{\graph}[Renderer=Graphite]{Ponomar Unicode TT}
 
 The SIL Graphite features in the font provide the same functionality
-as the OpenType features. This is mostly of interest to users of
-LibreOffice, which lacks support for stylistic alternatives and 
-stylistic sets but can access Graphite features (see above).
-
-The ``Symbol for Mark's Chapter'' (``mark'') feature provides alternatives
-for the U+1F545 Symbol for Marks Chapter, much like the salt feature in OpenType. 
+as the OpenType features. The ``Symbol for Mark's Chapter'' (``mark'') feature
+provides alternatives for the U+1F545 Symbol for Marks Chapter,
+much like the salt feature in OpenType. 
 The following values produce the results given in Table~\ref{ponograph}.
 
 \newfontfamily{\graphA}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 1}]{Ponomar Unicode TT}
@@ -744,9 +794,8 @@ U+1F545	& {\graph{\large 🕅 }}	& {\graphA{\large 🕅}} & {\graphB{\large 🕅
 \end{tabular}
 \end{table}
 
-\noindent The following additional Graphite features are provided (with
-the exception of the ``hyph'' feature, they duplicate the functionality
-of OpenType features):
+\noindent The following additional Graphite features are provided 
+(they duplicate the functionality of OpenType features):
 
 \begin{itemize}
 \item The ``Truncation'' feature (``trnc'') provides the same functionality
@@ -767,13 +816,10 @@ provides a localized form of U+0456 Cyrillic I for use in Ukrainian
 text. Possible values are |0| (no) and |1| (yes).
 
 \item The ``Use underscore for hyphenation'' feature (``hyph'')
+provides the same functionality as Stylistic Set 1. It
 replaces all instances of U+002D Hyphen-Minus and U+2010 Hyphen
 with U+005F Low Line (underscore) for use as a hyphenation
-character. This is meant as a workaround to 
-\href{https://bugs.documentfoundation.org/show_bug.cgi?id=85731}
-{LibreOffice Bug 85731}, which does not allow you to specify
-the hyphenation character in LibreOffice.
-Possible values are |0| (no) and |1| (yes). Please note that this
+character. Possible values are |0| (no) and |1| (yes). Please note that this
 feature will be deprecated once the necessary functionality is 
 added to LibreOffice.
 \end{itemize}
@@ -788,7 +834,7 @@ Apostol of 1564. The font is intended primarily for typesetting pre-Nikonian (Ol
 liturgical texts or for working with such texts in an academic context.
 
 \subsection{Sample Texts}
-\newfontfamily{\right}[StylisticSet=1]{Fedorovsk Unicode}
+\newfontfamily{\right}[StylisticSet=1,HyphenChar="200B]{Fedorovsk Unicode}
 
 \subsubsection{Apostol of Ivan Fedorov}
 
@@ -1193,6 +1239,17 @@ as in the Romanian example below.
 The Monomakh font offers a number of optional OpenType features that may be turned on or off by the user, coupled with analagous features in SIL Graphite. These are:
 
 \begin{itemize}
+\item Stylistic Set 1 (\emph{ss01}) is provided as a temporary workaround to
+\href{https://bugs.documentfoundation.org/show_bug.cgi?id=85731}
+{LibreOffice Bug 85731}, which does not allow you to specify
+the hyphenation character in LibreOffice. When turned on, it
+replaces all instances of U+002D Hyphen-Minus and U+2010 Hyphen
+with U+005F Low Line (underscore) for use as a hyphenation
+character. The Graphite analog is provided by the feature 
+``Use underscore for hyphenation'' feature (\emph{hyph}),
+which takes values |0| (no) and |1| (yes). Please note that this
+feature will be deprecated once the necessary functionality is 
+added to LibreOffice.
 \item Stylistic Set 6 (\emph{ss06}) displays U+0456 Cyrillic Small Letter Ukrainian / Belorussian I with one dot above and Stylistic Set 7 (\emph{ss07}) displays the same character with two dots above. By default, U+0456 is displayed with no dots. The Graphite analog is provided by the feature Cyrillic Decimal I (\emph{deci}), which takes values 0 (default), 1 or 2, for the number of dots on U+0456.
 \item Stylistic Set 8 (\emph{ss08}) displays the characters U+0417 Cyrillic Capital Letter Ze and U+0437 Cyrillic Small Letter Ze as a ``sharp zemlya'', i.e., like the characters U+A640 Cyrillic Capital Letter Zemlya and U+A641 Cyrillic Small Letter Zemlya, respectively. In Graphite the same functionality is provided by the feature Cyrillic Zemlya (\emph{zeml}), which takes values \emph{Round} (0) and \emph{Sharp} (1). Generally, this change should be handled at the codepoint level, so the use of this feature is discouraged.
 \item Stylistic Set 9 (\emph{ss09}) displays the characters U+0427 Cyrillic Capital Letter Che and U+0447 Cyrillic Small Letter Che in their archaic form, with the descender in the middle (e.g., {\fontspec{Monomakh Unicode}[StylisticSet=9] ч} instead of {\glyphfont ч}). The same functionality is provided by the Graphite feature Cyrillic Cherv (\emph{chrv}), which takes values \emph{Modern (Single Sided)} (0) and \emph{Old (Double Sided)} (1).
@@ -1310,10 +1367,6 @@ consulted and partially reused.
 
 \item Mike Kroutikov, who put together the \TeX{} package of the fonts.
 \end{itemize}
-
-
-%% PLACE SAMPLE AND CODECHARTS HERE
-
 
 \end{document}
 
