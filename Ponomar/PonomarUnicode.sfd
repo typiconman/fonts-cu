@@ -3,7 +3,7 @@ FontName: PonomarUnicode
 FullName: Ponomar Unicode
 FamilyName: Ponomar Unicode
 Weight: Book
-Copyright: Copyright 2011-2016 Aleksandr Andreev, Yuri Shardt and Nikita Simmons.\n\nPreviously known as HirmosPonomar. This font is part of the Ponomar Project and is licensed under the same license as Ponomar itself or under the SIL Open Font License, at your choosing. See http://www.ponomar.net/ for details.
+Copyright: Copyright 2011-2017 Aleksandr Andreev, Yuri Shardt and Nikita Simmons.\n\nPreviously known as HirmosPonomar. This font is part of the Ponomar Project and is licensed under the same license as Ponomar itself or under the SIL Open Font License, at your choosing. See http://www.ponomar.net/ for details.
 FontLog: "Based on Hirmos UCS. Copyright (c) Vladislav V. Dorosh, Calmius Software, 2007-2008. All rights reserved. Used with permission.+AAoACgAK-Converted to Unicode 5.1 Yuri Shardt, as part of the Ponomar Project. +AAoACgAA-Additional characters, including the Typicon Symbols, added by Yuri Shardt in 2009 to 2011.+AAoACgAA-Additional help in correcting some of the characters was provided by Nikita Simmons in 2011, 2012.+AAoACgAA-Additional revisions by Aleksandr Andreev in 2012, including kerning support and other fine tuning.+AAoACgAA-Additional revisions by Nikita Simmons.+AAoACgAA-Renamed to Ponomar Unicode in 2015 and released." 
 Version: 1.2
 DefaultBaseFilename: PonomarUnicode
@@ -24,7 +24,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1478520065
+ModificationTime: 1492357759
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -68,6 +68,7 @@ Lookup: 6 0 0 "Short Form below Multiple Titlo Substitution"  {"Short Form below
 Lookup: 4 6 0 "'ccmp' Double Titlos"  {"'ccmp' Double Titlos-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "Cyrillic ZWJ-based Ligatures"  {"Cyrillic ZWJ-based Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'salt' Stylistic Alternatives"  {"'salt' Stylistic Alternatives-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Cyrillic Hyphenation Char"  {"'ss01' Cyrillic Hyphenation Char-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'BEL ' 'KAZ ' 'KHA ' 'KOP ' 'KOZ ' 'RSY ' 'UKR ' 'dflt' > 'geor' <'dflt' > 'latn' <'AFK ' 'DAN ' 'DEU ' 'ENG ' 'ESP ' 'FRA ' 'HUN ' 'IRI ' 'ITA ' 'NLD ' 'NOR ' 'PTG ' 'SVE ' 'dflt' > ) ]
 Lookup: 1 0 0 "'ss02' Latin Blackletter chars"  {"'ss02' Latin Blackletter chars-1"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'liga' Standard Ligatures in Latin lookup 20"  {"'liga' Standard Ligatures in Latin lookup 20-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 19"  {"'locl' Localized Forms in Latin lookup 19-1"  } ['locl' ('latn' <'AFK ' 'DAN ' 'DEU ' 'ENG ' 'ESP ' 'FRA ' 'HUN ' 'IRI ' 'ITA ' 'NLD ' 'NOR ' 'PTG ' 'SVE ' > ) ]
@@ -1257,7 +1258,7 @@ ShortTable: cvt  55
   5
 EndShort
 LangName: 1049 "Coyright 2011-2016 Aleksandr Andreev, Yuri Shardt and Nikita Simmons" "" "+BB4EMQRLBEcEPQRLBDkA" 
-LangName: 1033 "" "" "Regular" "PonomarUnicode2015:1" "" "1.2" "" "" "Ponomar Project" "Vladislav V. Dorosh, Yuri A.W. Shardt, Nikita Simmons, Aleksandr Andreev" "" "http://www.ponomar.net/" "http://www.ponomar.net/" "Copyright (c) 2011-2016, Aleksandr Andreev, Yuri Shardt, Nikita Simmons, (http://www.ponomar.net/),+AAoA-without Reserved Font Name.+AAoACgAA-This font is part of the Ponomar Project and is licensed under the same terms as Ponomar itself or under the terms of the SIL Open Font License, at your choosing.+AAoACgAA-Based off Hirmos UCS, (c) 2005 Vlad Dorosh. Updgraded to Unicode 5.1 by Yuri Shradt. Additional modifications by Nikita Simmons and Aleksandr Andreev.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Ponomar Unicode" "Regular" "Ponomar Unicode" "+BCUEQC3tBIcEQgQ+AwEEQQRK +BDIEPgRBBDoEQAQ1AwEEQQQ1 +BDgEhgQ3Az4A +BDwENQMBBEAEQgQyBEsERQRK, +BEEEPAQ1AwEEQARCBFYDCARO +BEEEPAQ1AwEEQARCBEwA +BD8EPgQ/BEAEMAMBBDIESgAA, +BDgEhgAA +BEGmSwMBBEkESwQ8BEoA +BDIEPgAA +BDMEQAQ+BDEEYwMBBEUESgAA +BDYEOAQyBD4DAQRCBEoA +BDQEMARABD4EMgQwAwEEMgRK." 
+LangName: 1033 "" "" "Regular" "PonomarUnicode2015:1" "" "1.2" "" "" "Ponomar Project" "Vladislav V. Dorosh, Yuri A.W. Shardt, Nikita Simmons, Aleksandr Andreev" "" "http://www.ponomar.net/" "http://www.ponomar.net/" "Copyright (c) 2011-2017, Aleksandr Andreev, Yuri Shardt, Nikita Simmons, (http://www.ponomar.net/),+AAoA-without Reserved Font Name.+AAoACgAA-This font is part of the Ponomar Project and is licensed under the same terms as Ponomar itself or under the terms of the SIL Open Font License, at your choosing.+AAoACgAA-Based off Hirmos UCS, (c) 2005 Vlad Dorosh. Updgraded to Unicode 5.1 by Yuri Shradt. Additional modifications by Nikita Simmons and Aleksandr Andreev.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Ponomar Unicode" "Regular" "Ponomar Unicode" "+BCUEQC3tBIcEQgQ+AwEEQQRK +BDIEPgRBBDoEQAQ1AwEEQQQ1 +BDgEhgQ3Az4A +BDwENQMBBEAEQgQyBEsERQRK, +BEEEPAQ1AwEEQARCBFYDCARO +BEEEPAQ1AwEEQARCBEwA +BD8EPgQ/BEAEMAMBBDIESgAA, +BDgEhgAA +BEGmSwMBBEkESwQ8BEoA +BDIEPgAA +BDMEQAQ+BDEEYwMBBEUESgAA +BDYEOAQyBD4DAQRCBEoA +BDQEMARABD4EMgQwAwEEMgRK." 
 GaspTable: 3 8 10 16 9 65535 15 1
 OtfFeatName: 'ss02' 1033 "Latin blackletter shapes" 
 Encoding: UnicodeFull
@@ -3229,7 +3230,7 @@ SplineSet
  329 336 l 2,0,1
 EndSplineSet
 Validated: 19457
-AlternateSubs2: "'salt' Stylistic Alternatives-1" uni005F
+Substitution2: "'ss01' Cyrillic Hyphenation Char-1" uni005F
 Colour: ff00
 EndChar
 
@@ -21755,7 +21756,7 @@ SplineSet
  192 128 192 128 223 157 c 1,32,33
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -22241,7 +22242,7 @@ SplineSet
  171 370 171 370 170 309 c 2,31,-1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -22402,7 +22403,7 @@ SplineSet
  109 -4 109 -4 69 3 c 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -22678,7 +22679,7 @@ SplineSet
  251 24 l 1,49,50
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -22846,7 +22847,7 @@ SplineSet
  70 54 l 2,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -23599,7 +23600,7 @@ SplineSet
  162 251 162 251 108 248 c 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -23816,7 +23817,7 @@ SplineSet
  172 -0 l 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -24369,7 +24370,7 @@ SplineSet
  256 216 256 216 275 215 c 1,24,25
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -24623,7 +24624,7 @@ SplineSet
  237 328 237 328 237 373 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -24972,7 +24973,7 @@ SplineSet
  553 441 553 441 595 434 c 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -25173,7 +25174,7 @@ SplineSet
  184 441 184 441 190 440 c 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -25344,7 +25345,7 @@ SplineSet
  302 50 302 50 320 59 c 0,31,32
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -25528,7 +25529,7 @@ SplineSet
  114 -6 114 -6 78 0 c 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -25749,7 +25750,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0440.trunc
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -25905,7 +25906,7 @@ SplineSet
  256 147 256 147 256 140 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -26123,7 +26124,7 @@ SplineSet
  398 96 398 96 400 0 c 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -26310,7 +26311,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0443.alt
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -26687,7 +26688,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0444.trunc1 uni0444.trunc2
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -27162,7 +27163,7 @@ SplineSet
 EndSplineSet
 Validated: 3073
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0445.trunc3 uni0445.trunc1 uni0445.trunc2
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -27437,7 +27438,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0446.trunc
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -27621,7 +27622,7 @@ SplineSet
  238 280 238 280 278 277 c 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -28595,7 +28596,7 @@ SplineSet
  302 24 l 1,34,35
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -31217,7 +31218,7 @@ SplineSet
  331 26 l 2,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -31339,7 +31340,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Substitution2: "'locl' Localized Forms in Cyrillic-1" uni04560307
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -34296,7 +34297,7 @@ SplineSet
  293 94 293 94 343 151 c 1,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -40176,7 +40177,7 @@ SplineSet
  180 -161 180 -161 199 -161 c 0,0,1
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -41005,7 +41006,7 @@ EndSplineSet
 Validated: 19457
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0471.alt2 uni0471.alt
 Substitution2: "Short Forms for Half Titlos-1" uni0471.alt
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -41733,7 +41734,7 @@ SplineSet
  394 237 394 237 367 237 c 0,69,70
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -45734,7 +45735,7 @@ SplineSet
  736 693 736 693 731 690 c 0,68,69
 EndSplineSet
 Validated: 19457
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -50782,7 +50783,7 @@ SplineSet
  428 374 428 374 428 360 c 128,-1,104
 EndSplineSet
 Validated: 3073
-Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Numeral Kerning-1" dx=250 dy=0 dh=0 dv=0
 Colour: ff00
 EndChar
 
@@ -145835,7 +145836,7 @@ SplineSet
  329 336 l 2,0,1
 EndSplineSet
 Validated: 19457
-AlternateSubs2: "'salt' Stylistic Alternatives-1" uni005F
+Substitution2: "'ss01' Cyrillic Hyphenation Char-1" uni005F
 EndChar
 
 StartChar: uni00660074
