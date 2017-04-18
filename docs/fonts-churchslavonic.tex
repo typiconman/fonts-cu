@@ -2,7 +2,7 @@
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{fontspec}
 \usepackage{xltxtra}
-% code borrowed from Polyglossia documentation — Thanks!
+% code borrowed from Polyglossia documentation -- Thanks!
 \definecolor{myblue}{rgb}{0.02,0.04,0.48}
 \definecolor{lightblue}{rgb}{0.61,.8,.8}
 \definecolor{myred}{rgb}{0.65,0.04,0.07}
@@ -187,15 +187,13 @@ features in these applications, you had to use SIL Graphite, which is only avail
 in the TTF version. This limitation has been fixed as of LibreOffice 5.3, which now
 has \href{https://wiki.documentfoundation.org/ReleaseNotes/5.3}{full OpenType support}.
 
-\item OpenType-CFF fonts are poorly supported in the Sun Java Development Kit,
-so we recommend use of the TTF versions in Java programming situations and
-on Android devices.
+\item OpenType-CFF fonts were poorly supported in Java, and so we had
+recommended use of the TTF versions in Java programming situations. This problem
+appears to have been resolved in Oracle Java SE 7.
 
-\item On Microsoft Windows, OpenType glyph positioning is not supported for glyphs
-in the Private Use Area or characters outside of the Unicode 7.0 range. This limitation
-has been resolved in LibreOffice (beginning with version 5.3). In earlier versions
-of LibreOffice, you needed to rely on \hyperlink{Graphite}{SIL Graphite}
-(only available in the TTF versions) for positioning of combining Glagolitic characters.
+\item In Microsoft products, OpenType glyph positioning is not supported for glyphs
+in the Private Use Area or characters outside of the Unicode 7.0 range. You should
+use LibreOffice if you need positioning of combining Glagolitic characters.
 
 \end{itemize}
 
@@ -322,9 +320,9 @@ Cyrillic and Glagolitic, but beginning with Windows 7, this has been resolved.
 Generally speaking, you will get best results in \XeTeX{} or \LuaTeX{}
 using the \texttt{fontspec} package or using advanced desktop publishing software
 such as Adobe InDesign. Most OpenType features are also accessible
-in Microsoft Office 2010 and later (but see below for details).
-LibreOffice also supports OpenType features starting with version 4.1,
-and support for turning off and on optional features was added in version 5.3.
+in Microsoft Office 2010 and later. LibreOffice also supports OpenType features
+starting with version 4.1, and support for turning off and on optional features
+was added in version 5.3.
 
 \subsection{On GNU/Linux}
 
@@ -336,7 +334,7 @@ Generally speaking, you will get best results in \XeTeX{} or \LuaTeX{}
 using the \texttt{fontspec} package. LibreOffice also supports
 OpenType features starting with version 4.1, and support for
 turning off and on optional features was added in version 5.3. Please see the section
-\hyperlink{Graphite}{Support of Advanced Features in LibreOffice}, below.
+\hyperlink{LO}{Support of Advanced Features in LibreOffice}, below.
 
 \subsection{OpenType Features}
 
@@ -457,10 +455,13 @@ application that provides an interface to turn off and on advanced features
 or \LuaTeX{} using the \texttt{fontspec} package and in LibreOffice
 (starting with version 5.3) by use of a special syntax that appends the needed
 option to the font name. See the section
-\hyperlink{Graphite}{Support of Advanced Features in LibreOffice}, below.
-Microsoft Office currently has no way to access Stylistic Alternatives and Stylistic Sets.
-If necessary, you may access these glyphs by codepoint from the Private
-Use Area. However, relying on the PUA as a data exchange mechanism is discouraged.
+\hyperlink{LO}{Support of Advanced Features in LibreOffice}, below.
+In Microsoft Office 2010 and later, Stylistic Sets may be turned off an on
+under |OpenType features| on the |Advanced| tab of the |Font| dialog.
+However, Micorosoft Office does not allow you to select multiple Stylistic Sets
+simultaneously or to access the |salt| feature. If necessary, you may access
+alternate glyphs by codepoint from the Private Use Area (PUA).
+However, relying on the PUA as a data exchange mechanism is discouraged.
 
 \section{SIL Graphite Technology}
 
@@ -488,7 +489,7 @@ Therefore Graphite is only supported in the TrueType versions of fonts.
 \subsection{Graphite in LibreOffice}
 
 See the section
-\hyperlink{Graphite}{Support of Advanced Features in LibreOffice}, below.
+\hyperlink{LO}{Support of Advanced Features in LibreOffice}, below.
 
 \subsection{Graphite in \XeTeX}
 
@@ -513,8 +514,9 @@ passed to the \texttt{RawFeature} option as follows:
 
 \noindent Please consult the \texttt{fontspec} documentation for more information.
 
-\section{Support of Advanced Features in LibreOffice}
 \hypertarget{LO}{}\label{LO}
+
+\section{Support of Advanced Features in LibreOffice}
 
 Support for OpenType features is available in LibreOffice and all
 OpenOffice.org derivatives starting with version 3.2 of OpenOffice.org.
@@ -527,10 +529,10 @@ SIL Graphite layout, you should only use the OpenType-CFF versions of the fonts.
 
 While correct positioning, attachment and substitutions will work automatically both
 in the OpenType and SIL Graphite fonts, earlier versions of LibreOffice
-had no mechanism to turn off and on optional OpenType features. This
-functionality has become available starting with LibreOffice version 5.3.
-However, there is still no graphical interface that can be used
-to turn such optional features on and off. Instead, a special extended font name
+had no mechanism to turn off and on optional features. Support for
+turning off and on Graphite features is available starting with LibreOffice version 4.1.
+However, there is no graphical interface that can be used
+to turn these features on and off. Instead, a special extended font name
 syntax has been developed: in order to activate an optional feature, its ID,
 followed by an equals sign and the ID of the desired setting, are appended
 directly to the font name string. An ampersand is used to separate
@@ -649,7 +651,7 @@ In addition to the general PUA mappings, some characters have been
 allocated the open range section of the PUA. These are:
 
 \begin{itemize}
-\item U+F400 \textendash{} Alternatives of SMP glyphs: This section contains copies in the BMP of SMP glyphs for support in legacy applications. Currently, the following are available: U+F400 - U+F405 \textendash{} Typicon symbols (copies of U+1F540 through U+1F545)
+\item U+F400 \textendash{} Alternatives of SMP glyphs: This section contains copies in the BMP of SMP glyphs for support in legacy applications. Currently, the following are available: U+F400 - U+F405 \textendash{} Typicon symbols (copies of U+1F540 through U+1F545).
 \item U+F410 \textendash{} Presentation forms: Contains various presentation forms and ligatures used internally by the font. Generally, these are not intended to be called by users or external applications.
 \item U+F420 \textendash{} Linguistic alternatives: Contains alternative shapes of glyphs that are language specific. Right now, these are modern punctuation shapes for use with Latin characters. These are not intended to be called externally.
 \item U+F441 and on \textendash{} stylistic alternatives of Latin characters (Blackletter forms). These can be called via the Stylistic Set 2, but, if necessary, they may be called from the PUA directly. They are mapped to in the same order as in the Basic Latin block, beginning with U+F441 (for U+0041 Latin Capital Letter A). In addition to the Basic Latin repertoire, we also have: U+F4DE \textendash{} Blackletter Thorn; U+F4FE \textendash{} Lowercase Blackletter Thorn; and U+F575 \textendash{} Blackletter Long S
@@ -675,7 +677,7 @@ In addition to additional decorative glyphs for the Symbol for Mark's Chapter,
 the feature provides the alternate forms of the letter U+0423 U that look
 exactly like U+A64A Uk (this usage is found in some publications),
 and an alternative form for the U+0404 Wide Ye for use in contexts 
-where it needs to be distinguished from U+0415 Ye (mostly in Ukrainian text
+where it needs to be distinguished from U+0415 Ye (mostly for Ukrainian text
 stylized in a Church Slavonic font).
 
 \newfontfamily{\salt}[Alternate=0]{Ponomar Unicode}
@@ -845,7 +847,7 @@ liturgical texts or for working with such texts in an academic context.
 \end{churchslavonic}
 
 \subsubsection{Flowery Triodion}
-\newfontfamily{\left}[StylisticSet=2]{Fedorovsk Unicode}
+\newfontfamily{\left}[StylisticSet=2,HyphenChar="200B]{Fedorovsk Unicode}
 
 \begin{churchslavonic}
 {\Large \left
@@ -1004,7 +1006,7 @@ The Menaion font was originally designed by Victor A. Baranov at
 \href{http://www.manuscripts.ru/}{the Manuscript Project}. It was
 re-encoded for Unicode by Aleksandr Andreev with permission of the original author.
 
-\newfontfamily{\glyphfont}{Menaion Unicode}
+\newfontfamily{\glyphfont}[HyphenChar="200B]{Menaion Unicode}
 
 \subsection{Sample Texts}
 
@@ -1026,29 +1028,29 @@ publishing software such as Adobe InDesign.
  3& {\Large \glyphfont   б҃а и б҃ъ бѣ} \\ 
  4& {\Large \glyphfont    слово  𝀏̃  се бѣ} \\ 
  5& {\Large \glyphfont    искони оу} \\ 
- 6& {\Large \glyphfont    б҃а  ⁘  и тѣмь в̇са бꙑ-} \\ 
- 7& {\Large \glyphfont    шѧ  𝀏̃  и беꙁ него ни-} \\ 
+ 6& {\Large \glyphfont    б҃а  ⁘  и тѣмь в̇са бꙑ} \\ 
+ 7& {\Large \glyphfont    шѧ  𝀏̃  и беꙁ него ни} \\ 
  8& {\Large \glyphfont    чьтоже не бꙑсть  ·} \\ 
- 9& {\Large \glyphfont   ѥже бꙑсть  𝀏̃  въ то-} \\ 
+ 9& {\Large \glyphfont   ѥже бꙑсть  𝀏̃  въ то} \\ 
 10& {\Large \glyphfont    мь животъ бѣ  ·  и} \\ 
  1& {\Large \glyphfont    животъ бѣ свѣтъ} \\ 
- 2& {\Large \glyphfont    чловѣкомъ  𝀏̃  и свѣ-} \\ 
- 3& {\Large \glyphfont    тъ въ тьмѣ свьти-} \\ 
+ 2& {\Large \glyphfont    чловѣкомъ  𝀏̃  и свѣ} \\ 
+ 3& {\Large \glyphfont    тъ въ тьмѣ свьти} \\ 
  4& {\Large \glyphfont    тьсѧ  ·  и тьма ѥго} \\ 
  5& {\Large \glyphfont    не обѧтъ  𝀏̃  бꙑсть} \\ 
  6& {\Large \glyphfont    члв҃къ посъланъ} \\ 
  7& {\Large \glyphfont    отъ б҃а  ·  имѧ ѥмоу} \\ 
  8& {\Large \glyphfont    иоанъ  𝀏̃  тъ приде} \\ 
- 9& {\Large \glyphfont    въ съвѣдѣтель-} \\ 
-10& {\Large \glyphfont    ство  ·  да съвѣдѣте-} \\ 
-2.2  1& {\Large \glyphfont    льствоуѥть о свѣ-} \\ 
+ 9& {\Large \glyphfont    въ съвѣдѣтель} \\ 
+10& {\Large \glyphfont    ство  ·  да съвѣдѣте} \\ 
+2.2  1& {\Large \glyphfont    льствоуѥть о свѣ} \\ 
  2& {\Large \glyphfont    тѣ  𝀏̃  да вьси вѣрѫ} \\ 
  3& {\Large \glyphfont    имѫть имь  ⁘  не бѣ} \\ 
  4& {\Large \glyphfont    тъ свѣтъ  ⁘  нъ да} \\ 
- 5& {\Large \glyphfont    съвѣдѣтельствоу-} \\ 
+ 5& {\Large \glyphfont    съвѣдѣтельствоу} \\ 
  6& {\Large \glyphfont    ѥть о свѣтѣ  𝀏̃̑ бѣ} \\ 
- 7& {\Large \glyphfont    свѣтъ истиньнꙑ-} \\ 
- 8& {\Large \glyphfont    и  ·  иже просвѣщаѥ-} \\ 
+ 7& {\Large \glyphfont    свѣтъ истиньнꙑ} \\ 
+ 8& {\Large \glyphfont    и  ·  иже просвѣщаѥ} \\ 
  9& {\Large \glyphfont    ть в́сꙗкого чл҃ка  ⸴} \\ 
 10& {\Large \glyphfont   грѧдѫща въ миръ  𝀏̃̑} \\ 
 \end{tabular}
@@ -1065,19 +1067,19 @@ publishing software such as Adobe InDesign.
  5 & {\Large \glyphfont       ⰱⱑ ⱋ̔ ⰱⰰ  · } \\
  6 & {\Large \glyphfont      ⰻ ⰱ͞ⱏ ⰱⱑ } \\
  7 & {\Large \glyphfont      ⱄⰾⱁⰲⱁ  · } \\
- 8 & {\Large \glyphfont   Ⱄⰵ ⰱⱑ ⰻ̔ⱄⰽⱁ- } \\
- 9 & {\Large \glyphfont     ⱀⰻ  ·  ⱋ̔ ⰱ꙯ⰰ  ·  ⰲⱐ- } \\
-10 & {\Large \glyphfont     ⱄⱑ ⱅⱑⰿⱏ ⰱⱏⰻ- } \\
+ 8 & {\Large \glyphfont   Ⱄⰵ ⰱⱑ ⰻ̔ⱄⰽⱁ} \\
+ 9 & {\Large \glyphfont     ⱀⰻ  ·  ⱋ̔ ⰱ꙯ⰰ  ·  ⰲⱐ} \\
+10 & {\Large \glyphfont     ⱄⱑ ⱅⱑⰿⱏ ⰱⱏⰻ} \\
 11 & {\Large \glyphfont     ⱎⱔ  ·  Ⰻ̔ ⰱⰵⰶ ⱀⰵⰳⱁ } \\
 12 & {\Large \glyphfont     ⱀⰹⱍⰵⱄⱁⰶⰵ } \\
-13 & {\Large \glyphfont     ⱀⰵ ⰱⱏⰻⱄⱅⱏ  ·  ⰵ̔- } \\
+13 & {\Large \glyphfont     ⱀⰵ ⰱⱏⰻⱄⱅⱏ  ·  ⰵ̔} \\
 14 & {\Large \glyphfont     ⰶⰵ ⰱⱏⱄⱅⱏ  · } \\
-15 & {\Large \glyphfont    Ⰲⱏ ⱅⱁⰿⱏ ⰶⰹⰲⱁ- } \\
-16 & {\Large \glyphfont     ⱅⱏ ⰱⱑ  ·  ⰻ ⰶⰹⰲⱁ- } \\
+15 & {\Large \glyphfont    Ⰲⱏ ⱅⱁⰿⱏ ⰶⰹⰲⱁ} \\
+16 & {\Large \glyphfont     ⱅⱏ ⰱⱑ  ·  ⰻ ⰶⰹⰲⱁ} \\
 17 & {\Large \glyphfont     ⱅⱏ ⰱⱑ ⱄⰲⱑⱅⱏ } \\
 18 & {\Large \glyphfont     ⱍⰾ҃ⰽⰿⱏ  ·  ⰻ̔ ⱄⰲⱁⱑ } \\
-19 & {\Large \glyphfont     ⰲⱏ ⱅⱐⰿⱑ ⱄⰲⱏ- } \\
-20 & {\Large \glyphfont     ⱅⰹⱅⱏ ⱄⱔ  ·  ⰻ ⱅⱐ- } \\
+19 & {\Large \glyphfont     ⰲⱏ ⱅⱐⰿⱑ ⱄⰲⱏ} \\
+20 & {\Large \glyphfont     ⱅⰹⱅⱏ ⱄⱔ  ·  ⰻ ⱅⱐ} \\
 21 & {\Large \glyphfont     ⰿⰰ ⰵ̔ⰳⱁ ⱀⰵ ⱁ̔ⰱⱔⱅ } \\
 \end{tabular}
 \end{figure}
