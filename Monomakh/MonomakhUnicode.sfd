@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1315915564
-ModificationTime: 1494182889
+ModificationTime: 1494240238
 PfmFamily: 17
 TTFWeight: 500
 TTFWidth: 5
@@ -1217,7 +1217,7 @@ MUL
 SWAP
 ENDF
 EndTTInstrs
-ShortTable: cvt  77
+ShortTable: cvt  85
   -578
   -382
   0
@@ -1295,19 +1295,27 @@ ShortTable: cvt  77
   586
   954
   1542
+  286
+  466
+  693
+  753
+  29
+  112
+  156
+  25
 EndShort
 LangName: 1033 "" "" "" "" "" "" "" "" "" "Alexey Kryukov, Aleksandr Andreev" "" "http://sci.ponomar.net/" "http://sci.ponomar.net/" "Copyright (c) 2016-2017, Aleksandr Andreev (aleksandr.andreev@gmail.com),+AAoA-without Reserved Font Name.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/ofl" 
 GaspTable: 3 10 8 19 5 65535 15 1
-OtfFeatName: 'ss01' 1033 "Combinations with Comma Below for Romanian" 1049 "+BCEEPgRHBDUEQgQwBD0EOARP +BEEA +BD0EOAQ2BD0ENQQ5 +BDcEMAQ/BE8EQgQ+BDkA +BDQEOwRP +BEAEQwQ8BEsEPQRBBDoEPgQzBD4A +BE8ENwRLBDoEMAAA" 
-OtfFeatName: 'ss06' 1033 "Display Cyrillic Decimal i with Dotaccent" 1049 "+BB4EQgQ+BDEEQAQwBDYEMARCBEwA +BDQENQRBBE8EQgQ4BEcEPQQ+BDUA i +BEEA +BD4ENAQ9BD4EOQAA +BEIEPgRHBDoEPgQ5" 
-OtfFeatName: 'ss07' 1033 "Display Cyrillic Decimal i with Dieresis" 1049 "+BB4EQgQ+BDEEQAQwBDYEMARCBEwA +BDQENQRBBE8EQgQ4BEcEPQQ+BDUA i +BEEA +BDQEMgRDBDwETwAA +BEIEPgRHBDoEMAQ8BDgA" 
-OtfFeatName: 'ss08' 1033 "Use Sharp Cyrillic Ze instead of the Round Form" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BD4EQQRCBEAEQwRO +BEQEPgRABDwEQwAA +BDEEQwQ6BDIESwAA +ACIEFwAi +BDIEPAQ1BEEEQgQ+ +BD4EOgRABEMEMwQ7BD4EOQAA" 
-OtfFeatName: 'ss09' 1033 "Use the Historic (Double-Sided) Form for Cyrillic Che" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BDgEQQRCBD4EQAQ4BEcENQRBBDoEQwRO (+BDQEMgRDBEEEQgQ+BEAEPgQ9BD0ETgRO) +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEJwAi" 
-OtfFeatName: 'ss10' 1033 "Use the Modern Form for Cyrillic Shcha" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BEEEPgQyBEAENQQ8BDUEPQQ9BEMETgAA +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEKQAi" 
-OtfFeatName: 'ss11' 1033 "Connecting Cyrillic YERY" 1049 "+BBEEQwQ6BDIEMAAA +ACIEKwAi +BEEA +BEEEPgQ1BDQEOAQ9BDgEQgQ1BDsETAQ9BD4EOQAA +BDsEOAQ9BDgENQQ5" 
-OtfFeatName: 'ss12' 1033 "Cyrillic Tverdo with Three Legs" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BEQEPgRABDwEQwAA +BEEA +BEIEQAQ1BDwETwAA +BDwEMARHBEIEMAQ8BDgA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEIgAi" 
-OtfFeatName: 'ss13' 1033 "Cyrillic Yat with Long Back Beak" 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +ACIETwQ6BD4EQAQ9BEMETgAi +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIELwRCBEwAIgAA " 
-OtfFeatName: 'ss15' 1033 "Add Pokrytie to Combining Letters when Appropriate" 1049 "+BBAEMgRCBD4EPAQwBEIEOARHBDUEQQQ6BDgA +BDQEPgQxBDAEMgQ7BE8EQgRM +BD8EPgQ6BEAESwRCBDgENQAA +BDoA +BDIESwQ9BD4EQQQ9BEsEPAAA +BDEEQwQ6BDIEMAQ8" 
+OtfFeatName: 'ss15' 1049 "+BBAEMgRCBD4EPAQwBEIEOARHBDUEQQQ6BDgA +BDQEPgQxBDAEMgQ7BE8EQgRM +BD8EPgQ6BEAESwRCBDgENQAA +BDoA +BDIESwQ9BD4EQQQ9BEsEPAAA +BDEEQwQ6BDIEMAQ8" 1033 "Add Pokrytie to Combining Letters when Appropriate" 
+OtfFeatName: 'ss13' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +ACIETwQ6BD4EQAQ9BEMETgAi +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIELwRCBEwAIgAA " 1033 "Cyrillic Yat with Long Back Beak" 
+OtfFeatName: 'ss12' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BEQEPgRABDwEQwAA +BEEA +BEIEQAQ1BDwETwAA +BDwEMARHBEIEMAQ8BDgA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEIgAi" 1033 "Cyrillic Tverdo with Three Legs" 
+OtfFeatName: 'ss11' 1049 "+BBEEQwQ6BDIEMAAA +ACIEKwAi +BEEA +BEEEPgQ1BDQEOAQ9BDgEQgQ1BDsETAQ9BD4EOQAA +BDsEOAQ9BDgENQQ5" 1033 "Connecting Cyrillic YERY" 
+OtfFeatName: 'ss10' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BEEEPgQyBEAENQQ8BDUEPQQ9BEMETgAA +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEKQAi" 1033 "Use the Modern Form for Cyrillic Shcha" 
+OtfFeatName: 'ss09' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BDgEQQRCBD4EQAQ4BEcENQRBBDoEQwRO (+BDQEMgRDBEEEQgQ+BEAEPgQ9BD0ETgRO) +BEQEPgRABDwEQwAA +BDQEOwRP +BDEEQwQ6BDIESwAA +ACIEJwAi" 1033 "Use the Historic (Double-Sided) Form for Cyrillic Che" 
+OtfFeatName: 'ss08' 1049 "+BBgEQQQ/BD4EOwRMBDcEPgQyBDAEQgRM +BD4EQQRCBEAEQwRO +BEQEPgRABDwEQwAA +BDEEQwQ6BDIESwAA +ACIEFwAi +BDIEPAQ1BEEEQgQ+ +BD4EOgRABEMEMwQ7BD4EOQAA" 1033 "Use Sharp Cyrillic Ze instead of the Round Form" 
+OtfFeatName: 'ss07' 1049 "+BB4EQgQ+BDEEQAQwBDYEMARCBEwA +BDQENQRBBE8EQgQ4BEcEPQQ+BDUA i +BEEA +BDQEMgRDBDwETwAA +BEIEPgRHBDoEMAQ8BDgA" 1033 "Display Cyrillic Decimal i with Dieresis" 
+OtfFeatName: 'ss06' 1049 "+BB4EQgQ+BDEEQAQwBDYEMARCBEwA +BDQENQRBBE8EQgQ4BEcEPQQ+BDUA i +BEEA +BD4ENAQ9BD4EOQAA +BEIEPgRHBDoEPgQ5" 1033 "Display Cyrillic Decimal i with Dotaccent" 
+OtfFeatName: 'ss01' 1049 "+BCEEPgRHBDUEQgQwBD0EOARP +BEEA +BD0EOAQ2BD0ENQQ5 +BDcEMAQ/BE8EQgQ+BDkA +BDQEOwRP +BEAEQwQ8BEsEPQRBBDoEPgQzBD4A +BE8ENwRLBDoEMAAA" 1033 "Combinations with Comma Below for Romanian" 
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -1316,7 +1324,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 312
-WinInfo: 405 27 10
+WinInfo: 162 27 10
 BeginPrivate: 7
 BlueValues 30 [-8 0 466 476 693 701 753 759]
 OtherBlues 11 [-293 -286]
@@ -43703,12 +43711,10 @@ VWidth: 1014
 Flags: HW
 HStem: 561 62<-361 -68>
 VStem: -370 311<561 623>
-AnchorPoint: "CyrMark" -215 537 mark 0
-AnchorPoint: "Top" -215 537 mark 0
+AnchorPoint: "Top" -214 535 mark 0
 LayerCount: 3
 Fore
-Refer: 110 175 N 1 0 0 1 -430 0 2
-Validated: 33281
+Refer: 110 175 S 1 0 0 1 -430 0 2
 Layer: 2
 Refer: 110 175 S 1 0 0 1 -429.688 0 2
 Validated: 33281
@@ -43720,15 +43726,14 @@ StartChar: uni0305
 Encoding: 773 773 346
 Width: 0
 VWidth: 1014
-Flags: HW
-HStem: 865 60<-520 90>
+Flags: W
+HStem: 673 60<-519.847 89.999>
+AnchorPoint: "DblMark" -214 537 mark 0
 LayerCount: 3
 Fore
-Refer: 551 8254 N 1 0 0 1 -508 0 2
-Validated: 32769
+Refer: 551 8254 N 1 0 0 1 -508 -192 2
 Layer: 2
-Refer: 551 8254 N 1 0 0 1 -507.812 0 2
-Validated: 32769
+Refer: 551 8254 N 1 0 0 1 -507.812 -192 2
 Colour: ffff00
 EndChar
 
@@ -43840,8 +43845,7 @@ VStem: -363 297<744 755>
 AnchorPoint: "Top" -215 537 mark 0
 LayerCount: 3
 Fore
-Refer: 331 711 N 1 0 0 1 -430 0 2
-Validated: 32769
+Refer: 331 711 S 1 0 0 1 -430 0 2
 Layer: 2
 Refer: 331 711 N 1 0 0 1 -429.688 0 2
 Validated: 32769
@@ -43860,7 +43864,6 @@ AnchorPoint: "CyrMark" -215 537 mark 0
 LayerCount: 3
 Fore
 Refer: 702 63190 N 1 0 0 1 -430 0 2
-Validated: 32769
 Layer: 2
 Refer: 702 63190 N 1 0 0 1 -429.688 0 2
 Validated: 32769
@@ -43880,7 +43883,6 @@ AnchorPoint: "CyrMark" -215 537 mark 0
 LayerCount: 3
 Fore
 Refer: 701 63189 N 1 0 0 1 -430 0 2
-Validated: 32769
 Layer: 2
 Refer: 701 63189 N 1 0 0 1 -429.688 0 2
 Validated: 32769
@@ -44439,7 +44441,6 @@ LayerCount: 3
 Fore
 Refer: 694 63182 N 1 0 0 1 131 0 2
 Refer: 387 1045 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 694 63182 N 1 0 0 1 130.859 0 2
 Refer: 387 1045 N 1 0 0 1 0 0 3
@@ -44457,7 +44458,6 @@ LayerCount: 3
 Fore
 Refer: 799 -1 N 1 0 0 1 131 0 2
 Refer: 387 1045 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 799 -1 N 1 0 0 1 130.859 0.488281 2
 Refer: 387 1045 N 1 0 0 1 0 0 3
@@ -44742,14 +44742,13 @@ StartChar: afii10052
 Encoding: 1027 1027 369
 Width: 553
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 29<47 98 235 286> 468 21<464.5 470> 664 29<47 98 235 359.117> 762 190
 VStem: 98 137<29 664> 257 241 451 32<468.002 537.121>
 LayerCount: 3
 Fore
 Refer: 691 63177 N 1 0 0 1 92 0 2
 Refer: 385 1043 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 691 63177 N 1 0 0 1 91.7969 0 2
 Refer: 385 1043 N 1 0 0 1 0 0 3
@@ -44887,6 +44886,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 346 752 basechar 0
 AnchorPoint: "DblMark" 657 762 basechar 0
 AnchorPoint: "Yerik" 480 742 basechar 0
 AnchorPoint: "CyrTopCap" 346 752 basechar 0
@@ -44925,7 +44925,6 @@ SplineSet
  551 45 448 -17 343 -17 c 0
  166 -17 55 147 55 347 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -45169,6 +45168,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 339 752 basechar 0
 AnchorPoint: "DblMark" 665 762 basechar 0
 AnchorPoint: "Yerik" 484 742 basechar 0
 AnchorPoint: "CyrTopCap" 340 752 basechar 0
@@ -45198,7 +45198,6 @@ SplineSet
  125 -38 110 -43 90 -43 c 0
  59 -43 17 1 6 27 c 1xfa
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 5.85938 27.3438 m 1,0,1
@@ -45270,13 +45269,13 @@ VWidth: 0
 Flags: HW
 HStem: 0 29<47 98 235 286> 664 29<47 98 235 286>
 VStem: 98 138<29 664>
+AnchorPoint: "TopCap" 169 752 basechar 0
 AnchorPoint: "DblMark" 333 762 basechar 0
 AnchorPoint: "Yerik" 167 742 basechar 0
 AnchorPoint: "CyrTopCap" 167 752 basechar 0
 LayerCount: 3
 Fore
 Refer: 41 73 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 41 73 N 1 0 0 1 0 0 3
 Validated: 32769
@@ -45308,10 +45307,10 @@ VWidth: 0
 Flags: HW
 HStem: -17 29<149 236> 664 29<218 269 406 457>
 VStem: 12 115<59 159> 269 138<100 664>
+AnchorPoint: "TopCap" 351 752 basechar 0
 LayerCount: 3
 Fore
 Refer: 42 74 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 42 74 N 1 0 0 1 0 0 3
 Validated: 32769
@@ -45490,6 +45489,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 436 752 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -45533,7 +45533,6 @@ SplineSet
  506 368 l 1
  506 29 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 11.7188 0 m 1,0,-1
@@ -45810,6 +45809,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 361 752 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -45856,7 +45856,6 @@ SplineSet
  604 368 l 1
  604 29 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -46096,6 +46095,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 204 878 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -46132,7 +46132,6 @@ SplineSet
  132 652 l 1
  47 652 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 652.344 m 1,0,-1
@@ -46187,7 +46186,6 @@ LayerCount: 3
 Fore
 Refer: 691 63177 N 1 0 0 1 107 0 2
 Refer: 392 1050 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 691 63177 N 1 0 0 1 107.422 0 2
 Refer: 392 1050 N 1 0 0 1 0 0 3
@@ -46206,7 +46204,6 @@ LayerCount: 3
 Fore
 Refer: 694 63182 N 1 0 0 1 157 0 2
 Refer: 390 1048 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 694 63182 N 1 0 0 1 157.227 0 2
 Refer: 390 1048 N 1 0 0 1 0 0 3
@@ -46225,7 +46222,6 @@ LayerCount: 3
 Fore
 Refer: 697 63185 N 1 0 0 1 196 0 2
 Refer: 401 1059 N 1 0 0 1 0 0 2
-Validated: 32769
 Layer: 2
 Refer: 697 63185 N 1 0 0 1 196.289 0 2
 Refer: 401 1059 N 1 0 0 1 0 0 2
@@ -46415,6 +46411,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 350 752 basechar 0
 AnchorPoint: "DblMark" 702 762 basechar 0
 AnchorPoint: "Yerik" 503 742 basechar 0
 AnchorPoint: "CyrTopCap" 351 752 basechar 0
@@ -46458,7 +46455,6 @@ SplineSet
  337 -5 331 0 318 0 c 2
  47 0 l 1xec
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -46773,6 +46769,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 447 752 basechar 0
 AnchorPoint: "DblMark" 635 762 basechar 0
 AnchorPoint: "Yerik" 518 742 basechar 0
 AnchorPoint: "CyrTopCap" 447 752 basechar 0
@@ -46826,7 +46823,6 @@ SplineSet
  227 514 191 487 159 440 c 0
  132 400 123 351 123 321 c 0xd2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 31.25 0 m 1,0,-1
@@ -47008,6 +47004,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 309 752 basechar 0
 AnchorPoint: "DblMark" 608 762 basechar 0
 AnchorPoint: "Yerik" 428 742 basechar 0
 AnchorPoint: "CyrTopCap" 307 752 basechar 0
@@ -47047,7 +47044,6 @@ SplineSet
  235 361 l 1
  235 29 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -47264,6 +47260,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 333 752 basechar 0
 AnchorPoint: "DblMark" 604 762 basechar 0
 AnchorPoint: "Yerik" 435 742 basechar 0
 AnchorPoint: "CyrTopCap" 331 752 basechar 0
@@ -47307,7 +47304,6 @@ SplineSet
  224 446 l 1
  226 445 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 35.1562 0 m 1,0,-1
@@ -47374,7 +47370,7 @@ StartChar: afii10020
 Encoding: 1043 1043 385
 Width: 553
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 29<47 98 235 286> 468 21G<464.5 470> 664 29<47 98 235 359.117>
 VStem: 98 137<29 664> 451 32<468.002 537.121>
 TtInstrs:
@@ -47469,6 +47465,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 308 752 basechar 0
 AnchorPoint: "DblMark" 554 762 basechar 0
 AnchorPoint: "Yerik" 423 742 basechar 0
 AnchorPoint: "CyrTopCap" 307 752 basechar 0
@@ -47495,7 +47492,6 @@ SplineSet
  286 0 l 25
  47 0 l 17
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 17,0,-1
@@ -47721,6 +47717,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 343 752 basechar 0
 AnchorPoint: "DblMark" 681 762 basechar 0
 AnchorPoint: "Yerik" 506 742 basechar 0
 AnchorPoint: "CyrTopCap" 343 752 basechar 0
@@ -47758,7 +47755,6 @@ SplineSet
  299 556 l 1
  153 29 l 17
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 11.7188 19.5312 m 0,0,1
@@ -47936,6 +47932,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 346 752 basechar 0
 AnchorPoint: "DblMark" 657 762 basechar 0
 AnchorPoint: "Yerik" 480 742 basechar 0
 AnchorPoint: "CyrTopCap" 346 752 basechar 0
@@ -47974,7 +47971,6 @@ SplineSet
  551 46 448 -17 343 -17 c 0
  166 -17 55 147 55 347 c 0xde
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -48337,6 +48333,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 463 752 basechar 0
 AnchorPoint: "DblMark" 930 762 basechar 0
 AnchorPoint: "Yerik" 688 742 basechar 0
 AnchorPoint: "CyrTopCap" 465 752 basechar 0
@@ -48397,7 +48394,6 @@ SplineSet
  75 533 70 542 69 551 c 0
  61 604 51 635 20 674 c 1xee
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 19.5312 673.828 m 1,0,1
@@ -48684,6 +48680,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 367 752 basechar 0
 AnchorPoint: "DblMark" 689 762 basechar 0
 AnchorPoint: "Yerik" 497 742 basechar 0
 AnchorPoint: "CyrTopCap" 367 752 basechar 0
@@ -48723,7 +48720,6 @@ SplineSet
  131 -21 113 -23 93 -23 c 0
  62 -23 21 19 12 46 c 1x6680
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 11.7188 45.8984 m 1,0,1
@@ -48985,6 +48981,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 351 752 basechar 0
 AnchorPoint: "DblMark" 702 762 basechar 0
 AnchorPoint: "Yerik" 503 742 basechar 0
 AnchorPoint: "CyrTopCap" 351 752 basechar 0
@@ -49021,7 +49018,6 @@ SplineSet
  286 0 l 1
  47 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -49069,7 +49065,6 @@ LayerCount: 3
 Fore
 Refer: 390 1048 N 1 0 0 1 0 0 3
 Refer: 697 63185 N 1 0 0 1 136 0 2
-Validated: 32769
 Layer: 2
 Refer: 390 1048 N 1 0 0 1 0 0 3
 Refer: 697 63185 N 1 0 0 1 136.23 0 2
@@ -49269,6 +49264,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 322 752 basechar 0
 AnchorPoint: "DblMark" 661 762 basechar 0
 AnchorPoint: "Yerik" 478 742 basechar 0
 AnchorPoint: "CyrTopCap" 322 752 basechar 0
@@ -49314,7 +49310,6 @@ SplineSet
  286 0 l 1
  47 0 l 1xf4
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -49595,6 +49590,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 395 752 basechar 0
 AnchorPoint: "DblMark" 615 762 basechar 0
 AnchorPoint: "Yerik" 490 742 basechar 0
 AnchorPoint: "CyrTopCap" 396 752 basechar 0
@@ -49628,7 +49624,6 @@ SplineSet
  267 0 l 1
  27 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 27.3438 0 m 1,0,-1
@@ -50025,6 +50020,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 560 752 basechar 0
 AnchorPoint: "DblMark" 957 762 basechar 0
 AnchorPoint: "Yerik" 742 742 basechar 0
 AnchorPoint: "CyrTopCap" 559 752 basechar 0
@@ -50078,7 +50074,6 @@ SplineSet
  267 0 l 1
  27 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 27.3438 0 m 1,0,-1
@@ -50320,6 +50315,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 351 752 basechar 0
 AnchorPoint: "DblMark" 702 762 basechar 0
 AnchorPoint: "Yerik" 503 742 basechar 0
 AnchorPoint: "CyrTopCap" 351 752 basechar 0
@@ -50356,7 +50352,6 @@ SplineSet
  286 0 l 1
  47 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -50478,6 +50473,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 346 752 basechar 0
 AnchorPoint: "DblMark" 686 762 basechar 0
 AnchorPoint: "Yerik" 487 742 basechar 0
 AnchorPoint: "CyrTopCap" 343 752 basechar 0
@@ -50497,7 +50493,6 @@ SplineSet
  269 682 211 638 211 543 c 2
  211 151 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -50653,6 +50648,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 351 752 basechar 0
 AnchorPoint: "DblMark" 702 762 basechar 0
 AnchorPoint: "Yerik" 503 742 basechar 0
 AnchorPoint: "CyrTopCap" 351 752 basechar 0
@@ -50681,7 +50677,6 @@ SplineSet
  286 0 l 1
  47 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -50713,131 +50708,183 @@ StartChar: afii10034
 Encoding: 1056 1056 398
 Width: 594
 VWidth: 0
-Flags: HW
-HStem: 0 29<35 86 224 274> 329 43<318 398> 384 35<257 299> 681 29<277 372>
-VStem: 86 138<29 345 380 562> 423 137<415 598>
-DStem2: 226 379 224 345 0.792934 0.609307<0 45.7349>
+Flags: W
+HStem: 0 29<35 86 224 274> 329 43<317.188 397.439> 384 35<254.844 299.95> 681 29<277.608 374.086>
+VStem: 86 138<29 345 380 565.606> 423 137<415.66 598.358>
+DStem2: 226 379 224 345 0.787505 0.616308<0 45.1009>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
- 0
+ 15
  2
  0
 CALL
 PUSHB_2
- 1
- 6
-MIRP[min,black]
-PUSHB_1
  16
-SHP[rp2]
-PUSHB_3
- 6
- 4
- 0
-CALL
-PUSHB_2
- 26
- 6
-MIRP[min,black]
-PUSHB_5
- 12
- 22
- 0
- 6
- 13
-CALL
-PUSHB_5
- 12
- 6
- 0
- 77
- 4
-CALL
-SVTCA[x-axis]
+ 81
+MIRP[rp0,min,rnd,black]
 PUSHB_1
- 27
+ 33
+SHP[rp2]
+PUSHB_1
+ 25
 MDAP[rnd]
 PUSHB_1
- 2
+ 7
+MDRP[min,rnd,black]
+PUSHB_1
+ 30
+MDAP[rnd]
+PUSHB_1
+ 4
+MDRP[min,rnd,black]
+PUSHB_1
+ 11
+MDAP[rnd]
+PUSHB_2
+ 21
+ 81
+MIRP[rp0,min,rnd,black]
+SVTCA[x-axis]
+PUSHB_1
+ 36
+MDAP[rnd]
+PUSHB_1
+ 18
 MDRP[rp0,rnd,white]
 PUSHB_2
- 16
- 7
-MIRP[min,black]
+ 32
+ 50
+MIRP[rp0,min,rnd,black]
 PUSHB_1
- 19
+ 0
 SHP[rp2]
 PUSHB_3
- 16
- 2
- 10
-CALL
-PUSHB_4
- 64
- 16
+ 32
  18
- 9
-CALL
-PUSHB_3
- 2
- 16
  10
 CALL
 PUSHB_4
  64
- 2
- 0
+ 32
+ 35
  9
 CALL
-PUSHB_1
- 16
-SRP0
 PUSHB_3
- 2
- 24
- 16
+ 18
+ 32
+ 10
+CALL
+PUSHB_4
+ 64
+ 18
+ 15
+ 9
+CALL
+PUSHB_1
+ 32
+SRP0
+PUSHB_2
+ 9
+ 1
 CALL
 PUSHB_2
- 9
- 11
-MIRP[min,black]
-PUSHB_1
- 9
-SRP0
-PUSHB_1
- 28
-MDRP[rp0,rnd,white]
+ 23
+ 50
+MIRP[rp0,min,rnd,black]
 PUSHB_2
- 24
- 16
+ 37
+ 1
+CALL
+PUSHB_1
+ 54
+SMD
+PUSHW_2
+ 10098
+ -12902
+SPVFS
+SFVTCA[y-axis]
+PUSHB_1
+ 32
+MDAP[no-rnd]
+SFVTPV
+PUSHB_1
+ 31
+MDRP[grey]
+PUSHB_2
+ 1
+ 84
+MIRP[rp0,min,black]
+PUSHB_1
+ 2
+MDRP[grey]
+SVTCA[y-axis]
+PUSHB_4
+ 1
+ 2
+ 31
+ 32
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+SVTCA[x-axis]
+PUSHB_3
+ 1
+ 2
+ 31
+MDAP[no-rnd]
+MDAP[no-rnd]
+MDAP[no-rnd]
+PUSHB_1
+ 64
+SMD
+SVTCA[x-axis]
+PUSHB_2
+ 9
+ 32
 SRP1
 SRP2
 PUSHB_2
- 12
- 6
+ 20
+ 25
 IP
+IP
+PUSHB_1
+ 23
+SRP1
+PUSHB_1
+ 21
 IP
 SVTCA[y-axis]
 PUSHB_2
- 22
- 12
+ 30
+ 7
 SRP1
 SRP2
-PUSHB_2
- 14
- 15
-IP
+PUSHB_1
+ 0
 IP
 PUSHB_1
- 26
+ 4
 SRP1
 PUSHB_1
+ 5
+IP
+PUSHB_1
+ 11
+SRP2
+PUSHB_3
  9
+ 22
+ 23
+IP
+IP
 IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 321 752 basechar 0
 AnchorPoint: "DblMark" 595 762 basechar 0
 AnchorPoint: "Yerik" 440 742 basechar 0
 AnchorPoint: "CyrTopCap" 320 752 basechar 0
@@ -50870,36 +50917,40 @@ SplineSet
  274 0 l 25
  35 0 l 25
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
-35.1562 0 m 25,0,-1
- 35.1562 29.2969 l 1,1,-1
- 85.9375 29.2969 l 1,2,-1
- 85.9375 500.488 l 2,3,4
- 85.9375 597.656 85.9375 597.656 152.588 653.32 c 128,-1,5
- 219.238 708.984 219.238 708.984 323.242 708.984 c 0,6,7
- 433.594 708.984 433.594 708.984 496.582 653.32 c 128,-1,8
- 559.57 597.656 559.57 597.656 559.57 500 c 0,9,10
- 559.57 413.086 559.57 413.086 502.197 354.98 c 128,-1,11
- 444.824 296.875 444.824 296.875 359.375 296.875 c 0,12,13
- 275.391 296.875 275.391 296.875 227.539 335.938 c 1,14,-1
- 223.633 333.008 l 1,15,-1
- 223.633 29.2969 l 1,16,-1
- 274.414 29.2969 l 1,17,-1
- 274.414 0 l 1,18,-1
- 35.1562 0 l 25,0,-1
-223.633 507.812 m 128,-1,20
- 223.633 421.387 223.633 421.387 243.652 378.662 c 128,-1,21
- 263.672 335.938 263.672 335.938 313.477 335.938 c 128,-1,22
- 363.281 335.938 363.281 335.938 383.301 378.662 c 128,-1,23
- 403.32 421.387 403.32 421.387 403.32 507.812 c 128,-1,24
- 403.32 594.238 403.32 594.238 383.301 636.963 c 128,-1,25
- 363.281 679.688 363.281 679.688 313.477 679.688 c 128,-1,26
- 263.672 679.688 263.672 679.688 243.652 636.963 c 128,-1,19
- 223.633 594.238 223.633 594.238 223.633 507.812 c 128,-1,20
+224 380 m 17,0,-1
+ 226 379 l 1,1,-1
+ 272 415 l 2,2,3
+ 277 419 277 419 285.5 419 c 128,-1,4
+ 294 419 294 419 300 411 c 0,5,6
+ 330 372 330 372 357 372 c 0,7,8
+ 423 372 423 372 423 513 c 0,9,10
+ 423 681 423 681 327 681 c 0,11,12
+ 278 681 278 681 251 641 c 128,-1,13
+ 224 601 224 601 224 522 c 2,14,-1
+ 224 380 l 17,0,-1
+35 0 m 25,15,-1
+ 35 29 l 1,16,-1
+ 86 29 l 1,17,-1
+ 86 463 l 2,18,19
+ 86 569 86 569 160 639.5 c 128,-1,20
+ 234 710 234 710 337.5 710 c 128,-1,21
+ 441 710 441 710 500.5 650.5 c 128,-1,22
+ 560 591 560 591 560 511 c 128,-1,23
+ 560 431 560 431 514 380 c 128,-1,24
+ 468 329 468 329 393 329 c 0,25,26
+ 365 329 365 329 343 337.5 c 128,-1,27
+ 321 346 321 346 313 353.5 c 128,-1,28
+ 305 361 305 361 294.5 372.5 c 128,-1,29
+ 284 384 284 384 279.5 384 c 128,-1,30
+ 275 384 275 384 268 378 c 2,31,-1
+ 224 345 l 1,32,-1
+ 224 29 l 1,33,-1
+ 274 29 l 1,34,-1
+ 274 0 l 1,35,-1
+ 35 0 l 25,15,-1
 EndSplineSet
-Validated: 19457
 EndChar
 
 StartChar: afii10035
@@ -50994,6 +51045,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 346 752 basechar 0
 AnchorPoint: "DblMark" 691 762 basechar 0
 AnchorPoint: "Yerik" 500 742 basechar 0
 AnchorPoint: "CyrTopCap" 345 752 basechar 0
@@ -51023,7 +51075,6 @@ SplineSet
  593 111 495 -17 343 -17 c 0
  166 -17 55 147 55 347 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -51169,6 +51220,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 353 752 basechar 0
 AnchorPoint: "DblMark" 708 762 basechar 0
 AnchorPoint: "Yerik" 522 742 basechar 0
 AnchorPoint: "CyrTopCap" 354 752 basechar 0
@@ -51201,7 +51253,6 @@ SplineSet
  72 522 50 616 23 669 c 0
  21 673 18 682 18 687 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 17.5781 686.523 m 0,0,1
@@ -51473,7 +51524,6 @@ SplineSet
  84 664 l 1
  33 664 l 1xd0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 33.2031 664.062 m 1,0,-1
@@ -51717,6 +51767,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 427 752 basechar 0
 AnchorPoint: "DblMark" 854 762 basechar 0
 AnchorPoint: "Yerik" 660 742 basechar 0
 AnchorPoint: "CyrTopCap" 427 752 basechar 0
@@ -51765,7 +51816,6 @@ SplineSet
  539 568 496 551 496 488 c 2
  496 219 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 353.516 m 128,-1,1
@@ -52134,6 +52184,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 365 752 basechar 0
 AnchorPoint: "DblMark" 693 762 basechar 0
 AnchorPoint: "Yerik" 516 742 basechar 0
 AnchorPoint: "CyrTopCap" 366 752 basechar 0
@@ -52173,7 +52224,6 @@ SplineSet
  198 0 l 1
  31 0 l 1xc0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 31.25 0 m 1,0,-1
@@ -52382,6 +52432,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 346 752 basechar 0
 AnchorPoint: "DblMark" 728 762 basechar 0
 AnchorPoint: "Yerik" 529 742 basechar 0
 AnchorPoint: "CyrTopCap" 348 752 basechar 0
@@ -52416,7 +52467,6 @@ SplineSet
  572 -22 536 0 494 0 c 10
  47 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -52610,6 +52660,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 307 752 basechar 0
 AnchorPoint: "DblMark" 632 762 basechar 0
 AnchorPoint: "Yerik" 445 742 basechar 0
 AnchorPoint: "CyrTopCap" 306 752 basechar 0
@@ -52643,7 +52694,6 @@ SplineSet
  74 664 l 1
  23 664 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 23.4375 664.062 m 1,0,-1
@@ -52848,6 +52898,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 488 752 basechar 0
 AnchorPoint: "DblMark" 974 762 basechar 0
 AnchorPoint: "Yerik" 652 742 basechar 0
 AnchorPoint: "CyrTopCap" 487 752 basechar 0
@@ -52884,7 +52935,6 @@ SplineSet
  927 0 l 1
  47 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -53164,6 +53214,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 488 752 basechar 0
 AnchorPoint: "DblMark" 974 762 basechar 0
 AnchorPoint: "Yerik" 652 742 basechar 0
 AnchorPoint: "CyrTopCap" 487 752 basechar 0
@@ -53215,7 +53266,6 @@ SplineSet
  473 -5 467 0 454 0 c 2
  47 0 l 1xe6
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -53397,6 +53447,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 373 752 basechar 0
 AnchorPoint: "DblMark" 809 762 basechar 0
 AnchorPoint: "Yerik" 574 742 basechar 0
 AnchorPoint: "CyrTopCap" 374 752 basechar 0
@@ -53436,7 +53487,6 @@ SplineSet
  447 368 l 1
  447 29 l 1
 EndSplineSet
-Validated: 19489
 Layer: 2
 SplineSet
 13.6719 686.523 m 0,0,1
@@ -53492,6 +53542,7 @@ VWidth: 0
 Flags: HW
 HStem: 0 29<47 98 235 428 622 673 811 861> 664 29<47 98 235 286 622 673 811 861>
 VStem: 98 138<29 368 397 664> 430 132<30 296> 673 138<29 664>
+AnchorPoint: "TopCap" 460 752 basechar 0
 AnchorPoint: "DblMark" 908 762 basechar 0
 AnchorPoint: "Yerik" 661 742 basechar 0
 AnchorPoint: "CyrTopCap" 460 752 basechar 0
@@ -53499,7 +53550,6 @@ LayerCount: 3
 Fore
 Refer: 41 73 N 1 0 0 1 575 0 2
 Refer: 410 1068 N 1 0 0 1 0 0 2
-Validated: 32769
 Layer: 2
 Refer: 41 73 N 1 0 0 1 575.195 0 2
 Refer: 410 1068 N 1 0 0 1 0 0 2
@@ -53620,6 +53670,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 173 753 basechar 0
 AnchorPoint: "DblMark" 597 762 basechar 0
 AnchorPoint: "Yerik" 367 742 basechar 0
 AnchorPoint: "CyrTopCap" 173 752 basechar 0
@@ -53653,7 +53704,6 @@ SplineSet
  235 368 l 1
  235 29 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -53908,6 +53958,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 356 752 basechar 0
 AnchorPoint: "DblMark" 700 762 basechar 0
 AnchorPoint: "Yerik" 502 742 basechar 0
 AnchorPoint: "CyrTopCap" 358 752 basechar 0
@@ -53946,7 +53997,6 @@ SplineSet
  154 -29 137 -43 113 -43 c 0
  76 -43 40 1 27 28 c 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 27.3438 28.3203 m 1,0,1
@@ -54188,6 +54238,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 477 752 basechar 0
 AnchorPoint: "DblMark" 973 762 basechar 0
 AnchorPoint: "Yerik" 696 742 basechar 0
 AnchorPoint: "CyrTopCap" 475 752 basechar 0
@@ -54222,7 +54273,6 @@ SplineSet
  556 682 498 638 498 543 c 2
  498 151 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -54454,6 +54504,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 372 752 basechar 0
 AnchorPoint: "Yerik" 484 742 basechar 0
 AnchorPoint: "CyrTopCap" 371 752 basechar 0
 LayerCount: 3
@@ -54490,7 +54541,6 @@ SplineSet
  338 664 l 2
  273 664 228 660 228 522 c 0xec
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 25.3906 0 m 1,0,-1
@@ -61405,6 +61455,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 133 792 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -61439,7 +61490,6 @@ SplineSet
  7 566 l 2
  3 566 -2 569 -2 574 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 -1.95312 574.219 m 0,0,1
@@ -62141,7 +62191,6 @@ LayerCount: 3
 Fore
 Refer: 795 -1 N 1 0 0 1 2 0 2
 Refer: 804 57589 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 795 -1 N 1 0 0 1 1.95312 0 2
 Refer: 804 57589 N 1 0 0 1 0 0 3
@@ -62412,6 +62461,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 294 538 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -62451,7 +62501,6 @@ SplineSet
  483 212 469 215 460 215 c 0
  432 215 412 204 412 190 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 42.9688 25.8789 m 0,0,1
@@ -62786,6 +62835,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 257 538 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -62822,7 +62872,6 @@ SplineSet
  463 215 458 211 458 197 c 2
  458 44 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 74.2188 0 m 1,0,-1
@@ -63511,6 +63560,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 525 752 basechar 0
 AnchorPoint: "DblMark" 1007 762 basechar 0
 AnchorPoint: "Yerik" 739 742 basechar 0
 AnchorPoint: "CyrTopCap" 526 752 basechar 0
@@ -63555,7 +63605,6 @@ SplineSet
  452 42 381 -15 311 -15 c 0
  153 -15 64 207 64 378 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 64.4531 377.93 m 0,0,1
@@ -64064,7 +64113,6 @@ SplineSet
  408 356 l 1
  408 29 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 13.6719 686.523 m 0,0,1
@@ -64331,6 +64379,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 307 792 basechar 0
 AnchorPoint: "Kamora" 308 750 basechar 0
 AnchorPoint: "Grave" 162 547 basechar 0
 AnchorPoint: "Acute" 453 557 basechar 0
@@ -64381,7 +64430,6 @@ SplineSet
  366 215 358 211 358 197 c 2
  358 44 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 41.0156 274.414 m 1,0,1
@@ -64657,6 +64705,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 476 752 basechar 0
 AnchorPoint: "DblMark" 942 762 basechar 0
 AnchorPoint: "Yerik" 689 742 basechar 0
 AnchorPoint: "CyrTopCap" 477 752 basechar 0
@@ -64710,7 +64759,6 @@ SplineSet
  286 0 l 1
  47 0 l 1x6a60
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -65401,6 +65449,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 438 752 basechar 0
 AnchorPoint: "CyrTopCap" 439 752 basechar 0
 AnchorPoint: "Yerik" 636 742 basechar 0
 AnchorPoint: "DblMark" 832 762 basechar 0
@@ -65456,7 +65505,6 @@ SplineSet
  379 559 345 501 308 448 c 0
  285 414 258 375 237 329 c 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 11.7188 0 m 1,0,-1
@@ -66183,6 +66231,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 494 752 basechar 0
 AnchorPoint: "DblMark" 1141 762 basechar 0
 AnchorPoint: "Yerik" 806 742 basechar 0
 AnchorPoint: "CyrTopCap" 494 752 basechar 0
@@ -66254,7 +66303,6 @@ SplineSet
  286 0 l 1
  47 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 545.898 329.102 m 1,0,1
@@ -66962,6 +67010,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 474 752 basechar 0
 AnchorPoint: "DblMark" 901 762 basechar 0
 AnchorPoint: "Yerik" 676 742 basechar 0
 AnchorPoint: "CyrTopCap" 471 752 basechar 0
@@ -67014,7 +67063,6 @@ SplineSet
  310 664 l 26
  301 664 292 661 292 650 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 19.5312 0 m 1,0,-1
@@ -67743,6 +67791,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 642 752 basechar 0
 AnchorPoint: "DblMark" 1203 762 basechar 0
 AnchorPoint: "Yerik" 913 742 basechar 0
 AnchorPoint: "CyrTopCap" 643 752 basechar 0
@@ -67810,7 +67859,6 @@ SplineSet
  612 664 l 2
  603 664 594 661 594 650 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -68648,6 +68696,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 318 890 basechar 0
 AnchorPoint: "Yerik" 569 742 basechar 0
 AnchorPoint: "CyrTopCap" 319 890 basechar 0
 LayerCount: 3
@@ -68705,7 +68754,6 @@ SplineSet
  318 -189 264 -231 209 -231 c 0
  116 -231 35 -165 35 -69 c 0xf788
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 35.1562 -68.8477 m 0,0,1
@@ -69152,6 +69200,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 279 628 basechar 0
 AnchorPoint: "DblMark" 604 628 basechar 0
 AnchorPoint: "Yerik" 502 518 basechar 0
 AnchorPoint: "CyrMark" 280 628 basechar 0
@@ -69210,7 +69259,6 @@ SplineSet
  262 -217 216 -246 170 -246 c 0
  95 -246 37 -189 37 -116 c 0xfe20
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 37.1094 -116.211 m 0,0,1
@@ -69513,6 +69561,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 436 890 basechar 0
 AnchorPoint: "Yerik" 685 742 basechar 0
 AnchorPoint: "CyrTopCap" 438 890 basechar 0
 LayerCount: 3
@@ -69526,7 +69575,7 @@ SplineSet
  369 817 l 1
  318 817 l 1
  318 847 l 1
- 558 847 l 5
+ 558 847 l 1
  558 817 l 1
  507 817 l 1
  507 240 l 1
@@ -69553,7 +69602,6 @@ SplineSet
  86 662 83 664 70 664 c 2
  32 664 l 9xdc
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 32.2266 664.062 m 9,0,-1
@@ -69983,6 +70031,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 351 672 basechar 0
 AnchorPoint: "DblMark" 867 537 basechar 0
 AnchorPoint: "Yerik" 576 518 basechar 0
 AnchorPoint: "CyrMark" 354 670 basechar 0
@@ -70022,7 +70071,6 @@ SplineSet
  305 0 l 1
  170 0 l 2xe8
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 169.922 0 m 2,0,1
@@ -70210,6 +70258,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 319 753 basechar 0
 AnchorPoint: "DblMark" 643 762 basechar 0
 AnchorPoint: "Yerik" 465 742 basechar 0
 AnchorPoint: "CyrTopCap" 321 752 basechar 0
@@ -70244,7 +70293,6 @@ SplineSet
  247 682 189 638 189 542 c 2
  189 357 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 33.2031 347.168 m 128,-1,1
@@ -70445,6 +70493,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 311 538 basechar 0
 AnchorPoint: "Yerik" 454 518 basechar 0
 AnchorPoint: "CyrMark" 311 537 basechar 0
 LayerCount: 3
@@ -70483,7 +70532,6 @@ SplineSet
  400 239 364 309 307 309 c 0
  250 309 213 239 213 169 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 15.625 18.5547 m 0,0,1
@@ -70736,6 +70784,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 402 752 basechar 0
 AnchorPoint: "DblMark" 745 762 basechar 0
 AnchorPoint: "Yerik" 569 742 basechar 0
 AnchorPoint: "CyrTopCap" 402 752 basechar 0
@@ -70764,7 +70813,6 @@ SplineSet
  84 664 l 1
  33 664 l 1xa0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 33.2031 664.062 m 1,0,-1
@@ -71202,7 +71250,6 @@ LayerCount: 3
 Fore
 Refer: 699 63187 N 1 0 0 1 188 0 2
 Refer: 482 1140 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 699 63187 N 1 0 0 1 187.5 0 2
 Refer: 482 1140 N 1 0 0 1 0 0 3
@@ -71234,6 +71281,7 @@ Flags: HW
 HStem: -288 10<871 891> -17 29<278 407> 0 29<923 942> 368 108<1068 1147> 456 10<719 753> 682 29<278 407>
 VStem: 55 156<206 488> 475 156<206 488>
 DStem2: 823 416 726 345 0.259743 -0.965678<-50.0977 405.546> 942 0 982 -33 0.105453 0.994424<-147.626 0 29.5969 330.868>
+AnchorPoint: "Top" 938 544 basechar 0
 AnchorPoint: "Yerik" 1067 518 basechar 0
 AnchorPoint: "CyrMark" 935 537 basechar 0
 AnchorPoint: "Grave" 935 547 basechar 0
@@ -71435,6 +71483,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 682 750 basechar 0
 AnchorPoint: "DblMark" 1082 762 basechar 0
 AnchorPoint: "Yerik" 854 742 basechar 0
 AnchorPoint: "CyrTopCap" 682 752 basechar 0
@@ -71468,7 +71517,6 @@ SplineSet
  435 676 408 682 384 682 c 0
  231 682 211 540 211 347 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -72793,13 +72841,13 @@ VWidth: 0
 Flags: HW
 HStem: -15 29<285 374 606 696> 246 30<369 412 568 611> 677 29<269 342 639 711> 753 149<281 302 434 546 678 700> 878 24<329 433 548 652>
 VStem: 60 156<209 492> 350 110<548 643> 412 156<54 246> 434 112<747 878> 521 110<548 643> 765 156<209 492>
+AnchorPoint: "TopCap" 494 946 basechar 0
 AnchorPoint: "DblMark" 980 958 basechar 0
 AnchorPoint: "Yerik" 852 742 basechar 0
 LayerCount: 3
 Fore
 Refer: 625 42572 N 1 0 0 1 0 0 3
 Refer: 828 -1 N 1 0 0 1 275 0 2
-Validated: 32769
 Layer: 2
 Refer: 625 42572 N 1 0 0 1 0 0 3
 Refer: 828 -1 N 1 0 0 1 275.391 0 2
@@ -72813,6 +72861,7 @@ VWidth: 0
 Flags: HW
 HStem: -14 90<221 286 487 555> 461 10<145 167 405 428 658 681> 506 161<319 431> 638 29<193 319 431 541>
 VStem: 51 115<195 445> 313 115<215 445> 319 112<508 638> 567 129<355 440>
+AnchorPoint: "Top" 375 706 basechar 0
 AnchorPoint: "DblMark" 723 705 basechar 0
 AnchorPoint: "Yerik" 743 518 basechar 0
 AnchorPoint: "Grave" 22 547 basechar 0
@@ -72996,6 +73045,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 346 752 basechar 0
 AnchorPoint: "DblMark" 691 762 basechar 0
 AnchorPoint: "Yerik" 500 742 basechar 0
 AnchorPoint: "CyrTopCap" 345 752 basechar 0
@@ -73031,7 +73081,6 @@ SplineSet
  424 -7 385 -17 343 -17 c 0
  166 -17 55 147 55 347 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -73215,6 +73264,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 288 538 basechar 0
 AnchorPoint: "Yerik" 418 518 basechar 0
 AnchorPoint: "CyrMark" 289 537 basechar 0
 LayerCount: 3
@@ -73239,7 +73289,6 @@ SplineSet
  259 103 l 17
  146 103 40 148 40 284 c 0xf0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 40.0391 284.18 m 0,0,1
@@ -76286,6 +76335,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 174 752 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -76309,7 +76359,6 @@ SplineSet
  286 0 l 25
  47 0 l 17
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 17,0,-1
@@ -76417,6 +76466,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 233 538 basechar 0
 AnchorPoint: "Yerik" 237 518 basechar 0
 LayerCount: 3
 Fore
@@ -76437,7 +76487,6 @@ SplineSet
  170 -3 151 -5 130 -5 c 0
  109 -5 91 -3 74 0 c 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 74.2188 0 m 1,0,-1
@@ -76670,6 +76719,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 408 752 basechar 0
 AnchorPoint: "DblMark" 923 762 basechar 0
 AnchorPoint: "Yerik" 659 742 basechar 0
 AnchorPoint: "CyrTopCap" 408 752 basechar 0
@@ -76712,7 +76762,6 @@ SplineSet
  286 0 l 1
  47 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -76910,6 +76959,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 337 538 basechar 0
 AnchorPoint: "Yerik" 504 518 basechar 0
 AnchorPoint: "CyrMark" 339 537 basechar 0
 LayerCount: 3
@@ -76943,7 +76993,6 @@ SplineSet
  170 -3 151 -5 130 -5 c 0
  109 -5 91 -3 74 0 c 1
 EndSplineSet
-Validated: 19489
 Layer: 2
 SplineSet
 74.2188 0 m 1,0,-1
@@ -76996,7 +77045,6 @@ LayerCount: 3
 Fore
 Refer: 697 63185 N 1 0 0 1 250 0 2
 Refer: 388 1046 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 697 63185 N 1 0 0 1 250 0 2
 Refer: 388 1046 N 1 0 0 1 0 0 3
@@ -77032,7 +77080,6 @@ LayerCount: 3
 Fore
 Refer: 697 63185 N 1 0 0 1 232 0 2
 Refer: 382 1040 N 1 0 0 1 0 0 3
-Validated: 32769
 Layer: 2
 Refer: 697 63185 N 1 0 0 1 232.422 0 2
 Refer: 382 1040 N 1 0 0 1 0 0 3
@@ -77242,6 +77289,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 326 752 basechar 0
 AnchorPoint: "CyrTopCap" 326 752 basechar 0
 AnchorPoint: "Yerik" 487 742 basechar 0
 AnchorPoint: "DblMark" 645 762 basechar 0
@@ -77276,7 +77324,6 @@ SplineSet
  602 52 495 -15 328 -15 c 0
  215 -15 63 20 63 166 c 0xb9
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 63.4766 165.527 m 0,0,1
@@ -80202,8 +80249,8 @@ StartChar: uni203E
 Encoding: 8254 8254 551
 Width: 585
 VWidth: 1014
-Flags: HW
-HStem: 865 60<-12 598>
+Flags: W
+HStem: 865 60<-12.0348 597.811>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_1
@@ -91505,6 +91552,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 329 752 basechar 0
 AnchorPoint: "DblMark" 596 762 basechar 0
 AnchorPoint: "Yerik" 451 742 basechar 0
 AnchorPoint: "CyrTopCap" 327 752 basechar 0
@@ -91539,7 +91587,6 @@ SplineSet
  280 0 148 0 73 0 c 0
  63 0 57 0 57 9 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 56.6406 8.78906 m 0,0,1
@@ -91767,6 +91814,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 241 537 basechar 0
 AnchorPoint: "Yerik" 348 518 basechar 0
 AnchorPoint: "CyrMark" 241 537 basechar 0
 LayerCount: 3
@@ -91799,7 +91847,6 @@ SplineSet
  75 357 60 388 42 422 c 0
  39 428 37 437 37 442 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 37.1094 441.895 m 0,0,1
@@ -92091,6 +92138,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 327 752 basechar 0
 AnchorPoint: "DblMark" 596 762 basechar 0
 AnchorPoint: "Yerik" 456 742 basechar 0
 AnchorPoint: "CyrTopCap" 327 752 basechar 0
@@ -92134,7 +92182,6 @@ SplineSet
  280 0 148 0 73 0 c 0
  63 0 57 0 57 9 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 56.6406 8.78906 m 0,0,1
@@ -92422,6 +92469,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 241 537 basechar 0
 AnchorPoint: "Yerik" 353 518 basechar 0
 AnchorPoint: "CyrMark" 241 537 basechar 0
 LayerCount: 3
@@ -92462,7 +92510,6 @@ SplineSet
  75 357 60 388 42 422 c 0
  39 428 37 437 37 442 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 37.1094 441.895 m 0,0,1
@@ -92662,6 +92709,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 321 752 basechar 0
 AnchorPoint: "DblMark" 627 762 basechar 0
 LayerCount: 3
 Fore
@@ -92684,7 +92732,6 @@ SplineSet
  606 57 492 -15 325 -15 c 0
  186 -15 45 13 45 167 c 0xe4
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 44.9219 166.504 m 0,0,1
@@ -92892,6 +92939,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 250 537 basechar 0
 AnchorPoint: "Yerik" 355 518 basechar 0
 AnchorPoint: "CyrMark" 250 537 basechar 0
 LayerCount: 3
@@ -92918,7 +92966,6 @@ SplineSet
  460 25 350 -14 260 -14 c 0
  149 -14 39 10 39 117 c 0xe8
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 39.0625 116.699 m 0,0,1
@@ -93056,6 +93103,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 162 746 basechar 0
 AnchorPoint: "DblMark" 459 762 basechar 0
 AnchorPoint: "Yerik" 162 742 basechar 0
 AnchorPoint: "CyrTopCap" 162 752 basechar 0
@@ -93077,7 +93125,6 @@ SplineSet
  90 664 l 25
  39 664 l 25
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 39.0625 664.062 m 25,0,-1
@@ -93159,6 +93206,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 139 538 basechar 0
 AnchorPoint: "Yerik" 141 518 basechar 0
 AnchorPoint: "CyrMark" 141 537 basechar 0
 AnchorPoint: "Grave" 141 547 basechar 0
@@ -93178,7 +93226,6 @@ SplineSet
  343 19 279 -12 202 -12 c 0
  126 -12 74 36 74 124 c 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 74.2188 123.535 m 2,0,-1
@@ -93393,6 +93440,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 372 872 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -93429,7 +93477,6 @@ SplineSet
  261 0 l 1
  21 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 21.4844 0 m 1,0,-1
@@ -93623,6 +93670,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 299 796 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -93654,7 +93702,6 @@ SplineSet
  142 -1 120 -5 81 -5 c 0
  31 -5 18 -4 18 39 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 17.5781 39.0625 m 0,0,1
@@ -94056,6 +94103,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 412 752 basechar 0
 AnchorPoint: "DblMark" 728 762 basechar 0
 AnchorPoint: "Yerik" 560 742 basechar 0
 AnchorPoint: "CyrTopCap" 413 752 basechar 0
@@ -94099,7 +94147,6 @@ SplineSet
  372 277 361 277 355 277 c 0
  241 277 148 227 148 145 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 33.2031 144.531 m 128,-1,1
@@ -94829,6 +94876,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 488 752 basechar 0
 AnchorPoint: "DblMark" 980 762 basechar 0
 AnchorPoint: "Yerik" 706 742 basechar 0
 AnchorPoint: "CyrTopCap" 490 752 basechar 0
@@ -94872,7 +94920,6 @@ SplineSet
  441 13 403 -15 342 -15 c 0
  154 -15 60 171 60 349 c 0xf3
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 59.5703 348.633 m 0,0,1
@@ -95401,6 +95448,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 312 752 basechar 0
 AnchorPoint: "Yerik" 508 742 basechar 0
 AnchorPoint: "CyrTopCap" 313 752 basechar 0
 LayerCount: 3
@@ -95438,7 +95486,6 @@ SplineSet
  376 368 l 1
  376 29 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 17.5781 559.082 m 0,0,1
@@ -95753,6 +95800,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 235 538 basechar 0
 AnchorPoint: "Yerik" 398 518 basechar 0
 AnchorPoint: "CyrMark" 236 537 basechar 0
 AnchorPoint: "Grave" 236 547 basechar 0
@@ -95791,7 +95839,6 @@ SplineSet
  289 215 284 211 284 197 c 2
  284 44 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 11.7188 357.91 m 0,0,1
@@ -95848,6 +95895,7 @@ VWidth: 0
 Flags: HW
 HStem: 0 29<259 310 447 639 834 885 1022 1073> 468 10<84 89> 664 29<195 310 447 498 834 885 1022 1073>
 VStem: 310 138<29 368 397 664> 642 132<30 296> 885 138<29 664>
+AnchorPoint: "TopCap" 650 752 basechar 0
 AnchorPoint: "DblMark" 1120 762 basechar 0
 AnchorPoint: "Yerik" 862 742 basechar 0
 AnchorPoint: "CyrTopCap" 650 752 basechar 0
@@ -95855,7 +95903,6 @@ LayerCount: 3
 Fore
 Refer: 41 73 N 1 0 0 1 787 0 2
 Refer: 408 1066 N 1 0 0 1 0 0 2
-Validated: 32769
 Layer: 2
 Refer: 41 73 N 1 0 0 1 787.109 0 2
 Refer: 408 1066 N 1 0 0 1 0 0 2
@@ -96130,6 +96177,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 318 752 basechar 0
 AnchorPoint: "Yerik" 820 742 basechar 0
 AnchorPoint: "CyrTopCap" 319 752 basechar 0
 LayerCount: 3
@@ -96195,7 +96243,6 @@ SplineSet
  707 356 l 1
  707 29 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -96276,7 +96323,7 @@ StartChar: uniA653
 Encoding: 42579 42579 632
 Width: 849
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 29<544.007 686.915> 215 29<187 432 544.454 611.221> 321 147<286.543 319.229 676.771 709.457> 433 29<358.775 431.996 544.015 637.225> 740 20G<507 528>
 VStem: 74 113<-3.09409 215 244 457.482> 432 112<29.0476 214.539 244.004 431.693 462 731.496> 687 127<9.5 78.2281>
 TtInstrs:
@@ -96485,6 +96532,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 487 786 basechar 0
 AnchorPoint: "Kamora" 493 750 basechar 0
 AnchorPoint: "Grave" 367 547 basechar 0
 AnchorPoint: "Acute" 639 557 basechar 0
@@ -96546,7 +96594,6 @@ SplineSet
  551 215 544 211 544 197 c 2
  544 44 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 74.2188 0 m 1,0,-1
@@ -96795,6 +96842,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 508 752 basechar 0
 AnchorPoint: "DblMark" 973 762 basechar 0
 AnchorPoint: "Yerik" 716 742 basechar 0
 AnchorPoint: "CyrTopCap" 506 752 basechar 0
@@ -96829,7 +96877,6 @@ SplineSet
  269 682 211 638 211 543 c 2
  211 151 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -97021,6 +97068,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 269 538 basechar 0
 AnchorPoint: "Yerik" 365 518 basechar 0
 AnchorPoint: "CyrMark" 270 537 basechar 0
 AnchorPoint: "Grave" 270 547 basechar 0
@@ -97051,7 +97099,6 @@ SplineSet
  238 287 202 339 155 339 c 0
  108 339 72 287 72 230 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 37.1094 235.352 m 0,0,1
@@ -97434,6 +97481,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 462 752 basechar 0
 AnchorPoint: "DblMark" 927 762 basechar 0
 AnchorPoint: "Yerik" 671 742 basechar 0
 AnchorPoint: "CyrTopCap" 463 752 basechar 0
@@ -97505,7 +97553,6 @@ SplineSet
  519 514 483 487 451 440 c 0
  424 400 415 351 415 321 c 0xec80
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -98135,6 +98182,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 442 752 basechar 0
 AnchorPoint: "DblMark" 832 762 basechar 0
 AnchorPoint: "Yerik" 636 742 basechar 0
 AnchorPoint: "CyrTopCap" 439 752 basechar 0
@@ -98180,7 +98228,6 @@ SplineSet
  379 559 345 501 308 448 c 0
  276 401 238 344 216 272 c 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 195.801 136.23 m 0,0,1
@@ -98500,6 +98547,7 @@ Flags: HW
 HStem: 0 29<12 49 200 251 369 420 558 608 727 777 928 966> 396 31<525 565> 664 29<336 759>
 VStem: 48 152<29 131> 420 138<29 202> 759 70<647 684> 777 152<29 131>
 DStem2: 528 438 389 416 0.696194 -0.717854<-284.688 -80.7588> 560 435 584 417 0.694646 0.719351<4.65347 294.76>
+AnchorPoint: "TopCap" 507 752 basechar 0
 AnchorPoint: "DblMark" 978 762 basechar 0
 AnchorPoint: "Yerik" 737 742 basechar 0
 AnchorPoint: "CyrTopCap" 509 752 basechar 0
@@ -98559,7 +98607,6 @@ SplineSet
  354 664 l 2
  345 664 336 660 336 649 c 0
 EndSplineSet
-Validated: 3073
 Layer: 2
 SplineSet
 11.7188 0 m 1,0,-1
@@ -99327,6 +99374,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 496 752 basechar 0
 AnchorPoint: "DblMark" 1141 762 basechar 0
 AnchorPoint: "Yerik" 806 742 basechar 0
 AnchorPoint: "CyrTopCap" 494 752 basechar 0
@@ -99388,7 +99436,6 @@ SplineSet
  649 219 583 225 516 239 c 1
  509 207 504 173 504 136 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 524.414 272.461 m 1,0,1
@@ -100118,6 +100165,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 458 752 basechar 0
 AnchorPoint: "DblMark" 917 762 basechar 0
 AnchorPoint: "Yerik" 681 742 basechar 0
 AnchorPoint: "CyrTopCap" 458 752 basechar 0
@@ -100166,7 +100214,6 @@ SplineSet
  249 0 l 1
  14 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 13.6719 0 m 1,0,-1
@@ -100588,6 +100635,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 346 752 basechar 0
 AnchorPoint: "DblMark" 704 762 basechar 0
 LayerCount: 3
 Fore
@@ -100618,7 +100666,6 @@ SplineSet
  47 -180 l 1
  47 -150 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 -150.391 m 1,0,-1
@@ -100733,6 +100780,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 268 538 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -100754,7 +100802,6 @@ SplineSet
  170 -206 151 -208 130 -208 c 0
  109 -208 91 -206 74 -203 c 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 74.2188 -203.125 m 1,0,-1
@@ -100997,6 +101044,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 426 752 basechar 0
 AnchorPoint: "DblMark" 743 762 basechar 0
 AnchorPoint: "Yerik" 573 742 basechar 0
 AnchorPoint: "CyrTopCap" 426 752 basechar 0
@@ -101040,7 +101088,6 @@ SplineSet
  299 556 l 1
  153 29 l 17
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 11.7188 19.5312 m 0,0,1
@@ -101258,6 +101305,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 377 538 basechar 0
 AnchorPoint: "Yerik" 488 518 basechar 0
 AnchorPoint: "CyrMark" 375 537 basechar 0
 LayerCount: 3
@@ -101308,7 +101356,6 @@ SplineSet
  265 327 l 17
  232 233 186 122 144 33 c 9
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 7.8125 16.1133 m 0,0,1
@@ -101606,6 +101653,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 446 752 basechar 0
 AnchorPoint: "DblMark" 787 762 basechar 0
 AnchorPoint: "Yerik" 610 742 basechar 0
 AnchorPoint: "CyrTopCap" 448 752 basechar 0
@@ -101645,7 +101693,6 @@ SplineSet
  267 0 l 1
  27 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 27.3438 0 m 1,0,-1
@@ -101921,6 +101968,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 377 538 basechar 0
 AnchorPoint: "Yerik" 483 518 basechar 0
 AnchorPoint: "CyrMark" 378 537 basechar 0
 LayerCount: 3
@@ -101960,7 +102008,6 @@ SplineSet
  64 0 l 2
  51 0 43 6 43 26 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 42.9688 25.8789 m 0,0,1
@@ -102384,6 +102431,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 638 752 basechar 0
 AnchorPoint: "DblMark" 1129 762 basechar 0
 AnchorPoint: "Yerik" 874 742 basechar 0
 AnchorPoint: "CyrTopCap" 635 752 basechar 0
@@ -102443,7 +102491,6 @@ SplineSet
  267 0 l 1
  27 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 27.3438 0 m 1,0,-1
@@ -102826,6 +102873,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 484 538 basechar 0
 AnchorPoint: "Yerik" 661 518 basechar 0
 AnchorPoint: "CyrMark" 483 537 basechar 0
 LayerCount: 3
@@ -102881,7 +102929,6 @@ SplineSet
  69 0 l 2
  50 0 45 28 45 51 c 0xd8
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 44.9219 51.2695 m 0,0,1
@@ -103082,6 +103129,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 397 751 basechar 0
 AnchorPoint: "DblMark" 797 762 basechar 0
 AnchorPoint: "Yerik" 570 742 basechar 0
 AnchorPoint: "CyrTopCap" 398 752 basechar 0
@@ -103104,7 +103152,6 @@ SplineSet
  477 304 441 269 398 269 c 0
  355 269 320 304 320 347 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -103588,6 +103635,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 682 752 basechar 0
 AnchorPoint: "DblMark" 1082 762 basechar 0
 AnchorPoint: "Yerik" 854 742 basechar 0
 AnchorPoint: "CyrTopCap" 682 752 basechar 0
@@ -103631,7 +103679,6 @@ SplineSet
  766 304 731 269 688 269 c 0
  645 269 609 304 609 347 c 0x24c0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -104227,6 +104274,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 664 752 basechar 0
 AnchorPoint: "DblMark" 1328 762 basechar 0
 AnchorPoint: "Yerik" 969 742 basechar 0
 AnchorPoint: "CyrTopCap" 664 752 basechar 0
@@ -104265,7 +104313,6 @@ SplineSet
  1008 304 973 269 930 269 c 0
  887 269 852 304 852 347 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -111243,6 +111290,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 552 752 basechar 0
 AnchorPoint: "DblMark" 1105 762 basechar 0
 AnchorPoint: "Yerik" 802 742 basechar 0
 AnchorPoint: "CyrTopCap" 553 752 basechar 0
@@ -111275,7 +111323,6 @@ SplineSet
  689 682 631 638 631 543 c 2
  631 151 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -111439,6 +111486,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 413 538 basechar 0
 AnchorPoint: "Yerik" 595 518 basechar 0
 AnchorPoint: "CyrMark" 417 537 basechar 0
 AnchorPoint: "Grave" 417 547 basechar 0
@@ -111484,7 +111532,6 @@ SplineSet
  497 394 479 381 460 363 c 0
  442 346 435 321 435 292 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 35.1562 214.844 m 0,0,1
@@ -111748,6 +111795,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 680 752 basechar 0
 AnchorPoint: "DblMark" 1082 762 basechar 0
 AnchorPoint: "Yerik" 854 742 basechar 0
 AnchorPoint: "CyrTopCap" 682 752 basechar 0
@@ -111792,7 +111840,6 @@ SplineSet
  622 630 596 600 562 591 c 1
  562 368 l 1xfb
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 54.6875 347.168 m 128,-1,1
@@ -111979,6 +112026,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 553 530 basechar 0
 AnchorPoint: "Yerik" 649 518 basechar 0
 AnchorPoint: "CyrMark" 555 537 basechar 0
 AnchorPoint: "Grave" 555 547 basechar 0
@@ -112016,7 +112064,6 @@ SplineSet
  449 416 430 398 406 392 c 1
  406 248 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 33.2031 230.957 m 128,-1,1
@@ -118529,7 +118576,6 @@ Fore
 Refer: 625 42572 N 1 0 0 1 0 0 3
 Refer: 828 -1 N 1 0 0 1 295 0 2
 Refer: 694 63182 N 1 0 0 1 -39 0 2
-Validated: 32769
 Layer: 2
 Refer: 625 42572 N 1 0 0 1 0 0 3
 Refer: 828 -1 N 1 0 0 1 294.922 0 2
@@ -118551,12 +118597,12 @@ Fore
 Refer: 625 42572 N 1 0 0 1 0 0 3
 Refer: 828 -1 N 1 0 0 1 256 0 2
 Refer: 691 63177 N 1 0 0 1 590 0 2
-Validated: 32769
 Layer: 2
 Refer: 625 42572 N 1 0 0 1 0 0 3
 Refer: 828 -1 N 1 0 0 1 255.859 0 2
 Refer: 691 63177 N 1 0 0 1 589.844 0 2
 Validated: 32769
+LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni047E acutecomb
 EndChar
 
@@ -119229,11 +119275,11 @@ LayerCount: 3
 Fore
 Refer: 818 -1 N 1 0 0 1 -4 0 2
 Refer: 576 11744 N 1 0 0 1 0 0 2
-Validated: 32769
 Layer: 2
 Refer: 818 -1 N 1 0 0 1 -3.90625 0 2
 Refer: 576 11744 N 1 0 0 1 0 0 2
 Validated: 32769
+LCarets2: 1 0 
 Ligature2: "'ccmp' Simple Glyph Composition-1" uni2DE0 uni0487
 Colour: ffff00
 EndChar
@@ -120742,6 +120788,7 @@ Flags: HW
 HStem: -290 10<883 904> -17 29<278 407> 0 43<955 975> 600 111<1148 1239> 664 29<616 667 805 856> 682 29<278 407>
 VStem: 55 156<206 488> 475 156<206 488>
 DStem2: 805 664 667 664 0.233103 -0.972452<0 638.813> 983 43 1029 92 0.185938 0.982561<0 568.75>
+AnchorPoint: "TopCap" 996 752 basechar 0
 AnchorPoint: "DblMark" 1328 762 basechar 0
 AnchorPoint: "Yerik" 1146 742 basechar 0
 AnchorPoint: "CyrTopCap" 996 752 basechar 0
@@ -120749,7 +120796,6 @@ LayerCount: 3
 Fore
 Refer: 401 1059 N 1 0 0 1 583 0 2
 Refer: 396 1054 N 1 0 0 1 0 0 2
-Validated: 32769
 Layer: 2
 Refer: 401 1059 N 1 0 0 1 583.008 0 2
 Refer: 396 1054 N 1 0 0 1 0 0 2
@@ -123779,6 +123825,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 217 538 basechar 0
 AnchorPoint: "Yerik" 245 518 basechar 0
 AnchorPoint: "Acute" 217 557 basechar 0
 AnchorPoint: "Grave" 217 547 basechar 0
@@ -123798,7 +123845,6 @@ SplineSet
  273 -217 193 -292 105 -292 c 0
  25 -292 -28 -260 -28 -234 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 -28.3203 -233.887 m 0,0,1
@@ -124321,6 +124367,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 341 752 basechar 0
 AnchorPoint: "DblMark" 786 762 basechar 0
 AnchorPoint: "Yerik" 538 742 basechar 0
 AnchorPoint: "CyrTopCap" 341 752 basechar 0
@@ -124372,7 +124419,6 @@ SplineSet
  408 356 l 1
  408 29 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 13.6719 628.906 m 0,0,1
@@ -124758,7 +124804,7 @@ StartChar: uniA64B.low
 Encoding: 57572 57572 812
 Width: 479
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: -18 30<187.941 300.877> 266 113<219 278>
 VStem: 27 107<428.5 556.5> 78 50<58.3068 198.158> 352 80<84.2283 180.346> 421 46<505.59 584.649>
 TtInstrs:
@@ -125006,7 +125052,7 @@ StartChar: uniA653.low
 Encoding: 57584 57584 813
 Width: 849
 VWidth: 0
-Flags: W
+Flags: HW
 HStem: 0 29<544.007 686.915> 215 29<187 432 544.454 611.221> 321 147<286.543 319.229 676.771 709.457> 433 29<358.775 431.996 544.015 637.225>
 VStem: 74 113<-3.09409 215 244 457.482> 432 112<29.0476 214.539 244.004 431.693 462 504.482> 687 127<9.5 78.2281>
 TtInstrs:
@@ -125858,6 +125904,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 486 752 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -125897,7 +125944,6 @@ SplineSet
  852 -22 815 0 773 0 c 10
  47 0 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 46.875 0 m 1,0,-1
@@ -126094,6 +126140,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 421 538 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -126126,7 +126173,6 @@ SplineSet
  102 0 l 18
  81 0 74 9 74 41 c 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 74.2188 41.0156 m 2,0,-1
@@ -126587,6 +126633,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "TopCap" 359 752 basechar 0
 AnchorPoint: "DblMark" 718 762 basechar 0
 AnchorPoint: "Yerik" 526 742 basechar 0
 AnchorPoint: "CyrTopCap" 359 752 basechar 0
@@ -126620,7 +126667,6 @@ SplineSet
  74 664 l 1
  23 664 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 23.4375 664.062 m 1,0,-1
@@ -126770,6 +126816,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 257 538 basechar 0
 AnchorPoint: "Yerik" 364 518 basechar 0
 AnchorPoint: "CyrMark" 257 537 basechar 0
 LayerCount: 3
@@ -126795,7 +126842,6 @@ SplineSet
  201 180 200 184 190 185 c 0
  98 200 43 248 43 344 c 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 42.9688 344.238 m 2,0,-1
@@ -126984,6 +127030,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 257 538 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -127014,7 +127061,6 @@ SplineSet
  77 351 69 374 54 398 c 0
  48 408 37 428 37 442 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 37.1094 441.895 m 0,0,1
@@ -128393,6 +128439,7 @@ SVTCA[y-axis]
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 407 538 basechar 0
 AnchorPoint: "Yerik" 574 518 basechar 0
 AnchorPoint: "CyrMark" 408 537 basechar 0
 LayerCount: 3
@@ -128421,7 +128468,6 @@ SplineSet
  170 -3 151 -5 130 -5 c 0
  109 -5 91 -3 74 0 c 9
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 74.2188 0 m 9,0,-1
@@ -129626,6 +129672,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 279 538 basechar 0
 AnchorPoint: "Yerik" 412 518 basechar 0
 AnchorPoint: "CyrMark" 280 537 basechar 0
 LayerCount: 3
@@ -129666,7 +129713,6 @@ SplineSet
  249 317 l 17
  226 235 185 124 148 33 c 9
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 7.8125 16.1133 m 0,0,1
@@ -129860,6 +129906,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 213 537 basechar 0
 AnchorPoint: "Yerik" 324 518 basechar 0
 AnchorPoint: "CyrMark" 212 537 basechar 0
 LayerCount: 3
@@ -129893,7 +129940,6 @@ SplineSet
  236 201 228 202 218 202 c 0
  198 202 171 199 153 189 c 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 24.4141 40.0391 m 2,0,-1
@@ -130070,6 +130116,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 281 543 basechar 0
 AnchorPoint: "Yerik" 488 493 basechar 0
 AnchorPoint: "CyrMark" 282 543 basechar 0
 LayerCount: 3
@@ -130092,7 +130139,6 @@ SplineSet
  382 416 334 440 283 440 c 1
  192 431 156 373 156 209 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 156.25 217.773 m 0,0,1
@@ -130203,6 +130249,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 132 766 basechar 0
 AnchorPoint: "Yerik" 258 749 basechar 0
 AnchorPoint: "CyrMark" 132 768 basechar 0
 LayerCount: 3
@@ -130231,7 +130278,6 @@ SplineSet
  -149 700 -85 693 -61 693 c 2
  209 693 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 -168.945 699.707 m 1,0,-1
@@ -130501,6 +130547,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 103 778 basechar 0
 AnchorPoint: "Yerik" 271 518 basechar 0
 AnchorPoint: "CyrMark" 103 769 basechar 0
 AnchorPoint: "Grave" 103 779 basechar 0
@@ -130539,7 +130586,6 @@ SplineSet
  166 215 161 211 161 197 c 2
  161 44 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 -110.352 541.016 m 0,0,1
@@ -130777,6 +130823,7 @@ IP
 IUP[y]
 IUP[x]
 EndTTInstrs
+AnchorPoint: "Top" 107 896 basechar 0
 AnchorPoint: "Kamora" 107 869 basechar 0
 AnchorPoint: "Grave" -38 764 basechar 0
 AnchorPoint: "Acute" 253 773 basechar 0
@@ -130826,7 +130873,6 @@ SplineSet
  165 215 158 211 158 197 c 2
  158 44 l 2
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 347.168 699.219 m 1,0,1
