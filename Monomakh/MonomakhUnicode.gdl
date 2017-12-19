@@ -19,7 +19,7 @@
 #define opt4(a) [a [a [a [a]? ]? ]? ]?
 #define attDone user1
 #define attDigit user2
-#define MAXGLYPH 853
+#define MAXGLYPH 854
 
 AutoPseudo = false;
 Bidi = false;
@@ -1114,6 +1114,7 @@ g0487_narrow = glyphid(850);
 g2dee_047e_uni = glyphid(851);
 g2dee_047f_uni = glyphid(852);
 g0487_wide = glyphid(853);
+gf0023 = glyphid(854) {CyrTopCapM = point(-113m, 505m); VzmetS = point(-122m, 807m); CyrMarkM = point(-113m, 515m)};
 
 /*********************************************************************
 /*                     Class Definitions                             *
@@ -1145,7 +1146,7 @@ g0487_wide = glyphid(853);
         g0308_gravecomb_cyrcap g0308_acutecomb_cyrcap g_brevecmb_cyrl g0307_cyrl
         g0308_cyrl g0308_gravecomb_cyrl g0308_acutecomb_cyrl g_acutecomb_high
         g_circumflexcmb_high ga66f_large g0487_narrow g2de3_small g2de4_small
-        g2de5_small g2de8_small g2dee_small g0487_wide g1dc0 g1dc1 );
+        g2de5_small g2de8_small g2dee_small g0487_wide g1dc0 g1dc1 gf0023);
 
     clsBotMarks = ( g_dotbelowcomb g0326 g0327 g0328 g032f );
     clsDoubleMarks = ( g0360 g0361 );
@@ -1338,7 +1339,7 @@ g0487_wide = glyphid(853);
     g_afii10093_connecting, g_iogonek_dotless );
     clsapHighMark_mark = ( g_acutecomb_high g_circumflexcmb_high );
     clsapHighMark_base = ( g_g g_h g_l g_w g_z );
-    clsapCyrMark_mark = ( g_macroncmb g030f g0311 g0483 g0485 g0486 g2de0 g2de1 g2de2 g2de3 g2de4 g2de5 g2de6 g2de7 g2de8 g2de9 g2dea g2deb g2dec g2ded g2dee g2def g2df0 g2df1 g2df2 g2df3 g2df4 g2df5 g2df6 g2df7 g2df8 g2df9 g2dfa g2dfb g2dfc g2dfd g2dfe g2dff ga66f ga674 ga675 ga676 ga677 ga678 ga679 ga67a ga67b ga67c ga67d ga69f g0485_gravecomb g0485_acutecomb g0486_gravecomb g0486_acutecomb g0486_0311_ g2de0_0487_uni g2de1_0487_uni g2de2_0487_uni g2de3_0487_uni g2de4_0487_uni g2de5_0487_uni g2de6_0487_uni g2de7_0487_uni g2de8_0487_uni g2de9_0487_uni g2dea_0487_uni g2deb_0487_uni g2dec_0487_uni g2ded_0487_uni g2dee_0487_uni g2def_0487_uni g2df0_0487_uni g2df1_0487_uni g2df2_0487_uni g2df3_0487_uni g2df4_0487_uni g2df6_0487_uni g2df7_0487_uni g2df8_0487_uni g2df9_0487_uni g2dfa_0487_uni g2dfb_0487_uni g2dfc_0487_uni g2dfd_0487_uni g2dfe_0487_uni g2dff_0487_uni ga674_0487_uni ga675_0487_uni ga676_0487_uni ga677_0487_uni ga678_0487_uni ga679_0487_uni ga67a_0487_uni ga67b_0487_uni ga69f_0487_uni g_brevecmb_cyrl g0307_cyrl g0308_cyrl g0308_gravecomb_cyrl g0308_acutecomb_cyrl g2de3_small g2de4_small g2de5_small g2de8_small g2dee_small );
+    clsapCyrMark_mark = ( g_macroncmb g030f g0311 g0483 g0485 g0486 g2de0 g2de1 g2de2 g2de3 g2de4 g2de5 g2de6 g2de7 g2de8 g2de9 g2dea g2deb g2dec g2ded g2dee g2def g2df0 g2df1 g2df2 g2df3 g2df4 g2df5 g2df6 g2df7 g2df8 g2df9 g2dfa g2dfb g2dfc g2dfd g2dfe g2dff ga66f ga674 ga675 ga676 ga677 ga678 ga679 ga67a ga67b ga67c ga67d ga69f g0485_gravecomb g0485_acutecomb g0486_gravecomb g0486_acutecomb g0486_0311_ g2de0_0487_uni g2de1_0487_uni g2de2_0487_uni g2de3_0487_uni g2de4_0487_uni g2de5_0487_uni g2de6_0487_uni g2de7_0487_uni g2de8_0487_uni g2de9_0487_uni g2dea_0487_uni g2deb_0487_uni g2dec_0487_uni g2ded_0487_uni g2dee_0487_uni g2def_0487_uni g2df0_0487_uni g2df1_0487_uni g2df2_0487_uni g2df3_0487_uni g2df4_0487_uni g2df6_0487_uni g2df7_0487_uni g2df8_0487_uni g2df9_0487_uni g2dfa_0487_uni g2dfb_0487_uni g2dfc_0487_uni g2dfd_0487_uni g2dfe_0487_uni g2dff_0487_uni ga674_0487_uni ga675_0487_uni ga676_0487_uni ga677_0487_uni ga678_0487_uni ga679_0487_uni ga67a_0487_uni ga67b_0487_uni ga69f_0487_uni g_brevecmb_cyrl g0307_cyrl g0308_cyrl g0308_gravecomb_cyrl g0308_acutecomb_cyrl g2de3_small g2de4_small g2de5_small g2de8_small g2dee_small gf0023);
     clsapCyrMark_base = ( g_afii10065, g_afii10066, g_afii10067, g_afii10068, g_afii10069, g_afii10070, g_afii10072, g_afii10073,
     g_afii10074, g_afii10076, g_afii10077, g_afii10078, g_afii10079, g_afii10080, g_afii10081, g_afii10082,
     g_afii10083, g_afii10084, g_afii10085, g_afii10086, g_afii10087, g_afii10088, g_afii10089, g_afii10090,
@@ -1384,7 +1385,7 @@ g0487_wide = glyphid(853);
     ga64c, ga650, ga654, ga656, ga658, ga65a, ga65c, ga65e,
     ga660, ga662, ga664, ga666, ga668, ga66a, ga66c, ga698,
     ga69a, ga64b_low, g_afii10146_low, g0478_cap, g_afii10041_old );
-    clsapCyrTopCap_mark = ( g0483 g2de0 g2de1 g2de2 g2de3 g2de4 g2de5 g2de6 g2de7 g2de8 g2de9 g2dea g2deb g2dec g2ded g2dee g2def g2df0 g2df1 g2df2 g2df3 g2df4 g2df5 g2df6 g2df7 g2df8 g2df9 g2dfa g2dfb g2dfc g2dfd g2dfe g2dff ga66f ga674 ga675 ga676 ga677 ga678 ga679 ga67a ga67b ga67c ga67d ga69f g2de0_0487_uni g2de1_0487_uni g2de2_0487_uni g2de3_0487_uni g2de4_0487_uni g2de5_0487_uni g2de6_0487_uni g2de7_0487_uni g2de8_0487_uni g2de9_0487_uni g2dea_0487_uni g2deb_0487_uni g2dec_0487_uni g2ded_0487_uni g2dee_0487_uni g2def_0487_uni g2df0_0487_uni g2df1_0487_uni g2df2_0487_uni g2df3_0487_uni g2df4_0487_uni g2df6_0487_uni g2df7_0487_uni g2df8_0487_uni g2df9_0487_uni g2dfa_0487_uni g2dfb_0487_uni g2dfc_0487_uni g2dfd_0487_uni g2dfe_0487_uni g2dff_0487_uni ga674_0487_uni ga675_0487_uni ga676_0487_uni ga677_0487_uni ga678_0487_uni ga679_0487_uni ga67a_0487_uni ga67b_0487_uni ga69f_0487_uni g_gravecomb_cap g_acutecomb_cap g_macroncmb_cap g030f_cap g0311_cap g0485_cap g0486_cap g0485_gravecomb_cap g0485_acutecomb_cap g0486_gravecomb_cap g0486_acutecomb_cap g_brevecmb_cyrcap g0308_cyrcap g0308_gravecomb_cyrcap g0308_acutecomb_cyrcap g0307_cyrl g2de3_small g2de4_small g2de5_small g2de8_small g2dee_small );
+    clsapCyrTopCap_mark = ( g0483 g2de0 g2de1 g2de2 g2de3 g2de4 g2de5 g2de6 g2de7 g2de8 g2de9 g2dea g2deb g2dec g2ded g2dee g2def g2df0 g2df1 g2df2 g2df3 g2df4 g2df5 g2df6 g2df7 g2df8 g2df9 g2dfa g2dfb g2dfc g2dfd g2dfe g2dff ga66f ga674 ga675 ga676 ga677 ga678 ga679 ga67a ga67b ga67c ga67d ga69f g2de0_0487_uni g2de1_0487_uni g2de2_0487_uni g2de3_0487_uni g2de4_0487_uni g2de5_0487_uni g2de6_0487_uni g2de7_0487_uni g2de8_0487_uni g2de9_0487_uni g2dea_0487_uni g2deb_0487_uni g2dec_0487_uni g2ded_0487_uni g2dee_0487_uni g2def_0487_uni g2df0_0487_uni g2df1_0487_uni g2df2_0487_uni g2df3_0487_uni g2df4_0487_uni g2df6_0487_uni g2df7_0487_uni g2df8_0487_uni g2df9_0487_uni g2dfa_0487_uni g2dfb_0487_uni g2dfc_0487_uni g2dfd_0487_uni g2dfe_0487_uni g2dff_0487_uni ga674_0487_uni ga675_0487_uni ga676_0487_uni ga677_0487_uni ga678_0487_uni ga679_0487_uni ga67a_0487_uni ga67b_0487_uni ga69f_0487_uni g_gravecomb_cap g_acutecomb_cap g_macroncmb_cap g030f_cap g0311_cap g0485_cap g0486_cap g0485_gravecomb_cap g0485_acutecomb_cap g0486_gravecomb_cap g0486_acutecomb_cap g_brevecmb_cyrcap g0308_cyrcap g0308_gravecomb_cyrcap g0308_acutecomb_cyrcap g0307_cyrl g2de3_small g2de4_small g2de5_small g2de8_small g2dee_small gf0023);
     clsapCyrTopCap_base = ( g_afii10053, g_afii10054, g_afii10055, g_afii10145, g_afii10017, g_afii10018, g_afii10019, g_afii10020,
     g_afii10021, g_afii10022, g_afii10024, g_afii10025, g_afii10026, g_afii10028, g_afii10029, g_afii10030,
     g_afii10031, g_afii10032, g_afii10033, g_afii10034, g_afii10035, g_afii10036, g_afii10038, g_afii10039,
