@@ -4,7 +4,7 @@ FullName: Ponomar Unicode
 FamilyName: Ponomar Unicode
 Weight: Book
 Copyright: Copyright 2011-2017 Aleksandr Andreev, Yuri Shardt and Nikita Simmons.\n\nPreviously known as HirmosPonomar. This font is part of the Ponomar Project and is licensed under the same license as Ponomar itself or under the SIL Open Font License, at your choosing. See http://www.ponomar.net/ for details.
-FontLog: "Based on Hirmos UCS. Copyright (c) Vladislav V. Dorosh, Calmius Software, 2007-2008. All rights reserved. Used with permission.+AAoACgAK-Converted to Unicode 5.1 Yuri Shardt, as part of the Ponomar Project. +AAoACgAA-Additional characters, including the Typicon Symbols, added by Yuri Shardt in 2009 to 2011.+AAoACgAA-Additional help in correcting some of the characters was provided by Nikita Simmons in 2011, 2012.+AAoACgAA-Additional revisions by Aleksandr Andreev in 2012, including kerning support and other fine tuning.+AAoACgAA-Additional revisions by Nikita Simmons.+AAoACgAA-Renamed to Ponomar Unicode in 2015 and released." 
+FontLog: "Based on Hirmos UCS. Copyright (c) Vladislav V. Dorosh, Calmius Software, 2007-2008. All rights reserved. Used with permission.+AAoACgAK-Converted to Unicode 5.1 Yuri Shardt, as part of the Ponomar Project. +AAoACgAA-Additional characters, including the Typicon Symbols, added by Yuri Shardt in 2009 to 2011.+AAoACgAA-Additional help in correcting some of the characters was provided by Nikita Simmons in 2011, 2012.+AAoACgAA-Additional revisions by Aleksandr Andreev in 2012, including kerning support and other fine tuning.+AAoACgAA-Additional revisions by Nikita Simmons.+AAoACgAA-Renamed to Ponomar Unicode in 2015 and released."
 Version: 1.2
 DefaultBaseFilename: PonomarUnicode
 ItalicAngle: 0
@@ -12,19 +12,20 @@ UnderlinePosition: -39
 UnderlineWidth: 7
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 woffMajor: 1
 woffMinor: 0
 LayerCount: 3
-Layer: 0 0 "Back"  1
-Layer: 1 0 "Fore"  0
-Layer: 2 1 "TTFLayer"  0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+Layer: 2 1 "TTFLayer" 0
 XUID: [1021 300 1517649419 16006353]
 FSType: 0
 OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1492357759
+ModificationTime: 1552818561
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -57,41 +58,41 @@ OS2StrikeYPos: 250
 OS2Vendor: 'calm'
 OS2CodePages: 00000005.00000000
 OS2UnicodeRanges: 800002e3.1200c044.00000000.00000000
-Lookup: 4 0 0 "Precomposed Latin forms"  {"Precomposed Latin forms-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'ENG ' 'dflt' > ) ]
-Lookup: 4 0 0 "Cyrillic Glyph Composition/Decomposition"  {"Cyrillic Glyph Composition/Decomposition-1"  "Cyrillic Canonical Equivalents"  "Cyrillic Precomposed Forms"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Contextual Substitution - Capitalization"  {"Contextual Substitution - Capitalization-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Contextual Substitution - Uk at right"  {"Contextual Substitution - Uk at right-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Contextual Substitution - Uk with Pokrytie"  {"Contextual Substitution - Uk with Pokrytie-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Contextual Substitution - Yat with Psili"  {"Contextual Substitution - Yat with Psili-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Contextual Substitution - Soft Dot Removal"  {"Contextual Substitution - Soft Dot Removal-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "Short Form below Multiple Titlo Substitution"  {"Short Form below Multiple Titlo Substitution-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 6 0 "'ccmp' Double Titlos"  {"'ccmp' Double Titlos-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 0 "Cyrillic ZWJ-based Ligatures"  {"Cyrillic ZWJ-based Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 3 0 0 "'salt' Stylistic Alternatives"  {"'salt' Stylistic Alternatives-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss01' Cyrillic Hyphenation Char"  {"'ss01' Cyrillic Hyphenation Char-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'BEL ' 'KAZ ' 'KHA ' 'KOP ' 'KOZ ' 'RSY ' 'UKR ' 'dflt' > 'geor' <'dflt' > 'latn' <'AFK ' 'DAN ' 'DEU ' 'ENG ' 'ESP ' 'FRA ' 'HUN ' 'IRI ' 'ITA ' 'NLD ' 'NOR ' 'PTG ' 'SVE ' 'dflt' > ) ]
-Lookup: 1 0 0 "'ss02' Latin Blackletter chars"  {"'ss02' Latin Blackletter chars-1"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 0 "'liga' Standard Ligatures in Latin lookup 20"  {"'liga' Standard Ligatures in Latin lookup 20-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 19"  {"'locl' Localized Forms in Latin lookup 19-1"  } ['locl' ('latn' <'AFK ' 'DAN ' 'DEU ' 'ENG ' 'ESP ' 'FRA ' 'HUN ' 'IRI ' 'ITA ' 'NLD ' 'NOR ' 'PTG ' 'SVE ' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic"  {"'locl' Localized Forms in Cyrillic-1"  } ['locl' ('cyrl' <'BEL ' 'KAZ ' 'KHA ' 'KOP ' 'KOZ ' 'RSY ' 'UKR ' > ) ]
-Lookup: 1 0 0 "Short Yat Substitution"  {"Short Yat Substitution-1"  } []
-Lookup: 1 0 0 "Uk Short Substitution"  {"Uk Short Substitution-1"  } []
-Lookup: 1 0 0 "Uk Short From Left Substitution"  {"Uk Short From Left Substitution-1"  } []
-Lookup: 1 0 0 "Above Capitals Substitution"  {"Above Capitals Substitution-1"  } []
-Lookup: 1 0 0 "Short Forms for Half Titlos"  {"Short Forms for Half Titlos-1"  } []
-Lookup: 1 0 0 "Cyrillic Soft Dot removal"  {"Cyrillic Soft Dot removal-1"  } []
-Lookup: 263 0 0 "'kern' Contextual Numeral Kerning"  {"'kern' Contextual Numeral Kerning-1"  } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 10"  {"'kern' Horizontal Kerning lookup 10-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 11"  {"'kern' Church Slavonic Capital and Lowercase" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 9"  {"'kern' Horizontal Kerning lookup 9-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Slavonic numerals"  {"'mark' Slavonic numerals-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Church Slavonic Diacritics"  {"'mark' Mark Positioning lookup 0 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Left and Right Marks"  {"'mark' Left and Right Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Cyrillic Marks Below"  {"'mark' Cyrillic Marks Below-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 9"  {"'mkmk' Mark to Mark lookup 9-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 257 0 0 "Numeral Kerning"  {"Numeral Kerning-1"  } []
+Lookup: 4 0 0 "Precomposed Latin forms" { "Precomposed Latin forms-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'ENG ' 'dflt' > ) ]
+Lookup: 4 0 0 "Cyrillic Glyph Composition/Decomposition" { "Cyrillic Glyph Composition/Decomposition-1"  "Cyrillic Canonical Equivalents"  "Cyrillic Precomposed Forms"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Contextual Substitution - Capitalization" { "Contextual Substitution - Capitalization-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Contextual Substitution - Uk at right" { "Contextual Substitution - Uk at right-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Contextual Substitution - Uk with Pokrytie" { "Contextual Substitution - Uk with Pokrytie-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Contextual Substitution - Yat with Psili" { "Contextual Substitution - Yat with Psili-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Contextual Substitution - Soft Dot Removal" { "Contextual Substitution - Soft Dot Removal-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "Short Form below Multiple Titlo Substitution" { "Short Form below Multiple Titlo Substitution-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 6 0 "'ccmp' Double Titlos" { "'ccmp' Double Titlos-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Cyrillic ZWJ-based Ligatures" { "Cyrillic ZWJ-based Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 3 0 0 "'salt' Stylistic Alternatives" { "'salt' Stylistic Alternatives-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Cyrillic Hyphenation Char" { "'ss01' Cyrillic Hyphenation Char-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'BEL ' 'KAZ ' 'KHA ' 'KOP ' 'KOZ ' 'RSY ' 'UKR ' 'dflt' > 'geor' <'dflt' > 'latn' <'AFK ' 'DAN ' 'DEU ' 'ENG ' 'ESP ' 'FRA ' 'HUN ' 'IRI ' 'ITA ' 'NLD ' 'NOR ' 'PTG ' 'SVE ' 'dflt' > ) ]
+Lookup: 1 0 0 "'ss02' Latin Blackletter chars" { "'ss02' Latin Blackletter chars-1"  } ['ss02' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'liga' Standard Ligatures in Latin lookup 20" { "'liga' Standard Ligatures in Latin lookup 20-1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 19" { "'locl' Localized Forms in Latin lookup 19-1"  } ['locl' ('latn' <'AFK ' 'DAN ' 'DEU ' 'ENG ' 'ESP ' 'FRA ' 'HUN ' 'IRI ' 'ITA ' 'NLD ' 'NOR ' 'PTG ' 'SVE ' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic" { "'locl' Localized Forms in Cyrillic-1"  } ['locl' ('cyrl' <'BEL ' 'KAZ ' 'KHA ' 'KOP ' 'KOZ ' 'RSY ' 'UKR ' > ) ]
+Lookup: 1 0 0 "Short Yat Substitution" { "Short Yat Substitution-1"  } []
+Lookup: 1 0 0 "Uk Short Substitution" { "Uk Short Substitution-1"  } []
+Lookup: 1 0 0 "Uk Short From Left Substitution" { "Uk Short From Left Substitution-1"  } []
+Lookup: 1 0 0 "Above Capitals Substitution" { "Above Capitals Substitution-1"  } []
+Lookup: 1 0 0 "Short Forms for Half Titlos" { "Short Forms for Half Titlos-1"  } []
+Lookup: 1 0 0 "Cyrillic Soft Dot removal" { "Cyrillic Soft Dot removal-1"  } []
+Lookup: 263 0 0 "'kern' Contextual Numeral Kerning" { "'kern' Contextual Numeral Kerning-1"  } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 10" { "'kern' Horizontal Kerning lookup 10-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 11" { "'kern' Church Slavonic Capital and Lowercase" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 9" { "'kern' Horizontal Kerning lookup 9-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Slavonic numerals" { "'mark' Slavonic numerals-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Church Slavonic Diacritics" { "'mark' Mark Positioning lookup 0 subtable"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Left and Right Marks" { "'mark' Left and Right Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Cyrillic Marks Below" { "'mark' Cyrillic Marks Below-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 9" { "'mkmk' Mark to Mark lookup 9-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 257 0 0 "Numeral Kerning" { "Numeral Kerning-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 34 30 "'kern' Horizontal Kerning lookup 9-1" 
+KernClass2: 34 30 "'kern' Horizontal Kerning lookup 9-1"
  31 uni0430 uni043B uni043C uniA657
  31 uni0431 uni0436 uni043A uni051F
  15 uni0432 uni046B
@@ -155,7 +156,7 @@ KernClass2: 34 30 "'kern' Horizontal Kerning lookup 9-1"
  21 uniA641 uniA641.trunc
  63 uniA64B uniA64B.short uniA64B.short3 uniA64B.short2 uniA64B0311
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} -22 {} -20 {} 0 {} -15 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -3 {} -7 {} 0 {} -3 {} -23 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} -3 {} 0 {} -25 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} 0 {} 0 {} -1 {} 0 {} 0 {} 0 {} -9 {} -10 {} -7 {} 0 {} -15 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} -50 {} 0 {} -25 {} -50 {} 0 {} -37 {} 0 {} -75 {} 0 {} 0 {} 0 {} 0 {} 0 {} -14 {} -42 {} -80 {} 0 {} -34 {} -60 {} 0 {} 0 {} -5 {} 0 {} -75 {} 0 {} -50 {} -17 {} 0 {} -5 {} -75 {} -35 {} -25 {} 0 {} 0 {} -50 {} -25 {} 0 {} 0 {} 0 {} -61 {} 0 {} -50 {} -1 {} -20 {} 0 {} 0 {} -63 {} 0 {} 0 {} -100 {} -50 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} -25 {} -5 {} 0 {} 0 {} -50 {} 0 {} -5 {} 0 {} 0 {} 0 {} -10 {} -16 {} -63 {} 27 {} 0 {} -50 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} -1 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -6 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -75 {} -3 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} -25 {} 0 {} -15 {} 0 {} -21 {} 0 {} -9 {} 0 {} 0 {} 0 {} 0 {} 0 {} -4 {} 0 {} 0 {} -29 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} -3 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -3 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} -25 {} 0 {} 0 {} 0 {} -31 {} 0 {} 0 {} 0 {} -9 {} 0 {} -29 {} 0 {} -8 {} 0 {} -49 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -15 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} -15 {} -13 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -15 {} -4 {} 0 {} -2 {} 0 {} -5 {} 0 {} 0 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} -34 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} -4 {} -9 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} -15 {} 0 {} -75 {} 0 {} -25 {} -9 {} 0 {} -25 {} -50 {} -5 {} -5 {} 0 {} 0 {} -50 {} -20 {} 0 {} 0 {} 0 {} -50 {} 0 {} -50 {} 0 {} -20 {} 0 {} 0 {} -56 {} -1 {} 0 {} -75 {} -50 {} -5 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} -25 {} -25 {} 0 {} -50 {} 0 {} -75 {} -15 {} -25 {} 0 {} 0 {} -15 {} 0 {} 0 {} -5 {} 0 {} 0 {} -56 {} -20 {} 0 {} 0 {} 0 {} -50 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -50 {} 0 {} -5 {} 0 {} 0 {} -15 {} 0 {} 0 {} -5 {} -25 {} -5 {} 0 {} 0 {} 0 {} 0 {} -3 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} -25 {} -10 {} 0 {} -18 {} -25 {} 0 {} -5 {} 0 {} 0 {} 0 {} -5 {} 0 {} -29 {} 40 {} 0 {} -25 {} 5 {} 10 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -5 {} 0 {} -5 {} 0 {} -50 {} -50 {} 0 {} -50 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} -8 {} -15 {} -41 {} 0 {} -21 {} -50 {} 0 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -21 {} -38 {} 0 {} -40 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -34 {} 0 {} 0 {} 0 {} 0 {} -2 {} 0 {} -5 {} 0 {} 0 {} 0 {} -21 {} 0 {} 0 {} 0 {} -13 {} 0 {} -30 {} 0 {} -9 {} 0 {} -38 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1 {} -25 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} -3 {} 0 {} -5 {} 0 {} -20 {} 0 {} -25 {} -35 {} -6 {} -50 {} -1 {} -24 {} -10 {} 0 {} 0 {} 0 {} 0 {} -25 {} -20 {} -35 {} 0 {} -36 {} -45 {} -20 {} -5 {} -20 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} -45 {} -50 {} 0 {} -50 {} 0 {} -75 {} -17 {} -26 {} 0 {} 0 {} -21 {} 0 {} -5 {} 0 {} 0 {} 0 {} -38 {} -10 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -1 {} -5 {} -10 {} 0 {} -30 {} 0 {} -10 {} -8 {} -42 {} 0 {} -2 {} -1 {} 0 {} 0 {} -8 {} 0 {} -3 {} -16 {} -5 {} 0 {} 25 {} 0 {} -50 {} 0 {} -25 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} -23 {} -21 {} 0 {} 0 {} 0 {} -43 {} 0 {} -7 {} 0 {} 0 {} 0 {} 0 {} -38 {} 0 {} 0 {} -100 {} -35 {} -30 {} 0 {} 0 {} 0 {} 0 {} -13 {} 0 {} -25 {} 0 {} -5 {} -7 {} 0 {} 0 {} -14 {} -32 {} 0 {} 0 {} 0 {} -22 {} 0 {} -3 {} -4 {} -21 {} -5 {} -3 {} 0 {} -25 {} 0 {} -15 {} 0 {} -25 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -11 {} 0 {} -25 {} -70 {} 0 {} -50 {} 0 {} -75 {} 0 {} 0 {} 0 {} 0 {} 0 {} -9 {} -41 {} -78 {} 0 {} -24 {} -62 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -9 {} -16 {} 0 {} -37 {} 0 {} 0 {} 0 {} -18 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -9 {} -19 {} 0 {} -10 {} 0 {} -50 {} 0 {} -50 {} -15 {} 0 {} -25 {} -75 {} -25 {} -25 {} 0 {} 0 {} -75 {} -25 {} 0 {} 0 {} 0 {} -69 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} -64 {} -12 {} 0 {} -100 {} -75 {} -25 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -25 {} 0 {} -150 {} -50 {} -25 {} -50 {} -8 {} -75 {} 0 {} -50 {} 0 {} 0 {} 0 {} -5 {} -75 {} -151 {} 0 {} 0 {} -100 {} 0 {} 5 {} -25 {} 0 {} -50 {} 0 {} -50 {} 0 {} 0 {} -20 {} -50 {} -5 {} -25 {} 0 {} 0 {} -75 {} -16 {} 0 {} 0 {} 0 {} -39 {} 0 {} -74 {} 0 {} 0 {} 0 {} 0 {} -44 {} 0 {} 0 {} -100 {} -50 {} -5 {} 0 {} -25 {} 0 {} -25 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} 0 {} -23 {} -22 {} 0 {} 0 {} 0 {} -44 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} -11 {} 0 {} 0 {} -100 {} -20 {} 5 {} 0 {} -50 {} -100 {} -9 {} -50 {} -50 {} 25 {} -50 {} -50 {} 0 {} -75 {} -50 {} -100 {} 0 {} -47 {} -100 {} -50 {} -75 {} -50 {} -25 {} -75 {} -75 {} -75 {} -52 {} -44 {} -4 {} -100 {} 0 {} -5 {} -50 {} 0 {} 0 {} -10 {} -25 {} -16 {} -25 {} -5 {} 0 {} -2 {} 0 {} -25 {} -25 {} -37 {} -35 {} -15 {} -62 {} -50 {} -75 {} -2 {} -16 {} -15 {} 25 {} -9 {} -19 {} 0 {} -50 {} -50 {} -50 {} -40 {} 75 {} 0 {} -1 {} 0 {} -45 {} 0 {} 0 {} 0 {} -17 {} 0 {} 0 {} -25 {} -50 {} 0 {} -28 {} 0 {} -5 {} 0 {} -37 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -35 {} 0 {} 0 {}
-KernClass2: 36 34 "'kern' Horizontal Kerning lookup 10-1" 
+KernClass2: 36 34 "'kern' Horizontal Kerning lookup 10-1"
  11 uni0404.var
  7 uni0405
  7 uni0406
@@ -225,7 +226,7 @@ KernClass2: 36 34 "'kern' Horizontal Kerning lookup 10-1"
  7 uniA640
  31 uniA64C uniA668 uniA66A uniA69A
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -107 {} -45 {} -67 {} -79 {} -75 {} -70 {} -114 {} -36 {} -102 {} -129 {} -127 {} -74 {} -14 {} -15 {} -97 {} -94 {} -53 {} -102 {} -69 {} -60 {} 0 {} 0 {} -35 {} -93 {} -136 {} -65 {} -108 {} 0 {} -84 {} 0 {} -22 {} 0 {} 0 {} -18 {} 0 {} -30 {} -46 {} -11 {} -56 {} -49 {} -60 {} -82 {} -61 {} 0 {} -55 {} -27 {} -49 {} -65 {} -199 {} -102 {} 0 {} -120 {} -165 {} -107 {} -80 {} -30 {} -169 {} -8 {} -10 {} -9 {} -148 {} 0 {} -106 {} -14 {} 0 {} 0 {} 0 {} 0 {} -19 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -26 {} 0 {} 0 {} 0 {} 0 {} -14 {} -27 {} 0 {} 0 {} -33 {} 0 {} 0 {} 0 {} -68 {} -16 {} -52 {} -4 {} 0 {} -34 {} 0 {} -41 {} 0 {} -20 {} -23 {} -8 {} 0 {} -1 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -27 {} -5 {} 0 {} 0 {} 0 {} -16 {} -28 {} 0 {} 0 {} -35 {} 0 {} -9 {} -4 {} -71 {} -17 {} -54 {} -12 {} 0 {} -36 {} 0 {} -44 {} 0 {} -25 {} -27 {} -11 {} 0 {} -19 {} -35 {} 0 {} -27 {} 0 {} 0 {} 0 {} 0 {} -44 {} 0 {} 0 {} 0 {} 0 {} -34 {} -46 {} 0 {} 0 {} -57 {} 0 {} 0 {} 0 {} -50 {} -33 {} -77 {} 0 {} 0 {} -25 {} 0 {} -50 {} 0 {} -39 {} -25 {} -28 {} 0 {} -13 {} -18 {} -1 {} -45 {} 0 {} 0 {} 0 {} 0 {} -81 {} 0 {} 0 {} 0 {} 0 {} -49 {} -64 {} -147 {} -110 {} -31 {} -38 {} -172 {} 0 {} -83 {} -48 {} -231 {} -1 {} 0 {} -42 {} -127 {} -37 {} -101 {} -38 {} -23 {} -26 {} 0 {} -50 {} -20 {} -36 {} -36 {} -5 {} 0 {} 0 {} 0 {} -57 {} 0 {} 0 {} 0 {} 0 {} -67 {} -76 {} -85 {} -87 {} 0 {} -38 {} -106 {} 0 {} -102 {} -29 {} -48 {} 0 {} 0 {} -35 {} -76 {} 0 {} -61 {} -29 {} 0 {} -16 {} 0 {} -96 {} -76 {} 0 {} -13 {} -121 {} 0 {} -61 {} -125 {} -39 {} -53 {} -95 {} -150 {} -150 {} -70 {} -82 {} 0 {} 0 {} -150 {} 0 {} 0 {} -1 {} -71 {} -5 {} -29 {} -150 {} -100 {} -50 {} 0 {} -100 {} 0 {} -74 {} -100 {} -42 {} 0 {} -24 {} -30 {} 0 {} -21 {} 0 {} 0 {} 0 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} -42 {} -53 {} -32 {} -43 {} -69 {} 0 {} -49 {} 0 {} -106 {} -37 {} -75 {} 0 {} 0 {} -14 {} -49 {} -50 {} -34 {} -44 {} -50 {} -33 {} 0 {} 0 {} -50 {} -38 {} -52 {} -50 {} -61 {} -49 {} -75 {} -20 {} -75 {} -115 {} -75 {} -75 {} 0 {} -4 {} -100 {} -75 {} 0 {} -100 {} -92 {} -100 {} -50 {} 0 {} 0 {} -83 {} -95 {} -61 {} -95 {} -50 {} -73 {} 0 {} -48 {} 0 {} 0 {} -99 {} -21 {} 0 {} -55 {} 0 {} -50 {} -50 {} 0 {} -100 {} 0 {} 0 {} -50 {} -50 {} -100 {} -142 {} -75 {} -87 {} -100 {} -50 {} -100 {} -25 {} -100 {} -100 {} -100 {} -50 {} 0 {} -50 {} -89 {} -114 {} -81 {} -116 {} -100 {} -103 {} 0 {} 0 {} -6 {} -24 {} -31 {} -10 {} -44 {} -22 {} -65 {} -30 {} -65 {} -17 {} -61 {} -30 {} -22 {} -34 {} -123 {} -84 {} 0 {} -110 {} -102 {} -97 {} -59 {} -11 {} -58 {} -9 {} -16 {} -17 {} -95 {} 0 {} -69 {} -6 {} 0 {} 0 {} 0 {} -46 {} -27 {} -1 {} -41 {} 0 {} 0 {} -25 {} 0 {} -79 {} 0 {} 0 {} 0 {} 0 {} -76 {} -87 {} -37 {} -49 {} -70 {} -22 {} -62 {} 0 {} -122 {} -60 {} -120 {} -2 {} 0 {} -54 {} -50 {} -66 {} -47 {} -64 {} -25 {} -53 {} 0 {} 0 {} -86 {} -11 {} -21 {} -9 {} -33 {} -18 {} -101 {} 0 {} -108 {} -100 {} -113 {} -66 {} 0 {} 0 {} -125 {} -101 {} 0 {} -140 {} -65 {} -100 {} 0 {} 0 {} -34 {} -45 {} -61 {} -19 {} -100 {} 0 {} -66 {} 0 {} 0 {} 0 {} 0 {} 0 {} -42 {} 0 {} -20 {} -100 {} -24 {} -8 {} -150 {} 0 {} -100 {} -100 {} -175 {} -175 {} 0 {} 0 {} -24 {} -49 {} -100 {} -93 {} -22 {} -66 {} -26 {} 0 {} 0 {} -150 {} -100 {} -91 {} -15 {} -150 {} -3 {} 0 {} -100 {} 0 {} 0 {} 0 {} -99 {} -45 {} -60 {} -57 {} -69 {} -48 {} -134 {} -9 {} -131 {} -157 {} -146 {} -105 {} -3 {} -13 {} -159 {} -134 {} 0 {} -161 {} -122 {} -149 {} -4 {} 0 {} -74 {} -78 {} -92 {} -89 {} -121 {} -23 {} -93 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} 0 {} -50 {} -100 {} -10 {} -134 {} -175 {} -117 {} -97 {} -125 {} -200 {} -200 {} -155 {} -153 {} 0 {} 0 {} -200 {} 0 {} 0 {} -39 {} -100 {} -70 {} -100 {} -200 {} -150 {} -80 {} 0 {} -200 {} 0 {} -146 {} -100 {} -114 {} 0 {} -100 {} -106 {} 0 {} -48 {} -100 {} -25 {} -106 {} -100 {} -98 {} -77 {} -115 {} -150 {} -125 {} -100 {} -73 {} 0 {} 0 {} -150 {} 0 {} 0 {} -42 {} -100 {} -59 {} -75 {} -150 {} -132 {} -100 {} 0 {} -150 {} 0 {} -124 {} -100 {} -99 {} 0 {} 0 {} -100 {} -34 {} -54 {} -21 {} -59 {} -43 {} -126 {} -28 {} -137 {} -100 {} -100 {} -84 {} 0 {} -25 {} -200 {} -100 {} 0 {} -100 {} -100 {} -100 {} 0 {} 0 {} -100 {} -53 {} -87 {} -50 {} -100 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} -100 {} -44 {} 0 {} -33 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} -50 {} -100 {} -100 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} -100 {} -44 {} -48 {} 0 {} 0 {} -75 {} 0 {} -100 {} 0 {} -107 {} -100 {} -50 {} 0 {} -37 {} -25 {} 0 {} -36 {} 0 {} 0 {} 0 {} 0 {} -62 {} 0 {} 0 {} 0 {} 0 {} -56 {} -66 {} -33 {} -48 {} -81 {} -11 {} -54 {} 0 {} -75 {} -50 {} -75 {} 0 {} 0 {} 0 {} -58 {} -75 {} -42 {} -57 {} -50 {} -47 {} 0 {} -96 {} -48 {} 0 {} -70 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} -100 {} -100 {} -135 {} -33 {} -100 {} 0 {} -100 {} -116 {} -150 {} 0 {} 0 {} -75 {} -100 {} -100 {} -100 {} -100 {} -100 {} -100 {} 0 {} -50 {} -15 {} 0 {} -51 {} 0 {} 0 {} 0 {} 0 {} -75 {} 0 {} 0 {} 0 {} 0 {} -63 {} -78 {} -175 {} -138 {} -33 {} -37 {} -150 {} 0 {} -89 {} -56 {} -150 {} 0 {} 0 {} -41 {} -160 {} -35 {} -100 {} -43 {} -21 {} -31 {} 0 {} 0 {} -69 {} -18 {} -23 {} -41 {} -36 {} -21 {} -100 {} 0 {} -115 {} -121 {} -100 {} -109 {} 0 {} 0 {} -59 {} -70 {} -3 {} -105 {} -41 {} -95 {} -30 {} 0 {} 0 {} -91 {} -95 {} -35 {} -48 {} -29 {} -35 {} 0 {} -10 {} 0 {} 0 {} 0 {} -11 {} 0 {} -40 {} 0 {} 0 {} 0 {} 0 {} -48 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -175 {} -117 {} -2 {} -40 {} -203 {} 0 {} -58 {} -6 {} -153 {} 0 {} 0 {} -33 {} -153 {} -28 {} -110 {} 0 {} -9 {} 0 {} 0 {} -23 {} 0 {} 0 {} -42 {} 0 {} 0 {} 0 {} 0 {} -89 {} 0 {} 0 {} 0 {} 0 {} -65 {} -80 {} -200 {} -118 {} -39 {} -34 {} -200 {} 0 {} -116 {} -57 {} -175 {} 0 {} 0 {} -17 {} -171 {} -34 {} -122 {} -45 {} -23 {} -33 {} 0 {} -90 {} -10 {} 0 {} -58 {} 0 {} 0 {} 0 {} 0 {} -140 {} 0 {} 0 {} 0 {} 0 {} -142 {} -154 {} -200 {} -139 {} -127 {} -23 {} -200 {} 0 {} -150 {} -100 {} -200 {} 0 {} 0 {} -47 {} -150 {} -103 {} -100 {} -111 {} -75 {} -100 {} 0 {} 0 {} 0 {} -30 {} -43 {} -10 {} -40 {} -19 {} -10 {} -28 {} -34 {} 0 {} -24 {} -17 {} -11 {} -23 {} -150 {} -99 {} -41 {} -83 {} -111 {} -50 {} -77 {} -20 {} -80 {} -18 {} 0 {} 0 {} -148 {} -37 {} -99 {} -20 {} -90 {} -9 {} 0 {} -75 {} -73 {} 0 {} -18 {} -100 {} 0 {} -59 {} -200 {} -25 {} -43 {} -75 {} -200 {} -200 {} -75 {} -77 {} 0 {} 0 {} -150 {} 0 {} 0 {} 0 {} -47 {} 0 {} -7 {} -150 {} -100 {} -50 {} 0 {} -175 {} 0 {} -75 {} -100 {} -25 {} 0 {} 0 {} 0 {} -27 {} -45 {} -15 {} -52 {} -29 {} -25 {} -76 {} -54 {} 0 {} -51 {} -26 {} -38 {} -54 {} -200 {} -108 {} 0 {} -100 {} -150 {} -75 {} -21 {} -17 {} -200 {} -11 {} -2 {} 0 {} -100 {} 0 {} -113 {} 0 {} 0 {} 0 {} 0 {} -75 {} -70 {} 0 {} -28 {} -100 {} 0 {} -47 {} -150 {} 0 {} -65 {} -104 {} -175 {} -150 {} -67 {} -21 {} 0 {} 0 {} -150 {} 0 {} 0 {} -25 {} -44 {} 0 {} 0 {} -150 {} -100 {} -100 {} 0 {} -150 {} 0 {} -56 {} -100 {} -31 {} 0 {} 0 {} -100 {} -34 {} -65 {} -49 {} -66 {} -64 {} -100 {} 0 {} -100 {} -100 {} -100 {} -100 {} 0 {} 0 {} -200 {} -100 {} 0 {} -150 {} -97 {} -150 {} -47 {} 0 {} -60 {} -100 {} -100 {} -63 {} -150 {} -100 {} -100 {} 0 {} -81 {} 0 {} 0 {} 0 {} -70 {} -14 {} -22 {} -15 {} -34 {} -17 {} -105 {} 0 {} -107 {} -109 {} -113 {} -69 {} 0 {} 0 {} -132 {} -93 {} 0 {} -100 {} -55 {} -121 {} 0 {} 0 {} -19 {} -48 {} -62 {} -22 {} -89 {} 0 {} -58 {} 0 {} 0 {} 0 {} 0 {} -90 {} 0 {} 0 {} -33 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} -100 {} -95 {} -100 {} -11 {} -100 {} 0 {} -100 {} -112 {} -150 {} 0 {} 0 {} 0 {} -100 {} -103 {} -111 {} -108 {} -100 {} -97 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} -93 {} 0 {} -50 {} -100 {} -112 {} -55 {} 0 {} 0 {} -100 {} -65 {} 0 {} -100 {} -17 {} -100 {} 0 {} 0 {} 0 {} -32 {} -55 {} 0 {} -54 {} 0 {} -25 {} 0 {} 0 {} 0 {}
-KernClass2: 30 31 "'kern' Church Slavonic Capital and Lowercase" 
+KernClass2: 30 31 "'kern' Church Slavonic Capital and Lowercase"
  11 uni0404.var
  15 uni0405 uni0417
  15 uni0406 uni0407
@@ -286,7 +287,7 @@ KernClass2: 30 31 "'kern' Church Slavonic Capital and Lowercase"
  21 uniA641 uniA641.trunc
  63 uniA64B uniA64B.short uniA64B.short3 uniA64B.short2 uniA64B0311
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -122 {} 0 {} 0 {} 0 {} 0 {} -151 {} 0 {} 0 {} -58 {} -13 {} -15 {} -91 {} -66 {} 0 {} 0 {} -79 {} 0 {} 0 {} 0 {} 0 {} 0 {} -156 {} -42 {} 0 {} -5 {} 0 {} -98 {} 0 {} 0 {} -10 {} 0 {} -28 {} 0 {} -2 {} -18 {} 0 {} -33 {} 0 {} 0 {} 0 {} -10 {} -34 {} 0 {} -58 {} -62 {} -12 {} -61 {} 0 {} 0 {} 0 {} 0 {} 0 {} -73 {} -59 {} 0 {} 0 {} 0 {} -17 {} -6 {} 0 {} 0 {} 0 {} 0 {} -8 {} 0 {} -42 {} -7 {} 0 {} -14 {} -8 {} -4 {} -17 {} -27 {} -19 {} -48 {} -24 {} -4 {} -53 {} 0 {} 0 {} -12 {} -25 {} -24 {} 0 {} -42 {} -3 {} -33 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -14 {} 0 {} -64 {} -8 {} 0 {} -31 {} -13 {} -25 {} -37 {} -20 {} -36 {} -38 {} -46 {} 0 {} 4 {} 0 {} -3 {} -29 {} -48 {} -39 {} 0 {} -62 {} -20 {} -52 {} -32 {} 0 {} 27 {} 0 {} 0 {} 0 {} 0 {} -7 {} 0 {} -51 {} -4 {} 0 {} -11 {} -8 {} -1 {} -47 {} -54 {} -11 {} -69 {} -64 {} -4 {} -54 {} 0 {} -26 {} -18 {} -28 {} -25 {} 0 {} -77 {} -2 {} -28 {} -20 {} 0 {} -51 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} 0 {} 0 {} 0 {} -44 {} -63 {} -8 {} -87 {} -85 {} 0 {} -54 {} 0 {} 0 {} 0 {} 0 {} -39 {} 0 {} -87 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -100 {} -80 {} -85 {} -75 {} -100 {} -75 {} -124 {} -100 {} -55 {} -106 {} -100 {} -100 {} -100 {} -100 {} -100 {} -100 {} -100 {} -100 {} 13 {} -105 {} -145 {} -75 {} -102 {} -83 {} -100 {} -67 {} -18 {} -74 {} 27 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -26 {} 0 {} 0 {} -35 {} 0 {} 0 {} -46 {} -28 {} -1 {} -39 {} -59 {} 0 {} -10 {} 0 {} 0 {} -31 {} -61 {} 0 {} 0 {} -12 {} -24 {} -59 {} -34 {} 0 {} -4 {} 0 {} -73 {} 0 {} -75 {} 0 {} 0 {} -20 {} 0 {} -75 {} -9 {} 0 {} -35 {} -3 {} -7 {} -52 {} -54 {} 0 {} 0 {} -73 {} 0 {} 0 {} 0 {} 0 {} 0 {} -158 {} -25 {} 0 {} -23 {} 0 {} -87 {} 0 {} 0 {} 0 {} 0 {} 0 {} -11 {} 0 {} -55 {} 0 {} 0 {} -45 {} -8 {} 0 {} -124 {} -99 {} -20 {} -105 {} -176 {} 0 {} -61 {} 0 {} -42 {} -62 {} -117 {} -48 {} 0 {} -124 {} -31 {} -72 {} -61 {} 0 {} -49 {} 0 {} 0 {} 0 {} 0 {} -14 {} 0 {} -82 {} -10 {} 0 {} -25 {} -14 {} -5 {} -71 {} -77 {} -23 {} -87 {} -110 {} -5 {} -72 {} 0 {} -15 {} -37 {} -57 {} -44 {} 0 {} -97 {} -16 {} -48 {} -37 {} 0 {} -13 {} 0 {} -70 {} 0 {} -93 {} 0 {} 0 {} 0 {} 0 {} -95 {} 0 {} 0 {} -7 {} 0 {} 0 {} -45 {} -11 {} 0 {} 0 {} -31 {} 0 {} 0 {} 0 {} 0 {} 0 {} -210 {} 0 {} 0 {} 0 {} 0 {} -60 {} -24 {} 0 {} -207 {} -147 {} -223 {} -151 {} -105 {} -195 {} -86 {} -223 {} -128 {} -92 {} -211 {} -74 {} -82 {} -177 {} -80 {} -104 {} -134 {} -242 {} -167 {} 0 {} -167 {} -133 {} -76 {} -283 {} -115 {} -127 {} -115 {} 0 {} -232 {} 0 {} 0 {} -110 {} 0 {} -108 {} 0 {} 0 {} -10 {} -2 {} -122 {} 0 {} 0 {} -33 {} -22 {} -34 {} -67 {} -85 {} -12 {} 0 {} -76 {} 0 {} 0 {} 0 {} 0 {} 0 {} -130 {} -66 {} 0 {} -13 {} 0 {} -102 {} -21 {} 0 {} -150 {} -125 {} -125 {} -100 {} -170 {} -100 {} -100 {} -175 {} -168 {} -137 {} -150 {} -150 {} -150 {} -150 {} -150 {} -150 {} -150 {} -150 {} -150 {} -43 {} -150 {} -150 {} -150 {} -186 {} -150 {} -150 {} -181 {} -73 {} -162 {} 0 {} 0 {} -141 {} -129 {} -137 {} -135 {} -149 {} -182 {} -119 {} -160 {} -143 {} -133 {} -127 {} -175 {} -195 {} -142 {} -154 {} -206 {} -176 {} -168 {} -162 {} -29 {} -156 {} -158 {} -166 {} -147 {} -124 {} -128 {} -161 {} -74 {} -150 {} 0 {} 0 {} -97 {} 0 {} -118 {} 0 {} 0 {} 0 {} 0 {} -131 {} 0 {} 0 {} -11 {} 0 {} 0 {} -60 {} -34 {} 0 {} 0 {} -50 {} 0 {} -15 {} 0 {} 0 {} 0 {} -243 {} -19 {} 0 {} 0 {} 0 {} -88 {} -82 {} 0 {} 0 {} 0 {} 0 {} -27 {} 0 {} -92 {} -11 {} 0 {} -83 {} -21 {} -9 {} -150 {} -144 {} -65 {} -148 {} -172 {} 0 {} -62 {} 0 {} 0 {} -119 {} -169 {} -87 {} 0 {} -143 {} -83 {} -131 {} -56 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -9 {} 0 {} 0 {} 0 {} 0 {} -49 {} -13 {} 0 {} -59 {} -73 {} -59 {} -40 {} -71 {} 0 {} -45 {} 0 {} -15 {} -45 {} -72 {} 0 {} 0 {} -79 {} -43 {} -72 {} -48 {} 0 {} -17 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -65 {} -10 {} 0 {} -74 {} -20 {} -9 {} -94 {} -103 {} -52 {} -111 {} -131 {} 0 {} -70 {} 0 {} -59 {} -77 {} -125 {} -69 {} 0 {} -127 {} -56 {} -102 {} -83 {} 0 {} -77 {} 0 {} -103 {} -56 {} -118 {} -6 {} 0 {} -43 {} -1 {} -127 {} -14 {} 0 {} -42 {} 0 {} 0 {} -89 {} -29 {} 0 {} 0 {} -57 {} 0 {} 0 {} 0 {} 0 {} -2 {} -233 {} 0 {} 0 {} -29 {} 0 {} -88 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} -4 {} 0 {} 0 {} -24 {} -17 {} -10 {} -53 {} 0 {} 0 {} -28 {} 0 {} -11 {} 0 {} 0 {} 0 {} 0 {} -45 {} 0 {} -20 {} 0 {} 0 {} -39 {} 0 {} 0 {} 0 {} 0 {} -3 {} 0 {} -48 {} 0 {} 0 {} -6 {} -1 {} 0 {} -11 {} -27 {} 0 {} -32 {} -20 {} -16 {} -22 {} -11 {} -11 {} -15 {} -27 {} -15 {} -14 {} -33 {} 0 {} -23 {} -13 {} 0 {} -27 {} 0 {} -184 {} -157 {} -145 {} -162 {} -164 {} -149 {} -94 {} -120 {} -176 {} -58 {} -145 {} -139 {} -98 {} -160 {} -100 {} -161 {} -177 {} -192 {} -142 {} 40 {} -138 {} -197 {} -120 {} -177 {} -103 {} -143 {} -108 {} 0 {} -149 {} 0 {} 0 {} 0 {} 0 {} 16 {} 0 {} 0 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} -13 {} -31 {} 0 {} -60 {} -64 {} 0 {} -15 {} 0 {} -2 {} 0 {} 0 {} 0 {} -33 {} -60 {} 0 {} 0 {} 0 {} 0 {} -26 {} 0 {} -163 {} -100 {} -137 {} -100 {} -100 {} -150 {} -99 {} -150 {} -144 {} -150 {} -150 {} -162 {} -125 {} -155 {} -125 {} -150 {} -170 {} -167 {} -146 {} 27 {} -135 {} -176 {} -107 {} -117 {} -86 {} -125 {} -128 {} -8 {} -139 {} 0 {} 0 {} -100 {} 0 {} -100 {} -10 {} 0 {} -45 {} 0 {} -100 {} -42 {} 0 {} -92 {} 0 {} 0 {} -83 {} -51 {} 0 {} 0 {} -71 {} 0 {} -29 {} 0 {} 0 {} -5 {} -100 {} 0 {} -11 {} -49 {} 0 {} -44 {} -100 {} 0 {} -62 {} 0 {} -91 {} 0 {} 0 {} 0 {} 0 {} -86 {} 0 {} 0 {} -7 {} 0 {} 0 {} -34 {} -17 {} 0 {} 0 {} -38 {} 0 {} 0 {} 0 {} 0 {} 0 {} -125 {} 0 {} 0 {} 0 {} 0 {} -58 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} -50 {} 0 {} -50 {} -70 {} 0 {} -40 {} 0 {} -10 {} -25 {} -20 {} -10 {} 0 {} -50 {} 0 {} -10 {} -10 {} 0 {} -5 {}
-ChainSub2: class "Contextual Substitution - Soft Dot Removal-1"  3 3 3 1
+ChainSub2: class "Contextual Substitution - Soft Dot Removal-1" 3 3 3 1
   Class: 19 uni04560307 uni0458
   Class: 643 uni0300 uni0301 uni0302 uni0303 uni0304 uni0305 uni0306 uni0307 uni0308 uni030B uni030F uni0311 uni033E uni0358 uni0483 uni0484 uni0485 uni0486 uni0487 uni1DC0 uni1DC1 uni1DF6 uni1DF7 uni1DF8 uni2DE0 uni2DE1 uni2DE2 uni2DE3 uni2DE4 uni2DE5 uni2DE6 uni2DE7 uni2DE8 uni2DE9 uni2DEA uni2DEB uni2DEC uni2DED uni2DEE uni2DEF uni2DF0 uni2DF1 uni2DF2 uni2DF3 uni2DF4 uni2DF5 uni2DF6 uni2DF7 uni2DF9 uni2DFA uni2DFB uni2DFC uni2DFD uniA674 uniA675 uniA676 uniA677 uniA678 uniA679 uniA67A uniA67B uniA67C uniA67D uniA69E uniA69F uni0486.cap uni04860301 uni04860301.cap uni04860300 uni04860300.cap uni04860311 uniFE2EFE2F uni2DE3200DA675 uni2DE4200D2DF7
   BClass: 19 uni04560307 uni0458
@@ -298,12 +299,12 @@ ChainSub2: class "Contextual Substitution - Soft Dot Removal-1"  3 3 3 1
   BClsList:
   FClsList: 2
  1
-  SeqLookup: 0 "Cyrillic Soft Dot removal" 
-  ClassNames: "All_Others"  "soft_dot"  "diacritic"  
-  BClassNames: "All_Others"  "soft_dot"  "diacritic"  
-  FClassNames: "All_Others"  "soft_dot"  "diacritic"  
+  SeqLookup: 0 "Cyrillic Soft Dot removal"
+  ClassNames: "All_Others" "soft_dot" "diacritic"
+  BClassNames: "All_Others" "soft_dot" "diacritic"
+  FClassNames: "All_Others" "soft_dot" "diacritic"
 EndFPST
-ChainSub2: class "Short Form below Multiple Titlo Substitution-1"  3 3 3 1
+ChainSub2: class "Short Form below Multiple Titlo Substitution-1" 3 3 3 1
   Class: 23 uniFE26 uniFE2E uniFE2F
   Class: 23 uni0463 uni0471 uniA64B
   BClass: 23 uniFE26 uniFE2E uniFE2F
@@ -315,12 +316,12 @@ ChainSub2: class "Short Form below Multiple Titlo Substitution-1"  3 3 3 1
   BClsList:
   FClsList: 1
  1
-  SeqLookup: 0 "Short Forms for Half Titlos" 
-  ClassNames: "All_Others"  "halfmark"  "tall"  
-  BClassNames: "All_Others"  "halfmark"  "tall"  
-  FClassNames: "All_Others"  "halfmark"  "tall"  
+  SeqLookup: 0 "Short Forms for Half Titlos"
+  ClassNames: "All_Others" "halfmark" "tall"
+  BClassNames: "All_Others" "halfmark" "tall"
+  FClassNames: "All_Others" "halfmark" "tall"
 EndFPST
-ChainSub2: class "Contextual Substitution - Yat with Psili-1"  3 3 3 1
+ChainSub2: class "Contextual Substitution - Yat with Psili-1" 3 3 3 1
   Class: 7 uni0463
   Class: 407 uni0485 uni0486 uni2DE0 uni2DE1 uni2DE2 uni2DE3 uni2DE4 uni2DE5 uni2DE6 uni2DE7 uni2DE8 uni2DE9 uni2DEA uni2DEB uni2DEC uni2DED uni2DEE uni2DEF uni2DF0 uni2DF1 uni2DF2 uni2DF3 uni2DF4 uni2DF5 uni2DF6 uni2DF7 uni2DF9 uni2DFA uni2DFB uni2DFC uni2DFD uniA674 uniA675 uniA676 uniA677 uniA678 uniA679 uniA67A uniA67B uniA69E uniA69F uni04860301 uni04860300 uni2DE3200DA675 uni2DE4200D2DF7 uniFE26 uniFE2E uniFE2F
   BClass: 7 uni0463
@@ -332,12 +333,12 @@ ChainSub2: class "Contextual Substitution - Yat with Psili-1"  3 3 3 1
   BClsList:
   FClsList: 2
  1
-  SeqLookup: 0 "Short Yat Substitution" 
-  ClassNames: "All_Others"  "yat"  "psili"  
-  BClassNames: "All_Others"  "yat"  "psili"  
-  FClassNames: "All_Others"  "yat"  "psili"  
+  SeqLookup: 0 "Short Yat Substitution"
+  ClassNames: "All_Others" "yat" "psili"
+  BClassNames: "All_Others" "yat" "psili"
+  FClassNames: "All_Others" "yat" "psili"
 EndFPST
-ContextPos2: class "'kern' Contextual Numeral Kerning-1"  3 3 3 1
+ContextPos2: class "'kern' Contextual Numeral Kerning-1" 3 3 3 1
   Class: 247 uni0430 uni0432 uni0433 uni0434 uni0435 uni0437 uni0438 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni044B uni0454 uni0455 uni0456 uni0461 uni046F uni0471 uni0473 uni047F uni25CC
   Class: 47 uni0488 uni0489 uni20DD uniA670 uniA671 uniA672
   BClass: 247 uni0430 uni0432 uni0433 uni0434 uni0435 uni0437 uni0438 uni043A uni043B uni043C uni043D uni043E uni043F uni0440 uni0441 uni0442 uni0443 uni0444 uni0445 uni0446 uni0447 uni044B uni0454 uni0455 uni0456 uni0461 uni046F uni0471 uni0473 uni047F uni25CC
@@ -349,12 +350,12 @@ ContextPos2: class "'kern' Contextual Numeral Kerning-1"  3 3 3 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Numeral Kerning" 
-  ClassNames: "All_Others"  "numeral"  "symbol"  
-  BClassNames: "All_Others"  "numeral"  "symbol"  
-  FClassNames: "All_Others"  "numeral"  "symbol"  
+  SeqLookup: 0 "Numeral Kerning"
+  ClassNames: "All_Others" "numeral" "symbol"
+  BClassNames: "All_Others" "numeral" "symbol"
+  FClassNames: "All_Others" "numeral" "symbol"
 EndFPST
-ChainSub2: class "Contextual Substitution - Uk with Pokrytie-1"  3 3 3 1
+ChainSub2: class "Contextual Substitution - Uk with Pokrytie-1" 3 3 3 1
   Class: 7 uniA64B
   Class: 355 uni2DE0 uni2DE1 uni2DE2 uni2DE3 uni2DE4 uni2DE5 uni2DE6 uni2DE7 uni2DE8 uni2DE9 uni2DEA uni2DEB uni2DEC uni2DED uni2DEE uni2DEF uni2DF0 uni2DF1 uni2DF2 uni2DF3 uni2DF4 uni2DF5 uni2DF6 uni2DF7 uni2DF9 uni2DFA uni2DFB uni2DFC uni2DFD uniA674 uniA677 uniA678 uniA679 uniA67A uniA67B uniA69F uniFE26 uniFE2E uniFE2F uni2DE3200DA675 uni2DE4200D2DF7 uni2DF50487
   BClass: 7 uniA64B
@@ -366,12 +367,12 @@ ChainSub2: class "Contextual Substitution - Uk with Pokrytie-1"  3 3 3 1
   BClsList:
   FClsList: 2
  1
-  SeqLookup: 0 "Uk Short Substitution" 
-  ClassNames: "All_Others"  "uk"  "titli"  
-  BClassNames: "All_Others"  "uk"  "titli"  
-  FClassNames: "All_Others"  "uk"  "titli"  
+  SeqLookup: 0 "Uk Short Substitution"
+  ClassNames: "All_Others" "uk" "titli"
+  BClassNames: "All_Others" "uk" "titli"
+  FClassNames: "All_Others" "uk" "titli"
 EndFPST
-ChainSub2: class "Contextual Substitution - Uk at right-1"  3 3 3 1
+ChainSub2: class "Contextual Substitution - Uk at right-1" 3 3 3 1
   Class: 7 uniA64B
   Class: 99 uni0487 uni2DE3 uni2DE4 uni2DE5 uni2DEE uni2DEF uni2DF5 uni2DE3200DA675 uni2DE4200D2DF7 uni2DF50487
   BClass: 7 uniA64B
@@ -383,12 +384,12 @@ ChainSub2: class "Contextual Substitution - Uk at right-1"  3 3 3 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "Uk Short From Left Substitution" 
-  ClassNames: "All_Others"  "uk"  "pokrytie"  
-  BClassNames: "All_Others"  "uk"  "pokrytie"  
-  FClassNames: "All_Others"  "uk"  "pokrytie"  
+  SeqLookup: 0 "Uk Short From Left Substitution"
+  ClassNames: "All_Others" "uk" "pokrytie"
+  BClassNames: "All_Others" "uk" "pokrytie"
+  FClassNames: "All_Others" "uk" "pokrytie"
 EndFPST
-ChainSub2: class "Contextual Substitution - Capitalization-1"  3 3 3 1
+ChainSub2: class "Contextual Substitution - Capitalization-1" 3 3 3 1
   Class: 31 uni0486 uni04860301 uni04860300
   Class: 223 uni0404 uni0406 uni0410 uni0415 uni0418 uni041E uni0423 uni042B uni042D uni042E uni042F uni0460 uni0462 uni0464 uni0466 uni0468 uni046A uni046C uni0474 uni047A uniA64A uniA64C uniA656 uniA668 uniA66A uniA66C uniA698 uniA69A
   BClass: 31 uni0486 uni04860301 uni04860300
@@ -400,10 +401,10 @@ ChainSub2: class "Contextual Substitution - Capitalization-1"  3 3 3 1
   BClsList: 2
   FClsList:
  1
-  SeqLookup: 0 "Above Capitals Substitution" 
-  ClassNames: "All_Others"  "alternative"  "capital"  
-  BClassNames: "All_Others"  "alternative"  "capital"  
-  FClassNames: "All_Others"  "alternative"  "capital"  
+  SeqLookup: 0 "Above Capitals Substitution"
+  ClassNames: "All_Others" "alternative" "capital"
+  BClassNames: "All_Others" "alternative" "capital"
+  FClassNames: "All_Others" "alternative" "capital"
 EndFPST
 ShortTable: maxp 16
   0
@@ -1257,10 +1258,10 @@ ShortTable: cvt  55
   83
   5
 EndShort
-LangName: 1049 "Coyright 2011-2016 Aleksandr Andreev, Yuri Shardt and Nikita Simmons" "" "+BB4EMQRLBEcEPQRLBDkA" 
-LangName: 1033 "" "" "Regular" "PonomarUnicode2015:1" "" "1.2" "" "" "Ponomar Project" "Vladislav V. Dorosh, Yuri A.W. Shardt, Nikita Simmons, Aleksandr Andreev" "" "http://www.ponomar.net/" "http://www.ponomar.net/" "Copyright (c) 2011-2017, Aleksandr Andreev, Yuri Shardt, Nikita Simmons, (http://www.ponomar.net/),+AAoA-without Reserved Font Name.+AAoACgAA-This font is part of the Ponomar Project and is licensed under the same terms as Ponomar itself or under the terms of the SIL Open Font License, at your choosing.+AAoACgAA-Based off Hirmos UCS, (c) 2005 Vlad Dorosh. Updgraded to Unicode 5.1 by Yuri Shradt. Additional modifications by Nikita Simmons and Aleksandr Andreev.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Ponomar Unicode" "Regular" "Ponomar Unicode" "+BCUEQC3tBIcEQgQ+AwEEQQRK +BDIEPgRBBDoEQAQ1AwEEQQQ1 +BDgEhgQ3Az4A +BDwENQMBBEAEQgQyBEsERQRK, +BEEEPAQ1AwEEQARCBFYDCARO +BEEEPAQ1AwEEQARCBEwA +BD8EPgQ/BEAEMAMBBDIESgAA, +BDgEhgAA +BEGmSwMBBEkESwQ8BEoA +BDIEPgAA +BDMEQAQ+BDEEYwMBBEUESgAA +BDYEOAQyBD4DAQRCBEoA +BDQEMARABD4EMgQwAwEEMgRK." 
+LangName: 1049 "Coyright 2011-2016 Aleksandr Andreev, Yuri Shardt and Nikita Simmons" "" "+BB4EMQRLBEcEPQRLBDkA"
+LangName: 1033 "" "" "Regular" "PonomarUnicode2015:1" "" "1.2" "" "" "Ponomar Project" "Vladislav V. Dorosh, Yuri A.W. Shardt, Nikita Simmons, Aleksandr Andreev" "" "http://www.ponomar.net/" "http://www.ponomar.net/" "Copyright (c) 2011-2017, Aleksandr Andreev, Yuri Shardt, Nikita Simmons, (http://www.ponomar.net/),+AAoA-without Reserved Font Name.+AAoACgAA-This font is part of the Ponomar Project and is licensed under the same terms as Ponomar itself or under the terms of the SIL Open Font License, at your choosing.+AAoACgAA-Based off Hirmos UCS, (c) 2005 Vlad Dorosh. Updgraded to Unicode 5.1 by Yuri Shradt. Additional modifications by Nikita Simmons and Aleksandr Andreev.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "Ponomar Unicode" "Regular" "Ponomar Unicode" "+BCUEQC3tBIcEQgQ+AwEEQQRK +BDIEPgRBBDoEQAQ1AwEEQQQ1 +BDgEhgQ3Az4A +BDwENQMBBEAEQgQyBEsERQRK, +BEEEPAQ1AwEEQARCBFYDCARO +BEEEPAQ1AwEEQARCBEwA +BD8EPgQ/BEAEMAMBBDIESgAA, +BDgEhgAA +BEGmSwMBBEkESwQ8BEoA +BDIEPgAA +BDMEQAQ+BDEEYwMBBEUESgAA +BDYEOAQyBD4DAQRCBEoA +BDQEMARABD4EMgQwAwEEMgRK."
 GaspTable: 3 8 10 16 9 65535 15 1
-OtfFeatName: 'ss02' 1033 "Latin blackletter shapes" 
+OtfFeatName: 'ss02' 1033 "Latin blackletter shapes"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -1268,7 +1269,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 180 18 7
+WinInfo: 432 18 7
 BeginPrivate: 9
 BlueValues 31 [-18 0 437 460 577 597 770 788]
 BlueScale 8 0.039625
@@ -1292,9 +1293,9 @@ Grid
  -43 0 l 1
  -43 24 l 1
 0 830 m 25
- 496 830 l 25
+ 496 830 l 1049
 -720 539 m 25
- 396 539 l 25
+ 396 539 l 1049
 -61 447 m 1
  56 447 l 1
  56 437 l 1
@@ -1322,7 +1323,7 @@ Grid
  -17 770 l 1
 EndSplineSet
 TeXData: 1 0 0 471859 235929 157286 458228 1048576 157286 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "below"  "'mark' Cyrillic Marks Below-1" "right"  "'mark' Left and Right Marks-1" "left"  "'mark' Left and Right Marks-1" "HalfMark"  "'mark' Mark Positioning lookup 0 subtable" "DoubleTitlo"  "'mark' Mark Positioning lookup 0 subtable" "Yerok"  "'mark' Mark Positioning lookup 0 subtable" "Numeral"  "'mark' Slavonic numerals-1" "stacking"  "'mkmk' Mark to Mark lookup 9-1" "Diacritic"  "'mark' Mark Positioning lookup 0 subtable" 
+AnchorClass2: "below" "'mark' Cyrillic Marks Below-1" "right" "'mark' Left and Right Marks-1" "left" "'mark' Left and Right Marks-1" "HalfMark" "'mark' Mark Positioning lookup 0 subtable" "DoubleTitlo" "'mark' Mark Positioning lookup 0 subtable" "Yerok" "'mark' Mark Positioning lookup 0 subtable" "Numeral" "'mark' Slavonic numerals-1" "stacking" "'mkmk' Mark to Mark lookup 9-1" "Diacritic" "'mark' Mark Positioning lookup 0 subtable"
 BeginChars: 1114114 730
 
 StartChar: .notdef
@@ -8263,7 +8264,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0415 uni0300
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -8766,7 +8767,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0415 uni0308
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -9228,7 +9229,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0413 uni0301
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -10515,7 +10516,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0406 uni0308
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00
 EndChar
 
@@ -12003,7 +12004,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni041A uni0301
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -12297,7 +12298,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0418 uni0300
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -12324,7 +12325,7 @@ Refer: 361 1059 N 1 0 0 1 1 1 2
 Validated: 32769
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni040E.var
 Ligature2: "Cyrillic Canonical Equivalents" uni0423 uni0306
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -15827,7 +15828,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0418 uni0306
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00
 EndChar
 
@@ -24134,7 +24135,7 @@ SplineSet
  375 698 375 698 375 679 c 0,39,40
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Cyrillic Canonical Equivalents" uni0438 uni0306
 Colour: ff00
 EndChar
@@ -29759,7 +29760,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0435 uni0300
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -29999,7 +30000,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0435 uni0308
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -30658,7 +30659,7 @@ SplineSet
  192 500 l 2,34,35
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Cyrillic Canonical Equivalents" uni0433 uni0301
 Colour: ff00ff
 EndChar
@@ -31520,7 +31521,7 @@ SplineSet
  6 612 6 612 6 633 c 1,34,35
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Cyrillic Canonical Equivalents" uni0456 uni0308
 Colour: ff00
 EndChar
@@ -33060,7 +33061,7 @@ SplineSet
  218 506 l 2,63,64
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Cyrillic Canonical Equivalents" uni043A uni0301
 Colour: ff00ff
 EndChar
@@ -33306,7 +33307,7 @@ SplineSet
  237 534 l 1,39,-1
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Cyrillic Canonical Equivalents" uni0438 uni0300
 Colour: ff00ff
 EndChar
@@ -33535,7 +33536,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0443 uni0306
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00ff
 EndChar
 
@@ -36291,7 +36292,7 @@ StartChar: uni0467
 Encoding: 1127 1127 154
 Width: 623
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: -4 21G<93 108.5 290.5 310 521.5 540.5> 200 24<210 239 354 364> 421 20G<252.5 276.5>
 VStem: 48 93<0.605764 121.54> 239 115<-1.70801 200> 474 109<-2.73306 85.3906>
 DStem2: 412 317 364 224 0.583824 -0.81188<-107.575 47.4813 78.0591 250.334>
@@ -36568,7 +36569,7 @@ AnchorPoint: "left" 80.7778 535.8 basechar 0
 AnchorPoint: "HalfMark" 269.5 538.7 basechar 0
 AnchorPoint: "DoubleTitlo" 624.5 542 basechar 0
 AnchorPoint: "Yerok" 425 539 basechar 0
-AnchorPoint: "Diacritic" 270 539 basechar 0
+AnchorPoint: "Diacritic" 298 539 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -36611,7 +36612,6 @@ SplineSet
  258 299 233 261 210 224 c 1
  364 224 l 1
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 258 441 m 0,0,1
@@ -42444,7 +42444,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0474 uni030F
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00
 EndChar
 
@@ -42751,7 +42751,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uni0475 uni030F
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00
 EndChar
 
@@ -43137,7 +43137,7 @@ SplineSet
  410 244 410 244 410 315 c 0,96,97
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00
 EndChar
 
@@ -43423,7 +43423,7 @@ SplineSet
  121 122 121 122 146 122 c 0,84,85
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ff00
 EndChar
 
@@ -43573,7 +43573,7 @@ SplineSet
  191 319 194 268 194 208 c 0
  194 107 253 39 346 20 c 1
  346 57 380 88 420 88 c 0
-420 830 m 0
+420 830 m 1024
 EndSplineSet
 Validated: 19457
 Layer: 2
@@ -43623,7 +43623,7 @@ SplineSet
  275 34 275 34 346 20 c 1,60,61
  346 48 346 48 368 68 c 128,-1,62
  390 88 390 88 420 88 c 0,29,30
-420 830 m 0,63,-1
+420 830 m 1024,63,-1
 EndSplineSet
 Validated: 19457
 Colour: ff00
@@ -44326,7 +44326,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uniA64C uni0486 uni0311
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Colour: ff00
 EndChar
 
@@ -44822,7 +44822,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic Canonical Equivalents" uniA64D uni0486 uni0311
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Colour: ff00
 EndChar
 
@@ -61899,7 +61899,7 @@ SplineSet
  870 320 870 320 843 320 c 128,-1,112
 EndSplineSet
 Validated: 19457
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Colour: ff00ff
 EndChar
 
@@ -62279,7 +62279,7 @@ SplineSet
  581 166 581 166 563 166 c 128,-1,104
 EndSplineSet
 Validated: 19457
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Colour: ff00ff
 EndChar
 
@@ -73864,6 +73864,7 @@ SplineSet
  478 539 l 2,71,72
 EndSplineSet
 Validated: 19457
+LCarets2: 1 0
 Ligature2: "Cyrillic Precomposed Forms" uni0463 uni0301
 Colour: ffff00
 EndChar
@@ -74201,7 +74202,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic ZWJ-based Ligatures-1" uni2DE3 uni200D uniA675
-Comment: "This codepoint is unstable!" 
+Comment: "This codepoint is unstable!"
 Colour: ffff
 EndChar
 
@@ -74816,7 +74817,7 @@ SplineSet
 EndSplineSet
 Validated: 19457
 Ligature2: "Cyrillic ZWJ-based Ligatures-1" uni2DE4 uni200D uni2DF7
-Comment: "This codepoint is unstable!" 
+Comment: "This codepoint is unstable!"
 Colour: ffff
 EndChar
 
@@ -97176,11 +97177,11 @@ SplineSet
  61 528 61 528 45 532 c 1,31,32
  40 546 40 546 34.5 581.5 c 128,-1,33
  29 617 29 617 29 639 c 1,20,21
-123 442 m 0,34,-1
+123 442 m 1024,34,-1
 EndSplineSet
 Validated: 19457
 Substitution2: "Cyrillic Soft Dot removal-1" uni0456
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Cyrillic Canonical Equivalents" uni0456 uni0307
 Colour: ffff00
 EndChar
@@ -103718,7 +103719,7 @@ SplineSet
  600 140 585 134 568 134 c 0
  551 134 536 140 525 152 c 0
  513 163 507 178 507 195 c 0xfa
-35 282 m 1
+35 282 m 1025
 EndSplineSet
 Validated: 1
 Layer: 2
@@ -103799,7 +103800,7 @@ SplineSet
  594 134 594 134 568 134 c 128,-1,113
  542 134 542 134 525 152 c 1,114,115
  507 168 507 168 507 195 c 0,103,104
-35 282 m 1,116,-1
+35 282 m 1025,116,-1
 EndSplineSet
 Validated: 19457
 Colour: ff00ff
@@ -114543,7 +114544,7 @@ SplineSet
  -137 721 -137 721 -171 769 c 1,54,-1
 EndSplineSet
 Validated: 19457
-Comment: "This character is proposed for inclusion in Unicode 8.0." 
+Comment: "This character is proposed for inclusion in Unicode 8.0."
 Colour: ff00ff
 EndChar
 
@@ -115313,7 +115314,7 @@ SplineSet
  547 298 547 298 687 298 c 6,0,1
 EndSplineSet
 Validated: 3073
-Comment: "This character is proposed for inclusion in Unicode 8.0." 
+Comment: "This character is proposed for inclusion in Unicode 8.0."
 Colour: ff0000
 EndChar
 
@@ -115877,7 +115878,7 @@ SplineSet
  505 442 505 442 399 411 c 1,0,1
 EndSplineSet
 Validated: 3073
-Comment: "Used in Aleut" 
+Comment: "Used in Aleut"
 Colour: ff00ff
 EndChar
 
@@ -116254,7 +116255,7 @@ SplineSet
  60 9 60 9 61 36 c 2,54,-1
 EndSplineSet
 Validated: 3073
-Comment: "Used in Aleut" 
+Comment: "Used in Aleut"
 Colour: ff00ff
 EndChar
 
@@ -116447,7 +116448,7 @@ SplineSet
  181 -37 181 -37 181 -22 c 0,28,29
 EndSplineSet
 Validated: 19457
-Comment: "U+-2E44 DOUBLE COMMA+AAoA-Used as a Typicon symbol by Syrnikov+AAoA-This character is proposed for inclusion." 
+Comment: "U+-2E44 DOUBLE COMMA+AAoA-Used as a Typicon symbol by Syrnikov+AAoA-This character is proposed for inclusion."
 Colour: ffff
 EndChar
 
@@ -116761,7 +116762,7 @@ SplineSet
  165 581 165 581 172 585 c 1,0,1
 EndSplineSet
 Validated: 3073
-Comment: "DOWNWARD FACING HOOK +AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding" 
+Comment: "DOWNWARD FACING HOOK +AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding"
 Colour: ffff
 EndChar
 
@@ -117184,7 +117185,7 @@ SplineSet
  93 94 l 2,0,1
 EndSplineSet
 Validated: 3073
-Comment: "DOWNWARD FACING HOOK WITH NOTCH+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding" 
+Comment: "DOWNWARD FACING HOOK WITH NOTCH+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding"
 Colour: ffff
 EndChar
 
@@ -118170,7 +118171,7 @@ SplineSet
  210 242 210 242 190 242 c 0,0,1
 EndSplineSet
 Validated: 19457
-Comment: "INVERTED LOW KAVYKA+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding" 
+Comment: "INVERTED LOW KAVYKA+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding"
 Colour: ffff
 EndChar
 
@@ -118282,7 +118283,7 @@ SplineSet
  149 167 149 167 190 167 c 0,0,1
 EndSplineSet
 Validated: 19457
-Comment: "LOW KAVYKA+AAoA-Used as a Typicon symbol by Syrnikov+AAoA-Proposed for encoding" 
+Comment: "LOW KAVYKA+AAoA-Used as a Typicon symbol by Syrnikov+AAoA-Proposed for encoding"
 Colour: ffff
 EndChar
 
@@ -118465,7 +118466,7 @@ SplineSet
  210 242 210 242 190 242 c 0,21,22
 EndSplineSet
 Validated: 19457
-Comment: "INVERTED LOW KAVYKA WITH KAVYKA ABOVE+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding" 
+Comment: "INVERTED LOW KAVYKA WITH KAVYKA ABOVE+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding"
 Colour: ffff
 EndChar
 
@@ -118693,7 +118694,7 @@ SplineSet
  301 231 l 1,16,17
 EndSplineSet
 Validated: 19457
-Comment: "DOUBLE-ENDED MULTIMAP+AAoA-Used by Syrnikov as a symbol for a double service" 
+Comment: "DOUBLE-ENDED MULTIMAP+AAoA-Used by Syrnikov as a symbol for a double service"
 Colour: ffff00
 EndChar
 
@@ -118769,7 +118770,7 @@ SplineSet
  -50 -96 l 1,0,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used as a Typicon symbol by Syrnikov" 
+Comment: "Used as a Typicon symbol by Syrnikov"
 Colour: ffff00
 EndChar
 
@@ -118913,7 +118914,7 @@ SplineSet
  149 167 149 167 190 167 c 0,9,10
 EndSplineSet
 Validated: 19457
-Comment: "LOW KAVYKA WITH DOT+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding" 
+Comment: "LOW KAVYKA WITH DOT+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for encoding"
 Colour: ffff
 EndChar
 
@@ -119210,7 +119211,7 @@ SplineSet
  -560 -126 l 1,0,1
 EndSplineSet
 Validated: 3073
-Comment: "COMBINING INVERTED TORTOISE SHELL BRACKET BELOW+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for inclusion." 
+Comment: "COMBINING INVERTED TORTOISE SHELL BRACKET BELOW+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for inclusion."
 Colour: ffff
 EndChar
 
@@ -119320,7 +119321,7 @@ SplineSet
  -286 -158 -286 -158 -245 -158 c 0,0,1
 EndSplineSet
 Validated: 19457
-Comment: "Used by Syrnikov as a Typicon symbol" 
+Comment: "Used by Syrnikov as a Typicon symbol"
 Colour: ffff00
 EndChar
 
@@ -119839,7 +119840,7 @@ SplineSet
  -340 651 -340 651 -322 651 c 1,0,-1
 EndSplineSet
 Validated: 19457
-Comment: "COMBINING DOT ABOVE LEFT+AAoA-See also: U+-0358, Combining Dot Above Right+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for inclusion." 
+Comment: "COMBINING DOT ABOVE LEFT+AAoA-See also: U+-0358, Combining Dot Above Right+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for inclusion."
 Colour: ffff
 EndChar
 
@@ -119946,7 +119947,7 @@ SplineSet
  10 761 l 2,0,1
 EndSplineSet
 Validated: 19457
-Comment: "COMBINING KAVYKA ABOVE RIGHT+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for inclusion" 
+Comment: "COMBINING KAVYKA ABOVE RIGHT+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for inclusion"
 Colour: ffff
 EndChar
 
@@ -120052,7 +120053,7 @@ SplineSet
  -389 671 -389 671 -358 671 c 128,-1,1
 EndSplineSet
 Validated: 19457
-Comment: "COMBINING KAVYKA ABOVE LEFT+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for inclusion" 
+Comment: "COMBINING KAVYKA ABOVE LEFT+AAoA-Used by Syrnikov as a Typicon symbol+AAoA-Proposed for inclusion"
 Colour: ffff
 EndChar
 
@@ -120133,7 +120134,7 @@ SplineSet
  -279 385 -279 385 -279 406 c 132,-1,1
 EndSplineSet
 Validated: 19457
-Comment: "COMBINING DOT OVERLAY+AAoA-Used by Syrnikov to form Typicon symbols+AAoA-Proposed for inclusion" 
+Comment: "COMBINING DOT OVERLAY+AAoA-Used by Syrnikov to form Typicon symbols+AAoA-Proposed for inclusion"
 Colour: ffff
 EndChar
 
@@ -121280,8 +121281,8 @@ SplineSet
  466.12 385.439 455.9 385.439 445.68 385.439 c 5
  445.68 367.92 l 6
  445.68 257.343 497.132 163.586 586.572 132.081 c 5
-597.38 696.189 m 5
-597.374 696.116 m 5
+597.38 696.189 m 1029
+597.374 696.116 m 1029
 EndSplineSet
 Validated: 19457
 Layer: 2
@@ -121562,8 +121563,8 @@ SplineSet
  466.12 385.439 455.9 385.439 445.68 385.439 c 1
  445.68 367.92 l 2
  445.68 257.343 497.132 163.586 586.572 132.081 c 1
-597.38 696.189 m 1
-597.374 696.116 m 1
+597.38 696.189 m 1025
+597.374 696.116 m 1025
 EndSplineSet
 Validated: 19457
 Layer: 2
@@ -149970,7 +149971,7 @@ SplineSet
  650 92 650 92 627.5 115.5 c 128,-1,187
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -150753,7 +150754,7 @@ SplineSet
  441 -115 l 1,166,167
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -152014,7 +152015,7 @@ SplineSet
  242 414 242 414 248 418 c 1,334,335
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -152100,7 +152101,7 @@ SplineSet
  804 558 804 558 804 397 c 128,-1,1
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -152255,7 +152256,7 @@ SplineSet
  434 32 434 32 439 32 c 2,13,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -152386,7 +152387,7 @@ SplineSet
  787 275 787 275 787 399 c 0,15,16
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -152524,7 +152525,7 @@ SplineSet
  386 30 386 30 433 30 c 0,13,14
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -152660,7 +152661,7 @@ SplineSet
  550 32 550 32 653 141 c 1,16,17
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -152799,7 +152800,7 @@ SplineSet
  493 55 493 55 535 120 c 0,11,12
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -152942,7 +152943,7 @@ SplineSet
  388 34 l 1,9,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -153092,7 +153093,7 @@ SplineSet
  393 32 l 2,9,10
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -153283,7 +153284,7 @@ SplineSet
  112 20 112 20 118 20 c 2,22,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -153475,7 +153476,7 @@ SplineSet
  322 19 322 19 347 19 c 1,24,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -153619,7 +153620,7 @@ SplineSet
  787 265 787 265 787 426 c 0,32,33
 EndSplineSet
 Validated: 3073
-Comment: "Used in liturgical calendars" 
+Comment: "Used in liturgical calendars"
 Colour: ffff00
 EndChar
 
@@ -171043,7 +171044,7 @@ SplineSet
  646 300 646 300 609 300 c 0,31,32
 EndSplineSet
 Validated: 3073
-Comment: "Duplicates of Typicon symbols in BMP for legacy app support" 
+Comment: "Duplicates of Typicon symbols in BMP for legacy app support"
 Colour: ffffff
 EndChar
 
@@ -171402,7 +171403,7 @@ SplineSet
  654 320 654 320 617 320 c 0,18,19
 EndSplineSet
 Validated: 3073
-Comment: "Duplicates of Typicon symbols in BMP for legacy app support" 
+Comment: "Duplicates of Typicon symbols in BMP for legacy app support"
 Colour: ffffff
 EndChar
 
@@ -171648,7 +171649,7 @@ SplineSet
  570 300 570 300 533 300 c 0,0,1
 EndSplineSet
 Validated: 3073
-Comment: "Duplicates of Typicon symbols in BMP for legacy app support" 
+Comment: "Duplicates of Typicon symbols in BMP for legacy app support"
 Colour: ffffff
 EndChar
 
@@ -172133,7 +172134,7 @@ SplineSet
  561 313 561 313 532 313 c 128,-1,104
 EndSplineSet
 Validated: 3073
-Comment: "Duplicates of Typicon symbols in BMP for legacy app support" 
+Comment: "Duplicates of Typicon symbols in BMP for legacy app support"
 Colour: ffffff
 EndChar
 
@@ -172602,7 +172603,7 @@ SplineSet
  254 413 254 413 254 384 c 0,101,102
 EndSplineSet
 Validated: 3073
-Comment: "Duplicates of Typicon symbols in BMP for legacy app support" 
+Comment: "Duplicates of Typicon symbols in BMP for legacy app support"
 Colour: ffffff
 EndChar
 
@@ -173110,7 +173111,7 @@ SplineSet
  45 0 l 1,96,-1
 EndSplineSet
 Validated: 3073
-Comment: "Duplicates of Typicon symbols in BMP for legacy app support" 
+Comment: "Duplicates of Typicon symbols in BMP for legacy app support"
 Colour: ffffff
 EndChar
 
@@ -173172,7 +173173,7 @@ SplineSet
  -34 577 l 1,0,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used in Yakut" 
+Comment: "Used in Yakut"
 Colour: ff00ff
 EndChar
 
@@ -173239,7 +173240,7 @@ SplineSet
  -34 575 l 1,0,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used for Yakut" 
+Comment: "Used for Yakut"
 Colour: ff00ff
 EndChar
 
@@ -173471,7 +173472,7 @@ SplineSet
  372 695 372 695 372 626 c 1,0,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used for Yakut" 
+Comment: "Used for Yakut"
 Colour: ff00ff
 EndChar
 
@@ -173561,7 +173562,7 @@ SplineSet
  243 416 l 1,0,-1
 EndSplineSet
 Validated: 3073
-Comment: "Used for Yakut" 
+Comment: "Used for Yakut"
 Colour: ff00ff
 EndChar
 
@@ -174290,7 +174291,7 @@ SplineSet
  415 24 l 1,137,-1
 EndSplineSet
 Validated: 3073
-Comment: "Used for Yakut" 
+Comment: "Used for Yakut"
 Colour: ff00ff
 EndChar
 
@@ -174451,7 +174452,7 @@ SplineSet
  249 24 l 1,89,90
 EndSplineSet
 Validated: 3073
-Comment: "Used for Yakut" 
+Comment: "Used for Yakut"
 Colour: ff00ff
 EndChar
 
@@ -174708,7 +174709,7 @@ SplineSet
  410 244 410 244 410 315 c 1,36,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used in modern Yakut" 
+Comment: "Used in modern Yakut"
 Colour: ff00ff
 EndChar
 
@@ -174896,7 +174897,7 @@ SplineSet
  351 26 351 26 193 -12 c 1,18,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used in modern Yakut" 
+Comment: "Used in modern Yakut"
 Colour: ff00ff
 EndChar
 
@@ -175001,7 +175002,7 @@ SplineSet
  294 102 294 102 294 52 c 1,0,-1
 EndSplineSet
 Validated: 3073
-Comment: "Used in modern Yakut" 
+Comment: "Used in modern Yakut"
 Colour: ff00ff
 EndChar
 
@@ -175279,7 +175280,7 @@ SplineSet
  504 753 504 753 563 770 c 0,0,1
 EndSplineSet
 Validated: 3073
-Comment: "Used in modern Yakut" 
+Comment: "Used in modern Yakut"
 Colour: ff00ff
 EndChar
 
@@ -175458,7 +175459,7 @@ SplineSet
  98 578 98 578 149 578 c 1,0,-1
 EndSplineSet
 Validated: 19457
-Comment: "Used in modern Yakut" 
+Comment: "Used in modern Yakut"
 Colour: ff00ff
 EndChar
 
@@ -175667,7 +175668,7 @@ SplineSet
  390 364 l 1,0,1
 EndSplineSet
 Validated: 19457
-Comment: "Used in modern Yakut" 
+Comment: "Used in modern Yakut"
 Colour: ff00ff
 EndChar
 
@@ -182563,7 +182564,7 @@ SplineSet
  236 801 236 801 284 818 c 1,47,-1
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0041 uni0300
 Colour: ffff
 EndChar
@@ -182868,7 +182869,7 @@ SplineSet
  37 121 37 121 37 310 c 0,0,1
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0043 uni0327
 Colour: ffff
 EndChar
@@ -183216,7 +183217,7 @@ SplineSet
  381 722 381 722 381 714 c 0,66,67
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0045 uni0300
 Colour: ffff
 EndChar
@@ -183560,7 +183561,7 @@ SplineSet
  350 820 l 1,66,67
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0045 uni0301
 Colour: ffff
 EndChar
@@ -183913,7 +183914,7 @@ SplineSet
  303 814 303 814 315 808 c 1,67,68
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0045 uni0302
 Colour: ffff
 EndChar
@@ -184353,7 +184354,7 @@ SplineSet
  135 738 135 738 135 757 c 128,-1,75
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0045 uni0308
 Colour: ffff
 EndChar
@@ -184974,7 +184975,7 @@ SplineSet
  236 798 236 798 293 798 c 0,54,55
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni004E uni0303
 Colour: ffff
 EndChar
@@ -185737,7 +185738,7 @@ SplineSet
  188 673 188 673 196 671 c 1,51,-1
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0061 uni0300
 Colour: ffff
 EndChar
@@ -186222,7 +186223,7 @@ SplineSet
  202 673 202 673 210 671 c 1,30,-1
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0065 uni0300
 Colour: ffff
 EndChar
@@ -186422,7 +186423,7 @@ SplineSet
  270 671 l 1,30,31
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0065 uni0301
 Colour: ffff
 EndChar
@@ -186628,7 +186629,7 @@ SplineSet
  239 662 239 662 249 660 c 1,30,31
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0065 uni0302
 Colour: ffff
 EndChar
@@ -186911,7 +186912,7 @@ SplineSet
  296 528 296 528 282 542 c 128,-1,39
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni0065 uni0308
 Colour: ffff
 EndChar
@@ -187496,7 +187497,7 @@ SplineSet
  165 626 165 626 222 626 c 0,58,59
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni006E uni0303
 Colour: ffff
 EndChar
@@ -187658,7 +187659,7 @@ SplineSet
  258 662 258 662 268 660 c 1,22,23
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni006F uni0302
 Colour: ffff
 EndChar
@@ -187894,7 +187895,7 @@ SplineSet
  318 528 318 528 304 542 c 128,-1,31
 EndSplineSet
 Validated: 19457
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Precomposed Latin forms-1" uni006F uni0308
 Colour: ffff
 EndChar
@@ -202928,7 +202929,7 @@ SplineSet
  426 135 426 135 426 107 c 256,29,30
 EndSplineSet
 Validated: 3073
-Comment: "Stopped at 347 in 252" 
+Comment: "Stopped at 347 in 252"
 Colour: ffff
 EndChar
 
@@ -203143,7 +203144,7 @@ SplineSet
  324 369 324 369 324 338 c 0,23,24
 EndSplineSet
 Validated: 3073
-Comment: "Incomplete glyph" 
+Comment: "Incomplete glyph"
 Colour: ffff
 EndChar
 
@@ -204989,8 +204990,8 @@ SplineSet
  466.12 385.439 455.9 385.439 445.68 385.439 c 1
  445.68 367.92 l 2
  445.68 257.343 497.132 163.586 586.572 132.081 c 1
-597.38 696.189 m 1
-597.374 696.116 m 1
+597.38 696.189 m 1025
+597.374 696.116 m 1025
 EndSplineSet
 Validated: 19457
 Layer: 2
@@ -205188,8 +205189,8 @@ SplineSet
  466.12 385.439 455.9 385.439 445.68 385.439 c 5
  445.68 367.92 l 6
  445.68 257.343 497.132 163.586 586.572 132.081 c 5
-597.38 696.189 m 5
-597.374 696.116 m 5
+597.38 696.189 m 1029
+597.374 696.116 m 1029
 EndSplineSet
 Validated: 19457
 Layer: 2
@@ -207792,7 +207793,7 @@ Validated: 32769
 Layer: 2
 Refer: 86 42570 N 1 0 0 1 0 0 2
 Validated: 32769
-Comment: "Variant of U+-0423 that looks like U+-A64A+AAoA" 
+Comment: "Variant of U+-0423 that looks like U+-A64A+AAoA"
 Colour: ff00
 EndChar
 
