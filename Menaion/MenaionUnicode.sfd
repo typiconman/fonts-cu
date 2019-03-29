@@ -11,11 +11,12 @@ UnderlinePosition: -78
 UnderlineWidth: 102
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 sfntRevision: 0x00010000
 LayerCount: 3
-Layer: 0 1 "Back"  1
-Layer: 1 0 "Fore"  0
-Layer: 2 1 "TTFLayer"  0
+Layer: 0 1 "Back" 1
+Layer: 1 0 "Fore" 0
+Layer: 2 1 "TTFLayer" 0
 NeedsXUIDChange: 1
 XUID: [1021 130 1332205325 10107924]
 UseXUID: 1
@@ -24,7 +25,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1269256071
-ModificationTime: 1496862507
+ModificationTime: 1553848835
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -48,16 +49,16 @@ OS2FamilyClass: 256
 OS2Vendor: 'PYRS'
 OS2CodePages: 00000005.00000000
 OS2UnicodeRanges: c00002c7.10000000.00000001.00000002
-Lookup: 4 0 0 "'ccmp' Canonical Equivalents"  {"'ccmp' Canonical Equivalents-Latin"  "'ccmp' Canonical Equivalents-Greek"  "'ccmp' Canonical Equivalents-Cyrillic"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Cyrillic Ligatures"  {"'ccmp' Cyrillic Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Slavonic Digraphs"  {"'kern' Slavonic Digraphs-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'glag' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 8 0 "'kern' Latin Kerning"  {"'kern' Latin Kerning-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'glag' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Numeral Sign Positioning"  {"'mark' Numeral Sign Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'glag' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Diacritical Marks"  {"'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'glag' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark Positioning"  {"'mkmk' Mark to Mark Positioning-1"  } ['mkmk' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'glag' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Canonical Equivalents" { "'ccmp' Canonical Equivalents-Latin"  "'ccmp' Canonical Equivalents-Greek"  "'ccmp' Canonical Equivalents-Cyrillic"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Cyrillic Ligatures" { "'ccmp' Cyrillic Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Slavonic Digraphs" { "'kern' Slavonic Digraphs-1" [150,15,2] } ['kern' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'glag' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 8 0 "'kern' Latin Kerning" { "'kern' Latin Kerning-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'glag' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Numeral Sign Positioning" { "'mark' Numeral Sign Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'glag' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Diacritical Marks" { "'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'glag' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark Positioning" { "'mkmk' Mark to Mark Positioning-1"  } ['mkmk' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'glag' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 55 45 "'kern' Latin Kerning-1" 
+KernClass2: 55 45 "'kern' Latin Kerning-1"
  7 uni0041
  7 uni0042
  7 uni0043
@@ -897,7 +898,7 @@ ShortTable: maxp 16
   2
   1
 EndShort
-LangName: 1033 "" "" "Regular" "" "" "2.0" "" "" "Ponomar Technologies, Inc." "Aleksandr Andreev" "" "" "" "Copyright (c) 2013-2015, Aleksandr Andreev (<http://www.ponomar.net/|aleksandr.andreev@gmail.com>),+AAoA-with Reserved Font Name Menaion.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "Regular" "" "" "2.0" "" "" "Ponomar Technologies, Inc." "Aleksandr Andreev" "" "" "" "Copyright (c) 2013-2015, Aleksandr Andreev (<http://www.ponomar.net/|aleksandr.andreev@gmail.com>),+AAoA-with Reserved Font Name Menaion.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 3 8 2 16 1 65535 3 0
 Encoding: UnicodeFull
 Compacted: 1
@@ -906,7 +907,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1008 18 7
+WinInfo: 288 18 7
 BeginPrivate: 6
 BlueValues 23 [-20 0 433 453 610 630]
 OtherBlues 11 [-216 -200]
@@ -917,10 +918,10 @@ ExpansionFactor 4 0.06
 EndPrivate
 Grid
 -1000 579.9 m 0
- 2000 579.9 l 0
+ 2000 579.9 l 1024
 EndSplineSet
 TeXData: 1 0 0 314572 157286 104857 454033 1048576 104857 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "Double"  "'mark' Diacritical Marks-1" "Stacking"  "'mkmk' Mark to Mark Positioning-1" "Numeral"  "'mark' Numeral Sign Positioning-1" "Diacritic"  "'mark' Diacritical Marks-1" 
+AnchorClass2: "Double" "'mark' Diacritical Marks-1" "Stacking" "'mkmk' Mark to Mark Positioning-1" "Numeral" "'mark' Numeral Sign Positioning-1" "Diacritic" "'mark' Diacritical Marks-1"
 BeginChars: 1114112 1139
 
 StartChar: uni0020
@@ -1329,7 +1330,7 @@ SplineSet
  91 645 91 645 66 645 c 1,51,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0045 uni0308
 EndChar
 
@@ -3345,7 +3346,7 @@ SplineSet
  158 138 158 138 329 138 c 1,18,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0415 uni0308
 EndChar
 
@@ -7957,7 +7958,7 @@ SplineSet
  84 46 l 1,18,19
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0406 uni0308
 EndChar
 
@@ -8683,7 +8684,7 @@ SplineSet
  827 257 827 257 844 257 c 2,0,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0438 uni200D uni0435
 Colour: ffff00
 EndChar
@@ -9054,7 +9055,7 @@ SplineSet
  269 69 l 1,0,1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni043D uni200D uni0438
 Colour: ffff00
 EndChar
@@ -9582,7 +9583,7 @@ SplineSet
  1134 200 l 1,87,88
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni043D uni200D uni0467
 Colour: ffff00
 EndChar
@@ -9802,7 +9803,7 @@ SplineSet
  229 117 229 117 283 117 c 0,40,41
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0441 uni200D uni0432
 Colour: ffff00
 EndChar
@@ -10047,7 +10048,7 @@ SplineSet
  313 554 l 2,15,16
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0440
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0440
 Colour: ffff00
@@ -10442,7 +10443,7 @@ SplineSet
  421 476 l 1,75,76
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni0443
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni0423
 Colour: ffff00
@@ -10772,7 +10773,7 @@ SplineSet
  331 322 l 1,62,63
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0430 uni200D uni0443
 Colour: ffff00
 EndChar
@@ -11031,7 +11032,7 @@ SplineSet
  382 320 l 1,43,44
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0430 uni200D uni0442
 Colour: ffff00
 EndChar
@@ -11456,7 +11457,7 @@ SplineSet
  1104 372 l 257,0,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0418 uni200D uni0415
 Colour: ffff00
 EndChar
@@ -11697,7 +11698,7 @@ SplineSet
  229 136 229 136 229 100 c 0,0,1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni041B uni200D uni0413
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni041B uni200D uni0433
 Colour: ffff00
@@ -11939,7 +11940,7 @@ SplineSet
  103 56 l 1,0,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni043B uni200D uni0433
 Colour: ffff00
 EndChar
@@ -12289,7 +12290,7 @@ SplineSet
  286 78 l 1,0,1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni041D uni200D uni0418
 Colour: ffff00
 EndChar
@@ -12849,7 +12850,7 @@ SplineSet
  284 78 l 1,7,8
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni041D uni200D uni0466
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni041D uni200D uni0467
 Colour: ffff00
@@ -13093,7 +13094,7 @@ SplineSet
  277 140 277 140 333 140 c 0,49,50
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0421 uni200D uni0412
 Colour: ffff00
 EndChar
@@ -13412,7 +13413,7 @@ SplineSet
  500 60 l 1,68,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0463
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0463
 Colour: ffff00
@@ -13704,7 +13705,7 @@ SplineSet
  695 357 695 357 695 370 c 1,58,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0412
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0432
 Colour: ffff00
@@ -13987,7 +13988,7 @@ SplineSet
  612 377 l 1,52,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0432
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0432
 Colour: ffff00
@@ -14263,7 +14264,7 @@ SplineSet
  808 360 l 2,0,1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0418
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0438
 Colour: ffff00
@@ -14571,7 +14572,7 @@ SplineSet
  721 360 l 2,0,1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0438
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0438
 Colour: ffff00
@@ -14785,7 +14786,7 @@ SplineSet
  847 -0 847 -0 707 -2 c 2,14,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0440
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni0420
 Colour: ffff00
@@ -15060,7 +15061,7 @@ SplineSet
  462 320 l 1,50,51
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni1C84
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0410 uni200D uni0442
 Colour: ffff00
@@ -15295,7 +15296,7 @@ SplineSet
  600 60 l 1,48,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni044C
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0422 uni200D uni042C
 Colour: ffff00
@@ -15529,7 +15530,7 @@ SplineSet
  512 60 l 1,45,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni044C
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni044C
 Colour: ffff00
@@ -15892,7 +15893,7 @@ SplineSet
  314 554 l 2,7,8
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0442 uni200D uni0430
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni1C84 uni200D uni0430
 Colour: ffff00
@@ -33761,7 +33762,7 @@ SplineSet
  144 520 l 2,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0413 uni0301
 EndChar
 
@@ -35204,7 +35205,7 @@ SplineSet
  838 514 838 514 749 433 c 1,26,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni041A uni0301
 EndChar
 
@@ -35452,7 +35453,7 @@ SplineSet
  491 -164 l 1,15,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0423 uni0306
 EndChar
 
@@ -37142,179 +37143,71 @@ EndChar
 
 StartChar: uni0417
 Encoding: 1047 1047 186
-Width: 767
-Flags: HW
-HStem: 543 67<272.605 528.5>
-VStem: 585.5 136<-297.58 -135.913>
-DStem2: 223.5 46 422.5 84 0.528727 0.848792<137.471 565.287>
-TtInstrs:
-SVTCA[y-axis]
-PUSHB_3
- 6
- 3
- 0
-CALL
-PUSHB_1
- 0
-MDRP[min,rnd,black]
-PUSHB_3
- 0
- 6
- 10
-CALL
-PUSHB_4
- 64
- 0
- 4
- 9
-CALL
-SVTCA[x-axis]
-PUSHB_1
- 34
-MDAP[rnd]
-PUSHB_1
- 23
-MDRP[rp0,rnd,white]
-PUSHB_1
- 15
-MDRP[min,rnd,black]
-PUSHB_1
- 8
-SHP[rp2]
-PUSHB_3
- 23
- 15
- 10
-CALL
-PUSHB_4
- 64
- 23
- 5
- 9
-CALL
-PUSHB_2
- 35
- 1
-CALL
-PUSHB_1
- 54
-SMD
-PUSHW_3
- 13907
- -8663
- 21
-CALL
-SPVFS
-SFVTCA[y-axis]
-PUSHB_1
- 8
-MDAP[no-rnd]
-SFVTPV
-PUSHB_1
- 9
-MDRP[grey]
-PUSHB_2
- 30
- 37
-MIRP[rp0,min,black]
-PUSHB_1
- 29
-MDRP[grey]
-SVTCA[y-axis]
-PUSHB_4
- 8
- 9
- 29
- 30
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-SVTCA[x-axis]
-PUSHB_3
- 9
- 29
- 30
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-PUSHB_1
- 64
-SMD
-SVTCA[x-axis]
-SVTCA[y-axis]
-PUSHB_2
- 6
- 0
-SRP1
-SRP2
-PUSHB_1
- 5
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
-AnchorPoint: "Double" 771 752 basechar 0
-AnchorPoint: "Diacritic" 401.5 751 basechar 0
+Width: 565
+Flags: W
+HStem: -21 70<214.364 340.021> 138 45<198.831 240> 419 45<198.831 240> 553 70<214.364 340.021>
+VStem: 40 200<138 183 419 464> 40 158<65.7247 135.479 466.521 536.275> 366 160<76.0698 209.608 392.362 525.93>
+AnchorPoint: "Double" 565.5 752 basechar 0
+AnchorPoint: "Diacritic" 271 751 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-350 543 m 0
- 270 543 226 494 216 425 c 1
- 160 425 l 1
- 46 564 l 1
- 46 610 l 1
- 722 610 l 1
- 722 564 l 1
- 422 84 l 1
- 552 84 650 7 698 -88 c 0
- 714 -121 722 -156 722 -193 c 0
- 722 -240 708 -289 680 -340 c 1
- 652 -392 606 -444 542 -497 c 1
- 494 -497 l 1
- 506 -484 l 1
- 538 -441 564 -377 578 -314 c 0
- 582 -289 586 -265 586 -240 c 0
- 586 -115 514 -53 414 -20 c 1
- 372 -7 318 0 252 0 c 2
- 224 0 l 1
- 224 46 l 1
- 528 522 l 1
- 528 524 l 2
- 528 542 474 543 436 543 c 0
- 408 543 378 543 350 543 c 0
+414 300 m 1xfa
+ 492 263 526 216 526 152 c 0
+ 526 19 412 -21 268 -21 c 0
+ 116 -21 40 37 40 154 c 0
+ 40 164 40 173 40 183 c 1
+ 240 183 l 1
+ 240 138 l 1xfa
+ 212 138 198 127 198 109 c 0
+ 198 66 238 49 282 49 c 0
+ 338 49 366 86 366 143 c 0
+ 366 179 354 201 334 221 c 0
+ 302 254 258 272 202 294 c 1
+ 202 308 l 1
+ 254 329 302 348 334 381 c 0
+ 354 401 366 423 366 459 c 0
+ 366 516 338 553 282 553 c 0
+ 238 553 198 536 198 493 c 0xf6
+ 198 475 212 464 240 464 c 1
+ 240 419 l 1
+ 42 419 l 1
+ 42 429 40 438 40 448 c 0
+ 40 565 116 623 268 623 c 0
+ 412 623 526 583 526 450 c 0
+ 526 387 488 337 414 300 c 1xfa
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
-354 543 m 2,0,1
- 297 543 297 543 262.5 511 c 128,-1,2
- 228 479 228 479 221 425 c 1,3,-1
- 165 425 l 1,4,-1
- 50 564 l 1,5,-1
- 50 610 l 1,6,-1
- 726 610 l 1,7,-1
- 726 564 l 1,8,-1
- 427 84 l 1,9,10
- 520 84 520 84 592 36 c 0,11,12
- 666 -13 666 -13 702 -88 c 0,13,14
- 726 -138 726 -138 726 -201 c 128,-1,15
- 726 -264 726 -264 685 -340 c 128,-1,16
- 644 -416 644 -416 547 -497 c 1,17,-1
- 499 -497 l 1,18,-1
- 511 -484 l 1,19,20
- 558 -420 558 -420 582 -314 c 1,21,22
- 590 -274 590 -274 590 -240 c 0,23,24
- 590 -76 590 -76 419 -20 c 1,25,26
- 353 0 353 0 257 0 c 2,27,-1
- 228 0 l 1,28,-1
- 228 46 l 1,29,-1
- 533 522 l 1,30,-1
- 533 524 l 2,31,32
- 533 543 533 543 441 543 c 2,33,-1
- 354 543 l 2,0,1
+365.5 459 m 0,0,1
+ 365.5 553 365.5 553 277.648816563 553 c 0,2,3
+ 245.788961039 553 245.788961039 553 222.144480519 538.198170732 c 128,-1,4
+ 198.5 523.396341463 198.5 523.396341463 198.5 493.698170732 c 128,-1,5
+ 198.5 464 198.5 464 239.5 464 c 1,6,-1
+ 239.5 419 l 1,7,-1
+ 41.5 419 l 1,8,-1
+ 39.5 448 l 1,9,10
+ 39.5 623 39.5 623 267.5 623 c 0,11,12
+ 525.5 623 525.5 623 525.5 450 c 0,13,14
+ 525.5 356.024414062 525.5 356.024414062 414.5 300.063476562 c 1,15,16
+ 472.087038152 272.874256522 472.087038152 272.874256522 498.793519076 236.826271964 c 128,-1,17
+ 525.5 200.778287407 525.5 200.778287407 525.5 152 c 0,18,19
+ 525.5 -21 525.5 -21 267.5 -21 c 0,20,21
+ 39.5 -21 39.5 -21 39.5 154 c 1,22,-1
+ 41.5 183 l 1,23,-1
+ 239.5 183 l 1,24,-1
+ 239.5 138 l 1,25,26
+ 198.5 138 198.5 138 198.5 108.301829268 c 128,-1,27
+ 198.5 78.6036585366 198.5 78.6036585366 222.144480519 63.8018292683 c 128,-1,28
+ 245.788961039 49 245.788961039 49 284.35058739 49 c 128,-1,29
+ 322.91221374 49 322.91221374 49 344.20610687 74.1306306306 c 128,-1,30
+ 365.5 99.2612612613 365.5 99.2612612613 365.5 144.630630631 c 0,31,32
+ 365.5 223.645043372 365.5 223.645043372 254.960779604 272.255412919 c 0,33,34
+ 235.354590417 280.877367175 235.354590417 280.877367175 201.5 294 c 1,35,-1
+ 201.5 308 l 1,36,37
+ 301.1852997 347.6852997 301.1852997 347.6852997 333.34264985 379.84264985 c 128,-1,38
+ 365.5 412 365.5 412 365.5 459 c 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0418
@@ -37807,7 +37700,7 @@ SplineSet
  50 46 l 1,15,16
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0418 uni0306
 EndChar
 
@@ -41313,7 +41206,7 @@ SplineSet
  634 67 l 2,29,30
 EndSplineSet
 Validated: 1
-Kerns2: 109 -100 "'kern' Slavonic Digraphs-1"  187 -79 "'kern' Slavonic Digraphs-1"  37 -79 "'kern' Slavonic Digraphs-1" 
+Kerns2: 109 -100 "'kern' Slavonic Digraphs-1" 187 -79 "'kern' Slavonic Digraphs-1" 37 -79 "'kern' Slavonic Digraphs-1"
 EndChar
 
 StartChar: uni042B
@@ -41722,7 +41615,7 @@ SplineSet
  235 66 l 1,20,-1
 EndSplineSet
 Validated: 1
-Kerns2: 109 -100 "'kern' Slavonic Digraphs-1"  187 -75 "'kern' Slavonic Digraphs-1"  37 -75 "'kern' Slavonic Digraphs-1" 
+Kerns2: 109 -100 "'kern' Slavonic Digraphs-1" 187 -75 "'kern' Slavonic Digraphs-1" 37 -75 "'kern' Slavonic Digraphs-1"
 EndChar
 
 StartChar: uni042D
@@ -43793,178 +43686,213 @@ EndChar
 
 StartChar: uni0437
 Encoding: 1079 1079 218
-Width: 588
-Flags: HW
-HStem: 375 58<211.251 367.462>
-VStem: 437.5 110<-233.295 -106.343>
-DStem2: 152.5 46 320.5 66 0.55769 0.83005<110.293 385.519>
+Width: 445
+Flags: W
+HStem: -16 60<184.892 268.366> 102 46<176.009 213> 280 46<176.009 213> 384 60<179.357 266.199>
+VStem: 43 170<102 148 280 326> 43 133<51.9273 126.5 301.5 379.329> 279 129<52.356 158.377 270.115 371.232>
 TtInstrs:
 SVTCA[y-axis]
 PUSHB_3
- 6
+ 4
+ 1
+ 0
+CALL
+PUSHB_1
+ 16
+MDRP[min,rnd,black]
+PUSHB_3
+ 37
  2
  0
 CALL
 PUSHB_1
- 0
+ 26
 MDRP[min,rnd,black]
-PUSHB_3
- 0
- 6
+PUSHB_5
+ 11
  10
+ 4
+ 37
+ 13
 CALL
-PUSHB_4
- 64
- 0
- 3
- 9
+PUSHB_1
+ 11
+MDRP[min,rnd,black]
+PUSHB_5
+ 30
+ 31
+ 4
+ 37
+ 13
 CALL
+PUSHB_1
+ 30
+MDRP[min,rnd,black]
 SVTCA[x-axis]
 PUSHB_1
- 26
+ 41
 MDAP[rnd]
 PUSHB_1
- 18
+ 7
 MDRP[rp0,rnd,white]
 PUSHB_1
- 12
+ 32
+SHP[rp2]
+PUSHB_1
+ 13
 MDRP[min,rnd,black]
-PUSHB_3
+PUSHB_1
+ 28
+SHP[rp2]
+PUSHB_1
+ 11
+MDRP[min,rnd,black]
+PUSHB_1
+ 30
+SHP[rp2]
+PUSHB_1
+ 13
+SRP0
+PUSHB_2
  18
- 12
- 10
-CALL
-PUSHB_4
- 64
- 18
- 22
- 9
+ 1
 CALL
 PUSHB_1
  23
 SHP[rp2]
+PUSHB_1
+ 2
+MDRP[min,rnd,black]
+PUSHB_1
+ 39
+SHP[rp2]
 PUSHB_2
- 27
+ 42
  1
 CALL
-PUSHB_1
- 54
-SMD
-PUSHW_3
- 13600
- -9137
- 21
-CALL
-SPVFS
-SFVTCA[y-axis]
-PUSHB_1
- 23
-MDAP[no-rnd]
-SFVTPV
-PUSHB_1
- 24
-MDRP[grey]
 PUSHB_2
- 8
- 41
-MIRP[rp0,min,black]
-PUSHB_1
+ 13
  7
-MDRP[grey]
-SVTCA[y-axis]
-PUSHB_4
- 7
- 8
- 23
- 24
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-SVTCA[x-axis]
-PUSHB_3
- 7
- 8
- 24
-MDAP[no-rnd]
-MDAP[no-rnd]
-MDAP[no-rnd]
-PUSHB_1
- 64
-SMD
-SVTCA[x-axis]
-PUSHB_2
- 12
- 18
 SRP1
 SRP2
+PUSHB_2
+ 20
+ 21
+IP
+IP
+PUSHB_2
+ 18
+ 11
+SRP1
+SRP2
+PUSHB_4
+ 4
+ 16
+ 26
+ 37
+DEPTH
+SLOOP
+IP
 PUSHB_1
- 6
+ 2
+SRP1
+PUSHB_1
+ 0
 IP
 SVTCA[y-axis]
 PUSHB_2
- 6
- 0
+ 10
+ 11
 SRP1
 SRP2
+PUSHB_3
+ 2
+ 7
+ 18
+IP
+IP
+IP
 PUSHB_1
- 4
+ 31
+SRP1
+PUSHB_3
+ 0
+ 20
+ 21
+IP
+IP
+IP
+PUSHB_1
+ 30
+SRP2
+PUSHB_3
+ 23
+ 34
+ 39
+IP
+IP
 IP
 IUP[y]
 IUP[x]
 EndTTInstrs
-AnchorPoint: "Double" 589 565 basechar 0
+AnchorPoint: "Double" 444 565 basechar 0
 AnchorPoint: "Numeral" 292.5 223 basechar 0
-AnchorPoint: "Diacritic" 299.5 563 basechar 0
+AnchorPoint: "Diacritic" 225.5 563 basechar 0
 LayerCount: 3
 Fore
 SplineSet
-300 375 m 0
- 232 375 182 350 168 293 c 1
- 128 293 l 1
- 40 387 l 1
- 40 433 l 1
- 528 433 l 1
- 528 387 l 1
- 320 66 l 1
- 414 61 488 12 526 -53 c 0
- 540 -78 548 -106 548 -138 c 0
- 548 -174 536 -214 516 -258 c 0
- 494 -301 458 -349 406 -402 c 1
- 366 -402 l 1
- 374 -393 l 1
- 404 -346 438 -273 438 -198 c 0
- 438 -93 376 -42 290 -16 c 0
- 252 -6 208 0 152 0 c 1
- 152 46 l 1
- 368 366 l 1
- 368 372 316 375 300 375 c 0
+335 214 m 1xfa
+ 384 189 408 155 408 112 c 0
+ 408 18 331 -16 230 -16 c 0
+ 131 -16 43 23 43 122 c 0
+ 43 129 45 138 48 148 c 1
+ 213 148 l 1
+ 213 102 l 1xfa
+ 188 102 176 94 176 81 c 0
+ 176 56 198 44 223 44 c 0
+ 264 44 279 66 279 109 c 0
+ 279 150 244 183 171 212 c 1
+ 171 216 l 1
+ 243 246 279 278 279 319 c 0
+ 279 362 264 384 223 384 c 0
+ 198 384 176 372 176 347 c 0xf6
+ 176 334 188 326 213 326 c 1
+ 213 280 l 1
+ 48 280 l 1
+ 45 290 43 299 43 306 c 0
+ 43 405 131 444 230 444 c 0
+ 331 444 408 410 408 316 c 0
+ 408 272 386 240 335 214 c 1xfa
 EndSplineSet
-Validated: 1
 Layer: 2
 SplineSet
-300 375 m 0,0,1
- 187 375 187 375 167 293 c 1,2,-1
- 127 293 l 1,3,-1
- 40 387 l 1,4,-1
- 40 433 l 1,5,-1
- 528 433 l 1,6,-1
- 528 387 l 1,7,-1
- 320 66 l 1,8,9
- 388 62 388 62 442 30 c 128,-1,10
- 496 -2 496 -2 521.5 -46 c 128,-1,11
- 547 -90 547 -90 547 -140 c 0,12,13
- 547 -256 547 -256 405 -402 c 1,14,-1
- 366 -402 l 1,15,-1
- 374 -393 l 1,16,17
- 437 -294 437 -294 437 -198 c 0,18,19
- 437 -61 437 -61 289 -16 c 1,20,21
- 230 0 230 0 152 0 c 1,22,-1
- 152 46 l 1,23,-1
- 367 366 l 1,24,25
- 367 375 367 375 300 375 c 0,0,1
+335 214 m 1,0,1
+ 408 177 408 177 408 112 c 0,2,3
+ 408 -16 408 -16 230 -16 c 0,4,5
+ 149 -16 149 -16 96 18 c 128,-1,6
+ 43 52 43 52 43 122 c 0,7,8
+ 43 131 43 131 48 148 c 1,9,-1
+ 213 148 l 1,10,-1
+ 213 102 l 1,11,12
+ 176 102 176 102 176 81 c 0,13,14
+ 176 63 176 63 189.5 53.5 c 128,-1,15
+ 203 44 203 44 228 44 c 0,16,17
+ 279 44 279 44 279 109 c 0,18,19
+ 279 169 279 169 171 212 c 1,20,-1
+ 171 216 l 1,21,22
+ 279 261 279 261 279 319 c 0,23,24
+ 279 352 279 352 266 368 c 128,-1,25
+ 253 384 253 384 228 384 c 0,26,27
+ 176 384 176 384 176 347 c 0,28,29
+ 176 326 176 326 213 326 c 1,30,-1
+ 213 280 l 1,31,-1
+ 48 280 l 1,32,33
+ 43 297 43 297 43 306 c 0,34,35
+ 43 376 43 376 96 410 c 128,-1,36
+ 149 444 149 444 230 444 c 0,37,38
+ 408 444 408 444 408 316 c 0,39,40
+ 408 251 408 251 335 214 c 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0438
@@ -44460,7 +44388,7 @@ SplineSet
  260 387 l 1,14,15
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0438 uni0306
 EndChar
 
@@ -48012,7 +47940,7 @@ SplineSet
  456 60 l 2,24,25
 EndSplineSet
 Validated: 1
-Kerns2: 120 -100 "'kern' Slavonic Digraphs-1"  248 -79 "'kern' Slavonic Digraphs-1"  219 -78 "'kern' Slavonic Digraphs-1" 
+Kerns2: 120 -100 "'kern' Slavonic Digraphs-1" 248 -79 "'kern' Slavonic Digraphs-1" 219 -78 "'kern' Slavonic Digraphs-1"
 EndChar
 
 StartChar: uni044B
@@ -48413,7 +48341,7 @@ SplineSet
  220 60 l 1,23,-1
 EndSplineSet
 Validated: 1
-Kerns2: 120 -100 "'kern' Slavonic Digraphs-1"  248 -79 "'kern' Slavonic Digraphs-1"  219 -78 "'kern' Slavonic Digraphs-1" 
+Kerns2: 120 -100 "'kern' Slavonic Digraphs-1" 248 -79 "'kern' Slavonic Digraphs-1" 219 -78 "'kern' Slavonic Digraphs-1"
 EndChar
 
 StartChar: uni044D
@@ -49322,7 +49250,7 @@ SplineSet
  129 255 129 255 146 255 c 2,18,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0435 uni0308
 EndChar
 
@@ -49745,7 +49673,7 @@ SplineSet
  50 46 l 1,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0433 uni0301
 EndChar
 
@@ -50484,7 +50412,7 @@ SplineSet
  53 46 l 1,18,19
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0456 uni0308
 EndChar
 
@@ -51768,7 +51696,7 @@ SplineSet
  630 449 630 449 630 411 c 128,-1,21
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni043A uni0301
 EndChar
 
@@ -52026,7 +51954,7 @@ SplineSet
  329 -345 329 -345 329 -185 c 1,14,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0443 uni0306
 EndChar
 
@@ -101068,7 +100996,7 @@ SplineSet
  333 679 l 1,48,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0061 uni0301
 EndChar
 
@@ -101247,7 +101175,7 @@ SplineSet
  339 679 l 1,32,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0065 uni0301
 EndChar
 
@@ -101459,7 +101387,7 @@ SplineSet
  341 679 l 1,39,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0075 uni0301
 EndChar
 
@@ -101608,7 +101536,7 @@ SplineSet
  353 679 l 1,32,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni006F uni0301
 EndChar
 
@@ -101862,7 +101790,7 @@ SplineSet
  357 679 l 1,44,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0079 uni0301
 EndChar
 
@@ -102455,7 +102383,7 @@ SplineSet
  207 676 l 1,39,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0075 uni0302
 EndChar
 
@@ -102637,7 +102565,7 @@ SplineSet
  210 676 l 1,32,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni006F uni0302
 EndChar
 
@@ -102791,7 +102719,7 @@ SplineSet
  99 676 l 1,24,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0069 uni0302
 EndChar
 
@@ -103180,7 +103108,7 @@ SplineSet
  139 679 l 1,32,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0065 uni0300
 EndChar
 
@@ -103419,7 +103347,7 @@ SplineSet
  127 679 l 1,48,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0061 uni0300
 EndChar
 
@@ -103666,7 +103594,7 @@ SplineSet
  179 676 l 1,48,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0061 uni0302
 EndChar
 
@@ -103975,7 +103903,7 @@ SplineSet
  84 578 84 578 84 600 c 256,57,58
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0061 uni0308
 EndChar
 
@@ -104273,7 +104201,7 @@ SplineSet
  110 619 110 619 126 636 c 0,51,52
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0075 uni0308
 EndChar
 
@@ -104500,7 +104428,7 @@ SplineSet
  110 619 110 619 126 636 c 0,44,45
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni006F uni0308
 EndChar
 
@@ -104719,7 +104647,7 @@ SplineSet
  150 679 l 1,39,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0075 uni0300
 EndChar
 
@@ -104939,7 +104867,7 @@ SplineSet
  283 515 l 1,29,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0065 uni030C
 EndChar
 
@@ -105308,7 +105236,7 @@ SplineSet
  67 609 l 1,48,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0061 uni0304
 EndChar
 
@@ -105510,7 +105438,7 @@ SplineSet
  67 615 l 1,32,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0065 uni0304
 EndChar
 
@@ -105807,7 +105735,7 @@ SplineSet
  173 600 173 600 222 600 c 0,51,52
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0061 uni0306
 EndChar
 
@@ -105987,7 +105915,7 @@ SplineSet
  95 600 95 600 140 600 c 0,26,27
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0069 uni0306
 EndChar
 
@@ -106146,7 +106074,7 @@ SplineSet
  186 515 l 1,24,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0069 uni030C
 EndChar
 
@@ -107278,7 +107206,7 @@ SplineSet
  130 255 130 255 147 255 c 2,4,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0435 uni0300
 EndChar
 
@@ -107527,7 +107455,7 @@ SplineSet
  600 387 l 1,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0438 uni0300
 EndChar
 
@@ -138261,7 +138189,7 @@ SplineSet
  371 359 l 2,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0415 uni0300
 EndChar
 
@@ -138524,7 +138452,7 @@ SplineSet
  676 78 l 1,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0418 uni0300
 EndChar
 
@@ -138721,7 +138649,7 @@ SplineSet
  690 421 l 1,8,9
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0474 uni030F
 EndChar
 
@@ -138941,7 +138869,7 @@ SplineSet
  536 256 l 1,8,9
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uni0475 uni030F
 EndChar
 
@@ -139083,7 +139011,7 @@ SplineSet
  639 282 l 1,38,39
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uniA64C uni04860311
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uniA64C uni0486 uni0311
 EndChar
@@ -139221,7 +139149,7 @@ SplineSet
  531 188 531 188 531 187 c 0,38,39
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uniA64D uni04860311
 Ligature2: "'ccmp' Canonical Equivalents-Cyrillic" uniA64D uni0486 uni0311
 EndChar
@@ -140072,7 +140000,7 @@ SplineSet
  20 743 50 774 90 774 c 0
  130 774 161 743 161 703 c 0
  161 663 130 633 90 633 c 0
-90 569 m 0
+90 569 m 1024
 90 0 m 0
  50 0 20 28 20 68 c 0
  20 108 49 139 90 139 c 0
@@ -162804,7 +162732,7 @@ SplineSet
  420 33 420 33 427 33 c 0,24,25
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni0391 uni0301
 EndChar
 
@@ -163150,7 +163078,7 @@ SplineSet
  664 202 664 202 669 202 c 0,21,22
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni0395 uni0301 
 EndChar
 
@@ -163549,7 +163477,7 @@ SplineSet
  327 320 l 2,13,14
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni0397 uni0301
 EndChar
 
@@ -163773,7 +163701,7 @@ SplineSet
  138 1 l 2,18,19
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni0399 uni0301
 EndChar
 
@@ -163999,7 +163927,7 @@ SplineSet
  499 41 499 41 445 14.5 c 128,-1,30
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni039F uni0301
 EndChar
 
@@ -164420,7 +164348,7 @@ SplineSet
  117 596 117 596 117 508 c 1,18,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03A5 uni0301
 EndChar
 
@@ -164692,7 +164620,7 @@ SplineSet
  753 202 753 202 753 188 c 1,12,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03A9 uni0301
 EndChar
 
@@ -164938,7 +164866,7 @@ SplineSet
  190 370 190 370 184 342 c 0,38,39
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03B9 uni0308 uni0301
 EndChar
 
@@ -165202,7 +165130,7 @@ SplineSet
  49 0 l 2,33,34
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni0399 uni0308 
 EndChar
 
@@ -165682,7 +165610,7 @@ SplineSet
  56 596 56 596 56 508 c 1,28,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03A5 uni0308
 EndChar
 
@@ -165974,7 +165902,7 @@ SplineSet
  407 354 407 354 398 335 c 0,28,29
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03B1 uni0301 
 EndChar
 
@@ -166285,7 +166213,7 @@ SplineSet
  137 184 l 1,14,15
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03B5 uni0301
 EndChar
 
@@ -166663,7 +166591,7 @@ SplineSet
  199 -12 199 -12 172 -12 c 0,14,15
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03B7 uni0301 
 EndChar
 
@@ -166824,7 +166752,7 @@ SplineSet
  190 370 190 370 184 342 c 0,14,15
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03B9 uni0301 
 EndChar
 
@@ -167155,7 +167083,7 @@ SplineSet
  33 322 33 322 33 365 c 1,34,-1
 EndSplineSet
 Validated: 1
-LCarets2: 3 0 0 0 
+LCarets2: 3 0 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03C5 uni0308 uni0301 
 EndChar
 
@@ -167377,7 +167305,7 @@ SplineSet
  190 370 190 370 184 342 c 0,20,21
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03B9 uni0308 
 EndChar
 
@@ -167668,7 +167596,7 @@ SplineSet
  33 328 33 328 33 365 c 2,20,21
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03C5 uni0308 
 EndChar
 
@@ -167869,7 +167797,7 @@ SplineSet
  273 29 273 29 238.5 8.5 c 128,-1,31
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03BF uni0301 
 EndChar
 
@@ -168118,7 +168046,7 @@ SplineSet
  330 391 330 391 330 399 c 0,14,15
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03C5 uni0301 
 EndChar
 
@@ -168437,7 +168365,7 @@ SplineSet
  270 96 270 96 270 124 c 1,15,-1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'ccmp' Canonical Equivalents-Greek" uni03C9 uni0301 
 EndChar
 
@@ -253793,7 +253721,7 @@ SplineSet
  277 218 l 2,21,22
 EndSplineSet
 Validated: 1
-Kerns2: 198 -175 "'kern' Slavonic Digraphs-1"  230 -93 "'kern' Slavonic Digraphs-1" 
+Kerns2: 198 -175 "'kern' Slavonic Digraphs-1" 230 -93 "'kern' Slavonic Digraphs-1"
 EndChar
 
 StartChar: uni1C81
@@ -256300,7 +256228,7 @@ SplineSet
  -234 692 -234 692 -220.5 706 c 132,-1,14
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0486 uni0311
 Colour: 408fff
 EndChar
@@ -256886,7 +256814,7 @@ SplineSet
  -196 614 -196 614 -198 616 c 1,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0486 uni0300
 Colour: 408fff
 EndChar
@@ -256997,7 +256925,7 @@ SplineSet
  -190 650 -190 650 -192 652 c 1,4,5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0486 uni0301
 Colour: 408fff
 EndChar
@@ -257147,7 +257075,7 @@ SplineSet
  -117 621 -117 621 -128.5 600.5 c 128,-1,15
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" uni0485 uni0311
 Colour: 408fff
 EndChar
@@ -257273,7 +257201,7 @@ SplineSet
  213 -29 213 -29 161 56 c 0,16,17
 EndSplineSet
 Validated: 1
-Kerns2: 230 -84 "'kern' Slavonic Digraphs-1"  198 -162 "'kern' Slavonic Digraphs-1" 
+Kerns2: 230 -84 "'kern' Slavonic Digraphs-1" 198 -162 "'kern' Slavonic Digraphs-1"
 Colour: ffff00
 EndChar
 
@@ -269872,7 +269800,7 @@ SplineSet
  164 116 l 1,8,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Ligatures-1" u1D00F uni032A
 Colour: ffff00
 EndChar
@@ -273332,7 +273260,7 @@ SplineSet
  458 222 l 1,15,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0041 uni0300
 EndChar
 
@@ -273444,7 +273372,7 @@ SplineSet
  574 659 574 659 577 677 c 1,0,-1
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0043 uni0327
 EndChar
 
@@ -273580,7 +273508,7 @@ SplineSet
  381 720 381 720 381 714 c 0,67,68
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0045 uni0300
 EndChar
 
@@ -273716,7 +273644,7 @@ SplineSet
  350 820 l 1,67,68
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0045 uni0301
 EndChar
 
@@ -273847,7 +273775,7 @@ SplineSet
  303 814 303 814 315 808 c 1,65,66
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0045 uni0302
 EndChar
 
@@ -273966,7 +273894,7 @@ SplineSet
  6 743 6 743 6 757 c 0,55,56
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0049 uni0308
 EndChar
 
@@ -274104,7 +274032,7 @@ SplineSet
  250 798 250 798 293 798 c 0,44,45
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni004E uni0303
 EndChar
 
@@ -274292,7 +274220,7 @@ SplineSet
  506 691 506 691 506 706 c 128,-1,58
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni004F uni0308
 EndChar
 
@@ -274378,7 +274306,7 @@ SplineSet
  239 662 239 662 249 660 c 1,36,37
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0065 uni0302
 EndChar
 
@@ -274492,7 +274420,7 @@ SplineSet
  292 531 292 531 282 542 c 128,-1,61
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0065 uni0308
 EndChar
 
@@ -274601,7 +274529,7 @@ SplineSet
  186 534 186 534 178 542 c 0,45,46
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni0069 uni0308
 EndChar
 
@@ -274754,7 +274682,7 @@ SplineSet
  167 620 167 620 187 626 c 1,54,55
 EndSplineSet
 Validated: 1
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalents-Latin" uni006E uni0303
 EndChar
 
