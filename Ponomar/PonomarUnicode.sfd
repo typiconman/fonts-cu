@@ -25,7 +25,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1553151770
+ModificationTime: 1554739312
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1269,7 +1269,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 432 18 7
+WinInfo: 468 18 7
 BeginPrivate: 9
 BlueValues 31 [-18 0 437 460 577 597 770 788]
 BlueScale 8 0.039625
@@ -98927,7 +98927,7 @@ EndChar
 StartChar: uniA64B.short
 Encoding: 57570 57570 366
 Width: 464
-Flags: W
+Flags: WO
 HStem: -8 24<129.547 232.186>
 VStem: 38 28<70.5013 170.734> 61 100<511.141 552.159> 287 98<60.1521 188.164> 455 85<835.84 893.951>
 DStem2: 242 413 170 330 0.564431 -0.82548<-178.793 0 22.5341 32.4037 53.113 263.023>
@@ -99323,8 +99323,8 @@ IUP[x]
 EndTTInstrs
 AnchorPoint: "HalfMark" 238.5 538.7 basechar 0
 AnchorPoint: "DoubleTitlo" 465 1014 basechar 0
-AnchorPoint: "Yerok" 233 829 basechar 0
-AnchorPoint: "Diacritic" 232 827.8 basechar 0
+AnchorPoint: "Yerok" 190 729 basechar 0
+AnchorPoint: "Diacritic" 190 728.8 basechar 0
 LayerCount: 3
 Fore
 SplineSet
@@ -99356,7 +99356,6 @@ SplineSet
  238 16 287 57 287 109 c 0
  287 150 270 184 250 213 c 0
 EndSplineSet
-Validated: 19457
 Layer: 2
 SplineSet
 513 960 m 0,0,1
