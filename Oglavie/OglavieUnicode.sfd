@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1291789194
-ModificationTime: 1555245406
+ModificationTime: 1555310698
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -40,10 +40,11 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 4 0 0 "'ccmp' Cyrillic Glyph Compositions" { "'ccmp' Cyrillic Glyph Compositions-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2019, Aleksandr Andreev (<https://sci.ponomar.net/>).+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
-Encoding: UnicodeBmp
+Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
@@ -60,10 +61,10 @@ StdHW 6 [ 20 ]
 StdVW 7 [ 100 ]
 ForceBold 5 false
 EndPrivate
-BeginChars: 65537 238
+BeginChars: 1114113 239
 
 StartChar: .notdef
-Encoding: 65536 -1 0
+Encoding: 1114112 -1 0
 Width: 360
 LayerCount: 2
 Fore
@@ -193,6 +194,7 @@ SplineSet
  -50 1033 l 1
  -88 858 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0486 acutecomb
 EndChar
 
 StartChar: uniE004
@@ -222,6 +224,7 @@ SplineSet
  -310 971 -284 1016 -238 1016 c 0
  -183 1016 -161 973 -161 934 c 0
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0486 gravecomb
 EndChar
 
 StartChar: quotesingle
@@ -964,6 +967,7 @@ SplineSet
  310 590 l 1
  210 590 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10068 acutecomb
 EndChar
 
 StartChar: quotedblbase
@@ -1062,6 +1066,7 @@ SplineSet
  173 430 160 442 150 454 c 1
  150 0 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10028 acutecomb
 EndChar
 
 StartChar: afii10145
@@ -1338,6 +1343,7 @@ SplineSet
  173 430 160 442 150 454 c 1
  150 0 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10076 acutecomb
 EndChar
 
 StartChar: afii10108
@@ -1437,6 +1443,7 @@ SplineSet
  326 808 l 1
  326 800 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0423 uni0306
 EndChar
 
 StartChar: afii10110
@@ -1479,6 +1486,7 @@ SplineSet
  326 808 l 1
  326 800 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0443 uni0306
 EndChar
 
 StartChar: afii10050
@@ -1567,6 +1575,7 @@ SplineSet
  331 312 l 1
  331 230 317 116 222 26 c 0
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10022 uni0308
 EndChar
 
 StartChar: afii10053
@@ -1688,6 +1697,7 @@ SplineSet
  113 945 l 5
  156 945 l 5
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10055 uni0308
 EndChar
 
 StartChar: uniA67E
@@ -1868,6 +1878,7 @@ SplineSet
  331 312 l 1
  331 230 317 116 222 26 c 0
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10070 uni0308
 EndChar
 
 StartChar: afii10101
@@ -2087,6 +2098,7 @@ SplineSet
  113 945 l 1
  156 945 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10103 uni0308
 EndChar
 
 StartChar: .null
@@ -2464,6 +2476,7 @@ SplineSet
  137 900 157 882 177 882 c 4
  218 882 244 927 245 960 c 5
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10026 uni0306
 EndChar
 
 StartChar: afii10028
@@ -3491,6 +3504,7 @@ SplineSet
  137 900 157 882 177 882 c 0
  218 882 244 927 245 960 c 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10074 uni0306
 EndChar
 
 StartChar: afii10076
@@ -4243,6 +4257,7 @@ SplineSet
  87 980 l 5
  252 903 l 5
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10022 gravecomb
 EndChar
 
 StartChar: uni040D
@@ -4275,6 +4290,7 @@ SplineSet
  173 394 161 383 150 374 c 1
  150 0 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10026 gravecomb
 EndChar
 
 StartChar: uni0450
@@ -4331,6 +4347,7 @@ SplineSet
  87 980 l 5
  252 903 l 5
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10070 gravecomb
 EndChar
 
 StartChar: uni045D
@@ -4363,6 +4380,7 @@ SplineSet
  173 394 161 383 150 374 c 1
  150 0 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10074 gravecomb
 EndChar
 
 StartChar: uni0460
@@ -5184,6 +5202,7 @@ SplineSet
  179 875 l 5
  179 868 l 5
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0474 uni030F
 EndChar
 
 StartChar: uni0477
@@ -5223,6 +5242,7 @@ SplineSet
  179 875 l 1
  179 868 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0475 uni030F
 EndChar
 
 StartChar: uni0478
@@ -5281,6 +5301,7 @@ SplineSet
  251 286 227 366 205 438 c 0
  192 486 170 538 155 584 c 0
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10032 uni0423
 EndChar
 
 StartChar: uni0479
@@ -5339,6 +5360,8 @@ SplineSet
  251 286 227 366 205 438 c 0
  192 486 170 538 155 584 c 0
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10080 uni0443
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10032 uni0443
 EndChar
 
 StartChar: uni047A
@@ -5440,78 +5463,78 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-340 227 m 4
- 340 190 321 160 287 155 c 5
- 290 116 304 66 325 40 c 4
- 331 32 337 30 348 30 c 4
- 373 30 395 72 395 136 c 6
- 395 743 l 6
- 395 780 371 790 357 790 c 4
- 345 790 320 782 312 758 c 5
- 316 760 321 761 326 761 c 4
- 350 761 370 735 370 711 c 4
- 370 687 358 655 326 655 c 4
- 295 655 283 687 283 711 c 4
- 283 768 309 808 362 808 c 4
- 431 808 465 757 478 712 c 4
- 498 644 504 498 504 410 c 4
- 504 313 493 160 475 88 c 4
- 463 39 425 -8 379 -8 c 4
- 349 -8 331 3 311 25 c 4
- 295 42 284 70 277 100 c 5
- 270 70 258 42 243 25 c 4
- 223 3 205 -8 175 -8 c 4
- 129 -8 91 39 79 88 c 4
- 61 160 50 313 50 410 c 4
- 50 498 56 644 76 712 c 4
- 89 757 123 808 192 808 c 4
- 245 808 271 768 271 711 c 4
- 271 687 259 655 228 655 c 4
- 196 655 184 687 184 711 c 4
- 184 735 204 761 228 761 c 4
- 232 761 237 760 241 758 c 5
- 233 782 209 790 197 790 c 4
- 183 790 159 780 159 743 c 6
- 159 136 l 6
- 159 72 181 30 206 30 c 4
- 217 30 223 32 229 40 c 4
- 249 66 263 116 267 155 c 5
- 233 160 214 190 214 227 c 4
- 214 263 233 294 267 299 c 5
- 263 421 234 520 211 562 c 5
- 215 570 l 5
- 231 566 249 563 277 563 c 4
- 305 563 323 566 339 570 c 5
- 343 562 l 5
- 320 520 290 421 286 299 c 5
- 320 294 340 263 340 227 c 4
-123 846 m 1
- 121 850 117 859 117 868 c 0
- 117 881 129 905 139 919 c 0
- 145 928 151 936 161 941 c 0
- 211 967 266 981 312 987 c 0
- 319 988 328 988 333 984 c 0
- 386 943 464 866 496 845 c 0
- 499 839 499 833 498 827 c 1
- 427 827 l 1
- 386 852 346 910 297 942 c 0
- 285 946 251 948 234 945 c 0
- 220 943 203 936 193 926 c 0
- 187 917 183 908 182 898 c 0
- 181 885 184 867 186 859 c 2
- 186 853 l 1
- 123 846 l 1
-297 825 m 1
- 302 834 305 843 305 855 c 0
- 305 872 289 892 268 892 c 0
- 246 892 234 874 234 858 c 0
- 234 844 240 831 243 825 c 1
- 231 821 l 1
- 219 831 205 850 205 875 c 0
- 205 902 229 930 264 930 c 0
- 301 930 333 900 333 870 c 0
- 333 850 317 828 309 821 c 1
- 297 825 l 1
+340 227 m 0
+ 340 190 321 160 287 155 c 1
+ 290 116 304 66 325 40 c 0
+ 331 32 337 30 348 30 c 0
+ 373 30 395 72 395 136 c 2
+ 395 743 l 2
+ 395 780 371 790 357 790 c 0
+ 345 790 320 782 312 758 c 1
+ 316 760 321 761 326 761 c 0
+ 350 761 370 735 370 711 c 0
+ 370 687 358 655 326 655 c 0
+ 295 655 283 687 283 711 c 0
+ 283 768 309 808 362 808 c 0
+ 431 808 465 757 478 712 c 0
+ 498 644 504 498 504 410 c 0
+ 504 313 493 160 475 88 c 0
+ 463 39 425 -8 379 -8 c 0
+ 349 -8 331 3 311 25 c 0
+ 295 42 284 70 277 100 c 1
+ 270 70 258 42 243 25 c 0
+ 223 3 205 -8 175 -8 c 0
+ 129 -8 91 39 79 88 c 0
+ 61 160 50 313 50 410 c 0
+ 50 498 56 644 76 712 c 0
+ 89 757 123 808 192 808 c 0
+ 245 808 271 768 271 711 c 0
+ 271 687 259 655 228 655 c 0
+ 196 655 184 687 184 711 c 0
+ 184 735 204 761 228 761 c 0
+ 232 761 237 760 241 758 c 1
+ 233 782 209 790 197 790 c 0
+ 183 790 159 780 159 743 c 2
+ 159 136 l 2
+ 159 72 181 30 206 30 c 0
+ 217 30 223 32 229 40 c 0
+ 249 66 263 116 267 155 c 1
+ 233 160 214 190 214 227 c 0
+ 214 263 233 294 267 299 c 1
+ 263 421 234 520 211 562 c 1
+ 215 570 l 1
+ 231 566 249 563 277 563 c 0
+ 305 563 323 566 339 570 c 1
+ 343 562 l 1
+ 320 520 290 421 286 299 c 1
+ 320 294 340 263 340 227 c 0
+123 846 m 5
+ 121 850 117 859 117 868 c 4
+ 117 881 129 905 139 919 c 4
+ 145 928 151 936 161 941 c 4
+ 211 967 266 981 312 987 c 4
+ 319 988 328 988 333 984 c 4
+ 386 943 464 866 496 845 c 4
+ 499 839 499 833 498 827 c 5
+ 427 827 l 5
+ 386 852 346 910 297 942 c 4
+ 285 946 251 948 234 945 c 4
+ 220 943 203 936 193 926 c 4
+ 187 917 183 908 182 898 c 4
+ 181 885 184 867 186 859 c 6
+ 186 853 l 5
+ 123 846 l 5
+297 825 m 5
+ 302 834 305 843 305 855 c 4
+ 305 872 289 892 268 892 c 4
+ 246 892 234 874 234 858 c 4
+ 234 844 240 831 243 825 c 5
+ 231 821 l 5
+ 219 831 205 850 205 875 c 4
+ 205 902 229 930 264 930 c 4
+ 301 930 333 900 333 870 c 4
+ 333 850 317 828 309 821 c 5
+ 297 825 l 5
 EndSplineSet
 EndChar
 
@@ -6950,6 +6973,7 @@ SplineSet
  310 590 l 1
  210 590 l 1
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10020 acutecomb
 EndChar
 
 StartChar: uni0408
@@ -7537,6 +7561,45 @@ SplineSet
  34 779 l 1
  34 759 l 1
 EndSplineSet
+EndChar
+
+StartChar: uniE005
+Encoding: 57349 57349 238
+Width: 0
+GlyphClass: 4
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+-422 688 m 1
+ -424 692 -428 701 -428 710 c 0
+ -428 723 -416 747 -406 761 c 0
+ -400 770 -394 778 -384 783 c 0
+ -334 809 -279 823 -233 829 c 0
+ -226 830 -217 830 -212 826 c 0
+ -159 785 -81 708 -49 687 c 0
+ -46 681 -46 675 -47 669 c 1
+ -118 669 l 1
+ -159 694 -199 752 -248 784 c 0
+ -260 788 -294 790 -311 787 c 0
+ -325 785 -342 778 -352 768 c 0
+ -358 759 -362 750 -363 740 c 0
+ -364 727 -361 709 -359 701 c 2
+ -359 695 l 1
+ -422 688 l 1
+-248 667 m 1
+ -243 676 -240 685 -240 697 c 0
+ -240 714 -256 734 -277 734 c 0
+ -299 734 -311 716 -311 700 c 0
+ -311 686 -305 673 -302 667 c 1
+ -314 663 l 1
+ -326 673 -340 692 -340 717 c 0
+ -340 744 -316 772 -281 772 c 0
+ -244 772 -212 742 -212 712 c 0
+ -212 692 -228 670 -236 663 c 1
+ -248 667 l 1
+EndSplineSet
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0486 uni0308
 EndChar
 EndChars
 EndSplineFont
