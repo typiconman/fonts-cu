@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1291789194
-ModificationTime: 1555310698
+ModificationTime: 1555443097
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -41,6 +41,7 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' Cyrillic Glyph Compositions" { "'ccmp' Cyrillic Glyph Compositions-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Diacritical Marks" { "'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2019, Aleksandr Andreev (<https://sci.ponomar.net/>).+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
@@ -61,6 +62,7 @@ StdHW 6 [ 20 ]
 StdVW 7 [ 100 ]
 ForceBold 5 false
 EndPrivate
+AnchorClass2: "Above" "'mark' Diacritical Marks-1"
 BeginChars: 1114113 239
 
 StartChar: .notdef
@@ -149,21 +151,22 @@ EndChar
 StartChar: uniE000
 Encoding: 57344 57344 4
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--147 863 m 1
- -136 875 -134 890 -134 908 c 0
- -134 933 -151 956 -176 956 c 0
- -202 956 -221 936 -221 911 c 0
- -221 890 -212 870 -207 861 c 1
- -222 852 l 1
- -243 866 -263 896 -263 933 c 0
- -263 974 -231 1018 -179 1018 c 0
- -118 1018 -92 976 -92 932 c 0
- -92 894 -112 872 -134 854 c 1
- -147 863 l 1
+-116 667 m 1
+ -105 679 -103 694 -103 712 c 0
+ -103 737 -120 760 -145 760 c 0
+ -171 760 -190 740 -190 715 c 0
+ -190 694 -181 674 -176 665 c 1
+ -191 656 l 1
+ -212 670 -232 700 -232 737 c 0
+ -232 778 -200 822 -148 822 c 0
+ -87 822 -61 780 -61 736 c 0
+ -61 698 -81 676 -103 658 c 1
+ -116 667 l 1
 EndSplineSet
 EndChar
 
@@ -171,29 +174,31 @@ StartChar: uniE002
 Encoding: 57346 57346 5
 Width: 1
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--190 866 m 1
- -180 877 -180 899 -180 916 c 0
- -180 938 -194 961 -218 961 c 0
- -241 961 -255 937 -255 915 c 0
- -255 896 -247 872 -242 864 c 1
- -256 856 l 1
- -275 869 -293 901 -293 934 c 0
- -293 971 -267 1016 -221 1016 c 0
- -166 1016 -144 973 -144 934 c 0
- -144 899 -159 875 -177 858 c 1
- -190 866 l 1
--88 858 m 1
- -124 858 l 1
- -124 865 l 1
- -92 1040 l 1
- -50 1040 l 1
- -50 1033 l 1
- -88 858 l 1
+-175 665 m 1
+ -165 676 -165 698 -165 715 c 0
+ -165 737 -179 760 -203 760 c 0
+ -226 760 -240 736 -240 714 c 0
+ -240 695 -232 671 -227 663 c 1
+ -241 655 l 1
+ -260 668 -278 700 -278 733 c 0
+ -278 770 -252 815 -206 815 c 0
+ -151 815 -129 772 -129 733 c 0
+ -129 698 -144 674 -162 657 c 1
+ -175 665 l 1
+-73 657 m 1
+ -109 657 l 1
+ -109 664 l 1
+ -77 839 l 1
+ -35 839 l 1
+ -35 832 l 1
+ -73 657 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0486 acutecomb
 EndChar
 
@@ -201,29 +206,31 @@ StartChar: uniE004
 Encoding: 57348 57348 6
 Width: 1
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--69 858 m 1
- -105 858 l 1
- -163 1033 l 1
- -163 1040 l 1
- -121 1040 l 1
- -69 865 l 1
- -69 858 l 1
--161 934 m 0
- -161 899 -176 875 -194 858 c 1
- -207 866 l 1
- -197 877 -197 899 -197 916 c 0
- -197 938 -211 961 -235 961 c 0
- -258 961 -272 937 -272 915 c 0
- -272 896 -264 872 -259 864 c 1
- -273 856 l 1
- -292 869 -310 901 -310 934 c 0
- -310 971 -284 1016 -238 1016 c 0
- -183 1016 -161 973 -161 934 c 0
+-61 658 m 1
+ -97 658 l 1
+ -155 833 l 1
+ -155 840 l 1
+ -113 840 l 1
+ -61 665 l 1
+ -61 658 l 1
+-153 734 m 0
+ -153 699 -168 675 -186 658 c 1
+ -199 666 l 1
+ -189 677 -189 699 -189 716 c 0
+ -189 738 -203 761 -227 761 c 0
+ -250 761 -264 737 -264 715 c 0
+ -264 696 -256 672 -251 664 c 1
+ -265 656 l 1
+ -284 669 -302 701 -302 734 c 0
+ -302 771 -276 816 -230 816 c 0
+ -175 816 -153 773 -153 734 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0486 gravecomb
 EndChar
 
@@ -338,48 +345,49 @@ StartChar: uni2DE1
 Encoding: 11745 11745 11
 Width: 1
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--150 848 m 2
- -286 848 l 2
- -294 848 -295 862 -286 862 c 2
- -281 862 l 1
- -279 872 -277 892 -276 906 c 0
- -275 924 -275 945 -275 956 c 1
- -284 956 l 2
- -292 956 -293 970 -284 970 c 2
- -170 970 l 2
- -163 970 -163 956 -170 956 c 2
- -179 956 l 1
- -178 945 -178 922 -175 902 c 0
- -173 888 -168 870 -166 862 c 1
- -150 862 l 2
- -145 862 -144 848 -150 848 c 2
--213 862 m 1
- -215 870 -217 887 -217 899 c 0
- -217 920 -218 945 -218 956 c 1
- -233 956 l 1
- -233 945 -233 923 -234 904 c 0
- -234 890 -235 871 -235 862 c 1
- -213 862 l 1
--357 907 m 1
- -359 911 -363 920 -363 929 c 0
- -363 942 -355 966 -346 981 c 0
- -340 991 -335 996 -325 1001 c 0
- -273 1026 -234 1038 -188 1048 c 0
- -181 1049 -172 1049 -167 1045 c 0
- -114 1004 -6 927 26 906 c 0
- 29 900 29 894 28 888 c 1
- -43 888 l 1
- -85 912 -154 971 -203 1003 c 0
- -215 1007 -231 1008 -248 1008 c 0
- -265 1008 -287 999 -296 988 c 0
- -300 979 -300 970 -300 960 c 0
- -300 944 -294 931 -294 920 c 2
- -294 914 l 1
- -357 907 l 1
+-77 657 m 2
+ -213 657 l 2
+ -221 657 -222 671 -213 671 c 2
+ -208 671 l 1
+ -206 681 -204 701 -203 715 c 0
+ -202 733 -202 754 -202 765 c 1
+ -211 765 l 2
+ -219 765 -220 779 -211 779 c 2
+ -97 779 l 2
+ -90 779 -90 765 -97 765 c 2
+ -106 765 l 1
+ -105 754 -105 731 -102 711 c 0
+ -100 697 -95 679 -93 671 c 1
+ -77 671 l 2
+ -72 671 -71 657 -77 657 c 2
+-140 671 m 1
+ -142 679 -144 696 -144 708 c 0
+ -144 729 -145 754 -145 765 c 1
+ -160 765 l 1
+ -160 754 -160 732 -161 713 c 0
+ -161 699 -162 680 -162 671 c 1
+ -140 671 l 1
+-284 716 m 1
+ -286 720 -290 729 -290 738 c 0
+ -290 751 -282 775 -273 790 c 0
+ -267 800 -262 805 -252 810 c 0
+ -200 835 -161 847 -115 857 c 0
+ -108 858 -99 858 -94 854 c 0
+ -41 813 67 736 99 715 c 0
+ 102 709 102 703 101 697 c 1
+ 30 697 l 1
+ -12 721 -81 780 -130 812 c 0
+ -142 816 -158 817 -175 817 c 0
+ -192 817 -214 808 -223 797 c 0
+ -227 788 -227 779 -227 769 c 0
+ -227 753 -221 740 -221 729 c 2
+ -221 723 l 1
+ -284 716 l 1
 EndSplineSet
 EndChar
 
@@ -450,62 +458,65 @@ EndChar
 StartChar: acutecomb
 Encoding: 769 769 16
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -150 690 mark 0
 LayerCount: 2
 Fore
 SplineSet
--165 858 m 5
- -201 858 l 5
- -201 865 l 5
- -161 1040 l 5
- -119 1040 l 5
- -119 1033 l 5
- -165 858 l 5
+-148 691 m 1
+ -184 691 l 1
+ -184 698 l 1
+ -144 873 l 1
+ -102 873 l 1
+ -102 866 l 1
+ -148 691 l 1
 EndSplineSet
 EndChar
 
 StartChar: gravecomb
 Encoding: 768 768 17
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -94 694 mark 0
 LayerCount: 2
 Fore
 SplineSet
--93 903 m 1
- -93 864 l 1
- -100 864 l 1
- -265 935 l 1
- -265 980 l 1
- -258 980 l 1
- -93 903 l 1
+-91 733 m 1
+ -91 694 l 1
+ -98 694 l 1
+ -263 765 l 1
+ -263 810 l 1
+ -256 810 l 1
+ -91 733 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni0311
 Encoding: 785 785 18
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -151 662 mark 0
 LayerCount: 2
 Fore
 SplineSet
--181 945 m 0
- -219 945 -234 906 -234 869 c 2
- -234 858 l 1
- -272 858 l 1
- -272 868 l 2
- -272 928 -239 982 -181 982 c 0
- -123 982 -90 928 -90 868 c 2
- -90 858 l 1
- -128 858 l 1
- -128 869 l 2
- -128 906 -143 945 -181 945 c 0
+-156 751 m 0
+ -194 751 -209 712 -209 675 c 2
+ -209 664 l 1
+ -247 664 l 1
+ -247 674 l 2
+ -247 734 -214 788 -156 788 c 0
+ -98 788 -65 734 -65 674 c 2
+ -65 664 l 1
+ -103 664 l 1
+ -103 675 l 2
+ -103 712 -118 751 -156 751 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni033E
 Encoding: 830 830 19
 Width: 1
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -568,197 +579,202 @@ EndChar
 StartChar: uni2DEF
 Encoding: 11759 11759 22
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--148 867 m 0
- -165 884 -179 898 -199 914 c 1
- -228 893 -256 869 -275 854 c 1
- -306 854 l 2
- -309 855 -309 861 -307 861 c 0
- -277 883 -250 903 -216 927 c 1
- -239 946 -270 972 -292 985 c 1
- -302 986 -326 989 -335 991 c 0
- -337 991 -340 989 -340 987 c 0
- -339 976 -339 968 -341 956 c 0
- -343 942 -345 932 -350 924 c 1
- -364 921 -384 918 -397 918 c 0
- -399 918 -399 921 -399 922 c 0
- -388 947 -380 980 -370 1005 c 0
- -369 1008 -364 1010 -359 1010 c 0
- -319 1008 -271 1010 -230 1012 c 0
- -227 1012 -224 1010 -222 1010 c 0
- -203 993 -186 979 -167 962 c 1
- -147 978 -128 993 -110 1005 c 0
- -88 1019 -60 1026 -25 1028 c 0
- -2 1028 15 1026 25 1022 c 0
- 27 1020 30 1018 28 1016 c 0
- 18 1007 5 1001 -1 989 c 0
- -8 977 -11 964 -12 951 c 0
- -12 949 -17 947 -19 949 c 0
- -33 959 -61 974 -78 979 c 0
- -80 980 -87 980 -90 979 c 0
- -106 972 -127 960 -150 945 c 1
- -120 916 -85 886 -51 858 c 0
- -49 857 -49 854 -52 854 c 2
- -123 854 l 2
- -135 856 -142 861 -148 867 c 0
+-97 677 m 0
+ -114 694 -128 708 -148 724 c 1
+ -177 703 -205 679 -224 664 c 1
+ -255 664 l 2
+ -258 665 -258 671 -256 671 c 0
+ -226 693 -199 713 -165 737 c 1
+ -188 756 -219 782 -241 795 c 1
+ -251 796 -275 799 -284 801 c 0
+ -286 801 -289 799 -289 797 c 0
+ -288 786 -288 778 -290 766 c 0
+ -292 752 -294 742 -299 734 c 1
+ -313 731 -333 728 -346 728 c 0
+ -348 728 -348 731 -348 732 c 0
+ -337 757 -329 790 -319 815 c 0
+ -318 818 -313 820 -308 820 c 0
+ -268 818 -220 820 -179 822 c 0
+ -176 822 -173 820 -171 820 c 0
+ -152 803 -135 789 -116 772 c 1
+ -96 788 -77 803 -59 815 c 0
+ -37 829 -9 836 26 838 c 0
+ 49 838 66 836 76 832 c 0
+ 78 830 81 828 79 826 c 0
+ 69 817 56 811 50 799 c 0
+ 43 787 40 774 39 761 c 0
+ 39 759 34 757 32 759 c 0
+ 18 769 -10 784 -27 789 c 0
+ -29 790 -36 790 -39 789 c 0
+ -55 782 -76 770 -99 755 c 1
+ -69 726 -34 696 0 668 c 0
+ 2 667 2 664 -1 664 c 2
+ -72 664 l 2
+ -84 666 -91 671 -97 677 c 0
 EndSplineSet
 EndChar
 
 StartChar: uni2DE9
 Encoding: 11753 11753 23
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--282 962 m 1
- -282 848 l 1
- -237 848 l 1
- -237 898 l 1
- -204 898 l 1
- -204 848 l 1
- -161 848 l 1
- -161 964 l 1
- -204 964 l 1
- -204 919 l 1
- -237 919 l 1
- -237 962 l 1
- -282 962 l 1
--357 907 m 1
- -359 911 -363 920 -363 929 c 0
- -363 942 -355 966 -346 981 c 0
- -340 991 -335 996 -325 1001 c 0
- -273 1026 -234 1038 -188 1048 c 0
- -181 1049 -172 1049 -167 1045 c 0
- -114 1004 -6 927 26 906 c 0
- 29 900 29 894 28 888 c 1
- -43 888 l 1
- -85 912 -154 971 -203 1003 c 0
- -215 1007 -231 1008 -248 1008 c 0
- -265 1008 -287 999 -296 988 c 0
- -300 979 -300 970 -300 960 c 0
- -300 944 -294 931 -294 920 c 2
- -294 914 l 1
- -357 907 l 1
+-297 768 m 1
+ -297 654 l 1
+ -252 654 l 1
+ -252 704 l 1
+ -219 704 l 1
+ -219 654 l 1
+ -176 654 l 1
+ -176 770 l 1
+ -219 770 l 1
+ -219 725 l 1
+ -252 725 l 1
+ -252 768 l 1
+ -297 768 l 1
+-372 713 m 1
+ -374 717 -378 726 -378 735 c 0
+ -378 748 -370 772 -361 787 c 0
+ -355 797 -350 802 -340 807 c 0
+ -288 832 -249 844 -203 854 c 0
+ -196 855 -187 855 -182 851 c 0
+ -129 810 -21 733 11 712 c 0
+ 14 706 14 700 13 694 c 1
+ -58 694 l 1
+ -100 718 -169 777 -218 809 c 0
+ -230 813 -246 814 -263 814 c 0
+ -280 814 -302 805 -311 794 c 0
+ -315 785 -315 776 -315 766 c 0
+ -315 750 -309 737 -309 726 c 2
+ -309 720 l 1
+ -372 713 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2DEC
 Encoding: 11756 11756 24
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--335 845 m 1
- -333 852 -331 857 -331 871 c 2
- -331 927 l 2
- -331 947 -297 970 -264 970 c 0
- -232 970 -197 951 -197 928 c 0
- -197 907 -216 895 -251 895 c 0
- -259 895 -281 897 -287 902 c 1
- -287 862 l 2
- -287 850 -335 845 -335 845 c 1
--285 932 m 0
- -285 924 -277 911 -264 911 c 0
- -250 911 -240 920 -240 933 c 0
- -240 943 -249 955 -264 955 c 0
- -278 955 -285 942 -285 932 c 0
--411 907 m 1
- -413 911 -417 920 -417 929 c 0
- -417 942 -409 966 -400 981 c 0
- -394 991 -389 996 -379 1001 c 0
- -327 1026 -288 1038 -242 1048 c 0
- -235 1049 -226 1049 -221 1045 c 0
- -168 1004 -60 927 -28 906 c 0
- -25 900 -25 894 -26 888 c 1
- -97 888 l 1
- -139 912 -208 971 -257 1003 c 0
- -269 1007 -285 1008 -302 1008 c 0
- -319 1008 -341 999 -350 988 c 0
- -354 979 -354 970 -354 960 c 0
- -354 944 -348 931 -348 920 c 2
- -348 914 l 1
- -411 907 l 1
+-285 662 m 1
+ -283 669 -281 674 -281 688 c 2
+ -281 744 l 2
+ -281 764 -247 787 -214 787 c 0
+ -182 787 -147 768 -147 745 c 0
+ -147 724 -166 712 -201 712 c 0
+ -209 712 -231 714 -237 719 c 1
+ -237 679 l 2
+ -237 667 -285 662 -285 662 c 1
+-235 749 m 0
+ -235 741 -227 728 -214 728 c 0
+ -200 728 -190 737 -190 750 c 0
+ -190 760 -199 772 -214 772 c 0
+ -228 772 -235 759 -235 749 c 0
+-361 724 m 1
+ -363 728 -367 737 -367 746 c 0
+ -367 759 -359 783 -350 798 c 0
+ -344 808 -339 813 -329 818 c 0
+ -277 843 -238 855 -192 865 c 0
+ -185 866 -176 866 -171 862 c 0
+ -118 821 -10 744 22 723 c 0
+ 25 717 25 711 24 705 c 1
+ -47 705 l 1
+ -89 729 -158 788 -207 820 c 0
+ -219 824 -235 825 -252 825 c 0
+ -269 825 -291 816 -300 805 c 0
+ -304 796 -304 787 -304 777 c 0
+ -304 761 -298 748 -298 737 c 2
+ -298 731 l 1
+ -361 724 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2DF1
 Encoding: 11761 11761 25
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--284 962 m 1
- -284 926 -275 905 -250 901 c 0
- -233 898 -204 897 -204 897 c 1
- -204 848 l 1
- -161 848 l 1
- -161 964 l 1
- -204 964 l 1
- -204 918 l 1
- -204 918 -219 919 -228 927 c 0
- -237 935 -237 948 -237 962 c 1
- -284 962 l 1
--357 907 m 1
- -359 911 -363 920 -363 929 c 0
- -363 942 -355 966 -346 981 c 0
- -340 991 -335 996 -325 1001 c 0
- -273 1026 -234 1038 -188 1048 c 0
- -181 1049 -172 1049 -167 1045 c 0
- -114 1004 -6 927 26 906 c 0
- 29 900 29 894 28 888 c 1
- -43 888 l 1
- -85 912 -154 971 -203 1003 c 0
- -215 1007 -231 1008 -248 1008 c 0
- -265 1008 -287 999 -296 988 c 0
- -300 979 -300 970 -300 960 c 0
- -300 944 -294 931 -294 920 c 2
- -294 914 l 1
- -357 907 l 1
+-291 770 m 1
+ -291 734 -282 713 -257 709 c 0
+ -240 706 -211 705 -211 705 c 1
+ -211 656 l 1
+ -168 656 l 1
+ -168 772 l 1
+ -211 772 l 1
+ -211 726 l 1
+ -211 726 -226 727 -235 735 c 0
+ -244 743 -244 756 -244 770 c 1
+ -291 770 l 1
+-364 715 m 1
+ -366 719 -370 728 -370 737 c 0
+ -370 750 -362 774 -353 789 c 0
+ -347 799 -342 804 -332 809 c 0
+ -280 834 -241 846 -195 856 c 0
+ -188 857 -179 857 -174 853 c 0
+ -121 812 -13 735 19 714 c 0
+ 22 708 22 702 21 696 c 1
+ -50 696 l 1
+ -92 720 -161 779 -210 811 c 0
+ -222 815 -238 816 -255 816 c 0
+ -272 816 -294 807 -303 796 c 0
+ -307 787 -307 778 -307 768 c 0
+ -307 752 -301 739 -301 728 c 2
+ -301 722 l 1
+ -364 715 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2DED
 Encoding: 11757 11757 26
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--220 873 m 1
- -207 872 -201 875 -190 882 c 0
- -186 884 -182 870 -183 868 c 0
- -189 858 -206 851 -219 849 c 0
- -230 847 -247 847 -256 847 c 0
- -260 847 -261 850 -261 854 c 0
- -261 859 -261 866 -261 873 c 0
- -261 891 -265 906 -265 925 c 0
- -265 955 -230 968 -208 970 c 0
- -202 971 -188 969 -186 967 c 0
- -185 963 -185 952 -186 946 c 1
- -214 950 -223 936 -223 913 c 0
- -223 898 -220 885 -220 873 c 1
--357 907 m 1
- -359 911 -363 920 -363 929 c 0
- -363 942 -355 966 -346 981 c 0
- -340 991 -335 996 -325 1001 c 0
- -273 1026 -234 1038 -188 1048 c 0
- -181 1049 -172 1049 -167 1045 c 0
- -114 1004 -6 927 26 906 c 0
- 29 900 29 894 28 888 c 1
- -43 888 l 1
- -85 912 -154 971 -203 1003 c 0
- -215 1007 -231 1008 -248 1008 c 0
- -265 1008 -287 999 -296 988 c 0
- -300 979 -300 970 -300 960 c 0
- -300 944 -294 931 -294 920 c 2
- -294 914 l 1
- -357 907 l 1
+-242 669 m 1
+ -229 668 -223 671 -212 678 c 0
+ -208 680 -204 666 -205 664 c 0
+ -211 654 -228 647 -241 645 c 0
+ -252 643 -269 643 -278 643 c 0
+ -282 643 -283 646 -283 650 c 0
+ -283 655 -283 662 -283 669 c 0
+ -283 687 -287 702 -287 721 c 0
+ -287 751 -252 764 -230 766 c 0
+ -224 767 -210 765 -208 763 c 0
+ -207 759 -207 748 -208 742 c 1
+ -236 746 -245 732 -245 709 c 0
+ -245 694 -242 681 -242 669 c 1
+-379 703 m 1
+ -381 707 -385 716 -385 725 c 0
+ -385 738 -377 762 -368 777 c 0
+ -362 787 -357 792 -347 797 c 0
+ -295 822 -256 834 -210 844 c 0
+ -203 845 -194 845 -189 841 c 0
+ -136 800 -28 723 4 702 c 0
+ 7 696 7 690 6 684 c 1
+ -65 684 l 1
+ -107 708 -176 767 -225 799 c 0
+ -237 803 -253 804 -270 804 c 0
+ -287 804 -309 795 -318 784 c 0
+ -322 775 -322 766 -322 756 c 0
+ -322 740 -316 727 -316 716 c 2
+ -316 710 l 1
+ -379 703 l 1
 EndSplineSet
 EndChar
 
@@ -820,109 +836,112 @@ EndChar
 StartChar: uni2DEA
 Encoding: 11754 11754 30
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--208 862 m 0
- -194 862 -184 874 -184 894 c 2
- -184 922 l 2
- -184 940 -194 954 -208 954 c 0
- -222 954 -232 940 -232 922 c 2
- -232 894 l 2
- -232 874 -222 862 -208 862 c 0
--208 970 m 0
- -170 970 -138 948 -138 908 c 0
- -138 868 -167 847 -208 847 c 0
- -249 847 -278 868 -278 908 c 0
- -278 948 -246 970 -208 970 c 0
--357 907 m 5
- -359 911 -363 920 -363 929 c 4
- -363 942 -355 966 -346 981 c 4
- -340 991 -335 996 -325 1001 c 4
- -273 1026 -234 1038 -188 1048 c 4
- -181 1049 -172 1049 -167 1045 c 4
- -114 1004 -6 927 26 906 c 4
- 29 900 29 894 28 888 c 5
- -43 888 l 5
- -85 912 -154 971 -203 1003 c 4
- -215 1007 -231 1008 -248 1008 c 4
- -265 1008 -287 999 -296 988 c 4
- -300 979 -300 970 -300 960 c 4
- -300 944 -294 931 -294 920 c 6
- -294 914 l 5
- -357 907 l 5
+-227 676 m 0
+ -213 676 -203 688 -203 708 c 2
+ -203 736 l 2
+ -203 754 -213 768 -227 768 c 0
+ -241 768 -251 754 -251 736 c 2
+ -251 708 l 2
+ -251 688 -241 676 -227 676 c 0
+-227 784 m 0
+ -189 784 -157 762 -157 722 c 0
+ -157 682 -186 661 -227 661 c 0
+ -268 661 -297 682 -297 722 c 0
+ -297 762 -265 784 -227 784 c 0
+-376 721 m 1
+ -378 725 -382 734 -382 743 c 0
+ -382 756 -374 780 -365 795 c 0
+ -359 805 -354 810 -344 815 c 0
+ -292 840 -253 852 -207 862 c 0
+ -200 863 -191 863 -186 859 c 0
+ -133 818 -25 741 7 720 c 0
+ 10 714 10 708 9 702 c 1
+ -62 702 l 1
+ -104 726 -173 785 -222 817 c 0
+ -234 821 -250 822 -267 822 c 0
+ -284 822 -306 813 -315 802 c 0
+ -319 793 -319 784 -319 774 c 0
+ -319 758 -313 745 -313 734 c 2
+ -313 728 l 1
+ -376 721 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2DE3
 Encoding: 11747 11747 31
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
-34 897 m 1
- -31 831 l 1
- -41 831 l 1
- -41 889 l 1
- -325 889 l 1
- -325 831 l 1
- -335 831 l 1
- -400 897 l 1
- -400 909 l 1
- -269 909 l 1
- -198 1005 l 1
- -215 1026 l 1
- -232 1028 l 1
- -287 957 l 1
- -349 957 l 1
- -349 967 l 1
- -282 1054 l 1
- -154 1035 l 1
- -53 909 l 1
- 34 909 l 1
- 34 897 l 1
--185 989 m 1
- -245 909 l 1
- -121 909 l 1
- -185 989 l 1
+65 732 m 1
+ 0 666 l 1
+ -10 666 l 1
+ -10 724 l 1
+ -294 724 l 1
+ -294 666 l 1
+ -304 666 l 1
+ -369 732 l 1
+ -369 744 l 1
+ -238 744 l 1
+ -167 840 l 1
+ -184 861 l 1
+ -201 863 l 1
+ -256 792 l 1
+ -318 792 l 1
+ -318 802 l 1
+ -251 889 l 1
+ -123 870 l 1
+ -22 744 l 1
+ 65 744 l 1
+ 65 732 l 1
+-154 824 m 1
+ -214 744 l 1
+ -90 744 l 1
+ -154 824 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni2DE2
 Encoding: 11746 11746 32
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--171 954 m 1
- -182 935 l 1
- -194 935 l 1
- -213 954 l 1
- -236 954 l 1
- -236 848 l 1
- -280 848 l 1
- -280 970 l 1
- -171 970 l 1
- -171 954 l 1
--357 907 m 1
- -359 911 -363 920 -363 929 c 0
- -363 942 -355 966 -346 981 c 0
- -340 991 -335 996 -325 1001 c 0
- -273 1026 -234 1038 -188 1048 c 0
- -181 1049 -172 1049 -167 1045 c 0
- -114 1004 -6 927 26 906 c 0
- 29 900 29 894 28 888 c 1
- -43 888 l 1
- -85 912 -154 971 -203 1003 c 0
- -215 1007 -231 1008 -248 1008 c 0
- -265 1008 -287 999 -296 988 c 0
- -300 979 -300 970 -300 960 c 0
- -300 944 -294 931 -294 920 c 2
- -294 914 l 1
- -357 907 l 1
+-118 765 m 1
+ -129 746 l 1
+ -141 746 l 1
+ -160 765 l 1
+ -183 765 l 1
+ -183 659 l 1
+ -227 659 l 1
+ -227 781 l 1
+ -118 781 l 1
+ -118 765 l 1
+-304 718 m 1
+ -306 722 -310 731 -310 740 c 0
+ -310 753 -302 777 -293 792 c 0
+ -287 802 -282 807 -272 812 c 0
+ -220 837 -181 849 -135 859 c 0
+ -128 860 -119 860 -114 856 c 0
+ -61 815 47 738 79 717 c 0
+ 82 711 82 705 81 699 c 1
+ 10 699 l 1
+ -32 723 -101 782 -150 814 c 0
+ -162 818 -178 819 -195 819 c 0
+ -212 819 -234 810 -243 799 c 0
+ -247 790 -247 781 -247 771 c 0
+ -247 755 -241 742 -241 731 c 2
+ -241 725 l 1
+ -304 718 l 1
 EndSplineSet
 EndChar
 
@@ -947,6 +966,7 @@ StartChar: afii10100
 Encoding: 1107 1107 34
 Width: 360
 Flags: HW
+AnchorPoint: "Above" 181 1101 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -967,6 +987,7 @@ SplineSet
  310 590 l 1
  210 590 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10068 acutecomb
 EndChar
 
@@ -997,37 +1018,38 @@ EndChar
 StartChar: uni2DE5
 Encoding: 11749 11749 36
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--293 1001 m 1
- -267 1016 -235 1028 -201 1028 c 0
- -183 1028 -153 1019 -149 1008 c 0
- -143 991 -138 977 -126 960 c 0
- -122 957 -115 954 -106 954 c 0
- -62 957 4 956 -10 902 c 0
- -17 876 -43 852 -99 850 c 0
- -128 849 -151 855 -168 867 c 0
- -182 877 -173 890 -151 880 c 0
- -144 877 -135 866 -124 866 c 0
- -76 864 -41 875 -43 906 c 0
- -44 923 -116 919 -157 918 c 0
- -162 918 -166 921 -168 923 c 0
- -187 944 -200 971 -205 1003 c 0
- -207 1005 -211 1007 -213 1007 c 0
- -236 1007 -258 997 -281 986 c 1
- -278 975 -285 955 -301 947 c 0
- -317 939 -330 942 -342 947 c 1
- -364 928 -373 915 -370 908 c 0
- -370 905 -368 901 -363 900 c 0
- -353 897 -350 898 -342 898 c 0
- -335 898 -330 882 -343 882 c 0
- -355 881 -372 882 -383 886 c 0
- -390 888 -396 900 -396 904 c 0
- -393 918 -377 943 -353 962 c 1
- -362 974 -352 996 -337 1005 c 0
- -321 1013 -305 1009 -293 1001 c 1
+-209 809 m 1
+ -183 824 -151 836 -117 836 c 0
+ -99 836 -69 827 -65 816 c 0
+ -59 799 -54 785 -42 768 c 0
+ -38 765 -31 762 -22 762 c 0
+ 22 765 88 764 74 710 c 0
+ 67 684 41 660 -15 658 c 0
+ -44 657 -67 663 -84 675 c 0
+ -98 685 -89 698 -67 688 c 0
+ -60 685 -51 674 -40 674 c 0
+ 8 672 43 683 41 714 c 0
+ 40 731 -32 727 -73 726 c 0
+ -78 726 -82 729 -84 731 c 0
+ -103 752 -116 779 -121 811 c 0
+ -123 813 -127 815 -129 815 c 0
+ -152 815 -174 805 -197 794 c 1
+ -194 783 -201 763 -217 755 c 0
+ -233 747 -246 750 -258 755 c 1
+ -280 736 -289 723 -286 716 c 0
+ -286 713 -284 709 -279 708 c 0
+ -269 705 -266 706 -258 706 c 0
+ -251 706 -246 690 -259 690 c 0
+ -271 689 -288 690 -299 694 c 0
+ -306 696 -312 708 -312 712 c 0
+ -309 726 -293 751 -269 770 c 1
+ -278 782 -268 804 -253 813 c 0
+ -237 821 -221 817 -209 809 c 1
 EndSplineSet
 EndChar
 
@@ -1035,16 +1057,17 @@ StartChar: afii10061
 Encoding: 1036 1036 37
 Width: 360
 Flags: HW
+AnchorPoint: "Above" 196 1101 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-186 858 m 5
- 150 858 l 5
- 150 865 l 5
- 190 1040 l 5
- 232 1040 l 5
- 232 1033 l 5
- 186 858 l 5
+186 858 m 1
+ 150 858 l 1
+ 150 865 l 1
+ 190 1040 l 1
+ 232 1040 l 1
+ 232 1033 l 1
+ 186 858 l 1
 150 0 m 1
  50 0 l 1
  50 800 l 1
@@ -1066,6 +1089,7 @@ SplineSet
  173 430 160 442 150 454 c 1
  150 0 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10028 acutecomb
 EndChar
 
@@ -1204,27 +1228,28 @@ EndChar
 StartChar: uni2DE4
 Encoding: 11748 11748 44
 Width: 1
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--221 896 m 1
- -193 873 -162 854 -126 844 c 0
- -111 840 -89 845 -109 859 c 0
- -132 876 -161 896 -173 938 c 1
- -142 966 -82 1000 -52 961 c 0
- -33 937 20 963 20 980 c 0
- 20 996 11 1011 -8 1018 c 0
- -51 1033 -102 1014 -130 999 c 1
- -141 1008 -140 1017 -142 1031 c 0
- -142 1034 -147 1036 -150 1033 c 0
- -176 1016 -199 1008 -226 1009 c 0
- -254 1011 -264 1031 -295 1032 c 1
- -315 1013 -326 994 -348 984 c 1
- -301 977 -272 938 -245 918 c 1
- -262 899 -284 882 -312 870 c 0
- -326 862 -315 847 -293 857 c 0
- -271 866 -242 880 -221 896 c 1
+-152 713 m 1
+ -124 690 -93 671 -57 661 c 0
+ -42 657 -20 662 -40 676 c 0
+ -63 693 -92 713 -104 755 c 1
+ -73 783 -13 817 17 778 c 0
+ 36 754 89 780 89 797 c 0
+ 89 813 80 828 61 835 c 0
+ 18 850 -33 831 -61 816 c 1
+ -72 825 -71 834 -73 848 c 0
+ -73 851 -78 853 -81 850 c 0
+ -107 833 -130 825 -157 826 c 0
+ -185 828 -195 848 -226 849 c 1
+ -246 830 -257 811 -279 801 c 1
+ -232 794 -203 755 -176 735 c 1
+ -193 716 -215 699 -243 687 c 0
+ -257 679 -246 664 -224 674 c 0
+ -202 683 -173 697 -152 713 c 1
 EndSplineSet
 EndChar
 
@@ -1312,6 +1337,7 @@ StartChar: afii10109
 Encoding: 1116 1116 49
 Width: 360
 Flags: HW
+AnchorPoint: "Above" 184 1101 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1343,6 +1369,7 @@ SplineSet
  173 430 160 442 150 454 c 1
  150 0 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10076 acutecomb
 EndChar
 
@@ -1407,49 +1434,7 @@ StartChar: afii10062
 Encoding: 1038 1038 53
 Width: 350
 Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-245 960 m 5
- 261 960 l 5
- 262 956 258 932 254 920 c 4
- 240 875 214 822 168 822 c 4
- 136 822 115 862 115 898 c 4
- 115 925 125 953 130 962 c 5
- 146 962 l 5
- 142 952 137 938 137 921 c 4
- 137 900 157 882 177 882 c 4
- 218 882 244 927 245 960 c 5
-326 800 m 1
- 319 784 312 769 308 749 c 0
- 304 729 301 700 300 687 c 2
- 300 678 l 1
- 263 678 l 2
- 242 678 220 669 217 621 c 2
- 198 328 l 1
- 196 94 l 2
- 195 55 213 22 255 18 c 1
- 255 0 l 1
- 93 0 l 1
- 93 18 l 1
- 137 21 175 50 176 95 c 2
- 177 291 l 1
- 83 291 l 1
- 27 800 l 1
- 132 800 l 1
- 179 368 l 1
- 196 627 l 2
- 204 754 227 808 280 808 c 2
- 326 808 l 1
- 326 800 l 1
-EndSplineSet
-Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0423 uni0306
-EndChar
-
-StartChar: afii10110
-Encoding: 1118 1118 54
-Width: 350
-Flags: HW
+AnchorPoint: "Above" 190 1016 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1486,6 +1471,52 @@ SplineSet
  326 808 l 1
  326 800 l 1
 EndSplineSet
+LCarets2: 1 0
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0423 uni0306
+EndChar
+
+StartChar: afii10110
+Encoding: 1118 1118 54
+Width: 350
+Flags: HW
+AnchorPoint: "Above" 190 1002 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+245 960 m 1
+ 261 960 l 1
+ 262 956 258 932 254 920 c 0
+ 240 875 214 822 168 822 c 0
+ 136 822 115 862 115 898 c 0
+ 115 925 125 953 130 962 c 1
+ 146 962 l 1
+ 142 952 137 938 137 921 c 0
+ 137 900 157 882 177 882 c 0
+ 218 882 244 927 245 960 c 1
+326 800 m 1
+ 319 784 312 769 308 749 c 0
+ 304 729 301 700 300 687 c 2
+ 300 678 l 1
+ 263 678 l 2
+ 242 678 220 669 217 621 c 2
+ 198 328 l 1
+ 196 94 l 2
+ 195 55 213 22 255 18 c 1
+ 255 0 l 1
+ 93 0 l 1
+ 93 18 l 1
+ 137 21 175 50 176 95 c 2
+ 177 291 l 1
+ 83 291 l 1
+ 27 800 l 1
+ 132 800 l 1
+ 179 368 l 1
+ 196 627 l 2
+ 204 754 227 808 280 808 c 2
+ 326 808 l 1
+ 326 800 l 1
+EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0443 uni0306
 EndChar
 
@@ -1518,23 +1549,24 @@ StartChar: afii10023
 Encoding: 1025 1025 56
 Width: 378
 Flags: HW
+AnchorPoint: "Above" 156 990 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-133 945 m 5
- 170 862 l 5
- 170 854 l 5
- 127 854 l 5
- 90 937 l 5
- 90 945 l 5
- 133 945 l 5
-223 945 m 5
- 260 862 l 5
- 260 854 l 5
- 217 854 l 5
- 180 937 l 5
- 180 945 l 5
- 223 945 l 5
+133 945 m 1
+ 170 862 l 1
+ 170 854 l 1
+ 127 854 l 1
+ 90 937 l 1
+ 90 945 l 1
+ 133 945 l 1
+223 945 m 1
+ 260 862 l 1
+ 260 854 l 1
+ 217 854 l 1
+ 180 937 l 1
+ 180 945 l 1
+ 223 945 l 1
 222 26 m 0
  202 7 176 -8 145 -8 c 0
  111 -8 80 11 67 42 c 0
@@ -1575,6 +1607,7 @@ SplineSet
  331 312 l 1
  331 230 317 116 222 26 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10022 uni0308
 EndChar
 
@@ -1582,6 +1615,7 @@ StartChar: afii10053
 Encoding: 1028 1028 57
 Width: 378
 Flags: HW
+AnchorPoint: "Above" 191 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1674,6 +1708,7 @@ StartChar: afii10056
 Encoding: 1031 1031 60
 Width: 200
 Flags: HW
+AnchorPoint: "Above" 98 990 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1682,21 +1717,22 @@ SplineSet
  50 800 l 1
  150 800 l 1
  150 0 l 1
-66 945 m 5
- 103 862 l 5
- 103 854 l 5
- 60 854 l 5
- 23 937 l 5
- 23 945 l 5
- 66 945 l 5
-156 945 m 5
- 193 862 l 5
- 193 854 l 5
- 150 854 l 5
- 113 937 l 5
- 113 945 l 5
- 156 945 l 5
+66 945 m 1
+ 103 862 l 1
+ 103 854 l 1
+ 60 854 l 1
+ 23 937 l 1
+ 23 945 l 1
+ 66 945 l 1
+156 945 m 1
+ 193 862 l 1
+ 193 854 l 1
+ 150 854 l 1
+ 113 937 l 1
+ 113 945 l 1
+ 156 945 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10055 uni0308
 EndChar
 
@@ -1726,6 +1762,7 @@ StartChar: afii10055
 Encoding: 1030 1030 62
 Width: 200
 Flags: HW
+AnchorPoint: "Above" 97 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1741,6 +1778,7 @@ StartChar: afii10103
 Encoding: 1110 1110 63
 Width: 200
 Flags: HW
+AnchorPoint: "Above" 98 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1821,6 +1859,7 @@ StartChar: afii10071
 Encoding: 1105 1105 67
 Width: 378
 Flags: HW
+AnchorPoint: "Above" 162 992 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1878,13 +1917,15 @@ SplineSet
  331 312 l 1
  331 230 317 116 222 26 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10070 uni0308
 EndChar
 
 StartChar: afii10101
 Encoding: 1108 1108 68
 Width: 378
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 194 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1984,7 +2025,8 @@ EndChar
 StartChar: afii10054
 Encoding: 1029 1029 71
 Width: 379
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 189 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2029,7 +2071,8 @@ EndChar
 StartChar: afii10102
 Encoding: 1109 1109 72
 Width: 379
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 191 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2075,6 +2118,7 @@ StartChar: afii10104
 Encoding: 1111 1111 73
 Width: 200
 Flags: HW
+AnchorPoint: "Above" 92 990 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2098,6 +2142,7 @@ SplineSet
  113 945 l 1
  156 945 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10103 uni0308
 EndChar
 
@@ -2135,7 +2180,8 @@ EndChar
 StartChar: afii10017
 Encoding: 1040 1040 75
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 181 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2175,7 +2221,8 @@ EndChar
 StartChar: afii10018
 Encoding: 1041 1041 76
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 179 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2202,7 +2249,8 @@ EndChar
 StartChar: afii10019
 Encoding: 1042 1042 77
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 182 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2234,7 +2282,8 @@ EndChar
 StartChar: afii10020
 Encoding: 1043 1043 78
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 178 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2253,7 +2302,8 @@ EndChar
 StartChar: afii10021
 Encoding: 1044 1044 79
 Width: 394
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 197 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2290,7 +2340,8 @@ EndChar
 StartChar: afii10022
 Encoding: 1045 1045 80
 Width: 378
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 190 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2339,7 +2390,8 @@ EndChar
 StartChar: afii10024
 Encoding: 1046 1046 81
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 258 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2384,7 +2436,8 @@ EndChar
 StartChar: afii10025
 Encoding: 1047 1047 82
 Width: 377
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 188 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2421,7 +2474,8 @@ EndChar
 StartChar: afii10026
 Encoding: 1048 1048 83
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 182 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2446,7 +2500,8 @@ EndChar
 StartChar: afii10027
 Encoding: 1049 1049 84
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 178 1012 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2465,24 +2520,26 @@ SplineSet
  203 422 195 415 187 407 c 0
  173 394 161 383 150 374 c 1
  150 0 l 1
-245 960 m 5
- 261 960 l 5
- 262 956 258 932 254 920 c 4
- 240 875 214 822 168 822 c 4
- 136 822 115 862 115 898 c 4
- 115 925 125 953 130 962 c 5
- 146 962 l 5
- 142 952 137 938 137 921 c 4
- 137 900 157 882 177 882 c 4
- 218 882 244 927 245 960 c 5
+245 960 m 1
+ 261 960 l 1
+ 262 956 258 932 254 920 c 0
+ 240 875 214 822 168 822 c 0
+ 136 822 115 862 115 898 c 0
+ 115 925 125 953 130 962 c 1
+ 146 962 l 1
+ 142 952 137 938 137 921 c 0
+ 137 900 157 882 177 882 c 0
+ 218 882 244 927 245 960 c 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10026 uni0306
 EndChar
 
 StartChar: afii10028
 Encoding: 1050 1050 85
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 180 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2512,7 +2569,8 @@ EndChar
 StartChar: afii10029
 Encoding: 1051 1051 86
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 179 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2538,7 +2596,8 @@ EndChar
 StartChar: afii10030
 Encoding: 1052 1052 87
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 268 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2574,7 +2633,8 @@ EndChar
 StartChar: afii10031
 Encoding: 1053 1053 88
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 178 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2599,7 +2659,8 @@ EndChar
 StartChar: afii10032
 Encoding: 1054 1054 89
 Width: 359
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 200 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2635,7 +2696,8 @@ EndChar
 StartChar: afii10033
 Encoding: 1055 1055 90
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 183 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2654,7 +2716,8 @@ EndChar
 StartChar: afii10034
 Encoding: 1056 1056 91
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 183 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2678,7 +2741,8 @@ EndChar
 StartChar: afii10035
 Encoding: 1057 1057 92
 Width: 375
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 188 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2717,7 +2781,8 @@ EndChar
 StartChar: afii10036
 Encoding: 1058 1058 93
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 267 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2740,7 +2805,8 @@ EndChar
 StartChar: uniA64A
 Encoding: 42570 42570 94
 Width: 370
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 204 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2792,7 +2858,8 @@ EndChar
 StartChar: afii10038
 Encoding: 1060 1060 95
 Width: 560
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 283 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2847,7 +2914,8 @@ EndChar
 StartChar: afii10039
 Encoding: 1061 1061 96
 Width: 401
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 219 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2882,7 +2950,8 @@ EndChar
 StartChar: afii10040
 Encoding: 1062 1062 97
 Width: 404
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 180 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2918,7 +2987,8 @@ EndChar
 StartChar: afii10041
 Encoding: 1063 1063 98
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 184 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2941,7 +3011,8 @@ EndChar
 StartChar: afii10042
 Encoding: 1064 1064 99
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 265 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2964,7 +3035,8 @@ EndChar
 StartChar: afii10043
 Encoding: 1065 1065 100
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 262 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2995,7 +3067,8 @@ EndChar
 StartChar: afii10044
 Encoding: 1066 1066 101
 Width: 394
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 206 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3022,7 +3095,8 @@ EndChar
 StartChar: afii10045
 Encoding: 1067 1067 102
 Width: 528
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 264 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3050,7 +3124,8 @@ EndChar
 StartChar: afii10046
 Encoding: 1068 1068 103
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 181 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3073,7 +3148,8 @@ EndChar
 StartChar: afii10048
 Encoding: 1070 1070 104
 Width: 512
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 248 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3116,7 +3192,8 @@ EndChar
 StartChar: uniA656
 Encoding: 42582 42582 105
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 269 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3163,7 +3240,8 @@ EndChar
 StartChar: afii10065
 Encoding: 1072 1072 106
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 182 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3203,7 +3281,8 @@ EndChar
 StartChar: afii10066
 Encoding: 1073 1073 107
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 185 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3230,7 +3309,8 @@ EndChar
 StartChar: afii10067
 Encoding: 1074 1074 108
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 180 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3262,7 +3342,8 @@ EndChar
 StartChar: afii10068
 Encoding: 1075 1075 109
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 183 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3281,7 +3362,8 @@ EndChar
 StartChar: afii10069
 Encoding: 1076 1076 110
 Width: 394
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 201 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3318,7 +3400,8 @@ EndChar
 StartChar: afii10070
 Encoding: 1077 1077 111
 Width: 378
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 189 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3367,7 +3450,8 @@ EndChar
 StartChar: afii10072
 Encoding: 1078 1078 112
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 262 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3412,7 +3496,8 @@ EndChar
 StartChar: afii10073
 Encoding: 1079 1079 113
 Width: 377
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 189 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3449,7 +3534,8 @@ EndChar
 StartChar: afii10074
 Encoding: 1080 1080 114
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 178 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3474,7 +3560,8 @@ EndChar
 StartChar: afii10075
 Encoding: 1081 1081 115
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 189 1016 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3504,13 +3591,15 @@ SplineSet
  137 900 157 882 177 882 c 0
  218 882 244 927 245 960 c 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10074 uni0306
 EndChar
 
 StartChar: afii10076
 Encoding: 1082 1082 116
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 180 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3540,7 +3629,8 @@ EndChar
 StartChar: afii10077
 Encoding: 1083 1083 117
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 180 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3566,7 +3656,8 @@ EndChar
 StartChar: afii10078
 Encoding: 1084 1084 118
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 272 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3602,7 +3693,8 @@ EndChar
 StartChar: afii10079
 Encoding: 1085 1085 119
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 183 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3627,7 +3719,8 @@ EndChar
 StartChar: afii10080
 Encoding: 1086 1086 120
 Width: 359
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 205 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3663,7 +3756,8 @@ EndChar
 StartChar: afii10081
 Encoding: 1087 1087 121
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 183 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3682,7 +3776,8 @@ EndChar
 StartChar: afii10082
 Encoding: 1088 1088 122
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 183 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3706,7 +3801,8 @@ EndChar
 StartChar: afii10083
 Encoding: 1089 1089 123
 Width: 375
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 189 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3745,7 +3841,8 @@ EndChar
 StartChar: afii10084
 Encoding: 1090 1090 124
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 265 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3768,7 +3865,8 @@ EndChar
 StartChar: uniA64B
 Encoding: 42571 42571 125
 Width: 370
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 200 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3820,7 +3918,8 @@ EndChar
 StartChar: afii10086
 Encoding: 1092 1092 126
 Width: 560
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 285 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3875,7 +3974,8 @@ EndChar
 StartChar: afii10087
 Encoding: 1093 1093 127
 Width: 401
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 220 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3910,7 +4010,8 @@ EndChar
 StartChar: afii10088
 Encoding: 1094 1094 128
 Width: 404
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 185 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3946,7 +4047,8 @@ EndChar
 StartChar: afii10089
 Encoding: 1095 1095 129
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 185 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3969,7 +4071,8 @@ EndChar
 StartChar: afii10090
 Encoding: 1096 1096 130
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 264 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3992,7 +4095,8 @@ EndChar
 StartChar: afii10091
 Encoding: 1097 1097 131
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 266 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4023,7 +4127,8 @@ EndChar
 StartChar: afii10092
 Encoding: 1098 1098 132
 Width: 394
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 207 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4050,7 +4155,8 @@ EndChar
 StartChar: afii10093
 Encoding: 1099 1099 133
 Width: 528
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 273 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4078,7 +4184,8 @@ EndChar
 StartChar: afii10094
 Encoding: 1100 1100 134
 Width: 360
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 191 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4101,7 +4208,8 @@ EndChar
 StartChar: afii10096
 Encoding: 1102 1102 135
 Width: 512
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 268 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4144,7 +4252,8 @@ EndChar
 StartChar: uniA657
 Encoding: 42583 42583 136
 Width: 520
-Flags: W
+Flags: HW
+AnchorPoint: "Above" 258 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4207,6 +4316,7 @@ StartChar: uni0400
 Encoding: 1024 1024 138
 Width: 378
 Flags: HW
+AnchorPoint: "Above" 200 988 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4249,14 +4359,15 @@ SplineSet
  221 312 l 1
  331 312 l 1
  331 230 317 116 222 26 c 0
-252 903 m 5
- 252 864 l 5
- 245 864 l 5
- 80 935 l 5
- 80 980 l 5
- 87 980 l 5
- 252 903 l 5
+252 903 m 1
+ 252 864 l 1
+ 245 864 l 1
+ 80 935 l 1
+ 80 980 l 1
+ 87 980 l 1
+ 252 903 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10022 gravecomb
 EndChar
 
@@ -4264,16 +4375,17 @@ StartChar: uni040D
 Encoding: 1037 1037 139
 Width: 360
 Flags: HW
+AnchorPoint: "Above" 188 1000 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-252 903 m 5
- 252 864 l 5
- 245 864 l 5
- 80 935 l 5
- 80 980 l 5
- 87 980 l 5
- 252 903 l 5
+252 903 m 1
+ 252 864 l 1
+ 245 864 l 1
+ 80 935 l 1
+ 80 980 l 1
+ 87 980 l 1
+ 252 903 l 1
 150 0 m 1
  50 0 l 1
  50 800 l 1
@@ -4290,6 +4402,7 @@ SplineSet
  173 394 161 383 150 374 c 1
  150 0 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10026 gravecomb
 EndChar
 
@@ -4297,6 +4410,7 @@ StartChar: uni0450
 Encoding: 1104 1104 140
 Width: 378
 Flags: HW
+AnchorPoint: "Above" 192 996 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4339,14 +4453,15 @@ SplineSet
  221 312 l 1
  331 312 l 1
  331 230 317 116 222 26 c 0
-252 903 m 5
- 252 864 l 5
- 245 864 l 5
- 80 935 l 5
- 80 980 l 5
- 87 980 l 5
- 252 903 l 5
+252 903 m 1
+ 252 864 l 1
+ 245 864 l 1
+ 80 935 l 1
+ 80 980 l 1
+ 87 980 l 1
+ 252 903 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10070 gravecomb
 EndChar
 
@@ -4354,16 +4469,17 @@ StartChar: uni045D
 Encoding: 1117 1117 141
 Width: 360
 Flags: HW
+AnchorPoint: "Above" 180 998 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-252 903 m 5
- 252 864 l 5
- 245 864 l 5
- 80 935 l 5
- 80 980 l 5
- 87 980 l 5
- 252 903 l 5
+252 903 m 1
+ 252 864 l 1
+ 245 864 l 1
+ 80 935 l 1
+ 80 980 l 1
+ 87 980 l 1
+ 252 903 l 1
 150 0 m 1
  50 0 l 1
  50 800 l 1
@@ -4380,6 +4496,7 @@ SplineSet
  173 394 161 383 150 374 c 1
  150 0 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10074 gravecomb
 EndChar
 
@@ -4387,6 +4504,7 @@ StartChar: uni0460
 Encoding: 1120 1120 142
 Width: 482
 Flags: HW
+AnchorPoint: "Above" 260 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4419,6 +4537,7 @@ StartChar: uni0461
 Encoding: 1121 1121 143
 Width: 482
 Flags: HW
+AnchorPoint: "Above" 252 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4451,6 +4570,7 @@ StartChar: uni0462
 Encoding: 1122 1122 144
 Width: 525
 Flags: HW
+AnchorPoint: "Above" 253 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4487,6 +4607,7 @@ StartChar: uni0463
 Encoding: 1123 1123 145
 Width: 525
 Flags: HW
+AnchorPoint: "Above" 251 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4573,6 +4694,7 @@ StartChar: uni0466
 Encoding: 1126 1126 148
 Width: 544
 Flags: HW
+AnchorPoint: "Above" 285 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4620,6 +4742,7 @@ StartChar: uni0467
 Encoding: 1127 1127 149
 Width: 544
 Flags: HW
+AnchorPoint: "Above" 286 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4817,6 +4940,7 @@ StartChar: uni046E
 Encoding: 1134 1134 156
 Width: 374
 Flags: HW
+AnchorPoint: "Above" 204 962 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4880,6 +5004,7 @@ StartChar: uni046F
 Encoding: 1135 1135 157
 Width: 374
 Flags: HW
+AnchorPoint: "Above" 206 958 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4943,6 +5068,7 @@ StartChar: uni0470
 Encoding: 1136 1136 158
 Width: 484
 Flags: HW
+AnchorPoint: "Above" 238 963 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4981,6 +5107,7 @@ StartChar: uni0471
 Encoding: 1137 1137 159
 Width: 484
 Flags: HW
+AnchorPoint: "Above" 244 960 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5019,6 +5146,7 @@ StartChar: uni0472
 Encoding: 1138 1138 160
 Width: 495
 Flags: HW
+AnchorPoint: "Above" 242 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5069,6 +5197,7 @@ StartChar: uni0473
 Encoding: 1139 1139 161
 Width: 495
 Flags: HW
+AnchorPoint: "Above" 238 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5119,6 +5248,7 @@ StartChar: uni0474
 Encoding: 1140 1140 162
 Width: 393
 Flags: HW
+AnchorPoint: "Above" 208 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5144,6 +5274,7 @@ StartChar: uni0475
 Encoding: 1141 1141 163
 Width: 393
 Flags: HW
+AnchorPoint: "Above" 215 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5169,46 +5300,7 @@ StartChar: uni0476
 Encoding: 1142 1142 164
 Width: 393
 Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-368 800 m 1
- 353 777 348 746 348 718 c 0
- 348 706 349 695 350 687 c 2
- 350 678 l 1
- 283 678 l 2
- 262 678 248 663 247 635 c 2
- 216 0 l 1
- 105 0 l 1
- 45 800 l 1
- 145 800 l 1
- 199 73 l 1
- 227 641 l 2
- 231 728 259 808 336 808 c 2
- 368 808 l 1
- 368 800 l 1
-269 868 m 5
- 233 868 l 5
- 146 984 l 5
- 146 991 l 5
- 188 991 l 5
- 269 875 l 5
- 269 868 l 5
-179 868 m 5
- 143 868 l 5
- 56 984 l 5
- 56 991 l 5
- 98 991 l 5
- 179 875 l 5
- 179 868 l 5
-EndSplineSet
-Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0474 uni030F
-EndChar
-
-StartChar: uni0477
-Encoding: 1143 1143 165
-Width: 393
-Flags: HW
+AnchorPoint: "Above" 184 1042 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5242,6 +5334,49 @@ SplineSet
  179 875 l 1
  179 868 l 1
 EndSplineSet
+LCarets2: 1 0
+Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0474 uni030F
+EndChar
+
+StartChar: uni0477
+Encoding: 1143 1143 165
+Width: 393
+Flags: HW
+AnchorPoint: "Above" 188 1046 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+368 800 m 1
+ 353 777 348 746 348 718 c 0
+ 348 706 349 695 350 687 c 2
+ 350 678 l 1
+ 283 678 l 2
+ 262 678 248 663 247 635 c 2
+ 216 0 l 1
+ 105 0 l 1
+ 45 800 l 1
+ 145 800 l 1
+ 199 73 l 1
+ 227 641 l 2
+ 231 728 259 808 336 808 c 2
+ 368 808 l 1
+ 368 800 l 1
+269 868 m 1
+ 233 868 l 1
+ 146 984 l 1
+ 146 991 l 1
+ 188 991 l 1
+ 269 875 l 1
+ 269 868 l 1
+179 868 m 1
+ 143 868 l 1
+ 56 984 l 1
+ 56 991 l 1
+ 98 991 l 1
+ 179 875 l 1
+ 179 868 l 1
+EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0475 uni030F
 EndChar
 
@@ -5249,6 +5384,7 @@ StartChar: uni0478
 Encoding: 1144 1144 166
 Width: 672
 Flags: HW
+AnchorPoint: "Above" 500 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5301,6 +5437,7 @@ SplineSet
  251 286 227 366 205 438 c 0
  192 486 170 538 155 584 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10032 uni0423
 EndChar
 
@@ -5308,6 +5445,7 @@ StartChar: uni0479
 Encoding: 1145 1145 167
 Width: 672
 Flags: HW
+AnchorPoint: "Above" 503 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5360,6 +5498,7 @@ SplineSet
  251 286 227 366 205 438 c 0
  192 486 170 538 155 584 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10080 uni0443
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10032 uni0443
 EndChar
@@ -5368,6 +5507,7 @@ StartChar: uni047A
 Encoding: 1146 1146 168
 Width: 518
 Flags: HW
+AnchorPoint: "Above" 258 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5414,6 +5554,7 @@ StartChar: uni047B
 Encoding: 1147 1147 169
 Width: 518
 Flags: HW
+AnchorPoint: "Above" 263 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5460,6 +5601,7 @@ StartChar: uni047C
 Encoding: 1148 1148 170
 Width: 554
 Flags: HW
+AnchorPoint: "Above" 270 1042 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5508,33 +5650,33 @@ SplineSet
  343 562 l 1
  320 520 290 421 286 299 c 1
  320 294 340 263 340 227 c 0
-123 846 m 5
- 121 850 117 859 117 868 c 4
- 117 881 129 905 139 919 c 4
- 145 928 151 936 161 941 c 4
- 211 967 266 981 312 987 c 4
- 319 988 328 988 333 984 c 4
- 386 943 464 866 496 845 c 4
- 499 839 499 833 498 827 c 5
- 427 827 l 5
- 386 852 346 910 297 942 c 4
- 285 946 251 948 234 945 c 4
- 220 943 203 936 193 926 c 4
- 187 917 183 908 182 898 c 4
- 181 885 184 867 186 859 c 6
- 186 853 l 5
- 123 846 l 5
-297 825 m 5
- 302 834 305 843 305 855 c 4
- 305 872 289 892 268 892 c 4
- 246 892 234 874 234 858 c 4
- 234 844 240 831 243 825 c 5
- 231 821 l 5
- 219 831 205 850 205 875 c 4
- 205 902 229 930 264 930 c 4
- 301 930 333 900 333 870 c 4
- 333 850 317 828 309 821 c 5
- 297 825 l 5
+123 846 m 1
+ 121 850 117 859 117 868 c 0
+ 117 881 129 905 139 919 c 0
+ 145 928 151 936 161 941 c 0
+ 211 967 266 981 312 987 c 0
+ 319 988 328 988 333 984 c 0
+ 386 943 464 866 496 845 c 0
+ 499 839 499 833 498 827 c 1
+ 427 827 l 1
+ 386 852 346 910 297 942 c 0
+ 285 946 251 948 234 945 c 0
+ 220 943 203 936 193 926 c 0
+ 187 917 183 908 182 898 c 0
+ 181 885 184 867 186 859 c 2
+ 186 853 l 1
+ 123 846 l 1
+297 825 m 1
+ 302 834 305 843 305 855 c 0
+ 305 872 289 892 268 892 c 0
+ 246 892 234 874 234 858 c 0
+ 234 844 240 831 243 825 c 1
+ 231 821 l 1
+ 219 831 205 850 205 875 c 0
+ 205 902 229 930 264 930 c 0
+ 301 930 333 900 333 870 c 0
+ 333 850 317 828 309 821 c 1
+ 297 825 l 1
 EndSplineSet
 EndChar
 
@@ -5542,6 +5684,7 @@ StartChar: uni047D
 Encoding: 1149 1149 171
 Width: 554
 Flags: HW
+AnchorPoint: "Above" 277 1044 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5624,6 +5767,7 @@ StartChar: uni047E
 Encoding: 1150 1150 172
 Width: 554
 Flags: HW
+AnchorPoint: "Above" 278 1018 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5673,23 +5817,23 @@ SplineSet
  343 562 l 1
  320 520 290 421 286 299 c 1
  320 294 340 263 340 227 c 0
-522 942 m 5
- 486 942 468 931 447 913 c 4
- 425 894 408 869 400 846 c 5
- 383 846 l 5
- 383 942 l 5
- 327 942 l 5
- 327 845 l 5
- 227 845 l 5
- 227 942 l 5
- 171 942 l 5
- 171 846 l 5
- 154 846 l 5
- 146 869 129 894 107 913 c 4
- 86 931 68 942 32 942 c 5
- 32 962 l 5
- 522 962 l 5
- 522 942 l 5
+522 942 m 1
+ 486 942 468 931 447 913 c 0
+ 425 894 408 869 400 846 c 1
+ 383 846 l 1
+ 383 942 l 1
+ 327 942 l 1
+ 327 845 l 1
+ 227 845 l 1
+ 227 942 l 1
+ 171 942 l 1
+ 171 846 l 1
+ 154 846 l 1
+ 146 869 129 894 107 913 c 0
+ 86 931 68 942 32 942 c 1
+ 32 962 l 1
+ 522 962 l 1
+ 522 942 l 1
 EndSplineSet
 EndChar
 
@@ -5697,6 +5841,7 @@ StartChar: uni047F
 Encoding: 1151 1151 173
 Width: 554
 Flags: HW
+AnchorPoint: "Above" 262 1012 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5851,6 +5996,7 @@ StartChar: uni0483
 Encoding: 1155 1155 177
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -170 632 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5924,6 +6070,7 @@ StartChar: uni0486
 Encoding: 1158 1158 180
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -94 614 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5945,6 +6092,7 @@ StartChar: uni0487
 Encoding: 1159 1159 181
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -200 666 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6021,6 +6169,7 @@ StartChar: uni0423
 Encoding: 1059 1059 184
 Width: 350
 Flags: HW
+AnchorPoint: "Above" 180 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6053,6 +6202,7 @@ StartChar: uni0443
 Encoding: 1091 1091 185
 Width: 350
 Flags: HW
+AnchorPoint: "Above" 184 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6953,16 +7103,17 @@ StartChar: uni0403
 Encoding: 1027 1027 218
 Width: 360
 Flags: HW
+AnchorPoint: "Above" 178 1098 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-186 858 m 5
- 150 858 l 5
- 150 865 l 5
- 190 1040 l 5
- 232 1040 l 5
- 232 1033 l 5
- 186 858 l 5
+186 858 m 1
+ 150 858 l 1
+ 150 865 l 1
+ 190 1040 l 1
+ 232 1040 l 1
+ 232 1033 l 1
+ 186 858 l 1
 210 590 m 1
  210 780 l 1
  150 780 l 1
@@ -6973,6 +7124,7 @@ SplineSet
  310 590 l 1
  210 590 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10020 acutecomb
 EndChar
 
@@ -7080,6 +7232,7 @@ StartChar: uni042D
 Encoding: 1069 1069 223
 Width: 378
 Flags: HW
+AnchorPoint: "Above" 192 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7179,6 +7332,7 @@ StartChar: uni044D
 Encoding: 1101 1101 226
 Width: 378
 Flags: HW
+AnchorPoint: "Above" 189 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7228,6 +7382,7 @@ StartChar: uniA64C
 Encoding: 42572 42572 227
 Width: 554
 Flags: HW
+AnchorPoint: "Above" 278 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7283,6 +7438,7 @@ StartChar: uniA64D
 Encoding: 42573 42573 228
 Width: 554
 Flags: HW
+AnchorPoint: "Above" 280 852 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7338,20 +7494,21 @@ StartChar: uniA67C
 Encoding: 42620 42620 229
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--125 666 m 0
- -183 666 -222 688 -222 736 c 2
- -222 761 l 1
- -157 761 l 1
- -157 736 l 2
- -157 708 -152 686 -125 686 c 0
- -97 686 -92 708 -92 736 c 2
- -92 761 l 1
- -28 761 l 1
- -28 736 l 2
- -28 688 -67 666 -125 666 c 0
+-148 660 m 0
+ -206 660 -245 682 -245 730 c 2
+ -245 755 l 1
+ -180 755 l 1
+ -180 730 l 2
+ -180 702 -175 680 -148 680 c 0
+ -120 680 -115 702 -115 730 c 2
+ -115 755 l 1
+ -51 755 l 1
+ -51 730 l 2
+ -51 682 -90 660 -148 660 c 0
 EndSplineSet
 EndChar
 
@@ -7472,6 +7629,7 @@ StartChar: uni0306
 Encoding: 774 774 234
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7492,6 +7650,7 @@ StartChar: uni0308
 Encoding: 776 776 235
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -132 678 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7516,6 +7675,7 @@ StartChar: uni030F
 Encoding: 783 783 236
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -100 662 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7540,26 +7700,27 @@ StartChar: uni2DEE
 Encoding: 11758 11758 237
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
-34 759 m 1
- -2 759 -20 748 -41 730 c 0
- -63 711 -80 686 -88 663 c 1
- -105 663 l 1
- -105 759 l 1
- -161 759 l 1
- -161 662 l 1
- -261 662 l 1
- -261 759 l 1
- -317 759 l 1
- -317 663 l 1
- -334 663 l 1
- -342 686 -359 711 -381 730 c 0
- -402 748 -420 759 -456 759 c 1
- -456 779 l 1
- 34 779 l 1
- 34 759 l 1
+98 755 m 5
+ 62 755 44 744 23 726 c 4
+ 1 707 -16 682 -24 659 c 5
+ -41 659 l 5
+ -41 755 l 5
+ -97 755 l 5
+ -97 658 l 5
+ -197 658 l 5
+ -197 755 l 5
+ -253 755 l 5
+ -253 659 l 5
+ -270 659 l 5
+ -278 682 -295 707 -317 726 c 4
+ -338 744 -356 755 -392 755 c 5
+ -392 775 l 5
+ 98 775 l 5
+ 98 755 l 5
 EndSplineSet
 EndChar
 
@@ -7568,37 +7729,39 @@ Encoding: 57349 57349 238
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -148 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--422 688 m 1
- -424 692 -428 701 -428 710 c 0
- -428 723 -416 747 -406 761 c 0
- -400 770 -394 778 -384 783 c 0
- -334 809 -279 823 -233 829 c 0
- -226 830 -217 830 -212 826 c 0
- -159 785 -81 708 -49 687 c 0
- -46 681 -46 675 -47 669 c 1
- -118 669 l 1
- -159 694 -199 752 -248 784 c 0
- -260 788 -294 790 -311 787 c 0
- -325 785 -342 778 -352 768 c 0
- -358 759 -362 750 -363 740 c 0
- -364 727 -361 709 -359 701 c 2
- -359 695 l 1
- -422 688 l 1
--248 667 m 1
- -243 676 -240 685 -240 697 c 0
- -240 714 -256 734 -277 734 c 0
- -299 734 -311 716 -311 700 c 0
- -311 686 -305 673 -302 667 c 1
- -314 663 l 1
- -326 673 -340 692 -340 717 c 0
- -340 744 -316 772 -281 772 c 0
- -244 772 -212 742 -212 712 c 0
- -212 692 -228 670 -236 663 c 1
- -248 667 l 1
+-294 676 m 1
+ -296 680 -300 689 -300 698 c 0
+ -300 711 -288 735 -278 749 c 0
+ -272 758 -266 766 -256 771 c 0
+ -206 797 -151 811 -105 817 c 0
+ -98 818 -89 818 -84 814 c 0
+ -31 773 47 696 79 675 c 0
+ 82 669 82 663 81 657 c 1
+ 10 657 l 1
+ -31 682 -71 740 -120 772 c 0
+ -132 776 -166 778 -183 775 c 0
+ -197 773 -214 766 -224 756 c 0
+ -230 747 -234 738 -235 728 c 0
+ -236 715 -233 697 -231 689 c 2
+ -231 683 l 1
+ -294 676 l 1
+-120 655 m 1
+ -115 664 -112 673 -112 685 c 0
+ -112 702 -128 722 -149 722 c 0
+ -171 722 -183 704 -183 688 c 0
+ -183 674 -177 661 -174 655 c 1
+ -186 651 l 1
+ -198 661 -212 680 -212 705 c 0
+ -212 732 -188 760 -153 760 c 0
+ -116 760 -84 730 -84 700 c 0
+ -84 680 -100 658 -108 651 c 1
+ -120 655 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0486 uni0308
 EndChar
 EndChars
