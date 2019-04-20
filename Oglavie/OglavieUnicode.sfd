@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1291789194
-ModificationTime: 1555613355
+ModificationTime: 1555752925
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -372,7 +372,7 @@ Width: 1
 GlyphClass: 4
 Flags: W
 HStem: 657 14<-219.357 -206.882 -162 -140 -94.6804 -72.8907> 765 14<-217.357 -202 -160 -145 -106 -91.7551>
-VStem: -290 69<723 796.578> -208 46<671 765> -140 38<671.382 707.434 708.987 765>
+VStem: -208 46<671 765> -140 38<671.382 707.434 708.987 765>
 AnchorPoint: "Stack" -149 923 basemark 0
 AnchorPoint: "Stack" -148 655 mark 0
 AnchorPoint: "Above" -148 656 mark 0
@@ -401,24 +401,7 @@ SplineSet
  -160 754 -160 732 -161 713 c 0
  -161 699 -162 680 -162 671 c 1
  -140 671 l 1
--284 716 m 1
- -286 720 -290 729 -290 738 c 0
- -290 751 -282 775 -273 790 c 0
- -267 800 -262 805 -252 810 c 0
- -200 835 -161 847 -115 857 c 0
- -108 858 -99 858 -94 854 c 0
- -41 813 67 736 99 715 c 0
- 102 709 102 703 101 697 c 1
- 30 697 l 1
- -12 721 -81 780 -130 812 c 0
- -142 816 -158 817 -175 817 c 0
- -192 817 -214 808 -223 797 c 0
- -227 788 -227 779 -227 769 c 0
- -227 753 -221 740 -221 729 c 2
- -221 723 l 1
- -284 716 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: comma
@@ -684,10 +667,9 @@ StartChar: uni2DE9
 Encoding: 11753 11753 23
 Width: 1
 Flags: W
-VStem: -378 69<720 793.578>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+AnchorPoint: "Stack" -235 653 mark 0
+AnchorPoint: "Stack" -236 921 basemark 0
+AnchorPoint: "Above" -235 654 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -704,24 +686,7 @@ SplineSet
  -252 725 l 1
  -252 768 l 1
  -297 768 l 1
--372 713 m 1
- -374 717 -378 726 -378 735 c 0
- -378 748 -370 772 -361 787 c 0
- -355 797 -350 802 -340 807 c 0
- -288 832 -249 844 -203 854 c 0
- -196 855 -187 855 -182 851 c 0
- -129 810 -21 733 11 712 c 0
- 14 706 14 700 13 694 c 1
- -58 694 l 1
- -100 718 -169 777 -218 809 c 0
- -230 813 -246 814 -263 814 c 0
- -280 814 -302 805 -311 794 c 0
- -315 785 -315 776 -315 766 c 0
- -315 750 -309 737 -309 726 c 2
- -309 720 l 1
- -372 713 l 1
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: uni2DEC
@@ -729,10 +694,10 @@ Encoding: 11756 11756 24
 Width: 1
 Flags: W
 HStem: 712 16<-229.552 -195.712> 772 15<-229.413 -196.901>
-VStem: -367 69<731 804.578> -281 44<666.734 719 728.038 771.425> -190 43<728.43 771.749>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+VStem: -281 44<666.734 719 728.038 771.425> -190 43<728.43 771.749>
+AnchorPoint: "Stack" -214 655 mark 0
+AnchorPoint: "Stack" -215 923 basemark 0
+AnchorPoint: "Above" -214 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -750,24 +715,7 @@ SplineSet
  -200 728 -190 737 -190 750 c 0
  -190 760 -199 772 -214 772 c 0
  -228 772 -235 759 -235 749 c 0
--361 724 m 1
- -363 728 -367 737 -367 746 c 0
- -367 759 -359 783 -350 798 c 0
- -344 808 -339 813 -329 818 c 0
- -277 843 -238 855 -192 865 c 0
- -185 866 -176 866 -171 862 c 0
- -118 821 -10 744 22 723 c 0
- 25 717 25 711 24 705 c 1
- -47 705 l 1
- -89 729 -158 788 -207 820 c 0
- -219 824 -235 825 -252 825 c 0
- -269 825 -291 816 -300 805 c 0
- -304 796 -304 787 -304 777 c 0
- -304 761 -298 748 -298 737 c 2
- -298 731 l 1
- -361 724 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2DF1
@@ -775,10 +723,10 @@ Encoding: 11761 11761 25
 Width: 1
 Flags: W
 HStem: 709 61<-273.666 -244>
-VStem: -370 69<722 795.578> -291 47<735.379 770>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+VStem: -291 47<735.379 770>
+AnchorPoint: "Stack" -188 655 mark 0
+AnchorPoint: "Stack" -189 923 basemark 0
+AnchorPoint: "Above" -188 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -793,24 +741,7 @@ SplineSet
  -211 726 -226 727 -235 735 c 0
  -244 743 -244 756 -244 770 c 1
  -291 770 l 1
--364 715 m 1
- -366 719 -370 728 -370 737 c 0
- -370 750 -362 774 -353 789 c 0
- -347 799 -342 804 -332 809 c 0
- -280 834 -241 846 -195 856 c 0
- -188 857 -179 857 -174 853 c 0
- -121 812 -13 735 19 714 c 0
- 22 708 22 702 21 696 c 1
- -50 696 l 1
- -92 720 -161 779 -210 811 c 0
- -222 815 -238 816 -255 816 c 0
- -272 816 -294 807 -303 796 c 0
- -307 787 -307 778 -307 768 c 0
- -307 752 -301 739 -301 728 c 2
- -301 722 l 1
- -364 715 l 1
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: uni2DED
@@ -818,44 +749,27 @@ Encoding: 11757 11757 26
 Width: 1
 Flags: W
 HStem: 742 21<-229.713 -207.355>
-VStem: -385 69<710 783.578> -287 79<647.83 668.536 742.285 754.669> -287 42<669 741.42>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+VStem: -287 79<647.83 668.536 742.285 754.669> -287 42<669 741.42>
+AnchorPoint: "Stack" -238 639 mark 0
+AnchorPoint: "Stack" -239 907 basemark 0
+AnchorPoint: "Above" -238 640 mark 0
 LayerCount: 2
 Fore
 SplineSet
--242 669 m 1xd0
+-242 669 m 1xa0
  -229 668 -223 671 -212 678 c 0
  -208 680 -204 666 -205 664 c 0
  -211 654 -228 647 -241 645 c 0
  -252 643 -269 643 -278 643 c 0
  -282 643 -283 646 -283 650 c 0
  -283 655 -283 662 -283 669 c 0
- -283 687 -287 702 -287 721 c 0xd0
+ -283 687 -287 702 -287 721 c 0xa0
  -287 751 -252 764 -230 766 c 0
  -224 767 -210 765 -208 763 c 0
- -207 759 -207 748 -208 742 c 1xe0
+ -207 759 -207 748 -208 742 c 1xc0
  -236 746 -245 732 -245 709 c 0
- -245 694 -242 681 -242 669 c 1xd0
--379 703 m 1
- -381 707 -385 716 -385 725 c 0
- -385 738 -377 762 -368 777 c 0
- -362 787 -357 792 -347 797 c 0
- -295 822 -256 834 -210 844 c 0
- -203 845 -194 845 -189 841 c 0
- -136 800 -28 723 4 702 c 0
- 7 696 7 690 6 684 c 1
- -65 684 l 1
- -107 708 -176 767 -225 799 c 0
- -237 803 -253 804 -270 804 c 0
- -287 804 -309 795 -318 784 c 0
- -322 775 -322 766 -322 756 c 0
- -322 740 -316 727 -316 716 c 2
- -316 710 l 1
- -379 703 l 1
+ -245 694 -242 681 -242 669 c 1xa0
 EndSplineSet
-Validated: 33
 EndChar
 
 StartChar: bracketleft
@@ -921,10 +835,10 @@ Encoding: 11754 11754 30
 Width: 1
 Flags: W
 HStem: 661 15<-242.606 -211.394> 768 16<-242.806 -211.194>
-VStem: -382 69<728 801.578> -297 46<676.5 767.001> -203 46<676.5 767.001>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+VStem: -297 46<676.5 767.001> -203 46<676.5 767.001>
+AnchorPoint: "Stack" -227 655 mark 0
+AnchorPoint: "Stack" -227 923 basemark 0
+AnchorPoint: "Above" -227 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -940,24 +854,7 @@ SplineSet
  -157 682 -186 661 -227 661 c 0
  -268 661 -297 682 -297 722 c 0
  -297 762 -265 784 -227 784 c 0
--376 721 m 1
- -378 725 -382 734 -382 743 c 0
- -382 756 -374 780 -365 795 c 0
- -359 805 -354 810 -344 815 c 0
- -292 840 -253 852 -207 862 c 0
- -200 863 -191 863 -186 859 c 0
- -133 818 -25 741 7 720 c 0
- 10 714 10 708 9 702 c 1
- -62 702 l 1
- -104 726 -173 785 -222 817 c 0
- -234 821 -250 822 -267 822 c 0
- -284 822 -306 813 -315 802 c 0
- -319 793 -319 784 -319 774 c 0
- -319 758 -313 745 -313 734 c 2
- -313 728 l 1
- -376 721 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2DE3
@@ -1005,41 +902,24 @@ Encoding: 11746 11746 32
 Width: 1
 Flags: W
 HStem: 746 35<-141 -129> 765 16<-183 -160>
-VStem: -310 69<725 798.578> -227 44<659 765>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+VStem: -227 44<659 765>
+AnchorPoint: "Stack" -164 655 mark 0
+AnchorPoint: "Stack" -165 923 basemark 0
+AnchorPoint: "Above" -164 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
--118 765 m 1x70
+-118 765 m 1x60
  -129 746 l 1
- -141 746 l 1xb0
+ -141 746 l 1xa0
  -160 765 l 1
  -183 765 l 1
  -183 659 l 1
  -227 659 l 1
  -227 781 l 1
  -118 781 l 1
- -118 765 l 1x70
--304 718 m 1
- -306 722 -310 731 -310 740 c 0
- -310 753 -302 777 -293 792 c 0
- -287 802 -282 807 -272 812 c 0
- -220 837 -181 849 -135 859 c 0
- -128 860 -119 860 -114 856 c 0
- -61 815 47 738 79 717 c 0
- 82 711 82 705 81 699 c 1
- 10 699 l 1
- -32 723 -101 782 -150 814 c 0
- -162 818 -178 819 -195 819 c 0
- -212 819 -234 810 -243 799 c 0
- -247 790 -247 781 -247 771 c 0
- -247 755 -241 742 -241 731 c 2
- -241 725 l 1
- -304 718 l 1
+ -118 765 l 1x60
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotesinglbase
@@ -8639,6 +8519,7 @@ SplineSet
  -284 716 l 1
 EndSplineSet
 Validated: 1
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DE1 uni0487
 EndChar
 
@@ -8648,9 +8529,9 @@ Width: 1
 Flags: W
 HStem: 746 35<-141 -129> 765 16<-183 -160>
 VStem: -310 69<725 798.578> -227 44<659 765>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+AnchorPoint: "Stack" -198 655 mark 0
+AnchorPoint: "Stack" -199 923 basemark 0
+AnchorPoint: "Above" -198 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8681,7 +8562,7 @@ SplineSet
  -241 725 l 1
  -304 718 l 1
 EndSplineSet
-Validated: 1
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DE2 uni0487
 EndChar
 
@@ -8690,9 +8571,9 @@ Encoding: 62697 62697 241
 Width: 1
 Flags: W
 VStem: -378 69<720 793.578>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+AnchorPoint: "Stack" -235 652 mark 0
+AnchorPoint: "Stack" -236 920 basemark 0
+AnchorPoint: "Above" -235 653 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8726,7 +8607,7 @@ SplineSet
  -309 720 l 1
  -372 713 l 1
 EndSplineSet
-Validated: 9
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DE9 uni0487
 EndChar
 
@@ -8736,9 +8617,9 @@ Width: 1
 Flags: W
 HStem: 661 15<-242.606 -211.394> 768 16<-242.806 -211.194>
 VStem: -382 69<728 801.578> -297 46<676.5 767.001> -203 46<676.5 767.001>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+AnchorPoint: "Stack" -229 658 mark 0
+AnchorPoint: "Stack" -230 926 basemark 0
+AnchorPoint: "Above" -229 659 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8771,7 +8652,7 @@ SplineSet
  -313 728 l 1
  -376 721 l 1
 EndSplineSet
-Validated: 1
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DEA uni0487
 EndChar
 
@@ -8781,9 +8662,9 @@ Width: 1
 Flags: W
 HStem: 712 16<-229.552 -195.712> 772 15<-229.413 -196.901>
 VStem: -367 69<731 804.578> -281 44<666.734 719 728.038 771.425> -190 43<728.43 771.749>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+AnchorPoint: "Stack" -211 658 mark 0
+AnchorPoint: "Stack" -212 926 basemark 0
+AnchorPoint: "Above" -211 659 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8818,7 +8699,7 @@ SplineSet
  -298 731 l 1
  -361 724 l 1
 EndSplineSet
-Validated: 1
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DEC uni0487
 EndChar
 
@@ -8828,9 +8709,9 @@ Width: 1
 Flags: W
 HStem: 742 21<-229.713 -207.355>
 VStem: -385 69<710 783.578> -287 79<647.83 668.536 742.285 754.669> -287 42<669 741.42>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+AnchorPoint: "Stack" -244 640 mark 0
+AnchorPoint: "Stack" -245 908 basemark 0
+AnchorPoint: "Above" -244 641 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8864,7 +8745,7 @@ SplineSet
  -316 710 l 1
  -379 703 l 1
 EndSplineSet
-Validated: 33
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DED uni0487
 EndChar
 
@@ -8874,9 +8755,9 @@ Width: 1
 Flags: W
 HStem: 709 61<-273.666 -244>
 VStem: -370 69<722 795.578> -291 47<735.379 770>
-AnchorPoint: "Stack" -148 655 mark 0
-AnchorPoint: "Stack" -149 923 basemark 0
-AnchorPoint: "Above" -148 656 mark 0
+AnchorPoint: "Stack" -219 655 mark 0
+AnchorPoint: "Stack" -220 923 basemark 0
+AnchorPoint: "Above" -219 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8908,7 +8789,7 @@ SplineSet
  -301 722 l 1
  -364 715 l 1
 EndSplineSet
-Validated: 9
+LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DF1 uni0487
 EndChar
 EndChars
