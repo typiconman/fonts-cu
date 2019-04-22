@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1291789194
-ModificationTime: 1555872941
+ModificationTime: 1555960306
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -41,10 +41,42 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' Cyrillic Glyph Compositions" { "'ccmp' Cyrillic Glyph Compositions-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
+Lookup: 258 8 0 "'kern' Horizontal Kerning in Cyrillic lookup 2" { "'kern' Horizontal Kerning in Cyrillic lookup 2-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Diacritical Marks" { "'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark Positioning" { "'mkmk' Mark to Mark Positioning-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+KernClass2: 12 19 "'kern' Horizontal Kerning in Cyrillic lookup 2-1"
+ 215 uni0400 afii10023 afii10053 afii10054 afii10022 afii10025 afii10035 uni042D afii10070 afii10073 afii10083 uni044D uni0450 afii10071 afii10101 afii10102 uni0460 uni0461 uni047A uni047B uni047C uni047D uniA64C uniA64D
+ 57 uni0403 afii10020 afii10036 afii10068 afii10084 afii10100
+ 99 afii10062 uni0423 uni0443 afii10110 uni0470 uni0471 uni0474 uni0475 uni0476 uni0477 uni0478 uni0479
+ 67 afii10032 afii10038 afii10048 afii10080 afii10086 afii10096 uni1C82
+ 19 afii10034 afii10082
+ 35 afii10039 afii10087 uniA64A uniA64B
+ 19 afii10040 afii10088
+ 19 afii10046 afii10094
+ 15 uni0466 uni0467
+ 15 uni0472 uni0473
+ 15 uni047E uni047F
+ 143 uni0400 afii10023 afii10053 afii10022 afii10035 uni042D afii10070 afii10083 uni044D uni0450 afii10071 afii10101 uni047C uni047D uniA64C uniA64D
+ 469 uni0403 afii10055 afii10061 uni040D afii10017 afii10018 afii10019 afii10020 afii10024 afii10026 afii10027 afii10028 afii10029 afii10030 afii10031 afii10033 afii10034 afii10040 afii10042 afii10043 afii10045 afii10046 afii10048 afii10065 afii10066 afii10067 afii10068 afii10072 afii10074 afii10075 afii10076 afii10077 afii10078 afii10079 afii10081 afii10082 afii10088 afii10090 afii10091 afii10093 afii10094 afii10096 afii10100 afii10103 afii10109 uni045D uniA656 uniA657
+ 55 afii10054 afii10025 afii10073 afii10102 uni047A uni047B
+ 35 afii10062 uni0423 uni0443 afii10110
+ 19 afii10021 afii10069
+ 35 afii10032 afii10080 uni0478 uni0479
+ 39 afii10036 afii10041 afii10084 afii10089
+ 19 afii10038 afii10086
+ 19 afii10039 afii10087
+ 19 afii10044 afii10092
+ 15 uni0462 uni0463
+ 15 uni0466 uni0467
+ 15 uni046E uni046F
+ 15 uni0470 uni0471
+ 15 uni0472 uni0473
+ 31 uni0474 uni0475 uni0476 uni0477
+ 15 uni047E uni047F
+ 15 uni0460 uni0461
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -1 {} -16 {} 0 {} -7 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} -100 {} 0 {} 0 {} -40 {} 0 {} -30 {} 0 {} -20 {} 0 {} -12 {} -50 {} 0 {} -60 {} 0 {} 0 {} 0 {} -80 {} 0 {} 0 {} -70 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -55 {} -20 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -10 {} 0 {} 0 {} -40 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -14 {} -20 {} 0 {} -5 {} 0 {} -10 {} -5 {} 0 {} -20 {} -20 {} -25 {} 0 {} 0 {} -20 {} 0 {} -1 {} -27 {} 0 {} -10 {} -5 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} 0 {} -100 {} 0 {} 0 {} 0 {} -100 {} 0 {} 0 {} -23 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} -28 {} -100 {} 0 {} 0 {} 0 {} -90 {} 0 {} 0 {} -25 {} 0 {} -6 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {}
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2019, Aleksandr Andreev (<https://sci.ponomar.net/>).+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 Encoding: UnicodeFull
 Compacted: 1
@@ -53,7 +85,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 27 27 9
 BeginPrivate: 7
 BlueValues 16 [ -8 0 800 808 ]
 BlueScale 7 0.02273
@@ -64,7 +96,7 @@ StdVW 7 [ 100 ]
 ForceBold 5 false
 EndPrivate
 AnchorClass2: "Stack" "'mkmk' Mark to Mark Positioning-1" "Yerik" "'mark' Diacritical Marks-1" "Above" "'mark' Diacritical Marks-1"
-BeginChars: 1114113 246
+BeginChars: 1114113 247
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -8766,6 +8798,42 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DF1 uni0487
+EndChar
+
+StartChar: uni1C82
+Encoding: 7298 7298 246
+Width: 359
+Flags: W
+HStem: -8 21G<147 172.5> 788 20G<186.5 212>
+VStem: 45 63<388.5 596> 251 63<216 411.5>
+AnchorPoint: "Yerik" 271 852 basechar 0
+AnchorPoint: "Above" 205 852 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+314 374 m 0
+ 314 246 262 149 212 70 c 0
+ 194 40 175 12 170 -8 c 1
+ 147 -8 l 1
+ 148 0 148 7 148 14 c 0
+ 148 86 118 145 90 216 c 0
+ 65 276 45 351 45 426 c 0
+ 45 554 97 651 147 730 c 0
+ 165 760 184 788 189 808 c 1
+ 212 808 l 1
+ 211 800 211 793 211 786 c 0
+ 211 714 241 655 269 584 c 0
+ 294 524 314 449 314 374 c 0
+132 667 m 1
+ 116 639 108 619 108 573 c 0
+ 108 514 132 434 154 362 c 0
+ 174 288 211 209 226 132 c 1
+ 233 145 239 157 244 168 c 0
+ 248 180 251 205 251 227 c 0
+ 251 286 227 366 205 438 c 0
+ 192 486 170 538 155 584 c 0
+ 145 614 137 647 132 667 c 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
