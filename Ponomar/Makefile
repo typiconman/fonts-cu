@@ -1,31 +1,23 @@
-all: PonomarUnicode.ttf
+all: PonomarUnicode.otf
 
-PonomarUnicode.ttf:
-	rm -f *.otf
-	rm -f *.ttf
-	rm -f *.woff
+PonomarUnicode.otf:
+	rm -f *.otf *.woff
 	fontforge -script hp-generate.py
-	grcompiler -wall PonomarUnicode.gdl PonomarUnicode.ttf PonomarUnicodeSIL.ttf
-	rm PonomarUnicode.ttf
-	mv PonomarUnicodeSIL.ttf PonomarUnicode.ttf
 
 site: PonomarUnicode.zip
 
 PonomarUnicode.zip:
 	rm -f *.zip
-	zip -j $@ PonomarUnicode.otf PonomarUnicode.ttf README CHANGES
+	zip -j $@ PonomarUnicode.otf README CHANGES
 
 web: PonomarUnicode.woff2
 
 PonomarUnicode.woff2:
 	rm -f *.ttf *.woff *.woff2 *.eot
 	fontforge -script web-generate.py
-	grcompiler -wall PonomarUnicode.gdl PonomarUnicode.ttf PonomarUnicodeSIL.ttf
-	rm PonomarUnicode.ttf
-	mv PonomarUnicodeSIL.ttf PonomarUnicode.ttf
 	ttf2eot < PonomarUnicode.ttf > PonomarUnicode.eot
-	woff2_compress PonomarUnicode.ttf
+	sfnt2woff -m PonomarUnicode-WOFF-metadata.xml PonomarUnicode.otf
+	woff2_compress PonomarUnicode.otf
 
 clean:
-	rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip gdlerr.txt
-
+	rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip

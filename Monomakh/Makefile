@@ -1,31 +1,23 @@
-all: MonomakhUnicode.ttf
+all: MonomakhUnicode.otf
 
-MonomakhUnicode.ttf:
-	rm -f *.otf
-	rm -f *.ttf
-	rm -f *.woff
+MonomakhUnicode.otf:
+	rm -f *.otf *.woff
 	fontforge -script hp-generate.py
-	grcompiler -wall MonomakhUnicode.gdl MonomakhUnicode.ttf MonomakhUnicodeSIL.ttf
-	rm MonomakhUnicode.ttf
-	mv MonomakhUnicodeSIL.ttf MonomakhUnicode.ttf
 
 site: MonomakhUnicode.zip
 
 MonomakhUnicode.zip:
 	rm -f *.zip
-	zip -j $@ MonomakhUnicode.otf MonomakhUnicode.ttf README.md FONTLOG.txt
+	zip -j $@ MonomakhUnicode.otf README.md FONTLOG.txt
 
 web: MonomakhUnicode.woff2
 
 MonomakhUnicode.woff2:
 	rm -f *.ttf *.woff *.woff2 *.eot
 	fontforge -script web-generate.py
-	grcompiler -wall MonomakhUnicode.gdl MonomakhUnicode.ttf MonomakhUnicodeSIL.ttf
-	rm MonomakhUnicode.ttf
-	mv MonomakhUnicodeSIL.ttf MonomakhUnicode.ttf
 	ttf2eot < MonomakhUnicode.ttf > MonomakhUnicode.eot
-	woff2_compress MonomakhUnicode.ttf
+	sfnt2woff -m MonomakhUnicode-WOFF-metadata.xml MonomakhUnicode.otf
+	woff2_compress MonomakhUnicode.otf
 
 clean:
-	rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip gdlerr.txt
-
+	rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip

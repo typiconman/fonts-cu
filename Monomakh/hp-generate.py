@@ -22,20 +22,4 @@ font.sfnt_names = tuple( ttnames )
 
 font.generate( base_name + ".otf", flags=( "opentype", "PfEd-colors", "PfEd-lookups"), layer="Fore" )
 
-# Append the TT suffix
-for i in range( 0, len( ttnames )):
-	ttname = ttnames[i]
-	if ttname[1] == 'Fullname':
-		ttnames[i] = ( ttname[0],'Fullname',ttname[2].replace( full_name,full_name + " TT" ) )
-	if ttname[1] == 'Preferred Family':
-		ttnames[i] = ( ttname[0],'Preferred Family',ttname[2].replace( full_name,full_name + " TT" ) )
-
-font.sfnt_names = tuple( ttnames )
-font.familyname = full_name + " TT"
-font.fullname = full_name + " TT"
-font.fontname = base_name + "TT"
-
-font.em = 1024
-font.generate( base_name + ".ttf", flags=( "opentype", "old-kern", "PfEd-colors", "PfEd-lookups", "dummy-dsig" ), layer="TTF" )
 font.close()
-
