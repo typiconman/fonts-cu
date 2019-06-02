@@ -27,3 +27,8 @@ To build entire package:
 make all
 ```
 
+To build web fonts:
+
+```
+make web
+```
