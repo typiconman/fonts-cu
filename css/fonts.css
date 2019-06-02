@@ -1,13 +1,14 @@
 /* Web Font CSS declaration for Church Slavonic fonts */
-/* Slavonic Computing Initiative (http://sci.ponomar.net/) */
+/* Slavonic Computing Initiative (https://sci.ponomar.net/) */
+/* Cathisma Fedorovsk Indiction Menaion Monomakh Oglavie Pomorsky Ponomar Vertograd */
 
 @font-face {
-    font-family: 'Ponomar Unicode';
-    src: url('../fonts/PonomarUnicode.eot');
-    src: url('../fonts/PonomarUnicode.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/PonomarUnicode.woff2') format('woff2'),
-	url('../fonts/PonomarUnicode.woff') format('woff'),
-	url('../fonts/PonomarUnicode.ttf') format('truetype');
+    font-family: 'Cathisma Unicode';
+    src: url('../fonts/CathismaUnicode.eot');
+    src: url('../fonts/CathismaUnicode.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/CathismaUnicode.woff2') format('woff2'),
+	url('../fonts/CathismaUnicode.woff') format('woff'),
+	url('../fonts/CathismaUnicode.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,6 +20,17 @@
 	url('../fonts/FedorovskUnicode.woff2') format('woff2'),
 	url('../fonts/FedorovskUnicode.woff') format('woff'),
 	url('../fonts/FedorovskUnicode.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Indiction Unicode';
+    src: url('../fonts/IndictionUnicode.eot');
+    src: url('../fonts/IndictionUnicode.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/IndictionUnicode.woff2') format('woff2'),
+	url('../fonts/IndictionUnicode.woff') format('woff'),
+	url('../fonts/IndictionUnicode.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -46,12 +58,12 @@
 }
 
 @font-face {
-    font-family: 'Indiction Unicode';
-    src: url('../fonts/IndictionUnicode.eot');
-    src: url('../fonts/IndictionUnicode.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/IndictionUnicode.woff2') format('woff2'),
-	url('../fonts/IndictionUnicode.woff') format('woff'),
-	url('../fonts/IndictionUnicode.ttf') format('truetype');
+    font-family: 'Oglavie Unicode';
+    src: url('../fonts/OglavieUnicode.eot');
+    src: url('../fonts/OglavieUnicode.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/OglavieUnicode.woff2') format('woff2'),
+	url('../fonts/OglavieUnicode.woff') format('woff'),
+	url('../fonts/OglavieUnicode.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -67,3 +79,24 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Ponomar Unicode';
+    src: url('../fonts/PonomarUnicode.eot');
+    src: url('../fonts/PonomarUnicode.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PonomarUnicode.woff2') format('woff2'),
+	url('../fonts/PonomarUnicode.woff') format('woff'),
+	url('../fonts/PonomarUnicode.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vertograd Unicode';
+    src: url('../fonts/VertogradUnicode.eot');
+    src: url('../fonts/VertogradUnicode.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/VertogradUnicode.woff2') format('woff2'),
+	url('../fonts/VertogradUnicode.woff') format('woff'),
+	url('../fonts/VertogradUnicode.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

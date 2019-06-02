@@ -1,6 +1,6 @@
 all: fonts doc ctan
 
-FONTS = Ponomar Fedorovsk Menaion Pomorsky Indiction Monomakh
+FONTS = Cathisma Fedorovsk Indiction Menaion Monomakh Oglavie Pomorsky Ponomar Vertograd
 
 fonts:
 	$(foreach font, $(FONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && fontforge -script hp-generate.py $(font);)

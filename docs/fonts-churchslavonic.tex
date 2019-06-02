@@ -35,7 +35,8 @@
 \newfontfamily\churchslavonicfont[Script=Cyrillic,Ligatures=TeX,Scale=1.33333333,HyphenChar="005F]{PonomarUnicode.otf} 
 \newfontfamily{\slv}[Scale=MatchLowercase]{Ponomar Unicode}
 \newfontfamily{\ust}[Scale=MatchLowercase]{Menaion Unicode}
-\newfontfamily{\ind}{Indiction Unicode}
+\newfontfamily{\ind}[Scale=1.333333333]{Indiction Unicode}
+\newfontfamily{\vertograd}[Scale=1.333333]{Vertograd Unicode}
 
 \linespread{1.05}
 %\lineskip=0pt
@@ -52,14 +53,14 @@
 \def\@oddfoot{\footnotesize\hfil\cuNum{\value{page}}\hfil\hbox to 0pt{\hss\usebox\NextWordBox}}%}%
 \let\@evenfoot\@oddfoot
 }%
-\def\cu@lettrine{\lettrine[lines=3,findent=0pt,nindent=0pt,lraise=-0.4]}
+\def\cu@lettrine{\lettrine[lines=3,findent=0pt,nindent=0pt]}
 \def\cuLettrine{\cu@tokenizeletter\cu@lettrine}
 \renewcommand{\LettrineFontHook}{\ind \cuKinovarColor}
 \makeatother
 \begin{document}
 
 \title{Church Slavonic Fonts}
-\author{Aleksandr Andreev \and Nikita Simmons\thanks{Comments may be directed to \href{mailto:aleksandr.andreev@gmail.com}{aleksandr.andreev@gmail.com}.}}
+\author{Aleksandr Andreev\thanks{Comments may be directed to \href{mailto:aleksandr.andreev@gmail.com}{aleksandr.andreev@gmail.com}.} \and Nikita Simmons}
 \date{\filedate \qquad \fileversion\\
 \footnotesize (\textsc{pdf} file generated on \today)}
 
@@ -82,7 +83,7 @@ converted to Unicode using a separate bundle of utilities.
 See the \href{https://sci.ponomar.net/}{Slavonic Computing Initiative website}
 for more information.
 
-\section{License}
+\subsection{License}
 
 The fonts distributed in this package are licensed under the
 SIL Open Font License (version 1.1 or later).
@@ -95,7 +96,7 @@ SIL Open Font License for more details.
 This document is licensed under the Creative Commons Attribution-ShareAlike 4.0
 International License. To view a copy of this license, visit the \href{https://creativecommons.org/licenses/by-sa/4.0/}{CreativeCommons website}.
 
-\section{Introduction}
+\subsection{Description}
 
 The package provides several fonts that are intended for working with Church Slavonic text
 of various recensions and other texts related to Church Slavonic:
@@ -113,13 +114,13 @@ Characters not used in Church Slavonic, however, are not included (except for so
 characters used in modern Russian, Ukrainian, Belorussian, Serbian and
 Macedonian for purposes of compatibility with some applications).
 
-\section{Installation and Usage}
+\subsection{Installation and Usage}
 
 If you are reading this document, then you probably have already downloaded
 the font package. You may check if you have the most recent version by visiting
 the \href{https://sci.ponomar.net/}{Slavonic Computing Initiative website}.
 
-\subsection{Font Formats}
+\subsubsection{Font Formats}
 
 All fonts are currently available in a single format:
 
@@ -166,13 +167,13 @@ you will not gain any productivity improvements from rebuilding the font files,
 so rebuilding from source is not recommended, unless you have a real need
 to modify the fonts, for example, to add your own additional glyphs to the Private Use Area.
 
-\section{System Requirements}
+\subsection{System Requirements}
 
 All of these fonts are large Unicode fonts and require a Unicode-aware operating
 system and software environment. Outside of a Unicode-aware environment,
 you will only be able, at most, to access the first 256 glyphs of a font.
 
-\subsection{Microsoft Windows}
+\subsubsection{Microsoft Windows}
 
 Unicode-encoded OpenType-CFF fonts are supported starting with Windows 2000.
 You will need a word processor that can handle
@@ -189,7 +190,7 @@ available from the \href{https://sci.ponomar.net/keyboard.html}
 characters using the Windows Character Map utility or by codepoint,
 but this is not recommended.
 
-\subsection{GNU/Linux}
+\subsubsection{GNU/Linux}
 
 In order to be able to handle OpenType fonts, your system should
 have the \href{https://freetype.sourceforge.net}{freetype} library installed
@@ -204,11 +205,11 @@ Under GNU/Linux, this is handled by the |m17n| library and database.
 See the \href{https://sci.ponomar.net/keyboard.html}{Slavonic
 Computing Initiative website} for more details.
 
-\subsection{OS X}
+\subsubsection{OS X}
 
 Not sure.
 
-\section{Private Use Area}
+\subsection{Private Use Area}
 
 The Unicode Private Use Area (PUA) is a set of three ranges of codepoints
 (U+E000 to U+F8FF, Plane 15 and Plane 16) that are guaranteed to never
@@ -413,7 +414,7 @@ simultaneously or to access the |salt| feature. If necessary, you may access
 alternate glyphs by codepoint from the Private Use Area (PUA).
 However, relying on the PUA as a data exchange mechanism is discouraged.
 
-\section{SIL Graphite Technology}
+\subsection{SIL Graphite Technology}
 
 \hypertarget{Graphite}{}\label{Graphite} 
 
@@ -426,7 +427,7 @@ has been discontinued. If you need Graphite support, see the
 
 \hypertarget{LO}{}\label{LO}
 
-\section{Support of Advanced Features in LibreOffice}
+\subsection{Support of Advanced Features in LibreOffice}
 
 Support for OpenType features is available in LibreOffice and all
 OpenOffice.org derivatives starting with version 3.2 of OpenOffice.org.
@@ -474,7 +475,9 @@ features.
 %results accessing glyphs directly by codepoint from the Private Use Area,
 %though this is not recommended.
 
-\section{Ponomar Unicode}
+\section{Fonts for Synodal Slavonic}
+
+\subsection{Ponomar Unicode}
 
 Ponomar Unicode is a font that reproduces the typeface of Synodal Church Slavonic
 editions from the beginning of the 20th Century. It is intended for working with
@@ -485,24 +488,17 @@ of this package. Examples of text set in Ponomar Unicode are presented below.
 %\lineskip=0pt
 %\lineskiplimit=-5em
 
-\subsection{Synodal Church Slavonic}
-
 \begin{churchslavonic}
 Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаде́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ. Не та́кѡ нечести́вїи, не та́кѡ: но ꙗ҆́кѡ пра́хъ, є҆го́же возмета́етъ вѣ́тръ ѿ лица̀ землѝ. Сегѡ̀ ра́ди не воскре́снꙋтъ нечести́вїи на сꙋ́дъ, нижѐ грѣ̑шницы въ совѣ́тъ првⷣныхъ. Ꙗ҆́кѡ вѣ́сть гдⷭ҇ь пꙋ́ть првⷣныхъ, и҆ пꙋ́ть нечести́выхъ поги́бнетъ.
 \end{churchslavonic}
 
-\subsection{Kievan Church Slavonic}
-
-Kievan Church Slavonic uses a number of variant glyph forms, such as U+1C81 Long-Legged De ({\slv ᲁ}) and U+A641 Variant Ze ({\slv ꙁ}):
+\textbf{Kievan Church Slavonic} uses a number of variant glyph forms, such as U+1C81 Long-Legged De ({\slv ᲁ}) and U+A641 Variant Ze ({\slv ꙁ}):
 
 \begin{churchslavonic}
 Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́ᲁе на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣᲁа́лищи гꙋби́телей не сѣ́ᲁе: но въ зако́нѣ гᲁⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́ᲁетъ ꙗ҆́кѡ дре́во насажᲁе́ное при и҆схо́ᲁищихъ во́ᲁъ, є҆́же плоᲁъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаᲁе́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ. Не та́кѡ нечести́вїи, не та́кѡ: но ꙗ҆́кѡ пра́хъ, є҆го́же воꙁмета́етъ вѣ́тръ ѿ лица̀ землѝ. Сегѡ̀ ра́ᲁи не воскре́снꙋтъ нечести́вїи на сꙋ́ᲁъ, нижѐ грѣ̑шницы въ совѣ́тъ првⷣныхъ. Ꙗ҆́кѡ вѣ́сть гᲁⷭ҇ь пꙋ́ть првⷣныхъ, и҆ пꙋ́ть нечести́выхъ поги́бнетъ.
 \end{churchslavonic}
 
-\subsection{Other Languages}
-
-The Ponomar Unicode font may also be used to typeset liturgical texts in other languages that use the ecclesiastic Cyrillic alphabet. Three such examples
-are fully supported by the font: Romanian (Moldovan) in its Cyrillic alphabet, Aleut (Fox Island or Eastern dialect) in its Cyrillic alphabet, and Yakut (Sakha) as written in the alphabet created by Bishop Dionysius (Khitrov).
+\textbf{Other Languages} The Ponomar Unicode font may also be used to typeset liturgical texts in other languages that use the ecclesiastic Cyrillic alphabet. Three such examples are fully supported by the font: Romanian (Moldovan) in its Cyrillic alphabet, Aleut (Fox Island or Eastern dialect) in its Cyrillic alphabet, and Yakut (Sakha) as written in the alphabet created by Bishop Dionysius (Khitrov).
 
 \noindent Here is an example of the Lord's Prayer in Romanian (Moldovan) Cyrillic: \\
 
@@ -522,17 +518,7 @@ are fully supported by the font: Romanian (Moldovan) in its Cyrillic alphabet, A
 Халланнаръ юрдюлѧригѧрь баръ агабытъ бисенѧ ! Свѧтейдѧннинь а̄тыҥъ эенѧ ; кѧллинь царстваҥъ эенѧ ; сирь юрдюгѧрь кёҥюлюҥь эенѧ , халланъ юрдюгѧрь курдукъ боллунъ ; бюгюҥю кюннѧги асыръ аспытынъ бисенинь кулу бисеха бюгюнь ; бисиги да естѧрбитинь халларъ бисеха , хайтахъ бисиги да халларабытъ беэбить естѧхтѧрбитигѧрь ; килѧримѧ да бисигини альԫархайга ; хата быса бисигини албынтанъ . \\
 \end{churchslavonic}
 
-\noindent Here is an example using the Typicon symbols from Nikita Syrnikov's book {\slv Клю́чъ къ церко́вномꙋ ᲂу҆ста́вꙋ}:
-
-\begin{churchslavonic}
-і\textcolor{red}{і}꙼̇ ⧟̇҃ іѡа́ннꙋ і̲꙼ на лиⷮ бл҃жеⷩ҇, па́влꙋ пѣⷭ҇ г҃. а і҆оа́ннꙋ ѕ҃.
-
-и᷷͏҃і і\textcolor{red}{і}꙼̇ ⧟̲̇҃ кири́лꙋ і̲꙼ коⷣ и҆ и҆́коⷭ҇ о҆́бщїй и҆ коⷣ а҆фана́сїю.
-
-д҃ 🤉 іі̲ и҆си́дорꙋ ⹇ гео́ргїю кири́лѣ ⹉
-\end{churchslavonic}
-
-\subsection{Font Features}
+\subsubsection{Advanced Features of the Font}
 
 Ponomar Unicode places some characters in the Private Use Area (PUA).
 For the general PUA mappings, please see the
@@ -653,7 +639,9 @@ Blackletter &
 ``Arabic numerals'') are provided in roman form. Use Stylistic Set 2 to access
 the blackletter forms, if necessary.
 
-\section{Fedorovsk Unicode}
+\section{Fonts for Pre-Nikonian Printed Slavonic}
+
+\subsection{Fedorovsk Unicode}
 
 Fedorovsk Unicode is based on the Fedorovsk font designed by Nikita Simmons.
 It has been re-encoded for Unicode, with added OpenType features.
@@ -662,10 +650,9 @@ of the printed editions of Ivan Fedorov produced in Moscow, for example, the
 Apostol of 1564. The font is intended primarily for typesetting pre-Nikonian (Old Rite)
 liturgical texts or for working with such texts in an academic context.
 
-\subsection{Sample Texts}
 \newfontfamily{\rightFedor}[StylisticSet=1,HyphenChar="200B]{Fedorovsk Unicode}
 
-\subsubsection{Apostol of Ivan Fedorov}
+Here is an example from the 1564 Apostol of Ivan Fedorov:
 
 \begin{churchslavonic}
 {\Large \rightFedor
@@ -673,7 +660,8 @@ liturgical texts or for working with such texts in an academic context.
 }
 \end{churchslavonic}
 
-\subsubsection{Flowery Triodion}
+Here is an example from the Flowery Triodion of 1648:
+
 \newfontfamily{\leftFedor}[StylisticSet=2,HyphenChar="200B]{Fedorovsk Unicode}
 
 \begin{churchslavonic}
@@ -683,7 +671,7 @@ liturgical texts or for working with such texts in an academic context.
 }
 \end{churchslavonic}
 
-\subsection{OpenType Features}
+\subsubsection{Advanced Features of the Font}
 
 The font provides a number of ligatures, which are made by inserting the Zero Width Joiner (U+200D) between two characters. A list of ligatures is provided in Table~\ref{ligs2}.
 
@@ -768,7 +756,9 @@ Cyrillic scripts). Here is an example:
 \end{tabular}
 \end{figure}
 
-\section{Menaion Unicode}
+\section{Fonts for Working with Ancient Manuscripts}
+
+\subsection{Menaion Unicode}
 
 The Menaion typeface is supposed to be used for working with text
 of Ustav-era manuscripts. It contains the full repertoire of necessary
@@ -781,8 +771,6 @@ re-encoded for Unicode by Aleksandr Andreev with permission of the original auth
 
 \newfontfamily{\menaion}[HyphenChar="200B]{Menaion Unicode}
 
-\subsection{Sample Texts}
-
 Samples of text in Menaion Unicode are presented in Figures~\ref{men1}
 and \ref{men2}. Please note that combining Glagolitic letters
 (Glagolitic Supplement) became available in Unicode 9.0. In older versions 
@@ -793,7 +781,7 @@ publishing software such as Adobe InDesign.
 
 \begin{figure}[htbp]
 \centering
-\caption{Cyrillic text from the Ostromir Gospels (11th century) \label{men1}}
+\caption{Cyrillic text from the Ostromir Gospel (11\textsuperscript{th} century) \label{men1}}
 \begin{tabular}{lr}
  1& {\Large \menaion    Искони бѣ слово } \\
  2& {\Large \menaion    и слово бѣ отъ  } \\
@@ -830,7 +818,7 @@ publishing software such as Adobe InDesign.
 
 \begin{figure}[htbp]
 \centering
-\caption{Glagolitic text from Codex Assemanius (11th century) \label{men2}}
+\caption{Glagolitic text from \emph{Codex Assemanius} (11\textsuperscript{th} century) \label{men2}}
 \begin{tabular}{lr}
 1 & {\Large \menaion   ⁘ ⰅⰂⰀ𞀌҇   ⰙⰕ҇   ⰋⰉ҇Ⱁ } \\
  2 & {\Large \menaion  Ⰻⱄⰽⱁⱀⰹ ⰱⱑ } \\
@@ -856,7 +844,7 @@ publishing software such as Adobe InDesign.
 \end{tabular}
 \end{figure}
 
-\subsection{Provided Ligatures}
+\subsubsection{Advanced Features of the Font}
 
 The font provides a number of ligatures, which are made
 by inserting the Zero Width Joiner (U+200D) between two
@@ -896,83 +884,9 @@ Small Ligature Te-A		&	U+0442 U+200D U+0430 	& {\menaion{\large т‍а }} \\
 \end{tabular}
 \end{table}
 
-\section{Pomorsky Unicode}
+\section{Fonts for Academic Work}
 
-The Pomorsky Unicode font is a close (idealized)
-reproduction of the decorative calligraphic style of book and chapter titles,
-which was most likely developed in the 1700's by the scribes of the Old Ritualist
-Vyg River Hermitage (Выговская пустынь). 
-It is seen extensively in the chant manuscripts, liturgical manuscripts,
-hagiographic and polemical works of the Pomortsy and Fedoseyevtsy communities,
-and is a traditional and ``organic'' style of lettering lacking any obvious influence
-from Western European typography.
-The Pomorsky typeface was originally designed by Nikita Simmons.
-It was edited and re-encoded for Unicode by Aleksandr Andreev.
-It is intended for use with
-\emph{bukvitsi} (drop caps) and decorative titling.
-
-Several versions of many glyphs are provided in the font.
-The ornate forms of the letters are default and provided at the uppercase
-Cyrillic codepoints; they should be used as much as possible.
-Simpler forms can be used whenever the letters need a less ornate appearance,
-or when diacritics might conflict with the ornamentation
-(or when the ornamentation of one character will conflict with
-the ornamentation of another); these simple forms are available as
-\verb+Stylistic Set 1+. There are a few additional characters that are stylistic
-variants, which are provided as Stylistic Alternatives (\verb+salt+).
-Since the font is intended for drop caps and titling, lowercase
-characters are not available.
-
-\newfontfamily{\pomorsky}{Pomorsky Unicode}
-\newfontfamily{\simple}[StylisticSet=1]{Pomorsky Unicode}
-\newfontfamily{\pomorskysalt}[Alternate=0]{Pomorsky Unicode}
-\newfontfamily{\pomorskysalta}[Alternate=1]{Pomorsky Unicode}
-
-The base form, the ``simple'' form, and any stylistic alternatives of 
-a character are demonstrated in Table~\ref{pomor}.
-
-\begin{table}[htbp]
-\centering
-\caption{Character shapes provided by Pomorsky Unicode \label{pomor}}
-{\fontsize{38pt}{1.5em}
-\begin{tabular}{cccc}
-	{\pomorsky А}{\simple А}{\pomorskysalt А}	& {\pomorsky Б}{\simple Б} & {\pomorsky В}{\simple В} & {\pomorsky Г}{\simple Г} \\
-
-	{\pomorsky Е}{\simple Е}	& {\pomorsky Ж}{\simple Ж} & {\pomorsky Ѕ}{\simple Ѕ} & {\pomorsky З}{\simple З} \\
-	
-	{\pomorsky И}{\simple И}	& {\pomorsky Й}{\simple Й} & {\pomorsky І}{\simple І} & {\pomorsky Ї}{\simple Ї} \\
-
-	{\pomorsky К}{\simple К}{\pomorskysalt К}{\pomorskysalta К}	& {\pomorsky Л}{\simple Л} & {\pomorsky М}{\simple М} & {\pomorsky Н}{\simple Н} \\
-
-	{\pomorsky О}{\simple О}	& {\pomorsky Ѻ}{\simple Ѻ} & {\pomorsky П}{\simple П} & {\pomorsky Р}{\simple Р}{\pomorskysalt Р}{\pomorskysalta Р} \\
-
-	{\pomorsky С}{\simple С}	& {\pomorsky Т}{\simple Т} & {\pomorsky ОУ}{\simple ОУ} & {\pomorsky Ꙋ}{\simple Ꙋ} \\
-
-	{\pomorsky Ф}{\simple Ф}	& {\pomorsky Х}{\simple Х} & {\pomorsky Ѡ}{\simple Ѡ} & {\pomorsky Ѽ}{\simple Ѽ} \\
-
-	{\pomorsky Ѿ}{\simple Ѿ}	& {\pomorsky Ц}{\simple Ц} & {\pomorsky Ч}{\simple Ч} & {\pomorsky Ш}{\simple Ш} \\
-
-	{\pomorsky Щ}{\simple Щ}	& {\pomorsky Ъ}{\simple Ъ} & {\pomorsky Ы}{\simple Ы} & {\pomorsky Ь}{\simple Ь} \\
-
-	{\pomorsky Ѣ}{\simple Ѣ}	& {\pomorsky Ю}{\simple Ю} & {\pomorsky Ꙗ}{\simple Ꙗ}{\pomorskysalt Ꙗ} & {\pomorsky Ѧ}{\simple Ѧ} \\
-
-	{\pomorsky Ѯ}{\simple Ѯ}	& {\pomorsky Ѱ}{\simple Ѱ} & {\pomorsky Ѳ}{\simple Ѳ} & {\pomorsky Ѵ}{\simple Ѵ} \\
-\end{tabular}
-}
-\end{table}
-
-\subsection{Sample Texts}
-
-\begin{center}
-\begin{tabular}{c}
-{\fontsize{48pt}{2em} \pomorsky ЧИ́НЪ ВЕЧЕ́РНИ.} \\
-{\fontsize{48pt}{2em} \simple ЧИ́НЪ ВЕЧЕ́РНИ.} \\
-{\fontsize{48pt}{2em} \pomorsky СѶНѠ́ДИКЪ.} \\
-{\fontsize{48pt}{2em} \simple СѶНѠ́ДИКЪ.} \\
-\end{tabular}
-\end{center}
-
-\section{Monomakh Unicode}
+\subsection{Monomakh Unicode}
 
 Monomakh Unicode is based on the Monomachus font designed by 
 Alexey Kryukov. It has been modified with permission.
@@ -987,8 +901,6 @@ as in the Romanian example below.
 
 \newfontfamily{\monomakh}{Monomakh Unicode}
 
-\subsection{Sample Bilingual Text}
-
 \begin{tabular}{p{2.25in}p{0.02in}p{2.25in}}
 \begin{churchslavonic}
 {\monomakh Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ.}
@@ -999,7 +911,7 @@ as in the Romanian example below.
 \end{romanian}
 \end{tabular}
 
-\subsection{OpenType features}
+\subsubsection{Advanced Features of the Font}
 
 The Monomakh font offers a number of optional OpenType features that may be turned on or off by the user. These are:
 
@@ -1031,7 +943,9 @@ Two additional features were available in SIL Graphite only; however support for
 \item[\XeTeXpicfile "deprecated.png" width 4mm] The Graphite feature Convert HIP-6B Keystrokes to Church Slavonic Characters (\emph{hipb}), when turned on, will display text encoded in the legacy HIP codepage as Church Slavonic. The use of this feature is discouraged and users are encouraged instead to convert HIP-encoded text to Unicode.
 \end{itemize}
 
-\section{Indiction Unicode}
+\section{Decorative Fonts}
+
+\subsection{Indiction Unicode}
 
 The Indiction Unicode font reproduces the decorative style of drop caps
 used in Synodal Slavonic editions since the late 1800's.
@@ -1042,44 +956,113 @@ The font was reencoded for Unicode and edited by Aleksandr Andreev, and is now
 distributed as Indiction Unicode under the SIL Open Font License.
 It is intended for use with
 \emph{bukvitsi} (drop caps) in modern Church Slavonic editions.
-The character shapes are demonstrated in Table~\ref{indict}.
 
-\begin{table}[htbp]
-\centering
-\caption{Character shapes provided by Indiction Unicode \label{indict}}
-{\fontsize{38pt}{1.5em}
-\begin{tabular}{cccc}
-	{\ind А}	& {\ind Б} & {\ind В} & {\ind Г} \\
-
-	{\ind Е}	& {\ind Ж} & {\ind Ѕ} & {\ind З} \\
-	
-	{\ind И}	&  {\ind І} & {\ind К}	& {\ind Л} \\
-
-	{\ind М} & {\ind Н} & 	{\ind О} & {\ind Ѻ} \\
-
-	{\ind П} & {\ind Р} & {\ind С}	& {\ind Т} \\
-
-	{\ind Ꙋ} & {\ind Ф} & {\ind Х} & {\ind Ѡ} \\
-
-	{\ind Ѽ} & {\ind Ꙍ} & {\ind Ѿ}	& {\ind Ц} \\
-
-	{\ind Ч} & {\ind Ш} & {\ind Щ} & {\ind Ъ} \\
-
-	{\ind Ы} & {\ind Ь} & {\ind Ѣ} & {\ind Ю} \\
-
-	{\ind Ꙗ} & {\ind Ѧ} & {\ind Ѯ} & {\ind Ѱ} \\
-
-	{\ind Ѳ} & {\ind Ѵ} & {\ind Ѷ} \\
-\end{tabular}
-}
-\end{table}
-
-\subsection{Sample Texts}
-\vspace{-1em}
 \begin{churchslavonic}
 \cuLettrine Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаде́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ.
 \par
 \end{churchslavonic}
+
+\subsection{Vertograd Unicode}
+
+Vertograd Unicode (based on Vertograd UCS by Vlad Dorosh) is another font for decorative dropcaps and titling. The typeface was commonly used in pre-revolution Russian liturgical editions. Note that some letters that are typically not encountered in capital form are not available. Please file an issue if you need a letter that is not available.
+
+\renewcommand{\LettrineFontHook}{\vertograd \cuKinovarColor}
+\begin{churchslavonic}
+\cuLettrine Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаде́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ.
+\par
+\end{churchslavonic}
+
+\subsection{Cathisma Unicode}
+
+Cathisma Unicode is based on Kathisma UCS, designed by Vlad Dorosh. The typeface is used for titling in many 18\textsuperscript{th}--20\textsuperscript{th} century liturgical editions.
+
+\newfontfamily{\cathisma}{Cathisma Unicode}
+\begin{center}
+\begin{tabular}{c}
+{\fontsize{42pt}{2em} \cathisma ЧИ́НЪ ОУ҆́ТРЕНИ ВСЕНО́ЩНАГѠ БДѢ́НЇѦ} \\
+\end{tabular}
+\end{center}
+
+\subsection{Oglavie Unicode}
+
+Oglavie Unicode is based on Vertograd UCS, designed by Vlad Dorosh. The typeface is also used for decorative titling in 18\textsuperscript{th}--20\textsuperscript{th} century liturgical editions.
+
+\newfontfamily{\oglavie}{Oglavie Unicode}
+\begin{center}
+\begin{tabular}{c}
+{\fontsize{42pt}{2em} \oglavie ТРЇѠ́ДЬ НО́ТНАГѠ ПѢ́НЇѦ} \\
+\end{tabular}
+\end{center}
+
+\subsection{Pomorsky Unicode}
+
+The Pomorsky Unicode font is a close
+reproduction of the decorative calligraphic style of book and chapter titles,
+which was most likely developed in the 1700's by the scribes of the Old Ritualist
+Vyg River Hermitage (Выговская пустынь). 
+It is seen extensively in the chant manuscripts, liturgical manuscripts,
+hagiographic and polemical works of the Pomortsy and Fedoseyevtsy communities,
+and is a traditional and ``organic'' style of lettering lacking any obvious influence
+from Western European typography.
+The Pomorsky typeface was originally designed by Nikita Simmons.
+It is intended for use with
+\emph{bukvitsi} (drop caps) and decorative titling.
+
+\newfontfamily{\pomorsky}{Pomorsky Unicode}
+\newfontfamily{\simple}[StylisticSet=1]{Pomorsky Unicode}
+\newfontfamily{\pomorskysalt}[Alternate=0]{Pomorsky Unicode}
+\newfontfamily{\pomorskysalta}[Alternate=1]{Pomorsky Unicode}
+
+\begin{center}
+\begin{tabular}{c}
+{\fontsize{48pt}{2em} \pomorsky ЧИ́НЪ ВЕЧЕ́РНИ.} \\
+\end{tabular}
+\end{center}
+
+\subsubsection{Advanced Features of the Font}
+
+Several versions of many glyphs are provided in the font.
+The ornate forms of the letters are default and provided at the uppercase
+Cyrillic codepoints; they should be used as much as possible.
+Simpler forms can be used whenever the letters need a less ornate appearance,
+or when diacritics might conflict with the ornamentation
+(or when the ornamentation of one character will conflict with
+the ornamentation of another); these simple forms are available as
+\verb+Stylistic Set 1+. There are a few additional characters that are stylistic
+variants, which are provided as Stylistic Alternatives (\verb+salt+).
+Since the font is intended for drop caps and titling, lowercase
+characters are not available. The base form, the ``simple'' form, and any stylistic alternatives of 
+a character are demonstrated in Table~\ref{pomor}.
+
+\begin{table}[htbp]
+\centering
+\caption{Character shapes provided by Pomorsky Unicode \label{pomor}}
+{\fontsize{38pt}{1.5em}
+\begin{tabular}{cccc}
+	{\pomorsky А}{\simple А}{\pomorskysalt А}	& {\pomorsky Б}{\simple Б} & {\pomorsky В}{\simple В} & {\pomorsky Г}{\simple Г} \\
+
+	{\pomorsky Е}{\simple Е}	& {\pomorsky Ж}{\simple Ж} & {\pomorsky Ѕ}{\simple Ѕ} & {\pomorsky З}{\simple З} \\
+	
+	{\pomorsky И}{\simple И}	& {\pomorsky Й}{\simple Й} & {\pomorsky І}{\simple І} & {\pomorsky Ї}{\simple Ї} \\
+
+	{\pomorsky К}{\simple К}{\pomorskysalt К}{\pomorskysalta К}	& {\pomorsky Л}{\simple Л} & {\pomorsky М}{\simple М} & {\pomorsky Н}{\simple Н} \\
+
+	{\pomorsky О}{\simple О}	& {\pomorsky Ѻ}{\simple Ѻ} & {\pomorsky П}{\simple П} & {\pomorsky Р}{\simple Р}{\pomorskysalt Р}{\pomorskysalta Р} \\
+
+	{\pomorsky С}{\simple С}	& {\pomorsky Т}{\simple Т} & {\pomorsky ОУ}{\simple ОУ} & {\pomorsky Ꙋ}{\simple Ꙋ} \\
+
+	{\pomorsky Ф}{\simple Ф}	& {\pomorsky Х}{\simple Х} & {\pomorsky Ѡ}{\simple Ѡ} & {\pomorsky Ѽ}{\simple Ѽ} \\
+
+	{\pomorsky Ѿ}{\simple Ѿ}	& {\pomorsky Ц}{\simple Ц} & {\pomorsky Ч}{\simple Ч} & {\pomorsky Ш}{\simple Ш} \\
+
+	{\pomorsky Щ}{\simple Щ}	& {\pomorsky Ъ}{\simple Ъ} & {\pomorsky Ы}{\simple Ы} & {\pomorsky Ь}{\simple Ь} \\
+
+	{\pomorsky Ѣ}{\simple Ѣ}	& {\pomorsky Ю}{\simple Ю} & {\pomorsky Ꙗ}{\simple Ꙗ}{\pomorskysalt Ꙗ} & {\pomorsky Ѧ}{\simple Ѧ} \\
+
+	{\pomorsky Ѯ}{\simple Ѯ}	& {\pomorsky Ѱ}{\simple Ѱ} & {\pomorsky Ѳ}{\simple Ѳ} & {\pomorsky Ѵ}{\simple Ѵ} \\
+\end{tabular}
+}
+\end{table}
 
 \section{Known Issues}
 
