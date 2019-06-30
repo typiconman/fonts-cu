@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1291789194
-ModificationTime: 1561801250
+ModificationTime: 1561889662
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -42,10 +42,12 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' Canonical Composition and Precomposed Glyphs" { "'ccmp' Canonical Composition and Precomposed Glyphs-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Second Round of Precomposed Glyphs" { "'ccmp' Second Round of Precomposed Glyphs-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Church Slavonic Hyphenation" { "'ss01' Church Slavonic Hyphenation-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 5 0 0 "Contextual Titlo Replacement" { "Contextual Titlo Replacement-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 1 0 0 "Tiny Titlo" { "Tiny Titlo-1"  } []
 Lookup: 1 0 0 "Short Titlo" { "Short Titlo-1"  } []
 Lookup: 1 0 0 "Long Titlo" { "Long Titlo-1"  } []
+Lookup: 260 0 0 "'mark' Diacritical Marks" { "'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ContextSub2: class "Contextual Titlo Replacement-1" 5 5 5 3
@@ -84,23 +86,25 @@ ContextSub2: class "Contextual Titlo Replacement-1" 5 5 5 3
   FClassNames: "All_Others" "Titlo" "Skinny" "Slim" "Plumpy"
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2019, Aleksandr Andreev (<https://sci.ponomar.net/>).+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
-Encoding: Custom
+Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 27 27 9
 BeginPrivate: 4
 BlueScale 7 0.03963
 BlueShift 1 7
 BlueFuzz 1 1
 ForceBold 5 false
 EndPrivate
-BeginChars: 235 235
+AnchorClass2: "Yerik" "'mark' Diacritical Marks-1" "Above" "'mark' Diacritical Marks-1"
+BeginChars: 1114116 253
 
 StartChar: .notdef
-Encoding: 224 -1 0
+Encoding: 1114112 -1 0
 Width: 751
 LayerCount: 2
 Fore
@@ -146,10 +150,11 @@ LayerCount: 2
 EndChar
 
 StartChar: percent
-Encoding: 215 57348 3
-Width: 2
+Encoding: 57348 57348 3
+Width: 1
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -213 656 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -181,7 +186,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10103
-Encoding: 143 1110 4
+Encoding: 1110 1110 4
 Width: 278
 Flags: HW
 LayerCount: 2
@@ -202,9 +207,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DF1
-Encoding: 198 11761 5
+Encoding: 11761 11761 5
 Width: 2
 Flags: HW
+AnchorPoint: "Above" -163 511 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -226,7 +232,7 @@ EndSplineSet
 EndChar
 
 StartChar: comma
-Encoding: 39 44 6
+Encoding: 44 44 6
 Width: 352
 Flags: W
 LayerCount: 2
@@ -247,22 +253,23 @@ EndSplineSet
 EndChar
 
 StartChar: hyphen
-Encoding: 40 45 7
+Encoding: 45 45 7
 Width: 352
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-325 229 m 1
- 325 283 l 1
- 25 283 l 1
- 25 229 l 1
- 325 229 l 1
+325 229 m 5
+ 325 283 l 5
+ 25 283 l 5
+ 25 229 l 5
+ 325 229 l 5
 EndSplineSet
+Substitution2: "'ss01' Church Slavonic Hyphenation-1" underscore
 EndChar
 
 StartChar: period
-Encoding: 41 46 8
+Encoding: 46 46 8
 Width: 259
 Flags: W
 LayerCount: 2
@@ -277,7 +284,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketright
-Encoding: 46 93 9
+Encoding: 93 93 9
 Width: 352
 Flags: W
 LayerCount: 2
@@ -298,9 +305,10 @@ EndSplineSet
 EndChar
 
 StartChar: acutecomb
-Encoding: 57 769 10
+Encoding: 769 769 10
 Width: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -213 622 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -322,34 +330,36 @@ EndSplineSet
 EndChar
 
 StartChar: gravecomb
-Encoding: 56 768 11
+Encoding: 768 768 11
 Width: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -177 622 mark 0
 LayerCount: 2
 Fore
 SplineSet
--247 687 m 6
- -228 656 -215 638 -208 632 c 4
- -201 626 -190 623 -174 623 c 4
- -163 623 -158 625 -158 630 c 6
- -160 637 l 5
- -179 673 l 5
- -193 703 l 5
- -202 720 l 5
- -241 795 l 6
- -249 810 -252 811 -285 815 c 6
- -310 817 l 6
- -317 817 -321 816 -321 809 c 4
- -321 806 -311 789 -294 761 c 6
- -247 687 l 6
+-247 687 m 2
+ -228 656 -215 638 -208 632 c 0
+ -201 626 -190 623 -174 623 c 0
+ -163 623 -158 625 -158 630 c 2
+ -160 637 l 1
+ -179 673 l 1
+ -193 703 l 1
+ -202 720 l 1
+ -241 795 l 2
+ -249 810 -252 811 -285 815 c 2
+ -310 817 l 2
+ -317 817 -321 816 -321 809 c 0
+ -321 806 -311 789 -294 761 c 2
+ -247 687 l 2
 EndSplineSet
 EndChar
 
 StartChar: uniE001
-Encoding: 212 57345 12
-Width: 2
+Encoding: 57345 57345 12
+Width: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -203 546 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -380,14 +390,16 @@ SplineSet
  -93 621 -79 656 -57 709 c 0
  -36 763 -25 791 -25 794 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" uni0486 acutecomb
 EndChar
 
 StartChar: uniE003
-Encoding: 214 57347 13
-Width: 2
+Encoding: 57347 57347 13
+Width: 0
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -177 610 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -416,11 +428,12 @@ SplineSet
  -113 748 l 1
  -136 778 l 2
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" uni0486 gravecomb
 EndChar
 
 StartChar: asterisk
-Encoding: 38 42 14
+Encoding: 42 42 14
 Width: 444
 Flags: W
 LayerCount: 2
@@ -471,7 +484,7 @@ EndSplineSet
 EndChar
 
 StartChar: bracketleft
-Encoding: 45 91 15
+Encoding: 91 91 15
 Width: 352
 Flags: W
 LayerCount: 2
@@ -493,7 +506,7 @@ EndSplineSet
 EndChar
 
 StartChar: colon
-Encoding: 43 58 16
+Encoding: 58 58 16
 Width: 296
 Flags: W
 LayerCount: 2
@@ -513,7 +526,7 @@ EndSplineSet
 EndChar
 
 StartChar: semicolon
-Encoding: 44 59 17
+Encoding: 59 59 17
 Width: 352
 Flags: W
 LayerCount: 2
@@ -538,7 +551,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10017
-Encoding: 74 1040 18
+Encoding: 1040 1040 18
 Width: 463
 Flags: W
 LayerCount: 2
@@ -597,7 +610,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10018
-Encoding: 75 1041 19
+Encoding: 1041 1041 19
 Width: 481
 Flags: W
 LayerCount: 2
@@ -637,7 +650,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10040
-Encoding: 96 1062 20
+Encoding: 1062 1062 20
 Width: 556
 Flags: W
 LayerCount: 2
@@ -686,7 +699,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10021
-Encoding: 78 1044 21
+Encoding: 1044 1044 21
 Width: 574
 Flags: W
 LayerCount: 2
@@ -742,7 +755,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10022
-Encoding: 79 1045 22
+Encoding: 1045 1045 22
 Width: 536
 Flags: W
 LayerCount: 2
@@ -801,7 +814,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10038
-Encoding: 94 1060 23
+Encoding: 1060 1060 23
 Width: 657
 Flags: W
 LayerCount: 2
@@ -864,7 +877,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10020
-Encoding: 77 1043 24
+Encoding: 1043 1043 24
 Width: 407
 Flags: W
 LayerCount: 2
@@ -892,7 +905,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10039
-Encoding: 95 1061 25
+Encoding: 1061 1061 25
 Width: 556
 Flags: W
 LayerCount: 2
@@ -942,7 +955,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10026
-Encoding: 82 1048 26
+Encoding: 1048 1048 26
 Width: 556
 Flags: W
 LayerCount: 2
@@ -981,7 +994,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10024
-Encoding: 80 1046 27
+Encoding: 1046 1046 27
 Width: 741
 Flags: W
 LayerCount: 2
@@ -1054,7 +1067,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10028
-Encoding: 84 1050 28
+Encoding: 1050 1050 28
 Width: 556
 Flags: W
 LayerCount: 2
@@ -1103,7 +1116,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10029
-Encoding: 85 1051 29
+Encoding: 1051 1051 29
 Width: 500
 Flags: W
 LayerCount: 2
@@ -1142,7 +1155,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10030
-Encoding: 86 1052 30
+Encoding: 1052 1052 30
 Width: 759
 Flags: W
 LayerCount: 2
@@ -1203,7 +1216,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10031
-Encoding: 87 1053 31
+Encoding: 1053 1053 31
 Width: 556
 Flags: W
 LayerCount: 2
@@ -1242,7 +1255,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10032
-Encoding: 88 1054 32
+Encoding: 1054 1054 32
 Width: 481
 Flags: W
 LayerCount: 2
@@ -1284,7 +1297,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10033
-Encoding: 89 1055 33
+Encoding: 1055 1055 33
 Width: 556
 Flags: W
 LayerCount: 2
@@ -1315,7 +1328,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10044
-Encoding: 100 1066 34
+Encoding: 1066 1066 34
 Width: 515
 Flags: W
 LayerCount: 2
@@ -1347,7 +1360,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10034
-Encoding: 90 1056 35
+Encoding: 1056 1056 35
 Width: 519
 Flags: W
 LayerCount: 2
@@ -1397,7 +1410,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10035
-Encoding: 91 1057 36
+Encoding: 1057 1057 36
 Width: 499
 Flags: W
 LayerCount: 2
@@ -1441,7 +1454,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10036
-Encoding: 92 1058 37
+Encoding: 1058 1058 37
 Width: 611
 Flags: W
 LayerCount: 2
@@ -1484,7 +1497,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA64A
-Encoding: 200 42570 38
+Encoding: 42570 42570 38
 Width: 528
 Flags: W
 LayerCount: 2
@@ -1534,7 +1547,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10019
-Encoding: 76 1042 39
+Encoding: 1042 1042 39
 Width: 519
 Flags: W
 LayerCount: 2
@@ -1578,7 +1591,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10042
-Encoding: 98 1064 40
+Encoding: 1064 1064 40
 Width: 796
 Flags: W
 LayerCount: 2
@@ -1617,7 +1630,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10045
-Encoding: 101 1067 41
+Encoding: 1067 1067 41
 Width: 741
 Flags: W
 LayerCount: 2
@@ -1665,7 +1678,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10025
-Encoding: 81 1047 42
+Encoding: 1047 1047 42
 Width: 601
 Flags: W
 LayerCount: 2
@@ -1717,7 +1730,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10094
-Encoding: 134 1100 43
+Encoding: 1100 1100 43
 Width: 463
 Flags: W
 LayerCount: 2
@@ -1754,9 +1767,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni0486
-Encoding: 175 1158 44
+Encoding: 1158 1158 44
 Width: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -203 570 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1776,7 +1790,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10065
-Encoding: 106 1072 45
+Encoding: 1072 1072 45
 Width: 370
 Flags: W
 LayerCount: 2
@@ -1815,7 +1829,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10066
-Encoding: 107 1073 46
+Encoding: 1073 1073 46
 Width: 481
 Flags: W
 LayerCount: 2
@@ -1849,7 +1863,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10088
-Encoding: 128 1094 47
+Encoding: 1094 1094 47
 Width: 556
 Flags: W
 LayerCount: 2
@@ -1891,7 +1905,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10069
-Encoding: 110 1076 48
+Encoding: 1076 1076 48
 Width: 500
 Flags: W
 LayerCount: 2
@@ -1937,7 +1951,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10070
-Encoding: 111 1077 49
+Encoding: 1077 1077 49
 Width: 315
 Flags: W
 LayerCount: 2
@@ -1968,7 +1982,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10086
-Encoding: 126 1092 50
+Encoding: 1092 1092 50
 Width: 704
 Flags: W
 LayerCount: 2
@@ -2036,7 +2050,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10068
-Encoding: 109 1075 51
+Encoding: 1075 1075 51
 Width: 389
 Flags: W
 LayerCount: 2
@@ -2064,7 +2078,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10087
-Encoding: 127 1093 52
+Encoding: 1093 1093 52
 Width: 426
 Flags: W
 LayerCount: 2
@@ -2108,7 +2122,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10074
-Encoding: 114 1080 53
+Encoding: 1080 1080 53
 Width: 500
 Flags: W
 LayerCount: 2
@@ -2141,7 +2155,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10072
-Encoding: 112 1078 54
+Encoding: 1078 1078 54
 Width: 741
 Flags: W
 LayerCount: 2
@@ -2196,7 +2210,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10076
-Encoding: 116 1082 55
+Encoding: 1082 1082 55
 Width: 537
 Flags: W
 LayerCount: 2
@@ -2239,7 +2253,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10077
-Encoding: 117 1083 56
+Encoding: 1083 1083 56
 Width: 444
 Flags: W
 LayerCount: 2
@@ -2274,7 +2288,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10078
-Encoding: 118 1084 57
+Encoding: 1084 1084 57
 Width: 722
 Flags: W
 LayerCount: 2
@@ -2315,7 +2329,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10079
-Encoding: 119 1085 58
+Encoding: 1085 1085 58
 Width: 500
 Flags: W
 LayerCount: 2
@@ -2347,7 +2361,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10080
-Encoding: 120 1086 59
+Encoding: 1086 1086 59
 Width: 482
 Flags: W
 LayerCount: 2
@@ -2375,7 +2389,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10081
-Encoding: 121 1087 60
+Encoding: 1087 1087 60
 Width: 519
 Flags: W
 LayerCount: 2
@@ -2404,7 +2418,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10092
-Encoding: 132 1098 61
+Encoding: 1098 1098 61
 Width: 463
 Flags: W
 LayerCount: 2
@@ -2435,7 +2449,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10082
-Encoding: 122 1088 62
+Encoding: 1088 1088 62
 Width: 352
 Flags: W
 LayerCount: 2
@@ -2471,7 +2485,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10083
-Encoding: 123 1089 63
+Encoding: 1089 1089 63
 Width: 333
 Flags: W
 LayerCount: 2
@@ -2500,7 +2514,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10084
-Encoding: 124 1090 64
+Encoding: 1090 1090 64
 Width: 630
 Flags: W
 LayerCount: 2
@@ -2537,7 +2551,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA64B
-Encoding: 201 42571 65
+Encoding: 42571 42571 65
 Width: 507
 Flags: W
 LayerCount: 2
@@ -2579,7 +2593,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10067
-Encoding: 108 1074 66
+Encoding: 1074 1074 66
 Width: 500
 Flags: W
 LayerCount: 2
@@ -2628,7 +2642,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10090
-Encoding: 130 1096 67
+Encoding: 1096 1096 67
 Width: 833
 Flags: W
 LayerCount: 2
@@ -2665,7 +2679,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10093
-Encoding: 133 1099 68
+Encoding: 1099 1099 68
 Width: 667
 Flags: W
 LayerCount: 2
@@ -2709,7 +2723,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10073
-Encoding: 113 1079 69
+Encoding: 1079 1079 69
 Width: 618
 Flags: W
 LayerCount: 2
@@ -2761,7 +2775,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10046
-Encoding: 102 1068 70
+Encoding: 1068 1068 70
 Width: 500
 Flags: W
 LayerCount: 2
@@ -2795,10 +2809,11 @@ EndSplineSet
 EndChar
 
 StartChar: uniE000
-Encoding: 211 57344 71
+Encoding: 57344 57344 71
 Width: 2
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -194 688 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2818,7 +2833,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA656
-Encoding: 204 42582 72
+Encoding: 42582 42582 72
 Width: 778
 Flags: W
 LayerCount: 2
@@ -2891,7 +2906,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10041
-Encoding: 97 1063 73
+Encoding: 1063 1063 73
 Width: 537
 Flags: W
 LayerCount: 2
@@ -2931,7 +2946,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA657
-Encoding: 205 42583 74
+Encoding: 42583 42583 74
 Width: 667
 Flags: W
 LayerCount: 2
@@ -2978,7 +2993,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10089
-Encoding: 129 1095 75
+Encoding: 1095 1095 75
 Width: 444
 Flags: W
 LayerCount: 2
@@ -3005,7 +3020,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE8E3
-Encoding: 218 59619 76
+Encoding: 59619 59619 76
 Width: 507
 Flags: W
 LayerCount: 2
@@ -3068,9 +3083,10 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" uniA64B grave
 EndChar
 
 StartChar: uniA67C
-Encoding: 207 42620 77
+Encoding: 42620 42620 77
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -167 590 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3086,9 +3102,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DEC
-Encoding: 194 11756 78
+Encoding: 11756 11756 78
 Width: 2
 Flags: HW
+AnchorPoint: "Above" -243 503 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3109,9 +3126,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DE2
-Encoding: 188 11746 79
+Encoding: 11746 11746 79
 Width: 2
 Flags: HW
+AnchorPoint: "Above" -217 506 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3134,7 +3152,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10075
-Encoding: 115 1081 80
+Encoding: 1081 1081 80
 Width: 500
 Flags: W
 LayerCount: 2
@@ -3180,9 +3198,10 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10074 uni
 EndChar
 
 StartChar: uni2DE3
-Encoding: 189 11747 81
+Encoding: 11747 11747 81
 Width: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -267 516 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3219,7 +3238,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10091
-Encoding: 131 1097 82
+Encoding: 1097 1097 82
 Width: 778
 Flags: W
 LayerCount: 2
@@ -3272,7 +3291,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10102
-Encoding: 142 1109 83
+Encoding: 1109 1109 83
 Width: 574
 Flags: W
 LayerCount: 2
@@ -3318,7 +3337,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10048
-Encoding: 104 1070 84
+Encoding: 1070 1070 84
 Width: 761
 Flags: W
 LayerCount: 2
@@ -3373,9 +3392,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DE4
-Encoding: 190 11748 85
+Encoding: 11748 11748 85
 Width: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -212 622 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3415,16 +3435,17 @@ EndSplineSet
 EndChar
 
 StartChar: nbspace
-Encoding: 49 160 86
+Encoding: 160 160 86
 Width: 400
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni033E
-Encoding: 63 830 87
+Encoding: 830 830 87
 Width: 2
 Flags: W
+AnchorPoint: "Yerik" 31 597 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3451,7 +3472,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2E2F
-Encoding: 199 11823 88
+Encoding: 11823 11823 88
 Width: 180
 Flags: HW
 LayerCount: 2
@@ -3480,7 +3501,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE8E5
-Encoding: 219 59621 89
+Encoding: 59621 59621 89
 Width: 507
 Flags: W
 LayerCount: 2
@@ -3531,9 +3552,10 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" uniA64B uni03
 EndChar
 
 StartChar: uni2DEA
-Encoding: 193 11754 90
+Encoding: 11754 11754 90
 Width: 2
 Flags: HW
+AnchorPoint: "Above" -151 512 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3551,7 +3573,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10096
-Encoding: 136 1102 91
+Encoding: 1102 1102 91
 Width: 556
 Flags: W
 LayerCount: 2
@@ -3587,9 +3609,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni0311
-Encoding: 62 785 92
+Encoding: 785 785 92
 Width: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -236 618 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3630,7 +3653,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniE901
-Encoding: 220 59649 94
+Encoding: 59649 59649 94
 Width: 630
 Flags: W
 LayerCount: 2
@@ -3713,7 +3736,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10194 acu
 EndChar
 
 StartChar: uniE903
-Encoding: 221 59651 95
+Encoding: 59651 59651 95
 Width: 630
 Flags: W
 LayerCount: 2
@@ -3796,7 +3819,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10194 gra
 EndChar
 
 StartChar: uniE904
-Encoding: 222 59652 96
+Encoding: 59652 59652 96
 Width: 630
 Flags: W
 LayerCount: 2
@@ -3871,7 +3894,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10194 uni
 EndChar
 
 StartChar: afii10043
-Encoding: 99 1065 97
+Encoding: 1065 1065 97
 Width: 796
 Flags: W
 LayerCount: 2
@@ -3916,7 +3939,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10101
-Encoding: 141 1108 98
+Encoding: 1108 1108 98
 Width: 556
 Flags: W
 LayerCount: 2
@@ -3962,7 +3985,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10027
-Encoding: 83 1049 99
+Encoding: 1049 1049 99
 Width: 556
 Flags: W
 LayerCount: 2
@@ -4017,7 +4040,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10026 uni
 EndChar
 
 StartChar: uniE8E1
-Encoding: 217 59617 100
+Encoding: 59617 59617 100
 Width: 507
 Flags: W
 LayerCount: 2
@@ -4081,7 +4104,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" uniA64B acute
 EndChar
 
 StartChar: uniE926
-Encoding: 223 59686 101
+Encoding: 59686 59686 101
 Width: 278
 GlyphClass: 3
 Flags: HW
@@ -4135,7 +4158,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10103 uni
 EndChar
 
 StartChar: afii10054
-Encoding: 68 1029 102
+Encoding: 1029 1029 102
 Width: 593
 Flags: W
 LayerCount: 2
@@ -4195,9 +4218,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DE9
-Encoding: 192 11753 103
+Encoding: 11753 11753 103
 Width: 2
 Flags: HW
+AnchorPoint: "Above" -273 508 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4227,10 +4251,11 @@ EndSplineSet
 EndChar
 
 StartChar: uni0483
-Encoding: 173 1155 104
+Encoding: 1155 1155 104
 Width: 2
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -249 706 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4256,9 +4281,10 @@ Substitution2: "Tiny Titlo-1" uni0483.tiny
 EndChar
 
 StartChar: uni0483.short
-Encoding: 225 -1 105
+Encoding: 1114113 -1 105
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -235 584 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4281,9 +4307,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DEF
-Encoding: 197 11759 106
+Encoding: 11759 11759 106
 Width: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -227 622 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4320,9 +4347,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni0483.tiny
-Encoding: 226 -1 107
+Encoding: 1114114 -1 107
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -177 589 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4345,9 +4373,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DE5
-Encoding: 191 11749 108
+Encoding: 11749 11749 108
 Width: 2
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -237 560 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4380,9 +4409,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DE1
-Encoding: 187 11745 109
+Encoding: 11745 11745 109
 Width: 2
 Flags: HW
+AnchorPoint: "Above" -113 504 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4407,9 +4437,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni0483.long
-Encoding: 227 -1 110
+Encoding: 1114115 -1 110
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -279 588 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4432,9 +4463,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DED
-Encoding: 195 11757 111
+Encoding: 11757 11757 111
 Width: 2
 Flags: HW
+AnchorPoint: "Above" -297 671 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4456,10 +4488,11 @@ EndSplineSet
 EndChar
 
 StartChar: uniE002
-Encoding: 213 57346 112
-Width: 2
+Encoding: 57346 57346 112
+Width: 1
 GlyphClass: 4
-Flags: W
+Flags: HW
+AnchorPoint: "Above" -243 686 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4494,7 +4527,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10055
-Encoding: 69 1030 113
+Encoding: 1030 1030 113
 Width: 296
 Flags: HW
 LayerCount: 2
@@ -4530,7 +4563,7 @@ EndSplineSet
 EndChar
 
 StartChar: parenleft
-Encoding: 36 40 114
+Encoding: 40 40 114
 Width: 251
 Flags: W
 LayerCount: 2
@@ -4547,7 +4580,7 @@ EndSplineSet
 EndChar
 
 StartChar: parenright
-Encoding: 37 41 115
+Encoding: 41 41 115
 Width: 251
 Flags: W
 LayerCount: 2
@@ -4564,7 +4597,7 @@ EndSplineSet
 EndChar
 
 StartChar: guillemotleft
-Encoding: 50 171 116
+Encoding: 171 171 116
 Width: 480
 Flags: W
 LayerCount: 2
@@ -4588,7 +4621,7 @@ EndSplineSet
 EndChar
 
 StartChar: guillemotright
-Encoding: 55 187 117
+Encoding: 187 187 117
 Width: 480
 Flags: W
 LayerCount: 2
@@ -4612,7 +4645,7 @@ EndSplineSet
 EndChar
 
 StartChar: logicalnot
-Encoding: 51 172 118
+Encoding: 172 172 118
 Width: 541
 Flags: W
 LayerCount: 2
@@ -4629,14 +4662,14 @@ EndSplineSet
 EndChar
 
 StartChar: sfthyphen
-Encoding: 52 173 119
+Encoding: 173 173 119
 Width: 0
 Flags: HW
 LayerCount: 2
 EndChar
 
 StartChar: endash
-Encoding: 178 8211 120
+Encoding: 8211 8211 120
 Width: 410
 Flags: W
 LayerCount: 2
@@ -4651,7 +4684,7 @@ EndSplineSet
 EndChar
 
 StartChar: emdash
-Encoding: 179 8212 121
+Encoding: 8212 8212 121
 Width: 543
 Flags: W
 LayerCount: 2
@@ -4666,7 +4699,7 @@ EndSplineSet
 EndChar
 
 StartChar: paragraph
-Encoding: 53 182 122
+Encoding: 182 182 122
 Width: 441
 Flags: W
 LayerCount: 2
@@ -4691,7 +4724,7 @@ EndSplineSet
 EndChar
 
 StartChar: periodcentered
-Encoding: 54 183 123
+Encoding: 183 183 123
 Width: 159
 Flags: W
 LayerCount: 2
@@ -4706,7 +4739,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblbase
-Encoding: 185 8222 124
+Encoding: 8222 8222 124
 Width: 480
 Flags: W
 LayerCount: 2
@@ -4736,7 +4769,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblright
-Encoding: 184 8221 125
+Encoding: 8221 8221 125
 Width: 480
 Flags: W
 LayerCount: 2
@@ -4766,7 +4799,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotedblleft
-Encoding: 183 8220 126
+Encoding: 8220 8220 126
 Width: 469
 Flags: W
 LayerCount: 2
@@ -4796,7 +4829,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesinglbase
-Encoding: 182 8218 127
+Encoding: 8218 8218 127
 Width: 270
 Flags: W
 LayerCount: 2
@@ -4816,7 +4849,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteleft
-Encoding: 180 8216 128
+Encoding: 8216 8216 128
 Width: 259
 Flags: W
 LayerCount: 2
@@ -4836,7 +4869,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteright
-Encoding: 181 8217 129
+Encoding: 8217 8217 129
 Width: 270
 Flags: W
 LayerCount: 2
@@ -4886,7 +4919,7 @@ EndSplineSet
 EndChar
 
 StartChar: quotesingle
-Encoding: 35 39 131
+Encoding: 39 39 131
 Width: 270
 Flags: W
 LayerCount: 2
@@ -4906,7 +4939,7 @@ EndSplineSet
 EndChar
 
 StartChar: grave
-Encoding: 48 96 132
+Encoding: 96 96 132
 Width: 270
 Flags: W
 LayerCount: 2
@@ -4926,7 +4959,7 @@ EndSplineSet
 EndChar
 
 StartChar: slash
-Encoding: 42 47 133
+Encoding: 47 47 133
 Width: 323
 Flags: W
 LayerCount: 2
@@ -4941,7 +4974,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni2027
-Encoding: 186 8231 134
+Encoding: 8231 8231 134
 Width: 159
 Flags: W
 LayerCount: 2
@@ -4956,7 +4989,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10194
-Encoding: 151 1123 135
+Encoding: 1123 1123 135
 Width: 630
 Flags: HW
 LayerCount: 2
@@ -5025,7 +5058,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10146
-Encoding: 150 1122 136
+Encoding: 1122 1122 136
 Width: 726
 Flags: HW
 LayerCount: 2
@@ -5083,7 +5116,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0466
-Encoding: 152 1126 137
+Encoding: 1126 1126 137
 Width: 744
 Flags: HW
 LayerCount: 2
@@ -5141,7 +5174,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0467
-Encoding: 153 1127 138
+Encoding: 1127 1127 138
 Width: 611
 Flags: HW
 LayerCount: 2
@@ -5178,7 +5211,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10147
-Encoding: 158 1138 139
+Encoding: 1138 1138 139
 Width: 704
 Flags: HW
 LayerCount: 2
@@ -5238,7 +5271,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10195
-Encoding: 159 1139 140
+Encoding: 1139 1139 140
 Width: 796
 Flags: HW
 LayerCount: 2
@@ -5291,7 +5324,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10148
-Encoding: 160 1140 141
+Encoding: 1140 1140 141
 Width: 555
 Flags: HW
 LayerCount: 2
@@ -5329,7 +5362,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10196
-Encoding: 161 1141 142
+Encoding: 1141 1141 142
 Width: 519
 Flags: HW
 LayerCount: 2
@@ -5362,7 +5395,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0476
-Encoding: 162 1142 143
+Encoding: 1142 1142 143
 Width: 555
 Flags: HW
 LayerCount: 2
@@ -5432,7 +5465,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10148 uni
 EndChar
 
 StartChar: uni0477
-Encoding: 163 1143 144
+Encoding: 1143 1143 144
 Width: 519
 Flags: HW
 LayerCount: 2
@@ -5497,7 +5530,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10196 uni
 EndChar
 
 StartChar: uni047A
-Encoding: 166 1146 145
+Encoding: 1146 1146 145
 Width: 823
 Flags: HW
 LayerCount: 2
@@ -5539,7 +5572,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni047B
-Encoding: 167 1147 146
+Encoding: 1147 1147 146
 Width: 741
 Flags: HW
 LayerCount: 2
@@ -5575,7 +5608,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0470
-Encoding: 156 1136 147
+Encoding: 1136 1136 147
 Width: 722
 Flags: HW
 LayerCount: 2
@@ -5626,7 +5659,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0471
-Encoding: 157 1137 148
+Encoding: 1137 1137 148
 Width: 667
 Flags: HW
 LayerCount: 2
@@ -5680,7 +5713,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni047C
-Encoding: 168 1148 149
+Encoding: 1148 1148 149
 Width: 1041
 Flags: HW
 LayerCount: 2
@@ -5767,7 +5800,7 @@ Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uniA64C uniE005
 EndChar
 
 StartChar: uni047D
-Encoding: 169 1149 150
+Encoding: 1149 1149 150
 Width: 1000
 Flags: HW
 LayerCount: 2
@@ -5855,7 +5888,7 @@ Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uniA64D uniE005
 EndChar
 
 StartChar: uni047E
-Encoding: 170 1150 151
+Encoding: 1150 1150 151
 Width: 858
 Flags: HW
 LayerCount: 2
@@ -5927,7 +5960,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni047F
-Encoding: 171 1151 152
+Encoding: 1151 1151 152
 Width: 778
 Flags: HW
 LayerCount: 2
@@ -5985,7 +6018,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0478
-Encoding: 164 1144 153
+Encoding: 1144 1144 153
 Width: 994
 Flags: HW
 LayerCount: 2
@@ -6054,7 +6087,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0479
-Encoding: 165 1145 154
+Encoding: 1145 1145 154
 Width: 759
 Flags: HW
 LayerCount: 2
@@ -6109,7 +6142,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" uni1C82 afii1
 EndChar
 
 StartChar: uni0460
-Encoding: 148 1120 155
+Encoding: 1120 1120 155
 Width: 858
 Flags: HW
 LayerCount: 2
@@ -6164,7 +6197,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0461
-Encoding: 149 1121 156
+Encoding: 1121 1121 156
 Width: 778
 Flags: HW
 LayerCount: 2
@@ -6203,7 +6236,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni046E
-Encoding: 154 1134 157
+Encoding: 1134 1134 157
 Width: 574
 Flags: HW
 LayerCount: 2
@@ -6279,7 +6312,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni046F
-Encoding: 155 1135 158
+Encoding: 1135 1135 158
 Width: 481
 Flags: HW
 LayerCount: 2
@@ -6346,7 +6379,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10053
-Encoding: 67 1028 159
+Encoding: 1028 1028 159
 Width: 536
 Flags: HW
 LayerCount: 2
@@ -6405,7 +6438,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0482
-Encoding: 172 1154 160
+Encoding: 1154 1154 160
 Width: 426
 Flags: HW
 LayerCount: 2
@@ -6436,7 +6469,7 @@ EndSplineSet
 EndChar
 
 StartChar: underscore
-Encoding: 47 95 161
+Encoding: 95 95 161
 Width: 352
 Flags: HW
 LayerCount: 2
@@ -6451,7 +6484,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10085
-Encoding: 125 1091 162
+Encoding: 1091 1091 162
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -6488,7 +6521,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10037
-Encoding: 93 1059 163
+Encoding: 1059 1059 163
 Width: 528
 Flags: HW
 LayerCount: 2
@@ -6526,7 +6559,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10056
-Encoding: 70 1031 164
+Encoding: 1031 1031 164
 Width: 296
 Flags: HW
 LayerCount: 2
@@ -6573,7 +6606,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10055 uni
 EndChar
 
 StartChar: afii10104
-Encoding: 144 1111 165
+Encoding: 1111 1111 165
 Width: 278
 Flags: HW
 LayerCount: 2
@@ -6605,7 +6638,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10103 uni
 EndChar
 
 StartChar: uni0450
-Encoding: 138 1104 166
+Encoding: 1104 1104 166
 Width: 315
 Flags: HW
 LayerCount: 2
@@ -6651,7 +6684,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10070 gra
 EndChar
 
 StartChar: uni0400
-Encoding: 64 1024 167
+Encoding: 1024 1024 167
 Width: 536
 Flags: HW
 LayerCount: 2
@@ -6804,7 +6837,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10022 gra
 EndChar
 
 StartChar: afii10023
-Encoding: 65 1025 168
+Encoding: 1025 1025 168
 Width: 536
 Flags: HW
 LayerCount: 2
@@ -6874,7 +6907,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10022 uni
 EndChar
 
 StartChar: afii10052
-Encoding: 66 1027 169
+Encoding: 1027 1027 169
 Width: 407
 Flags: HW
 LayerCount: 2
@@ -6917,7 +6950,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10020 acu
 EndChar
 
 StartChar: afii10061
-Encoding: 71 1036 170
+Encoding: 1036 1036 170
 Width: 556
 Flags: HW
 LayerCount: 2
@@ -6981,7 +7014,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10028 acu
 EndChar
 
 StartChar: uni040D
-Encoding: 72 1037 171
+Encoding: 1037 1037 171
 Width: 556
 Flags: HW
 LayerCount: 2
@@ -7035,7 +7068,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10026 gra
 EndChar
 
 StartChar: afii10062
-Encoding: 73 1038 172
+Encoding: 1038 1038 172
 Width: 528
 Flags: HW
 LayerCount: 2
@@ -7089,7 +7122,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10037 uni
 EndChar
 
 StartChar: afii10047
-Encoding: 103 1069 173
+Encoding: 1069 1069 173
 Width: 536
 Flags: HW
 LayerCount: 2
@@ -7148,7 +7181,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10049
-Encoding: 105 1071 174
+Encoding: 1071 1071 174
 Width: 751
 Flags: HW
 LayerCount: 2
@@ -7168,7 +7201,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10097
-Encoding: 137 1103 175
+Encoding: 1103 1103 175
 Width: 751
 Flags: HW
 LayerCount: 2
@@ -7188,7 +7221,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10095
-Encoding: 135 1101 176
+Encoding: 1101 1101 176
 Width: 556
 Flags: HW
 LayerCount: 2
@@ -7234,7 +7267,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10071
-Encoding: 139 1105 177
+Encoding: 1105 1105 177
 Width: 315
 Flags: HW
 LayerCount: 2
@@ -7276,7 +7309,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10070 uni
 EndChar
 
 StartChar: afii10100
-Encoding: 140 1107 178
+Encoding: 1107 1107 178
 Width: 389
 Flags: HW
 LayerCount: 2
@@ -7357,7 +7390,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10068 acu
 EndChar
 
 StartChar: afii10109
-Encoding: 145 1116 179
+Encoding: 1116 1116 179
 Width: 537
 Flags: HW
 LayerCount: 2
@@ -7415,7 +7448,7 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10076 acu
 EndChar
 
 StartChar: uni045D
-Encoding: 146 1117 180
+Encoding: 1117 1117 180
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -7462,7 +7495,7 @@ EndSplineSet
 EndChar
 
 StartChar: afii10110
-Encoding: 147 1118 181
+Encoding: 1118 1118 181
 Width: 500
 Flags: HW
 LayerCount: 2
@@ -7514,9 +7547,10 @@ Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" afii10085 uni
 EndChar
 
 StartChar: uni0485
-Encoding: 174 1157 182
+Encoding: 1157 1157 182
 Width: 2
 Flags: HW
+AnchorPoint: "Above" -199 566 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7536,9 +7570,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni0487
-Encoding: 176 1159 183
+Encoding: 1159 1159 183
 Width: 1
 Flags: HW
+AnchorPoint: "Above" -287 590 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7569,7 +7604,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA64C
-Encoding: 202 42572 184
+Encoding: 42572 42572 184
 Width: 1041
 Flags: HW
 LayerCount: 2
@@ -7622,7 +7657,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA64D
-Encoding: 203 42573 185
+Encoding: 42573 42573 185
 Width: 1000
 Flags: HW
 LayerCount: 2
@@ -7674,7 +7709,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA673
-Encoding: 206 42611 186
+Encoding: 42611 42611 186
 Width: 387
 Flags: HW
 DStem2: 233 620 223 600 0.900159 0.435561<0 58.3361> 68 539 21 539 0.942627 -0.333847<0 57.5395> 105 631 71 665 0.431455 -0.902134<0 56.6383> 73 412 105 445 0.427668 0.903936<43.5153 102.883> 71 665 105 631 0.900159 -0.435561<45.4145 103.315> 105 445 73 412 0.896389 0.443269<0 58.2062> 164 620 173 599 0.333847 0.942627<0 57.5395> 173 478 164 457 0.333847 -0.942627<16.7905 74.3301> 198 716 198 669 0.342529 -0.939507<44.1568 102.181> 280 573 258 564 0.942627 -0.333847<0 57.5395> 258 564 280 573 0.447214 0.894427<17.8885 76.0263> 223 478 233 457 0.900159 -0.435561<18.1484 76.4845> 280 505 258 513 0.443354 -0.896347<0 59.101> 258 513 280 505 0.942627 0.333847<18.067 75.6066>
@@ -7719,7 +7754,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA67D
-Encoding: 208 42621 187
+Encoding: 42621 42621 187
 Width: 0
 Flags: W
 HStem: 600 226
@@ -7756,7 +7791,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA67F
-Encoding: 210 42623 188
+Encoding: 42623 42623 188
 Width: 250
 Flags: HW
 HStem: 600 226
@@ -7793,7 +7828,7 @@ EndSplineSet
 EndChar
 
 StartChar: uniA67E
-Encoding: 209 42622 189
+Encoding: 42622 42622 189
 Width: 370
 Flags: HW
 LayerCount: 2
@@ -8368,7 +8403,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni1C82
-Encoding: 177 7298 221
+Encoding: 7298 7298 221
 Width: 759
 Flags: HW
 LayerCount: 2
@@ -8392,9 +8427,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DEE
-Encoding: 196 11758 222
+Encoding: 11758 11758 222
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -213 687 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8420,10 +8456,11 @@ EndSplineSet
 EndChar
 
 StartChar: uniE005
-Encoding: 216 57349 223
+Encoding: 57349 57349 223
 Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -227 488 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8463,13 +8500,15 @@ SplineSet
  -148 564 -138 593 -138 621 c 0
  -138 669 -174 699 -223 699 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Composition and Precomposed Glyphs-1" uni0486 uni0311
 EndChar
 
 StartChar: uni0306
-Encoding: 58 774 224
+Encoding: 774 774 224
 Width: 0
 Flags: HW
+AnchorPoint: "Above" -219 692 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8492,9 +8531,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni0307
-Encoding: 59 775 225
+Encoding: 775 775 225
 Width: 1
 Flags: HW
+AnchorPoint: "Above" -175 712 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8507,9 +8547,10 @@ EndSplineSet
 EndChar
 
 StartChar: uni0308
-Encoding: 60 776 226
+Encoding: 776 776 226
 Width: 1
 Flags: HW
+AnchorPoint: "Above" -251 712 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8518,18 +8559,19 @@ SplineSet
  -391 831 l 1
  -372 714 l 1
  -277 714 l 1
--126 714 m 5
- -145 831 l 5
- -240 831 l 5
- -221 714 l 5
- -126 714 l 5
+-126 714 m 1
+ -145 831 l 1
+ -240 831 l 1
+ -221 714 l 1
+ -126 714 l 1
 EndSplineSet
 EndChar
 
 StartChar: uni030F
-Encoding: 61 783 227
+Encoding: 783 783 227
 Width: 1
 Flags: HW
+AnchorPoint: "Above" -167 672 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8568,10 +8610,11 @@ EndSplineSet
 EndChar
 
 StartChar: uni2DE10487
-Encoding: 228 62689 228
-Width: 2
+Encoding: 62689 62689 228
+Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -118 506 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8613,14 +8656,16 @@ SplineSet
  -87 574 -86 553 -83 530 c 1
  -148 530 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uni2DE1 uni0487
 EndChar
 
 StartChar: uni2DE20487
-Encoding: 229 62690 229
-Width: 2
+Encoding: 62690 62690 229
+Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -219 508 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8660,14 +8705,16 @@ SplineSet
  -175 801 -191 811 -199 814 c 0
  -207 817 -217 819 -230 821 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uni2DE2 uni0487
 EndChar
 
 StartChar: uni2DE90487
-Encoding: 230 62697 230
-Width: 2
+Encoding: 62697 62697 230
+Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -271 506 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8714,14 +8761,16 @@ SplineSet
  -237 509 l 1
  -186 509 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uni2DE9 uni0487
 EndChar
 
 StartChar: uni2DEA0487
-Encoding: 231 62698 231
-Width: 2
+Encoding: 62698 62698 231
+Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -152 513 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8753,14 +8802,16 @@ SplineSet
  -288 720 -283 716 -274 716 c 2
  -234 717 l 2
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uni2DEA uni0487
 EndChar
 
 StartChar: uni2DEC0487
-Encoding: 232 62700 232
-Width: 2
+Encoding: 62700 62700 232
+Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -255 503 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8798,14 +8849,16 @@ SplineSet
  -194 801 -210 811 -218 814 c 0
  -226 817 -236 819 -249 821 c 0
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uni2DEC uni0487
 EndChar
 
 StartChar: uni2DED0487
-Encoding: 233 62701 233
-Width: 2
+Encoding: 62701 62701 233
+Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -269 670 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8844,14 +8897,16 @@ SplineSet
  -436 812 -431 809 -422 809 c 2
  -382 810 l 2
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uni2DED uni0487
 EndChar
 
 StartChar: uni2DF10487
-Encoding: 234 62705 234
-Width: 2
+Encoding: 62705 62705 234
+Width: 0
 GlyphClass: 4
 Flags: HW
+AnchorPoint: "Above" -167 514 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8886,7 +8941,167 @@ SplineSet
  -147 513 l 1
  -100 513 l 1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "'ccmp' Second Round of Precomposed Glyphs-1" uni2DF1 uni0487
+EndChar
+
+StartChar: uni2010
+Encoding: 8208 8208 235
+Width: 352
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+325 229 m 5
+ 325 283 l 5
+ 25 283 l 5
+ 25 229 l 5
+ 325 229 l 5
+EndSplineSet
+Substitution2: "'ss01' Church Slavonic Hyphenation-1" underscore
+EndChar
+
+StartChar: uni2011
+Encoding: 8209 8209 236
+Width: 352
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+325 229 m 5
+ 325 283 l 5
+ 25 283 l 5
+ 25 229 l 5
+ 325 229 l 5
+EndSplineSet
+EndChar
+
+StartChar: afii300
+Encoding: 8207 8207 237
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: afii299
+Encoding: 8206 8206 238
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: afii301
+Encoding: 8205 8205 239
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: afii61664
+Encoding: 8204 8204 240
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200B
+Encoding: 8203 8203 241
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni200A
+Encoding: 8202 8202 242
+Width: 26
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2009
+Encoding: 8201 8201 243
+Width: 68
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2008
+Encoding: 8200 8200 244
+Width: 300
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2007
+Encoding: 8199 8199 245
+Width: 500
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2006
+Encoding: 8198 8198 246
+Width: 120
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2005
+Encoding: 8197 8197 247
+Width: 230
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2004
+Encoding: 8196 8196 248
+Width: 320
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 249
+Width: 722
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 250
+Width: 500
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2001
+Encoding: 8193 8193 251
+Width: 700
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: uni2000
+Encoding: 8192 8192 252
+Width: 500
+VWidth: 0
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
