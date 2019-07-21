@@ -69,6 +69,17 @@
 }
 
 @font-face {
+    font-family: 'Pochaevsk Unicode';
+    src: url('../fonts/PochaevskUnicode.eot');
+    src: url('../fonts/PochaevskUnicode.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/PochaevskUnicode.woff2') format('woff2'),
+	url('../fonts/PochaevskUnicode.woff') format('woff'),
+	url('../fonts/PochaevskUnicode.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Pomorsky Unicode';
     src: url('../fonts/PomorskyUnicode.eot');
     src: url('../fonts/PomorskyUnicode.eot?#iefix') format('embedded-opentype'),
