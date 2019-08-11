@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1411791849
-ModificationTime: 1565451203
+ModificationTime: 1565554163
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 837 27 9
+WinInfo: 270 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -21912,6 +21912,7 @@ SplineSet
  233.667 805.5 242.334 814.333 249 817 c 1
  409 710 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A gravecomb
 EndChar
 
 StartChar: Aacute
@@ -21958,6 +21959,7 @@ SplineSet
  470 813.667 478.5 805.667 489.5 791 c 0
  500.5 776.333 506.667 764.667 508 756 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A acutecomb
 EndChar
 
 StartChar: Acircumflex
@@ -22005,6 +22007,7 @@ SplineSet
  370 819 l 1
  394.667 793 437 756.333 497 709 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A uni0302
 EndChar
 
 StartChar: Atilde
@@ -22055,6 +22058,7 @@ SplineSet
  222 706 l 1
  244 762 271.667 790 305 790 c 0xe8
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A tildecomb
 EndChar
 
 StartChar: Adieresis
@@ -22113,6 +22117,7 @@ SplineSet
  206 761.667 211 774.167 221 784.5 c 0
  231 794.833 243.333 800 258 800 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A uni0308
 EndChar
 
 StartChar: Aring
@@ -22171,6 +22176,7 @@ SplineSet
  399 787.333 395 799.833 387 809.5 c 0
  379 819.167 368.333 824 355 824 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A uni030A
 EndChar
 
 StartChar: AE
@@ -22284,6 +22290,7 @@ SplineSet
  456.667 24 496.333 36.3333 527 61 c 0
  557.667 85.6667 586.667 125 614 179 c 1xf1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" C uni0327
 EndChar
 
 StartChar: Egrave
@@ -22340,6 +22347,7 @@ SplineSet
  174.667 805.5 183.334 814.333 190 817 c 1
  350 710 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E gravecomb
 EndChar
 
 StartChar: Eacute
@@ -22396,6 +22404,7 @@ SplineSet
  397 813.667 405.5 805.667 416.5 791 c 0
  427.5 776.333 433.667 764.667 435 756 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E acutecomb
 EndChar
 
 StartChar: Ecircumflex
@@ -22453,6 +22462,7 @@ SplineSet
  300 819 l 1
  328.667 789 371 752.333 427 709 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E uni0302
 EndChar
 
 StartChar: Edieresis
@@ -22520,6 +22530,7 @@ SplineSet
  142 764.667 147.167 777.167 157.5 787.5 c 0
  167.833 797.833 180 803 194 803 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E uni0308
 EndChar
 
 StartChar: Igrave
@@ -22556,6 +22567,7 @@ SplineSet
  63.6667 805.5 72.3333 814.333 79 817 c 1
  239 710 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I gravecomb
 EndChar
 
 StartChar: Iacute
@@ -22592,6 +22604,7 @@ SplineSet
  280 813.667 288.5 805.667 299.5 791 c 0
  310.5 776.333 316.667 764.667 318 756 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I acutecomb
 EndChar
 
 StartChar: Icircumflex
@@ -22629,6 +22642,7 @@ SplineSet
  185 819 l 1
  209.667 793 252 756.333 312 709 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I uni0302
 EndChar
 
 StartChar: Idieresis
@@ -22677,6 +22691,7 @@ SplineSet
  26 761.667 31 774.167 41 784.5 c 0
  51 794.833 63.3333 800 78 800 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I uni0308
 EndChar
 
 StartChar: Eth
@@ -22777,6 +22792,7 @@ SplineSet
  242 706 l 1
  264 762 291.667 790 325 790 c 0x2f
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" N tildecomb
 EndChar
 
 StartChar: Ograve
@@ -22814,6 +22830,7 @@ SplineSet
  271.667 813.5 280.333 822.333 287 825 c 1
  447 718 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" O gravecomb
 EndChar
 
 StartChar: Oacute
@@ -22851,6 +22868,7 @@ SplineSet
  471 820.667 479.5 812.667 490.5 798 c 0
  501.5 783.333 507.667 771.667 509 763 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" O acutecomb
 EndChar
 
 StartChar: Ocircumflex
@@ -22889,6 +22907,7 @@ SplineSet
  386 827 l 1
  410.667 801 453 764.333 513 717 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" O uni0302
 EndChar
 
 StartChar: Otilde
@@ -22930,6 +22949,7 @@ SplineSet
  241 715 l 1
  263 771 290.667 799 324 799 c 0xde
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" O tildecomb
 EndChar
 
 StartChar: Odieresis
@@ -22979,6 +22999,7 @@ SplineSet
  227 766.667 232 779.167 242 789.5 c 0
  252 799.833 264.333 805 279 805 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" O uni0308
 EndChar
 
 StartChar: multiply
@@ -23090,6 +23111,7 @@ SplineSet
  265.667 805.5 274.333 814.333 281 817 c 1
  441 710 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U gravecomb
 EndChar
 
 StartChar: Uacute
@@ -23137,6 +23159,7 @@ SplineSet
  485 813.667 493.5 805.667 504.5 791 c 0
  515.5 776.333 521.667 764.667 523 756 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U acutecomb
 EndChar
 
 StartChar: Ucircumflex
@@ -23185,6 +23208,7 @@ SplineSet
  393 819 l 1
  417.667 793 460 756.333 520 709 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U uni0302
 EndChar
 
 StartChar: Udieresis
@@ -23244,6 +23268,7 @@ SplineSet
  230 761.667 235 774.167 245 784.5 c 0
  255 794.833 267.333 800 282 800 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U uni0308
 EndChar
 
 StartChar: Yacute
@@ -23295,6 +23320,7 @@ SplineSet
  439 813.667 447.5 805.667 458.5 791 c 0
  469.5 776.333 475.667 764.667 477 756 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" Y acutecomb
 EndChar
 
 StartChar: Thorn
@@ -23464,6 +23490,7 @@ SplineSet
  190.389 673.154 191.769 673.103 193 673 c 1
  255 503 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a gravecomb
 EndChar
 
 StartChar: aacute
@@ -23528,6 +23555,7 @@ SplineSet
  332 665 l 1
  205 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a acutecomb
 EndChar
 
 StartChar: acircumflex
@@ -23590,6 +23618,7 @@ SplineSet
  225 673 l 1
  255.667 614.333 289.333 559.333 326 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a uni0302
 EndChar
 
 StartChar: atilde
@@ -23655,6 +23684,7 @@ SplineSet
  182.667 561.667 167 567 153 567 c 0
  136.333 567 121.333 551 108 519 c 1xd280
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a tildecomb
 EndChar
 
 StartChar: adieresis
@@ -23720,6 +23750,7 @@ SplineSet
  350 572 345 559.833 335 549.5 c 0
  325 539.167 313 534 299 534 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a uni0308
 EndChar
 
 StartChar: aring
@@ -23792,6 +23823,7 @@ SplineSet
  169 569.662 173.333 556.829 182 546.5 c 0
  190.667 536.167 201.334 531 214 531 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a uni030A
 EndChar
 
 StartChar: ae
@@ -23900,6 +23932,7 @@ SplineSet
  295 60 314.833 63.8333 332.5 71.5 c 0
  350.167 79.1667 370 93.3333 392 114 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" c uni0327
 EndChar
 
 StartChar: egrave
@@ -23945,6 +23978,7 @@ SplineSet
  202.389 673.154 203.769 673.103 205 673 c 1
  267 503 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e gravecomb
 EndChar
 
 StartChar: eacute
@@ -23992,6 +24026,7 @@ SplineSet
  348 665 l 1
  221 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e acutecomb
 EndChar
 
 StartChar: ecircumflex
@@ -24037,6 +24072,7 @@ SplineSet
  243 673 l 1
  273.667 614.333 307.333 559.333 344 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e uni0302
 EndChar
 
 StartChar: edieresis
@@ -24092,6 +24128,7 @@ SplineSet
  364 572 359.167 560 349.5 550 c 0
  339.832 540 327.665 535 313 535 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e uni0308
 EndChar
 
 StartChar: igrave
@@ -24126,6 +24163,7 @@ SplineSet
  107.389 673.154 108.769 673.103 110 673 c 1
  172 503 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i gravecomb
 EndChar
 
 StartChar: iacute
@@ -24162,6 +24200,7 @@ SplineSet
  255 665 l 1
  128 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i acutecomb
 EndChar
 
 StartChar: icircumflex
@@ -24196,6 +24235,7 @@ SplineSet
  149 673 l 1
  179.667 614.333 213.333 559.333 250 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i uni0302
 EndChar
 
 StartChar: idieresis
@@ -24240,6 +24280,7 @@ SplineSet
  273 571 268 559 258 549 c 0
  248 539 236 534 222 534 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i uni0308
 EndChar
 
 StartChar: eth
@@ -24336,6 +24377,7 @@ SplineSet
  240.333 561.667 224.667 567 212 567 c 0
  195.333 567 180.333 551 167 519 c 1x8a80
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" n tildecomb
 EndChar
 
 StartChar: ograve
@@ -24374,6 +24416,7 @@ SplineSet
  230.389 673.154 231.769 673.103 233 673 c 1
  295 503 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" o gravecomb
 EndChar
 
 StartChar: oacute
@@ -24414,6 +24457,7 @@ SplineSet
  375 665 l 1
  248 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" o acutecomb
 EndChar
 
 StartChar: ocircumflex
@@ -24452,6 +24496,7 @@ SplineSet
  270 673 l 1
  300.667 614.333 334.333 559.333 371 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" o uni0302
 EndChar
 
 StartChar: otilde
@@ -24493,6 +24538,7 @@ SplineSet
  223.333 561.667 207.667 567 195 567 c 0
  177.667 567 162.333 551 149 519 c 1xd6
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" o tildecomb
 EndChar
 
 StartChar: odieresis
@@ -24541,6 +24587,7 @@ SplineSet
  395 572 390 559.833 380 549.5 c 0
  370 539.167 357.667 534 343 534 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" o uni0308
 EndChar
 
 StartChar: divide
@@ -24671,6 +24718,7 @@ SplineSet
  229.603 673.533 232.045 673.355 234 673 c 1
  236 669 256.667 612.667 296 504 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u gravecomb
 EndChar
 
 StartChar: uacute
@@ -24723,6 +24771,7 @@ SplineSet
  381 665 l 1
  254 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u acutecomb
 EndChar
 
 StartChar: ucircumflex
@@ -24775,6 +24824,7 @@ SplineSet
  277 673 l 1
  312.333 608.333 346 553.333 378 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u uni0302
 EndChar
 
 StartChar: udieresis
@@ -24837,6 +24887,7 @@ SplineSet
  398 572 393.167 560 383.5 550 c 0
  373.833 540 361.666 535 347 535 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u uni0308
 EndChar
 
 StartChar: yacute
@@ -24891,6 +24942,7 @@ SplineSet
  372 665 l 1
  245 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" y acutecomb
 EndChar
 
 StartChar: thorn
@@ -24996,6 +25048,7 @@ SplineSet
  379 573 374 560.833 364 550.5 c 0
  354 540.167 342 535 328 535 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" y uni0308
 EndChar
 
 StartChar: Amacron
@@ -25040,6 +25093,7 @@ SplineSet
  471 769 l 1
  471 714 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A uni0304
 EndChar
 
 StartChar: amacron
@@ -25099,6 +25153,7 @@ SplineSet
  321 605 l 1
  321 547 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a uni0304
 EndChar
 
 StartChar: Abreve
@@ -25148,6 +25203,7 @@ SplineSet
  277 774.667 306.667 754 356 754 c 0
  404.667 754 434.667 774.667 446 816 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A uni0306
 EndChar
 
 StartChar: abreve
@@ -25209,6 +25265,7 @@ SplineSet
  134 597.333 161.333 571 208 571 c 0
  255.333 571 283 597.333 291 650 c 1xf280
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a uni0306
 EndChar
 
 StartChar: Aogonek
@@ -25258,6 +25315,7 @@ SplineSet
  234 277 l 1
  413 277 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" A uni0328
 EndChar
 
 StartChar: aogonek
@@ -25312,6 +25370,7 @@ SplineSet
  167.833 57.6667 183.667 51 201 51 c 0
  227.667 51 252 62 274 84 c 1xf2
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" a uni0328
 EndChar
 
 StartChar: Cacute
@@ -25355,6 +25414,7 @@ SplineSet
  481.667 828.667 490.333 820.5 501 805.5 c 0
  511.667 790.5 517.667 778.667 519 770 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" C acutecomb
 EndChar
 
 StartChar: cacute
@@ -25399,6 +25459,7 @@ SplineSet
  358 665 l 1
  231 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" c acutecomb
 EndChar
 
 StartChar: Ccircumflex
@@ -25443,6 +25504,7 @@ SplineSet
  410 833 l 1
  440 800.333 482.333 763.667 537 723 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" C uni0302
 EndChar
 
 StartChar: ccircumflex
@@ -25485,6 +25547,7 @@ SplineSet
  258 673 l 1
  288.667 614.333 322.333 559.333 359 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" c uni0302
 EndChar
 
 StartChar: Cdotaccent
@@ -25530,6 +25593,7 @@ SplineSet
  346 776.333 351.5 789.5 362.5 800.5 c 0
  373.5 811.5 386.667 817 402 817 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" C uni0307
 EndChar
 
 StartChar: cdotaccent
@@ -25571,6 +25635,7 @@ SplineSet
  297 573.333 291.667 560.667 281 550 c 0
  270.333 539.333 257.666 534 243 534 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" c uni0307
 EndChar
 
 StartChar: Ccaron
@@ -25615,6 +25680,7 @@ SplineSet
  321 817.664 362 797.33 398 776 c 1
  439.333 800 480.333 820.333 521 837 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" C uni030C
 EndChar
 
 StartChar: ccaron
@@ -25657,6 +25723,7 @@ SplineSet
  187.333 650.667 217.333 618.667 248 582 c 1
  282 622 312 654 338 678 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" c uni030C
 EndChar
 
 StartChar: Dcaron
@@ -25703,6 +25770,7 @@ SplineSet
  267.333 803.667 308.667 783 346 761 c 1
  385.333 783.67 426.333 804.336 469 823 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" D uni030C
 EndChar
 
 StartChar: dcaron
@@ -25755,6 +25823,7 @@ SplineSet
  499 685.333 502.833 694.333 510.5 701 c 0
  518.167 707.667 527 711 537 711 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" d uni030C
 EndChar
 
 StartChar: Dcroat
@@ -25904,6 +25973,7 @@ SplineSet
  415 770 l 1
  415 715 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E uni0304
 EndChar
 
 StartChar: emacron
@@ -25946,6 +26016,7 @@ SplineSet
  343 605 l 1
  343 547 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e uni0304
 EndChar
 
 StartChar: Ebreve
@@ -26004,6 +26075,7 @@ SplineSet
  221.333 775.667 250.667 755 300 755 c 0
  349.333 755 379 775.667 389 817 c 1x25a0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E uni0306
 EndChar
 
 StartChar: ebreve
@@ -26049,6 +26121,7 @@ SplineSet
  191.833 577.833 210 571 232 571 c 0
  280 571 308 597.333 316 650 c 1xfa80
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e uni0306
 EndChar
 
 StartChar: Edotaccent
@@ -26107,6 +26180,7 @@ SplineSet
  245 773 250.333 786.333 261 797 c 0
  271.667 807.667 284.667 813 300 813 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E uni0307
 EndChar
 
 StartChar: edotaccent
@@ -26153,6 +26227,7 @@ SplineSet
  284 573.333 278.667 560.667 268 550 c 0
  257.333 539.333 244.667 534 230 534 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e uni0307
 EndChar
 
 StartChar: Eogonek
@@ -26213,6 +26288,7 @@ SplineSet
  443.834 48.5 458.668 57.6667 470 71 c 0
  486 89.6667 502.667 121 520 165 c 1xdbe0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E uni0328
 EndChar
 
 StartChar: eogonek
@@ -26264,6 +26340,7 @@ SplineSet
  312.039 340.197 304.193 362.964 288.5 382.5 c 0
  272.167 402.833 251.333 413 226 413 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e uni0328
 EndChar
 
 StartChar: Ecaron
@@ -26321,6 +26398,7 @@ SplineSet
  221 803.333 262 783 296 763 c 1
  338 786.333 379 806.667 419 824 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" E uni030C
 EndChar
 
 StartChar: ecaron
@@ -26366,6 +26444,7 @@ SplineSet
  170.333 650.667 200.333 618.667 231 582 c 1
  265 622 295 654 321 678 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" e uni030C
 EndChar
 
 StartChar: Gcircumflex
@@ -26418,6 +26497,7 @@ SplineSet
  415 826 l 1
  443.667 796 486 759.333 542 716 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" G uni0302
 EndChar
 
 StartChar: gcircumflex
@@ -26490,6 +26570,7 @@ SplineSet
  242 672 l 1
  272 616 305.333 561 342 507 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" g uni0302
 EndChar
 
 StartChar: Gbreve
@@ -26543,6 +26624,7 @@ SplineSet
  314.667 783.667 344.333 763 393 763 c 0
  441 763 470.667 783.667 482 825 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" G uni0306
 EndChar
 
 StartChar: gbreve
@@ -26614,6 +26696,7 @@ SplineSet
  152 597.333 179.333 571 226 571 c 0
  274 571 301.667 597.333 309 650 c 1xe660
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" g uni0306
 EndChar
 
 StartChar: Gdotaccent
@@ -26667,6 +26750,7 @@ SplineSet
  348 775 353.333 788.333 364 799 c 0
  374.667 809.667 387.667 815 403 815 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" G uni0307
 EndChar
 
 StartChar: gdotaccent
@@ -26740,6 +26824,7 @@ SplineSet
  281 573.333 275.667 560.667 265 550 c 0
  254.333 539.333 241.333 534 226 534 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" g uni0307
 EndChar
 
 StartChar: Gcommaaccent
@@ -26790,6 +26875,7 @@ SplineSet
  352 -73 356.333 -63.6667 365 -57 c 0
  373.667 -50.3333 384 -47 396 -47 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" G uni0327
 EndChar
 
 StartChar: gcommaaccent
@@ -26867,6 +26953,7 @@ SplineSet
  281 542 276.833 532.667 268.5 526 c 0
  260.167 519.333 250 516 238 516 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" g uni0327
 EndChar
 
 StartChar: Hcircumflex
@@ -26924,6 +27011,7 @@ SplineSet
  396 819 l 1
  420.667 793 463 756.333 523 709 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" H uni0302
 EndChar
 
 StartChar: hcircumflex
@@ -26973,6 +27061,7 @@ SplineSet
  131 856 l 1
  155.667 830 198 793.333 258 746 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" h uni0302
 EndChar
 
 StartChar: Hbar
@@ -27125,6 +27214,7 @@ SplineSet
  39 706 l 1
  61 762 88.6667 790 122 790 c 0xdc
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I tildecomb
 EndChar
 
 StartChar: itilde
@@ -27162,6 +27252,7 @@ SplineSet
  105.333 561.667 89.3333 567 76 567 c 0xef
  59.3333 567 44.3333 551 31 519 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i tildecomb
 EndChar
 
 StartChar: Imacron
@@ -27196,6 +27287,7 @@ SplineSet
  287 769 l 1
  287 714 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I uni0304
 EndChar
 
 StartChar: imacron
@@ -27227,6 +27319,7 @@ SplineSet
  245 605 l 1
  245 547 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i uni0304
 EndChar
 
 StartChar: Ibreve
@@ -27265,6 +27358,7 @@ SplineSet
  95 774.667 124.667 754 174 754 c 0
  223.333 754 253 774.667 263 816 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I uni0306
 EndChar
 
 StartChar: ibreve
@@ -27298,6 +27392,7 @@ SplineSet
  58.3333 597.333 85.6667 571 133 571 c 0
  180.333 571 208 597.333 216 650 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i uni0306
 EndChar
 
 StartChar: Iogonek
@@ -27344,6 +27439,7 @@ SplineSet
  243.333 38.1667 268.333 31.3333 309 28 c 1
  309 0 l 1xe8
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I uni0328
 EndChar
 
 StartChar: iogonek
@@ -27390,6 +27486,7 @@ SplineSet
  193 573.333 187.667 560.5 177 549.5 c 0
  166.333 538.5 153.667 533 139 533 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i uni0328
 EndChar
 
 StartChar: Idotaccent
@@ -27428,6 +27525,7 @@ SplineSet
  119 772.333 124.333 785.5 135 796.5 c 0
  145.667 807.5 158.667 813 174 813 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I uni0307
 EndChar
 
 StartChar: dotlessi
@@ -27500,6 +27598,7 @@ SplineSet
  390 650 l 1
  657 650 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" I J
 EndChar
 
 StartChar: ij
@@ -27561,6 +27660,7 @@ SplineSet
  362 342 358.667 362.833 352 370.5 c 0
  345.333 378.167 326.666 384 296 388 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" i j
 EndChar
 
 StartChar: Jcircumflex
@@ -27598,6 +27698,7 @@ SplineSet
  188 819 l 1
  212.667 793 255 756.333 315 709 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" J uni0302
 EndChar
 
 StartChar: jcircumflex
@@ -27635,6 +27736,7 @@ SplineSet
  146 673 l 1
  176.667 614.333 210.333 559.333 247 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" j uni0302
 EndChar
 
 StartChar: Kcommaaccent
@@ -27695,6 +27797,7 @@ SplineSet
  321 -48 325.333 -38.6667 334 -32 c 0
  342.667 -25.3333 353 -22 365 -22 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" K uni0327
 EndChar
 
 StartChar: kcommaaccent
@@ -27754,6 +27857,7 @@ SplineSet
  221 -59 225.333 -49.6667 234 -43 c 0
  242.667 -36.3333 253 -33 265 -33 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" k uni0327
 EndChar
 
 StartChar: kgreenlandic
@@ -27843,6 +27947,7 @@ SplineSet
  289 813.667 297.5 805.667 308.5 791 c 0
  319.5 776.333 325.667 764.667 327 756 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" L acutecomb
 EndChar
 
 StartChar: lacute
@@ -27876,6 +27981,7 @@ SplineSet
  218 857.667 226.5 849.667 237.5 835 c 0
  248.5 820.333 254.667 808.667 256 800 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" l acutecomb
 EndChar
 
 StartChar: Lcommaaccent
@@ -27922,6 +28028,7 @@ SplineSet
  252 -60.6667 256.333 -51.6667 265 -45 c 0
  273.667 -38.3333 284 -35 296 -35 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" L uni0327
 EndChar
 
 StartChar: lcommaaccent
@@ -27958,6 +28065,7 @@ SplineSet
  75 -60 79.3333 -50.6667 88 -44 c 0
  96.6667 -37.3333 107 -34 119 -34 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" l uni0327
 EndChar
 
 StartChar: Lcaron
@@ -28004,6 +28112,7 @@ SplineSet
  354 628.333 357.833 637.5 365.5 644.5 c 0
  373.167 651.5 382 655 392 655 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" L uni030C
 EndChar
 
 StartChar: lcaron
@@ -28040,6 +28149,7 @@ SplineSet
  218 685.333 221.833 694.333 229.5 701 c 0
  237.167 707.667 246 711 256 711 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" l uni030C
 EndChar
 
 StartChar: Ldot
@@ -28085,6 +28195,7 @@ SplineSet
  313 370 318.333 383.333 329 394 c 0
  339.667 404.667 352.667 410 368 410 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" L periodcentered
 EndChar
 
 StartChar: ldot
@@ -28120,6 +28231,7 @@ SplineSet
  192.167 36 212 30.3333 244 27 c 1
  244 0 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" l periodcentered
 EndChar
 
 StartChar: Lslash
@@ -28247,6 +28359,7 @@ SplineSet
  474 813.667 482.5 805.667 493.5 791 c 0
  504.5 776.333 510.667 764.667 512 756 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" N acutecomb
 EndChar
 
 StartChar: nacute
@@ -28299,6 +28412,7 @@ SplineSet
  396 665 l 1
  269 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" n acutecomb
 EndChar
 
 StartChar: Ncommaaccent
@@ -28354,6 +28468,7 @@ SplineSet
  341 -40 345.333 -30.6667 354 -24 c 0
  362.667 -17.3333 372.667 -14 384 -14 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" N uni0327
 EndChar
 
 StartChar: ncommaaccent
@@ -28407,6 +28522,7 @@ SplineSet
  241 -69 245.167 -59.6667 253.5 -53 c 0
  261.834 -46.3333 271.668 -43 283 -43 c 2
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" n uni0327
 EndChar
 
 StartChar: Ncaron
@@ -28460,6 +28576,7 @@ SplineSet
  299 787.333 340.333 766.667 375 746 c 1
  417 770 458 790.667 498 808 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" N uni030C
 EndChar
 
 StartChar: ncaron
@@ -28510,6 +28627,7 @@ SplineSet
  213.333 650.667 243.333 618.667 274 582 c 1
  308 622 338 654 364 678 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" n uni030C
 EndChar
 
 StartChar: napostrophe
@@ -28563,6 +28681,7 @@ SplineSet
  480.833 35.8333 498.333 30.3333 527 27 c 1
  527 0 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" afii57929 n
 EndChar
 
 StartChar: Eng
@@ -28696,6 +28815,7 @@ SplineSet
  489 771 l 1
  489 716 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" O uni0304
 EndChar
 
 StartChar: omacron
@@ -28731,6 +28851,7 @@ SplineSet
  369 605 l 1
  369 547 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" o uni0304
 EndChar
 
 StartChar: Obreve
@@ -28770,6 +28891,7 @@ SplineSet
  290 781 319.333 760 368 760 c 0
  417.333 760 447 781 457 823 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" O uni0306
 EndChar
 
 StartChar: obreve
@@ -28808,6 +28930,7 @@ SplineSet
  176 597.333 203.333 571 250 571 c 0
  297.333 571 325 597.333 333 650 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" o uni0306
 EndChar
 
 StartChar: Ohungarumlaut
@@ -28855,6 +28978,7 @@ SplineSet
  390.333 815.654 402 812.321 408 809 c 1
  409 798 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" O uni030B
 EndChar
 
 StartChar: ohungarumlaut
@@ -28901,6 +29025,7 @@ SplineSet
  423 666 l 1
  324 493 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" o uni030B
 EndChar
 
 StartChar: OE
@@ -29077,6 +29202,7 @@ SplineSet
  400.667 813.667 409.333 805.5 420 790.5 c 0
  430.667 775.5 436.667 763.667 438 755 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" R acutecomb
 EndChar
 
 StartChar: racute
@@ -29123,6 +29249,7 @@ SplineSet
  330 665 l 1
  203 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" r acutecomb
 EndChar
 
 StartChar: Rcommaaccent
@@ -29184,6 +29311,7 @@ SplineSet
  302 -48.6667 306.167 -39.6667 314.5 -33 c 0
  322.833 -26.3333 333 -23 345 -23 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" R uni0327
 EndChar
 
 StartChar: rcommaaccent
@@ -29230,6 +29358,7 @@ SplineSet
  99 -64 103.333 -54.6667 112 -48 c 0
  120.667 -41.3333 130.667 -38 142 -38 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" r uni0327
 EndChar
 
 StartChar: Rcaron
@@ -29287,6 +29416,7 @@ SplineSet
  209 804 249.667 783.667 287 761 c 1
  332.333 786.333 373.333 806.667 410 822 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" R uni030C
 EndChar
 
 StartChar: rcaron
@@ -29331,6 +29461,7 @@ SplineSet
  147 651 176.667 619 208 581 c 1
  248 627 278 659 298 677 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" r uni030C
 EndChar
 
 StartChar: Sacute
@@ -29386,6 +29517,7 @@ SplineSet
  349 821.667 357.5 813.667 368.5 799 c 0
  379.5 784.333 385.667 772.667 387 764 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" S acutecomb
 EndChar
 
 StartChar: sacute
@@ -29437,6 +29569,7 @@ SplineSet
  309 665 l 1
  182 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" s acutecomb
 EndChar
 
 StartChar: Scircumflex
@@ -29493,6 +29626,7 @@ SplineSet
  264 825 l 1
  288.667 799 331 762.333 391 715 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" S uni0302
 EndChar
 
 StartChar: scircumflex
@@ -29542,6 +29676,7 @@ SplineSet
  204 673 l 1
  234.667 614.333 268.333 559.333 305 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" s uni0302
 EndChar
 
 StartChar: Scedilla
@@ -29606,6 +29741,7 @@ SplineSet
  409 555.5 l 1
  416 501 l 1xed
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" S uni0327
 EndChar
 
 StartChar: scedilla
@@ -29662,6 +29798,7 @@ SplineSet
  243.667 450 274 444 302 432 c 1
  313.335 399.333 320.668 363.666 324 325 c 1xda
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" s uni0327
 EndChar
 
 StartChar: Scaron
@@ -29718,6 +29855,7 @@ SplineSet
  176 811.333 217 791 251 771 c 1
  296.333 796.333 337.333 816.667 374 832 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" S uni030C
 EndChar
 
 StartChar: scaron
@@ -29767,6 +29905,7 @@ SplineSet
  131.333 650.667 161.333 618.667 192 582 c 1
  226 622 256 654 282 678 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" s uni030C
 EndChar
 
 StartChar: Tcommaaccent
@@ -29818,6 +29957,7 @@ SplineSet
  260 -62 264.333 -52.6667 273 -46 c 0
  281.667 -39.3333 291.667 -36 303 -36 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" T uni0327
 EndChar
 
 StartChar: tcommaaccent
@@ -29861,6 +30001,7 @@ SplineSet
  126 -73 130.333 -63.6667 139 -57 c 0
  147.667 -50.3333 158 -47 170 -47 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" t uni0327
 EndChar
 
 StartChar: Tcaron
@@ -29910,6 +30051,7 @@ SplineSet
  236 801.333 277 781 311 761 c 1
  356.333 786.333 397.333 806.667 434 822 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" T uni030C
 EndChar
 
 StartChar: tcaron
@@ -29953,6 +30095,7 @@ SplineSet
  241 672 244.833 681.333 252.5 688 c 0
  260.167 694.667 269 698 279 698 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" t uni030C
 EndChar
 
 StartChar: Tbar
@@ -30094,6 +30237,7 @@ SplineSet
  258 706 l 1
  279.334 762 306.667 790 340 790 c 0xde
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U tildecomb
 EndChar
 
 StartChar: utilde
@@ -30149,6 +30293,7 @@ SplineSet
  234.333 561.667 218.667 567 206 567 c 0
  189.333 567 174.333 551 161 519 c 1x0540
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u tildecomb
 EndChar
 
 StartChar: Umacron
@@ -30194,6 +30339,7 @@ SplineSet
  496 771 l 1
  496 716 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U macron
 EndChar
 
 StartChar: umacron
@@ -30243,6 +30389,7 @@ SplineSet
  379 605 l 1
  379 547 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u macron
 EndChar
 
 StartChar: Ubreve
@@ -30292,6 +30439,7 @@ SplineSet
  310.667 766.667 340 746 388 746 c 0
  437.333 746 467 766.667 477 808 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U uni0306
 EndChar
 
 StartChar: ubreve
@@ -30343,6 +30491,7 @@ SplineSet
  188 598 215.333 572 262 572 c 0
  310 572 337.667 598 345 650 c 1x0d80
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u uni0306
 EndChar
 
 StartChar: Uring
@@ -30401,6 +30550,7 @@ SplineSet
  432 775.333 428 787.833 420 797.5 c 0
  412 807.167 401.333 812 388 812 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U uni030A
 EndChar
 
 StartChar: uring
@@ -30463,6 +30613,7 @@ SplineSet
  223 570.662 227.333 557.829 236 547.5 c 0
  244.667 537.167 255.334 532 268 532 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u uni030A
 EndChar
 
 StartChar: Uhungarumlaut
@@ -30520,6 +30671,7 @@ SplineSet
  389.333 813.66 401 810.327 407 807 c 1
  408 796 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U uni030B
 EndChar
 
 StartChar: uhungarumlaut
@@ -30582,6 +30734,7 @@ SplineSet
  434 667 l 1
  335 493 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u uni030B
 EndChar
 
 StartChar: Uogonek
@@ -30634,6 +30787,7 @@ SplineSet
  474 650 l 1
  715 650 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" U uni0328
 EndChar
 
 StartChar: uogonek
@@ -30691,6 +30845,7 @@ SplineSet
  465.167 57.5 477.667 53.3333 497 52 c 2
  523 51 l 1xad
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" u uni0328
 EndChar
 
 StartChar: Wcircumflex
@@ -30741,6 +30896,7 @@ SplineSet
  514 814 l 1
  538.667 788 581 751.333 641 704 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" W uni0302
 EndChar
 
 StartChar: wcircumflex
@@ -30790,6 +30946,7 @@ SplineSet
  379 673 l 1
  409.667 614.333 443.333 559.333 480 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" w uni0302
 EndChar
 
 StartChar: Ycircumflex
@@ -30842,6 +30999,7 @@ SplineSet
  340 819 l 1
  366.667 791 408.667 754.333 466 709 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" Y uni0302
 EndChar
 
 StartChar: ycircumflex
@@ -30894,6 +31052,7 @@ SplineSet
  259 673 l 1
  289.667 614.333 323.333 559.333 360 508 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" y uni0302
 EndChar
 
 StartChar: Ydieresis
@@ -30956,6 +31115,7 @@ SplineSet
  182 762.667 187 775 197 785 c 0
  207 795 219 800 233 800 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" Y uni0308
 EndChar
 
 StartChar: Zacute
@@ -30998,6 +31158,7 @@ SplineSet
  440.667 813 449.333 804.667 460 790 c 0
  470.667 775.333 476.667 763.667 478 755 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" Z acutecomb
 EndChar
 
 StartChar: zacute
@@ -31038,6 +31199,7 @@ SplineSet
  342 665 l 1
  215 492 l 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" z acutecomb
 EndChar
 
 StartChar: Zdotaccent
@@ -31082,6 +31244,7 @@ SplineSet
  266 773 271.333 786.333 282 797 c 0
  292.667 807.667 305.667 813 321 813 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" Z uni0307
 EndChar
 
 StartChar: zdotaccent
@@ -31124,6 +31287,7 @@ SplineSet
  277 573.333 271.833 560.667 261.5 550 c 0
  251.166 539.333 238.333 534 223 534 c 0
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" z uni0307
 EndChar
 
 StartChar: Zcaron
@@ -31167,6 +31331,7 @@ SplineSet
  238.667 804.664 280 784.33 320 761 c 1
  364 786.333 405 806.667 443 822 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" Z uni030C
 EndChar
 
 StartChar: zcaron
@@ -31207,6 +31372,7 @@ SplineSet
  151.333 655.667 181 623.667 217 581 c 1
  257 627 287 659 307 677 c 1
 EndSplineSet
+Ligature2: "'ccmp' Canonical Equivalence-1" z uni030C
 EndChar
 
 StartChar: longs
