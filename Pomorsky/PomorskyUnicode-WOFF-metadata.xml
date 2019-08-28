@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-    <uniqueid id="net.ponomar.PomorskyUnicode0.5" />
-    <vendor name="Ponomar Technologies, Inc." url="http://www.ponomar.net/" />
+    <uniqueid id="net.ponomar.PomorskyUnicode1.1" />
+    <vendor name="Ponomar Technologies, Inc." url="https://sci.ponomar.net/" />
     <credits>
         <credit
             name="Nikita Simmons"
-            url="http://www.synaxis.info/"
+            url="https://www.synaxis.info/"
             role="Original design of Fedorovsk font" />
         <credit
-            name="Aleksandr Andreev and Nikita Simmons"
-            url="http://www.ponomar.net/"
+            name="Aleksandr Andreev"
+            url="https://www.ponomar.net/"
             role="Reencoding for Unicode, redesing, and other features" />
     </credits>
-    <description>
+    <license url="https://scripts.sil.org/ofl" id="org.sil.ofl.11">
         <text lang="en">
-            Pomorsky is originally designed by Nikita Simmons. See the documentation.
-        </text>
-    </description>
-    <license url="http://scripts.sil.org/ofl" id="org.sil.ofl.11">
-        <text lang="en">
-            Copyright (c) 2015 Aleksandr Andreev and Nikita Simmons.
+            Copyright (c) 2015-2019 Aleksandr Andreev and Nikita Simmons.
 
             This Font Software is licensed under the SIL Open Font License, Version 1.1.
             This license is copied below, and is also available with a FAQ at:
@@ -114,31 +109,7 @@
             OTHER DEALINGS IN THE FONT SOFTWARE.
         </text>
     </license>
-    <license id="gnu.gpl.3" url="https://gnu.org/licenses/gpl.html">
-	<text lang="en">
-	    The Fedorovsk Unicode font is part of the Ponomar Project (http://www.ponomar.net/)
-
-	    Ponomar is free software: you can redistribute it and/or modify
-	    it under the terms of the GNU General Public License as published by
-	    the Free Software Foundation, either version 3 of the License, or
-	    (at your option) any later version.
-
-	    Ponomar is distributed in the hope that it will be useful,
-	    but WITHOUT ANY WARRANTY; without even the implied warranty of
-	    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	    GNU General Public License for more details.
-
-	    You should have received a copy of the GNU General Public License
-	    along with Ponomar.  If not, see http://www.gnu.org/licenses/.
-
-	    As a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font 
-            into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. 
-	    This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. 
-	    If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. 
-	    If you do not wish to do so, delete this exception statement from your version.
-	</text>
-    </license>
     <copyright>
-        <text lang="en">Copyright (c) 2013 Aleksandr Andreev, Yuri Shardt and Nikita Simmons</text>
+        <text lang="en">Copyright (c) 2015-2019 Aleksandr Andreev and Nikita Simmons</text>
     </copyright>
 </metadata>

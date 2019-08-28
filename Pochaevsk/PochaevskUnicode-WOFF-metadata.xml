@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-    <uniqueid id="net.ponomar.MonomakhUnicode1.2" />
+    <uniqueid id="net.ponomar.PochaevskUnicode1.1" />
     <vendor name="Ponomar Technologies, Inc." url="https://sci.ponomar.net/" />
     <credits>
         <credit
-            name="Alexey Kryukov"
-            role="Original design of Monomachus font" />
+            name="Nikita Simmons"
+            url="http://synaxis.info/"
+            role="Original design of Pochaevsk font" />
         <credit
             name="Aleksandr Andreev"
             url="https://www.ponomar.net/"
-            role="Reencoding, redesing, and other features" />
+            role="Reencoding for Unicode, redesing, and other features" />
     </credits>
     <description>
         <text lang="en">
-        Originally released as Monomachus, this font has been reencoded and renamed,
-	    with permission from original author.
+        Pochaevsk Unicode is based on the Pochaevsk font originally designed by Nikita Simmons (dba  Starina Russian Antiquities, 1996).
 
-	    Monomakh Unicode is a font intended for typesetting Ustav-era Church Slavonic text.
-	    See documentation for more information.
+	    The Pochaevsk typeface is supposed to reproduce the typeface in editions published by the Holy Dormition Pochayev Lavra,
+        subsequently used in editions published in the 20th century by Holy Trinity Monastery in Jordanville, New York.
         </text>
     </description>
-    <license url="https://scripts.sil.org/ofl" id="org.sil.ofl.11">
+    <license url="http://scripts.sil.org/ofl" id="org.sil.ofl.11">
         <text lang="en">
-            Copyright (c) 2016-2019 Aleksandr Andreev (https://sci.ponomar.net/).
+            Copyright (c) 2019 Aleksandr Andreev and Nikita Simmons.
 
             This Font Software is licensed under the SIL Open Font License, Version 1.1.
             This license is copied below, and is also available with a FAQ at:
@@ -118,6 +118,6 @@
         </text>
     </license>
     <copyright>
-        <text lang="en">Copyright (c) 2016-2019 Aleksandr Andreev</text>
+        <text lang="en">Copyright (c) 2019 Aleksandr Andreev and Nikita Simmons</text>
     </copyright>
 </metadata>

@@ -1,7 +1,7 @@
 \documentclass[11pt]{ltxdoc}
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{fontspec}
-\usepackage{xltxtra}
+\usepackage{xltxtra,comment}
 % code borrowed from Polyglossia documentation -- Thanks!
 \definecolor{myblue}{rgb}{0.02,0.04,0.48}
 \definecolor{lightblue}{rgb}{0.61,.8,.8}
@@ -25,8 +25,8 @@
 \usepackage{lettrine}
 
 %% DOCUMENTATION VERSION AND RELEASE DATES
-\def\filedate{April 17, 2017}
-\def\fileversion{version 1.2}
+\def\filedate{June 2, 2019}
+\def\fileversion{version 2.1}
 
 %% fontspec declarations:
 \setmainfont[Ligatures = TeX]{Linux Libertine}
@@ -35,7 +35,8 @@
 \newfontfamily\churchslavonicfont[Script=Cyrillic,Ligatures=TeX,Scale=1.33333333,HyphenChar="005F]{PonomarUnicode.otf} 
 \newfontfamily{\slv}[Scale=MatchLowercase]{Ponomar Unicode}
 \newfontfamily{\ust}[Scale=MatchLowercase]{Menaion Unicode}
-\newfontfamily{\ind}{Indiction Unicode}
+\newfontfamily{\ind}[Scale=1.333333333]{Indiction Unicode}
+\newfontfamily{\vertograd}[Scale=1.333333]{Vertograd Unicode}
 
 \linespread{1.05}
 %\lineskip=0pt
@@ -52,14 +53,14 @@
 \def\@oddfoot{\footnotesize\hfil\cuNum{\value{page}}\hfil\hbox to 0pt{\hss\usebox\NextWordBox}}%}%
 \let\@evenfoot\@oddfoot
 }%
-\def\cu@lettrine{\lettrine[lines=3,findent=0pt,nindent=0pt,lraise=-0.4]}
+\def\cu@lettrine{\lettrine[lines=3,findent=0pt,nindent=0pt]}
 \def\cuLettrine{\cu@tokenizeletter\cu@lettrine}
 \renewcommand{\LettrineFontHook}{\ind \cuKinovarColor}
 \makeatother
 \begin{document}
 
 \title{Church Slavonic Fonts}
-\author{Aleksandr Andreev \and Yuri Shardt \and Nikita Simmons\thanks{Comments may be directed to \href{mailto:aleksandr.andreev@gmail.com}{aleksandr.andreev@gmail.com}.}}
+\author{Aleksandr Andreev\thanks{Comments may be directed to \href{mailto:aleksandr.andreev@gmail.com}{aleksandr.andreev@gmail.com}.} \and Nikita Simmons}
 \date{\filedate \qquad \fileversion\\
 \footnotesize (\textsc{pdf} file generated on \today)}
 
@@ -79,40 +80,23 @@ representing Church Slavonic text.
 The fonts are designed to work with Unicode text encoded in UTF-8.
 Texts encoded in legacy codepages (such as HIP and UCS) may be
 converted to Unicode using a separate bundle of utilities.
-See the \href{http://sci.ponomar.net/}
-{Slavonic Computing Initiative website} for more information.
+See the \href{https://sci.ponomar.net/}{Slavonic Computing Initiative website}
+for more information.
 
-\section{License}
+\subsection{License}
 
-The fonts distributed in this package are dual-licensed under the GNU General Public License 
-(version 3 or later) and the SIL Open Font License (version 1.1 or later). The SIL
-Open Font License is preferred, since this is a FLOSS license intended for fonts.
-Dual licensing under GNU GPL is maintained to allow embedding of these
-fonts into GPL-licensed applications and for compatibility with other projects.
-
-\subsection{The Legal Text}
-
-The fonts distributed in this package are free software: you can redistribute them and/or modify
-them, in whole or in part, EITHER under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version OR under the terms of the SIL Open Font License,
-version 1.1, or (at your option) any later version, without reserved font names.
-
-As a special exception, if you create a document which uses any of these fonts, and embed the font or unaltered portions of the font
-into the document, the font does not by itself cause the resulting document to be covered by the GNU General Public License. 
-This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. 
-If you modify any of these fonts, you may extend this exception to your version of the fonts, but you are not obligated to do so. 
-If you do not wish to do so, delete this exception statement from your version.
+The fonts distributed in this package are licensed under the
+SIL Open Font License (version 1.1 or later).
 
 As free software, these fonts are distributed in the hope that they will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License or the SIL Open Font License for more details.
+SIL Open Font License for more details.
 
 This document is licensed under the Creative Commons Attribution-ShareAlike 4.0
-International License. To view a copy of this license, visit the \href{http://creativecommons.org/licenses/by-sa/4.0/}{CreativeCommons website}.
+International License. To view a copy of this license, visit the \href{https://creativecommons.org/licenses/by-sa/4.0/}{CreativeCommons website}.
 
-\section{Introduction}
+\subsection{Description}
 
 The package provides several fonts that are intended for working with Church Slavonic text
 of various recensions and other texts related to Church Slavonic:
@@ -121,8 +105,8 @@ and manuscript uncial (ustav) Church Slavonic text (in either Cyrillic or Glagol
 as well as text in Sakha (Yakut), Aleut (Fox Island dialect), and Romanian (Moldovan)
 Cyrillic, all written in the ecclesiastical script. The coverage of the various fonts agrees
 with the guidelines for font coverage specified in
-\href{http://www.unicode.org/notes/tn41/}
-{Unicode Technical Note \#41: Church Slavonic Typography in Unicode}.
+\href{https://www.unicode.org/notes/tn41/}{Unicode Technical
+Note \#41: Church Slavonic Typography in Unicode}.
 Generally speaking, it includes most (but not all) characters in the Cyrillic,
 Cyrillic Supplement, Cyrillic Extended-A, Cyrillic Extended-B, Cyrillic Extended-C
 (as of Unicode 9.0), Glagolitic, and Glagolitic Supplement blocks of Unicode.
@@ -130,47 +114,26 @@ Characters not used in Church Slavonic, however, are not included (except for so
 characters used in modern Russian, Ukrainian, Belorussian, Serbian and
 Macedonian for purposes of compatibility with some applications).
 
-\section{Installation and Usage}
+\subsection{Installation and Usage}
 
 If you are reading this document, then you probably have already downloaded
 the font package. You may check if you have the most recent version by visiting
-the \href{http://sci.ponomar.net/}{Slavonic Computing Initiative website}.
+the \href{https://sci.ponomar.net/}{Slavonic Computing Initiative website}.
 
-\subsection{Font Formats}
+\subsubsection{Font Formats}
 
-All fonts are currently available in two formats:
+All fonts are currently available in a single format:
 
 \begin{description}
-\item[\XeTeXpicfile "truetype.png" width 4mm] TrueType fonts, or, more precisely,
-\hyperlink{OT}{OpenType} fonts with TrueType outlines;
-
 \item[\XeTeXpicfile "opentype.png" width 4mm] \hyperlink{OT}{OpenType} fonts with
 PostScript outlines (also called OpenType-CFF fonts).
+
+\item[\XeTeXpicfile "deprecated.png" width 4mm] TrueType fonts have been deprecated,
+and are no longer provided. If you need TrueType fonts, see the
+\href{https://github.com/slavonic/fonts-cu-legacy/}{Legacy Fonts package}.
 \end{description}
 
-\noindent Note that fonts in these two formats have different file extensions:
-\texttt{*.ttf} for TrueType, \texttt{*.otf} for OpenType-CFF fonts.
-Both the TrueType version and the OpenType-CFF version support
-the same set of advanced \hyperlink{OT}{OpenType} features.
-
-The OpenType-CFF fonts use PostScript outlines, based
-on third-order (cubic) Bézier curves, while the TrueType fonts 
-use second-order (quadratic) curves. There is also a significant difference in
-hinting (grid fitting): TrueType instructions theoretically allow to
-achieve much better quality of screen rendering than PostScript hinting.
-However, since quality hinting is a very difficult and time-consuming process,
-both the PostScript hinting and TrueType instructing of the fonts 
-has been done automatically, so high quality grid fitting is not available.
-
-Note that it is possible to install both the TrueType and OpenType-CFF versions
-simultaneously. For this purpose, the TrueType fonts contain a “TT” suffix in their
-font name/family name fields. Since all of the fonts have been drawn in cubic splines
-(and then converted to quadratic for the TTF version), and since the TrueType instructions
-have been automatically generated, the OpenType-CFF format may
-theoretically give you better screen rendering quality, though in most situations
-this will not be noticeable. Furthermore, note that only the TTF version supports
-\hyperlink{Graphite}{SIL Graphite}, so you will need to use the TrueType fonts
-if Graphite support is desired. The following considerations are also in order:
+\noindent You may need the legacy TrueType fonts in the following scenarios:
 
 \begin{itemize}
 
@@ -181,15 +144,12 @@ if Graphite support is desired. The following considerations are also in order:
 %systems, OpenOffice.org could not access such fonts at all, so using TTF
 %versions was the only option. This was fixed in OpenOffice.org 3.2 and LibreOffice.
 
-\item OpenOffice.org and older versions of LibreOffice had no mechanism to 
-turn off and on advanced OpenType features, so if you needed to use optional typographic
-features in these applications, you had to use SIL Graphite, which is only available
-in the TTF version. This limitation has been fixed as of LibreOffice 5.3, which now
-has \href{https://wiki.documentfoundation.org/ReleaseNotes/5.3}{full OpenType support}.
+\item OpenOffice.org and older versions of LibreOffice require use of SIL Graphite,
+which is only available in the TTF version. This limitation has been fixed as of
+LibreOffice 5.3, which now has
+\href{https://wiki.documentfoundation.org/ReleaseNotes/5.3}{full OpenType support}.
 
-\item OpenType-CFF fonts were poorly supported in Java, and so we had
-recommended use of the TTF versions in Java programming situations. This problem
-appears to have been resolved in Oracle Java SE 7.
+\item OpenType-CFF fonts were poorly supported in Java prior to Oracle Java SE 7.
 
 \item In Microsoft products, OpenType glyph positioning is not supported for glyphs
 in the Private Use Area or characters outside of the Unicode 7.0 range. You should
@@ -197,82 +157,72 @@ use LibreOffice if you need positioning of combining Glagolitic characters.
 
 \end{itemize}
 
-Note that Microsoft Windows checks the presence of
-a digital signature in a TrueType font, considering this would allow to distinguish
-“old” TrueType fonts from “modern” OpenType fonts with TrueType outlines.
-The fonts in this package contain a dummy digital signature
-in order to fool Microsoft products into allowing use of additional TrueType features.
-
 \subsection{Source Packages}
 
 You can also download the FontForge sources for all of the fonts
 from the \href{https://github.com/typiconman/fonts-cu/}{GitHub repository}.
 This is only useful if you are planning on editing the fonts in the
-\href{http://fontforge.sourceforge.net}{FontForge} font editor. In general,
+\href{https://fontforge.sourceforge.net}{FontForge} font editor. In general,
 you will not gain any productivity improvements from rebuilding the font files,
 so rebuilding from source is not recommended, unless you have a real need
 to modify the fonts, for example, to add your own additional glyphs to the Private Use Area.
 
-\section{System Requirements}
+\subsection{System Requirements}
 
 All of these fonts are large Unicode fonts and require a Unicode-aware operating
 system and software environment. Outside of a Unicode-aware environment,
 you will only be able, at most, to access the first 256 glyphs of a font.
 
-\subsection{Microsoft Windows}
+\subsubsection{Microsoft Windows}
 
-Unicode has been supported since Windows 95, however to use the
-OpenType-CFF version of the fonts, you need at least Windows 2000.
+Unicode-encoded OpenType-CFF fonts are supported starting with Windows 2000.
 You will need a word processor that can handle
 Unicode-based documents, such as Microsoft Word 97 and above,
-or \href{http://www.libreoffice.org}{LibreOffice}.
-Please note that maintenance of OpenOffice.org has been discontinued,
-so we recommend using LibreOffice instead. If using \TeX{},
-you will need a Unicode-aware \TeX{} engine, such as 
-\XeTeX{} or \LuaTeX.
+or \href{https://www.libreoffice.org}{LibreOffice}.
+If using \TeX{}, you will need a Unicode-aware \TeX{} engine, such as 
+\XeTeX{} or \LuaTeX{}.
 
 You will also need a way to enter the Unicode characters that are not
 directly accessible from standard keyboards. We recommend
 installing a Church Slavonic or Russian-Extended keyboard layout, 
-available from the \href{http://sci.ponomar.net/keyboard.html}
+available from the \href{https://sci.ponomar.net/keyboard.html}
 {Slavonic Computing Initiative website}. It is also possible to enter
 characters using the Windows Character Map utility or by codepoint,
 but this is not recommended.
 
-\subsection{GNU/Linux}
+\subsubsection{GNU/Linux}
 
-In order to be able to handle TrueType or OpenType fonts, your system should
-have the \href{http://freetype.sourceforge.net}{freetype} library installed
+In order to be able to handle OpenType fonts, your system should
+have the \href{https://freetype.sourceforge.net}{freetype} library installed
 and enabled; this is normally done by default in all modern distributions.
 You will need a Unicode-aware word processor, such
-as \href{http://www.libreoffice.org}{LibreOffice}.
-Please note that OpenOffice.org is no longer maintained,
-so we recommend using LibreOffice instead. If using \TeX,
-you will need a Unicode-aware \TeX{} engine, such as 
-\XeTeX{} or \LuaTeX.
+as \href{https://www.libreoffice.org}{LibreOffice}.
+If using \TeX{}, you will need a Unicode-aware \TeX{} engine, such as 
+\XeTeX{} or \LuaTeX{}.
 
 You will need a keyboard driver to input Unicode characters.
-Under GNU/Linux, this is handled by the |m17n| library and database. See the \href{http://sci.ponomar.net/keyboard.html}
-{Slavonic Computing Initiative website} for more details.
+Under GNU/Linux, this is handled by the |m17n| library and database.
+See the \href{https://sci.ponomar.net/keyboard.html}{Slavonic
+Computing Initiative website} for more details.
 
-\subsection{OS X}
+\subsubsection{OS X}
 
 Not sure.
 
-\section{Private Use Area}
+\subsection{Private Use Area}
 
 The Unicode Private Use Area (PUA) is a set of three ranges of codepoints
 (U+E000 to U+F8FF, Plane 15 and Plane 16) that are guaranteed to never
 be assigned to characters by the Unicode Consortium and can be used by third parties
 to allocate their own characters. The Slavonic Computing Initiative has established an
 industry standard for character allocation in the PUA, which is described in full
-in the \href{http://www.ponomar.net/files/pua_policy.pdf}{PUA Allocation Policy}.
+in the \href{https://www.ponomar.net/files/pua_policy.pdf}{PUA Allocation Policy}.
 
 The PUA in these fonts contains various additional glyphs: contextual alternatives,
 stylistic alternatives, ligatures, hypothetical and nonce glyphs, various glyphs
-not yet encoded in Unicode and various technical symbols. Most of these glyphs
-(the alternative glyphs and ligatures) are accessible via 
-\hyperlink{OT}{OpenType} and \hyperlink{Graphite}{SIL Graphite} features.
+not yet encoded in Unicode, and various technical symbols. Most of these glyphs
+(the alternative glyphs and ligatures) are normally accessible via 
+\hyperlink{OT}{OpenType} features.
 Thus, you generally do not need to access glyphs in the PUA directly. There
 may be some exceptions:
 
@@ -292,13 +242,13 @@ of a font.
 \end{itemize}
 
 \noindent For the characters mapped in the PUA and other technical considerations,
-please see the \href{http://www.ponomar.net/files/pua_policy.pdf}
+please see the \href{https://www.ponomar.net/files/pua_policy.pdf}
 {PUA Allocation Policy}.
 
 \section{OpenType Technology}
 \hypertarget{OT}{}\label{OT}
 
-OpenType is a “smart font” technology for advanced typography
+OpenType is a ``smart font'' technology for advanced typography
 developed by Microsoft Corporation and Adobe Systems and based on
 the TrueType font format. It allows for correct typography in 
 complex scripts as well as providing advanced typographic effects.
@@ -310,7 +260,7 @@ turned on and off by the user when desired.
 \subsection{On Microsoft Windows}
 
 In order to use these advanced typographic features,
-in addition to a “smart” font (like the fonts in this package), you need
+in addition to a ``smart'' font (like the fonts in this package), you need
 an OpenType-aware application. Not all applications currently support OpenType, 
 and not all applications that claim to support OpenType actually support
 all features or provide an interface to access features. Older versions of
@@ -322,7 +272,8 @@ using the \texttt{fontspec} package or using advanced desktop publishing softwar
 such as Adobe InDesign. Most OpenType features are also accessible
 in Microsoft Office 2010 and later. LibreOffice also supports OpenType features
 starting with version 4.1, and support for turning off and on optional features
-was added in version 5.3.
+was added in version 5.3. Please see the section
+\hyperlink{LO}{Support of Advanced Features in LibreOffice}, below.
 
 \subsection{On GNU/Linux}
 
@@ -390,7 +341,7 @@ demonstrated in the examples below:
 Generally speaking, the \emph{ccmp} feature is not supposed to
 (and often just cannot) be turned off, and thus this functionality
 should work properly in any OpenType-aware application. For more details
-on ligatures, see \href{http://www.unicode.org/notes/tn41/}{Unicode
+on ligatures, see \href{https://www.unicode.org/notes/tn41/}{Unicode
 Technical Note \#41: Church Slavonic Typography in Unicode}.
 
 \subsubsection{Language-based Features}
@@ -418,13 +369,13 @@ Church Slavonic appearances unless another language is specified.
 LibreOffice allows you to specify that text is in Church Slavonic
 starting with version 5.0. This will allow you to take advantage of other
 features, such as Church Slavonic hyphenation (see the
-\href{http://sci.ponomar.net/tools.html}{Slavonic Computing Initiative website}
+\href{https://sci.ponomar.net/tools.html}{Slavonic Computing Initiative website}
 for more information). Microsoft Corporation does not recognize
 Church Slavonic as a valid language, so you will not be able to set 
 the language of text to Church Slavonic in any Microsoft
-product.\footnote{Please do not contact the font maintainers about this issue.
+product\footnote{Please do not contact the font maintainers about this issue.
 Instead, complain to Microsoft Customer Service in the USA at 1-800-642-7676 
-or in Canada at +1 (877) 568-2495.}
+or in Canada at +1 (877) 568-2495.}.
 
 \subsubsection{Stylistic Alternatives and Stylistic Sets}
 
@@ -463,103 +414,44 @@ simultaneously or to access the |salt| feature. If necessary, you may access
 alternate glyphs by codepoint from the Private Use Area (PUA).
 However, relying on the PUA as a data exchange mechanism is discouraged.
 
-\section{SIL Graphite Technology}
+\subsection{SIL Graphite Technology}
 
-\hypertarget{Graphite}{}\label{Graphite}
+\hypertarget{Graphite}{}\label{Graphite} 
 
-\href{http://scripts.sil.org/Graphite}{Graphite} is a “smart font” technology
-developed by \href{http://www.sil.org}{SIL International}. Since, unlike OpenType,
-Graphite does not have predefined features, it provides the developer with an ability
-to control subtle typographic features that may be difficult or impossible to handle
-with OpenType. In fact, Graphite is in some respects more powerful than OpenType,
-though this additional power is not necessary for standard Church Slavonic typography.
-In addition, while support of OpenType features often varies from application to application,
-Graphite relies on a single engine, and thus all Graphite features are supported
-whenever an application supports Graphite. However, Graphite is not supported widely:
-in addition to SIL's own \href{http://scripts.sil.org/WorldPadDownload}{WorldPad}
-editor (a Windows-only application that requires a .NET runtime), Graphite is
-supported in LibreOffice (on GNU/Linux and Windows, starting with
-OpenOffice.org version 3.2; on OS X, starting with LibreOffice version 5.3),
-Mozilla Firefox (starting with version 11), and \XeTeX{} (starting with version 0.997).
-Graphite support is not available in Microsoft Office.
-
-Note that it is currently not possible to add Graphite tables to OpenType-CFF fonts.
-Therefore Graphite is only supported in the TrueType versions of fonts.
-
-\subsection{Graphite in LibreOffice}
-
-See the section
-\hyperlink{LO}{Support of Advanced Features in LibreOffice}, below.
-
-\subsection{Graphite in \XeTeX}
-
-Graphite support is available in \XeTeX, which means Graphite
-features are now accessible from \TeX{} documents. Moreover, it is possible
-to enable the Graphite font renderer with the \texttt{fontspec} package,
-which greatly simplifies selecting system-installed fonts in \XeTeX{} and \LuaTeX.
-This functionality requires at least \TeX{} Live 2010 or Mik\TeX 2.9.
-
-You can activate the Graphite rendering mode for a particular font via the
-the \texttt{Renderer} option (its value should be set to \texttt{Graphite})
-in the argument list of a font selection command. Since there are no standard
-feature tags in Graphite, the feature identifiers and their settings are
-passed to the \texttt{RawFeature} option as follows:
-
-\begin{verbatim}
-\newfontfamily{\graphA}
-      [Renderer=Graphite, RawFeature=
-          {Symbol for Mark's Chapter=Alternative 1}]
-{Ponomar Unicode TT}
-\end{verbatim}
-
-\noindent Please consult the \texttt{fontspec} documentation for more information.
+\begin{itemize}
+\item[\XeTeXpicfile "deprecated.png" width 4mm] As of version 1.3 of this package,
+support for \href{https://scripts.sil.org/Graphite}{SIL Graphite} features
+has been discontinued. If you need Graphite support, see the
+\href{https://github.com/slavonic/fonts-cu-legacy/}{Legacy Fonts package}.
+\end{itemize}
 
 \hypertarget{LO}{}\label{LO}
 
-\section{Support of Advanced Features in LibreOffice}
+\subsection{Support of Advanced Features in LibreOffice}
 
 Support for OpenType features is available in LibreOffice and all
 OpenOffice.org derivatives starting with version 3.2 of OpenOffice.org.
-In addition, LibreOffice (as well as other OpenOffice.org derivatives)
-automatically recognizes fonts which contain Graphite tables.
-For such fonts, Graphite rendering is enabled by default and the
-OpenType layout tables will be ignored. OpenType and SIL Graphite
-cannot be used simultaneously in LibreOffice, so if you do not want
-SIL Graphite layout, you should only use the OpenType-CFF versions of the fonts.
-
-While correct positioning, attachment and substitutions will work automatically both
-in the OpenType and SIL Graphite fonts, earlier versions of LibreOffice
+While correct positioning, attachment and substitutions will work automatically,
+earlier versions of LibreOffice
 had no mechanism to turn off and on optional features. Support for
-turning off and on Graphite features is available starting with LibreOffice version 4.1.
-However, there is no graphical interface that can be used
-to turn these features on and off. Instead, a special extended font name
+turning OpenType features off and on is available starting with LibreOffice version 4.1.
+However, there is no graphical interface that can be used.
+Instead, a special extended font name
 syntax has been developed: in order to activate an optional feature, its ID,
 followed by an equals sign and the ID of the desired setting, are appended
 directly to the font name string. An ampersand is used to separate
 different feature/settings pairs.
 
 For example, the following “font” should be used in order to enable
-the |mark| SIL Graphite feature and display
-alternative glyphs for U+1F545 Symbol for Marks Chapter:
-
-\begin{verbatim}
-Ponomar Unicode TT:mark=1
-\end{verbatim}
-
-\noindent for the first alternate glyph, \texttt{mark=2} for the second alternate
-glyph, and so forth.
-
-Beginning with LibreOffice version 5.3, the same syntax may be used also
-to turn off and on optional OpenType features, such as Stylistic Alternatives (|salt|)
-and Stylistic Sets (|ss01|, ...) in the OpenType-CFF versions of the fonts.
-For example, to turn on Stylistic Set 1 (|ss01|) in the
-font Ponomar Unicode, change the font name to the following:
+the |ss01| (Stylistic Set 1) feature:
 
 \begin{verbatim}
 Ponomar Unicode:ss01=1
 \end{verbatim}
 
-\noindent This feature is not available in Apache OpenOffice;
+The same syntax is used to turn off and on optional Stylistic Alternatives (|salt|),
+where \texttt{1} indicates the first alternate glyph, \texttt{2} -- the second alternate
+glyph, and so forth. Note that this feature is not available in Apache OpenOffice;
 since Apache OpenOffice is not well maintained, we suggest users migrate to LibreOffice.
 
 This functionality will be useful for LibreOffice users relying on automatic hyphenation.
@@ -567,7 +459,7 @@ Since LibreOffice has
 \href{https://bugs.documentfoundation.org/show_bug.cgi?id=85731}
 {no mechanism to set the hyphenation character}, the Ponomar Unicode
 and Monomakh Unicode fonts provide the underscore as a hyphenation
-character via Stylistic Set 1 in OpenType and via the |hyph| feature in SIL Graphite.
+character via Stylistic Set 1 in OpenType.
 
 Of course modifying the font name directly is very inconvenient, since
 it is difficult to remember short tags and numerical values used for
@@ -583,7 +475,9 @@ features.
 %results accessing glyphs directly by codepoint from the Private Use Area,
 %though this is not recommended.
 
-\section{Ponomar Unicode}
+\section{Fonts for Synodal Slavonic}
+
+\subsection{Ponomar Unicode}
 
 Ponomar Unicode is a font that reproduces the typeface of Synodal Church Slavonic
 editions from the beginning of the 20th Century. It is intended for working with
@@ -594,24 +488,17 @@ of this package. Examples of text set in Ponomar Unicode are presented below.
 %\lineskip=0pt
 %\lineskiplimit=-5em
 
-\subsection{Synodal Church Slavonic}
-
 \begin{churchslavonic}
 Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаде́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ. Не та́кѡ нечести́вїи, не та́кѡ: но ꙗ҆́кѡ пра́хъ, є҆го́же возмета́етъ вѣ́тръ ѿ лица̀ землѝ. Сегѡ̀ ра́ди не воскре́снꙋтъ нечести́вїи на сꙋ́дъ, нижѐ грѣ̑шницы въ совѣ́тъ првⷣныхъ. Ꙗ҆́кѡ вѣ́сть гдⷭ҇ь пꙋ́ть првⷣныхъ, и҆ пꙋ́ть нечести́выхъ поги́бнетъ.
 \end{churchslavonic}
 
-\subsection{Kievan Church Slavonic}
-
-Kievan Church Slavonic uses a number of variant glyph forms, such as U+1C81 Long-Legged De ({\slv ᲁ}) and U+A641 Variant Ze ({\slv ꙁ}):
+\textbf{Kievan Church Slavonic} uses a number of variant glyph forms, such as U+1C81 Long-Legged De ({\slv ᲁ}) and U+A641 Variant Ze ({\slv ꙁ}):
 
 \begin{churchslavonic}
 Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́ᲁе на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣᲁа́лищи гꙋби́телей не сѣ́ᲁе: но въ зако́нѣ гᲁⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́ᲁетъ ꙗ҆́кѡ дре́во насажᲁе́ное при и҆схо́ᲁищихъ во́ᲁъ, є҆́же плоᲁъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаᲁе́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ. Не та́кѡ нечести́вїи, не та́кѡ: но ꙗ҆́кѡ пра́хъ, є҆го́же воꙁмета́етъ вѣ́тръ ѿ лица̀ землѝ. Сегѡ̀ ра́ᲁи не воскре́снꙋтъ нечести́вїи на сꙋ́ᲁъ, нижѐ грѣ̑шницы въ совѣ́тъ првⷣныхъ. Ꙗ҆́кѡ вѣ́сть гᲁⷭ҇ь пꙋ́ть првⷣныхъ, и҆ пꙋ́ть нечести́выхъ поги́бнетъ.
 \end{churchslavonic}
 
-\subsection{Other Languages}
-
-The Ponomar Unicode font may also be used to typeset liturgical texts in other languages that use the ecclesiastic Cyrillic alphabet. Three such examples
-are fully supported by the font: Romanian (Moldovan) in its Cyrillic alphabet, Aleut (Fox Island or Eastern dialect) in its Cyrillic alphabet, and Yakut (Sakha) as written in the alphabet created by Bishop Dionysius (Khitrov).
+\textbf{Other Languages} The Ponomar Unicode font may also be used to typeset liturgical texts in other languages that use the ecclesiastic Cyrillic alphabet. Three such examples are fully supported by the font: Romanian (Moldovan) in its Cyrillic alphabet, Aleut (Fox Island or Eastern dialect) in its Cyrillic alphabet, and Yakut (Sakha) as written in the alphabet created by Bishop Dionysius (Khitrov).
 
 \noindent Here is an example of the Lord's Prayer in Romanian (Moldovan) Cyrillic: \\
 
@@ -631,21 +518,11 @@ are fully supported by the font: Romanian (Moldovan) in its Cyrillic alphabet, A
 Халланнаръ юрдюлѧригѧрь баръ агабытъ бисенѧ ! Свѧтейдѧннинь а̄тыҥъ эенѧ ; кѧллинь царстваҥъ эенѧ ; сирь юрдюгѧрь кёҥюлюҥь эенѧ , халланъ юрдюгѧрь курдукъ боллунъ ; бюгюҥю кюннѧги асыръ аспытынъ бисенинь кулу бисеха бюгюнь ; бисиги да естѧрбитинь халларъ бисеха , хайтахъ бисиги да халларабытъ беэбить естѧхтѧрбитигѧрь ; килѧримѧ да бисигини альԫархайга ; хата быса бисигини албынтанъ . \\
 \end{churchslavonic}
 
-\noindent Here is an example using the Typicon symbols from Nikita Syrnikov's book {\slv Клю́чъ къ церко́вномꙋ ᲂу҆ста́вꙋ}:
-
-\begin{churchslavonic}
-і\textcolor{red}{і}꙼̇ ⧟̇҃ іѡа́ннꙋ і̲꙼ на лиⷮ бл҃жеⷩ҇, па́влꙋ пѣⷭ҇ г҃. а і҆оа́ннꙋ ѕ҃.
-
-и᷷͏҃і і\textcolor{red}{і}꙼̇ ⧟̲̇҃ кири́лꙋ і̲꙼ коⷣ и҆ и҆́коⷭ҇ о҆́бщїй и҆ коⷣ а҆фана́сїю.
-
-д҃ 🤉 іі̲ и҆си́дорꙋ ⹇ гео́ргїю кири́лѣ ⹉
-\end{churchslavonic}
-
-\subsection{Font Features}
+\subsubsection{Advanced Features of the Font}
 
 Ponomar Unicode places some characters in the Private Use Area (PUA).
 For the general PUA mappings, please see the
-\href{http://www.ponomar.net/files/pua_policy.pdf}{PUA Allocation Policy}.
+\href{https://www.ponomar.net/files/pua_policy.pdf}{PUA Allocation Policy}.
 
 In addition to the general PUA mappings, some characters have been
 allocated the open range section of the PUA. These are:
@@ -674,7 +551,7 @@ Ligature Te-Ve	& U+0442 U+200D U+0432	& {\slv{\large т‍в}}	\\
 
 \noindent In OpenType, a number of Stylistic Alternatives are defined. They are listed in Table~\ref{salt1}.
 In addition to additional decorative glyphs for the Symbol for Mark's Chapter,
-the feature provides the alternate forms of the letter U+0423 U that look
+the feature provides the alternate forms of the letter U+0423 {\slv У} that look
 exactly like U+A64A Uk (this usage is found in some publications),
 and an alternative form for the U+0404 Wide Ye for use in contexts 
 where it needs to be distinguished from U+0415 Ye (mostly for Ukrainian text
@@ -762,101 +639,39 @@ Blackletter &
 ``Arabic numerals'') are provided in roman form. Use Stylistic Set 2 to access
 the blackletter forms, if necessary.
 
-\subsection{SIL Graphite Features}
+\section{Fonts for Pre-Nikonian Printed Slavonic}
 
-\newfontfamily{\graph}[Renderer=Graphite]{Ponomar Unicode TT}
-
-The SIL Graphite features in the font provide the same functionality
-as the OpenType features. The ``Symbol for Mark's Chapter'' (``mark'') feature
-provides alternatives for the U+1F545 Symbol for Marks Chapter,
-much like the salt feature in OpenType. 
-The following values produce the results given in Table~\ref{ponograph}.
-
-\newfontfamily{\graphA}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 1}]{Ponomar Unicode TT}
-\newfontfamily{\graphB}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 2}]{Ponomar Unicode TT}
-\newfontfamily{\graphC}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 3}]{Ponomar Unicode TT}
-\newfontfamily{\graphD}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 4}]{Ponomar Unicode TT}
-\newfontfamily{\graphE}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 5}]{Ponomar Unicode TT}
-\newfontfamily{\graphF}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 6}]{Ponomar Unicode TT}
-\newfontfamily{\graphG}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 7}]{Ponomar Unicode TT}
-\newfontfamily{\graphH}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 8}]{Ponomar Unicode TT}
-
-\begin{table}[htbp]
-\centering
-\caption{Values of the Symbol for Mark's Chapter (``mark'') Feature in Ponomar Unicode \label{ponograph}}
-\begin{tabular}{lcccc}
-\hline
-	& Base form	& Alternative 1	& Alternative 2	& Alternative 3	\\
-U+1F545	& {\graph{\large 🕅 }}	& {\graphA{\large 🕅}} & {\graphB{\large 🕅}} & {\graphC{\large 🕅}} \\
-& Alternative 4	& Alternative 5	& Alternative 6	& Alternative 7 \\
-& {\graphD{\large 🕅}} & {\graphE{\large 🕅}} & {\graphF{\large 🕅}} & {\graphG{\large 🕅}} \\
-	& Alternative 8 \\
-& {\graphH{\large 🕅}} \\
-\hline
-\end{tabular}
-\end{table}
-
-\noindent The following additional Graphite features are provided 
-(they duplicate the functionality of OpenType features):
-
-\begin{itemize}
-\item The ``Truncation'' feature (``trnc'') provides the same functionality
-as stylistic alternatives (for truncation) above. The possible values are:
-\verb+1+ (lower truncation), \verb+2+ (upper truncation),
-\verb+3+ (left truncation) and \verb+4+ (right truncation).
-
-\item The ``Use blackletter characters for Latin'' feature (``blck'')
-provides the same functionality as Stylistic Set 2 in OpenType (see above).
-Possible values are |0| (no) and |1| (yes).
-
-\item The ``Use alternative form of U'' feature (``altu'')
-provides the alternative forms of the letter U+0423 U that look
-exactly like U+A64A Uk. Possible values are |0| (no) and |1| (yes).
-
-\item The ``Cyrillic i has dot'' feature (``doti'')
-provides a localized form of U+0456 Cyrillic I for use in Ukrainian
-text. Possible values are |0| (no) and |1| (yes).
-
-\item The ``Use underscore for hyphenation'' feature (``hyph'')
-provides the same functionality as Stylistic Set 1. It
-replaces all instances of U+002D Hyphen-Minus and U+2010 Hyphen
-with U+005F Low Line (underscore) for use as a hyphenation
-character. Possible values are |0| (no) and |1| (yes). Please note that this
-feature will be deprecated once the necessary functionality is 
-added to LibreOffice.
-\end{itemize}
-
-\section{Fedorovsk Unicode}
+\subsection{Fedorovsk Unicode}
 
 Fedorovsk Unicode is based on the Fedorovsk font designed by Nikita Simmons.
-It has been re-encoded for Unicode, with added OpenType and Graphite features
-by Aleksandr Andreev. The Fedorovsk typeface is supposed to reproduce the typeface
+It has been re-encoded for Unicode, with added OpenType features.
+The Fedorovsk typeface is supposed to reproduce the typeface
 of the printed editions of Ivan Fedorov produced in Moscow, for example, the
 Apostol of 1564. The font is intended primarily for typesetting pre-Nikonian (Old Rite)
 liturgical texts or for working with such texts in an academic context.
 
-\subsection{Sample Texts}
-\newfontfamily{\right}[StylisticSet=1,HyphenChar="200B]{Fedorovsk Unicode}
+\newfontfamily{\rightFedor}[StylisticSet=1,HyphenChar="200B]{Fedorovsk Unicode}
 
-\subsubsection{Apostol of Ivan Fedorov}
+Here is an example from the 1564 Apostol of Ivan Fedorov:
 
 \begin{churchslavonic}
-{\Large \right
+{\Large \rightFedor
 \textcolor{red}{П}е́рвᲂе ᲂу҆́бо︀ сло́во︀ сᲂтвᲂри́хъ о҆ всѣ́хъ , ѽ , ѳео҆́филе , о҆ ниⷯже начѧ́тъ і︮с︯ , твᲂри́тиже и҆ ᲂу҆чи́ти . д︀о︀ него́же дн҃е , запᲂвѣ́д︀авъ а҆пⷭ҇лᲂмъ дх҃ᲂмъ ст҃ыⷨ , и҆́хже и҆ꙁбра̀ вᲂзнесе́сѧ . преⷣ ни́миже и҆ пᲂста́ви себѐ жи́ва по страд︀а́нїи свᲂе҆́мъ . во︀ мно́зехъ и҆́стинныхъ зна́менїи҆хъ . дн҃ьми четы́ридесѧтьми ꙗ҆влѧ́ꙗсѧ и҆́мъ и҆ гл҃ѧ ꙗ҆́же о҆ црⷭ҇твїи бж҃їи . сни́миже и҆ ꙗ҆д︀ы̀ , пᲂвелѣва́ше и҆́мъ ѿ і҆е҆рᲂсали́ма не ѿлꙋча́тисѧ . но̑ жда́ти о҆бѣтᲂва́нїе ѿч︮е︯е , е҆́же слы́шасте ѿ́ менѐ . ꙗ҆́кѡ і҆ѡ҃а́ннъ ᲂу҆́бо︀ крⷭ҇ти́лъ е҆́сть вᲂдо́ю . вы́же и҆́мате крести́тисѧ дх҃ᲂмъ ст҃ы́мъ , не по мно́ꙁѣхъ си́хъ д︀︮н︯еⷯ .
 }
 \end{churchslavonic}
 
-\subsubsection{Flowery Triodion}
-\newfontfamily{\left}[StylisticSet=2,HyphenChar="200B]{Fedorovsk Unicode}
+Here is an example from the Flowery Triodion of 1648:
+
+\newfontfamily{\leftFedor}[StylisticSet=2,HyphenChar="200B]{Fedorovsk Unicode}
 
 \begin{churchslavonic}
-{\Large \left
+{\Large \leftFedor
 \textcolor{red}{стⷯры па́сцѣ . гла́съ , є҃ .} Д\textcolor{red}{а вᲂскрⷭ҇нетъ бг҃ъ ,꙳ и҆ разы́дꙋтсѧ вразѝ є҆гѡ̀ .}
 Па́сха сщ҃е́ннаѧ на́мъ дне́сь пᲂказа́сѧ , па́сха но́ва ст҃а́ѧ , па́сха таи́нственнаѧ , па́сха всечестна́ѧ , па́сха хрⷭ҇та̀ и҆зба́вителѧ , па́сха непᲂро́чнаѧ , па́сха вели́каѧ , па́сха вѣ́рнымъ , па́сха двѣ́ри ра́йскїѧ на́мъ ѿверза́ющаѧ , па́сха всѣ́хъ ѡ҆сщ҃а́ющаѧ вѣ́рныхъ .
 }
 \end{churchslavonic}
 
-\subsection{OpenType Features}
+\subsubsection{Advanced Features of the Font}
 
 The font provides a number of ligatures, which are made by inserting the Zero Width Joiner (U+200D) between two characters. A list of ligatures is provided in Table~\ref{ligs2}.
 
@@ -866,12 +681,12 @@ The font provides a number of ligatures, which are made by inserting the Zero Wi
 \begin{tabular}{lcc}
 Name	& Sequence	& Appearance \\
 \hline
-Ligature A-U	& U+0430 U+200D U+0443	& {\left{\large а‍у}}	\\
-Ligature El-U	& U+043B U+200D U+0443 & {\left{\large л‍у}}	\\
-Ligature A-Izhitsa & U+0430 U+200D U+0475	& {\left{\large а‍ѵ}}	\\
-Ligature El-Izhitsa & U+043B U+200D U+075 & {\left{\large л‍ѵ}}	\\
-Ligature Te-Ve	& U+0442 U+200D U+0432	& {\left{\large т‍в}}	\\
-Ligature Er-Yat	& U+0440 U+200D U+0463 & {\left{\large р‍ѣ}}	\\
+Ligature A-U	& U+0430 U+200D U+0443	& {\leftFedor{\large а‍у}}	\\
+Ligature El-U	& U+043B U+200D U+0443 & {\leftFedor{\large л‍у}}	\\
+Ligature A-Izhitsa & U+0430 U+200D U+0475	& {\leftFedor{\large а‍ѵ}}	\\
+Ligature El-Izhitsa & U+043B U+200D U+075 & {\leftFedor{\large л‍ѵ}}	\\
+Ligature Te-Ve	& U+0442 U+200D U+0432	& {\leftFedor{\large т‍в}}	\\
+Ligature Er-Yat	& U+0440 U+200D U+0463 & {\leftFedor{\large р‍ѣ}}	\\
 \hline
 \end{tabular}
 \end{table}
@@ -882,13 +697,13 @@ glyph shapes for U+1F545 Symbol for Mark's Chapter, they allow you
 to control the positioning of diacritical marks over certain letters.
 
 \newfontfamily{\glyphfont}{Fedorovsk Unicode}
-\newfontfamily{\salt}[Alternate=0]{Fedorovsk Unicode}
-\newfontfamily{\salta}[Alternate=1]{Fedorovsk Unicode}
-\newfontfamily{\saltb}[Alternate=2]{Fedorovsk Unicode}
-\newfontfamily{\saltc}[Alternate=3]{Fedorovsk Unicode}
-\newfontfamily{\saltd}[Alternate=4]{Fedorovsk Unicode}
-\newfontfamily{\salte}[Alternate=5]{Fedorovsk Unicode}
-\newfontfamily{\saltf}[Alternate=6]{Fedorovsk Unicode}
+\newfontfamily{\saltFedor}[Alternate=0]{Fedorovsk Unicode}
+\newfontfamily{\saltaFedor}[Alternate=1]{Fedorovsk Unicode}
+\newfontfamily{\saltbFedor}[Alternate=2]{Fedorovsk Unicode}
+\newfontfamily{\saltcFedor}[Alternate=3]{Fedorovsk Unicode}
+\newfontfamily{\saltdFedor}[Alternate=4]{Fedorovsk Unicode}
+\newfontfamily{\salteFedor}[Alternate=5]{Fedorovsk Unicode}
+\newfontfamily{\saltfFedor}[Alternate=6]{Fedorovsk Unicode}
 
 \begin{table}[htbp]
 \centering
@@ -896,34 +711,34 @@ to control the positioning of diacritical marks over certain letters.
 \begin{tabular}{lcccccccc}
 	& Base Form	& \multicolumn{7}{c}{Alternate Forms} \\
 \hline
-U+0404	& {\glyphfont{\large Є}} & {\salt\large Є} \\
-U+0426	& {\glyphfont{\large Ц}} & {\salt\large Ц} \\
-U+0491	& {\glyphfont{\large ґ}} & {\salt\large ґ} \\
-U+A64C	& {\glyphfont{\large Ꙍ}} & {\salt\large Ꙍ} \\
-U+047C	& {\glyphfont{\large Ѽ}} & {\salt\large Ѽ} \\
-U+047E	& {\glyphfont{\large Ѿ}} & {\salt\large Ѿ} \\
-U+047F	& {\glyphfont{\large ѿ}} & {\salt\large ѿ} \\
-U+1F545	& {\glyphfont{\large 🕅 }}	& {\salt\large 🕅} & {\salta\large 🕅} & {\saltb\large 🕅} & {\saltc\large 🕅}  & {\saltd\large 🕅} & {\salte\large 🕅} & {\saltf\large 🕅} \\
-U+0463 U+0486	& {\glyphfont{\large ѣ҆}} & {\salt\large ѣ҆}  \\
-U+0463 U+0300	& {\glyphfont{\large ѣ̀}} & {\salt\large ѣ̀} & {\salta\large ѣ̀} \\
-U+0463 U+0301	& {\glyphfont{\large ѣ́}} & {\salt\large ѣ́} & {\salta\large ѣ́} \\
-U+0463 U+0311	& {\glyphfont{\large ѣ̑}} & {\salt\large ѣ̑} & {\salta\large ѣ̑} \\
-U+0463 U+0486 U+0301	& {\glyphfont{\large ѣ҆́}} & {\salt\large ѣ҆́}  \\
-U+A64B U+0486	& {\glyphfont{\large ꙋ҆}} & {\salt\large ꙋ҆}  \\
-U+A64B U+0300	& {\glyphfont{\large ꙋ̀}} & {\salt\large ꙋ̀} & {\salta\large ꙋ̀} \\
-U+A64B U+0301	& {\glyphfont{\large ꙋ́}} & {\salt\large ꙋ́} & {\salta\large ꙋ́} \\
-U+A64B U+0311	& {\glyphfont{\large ꙋ̑}} & {\salt\large ꙋ̑} & {\salta\large ꙋ̑} & {\saltb\large ꙋ̑} \\
-U+A64B U+0486 U+0301	& {\glyphfont{\large ꙋ҆́}} & {\salt\large ꙋ҆́}  \\
+U+0404	& {\glyphfont{\large Є}} & {\saltFedor\large Є} \\
+U+0426	& {\glyphfont{\large Ц}} & {\saltFedor\large Ц} \\
+U+0491	& {\glyphfont{\large ґ}} & {\saltFedor\large ґ} \\
+U+A64C	& {\glyphfont{\large Ꙍ}} & {\saltFedor\large Ꙍ} \\
+U+047C	& {\glyphfont{\large Ѽ}} & {\saltFedor\large Ѽ} \\
+U+047E	& {\glyphfont{\large Ѿ}} & {\saltFedor\large Ѿ} \\
+U+047F	& {\glyphfont{\large ѿ}} & {\saltFedor\large ѿ} \\
+U+1F545	& {\glyphfont{\large 🕅 }}	& {\saltFedor\large 🕅} & {\saltaFedor\large 🕅} & {\saltbFedor\large 🕅} & {\saltcFedor\large 🕅}  & {\saltdFedor\large 🕅} & {\salteFedor\large 🕅} & {\saltfFedor\large 🕅} \\
+U+0463 U+0486	& {\glyphfont{\large ѣ҆}} & {\saltFedor\large ѣ҆}  \\
+U+0463 U+0300	& {\glyphfont{\large ѣ̀}} & {\saltFedor\large ѣ̀} & {\saltaFedor\large ѣ̀} \\
+U+0463 U+0301	& {\glyphfont{\large ѣ́}} & {\saltFedor\large ѣ́} & {\saltaFedor\large ѣ́} \\
+U+0463 U+0311	& {\glyphfont{\large ѣ̑}} & {\saltFedor\large ѣ̑} & {\saltaFedor\large ѣ̑} \\
+U+0463 U+0486 U+0301	& {\glyphfont{\large ѣ҆́}} & {\saltFedor\large ѣ҆́}  \\
+U+A64B U+0486	& {\glyphfont{\large ꙋ҆}} & {\saltFedor\large ꙋ҆}  \\
+U+A64B U+0300	& {\glyphfont{\large ꙋ̀}} & {\saltFedor\large ꙋ̀} & {\saltaFedor\large ꙋ̀} \\
+U+A64B U+0301	& {\glyphfont{\large ꙋ́}} & {\saltFedor\large ꙋ́} & {\saltaFedor\large ꙋ́} \\
+U+A64B U+0311	& {\glyphfont{\large ꙋ̑}} & {\saltFedor\large ꙋ̑} & {\saltaFedor\large ꙋ̑} & {\saltbFedor\large ꙋ̑} \\
+U+A64B U+0486 U+0301	& {\glyphfont{\large ꙋ҆́}} & {\saltFedor\large ꙋ҆́}  \\
 \hline
 \end{tabular}
 \end{table}
 
 Additionally, three stylistic sets have been defined in the font.
-Stylistic set 1 (``Right-side accents'') positions the accents over the Yat
-and the Uk on the right side and Stylistic set 2 (``Left-side accents'')
+Stylistic Set 1 (``Right-side accents'') positions the accents over the Yat
+and the Uk on the right side and Stylistic Set 2 (``Left-side accents'')
 positions the accents over the Yat and the Uk on the left side.
 These stylistic sets are useful when a text uses one of
-these positionings throughout. Stylistic set 10 (``Equal Baseline Variants'')
+these positionings throughout. Stylistic Set 10 (``Equal Baseline Variants'')
 sets the capital letters on the same baseline as the
 lowercase letters (useful for working with the font
 in an academic context where the traditionally lowered
@@ -941,61 +756,9 @@ Cyrillic scripts). Here is an example:
 \end{tabular}
 \end{figure}
 
-\subsection{Graphite Features}
+\section{Fonts for Working with Ancient Manuscripts}
 
-The stylistic alternatives of the Mark's Chapter symbol,
-the Letter Ge with Upturn, and the letters Ye, Tse,
-and Omega have been duplicated as Graphite features in
-the TTF version of the font, with names ``Symbol for Mark's Chapter'',
-``Ye'', ``Tse'', ``Ghe'', and ``Omega'' respectively.
-For the alternatives of the Mark's Chapter symbol, the values of the
-property are assigned to correspond with the 
-\href{http://www.ponomar.net/files/pua_policy.pdf}
-{Private Use Area Allocation Policy} and other fonts. The Graphite
-features are demonstrated in Table~\ref{fedorgraph}.
-
-\newfontfamily{\graph}[Renderer=Graphite]{Fedorovsk Unicode TT}
-\newfontfamily{\graphA}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 1}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphB}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 2}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphC}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 3}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphD}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 4}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphE}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 7}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphF}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 8}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphG}[Renderer=Graphite, RawFeature={Symbol for Mark's Chapter=Alternative 9}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphYe}[Renderer=Graphite, RawFeature={Ye=Alternative 1}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphTse}[Renderer=Graphite, RawFeature={Tse=Alternative 1}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphGhe}[Renderer=Graphite, RawFeature={Ghe=Alternative 1}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphOmega}[Renderer=Graphite, RawFeature={Omeg=Alternative 1}]{Fedorovsk Unicode TT}
-\newfontfamily{\graphOt}[Renderer=Graphite, RawFeature={Ot=Alternative 1}]{Fedorovsk Unicode TT}
-
-\begin{table}[htbp]
-\centering
-\caption{Alternatives via Graphite Features in Fedorovsk Unicode \label{fedorgraph}}
-\begin{tabular}{lcccc}
-\hline
-	& Base form	& Alternative 1	& Alternative 2	& Alternative 3	\\
-U+0404	& {\graph{\large Є }} & {\graphYe\large Є} \\
-U+0426	& {\graph{\large Ц}} & {\graphTse\large Ц} \\
-U+0491	& {\graph{\large ґ}} & {\graphGhe\large ґ} \\
-U+A64C	& {\graph{\large Ꙍ}} & {\graphOmega\large Ꙍ} \\
-U+047C	& {\graph{\large Ѽ}} & {\graphOmega\large Ѽ} \\
-U+047E	& {\graph{\large Ѿ}} & {\graphOt\large Ѿ} \\
-U+047F	& {\graph{\large ѿ}} & {\graphOt\large ѿ} \\
-U+1F545	& {\graph{\large 🕅 }}	& {\graphA{\large 🕅}} & {\graphB{\large 🕅}} & {\graphC{\large 🕅}}  \\
-	& 	& Alternative 4	& Alternative 7	& Alternative 8	  \\
-	&	& {\graphD{\large 🕅}} & {\graphE{\large 🕅}} & {\graphF{\large 🕅}} \\
-	&	& Alternative 9 \\
-	&	& {\graphG{\large 🕅}} \\
-\hline
-\end{tabular}
-\end{table}
-
-\noindent Two additional Graphite features are defined: ``Accent Positions'',
-with values ``left'' and ``right'', which mimics the behavior
-of stylistic sets 1 and 2; and ``Equal Baseline'' (with value ``yes''),
-which mimics the behavior of Stylistic Set 10.
-
-\section{Menaion Unicode}
+\subsection{Menaion Unicode}
 
 The Menaion typeface is supposed to be used for working with text
 of Ustav-era manuscripts. It contains the full repertoire of necessary
@@ -1003,12 +766,10 @@ Cyrillic and Glagolitic glyphs as well as glyphs of Byzantine Ecphonetic
 notation of the kind used in Cyrillic or Glagolitic manuscripts.
 
 The Menaion font was originally designed by Victor A. Baranov at
-\href{http://www.manuscripts.ru/}{the Manuscript Project}. It was
+\href{https://www.manuscripts.ru/}{the Manuscript Project}. It was
 re-encoded for Unicode by Aleksandr Andreev with permission of the original author.
 
-\newfontfamily{\glyphfont}[HyphenChar="200B]{Menaion Unicode}
-
-\subsection{Sample Texts}
+\newfontfamily{\menaion}[HyphenChar="200B]{Menaion Unicode}
 
 Samples of text in Menaion Unicode are presented in Figures~\ref{men1}
 and \ref{men2}. Please note that combining Glagolitic letters
@@ -1020,78 +781,74 @@ publishing software such as Adobe InDesign.
 
 \begin{figure}[htbp]
 \centering
-\caption{Cyrillic text from the Ostromir Gospels (11th century) \label{men1}}
+\caption{Cyrillic text from the Ostromir Gospel (11\textsuperscript{th} century) \label{men1}}
 \begin{tabular}{lr}
- 1& {\Large \glyphfont    Искони бѣ слово } \\
- 2& {\Large \glyphfont    и слово бѣ отъ  } \\
- 3& {\Large \glyphfont   б҃а и б҃ъ бѣ} \\ 
- 4& {\Large \glyphfont    слово  𝀏̃  се бѣ} \\ 
- 5& {\Large \glyphfont    искони оу} \\ 
- 6& {\Large \glyphfont    б҃а  ⁘  и тѣмь в̇са бꙑ} \\ 
- 7& {\Large \glyphfont    шѧ  𝀏̃  и беꙁ него ни} \\ 
- 8& {\Large \glyphfont    чьтоже не бꙑсть  ·} \\ 
- 9& {\Large \glyphfont   ѥже бꙑсть  𝀏̃  въ то} \\ 
-10& {\Large \glyphfont    мь животъ бѣ  ·  и} \\ 
- 1& {\Large \glyphfont    животъ бѣ свѣтъ} \\ 
- 2& {\Large \glyphfont    чловѣкомъ  𝀏̃  и свѣ} \\ 
- 3& {\Large \glyphfont    тъ въ тьмѣ свьти} \\ 
- 4& {\Large \glyphfont    тьсѧ  ·  и тьма ѥго} \\ 
- 5& {\Large \glyphfont    не обѧтъ  𝀏̃  бꙑсть} \\ 
- 6& {\Large \glyphfont    члв҃къ посъланъ} \\ 
- 7& {\Large \glyphfont    отъ б҃а  ·  имѧ ѥмоу} \\ 
- 8& {\Large \glyphfont    иоанъ  𝀏̃  тъ приде} \\ 
- 9& {\Large \glyphfont    въ съвѣдѣтель} \\ 
-10& {\Large \glyphfont    ство  ·  да съвѣдѣте} \\ 
-2.2  1& {\Large \glyphfont    льствоуѥть о свѣ} \\ 
- 2& {\Large \glyphfont    тѣ  𝀏̃  да вьси вѣрѫ} \\ 
- 3& {\Large \glyphfont    имѫть имь  ⁘  не бѣ} \\ 
- 4& {\Large \glyphfont    тъ свѣтъ  ⁘  нъ да} \\ 
- 5& {\Large \glyphfont    съвѣдѣтельствоу} \\ 
- 6& {\Large \glyphfont    ѥть о свѣтѣ  𝀏̃̑ бѣ} \\ 
- 7& {\Large \glyphfont    свѣтъ истиньнꙑ} \\ 
- 8& {\Large \glyphfont    и  ·  иже просвѣщаѥ} \\ 
- 9& {\Large \glyphfont    ть в́сꙗкого чл҃ка  ⸴} \\ 
-10& {\Large \glyphfont   грѧдѫща въ миръ  𝀏̃̑} \\ 
+ 1& {\Large \menaion    Искони бѣ слово } \\
+ 2& {\Large \menaion    и слово бѣ отъ  } \\
+ 3& {\Large \menaion   б҃а и б҃ъ бѣ} \\ 
+ 4& {\Large \menaion    слово  𝀏̃  се бѣ} \\ 
+ 5& {\Large \menaion    искони оу} \\ 
+ 6& {\Large \menaion    б҃а  ⁘  и тѣмь в̇са бꙑ} \\ 
+ 7& {\Large \menaion    шѧ  𝀏̃  и беꙁ него ни} \\ 
+ 8& {\Large \menaion    чьтоже не бꙑсть  ·} \\ 
+ 9& {\Large \menaion   ѥже бꙑсть  𝀏̃  въ то} \\ 
+10& {\Large \menaion    мь животъ бѣ  ·  и} \\ 
+ 1& {\Large \menaion    животъ бѣ свѣтъ} \\ 
+ 2& {\Large \menaion    чловѣкомъ  𝀏̃  и свѣ} \\ 
+ 3& {\Large \menaion    тъ въ тьмѣ свьти} \\ 
+ 4& {\Large \menaion    тьсѧ  ·  и тьма ѥго} \\ 
+ 5& {\Large \menaion    не обѧтъ  𝀏̃  бꙑсть} \\ 
+ 6& {\Large \menaion    члв҃къ посъланъ} \\ 
+ 7& {\Large \menaion    отъ б҃а  ·  имѧ ѥмоу} \\ 
+ 8& {\Large \menaion    иоанъ  𝀏̃  тъ приде} \\ 
+ 9& {\Large \menaion    въ съвѣдѣтель} \\ 
+10& {\Large \menaion    ство  ·  да съвѣдѣте} \\ 
+2.2  1& {\Large \menaion    льствоуѥть о свѣ} \\ 
+ 2& {\Large \menaion    тѣ  𝀏̃  да вьси вѣрѫ} \\ 
+ 3& {\Large \menaion    имѫть имь  ⁘  не бѣ} \\ 
+ 4& {\Large \menaion    тъ свѣтъ  ⁘  нъ да} \\ 
+ 5& {\Large \menaion    съвѣдѣтельствоу} \\ 
+ 6& {\Large \menaion    ѥть о свѣтѣ  𝀏̃̑ бѣ} \\ 
+ 7& {\Large \menaion    свѣтъ истиньнꙑ} \\ 
+ 8& {\Large \menaion    и  ·  иже просвѣщаѥ} \\ 
+ 9& {\Large \menaion    ть в́сꙗкого чл҃ка  ⸴} \\ 
+10& {\Large \menaion   грѧдѫща въ миръ  𝀏̃̑} \\ 
 \end{tabular}
 \end{figure}
 
 \begin{figure}[htbp]
 \centering
-\caption{Glagolitic text from Codex Assemanius (11th century) \label{men2}}
+\caption{Glagolitic text from \emph{Codex Assemanius} (11\textsuperscript{th} century) \label{men2}}
 \begin{tabular}{lr}
-1 & {\Large \glyphfont   ⁘ ⰅⰂⰀ𞀌҇   ⰙⰕ҇   ⰋⰉ҇Ⱁ } \\
- 2 & {\Large \glyphfont  Ⰻⱄⰽⱁⱀⰹ ⰱⱑ } \\
- 3 & {\Large \glyphfont       ⱄⰾⱁⰲⱁ  · } \\
- 4 & {\Large \glyphfont      ⰻ ⱄⰾⱁⰲⱁ } \\
- 5 & {\Large \glyphfont       ⰱⱑ ⱋ̔ ⰱⰰ  · } \\
- 6 & {\Large \glyphfont      ⰻ ⰱ͞ⱏ ⰱⱑ } \\
- 7 & {\Large \glyphfont      ⱄⰾⱁⰲⱁ  · } \\
- 8 & {\Large \glyphfont   Ⱄⰵ ⰱⱑ ⰻ̔ⱄⰽⱁ} \\
- 9 & {\Large \glyphfont     ⱀⰻ  ·  ⱋ̔ ⰱ꙯ⰰ  ·  ⰲⱐ} \\
-10 & {\Large \glyphfont     ⱄⱑ ⱅⱑⰿⱏ ⰱⱏⰻ} \\
-11 & {\Large \glyphfont     ⱎⱔ  ·  Ⰻ̔ ⰱⰵⰶ ⱀⰵⰳⱁ } \\
-12 & {\Large \glyphfont     ⱀⰹⱍⰵⱄⱁⰶⰵ } \\
-13 & {\Large \glyphfont     ⱀⰵ ⰱⱏⰻⱄⱅⱏ  ·  ⰵ̔} \\
-14 & {\Large \glyphfont     ⰶⰵ ⰱⱏⱄⱅⱏ  · } \\
-15 & {\Large \glyphfont    Ⰲⱏ ⱅⱁⰿⱏ ⰶⰹⰲⱁ} \\
-16 & {\Large \glyphfont     ⱅⱏ ⰱⱑ  ·  ⰻ ⰶⰹⰲⱁ} \\
-17 & {\Large \glyphfont     ⱅⱏ ⰱⱑ ⱄⰲⱑⱅⱏ } \\
-18 & {\Large \glyphfont     ⱍⰾ҃ⰽⰿⱏ  ·  ⰻ̔ ⱄⰲⱁⱑ } \\
-19 & {\Large \glyphfont     ⰲⱏ ⱅⱐⰿⱑ ⱄⰲⱏ} \\
-20 & {\Large \glyphfont     ⱅⰹⱅⱏ ⱄⱔ  ·  ⰻ ⱅⱐ} \\
-21 & {\Large \glyphfont     ⰿⰰ ⰵ̔ⰳⱁ ⱀⰵ ⱁ̔ⰱⱔⱅ } \\
+1 & {\Large \menaion   ⁘ ⰅⰂⰀ𞀌҇   ⰙⰕ҇   ⰋⰉ҇Ⱁ } \\
+ 2 & {\Large \menaion  Ⰻⱄⰽⱁⱀⰹ ⰱⱑ } \\
+ 3 & {\Large \menaion       ⱄⰾⱁⰲⱁ  · } \\
+ 4 & {\Large \menaion      ⰻ ⱄⰾⱁⰲⱁ } \\
+ 5 & {\Large \menaion       ⰱⱑ ⱋ̔ ⰱⰰ  · } \\
+ 6 & {\Large \menaion      ⰻ ⰱ͞ⱏ ⰱⱑ } \\
+ 7 & {\Large \menaion      ⱄⰾⱁⰲⱁ  · } \\
+ 8 & {\Large \menaion   Ⱄⰵ ⰱⱑ ⰻ̔ⱄⰽⱁ} \\
+ 9 & {\Large \menaion     ⱀⰻ  ·  ⱋ̔ ⰱ꙯ⰰ  ·  ⰲⱐ} \\
+10 & {\Large \menaion     ⱄⱑ ⱅⱑⰿⱏ ⰱⱏⰻ} \\
+11 & {\Large \menaion     ⱎⱔ  ·  Ⰻ̔ ⰱⰵⰶ ⱀⰵⰳⱁ } \\
+12 & {\Large \menaion     ⱀⰹⱍⰵⱄⱁⰶⰵ } \\
+13 & {\Large \menaion     ⱀⰵ ⰱⱏⰻⱄⱅⱏ  ·  ⰵ̔} \\
+14 & {\Large \menaion     ⰶⰵ ⰱⱏⱄⱅⱏ  · } \\
+15 & {\Large \menaion    Ⰲⱏ ⱅⱁⰿⱏ ⰶⰹⰲⱁ} \\
+16 & {\Large \menaion     ⱅⱏ ⰱⱑ  ·  ⰻ ⰶⰹⰲⱁ} \\
+17 & {\Large \menaion     ⱅⱏ ⰱⱑ ⱄⰲⱑⱅⱏ } \\
+18 & {\Large \menaion     ⱍⰾ҃ⰽⰿⱏ  ·  ⰻ̔ ⱄⰲⱁⱑ } \\
+19 & {\Large \menaion     ⰲⱏ ⱅⱐⰿⱑ ⱄⰲⱏ} \\
+20 & {\Large \menaion     ⱅⰹⱅⱏ ⱄⱔ  ·  ⰻ ⱅⱐ} \\
+21 & {\Large \menaion     ⰿⰰ ⰵ̔ⰳⱁ ⱀⰵ ⱁ̔ⰱⱔⱅ } \\
 \end{tabular}
 \end{figure}
 
-\subsection{Provided Ligatures}
+\subsubsection{Advanced Features of the Font}
 
 The font provides a number of ligatures, which are made
 by inserting the Zero Width Joiner (U+200D) between two
 characters. The list of ligatures is provided in Table~\ref{menligs}.
-The ligatures may be processed using either OpenType or
-SIL Graphite.
-
-\newfontfamily{\graph}[Renderer=Graphite]{Menaion Unicode TT}
 
 \begin{table}[htbp]
 \centering
@@ -1099,145 +856,64 @@ SIL Graphite.
 \begin{tabular}{lcc}
 Name	& Sequence	& Appearance \\
 \hline
-Small Ligature I-Ye &	U+0438 U+200D U+0435 	& {\glyphfont{\large и‍е }} \\
-Small Ligature En-I	&	U+043d U+200D U+0438 	& {\graph{\large н‍и }} \\
-Small Ligature En-Small Yus	& U+043d U+200D U+0467 	& {\glyphfont{\large н‍ѧ }} \\
-Small Ligature Es-Ve	&	U+0441 U+200D U+0432 	& {\glyphfont{\large с‍в }} \\
-Small Ligature Te-Er	&	U+0442 U+200D U+0440 	& {\glyphfont{\large т‍р }} \\
-Capital Litagure A-U	& 	U+0410 U+200D U+0423 	& {\glyphfont{\large А‍У }} \\
-Small Ligature A-U	&	U+0430 U+200D U+0443 	& {\glyphfont{\large а‍у }} \\
-Small Ligature A-Te		&	U+0430 U+200D U+0442 	& {\glyphfont{\large а‍т }} \\
-Capital Ligature I-Ye	&	U+0418 U+200D U+0415 	& {\glyphfont{\large И‍Е }} \\
-Capital Ligature El-Ge		&	U+041b U+200D U+0413 	& {\glyphfont{\large Л‍Г }} \\
-Small Ligature El-Ge		&	U+043b U+200D U+0433 	& {\glyphfont{\large л‍г }} \\
-Capital Ligature En-I	&	U+041d U+200D U+0418 	& {\glyphfont{\large Н‍И }} \\
-Capital Ligature En-Small Yus	&	U+041d U+200D U+0466 	& {\graph{\large Н‍Ѧ }} \\
-Capital Ligature Es-Ve		&	U+0421 U+200D U+0412 	& {\glyphfont{\large С‍В }} \\
-Small Ligature Te-Yat		&	U+0442 U+200D U+0463 	& {\glyphfont{\large т‍ѣ }} \\
-Capital Ligature Te-Ve	&	U+0422 U+200D U+0412	& {\glyphfont{\large Т‍В }} \\
-Small Ligature Te-Ve		&	U+0442 U+200D U+0432	& {\glyphfont{\large т‍в }} \\
-Capital Ligature Te-I		&	U+0422 U+200D U+0418 	& {\glyphfont{\large Т‍И }} \\
-Small Ligature Te-I		&	U+0442 U+200D U+0438 	& {\glyphfont{\large т‍и }} \\
-Capital Ligature Te-Er		&	U+0422 U+200D U+0420 	& {\glyphfont{\large Т‍Р }} \\
-Ligature Capital A-Small Te	&	U+0410 U+200D U+0442 	& {\glyphfont{\large А‍т }} \\
-Capital Ligature Te-Soft Sign	&	U+0422 U+200D U+042c 	& {\glyphfont{\large Т‍Ь }} \\
-Small Ligature Te-Soft Sign	&	U+0442 U+200D U+044c 	& ‍{\graph{\large т‍ь }} \\
-Small Ligature Te-A		&	U+0442 U+200D U+0430 	& {\glyphfont{\large т‍а }} \\
+Small Ligature I-Ye &	U+0438 U+200D U+0435 	& {\menaion{\large и‍е }} \\
+Small Ligature En-I	&	U+043d U+200D U+0438 	& {\menaion{\large н‍и }} \\
+Small Ligature En-Small Yus	& U+043d U+200D U+0467 	& {\menaion{\large н‍ѧ }} \\
+Small Ligature Es-Ve	&	U+0441 U+200D U+0432 	& {\menaion{\large с‍в }} \\
+Small Ligature Te-Er	&	U+0442 U+200D U+0440 	& {\menaion{\large т‍р }} \\
+Capital Litagure A-U	& 	U+0410 U+200D U+0423 	& {\menaion{\large А‍У }} \\
+Small Ligature A-U	&	U+0430 U+200D U+0443 	& {\menaion{\large а‍у }} \\
+Small Ligature A-Te		&	U+0430 U+200D U+0442 	& {\menaion{\large а‍т }} \\
+Capital Ligature I-Ye	&	U+0418 U+200D U+0415 	& {\menaion{\large И‍Е }} \\
+Capital Ligature El-Ge		&	U+041b U+200D U+0413 	& {\menaion{\large Л‍Г }} \\
+Small Ligature El-Ge		&	U+043b U+200D U+0433 	& {\menaion{\large л‍г }} \\
+Capital Ligature En-I	&	U+041d U+200D U+0418 	& {\menaion{\large Н‍И }} \\
+Capital Ligature En-Small Yus	&	U+041d U+200D U+0466 	& {\menaion{\large Н‍Ѧ }} \\
+Capital Ligature Es-Ve		&	U+0421 U+200D U+0412 	& {\menaion{\large С‍В }} \\
+Small Ligature Te-Yat		&	U+0442 U+200D U+0463 	& {\menaion{\large т‍ѣ }} \\
+Capital Ligature Te-Ve	&	U+0422 U+200D U+0412	& {\menaion{\large Т‍В }} \\
+Small Ligature Te-Ve		&	U+0442 U+200D U+0432	& {\menaion{\large т‍в }} \\
+Capital Ligature Te-I		&	U+0422 U+200D U+0418 	& {\menaion{\large Т‍И }} \\
+Small Ligature Te-I		&	U+0442 U+200D U+0438 	& {\menaion{\large т‍и }} \\
+Capital Ligature Te-Er		&	U+0422 U+200D U+0420 	& {\menaion{\large Т‍Р }} \\
+Ligature Capital A-Small Te	&	U+0410 U+200D U+0442 	& {\menaion{\large А‍т }} \\
+Capital Ligature Te-Soft Sign	&	U+0422 U+200D U+042c 	& {\menaion{\large Т‍Ь }} \\
+Small Ligature Te-Soft Sign	&	U+0442 U+200D U+044C 	& ‍{\menaion{\large т‍ь }} \\
+Small Ligature Te-A		&	U+0442 U+200D U+0430 	& {\menaion{\large т‍а }} \\
 \hline
 \end{tabular}
 \end{table}
 
-\section{Pomorsky Unicode}
+\section{Fonts for Academic Work}
 
-The Pomorsky Unicode font is a close (idealized)
-reproduction of the decorative calligraphic style of book and chapter titles,
-which was most likely developed in the 1700's by the scribes of the Old Ritualist
-Vyg River Hermitage (Выговская пустынь). 
-It is seen extensively in the chant manuscripts, liturgical manuscripts,
-hagiographic and polemical works of the Pomortsy and Fedoseyevtsy communities,
-and is a traditional and ``organic'' style of lettering lacking any obvious influence
-from western European and Latin typography.
-The Pomorsky typeface was originally designed by Nikita Simmons.
-It was edited and re-encoded for Unicode by Aleksandr Andreev.
-It is intended for use with
-\emph{bukvitsi} (drop caps) and decorative titling.
-
-Several versions of many glyphs are provided in the font.
-The ornate forms of the letters are default and provided at the uppercase
-Cyrillic codepoints; they should be used as much as possible.
-Simpler forms can be used whenever the letters need a less ornate appearance,
-or when diacritics might conflict with the ornamentation
-(or when the ornamentation of one character will conflict with
-the ornamentation of another); these simple forms are available as
-\verb+Stylistic Set 1+ or as the Graphite feature ``Use simple forms''
-(\verb+smpl+). There are a few additional characters that are stylistic
-variants, which are provided as Stylistic Alternatives (\verb+salt+)
-or as the Graphite feature ``Alternates'' (\verb+salt+).
-Since the font is intended for drop caps and titling, lowercase
-characters are not available.
-
-\newfontfamily{\glyphfont}{Pomorsky Unicode}
-\newfontfamily{\simple}[StylisticSet=1]{Pomorsky Unicode}
-\newfontfamily{\salt}[Alternate=0]{Pomorsky Unicode}
-\newfontfamily{\salta}[Alternate=1]{Pomorsky Unicode}
-
-The base form, the ``simple'' form, and any stylistic alternatives of 
-a character are demonstrated in Table~\ref{pomor}.
-
-\begin{table}[htbp]
-\centering
-\caption{Character shapes provided by Pomorsky Unicode \label{pomor}}
-{\fontsize{38pt}{1.5em}
-\begin{tabular}{cccc}
-	{\glyphfont А}{\simple А}{\salt А}	& {\glyphfont Б}{\simple Б} & {\glyphfont В}{\simple В} & {\glyphfont Г}{\simple Г} \\
-
-	{\glyphfont Е}{\simple Е}	& {\glyphfont Ж}{\simple Ж} & {\glyphfont Ѕ}{\simple Ѕ} & {\glyphfont З}{\simple З} \\
-	
-	{\glyphfont И}{\simple И}	& {\glyphfont Й}{\simple Й} & {\glyphfont І}{\simple І} & {\glyphfont Ї}{\simple Ї} \\
-
-	{\glyphfont К}{\simple К}{\salt К}{\salta К}	& {\glyphfont Л}{\simple Л} & {\glyphfont М}{\simple М} & {\glyphfont Н}{\simple Н} \\
-
-	{\glyphfont О}{\simple О}	& {\glyphfont Ѻ}{\simple Ѻ} & {\glyphfont П}{\simple П} & {\glyphfont Р}{\simple Р}{\salt Р}{\salta Р} \\
-
-	{\glyphfont С}{\simple С}	& {\glyphfont Т}{\simple Т} & {\glyphfont ОУ}{\simple ОУ} & {\glyphfont Ꙋ}{\simple Ꙋ} \\
-
-	{\glyphfont Ф}{\simple Ф}	& {\glyphfont Х}{\simple Х} & {\glyphfont Ѡ}{\simple Ѡ} & {\glyphfont Ѽ}{\simple Ѽ} \\
-
-	{\glyphfont Ѿ}{\simple Ѿ}	& {\glyphfont Ц}{\simple Ц} & {\glyphfont Ч}{\simple Ч} & {\glyphfont Ш}{\simple Ш} \\
-
-	{\glyphfont Щ}{\simple Щ}	& {\glyphfont Ъ}{\simple Ъ} & {\glyphfont Ы}{\simple Ы} & {\glyphfont Ь}{\simple Ь} \\
-
-	{\glyphfont Ѣ}{\simple Ѣ}	& {\glyphfont Ю}{\simple Ю} & {\glyphfont Ꙗ}{\simple Ꙗ}{\salt Ꙗ} & {\glyphfont Ѧ}{\simple Ѧ} \\
-
-	{\glyphfont Ѯ}{\simple Ѯ}	& {\glyphfont Ѱ}{\simple Ѱ} & {\glyphfont Ѳ}{\simple Ѳ} & {\glyphfont Ѵ}{\simple Ѵ} \\
-\end{tabular}
-}
-\end{table}
-
-\subsection{Sample Texts}
-
-\begin{center}
-\begin{tabular}{c}
-{\fontsize{48pt}{2em} \glyphfont ЧИ́НЪ ВЕЧЕ́РНИ.} \\
-{\fontsize{48pt}{2em} \simple ЧИ́НЪ ВЕЧЕ́РНИ.} \\
-{\fontsize{48pt}{2em} \glyphfont СѶНѠ́ДИКЪ.} \\
-{\fontsize{48pt}{2em} \simple СѶНѠ́ДИКЪ.} \\
-\end{tabular}
-\end{center}
-
-\section{Monomakh Unicode}
+\subsection{Monomakh Unicode}
 
 Monomakh Unicode is based on the Monomachus font designed by 
 Alexey Kryukov. It has been modified with permission.
 Monomakh Unicode is a Cyrillic font implemented in a mixed ustav/poluustav
 style and intended to cover needs of researches dealing with Slavic
 history and philology. It includes all historical Cyrillic characters
-currently defined in Unicode font also includes a set of Latin letters designed to be
+currently defined in Unicode, as well as a set of Latin letters designed to be
 stylistically compatible with the Cyrillic part. This may be useful for
 typesetting bilingual editions in Church Slavonic and languages
 written in the Latin script, especially those that use many diacritical marks,
 as in the Romanian example below.
 
-\newfontfamily{\glyphfont}
-      [Renderer=Graphite, RawFeature=
-          {Localized Forms for Romanian=Required Localized Forms}]
-{Monomakh Unicode TT}
-
-\subsection{Sample Bilingual Text}
+\newfontfamily{\monomakh}{Monomakh Unicode}
 
 \begin{tabular}{p{2.25in}p{0.02in}p{2.25in}}
 \begin{churchslavonic}
-{\glyphfont Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ.}
+{\monomakh Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ.}
 \end{churchslavonic}
 & &
 \begin{romanian}
-{\glyphfont Fericit bărbatul, care n-a umblat în sfatul necredincioșilor și în calea păcătoșilor nu a stat și pe scaunul hulitorilor n-a șezut; ci în legea Domnului e voia lui și la legea Lui va cugeta ziua și noaptea. și va fi ca un pom răsădit lângă izvoarele apelor, care rodul său va da la vremea sa.}
+{\monomakh Fericit bărbatul, care n-a umblat în sfatul necredincioșilor și în calea păcătoșilor nu a stat și pe scaunul hulitorilor n-a șezut; ci în legea Domnului e voia lui și la legea Lui va cugeta ziua și noaptea. și va fi ca un pom răsădit lângă izvoarele apelor, care rodul său va da la vremea sa.}
 \end{romanian}
 \end{tabular}
 
-\subsection{OpenType and SIL Graphite features}
+\subsubsection{Advanced Features of the Font}
 
-The Monomakh font offers a number of optional OpenType features that may be turned on or off by the user, coupled with analagous features in SIL Graphite. These are:
+The Monomakh font offers a number of optional OpenType features that may be turned on or off by the user. These are:
 
 \begin{itemize}
 \item Stylistic Set 1 (\emph{ss01}) is provided as a temporary workaround to
@@ -1246,30 +922,30 @@ The Monomakh font offers a number of optional OpenType features that may be turn
 the hyphenation character in LibreOffice. When turned on, it
 replaces all instances of U+002D Hyphen-Minus and U+2010 Hyphen
 with U+005F Low Line (underscore) for use as a hyphenation
-character. The Graphite analog is provided by the feature 
-``Use underscore for hyphenation'' feature (\emph{hyph}),
-which takes values |0| (no) and |1| (yes). Please note that this
+character. Please note that this
 feature will be deprecated once the necessary functionality is 
 added to LibreOffice.
-\item Stylistic Set 6 (\emph{ss06}) displays U+0456 Cyrillic Small Letter Ukrainian / Belorussian I with one dot above and Stylistic Set 7 (\emph{ss07}) displays the same character with two dots above. By default, U+0456 is displayed with no dots. The Graphite analog is provided by the feature Cyrillic Decimal I (\emph{deci}), which takes values 0 (default), 1 or 2, for the number of dots on U+0456.
-\item Stylistic Set 8 (\emph{ss08}) displays the characters U+0417 Cyrillic Capital Letter Ze and U+0437 Cyrillic Small Letter Ze as a ``sharp zemlya'', i.e., like the characters U+A640 Cyrillic Capital Letter Zemlya and U+A641 Cyrillic Small Letter Zemlya, respectively. In Graphite the same functionality is provided by the feature Cyrillic Zemlya (\emph{zeml}), which takes values \emph{Round} (0) and \emph{Sharp} (1). Generally, this change should be handled at the codepoint level, so the use of this feature is discouraged.
-\item Stylistic Set 9 (\emph{ss09}) displays the characters U+0427 Cyrillic Capital Letter Che and U+0447 Cyrillic Small Letter Che in their archaic form, with the descender in the middle (e.g., {\fontspec{Monomakh Unicode}[StylisticSet=9] ч} instead of {\glyphfont ч}). The same functionality is provided by the Graphite feature Cyrillic Cherv (\emph{chrv}), which takes values \emph{Modern (Single Sided)} (0) and \emph{Old (Double Sided)} (1).
-\item Stylistic Set 10 (\emph{ss10}) displays the characters U+0429 Cyrillic Capital Letter Shcha and U+0449 Cyrillic Small Letter Shcha in their modern form, with the descender on the right (e.g., {\fontspec{Monomakh Unicode}[StylisticSet=10] щ} instead of {\glyphfont щ}). The same functionality is provided by the Graphite feature Cyrillic Shcha (\emph{shch}), which takes values \emph{Modern (Descender Right)} (0) and \emph{Old (Descender Centered)} (1).
-\item Stylistic Set 11 (\emph{ss11}) displays the characters U+044B Cyrillic Small Letter Yeru and U+A651 Cyrillic Small Letter Yeru with Back Yer with the two glyphs connected (e.g., {\fontspec{Monomakh Unicode}[StylisticSet=11] ы} instead of {\glyphfont ы}). The same functionality is provided by the Graphite feature Cyrillic Yery (\emph{yery}), which takes on values \emph{Without a Connecting Line} (0) and \emph{With a Connecting Line} (1).
-\item Stylistic Set 13 (\emph{ss13}) displays the character U+0463 Cyrillic Small Letter Yat with the left stem extended to the baseline (e.g., as {\fontspec{Monomakh Unicode}[StylisticSet=13] ѣ}). The same functionality is provided by the Graphite feature Cyrillic Yat (\emph{cyat}), which takes values \emph{With a Back Beak} (0) and \emph{With an Additional Vertical Stem} (1). Please note that this is not the same as U+A653 Cyrillic Small Letter Iotified Yat.
+\item Stylistic Set 6 (\emph{ss06}) displays U+0456 Cyrillic Small Letter Ukrainian / Belorussian I with one dot above and Stylistic Set 7 (\emph{ss07}) displays the same character with two dots above. By default, U+0456 is displayed with no dots.
+\item Stylistic Set 8 (\emph{ss08}) displays the characters U+0417 Cyrillic Capital Letter Ze and U+0437 Cyrillic Small Letter Ze as a ``sharp zemlya'', i.e., like the characters U+A640 Cyrillic Capital Letter Zemlya and U+A641 Cyrillic Small Letter Zemlya, respectively. Generally, this change should be handled at the codepoint level, so the use of this feature is discouraged.
+\item Stylistic Set 9 (\emph{ss09}) displays the characters U+0427 Cyrillic Capital Letter Che and U+0447 Cyrillic Small Letter Che in their archaic form, with the descender in the middle (e.g., {\fontspec{Monomakh Unicode}[StylisticSet=9] ч} instead of {\monomakh ч}).
+\item Stylistic Set 10 (\emph{ss10}) displays the characters U+0429 Cyrillic Capital Letter Shcha and U+0449 Cyrillic Small Letter Shcha in their modern form, with the descender on the right (e.g., {\fontspec{Monomakh Unicode}[StylisticSet=10] щ} instead of {\monomakh щ}).
+\item Stylistic Set 11 (\emph{ss11}) displays the characters U+044B Cyrillic Small Letter Yeru and U+A651 Cyrillic Small Letter Yeru with Back Yer with the two glyphs connected (e.g., {\fontspec{Monomakh Unicode}[StylisticSet=11] ы} instead of {\monomakh ы}).
+\item Stylistic Set 13 (\emph{ss13}) displays the character U+0463 Cyrillic Small Letter Yat with the left stem extended to the baseline (e.g., as {\fontspec{Monomakh Unicode}[StylisticSet=13] ѣ}). Please note that this is not the same as U+A653 Cyrillic Small Letter Iotified Yat.
 \item The same functionality of these Stylistic Sets is provided in OpenType also by the Stylistic Alternatives (\emph{salt}) feature.
-\item Previous versions of the font provided Stylistic Set 1 (\emph{ss01}), duplicated as Graphite feature Localized Forms for Romanian (\emph{rold}), which displayed U+015E Latin Capital Letter S with Cedilla, U+0162 Latin Capital Letter T with Cedilla, and their lowercase analogs, as U+0218 Latin Capital Letter S with Comma Below, U+021A Latin Capital Letter T with Comma Below, and their lowercase analogs. However, since the use of U+015E, U+0162 and their lowercase analogs for the encoding of Romanian text is considered erroneous, this feature is deprecated. Users are strongly encouraged to convert their text at the codepoint level to use the correct characters for Romanian orthography. However, for the sake of compatibility with text that has been erroneously encoded, this feature is still available.
-\item Stylistic Set 15 (\emph{ss15}), which provides combining Cyrillic letters with an automatic \emph{pokrytie} where warranted by Synodal orthography is also deprecated and may be removed. Users should explicitly encode the \emph{pokrytie} as U+0487 Combining Cyrillic Pokrytie. See  \href{http://www.unicode.org/notes/tn41/}
+\item[\XeTeXpicfile "deprecated.png" width 4mm] Previous versions of the font provided Stylistic Set 1 (\emph{ss01}), which displayed U+015E Latin Capital Letter S with Cedilla, U+0162 Latin Capital Letter T with Cedilla, and their lowercase analogs, as U+0218 Latin Capital Letter S with Comma Below, U+021A Latin Capital Letter T with Comma Below, and their lowercase analogs. However, since the use of U+015E, U+0162 and their lowercase analogs for the encoding of Romanian text is considered erroneous, this feature is deprecated. Users are strongly encouraged to convert their text at the codepoint level to use the correct characters for Romanian orthography. However, for the sake of compatibility with text that has been erroneously encoded, this feature is still available.
+\item[\XeTeXpicfile "deprecated.png" width 4mm]  Stylistic Set 15 (\emph{ss15}), which provides combining Cyrillic letters with an automatic \emph{pokrytie} where warranted by Synodal orthography is also deprecated and may be removed. Users should explicitly encode the \emph{pokrytie} as U+0487 Combining Cyrillic Pokrytie. See  \href{https://www.unicode.org/notes/tn41/}
 {UTN 41: Church Slavonic Typography in Unicode} for more information.
 \end{itemize}
 
-Two additional features are available in SIL Graphite only:
+Two additional features were available in SIL Graphite only; however support for SIL Graphite has been discontinued. If you need these features, see the \href{https://github.com/slavonic/fonts-cu-legacy/}{Legacy Fonts package}:
 \begin{itemize}
-\item The Graphite feature Convert Arabic Digits to Church Slavonic (\emph{cnum}), when turned on, will automatically display Western Digits (``Arabic numerals'') as Cyrillic numerals. This is helpful, for example, for page numbering in software that does not support Cyrillic numerals.
-\item The Graphite feature Convert HIP-6B Keystrokes to Church Slavonic Characters (\emph{hipb}), when turned on, will display text encoded in the legacy HIP codepage as Church Slavonic. The use of this feature is discouraged and users are encouraged instead to convert HIP-encoded text to Unicode.
+\item[\XeTeXpicfile "deprecated.png" width 4mm] The Graphite feature Convert Arabic Digits to Church Slavonic (\emph{cnum}), when turned on, will automatically display Western Digits (``Arabic numerals'') as Cyrillic numerals. This is helpful, for example, for page numbering in software that does not support Cyrillic numerals.
+\item[\XeTeXpicfile "deprecated.png" width 4mm] The Graphite feature Convert HIP-6B Keystrokes to Church Slavonic Characters (\emph{hipb}), when turned on, will display text encoded in the legacy HIP codepage as Church Slavonic. The use of this feature is discouraged and users are encouraged instead to convert HIP-encoded text to Unicode.
 \end{itemize}
 
-\section{Indiction Unicode}
+\section{Decorative Fonts}
+
+\subsection{Indiction Unicode}
 
 The Indiction Unicode font reproduces the decorative style of drop caps
 used in Synodal Slavonic editions since the late 1800's.
@@ -1280,69 +956,119 @@ The font was reencoded for Unicode and edited by Aleksandr Andreev, and is now
 distributed as Indiction Unicode under the SIL Open Font License.
 It is intended for use with
 \emph{bukvitsi} (drop caps) in modern Church Slavonic editions.
-The character shapes are demonstrated in Table~\ref{indict}.
 
-\begin{table}[htbp]
-\centering
-\caption{Character shapes provided by Indiction Unicode \label{indict}}
-{\fontsize{38pt}{1.5em}
-\begin{tabular}{cccc}
-	{\ind А}	& {\ind Б} & {\ind В} & {\ind Г} \\
-
-	{\ind Е}	& {\ind Ж} & {\ind Ѕ} & {\ind З} \\
-	
-	{\ind И}	&  {\ind І} & {\ind К}	& {\ind Л} \\
-
-	{\ind М} & {\ind Н} & 	{\ind О} & {\ind Ѻ} \\
-
-	{\ind П} & {\ind Р} & {\ind С}	& {\ind Т} \\
-
-	{\ind Ꙋ} & {\ind Ф} & {\ind Х} & {\ind Ѡ} \\
-
-	{\ind Ѽ} & {\ind Ꙍ} & {\ind Ѿ}	& {\ind Ц} \\
-
-	{\ind Ч} & {\ind Ш} & {\ind Щ} & {\ind Ъ} \\
-
-	{\ind Ы} & {\ind Ь} & {\ind Ѣ} & {\ind Ю} \\
-
-	{\ind Ꙗ} & {\ind Ѧ} & {\ind Ѯ} & {\ind Ѱ} \\
-
-	{\ind Ѳ} & {\ind Ѵ} & {\ind Ѷ} \\
-\end{tabular}
-}
-\end{table}
-
-\subsection{Sample Texts}
-\vspace{-1em}
 \begin{churchslavonic}
 \cuLettrine Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаде́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ.
 \par
 \end{churchslavonic}
 
+\subsection{Vertograd Unicode}
+
+Vertograd Unicode (based on Vertograd UCS by Vlad Dorosh) is another font for decorative dropcaps and titling. The typeface was commonly used in pre-revolution Russian liturgical editions. Note that some letters that are typically not encountered in capital form are not available. Please file an issue if you need a letter that is not available.
+
+\renewcommand{\LettrineFontHook}{\vertograd \cuKinovarColor}
+\begin{churchslavonic}
+\cuLettrine Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ, и҆ на пꙋтѝ грѣ́шныхъ не ста̀, и҆ на сѣда́лищи гꙋби́телей не сѣ́де: но въ зако́нѣ гдⷭ҇ни во́лѧ є҆гѡ̀, и҆ въ зако́нѣ є҆гѡ̀ поꙋчи́тсѧ де́нь и҆ но́щь. И҆ бꙋ́детъ ꙗ҆́кѡ дре́во насажде́ное при и҆схо́дищихъ во́дъ, є҆́же пло́дъ сво́й да́стъ во вре́мѧ своѐ, и҆ ли́стъ є҆гѡ̀ не ѿпаде́тъ: и҆ всѧ̑, є҆ли̑ка а҆́ще твори́тъ, ᲂу҆спѣ́етъ.
+\par
+\end{churchslavonic}
+
+\subsection{Cathisma Unicode}
+
+Cathisma Unicode is based on Kathisma UCS, designed by Vlad Dorosh. The typeface is used for titling in many 18\textsuperscript{th}--20\textsuperscript{th} century liturgical editions.
+
+\newfontfamily{\cathisma}{Cathisma Unicode}
+\begin{center}
+\begin{tabular}{c}
+{\fontsize{42pt}{2em} \cathisma ЧИ́НЪ ОУ҆́ТРЕНИ ВСЕНО́ЩНАГѠ БДѢ́НЇѦ} \\
+\end{tabular}
+\end{center}
+
+\subsection{Oglavie Unicode}
+
+Oglavie Unicode is based on Oglavie UCS, designed by Vlad Dorosh. The typeface is also used for decorative titling in 18\textsuperscript{th}--20\textsuperscript{th} century liturgical editions.
+
+\newfontfamily{\oglavie}{Oglavie Unicode}
+\begin{center}
+\begin{tabular}{c}
+{\fontsize{42pt}{2em} \oglavie ТРЇѠ́ДЬ НО́ТНАГѠ ПѢ́НЇѦ} \\
+\end{tabular}
+\end{center}
+
+\subsection{Pomorsky Unicode}
+
+The Pomorsky Unicode font is a close
+reproduction of the decorative calligraphic style of book and chapter titles,
+which was most likely developed in the 1700's by the scribes of the Old Ritualist
+Vyg River Hermitage (Выговская пустынь). 
+It is seen extensively in the chant manuscripts, liturgical manuscripts,
+hagiographic and polemical works of the Pomortsy and Fedoseyevtsy communities,
+and is a traditional and ``organic'' style of lettering lacking any obvious influence
+from Western European typography.
+The Pomorsky typeface was originally designed by Nikita Simmons.
+It is intended for use with
+\emph{bukvitsi} (drop caps) and decorative titling.
+
+\newfontfamily{\pomorsky}{Pomorsky Unicode}
+\newfontfamily{\simple}[StylisticSet=1]{Pomorsky Unicode}
+\newfontfamily{\pomorskysalt}[Alternate=0]{Pomorsky Unicode}
+\newfontfamily{\pomorskysalta}[Alternate=1]{Pomorsky Unicode}
+
+\begin{center}
+\begin{tabular}{c}
+{\fontsize{48pt}{2em} \pomorsky ЧИ́НЪ ВЕЧЕ́РНИ.} \\
+\end{tabular}
+\end{center}
+
+\subsubsection{Advanced Features of the Font}
+
+Several versions of many glyphs are provided in the font.
+The ornate forms of the letters are default and provided at the uppercase
+Cyrillic codepoints; they should be used as much as possible.
+Simpler forms can be used whenever the letters need a less ornate appearance,
+or when diacritics might conflict with the ornamentation
+(or when the ornamentation of one character will conflict with
+the ornamentation of another); these simple forms are available as
+\verb+Stylistic Set 1+. There are a few additional characters that are stylistic
+variants, which are provided as Stylistic Alternatives (\verb+salt+).
+Since the font is intended for drop caps and titling, lowercase
+characters are not available. The base form, the ``simple'' form, and any stylistic alternatives of 
+a character are demonstrated in Table~\ref{pomor}.
+
+\begin{table}[htbp]
+\centering
+\caption{Character shapes provided by Pomorsky Unicode \label{pomor}}
+{\fontsize{38pt}{1.5em}
+\begin{tabular}{cccc}
+	{\pomorsky А}{\simple А}{\pomorskysalt А}	& {\pomorsky Б}{\simple Б} & {\pomorsky В}{\simple В} & {\pomorsky Г}{\simple Г} \\
+
+	{\pomorsky Е}{\simple Е}	& {\pomorsky Ж}{\simple Ж} & {\pomorsky Ѕ}{\simple Ѕ} & {\pomorsky З}{\simple З} \\
+	
+	{\pomorsky И}{\simple И}	& {\pomorsky Й}{\simple Й} & {\pomorsky І}{\simple І} & {\pomorsky Ї}{\simple Ї} \\
+
+	{\pomorsky К}{\simple К}{\pomorskysalt К}{\pomorskysalta К}	& {\pomorsky Л}{\simple Л} & {\pomorsky М}{\simple М} & {\pomorsky Н}{\simple Н} \\
+
+	{\pomorsky О}{\simple О}	& {\pomorsky Ѻ}{\simple Ѻ} & {\pomorsky П}{\simple П} & {\pomorsky Р}{\simple Р}{\pomorskysalt Р}{\pomorskysalta Р} \\
+
+	{\pomorsky С}{\simple С}	& {\pomorsky Т}{\simple Т} & {\pomorsky ОУ}{\simple ОУ} & {\pomorsky Ꙋ}{\simple Ꙋ} \\
+
+	{\pomorsky Ф}{\simple Ф}	& {\pomorsky Х}{\simple Х} & {\pomorsky Ѡ}{\simple Ѡ} & {\pomorsky Ѽ}{\simple Ѽ} \\
+
+	{\pomorsky Ѿ}{\simple Ѿ}	& {\pomorsky Ц}{\simple Ц} & {\pomorsky Ч}{\simple Ч} & {\pomorsky Ш}{\simple Ш} \\
+
+	{\pomorsky Щ}{\simple Щ}	& {\pomorsky Ъ}{\simple Ъ} & {\pomorsky Ы}{\simple Ы} & {\pomorsky Ь}{\simple Ь} \\
+
+	{\pomorsky Ѣ}{\simple Ѣ}	& {\pomorsky Ю}{\simple Ю} & {\pomorsky Ꙗ}{\simple Ꙗ}{\pomorskysalt Ꙗ} & {\pomorsky Ѧ}{\simple Ѧ} \\
+
+	{\pomorsky Ѯ}{\simple Ѯ}	& {\pomorsky Ѱ}{\simple Ѱ} & {\pomorsky Ѳ}{\simple Ѳ} & {\pomorsky Ѵ}{\simple Ѵ} \\
+\end{tabular}
+}
+\end{table}
+
 \section{Known Issues}
 
-Here are some known issues:
-
-\begin{itemize}
-
-\item Kerning is not available for Latin characters in any of the fonts.
-Since it is not expected for these fonts to be heavily used to typeset Latin
-text, this issue is not a very high priority for resolution.
-
-\item Ponomar Unicode has Graphite-based kerning for Cyrillic 
-characters starting in version 2.0, but it is defective. In particular,
-inserting a diacritical mark will break the kerning between two letters.
-This will be fixed in version 2.1.
-
-\item Kerning is not available in the Graphite version of 
-Pomorsky Unicode.
-
-\end{itemize}
-
-\noindent There may be other issues, but before reporting such issues,
-please check that your software properly supports OpenType and / or
-SIL Graphite. We suggest checking for expected behavior in \XeTeX{}
-or \LuaTeX{}.
+See the \href{https://github.com/typiconman/fonts-cu/issues/}{Issue Tracker}.
+Before reporting issues, please check that your software properly supports OpenType.
+We suggest checking for expected behavior in \XeTeX{} or \LuaTeX{}.
 
 \section{Credits}
 
@@ -1370,4 +1096,3 @@ consulted and partially reused.
 \end{itemize}
 
 \end{document}
-

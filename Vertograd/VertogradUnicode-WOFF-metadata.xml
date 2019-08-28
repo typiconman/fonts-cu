@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-    <uniqueid id="net.ponomar.MonomakhUnicode1.2" />
+    <uniqueid id="net.ponomar.VertogradUnicode1.1" />
     <vendor name="Ponomar Technologies, Inc." url="https://sci.ponomar.net/" />
     <credits>
         <credit
-            name="Alexey Kryukov"
-            role="Original design of Monomachus font" />
-        <credit
-            name="Aleksandr Andreev"
+            name="Aleksandr Andreev, Yuri Shardt, and Nikita Simmons"
             url="https://www.ponomar.net/"
-            role="Reencoding, redesing, and other features" />
+            role="Reencoding for Unicode, redesing, and other features" />
     </credits>
     <description>
         <text lang="en">
-        Originally released as Monomachus, this font has been reencoded and renamed,
-	    with permission from original author.
+        Vertograd Unicode is based on Vertograd UCS, designed by Vlad Dorosh.
 
-	    Monomakh Unicode is a font intended for typesetting Ustav-era Church Slavonic text.
-	    See documentation for more information.
+	    The Vertograd typeface is used for decorative dropcaps in 18th--20th century liturgical editions.
         </text>
     </description>
     <license url="https://scripts.sil.org/ofl" id="org.sil.ofl.11">
         <text lang="en">
-            Copyright (c) 2016-2019 Aleksandr Andreev (https://sci.ponomar.net/).
+            Copyright (c) 2019 Aleksandr Andreev.
 
             This Font Software is licensed under the SIL Open Font License, Version 1.1.
             This license is copied below, and is also available with a FAQ at:
-            http://scripts.sil.org/OFL
+            https://scripts.sil.org/OFL
 
 
             -----------------------------------------------------------
@@ -118,6 +113,6 @@
         </text>
     </license>
     <copyright>
-        <text lang="en">Copyright (c) 2016-2019 Aleksandr Andreev</text>
+        <text lang="en">Copyright (c) 2019 Aleksandr Andreev</text>
     </copyright>
 </metadata>
