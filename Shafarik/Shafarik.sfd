@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1411791849
-ModificationTime: 1570654917
+ModificationTime: 1570709782
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -59,7 +59,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60750 27 9
+WinInfo: 58509 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -64696,6 +64696,7 @@ SplineSet
  381 22 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uniE401 afii10103
 EndChar
 
 StartChar: uniED18
@@ -65680,6 +65681,7 @@ SplineSet
  311 55 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uniE50B afii10103
 EndChar
 
 StartChar: uniED28
@@ -65893,6 +65895,7 @@ SplineSet
  580 673 582 670 582 665 c 4
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10065 afii10103
 EndChar
 
 StartChar: uniED31
@@ -65964,6 +65967,7 @@ SplineSet
  251 43 254 52 254 64 c 0xf6
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10067 afii10103
 EndChar
 
 StartChar: uniED32
@@ -66022,6 +66026,7 @@ SplineSet
  296 455 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10068 afii10103
 EndChar
 
 StartChar: uniED33
@@ -66098,6 +66103,7 @@ SplineSet
  620 673 622 670 622 665 c 4
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10069 afii10103
 EndChar
 
 StartChar: uniED34
@@ -66174,6 +66180,7 @@ SplineSet
  385 122 387 113 387 99 c 0xb6c0
 EndSplineSet
 Validated: 33
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10070 afii10103
 EndChar
 
 StartChar: uniED35
@@ -66255,6 +66262,7 @@ SplineSet
  354 181 361 156 361 127 c 0xb6d0
 EndSplineSet
 Validated: 33
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10102 afii10103
 EndChar
 
 StartChar: uniED36
@@ -66337,6 +66345,7 @@ SplineSet
  564 673 566 670 566 665 c 4
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uniA645 afii10103
 EndChar
 
 StartChar: uniED37
@@ -66568,6 +66577,7 @@ SplineSet
  638 673 640 670 640 665 c 4
 EndSplineSet
 Validated: 33
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uniA645 afii10103
 EndChar
 
 StartChar: uniED3A
@@ -66652,6 +66662,7 @@ SplineSet
  303 -8 270 -13 233 -13 c 0xb460
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10073 afii10103
 EndChar
 
 StartChar: uniED3B
@@ -66721,13 +66732,14 @@ SplineSet
  176 190 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10074 afii10103
 EndChar
 
 StartChar: uniED3C
 Encoding: 60732 60732 1268
 Width: 768
-Flags: HW
-HStem: -13 44<262.501 316.564> 0 21G<623.5 720> 230 39<87.7705 117 249 333 459 486.201> 422 46<262.812 318.446> 435 20G<623.5 725.5> 641 32<141.309 608.691>
+Flags: W
+HStem: -13 44<262.501 316.564> 0 21G<623.5 720> 230 39<87.7705 117 249 333 459 486.201> 422 46<262.812 318.446> 435 20G<623.5 725.5> 641 32<141.309 638.691>
 VStem: 117 132<108.481 227 269 351.445> 333 126<102.272 230 272 364.456> 609 127<5.14354 449.858>
 LayerCount: 2
 Fore
@@ -66812,6 +66824,7 @@ SplineSet
  305 31 315 43 322 66 c 0
  329 89 333 111 333 130 c 2
 EndSplineSet
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10195 afii10103
 EndChar
 
 StartChar: uniED3D
@@ -81715,7 +81728,6 @@ SplineSet
  39 96 10 125 10 161 c 0
 EndSplineSet
 LCarets2: 1 0
-Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10093 uniA672
 EndChar
 
 StartChar: uniEDDF
