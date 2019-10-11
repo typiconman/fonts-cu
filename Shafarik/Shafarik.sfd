@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1411791849
-ModificationTime: 1570709782
+ModificationTime: 1570748825
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -45,8 +45,8 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' Canonical Equivalence" { "'ccmp' Canonical Equivalence-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Cyrillic Ligatures" { "'ccmp' Cyrillic Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 0 "Stylistic Set 1 Huge Numerals" { "Stylistic Set 1 Huge Numerals-1"  } ['ss01' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 0 "Stylistic Set 2 Huge Numerals" { "Stylistic Set 2 Huge Numerals-1"  } ['ss02' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Stylistic Set 1 Huge Numerals" { "Stylistic Set 1 Huge Numerals-1"  "Stylistic Set 1 ligatures +- alts"  } ['ss01' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "Stylistic Set 2 Huge Numerals" { "Stylistic Set 2 ligatures +- alts"  "Stylistic Set 2 Huge Numerals-1"  } ['ss02' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning" { "'mark' Mark Positioning-1"  } ['mark' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Cyrillic Numerals" { "'mark' Cyrillic Numerals-1"  } ['mark' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark Positioning" { "'mkmk' Mark to Mark Positioning-1"  } ['mkmk' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -59,7 +59,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 58509 27 9
+WinInfo: 945 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -950,7 +950,6 @@ SplineSet
  228 31 237 33 244 38 c 4,72,-1
  251 43 254 52 254 64 c 4,53,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: afii10068
@@ -11307,6 +11306,7 @@ SplineSet
  529 51 526 43 518 37 c 1,1,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10083
 EndChar
 
 StartChar: uni1C88
@@ -11374,6 +11374,7 @@ SplineSet
  378 82 383 97 383 115 c 0,109,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" uniA64B
 EndChar
 
 StartChar: uni00A0
@@ -33425,6 +33426,7 @@ SplineSet
  474 75 476 96 476 123 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" uniA650
 EndChar
 
 StartChar: uniE465
@@ -33493,6 +33495,7 @@ SplineSet
  344 50 347 58 347 70 c 0,96,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" uniA651
 EndChar
 
 StartChar: uniE200
@@ -33534,6 +33537,7 @@ SplineSet
  223 420 l 1
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10031
 EndChar
 
 StartChar: uniE201
@@ -33581,6 +33585,7 @@ SplineSet
  176 293 l 1,1,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10079
 EndChar
 
 StartChar: uniE50A
@@ -33631,6 +33636,7 @@ SplineSet
  444 78 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" uniA658
 EndChar
 
 StartChar: uniE50B
@@ -33682,6 +33688,7 @@ SplineSet
  311 55 l 5,44,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" uniA659
 EndChar
 
 StartChar: uniE400
@@ -33724,6 +33731,7 @@ SplineSet
  454 641 455 635 455 625 c 2
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10041
 EndChar
 
 StartChar: uniE401
@@ -33766,6 +33774,7 @@ SplineSet
  381 22 l 6,1,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10089
 EndChar
 
 StartChar: uniA65E
@@ -33932,6 +33941,7 @@ SplineSet
  176 20 l 6,9,-1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Cyrillic Ligatures-1" afii10103 uni0483
 LCarets2: 1 0
 Ligature2: "'ccmp' Canonical Equivalence-1" afii10103 uni0483
 EndChar
@@ -36590,6 +36600,7 @@ SplineSet
  71 0 64 8 64 25 c 2
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10031 afii10020
 EndChar
 
 StartChar: uni04A5
@@ -36649,6 +36660,7 @@ SplineSet
  530 455 l 2,1,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10079 afii10068
 EndChar
 
 StartChar: uniA64C
@@ -37535,6 +37547,7 @@ SplineSet
  616 455 l 6,1,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 2 ligatures +- alts" afii10084
 EndChar
 
 StartChar: uni1C86
@@ -37592,6 +37605,7 @@ SplineSet
  274 50 277 58 277 70 c 0,77,-1
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10092
 EndChar
 
 StartChar: uni1C84
@@ -37633,6 +37647,7 @@ SplineSet
  211 20 l 2,1,-1
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10084
 EndChar
 
 StartChar: uni1C87
@@ -37703,6 +37718,7 @@ SplineSet
  256 56 261 69 261 89 c 0,110,-1
 EndSplineSet
 Validated: 3
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10194
 EndChar
 
 StartChar: uni1C80
@@ -37761,6 +37777,7 @@ SplineSet
  200 163 193 155 189 142 c 1,81,-1
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10067
 EndChar
 
 StartChar: uni1C81
@@ -37824,6 +37841,7 @@ SplineSet
  235 40 240 48 237 65 c 2,96,-1
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10069
 EndChar
 
 StartChar: uni1C82
@@ -37865,6 +37883,7 @@ SplineSet
  129 66 140 43 162 43 c 256,37,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10080
 EndChar
 
 StartChar: uni032E
@@ -40018,6 +40037,7 @@ SplineSet
  530 443 532 422 532 390 c 0
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10065 afii10085
 EndChar
 
 StartChar: uniE70F
@@ -40088,6 +40108,7 @@ SplineSet
  540 443 542 422 542 390 c 0xd8
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10077 afii10085
 EndChar
 
 StartChar: uniE7F0
@@ -40150,6 +40171,7 @@ SplineSet
  408 139 420 101 420 53 c 0xf4
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" afii10084 afii10067
 EndChar
 
 StartChar: uniEC45
@@ -60565,6 +60587,7 @@ SplineSet
  842 183 845 178 845 173 c 0xb680
 EndSplineSet
 Validated: 33
+Ligature2: "Stylistic Set 1 ligatures +- alts" uni0464
 EndChar
 
 StartChar: uniE4E1
@@ -60639,6 +60662,7 @@ SplineSet
  597 128 600 125 600 121 c 0,1,-1
 EndSplineSet
 Validated: 1
+Ligature2: "Stylistic Set 1 ligatures +- alts" uni0465
 EndChar
 
 StartChar: uni0000
@@ -64696,7 +64720,7 @@ SplineSet
  381 22 l 2
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uniE401 afii10103
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uniE401 uniA66F
 EndChar
 
 StartChar: uniED18
@@ -65681,7 +65705,7 @@ SplineSet
  311 55 l 1
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uniE50B afii10103
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uniE50B uniA66F
 EndChar
 
 StartChar: uniED28
@@ -66577,7 +66601,7 @@ SplineSet
  638 673 640 670 640 665 c 4
 EndSplineSet
 Validated: 33
-Ligature2: "'ccmp' Cyrillic Ligatures-1" uniA645 afii10103
+Ligature2: "'ccmp' Cyrillic Ligatures-1" uniA641 afii10103
 EndChar
 
 StartChar: uniED3A
