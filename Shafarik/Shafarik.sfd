@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1411791849
-ModificationTime: 1571235410
+ModificationTime: 1571403895
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,6 +43,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 4 0 0 "'ccmp' Precomosed Lettered Titlos" { "'ccmp' Precomosed Lettered Titlos-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Canonical Equivalence" { "'ccmp' Canonical Equivalence-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Cyrillic Ligatures" { "'ccmp' Cyrillic Ligatures-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Precomposed Tens Numerals" { "'ccmp' Precomposed Tens Numerals-1"  } ['ccmp' ('DFLT' <'dflt' > 'byzm' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -62,7 +63,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1242 27 9
+WinInfo: 1215 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -71,7 +72,7 @@ Grid
   Named: "LC"
 EndSplineSet
 AnchorClass2: "Numeral" "'mark' Cyrillic Numerals-1" "Stacking" "'mkmk' Mark to Mark Positioning-1" "AboveLeft" "'mark' Mark Positioning-1" "AboveRight" "'mark' Mark Positioning-1" "Below" "'mark' Mark Positioning-1" "Above" "'mark' Mark Positioning-1"
-BeginChars: 1114113 1466
+BeginChars: 1114113 1467
 
 StartChar: space
 Encoding: 32 32 0
@@ -953,7 +954,7 @@ SplineSet
  228 31 237 33 244 38 c 4,72,-1
  251 43 254 52 254 64 c 4,53,-1
 EndSplineSet
-Validated: 8388609
+Validated: 1
 EndChar
 
 StartChar: afii10068
@@ -7356,7 +7357,7 @@ SplineSet
  -121.5 606.392578125 -125.426757812 639 -162 639 c 1
  -162 550 l 1
 EndSplineSet
-Validated: 1048577
+Validated: 1
 EndChar
 
 StartChar: uni2DE1
@@ -50813,6 +50814,8 @@ SplineSet
  -241 597.5 l 2
 EndSplineSet
 Validated: 1
+LCarets2: 1 0
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE0 uni0487
 EndChar
 
 StartChar: uniF4E1
@@ -50860,6 +50863,7 @@ SplineSet
  -271 601 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE1 uni0487
 EndChar
 
 StartChar: uniF4E2
@@ -50905,6 +50909,7 @@ SplineSet
  -322.5 774.5 -327 777.5 -327 785 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE2 uni0487
 EndChar
 
 StartChar: uniF4E3
@@ -50964,6 +50969,7 @@ SplineSet
  -300 654.5 -301.5 651 -301.5 647.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE3 uni0487
 EndChar
 
 StartChar: uniF4E4
@@ -51030,6 +51036,7 @@ SplineSet
  -437.5 726.5 -440 746.5 -440 763 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE4 uni0487
 EndChar
 
 StartChar: uniF4E5
@@ -51083,6 +51090,7 @@ SplineSet
  -322 544 -349 557 -353 564 c 1xbcc0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE5 uni0487
 EndChar
 
 StartChar: uniF4E6
@@ -51136,6 +51144,7 @@ SplineSet
  -310 558 -326 560 -334 563 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE6 uni0487
 EndChar
 
 StartChar: uniF4E7
@@ -51182,6 +51191,7 @@ SplineSet
  -333.5 560 -339 563 -339 573 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE7 uni0487
 EndChar
 
 StartChar: uniF4E8
@@ -51246,6 +51256,7 @@ SplineSet
  -419.5 557 -449 575 -449 602 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE8 uni0487
 EndChar
 
 StartChar: uniF4E9
@@ -51289,6 +51300,7 @@ SplineSet
  -315 558 -331 560 -339 563 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DE9 uni0487
 EndChar
 
 StartChar: uniF4EA
@@ -51332,6 +51344,7 @@ SplineSet
  -283.5 728 -288 718.5 -288 705 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DEA uni0487
 EndChar
 
 StartChar: uniF4EB
@@ -51374,6 +51387,7 @@ SplineSet
  -357.5 774.5 -362 777.5 -362 785 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DEB uni0487
 EndChar
 
 StartChar: uniF4EC
@@ -51414,6 +51428,7 @@ SplineSet
  -232 784 -242 761.5 -242 729.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DEC uni0487
 EndChar
 
 StartChar: uniF4ED
@@ -51450,6 +51465,7 @@ SplineSet
  -272.5 574 -330 614.5 -330 687.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DED uni0487
 EndChar
 
 StartChar: uniF4EE
@@ -51501,6 +51517,7 @@ SplineSet
  -368.5 784 -369 788.5 -369 791 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DEE uni0487
 EndChar
 
 StartChar: uniF4EF
@@ -51553,6 +51570,7 @@ SplineSet
  -366.5 833.5 -371 838.5 -371 845.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DEF uni0487
 EndChar
 
 StartChar: uniF4F0
@@ -51608,6 +51626,7 @@ SplineSet
  -357 558 -362 562 -362 567.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF0 uni0487
 EndChar
 
 StartChar: uniF4F1
@@ -51651,6 +51670,7 @@ SplineSet
  -317.5 646 -345 668.5 -345 711 c 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF1 uni0487
 EndChar
 
 StartChar: uniF4F2
@@ -51700,6 +51720,7 @@ SplineSet
  -426 560 -434 561.5 -434 571 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF2 uni0487
 EndChar
 
 StartChar: uniF4F3
@@ -51754,6 +51775,7 @@ SplineSet
  -426 593 -434 594.5 -434 604 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF3 uni0487
 EndChar
 
 StartChar: uniF4F4
@@ -51813,6 +51835,7 @@ SplineSet
  -247 748 -266 724 -266 696 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF4 uni0487
 EndChar
 
 StartChar: uniF4F6
@@ -51862,6 +51885,7 @@ SplineSet
  -254.5 646.5 -258 634 -258 613.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF6 uni0487
 EndChar
 
 StartChar: uniF4F7
@@ -51908,6 +51932,7 @@ SplineSet
  -277.5 700.5 -316 709 -316 738.5 c 0xba
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF7 uni0487
 EndChar
 
 StartChar: uniF4F8
@@ -51960,6 +51985,7 @@ SplineSet
  -356.5 548 -364 552 -364 568.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF8 uni0487
 EndChar
 
 StartChar: uniF4F9
@@ -52014,6 +52040,7 @@ SplineSet
  -238.5 674.5 -277 649 -277 612.5 c 0xf680
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF9 uni0487
 EndChar
 
 StartChar: uniF4FA
@@ -52087,6 +52114,7 @@ SplineSet
  -201.5 586 -202 581 -202 579.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DFA uni0487
 EndChar
 
 StartChar: uniF4FB
@@ -52135,6 +52163,7 @@ SplineSet
  -180.5 714 -196 697 -196 678 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DFB uni0487
 EndChar
 
 StartChar: uniF4FC
@@ -52195,6 +52224,7 @@ SplineSet
  -199.5 646.5 -203 634 -203 613.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DFC uni0487
 EndChar
 
 StartChar: uniF4FD
@@ -52259,6 +52289,7 @@ SplineSet
  -269 705 -288 684 -288 682.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DFD uni0487
 EndChar
 
 StartChar: uniF4FE
@@ -52327,6 +52358,7 @@ SplineSet
  -256.5 774 -259 773 -259 770 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DFE uni0487
 EndChar
 
 StartChar: uniF4FF
@@ -52404,6 +52436,7 @@ SplineSet
  -201.5 774 -204 773 -204 770 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DFF uni0487
 EndChar
 
 StartChar: uniF674
@@ -52454,6 +52487,7 @@ SplineSet
  -279.5 552 -340 594.5 -340 676.5 c 0xfa
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA674 uni0487
 EndChar
 
 StartChar: uniF675
@@ -52497,6 +52531,7 @@ SplineSet
  -315 558 -331 560 -339 563 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA675 uni0487
 EndChar
 
 StartChar: uniF676
@@ -52539,6 +52574,7 @@ SplineSet
  -199 800 -202 803 -202 837 c 0xcc
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA676 uni0487
 EndChar
 
 StartChar: uniF677
@@ -52587,6 +52623,7 @@ SplineSet
  -360.5 779.5 -365 783 -365 786 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA677 uni0487
 EndChar
 
 StartChar: uniF678
@@ -52642,6 +52679,7 @@ SplineSet
  -227 588.5 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA678 uni0487
 EndChar
 
 StartChar: uniF679
@@ -52696,6 +52734,7 @@ SplineSet
  -103 558 -119 560 -127 563 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA679 uni0487
 EndChar
 
 StartChar: uniF67A
@@ -52743,6 +52782,7 @@ SplineSet
  -252 588.5 l 2
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA67A uni0487
 EndChar
 
 StartChar: uniF67B
@@ -52798,6 +52838,7 @@ SplineSet
  -386.5 638 -400 681.5 -400 723 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA67B uni0487
 EndChar
 
 StartChar: uniF67C
@@ -52866,6 +52907,7 @@ SplineSet
  -141 582.5 -135 576.5 -127.5 576.5 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniE094 uni0487
 EndChar
 
 StartChar: uniF69E
@@ -52924,6 +52966,7 @@ SplineSet
  -351.450195312 747.400390625 -364.650390625 725.400390625 -364.650390625 699.549804688 c 0
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA69E uni0487
 EndChar
 
 StartChar: uniF69F
@@ -52983,6 +53026,7 @@ SplineSet
  -363 558 -379 560 -387 563 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uniA69F uni0487
 EndChar
 
 StartChar: u1D000
@@ -66995,7 +67039,7 @@ SplineSet
  195 -138 189 -140 182 -140 c 0
  174 -139 157 -129 132 -110 c 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10065
 EndChar
 
@@ -67072,7 +67116,7 @@ SplineSet
  466 229 498 201 523 170 c 0
  548 139 560 101 560 53 c 0xfa
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10067
 EndChar
 
@@ -67138,7 +67182,7 @@ SplineSet
  232 452 240 455 250 455 c 2
  471 455 l 2
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10068
 EndChar
 
@@ -67219,7 +67263,7 @@ SplineSet
  443 40 l 2
  456 40 461 48 458 65 c 2
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10069
 EndChar
 
@@ -67304,7 +67348,7 @@ SplineSet
  524 132 532 130 536 126 c 0
  540 122 542 113 542 99 c 0xfa
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10070
 EndChar
 
@@ -67394,7 +67438,7 @@ SplineSet
  485 231 503 217 516 199 c 0
  529 181 536 156 536 127 c 0xf6
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10102
 EndChar
 
@@ -67484,7 +67528,7 @@ SplineSet
  229.495117188 60.0654296875 223.763671875 70.3359375 220 81 c 0
  214 98 211 112 211 127 c 0xfc80
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 uniA645
 EndChar
 
@@ -67576,7 +67620,7 @@ SplineSet
  605 91 589 80 572 74 c 0
  555 68 541 65 526 65 c 0xcfc0
 EndSplineSet
-Validated: 8912929
+Validated: 33
 EndChar
 
 StartChar: uniED49
@@ -67665,7 +67709,7 @@ SplineSet
  422 339 436 357 454 370 c 0
  472 383 497 390 526 390 c 0x6f80
 EndSplineSet
-Validated: 8912929
+Validated: 33
 EndChar
 
 StartChar: uniED4A
@@ -67734,7 +67778,7 @@ SplineSet
  600.5 13.5 636.615234375 -14.349609375 648 -34.943359375 c 0
  653.396484375 -44.705078125 651.221679688 -52.4228515625 639 -56 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 uniA641
 EndChar
 
@@ -67827,7 +67871,7 @@ SplineSet
  557 29 536 14 507 3 c 0
  478 -8 445 -13 408 -13 c 0xf1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10073
 EndChar
 
@@ -67900,7 +67944,7 @@ SplineSet
  346 455 351 447 351 432 c 2
  351 190 l 1
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10074
 EndChar
 
@@ -68001,7 +68045,7 @@ SplineSet
  618 272 624 270 627 267 c 0
  630 264 632 254 632 240 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10195
 EndChar
 
@@ -68135,7 +68179,7 @@ SplineSet
  124 -44 l 1
  172.125976562 23.376953125 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10065
 EndChar
 
@@ -68198,7 +68242,7 @@ SplineSet
  414 229 446 201 471 170 c 0
  496 139 508 101 508 53 c 0xf4
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10067
 EndChar
 
@@ -68249,7 +68293,7 @@ SplineSet
  180 452 188 455 198 455 c 2
  419 455 l 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10068
 EndChar
 
@@ -68315,7 +68359,7 @@ SplineSet
  324 40 l 2
  337 40 342 48 339 65 c 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10069
 EndChar
 
@@ -68384,7 +68428,7 @@ SplineSet
  435 132 443 130 447 126 c 0
  451 122 453 113 453 99 c 0xf4
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10070
 EndChar
 
@@ -68458,7 +68502,7 @@ SplineSet
  406 231 424 217 437 199 c 0
  450 181 457 156 457 127 c 0x76
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10102
 EndChar
 
@@ -68534,7 +68578,7 @@ SplineSet
  148 48 137 64 131 81 c 0
  125 98 122 112 122 127 c 0xbc80
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 uniA645
 EndChar
 
@@ -68611,7 +68655,7 @@ SplineSet
  546 91 530 80 513 74 c 0
  496 68 482 65 467 65 c 0x9f
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: uniED59
@@ -68685,7 +68729,7 @@ SplineSet
  353 339 367 357 385 370 c 0
  403 383 428 390 457 390 c 0x6f
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: uniED5A
@@ -68742,7 +68786,7 @@ SplineSet
  563.5 13.5 599.615234375 -14.349609375 611 -34.943359375 c 0
  616.396484375 -44.705078125 614.221679688 -52.4228515625 602 -56 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 uniA641
 EndChar
 
@@ -68819,7 +68863,7 @@ SplineSet
  468 29 447 14 418 3 c 0
  389 -8 356 -13 319 -13 c 0x71
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10073
 EndChar
 
@@ -68878,7 +68922,7 @@ SplineSet
  294 455 299 447 299 432 c 2
  299 190 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10074
 EndChar
 
@@ -68963,7 +69007,7 @@ SplineSet
  566 272 572 270 575 267 c 0
  578 264 580 254 580 240 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10195
 EndChar
 
@@ -69025,7 +69069,7 @@ SplineSet
  -724.599609375 25 -564 -135.599609375 -366 -135.599609375 c 0
  -168 -135.599609375 -7.400390625 25 -7.400390625 223 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni20DD
 EndChar
 
@@ -69079,7 +69123,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 1 309
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uni20DD
 EndChar
@@ -69136,7 +69180,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uni20DD
 EndChar
 
@@ -69179,7 +69223,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uni20DD
 EndChar
 
@@ -69240,7 +69284,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uni20DD
 EndChar
 
@@ -69301,7 +69345,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uni20DD
 EndChar
 
@@ -69367,7 +69411,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uni20DD
 EndChar
 
@@ -69434,7 +69478,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uni20DD
 EndChar
 
@@ -69487,7 +69531,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uni20DD
 EndChar
 
@@ -69556,7 +69600,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uni20DD
 EndChar
 
@@ -69610,7 +69654,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uni20DD
 EndChar
 
@@ -69687,7 +69731,7 @@ SplineSet
  85.2197265625 25 245.819335938 -135.599609375 443.819335938 -135.599609375 c 0
  641.819335938 -135.599609375 802.418945312 25 802.418945312 223 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uni20DD
 EndChar
 
@@ -69963,7 +70007,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x08b0
 EndSplineSet
-Validated: 524321
+Validated: 33
 LCarets2: 1 352
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uni0488
 EndChar
@@ -70082,7 +70126,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x11
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uni0488
 EndChar
 
@@ -70187,7 +70231,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x11
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uni0488
 EndChar
 
@@ -70310,7 +70354,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x1140
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uni0488
 EndChar
 
@@ -70433,7 +70477,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x1080
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uni0488
 EndChar
 
@@ -70561,7 +70605,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x0840
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uni0488
 EndChar
 
@@ -70690,7 +70734,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x0840
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uni0488
 EndChar
 
@@ -70805,7 +70849,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x2280
 EndSplineSet
-Validated: 524325
+Validated: 37
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uni0488
 EndChar
 
@@ -70936,7 +70980,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x1080
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uni0488
 EndChar
 
@@ -71052,7 +71096,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x11
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uni0488
 EndChar
 
@@ -71191,7 +71235,7 @@ SplineSet
  122.666992188 281 140 274 154 260 c 0
  168 246 175 228.666992188 175 208 c 0x1080
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uni0488
 EndChar
 
@@ -71481,7 +71525,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uni0489
 EndChar
 
@@ -71606,7 +71650,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uni0489
 EndChar
 
@@ -71718,7 +71762,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uni0489
 EndChar
 
@@ -71848,7 +71892,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uni0489
 EndChar
 
@@ -71978,7 +72022,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uni0489
 EndChar
 
@@ -72113,7 +72157,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uni0489
 EndChar
 
@@ -72249,7 +72293,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uni0489
 EndChar
 
@@ -72370,7 +72414,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uni0489
 EndChar
 
@@ -72508,7 +72552,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uni0489
 EndChar
 
@@ -72630,7 +72674,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uni0489
 EndChar
 
@@ -72776,7 +72820,7 @@ SplineSet
  211.522460938 41 226.522460938 30 239.522460938 18 c 0
  261.522460938 -3 287.522460938 -60 263.522460938 -85 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uni0489
 EndChar
 
@@ -73082,7 +73126,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xc9f3e0
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10065 uni0489
 EndChar
 
@@ -73215,7 +73259,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xd3e0f0
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10067 uni0489
 EndChar
 
@@ -73335,7 +73379,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xd3e7c0
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10068 uni0489
 EndChar
 
@@ -73473,7 +73517,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xd3ff80
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10069 uni0489
 EndChar
 
@@ -73611,7 +73655,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xc1f078
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10070 uni0489
 EndChar
 
@@ -73754,7 +73798,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xc0f81e
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10102 uni0489
 EndChar
 
@@ -73898,7 +73942,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xc0f81e
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA645 uni0489
 EndChar
 
@@ -74028,7 +74072,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524325
+Validated: 37
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA641 uni0489
 EndChar
 
@@ -74174,7 +74218,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xc1f03c
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10073 uni0489
 EndChar
 
@@ -74305,7 +74349,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xd3e1e0
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10074 uni0489
 EndChar
 
@@ -74459,7 +74503,7 @@ SplineSet
  106.5 9 151.5 49 207.5 49 c 0xc1f0f0
  263.5 49 309.5 9 319.5 -66 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10195 uni0489
 EndChar
 
@@ -74925,7 +74969,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524297
+Validated: 9
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uniA670
 EndChar
 
@@ -75138,7 +75182,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524297
+Validated: 9
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uniA670
 EndChar
 
@@ -75338,7 +75382,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524297
+Validated: 9
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uniA670
 EndChar
 
@@ -75556,7 +75600,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524297
+Validated: 9
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uniA670
 EndChar
 
@@ -75774,7 +75818,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524329
+Validated: 41
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uniA670
 EndChar
 
@@ -75997,7 +76041,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524329
+Validated: 41
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uniA670
 EndChar
 
@@ -76221,7 +76265,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524297
+Validated: 9
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uniA670
 EndChar
 
@@ -76431,7 +76475,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524325
+Validated: 37
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uniA670
 EndChar
 
@@ -76657,7 +76701,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524297
+Validated: 9
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uniA670
 EndChar
 
@@ -76868,7 +76912,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524297
+Validated: 9
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uniA670
 EndChar
 
@@ -77102,7 +77146,7 @@ SplineSet
  382.032226562 -2.0693359375 l 2
  387.688476562 -2.0693359375 391.931640625 -6.3115234375 391.931640625 -11.96875 c 2
 EndSplineSet
-Validated: 524329
+Validated: 41
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uniA670
 EndChar
 
@@ -77568,7 +77612,7 @@ SplineSet
  352 -85 l 2
  356 -89 356 -95 352 -99 c 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10065 uniA670
 EndChar
 
@@ -78200,7 +78244,7 @@ SplineSet
  352 -85 l 2
  356 -89 356 -95 352 -99 c 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10069 uniA670
 EndChar
 
@@ -79075,7 +79119,7 @@ SplineSet
  352 -85 l 2
  356 -89 356 -95 352 -99 c 2
 EndSplineSet
-Validated: 524325
+Validated: 37
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA641 uniA670
 EndChar
 
@@ -79873,7 +79917,7 @@ SplineSet
  -793.650390625 355.625 -777.549804688 413.125 -741.900390625 470.625 c 4
  -678.650390625 571.825195312 -548.700195312 664.974609375 -393.450195312 664.974609375 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA671
 EndChar
 
@@ -79954,7 +79998,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 LCarets2: 1 347
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uniA671
 EndChar
@@ -80038,7 +80082,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uniA671
 EndChar
 
@@ -80108,7 +80152,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uniA671
 EndChar
 
@@ -80196,7 +80240,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uniA671
 EndChar
 
@@ -80284,7 +80328,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uniA671
 EndChar
 
@@ -80377,7 +80421,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uniA671
 EndChar
 
@@ -80471,7 +80515,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uniA671
 EndChar
 
@@ -80551,7 +80595,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524325
+Validated: 37
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uniA671
 EndChar
 
@@ -80647,7 +80691,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uniA671
 EndChar
 
@@ -80728,7 +80772,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uniA671
 EndChar
 
@@ -80832,7 +80876,7 @@ SplineSet
  86.349609375 355.625 102.450195312 413.125 138.099609375 470.625 c 4
  201.349609375 571.825195312 331.299804688 664.974609375 486.549804688 664.974609375 c 4
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uniA671
 EndChar
 
@@ -81022,7 +81066,7 @@ SplineSet
  565 -49 578 -80 587 -97 c 0
  598 -118 620 -147 620 -157 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10065 uniA671
 EndChar
 
@@ -81238,7 +81282,7 @@ SplineSet
  565 -49 578 -80 587 -97 c 0
  598 -118 620 -147 620 -157 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10069 uniA671
 EndChar
 
@@ -81560,7 +81604,7 @@ SplineSet
  565 -49 578 -80 587 -97 c 0
  598 -118 620 -147 620 -157 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA641 uniA671
 EndChar
 
@@ -82194,7 +82238,7 @@ SplineSet
  513.139648438 334.727539062 495.80078125 290.00390625 485 236 c 0
  481 216 478 198 478 181 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uniA672
 EndChar
 
@@ -82342,7 +82386,7 @@ SplineSet
  603 51 612 53 619 58 c 0
  626 63 629 72 629 84 c 0xf9c8
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uniA672
 EndChar
 
@@ -82560,7 +82604,7 @@ SplineSet
  672.986328125 48.5732421875 673 54.9169921875 670.137695312 59.8203125 c 1
  659.08203125 59.732421875 652 60 652 60 c 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uniA672
 EndChar
 
@@ -82678,7 +82722,7 @@ SplineSet
  719 162 727 160 731 156 c 0
  735 152 737 143 737 129 c 0xfbf4
 EndSplineSet
-Validated: 8388641
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uniA672
 EndChar
 
@@ -82801,7 +82845,7 @@ SplineSet
  692 261 710 247 723 229 c 0
  736 211 743 186 743 157 c 0xf3ee
 EndSplineSet
-Validated: 8388641
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uniA672
 EndChar
 
@@ -82925,7 +82969,7 @@ SplineSet
  427 78 416 94 410 111 c 0
  404 128 401 142 401 157 c 0xf3f5
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uniA672
 EndChar
 
@@ -83035,7 +83079,7 @@ SplineSet
  766.5 73.5 802.615234375 45.650390625 814 25.056640625 c 0
  819.396484375 15.294921875 817.221679688 7.5771484375 805 4 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uniA672
 EndChar
 
@@ -83161,7 +83205,7 @@ SplineSet
  722 59 701 44 672 33 c 0
  643 22 610 17 573 17 c 0
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uniA672
 EndChar
 
@@ -83722,7 +83766,7 @@ SplineSet
  435 -80 439 -84 439 -90 c 6
  439 -270 l 6x9fbc
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10065 uniA672
 EndChar
 
@@ -83869,7 +83913,7 @@ SplineSet
  528 31 537 33 544 38 c 4
  551 43 554 52 554 64 c 4xffaa
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10067 uniA672
 EndChar
 
@@ -84155,7 +84199,7 @@ SplineSet
  593.986328125 48.5732421875 594 54.9169921875 591.137695312 59.8203125 c 1
  580.08203125 59.732421875 573 60 573 60 c 2
 EndSplineSet
-Validated: 524289
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10069 uniA672
 EndChar
 
@@ -84307,7 +84351,7 @@ SplineSet
  654 142 662 140 666 136 c 4
  670 132 672 123 672 109 c 4xffaa
 EndSplineSet
-Validated: 8388641
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10070 uniA672
 EndChar
 
@@ -84464,7 +84508,7 @@ SplineSet
  627 241 645 227 658 209 c 4
  671 191 678 166 678 137 c 4xe7d640
 EndSplineSet
-Validated: 8388641
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10102 uniA672
 EndChar
 
@@ -84622,7 +84666,7 @@ SplineSet
  362 58 351 74 345 91 c 4
  339 108 336 122 336 137 c 4xe7e540
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA645 uniA672
 EndChar
 
@@ -84766,7 +84810,7 @@ SplineSet
  701.5 43.5 737.615234375 15.650390625 749 -4.943359375 c 4
  754.396484375 -14.705078125 752.221679688 -22.4228515625 740 -26 c 4
 EndSplineSet
-Validated: 524321
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA641 uniA672
 EndChar
 
@@ -84926,7 +84970,7 @@ SplineSet
  657 39 636 24 607 13 c 4
  578 2 545 -3 508 -3 c 4
 EndSplineSet
-Validated: 8388609
+Validated: 1
 Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10073 uniA672
 EndChar
 
@@ -85313,6 +85357,74 @@ SplineSet
  39 96 10 125 10 161 c 0
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: uniF4F5
+Encoding: 62709 62709 1466
+Width: 1
+Flags: W
+HStem: 558.5 24.5<-347.046 -319.995> 699.5 93<-218.663 -196.838 -74.6615 -52.7962> 770 22.5<-186.967 -167.5 -104 -84.5333> 777.5 21.5<-349.138 -324.483> 892.685 62.8574<-334.444 -105.496>
+VStem: -425.5 75<598.816 755.955> -320.542 62.542<583.394 634.5 728 775.864> -221.5 28.5<700.523 766.875> -185 99<565 767.312> -167.5 63.5<571.664 770> 16.8408 50.5752<734.755 789.593>
+AnchorPoint: "Above" -216 559 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-220.138671875 892.684570312 m 0x8f20
+ -384.869140625 892.684570312 -438.755859375 782.865234375 -457.840820312 751.796875 c 0
+ -462.7578125 743.793945312 -469.401367188 734.458007812 -483.8515625 734.458007812 c 0
+ -498.301757812 734.458007812 -508.416015625 745.294921875 -508.416015625 754.6875 c 2
+ -508.416015625 762.634765625 l 2
+ -508.416015625 824.770507812 -400.041015625 955.541992188 -220.138671875 955.541992188 c 0
+ -40.958984375 955.541992188 67.416015625 827.66015625 67.416015625 762.634765625 c 2
+ 67.416015625 754.6875 l 2
+ 67.416015625 745.294921875 57.3017578125 734.458007812 42.8515625 734.458007812 c 0
+ 28.4013671875 734.458007812 20.220703125 743.034179688 16.8408203125 751.796875 c 0
+ 4.859375 782.865234375 -55.4091796875 892.684570312 -220.138671875 892.684570312 c 0x8f20
+-318 613.5 m 4
+ -318 622.3046875 -314.749023438 634.5 -307 634.5 c 6
+ -267 634.5 l 6
+ -260 634.5 -256.5 631 -256.5 624 c 4
+ -256.5 600.752929688 -271.734375 582.163085938 -288.5 570.5 c 4
+ -300 562.5 -315 558.5 -333 558.5 c 4
+ -393.350585938 558.5 -425.5 615.881835938 -425.5 675.5 c 4
+ -425.5 725.099609375 -405.446289062 766.875 -374 787 c 4
+ -361.5 795 -346.5 799 -329 799 c 4
+ -298.61328125 799 -275.821289062 774.708984375 -264 755.5 c 4
+ -260 749 -258 743 -258 739 c 4
+ -258 731.426757812 -259.549804688 728 -267.5 728 c 6
+ -309 728 l 6
+ -316.553710938 728 -320.541992188 733.795898438 -320.541992188 745.38671875 c 4
+ -320.541992188 746.071289062 -320.528320312 746.775390625 -320.5 747.5 c 4
+ -320.5 760.715820312 -325.185546875 777.5 -338 777.5 c 4x9f20
+ -350.420898438 777.5 -350.5 762.762695312 -350.5 747.108398438 c 4
+ -350.5 746.5 l 6
+ -350.5 614 l 6
+ -350.5 599.720703125 -346.186523438 583 -333.5 583 c 4
+ -319.926757812 583 -318 599.276367188 -318 613.5 c 4
+-104 770 m 5xaf60
+ -104 598 l 6xaf60
+ -104 592.291992188 -99.69921875 583.6796875 -95.5 582 c 4
+ -89.5 578 -86 575 -86 571.5 c 4
+ -86 567.5 -88.5 565 -94.5 565 c 6
+ -176.5 565 l 6
+ -182.5 565 -185 567.5 -185 571.5 c 4xafa0
+ -185 574 -182 577.5 -176 582.5 c 4
+ -170 586.5 -167.5 591.5 -167.5 598 c 6
+ -167.5 770 l 5xaf60
+ -181.5 770 -190 760 -193 741 c 4
+ -197 713.5 -203 699.5 -210.5 699.5 c 4
+ -218.609375 699.5 -220.139648438 739.159179688 -221.5 748 c 4
+ -223 763 -225 773 -227.5 779 c 4
+ -228.05078125 780.65234375 -228.311523438 782.16015625 -228.311523438 783.51953125 c 4
+ -228.311523438 789.3984375 -223.431640625 792.5 -216 792.5 c 6
+ -55.5 792.5 l 6
+ -50.064453125 792.5 -41.9375 788.33203125 -41.9375 783.287109375 c 4
+ -41.9375 781.901367188 -42.55078125 780.44921875 -44 779 c 5
+ -48.1787109375 768.971679688 -51.25390625 699.5 -61 699.5 c 4xcf60
+ -68.5 699.5 -74.5 713.5 -78.5 741 c 4
+ -81.5 760 -90 770 -104 770 c 5xaf60
+EndSplineSet
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF5 uni0487
 EndChar
 EndChars
 EndSplineFont
