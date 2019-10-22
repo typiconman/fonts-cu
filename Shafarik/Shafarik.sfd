@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1411791849
-ModificationTime: 1571708705
+ModificationTime: 1571732204
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -57,12 +57,13 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2019 Aleksandr Andreev and Nikita Simmons (<https://sci.ponomar.net/>).+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 60642 27 9
+WinInfo: 783 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6149,6 +6150,8 @@ SplineSet
  -173.508789062 628.456054688 -165.2890625 647.778320312 -149.075195312 646.224609375 c 0
  -59 637.59375 58.275390625 628.375 58.275390625 628.375 c 2
 EndSplineSet
+Validated: 33
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniE016
 EndChar
 
 StartChar: uni0484
@@ -7338,7 +7341,7 @@ SplineSet
  -121.5 606.392578125 -125.426757812 639 -162 639 c 1
  -162 550 l 1
 EndSplineSet
-Validated: 1
+Validated: 1048577
 EndChar
 
 StartChar: uni2DE1
@@ -11103,6 +11106,8 @@ SplineSet
  191 673 l 6
  203 673 205 670 205 665 c 4
 EndSplineSet
+Validated: 1
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniE01B
 EndChar
 
 StartChar: uniA677
@@ -35682,9 +35687,10 @@ EndChar
 StartChar: uniE016
 Encoding: 57366 57366 703
 Width: 1
-Flags: HW
-HStem: 630 31<-487.024 -153.234> 642 25<-751.399 -558.898> 651.168 32.833<-996.421 -742.838>
-VStem: -1087 89.999<580.852 649.908> -135.001 88.001<674.574 769.443>
+GlyphClass: 4
+Flags: W
+HStem: 630 31<79.9756 413.766> 642 25<-184.398 8.10191> 651.168 32.833<-429.421 -175.838>
+VStem: -520 89.999<580.852 649.908> 431.999 88.001<674.574 769.443>
 AnchorPoint: "Above" -1 534 mark 0
 LayerCount: 2
 Fore
@@ -35712,15 +35718,15 @@ SplineSet
  448.666015625 768.666992188 449.666015625 769 450.999023438 769 c 4
  459.666015625 771 468.666015625 772 477.999023438 772 c 4x98
 EndSplineSet
-AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uni0483
+Validated: 1
 EndChar
 
 StartChar: uniE01B
 Encoding: 57371 57371 704
 Width: 1
-Flags: HW
-HStem: 682 30<-195.346 195.471>
-VStem: -396 118<560.932 669.746> 278 118<560.932 669.746>
+Flags: W
+HStem: 702 30<-195.346 195.471>
+VStem: -396 118<580.932 689.746> 278 118<580.932 689.746>
 AnchorPoint: "Above" -1 534 mark 0
 LayerCount: 2
 Fore
@@ -35751,7 +35757,7 @@ SplineSet
  -287.166992188 576.916992188 -294.666992188 575 -306 575 c 4
  -366 575 -396 580.333007812 -396 591 c 4
 EndSplineSet
-AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniA66F
+Validated: 1
 EndChar
 
 StartChar: uniE015
@@ -39052,7 +39058,7 @@ EndChar
 StartChar: uni25CC
 Encoding: 9676 9676 808
 Width: 525
-Flags: HW
+Flags: W
 HStem: -9.56055 69.1211<231.251 294.749> 43.4395 69.1211<97.2513 160.749 363.251 426.749> 174.439 69.1211<37.2513 100.749 425.251 488.749> 320.439 69.1211<97.2513 160.749 363.251 426.749> 376.439 69.1211<231.251 294.749>
 VStem: 34.4395 69.1211<177.251 240.749> 94.4395 69.1211<46.2513 109.749 323.251 386.749> 228.439 69.1211<-6.7487 56.7487 379.251 442.749> 360.439 69.1211<46.2513 109.749 323.251 386.749> 422.439 69.1211<177.251 240.749>
 AnchorPoint: "AboveLeft" 135 578 basechar 0
@@ -39104,6 +39110,7 @@ SplineSet
  244.594726562 376.439453125 228.439453125 392.592773438 228.439453125 411 c 0
  228.439453125 429.405273438 244.592773438 445.560546875 263 445.560546875 c 0x29
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uni2626
@@ -64676,7 +64683,6 @@ SplineSet
  129 0 l 2
 EndSplineSet
 Validated: 33
-AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniED17
 EndChar
 
 StartChar: uniED17
@@ -64728,6 +64734,7 @@ SplineSet
  381 22 l 2
 EndSplineSet
 Validated: 1
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniED16
 EndChar
 
 StartChar: uniED18
@@ -65641,7 +65648,6 @@ SplineSet
  445.167 30.7998 446.567 23.0996 446.567 16.7998 c 0
 EndSplineSet
 Validated: 33
-AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniED27
 EndChar
 
 StartChar: uniED27
@@ -65702,6 +65708,7 @@ SplineSet
  311 55 l 1
 EndSplineSet
 Validated: 1
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniED26
 EndChar
 
 StartChar: uniED28
@@ -65949,7 +65956,7 @@ SplineSet
  580 673 582 670 582 665 c 4
 EndSplineSet
 Validated: 1
-Ligature2: "'ccmp' Precomposed Tens Numerals-1" uniED00 afii10103
+Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10065 uniA66F afii10103
 EndChar
 
 StartChar: uniED31
@@ -67027,9 +67034,10 @@ EndChar
 StartChar: uniED42
 Encoding: 60738 60738 1274
 Width: 538
-Flags: HW
+Flags: W
 HStem: -25 20G<55.3846 97.6923> 0 31<306.238 366.67> 418 37<300.444 365.979>
 VStem: 172 127<37.1436 221 282 417.992> 373 111<338.834 411.744> 377 131<35.7925 147.18>
+DStem2: 18 -76 0 -102 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -214 36 -240 0.584165 0.811635<0 90.1375 122.412 177.556 210.414 295.627> 70 -5 51 -31 0.811427 -0.584454<0 66.3895 110.206 176.006>
 AnchorPoint: "Above" 322 578 basechar 0
 AnchorPoint: "Below" 322 1 basechar 0
 AnchorPoint: "AboveRight" 452 576 basechar 0
@@ -67087,15 +67095,17 @@ SplineSet
  414 229 446 201 471 170 c 0
  496 139 508 101 508 53 c 0xf4
 EndSplineSet
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10067
 EndChar
 
 StartChar: uniED43
 Encoding: 60739 60739 1275
 Width: 473
-Flags: HW
+Flags: W
 HStem: -25 20G<55.3846 97.6923> 418 37<301.82 350.937>
 VStem: 172 127<23.2363 417.987> 373 48<262.941 398.996>
+DStem2: 18 -76 0 -102 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -214 36 -240 0.584165 0.811635<0 90.1375 122.412 177.556 210.414 295.627> 70 -5 51 -31 0.811427 -0.584454<0 66.3895 110.206 176.006>
 AnchorPoint: "Above" 312 578 basechar 0
 AnchorPoint: "Below" 312 1 basechar 0
 AnchorPoint: "AboveRight" 442 576 basechar 0
@@ -67141,14 +67151,16 @@ SplineSet
  180 452 188 455 198 455 c 2
  419 455 l 2
 EndSplineSet
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10068
 EndChar
 
 StartChar: uniED44
 Encoding: 60740 60740 1276
 Width: 562
-Flags: HW
+Flags: W
 HStem: 0 40<240.02 339.469> 406 49<182.048 249.832>
+DStem2: 18 -166 0 -192 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -304 36 -330 0.587013 0.809578<0.0834292 90.2108 122.413 177.712 210.418 306.397> 70 -95 51 -121 0.811427 -0.584454<0 66.3895 110.206 176.006> 199 40 240 40 0.151833 0.988406<6.22517 285.325> 403 358 288 315 0.200262 -0.979742<19.0988 295.475>
 AnchorPoint: "Above" 322 578 basechar 0
 AnchorPoint: "Below" 322 1 basechar 0
 AnchorPoint: "AboveRight" 452 576 basechar 0
@@ -67210,15 +67222,17 @@ SplineSet
  324 40 l 2
  337 40 342 48 339 65 c 2
 EndSplineSet
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10069
 EndChar
 
 StartChar: uniED45
 Encoding: 60741 60741 1277
 Width: 483
-Flags: HW
+Flags: W
 HStem: -13 43<258.062 317.602> 202 53<248.188 418.763> 419 49<261.185 315.019>
 VStem: 105 137<106.831 339.63> 321 121<333.235 415.564> 322 131<38.484 125.809>
+DStem2: 18 -46 0 -72 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -184 36 -210 0.587261 0.809398<0.0970641 90.2109 122.413 177.725 210.418 280.52> 70 25 51 -1 0.811427 -0.584454<0 66.3895 110.206 176.006>
 AnchorPoint: "Above" 282 578 basechar 0
 AnchorPoint: "Below" 282 1 basechar 0
 AnchorPoint: "AboveRight" 412 576 basechar 0
@@ -67282,15 +67296,17 @@ SplineSet
  435 132 443 130 447 126 c 0
  451 122 453 113 453 99 c 0xf4
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10070
 EndChar
 
 StartChar: uniED46
 Encoding: 60742 60742 1278
 Width: 487
-Flags: HW
+Flags: W
 HStem: -25 20G<55.3846 97.6923> -13 29<242.618 309.842> 225 27<275.359 309.29> 436 32<264.482 327.373>
 VStem: 132 93<36.3594 107.629> 135 116<268.36 401.761> 334 123<57.4755 201.373> 339 92<335.422 420.813>
+DStem2: 18 -76 0 -102 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -214 36 -240 0.584164 0.811636<0 90.1375 122.412 177.556 210.414 293.041> 70 -5 51 -31 0.811427 -0.584454<0 66.3895 110.206 176.006>
 AnchorPoint: "Above" 282 578 basechar 0
 AnchorPoint: "Below" 282 1 basechar 0
 AnchorPoint: "AboveRight" 412 576 basechar 0
@@ -67359,15 +67375,17 @@ SplineSet
  406 231 424 217 437 199 c 0
  450 181 457 156 457 127 c 0x76
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10102
 EndChar
 
 StartChar: uniED47
 Encoding: 60743 60743 1279
 Width: 477
-Flags: HW
+Flags: W
 HStem: -25 20G<55.3846 97.6923> -13 29<268.648 333.508> 17 129<359.685 426.99> 225 27<271.983 304.6> 436 32<251.318 315.463>
 VStem: 122 123<55.7365 199.756> 148 93<336.237 420.13> 329 115<267.822 404.5> 346 101<36.02 122.885>
+DStem2: 18 -76 0 -102 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -214 36 -240 0.584108 0.811676<0 90.1344 122.412 177.553 210.414 297.466> 70 -5 51 -31 0.811427 -0.584454<0 66.3895 110.206 176.006>
 AnchorPoint: "AboveLeft" 152 578 basechar 0
 AnchorPoint: "AboveRight" 412 576 basechar 0
 AnchorPoint: "Below" 282 1 basechar 0
@@ -67438,13 +67456,14 @@ SplineSet
  148 48 137 64 131 81 c 0
  125 98 122 112 122 127 c 0xbc80
 EndSplineSet
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 uniA645
 EndChar
 
 StartChar: uniED48
 Encoding: 60744 60744 1280
 Width: 637
-Flags: HW
+Flags: W
 HStem: 65 123<394.244 538.263> 91 117<216.834 268.763> 272 115<189.5 326.178> 289 101<471.115 557.98>
 VStem: 126 32<194.318 258.463> 342 27<214.983 247.6> 448 129<302.685 369.99> 578 29<211.648 276.508>
 DStem2: 18 24 0 -2 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -114 36 -140 0.584252 0.811572<0 90.1423 122.412 177.561 210.415 292.299> 70 95 51 69 0.811427 -0.584454<0 66.3895 110.206 176.006>
@@ -67518,12 +67537,13 @@ SplineSet
  546 91 530 80 513 74 c 0
  496 68 482 65 467 65 c 0x9f
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uniED49
 Encoding: 60745 60745 1281
 Width: 627
-Flags: HW
+Flags: W
 HStem: 65 93<476.371 547.364> 68 116<196.181 315.64> 267 123<382.627 526.525> 272 92<163.187 248.578>
 VStem: 116 32<197.482 260.373> 332 27<208.359 242.29> 438 129<85.3137 153.712> 568 29<175.38 242.842>
 DStem2: 18 4 0 -22 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -134 36 -160 0.58422 0.811595<0 90.1406 122.412 177.559 210.414 291.141> 70 75 51 49 0.811427 -0.584454<0 66.3895 110.206 176.006>
@@ -67595,13 +67615,15 @@ SplineSet
  353 339 367 357 385 370 c 0
  403 383 428 390 457 390 c 0x6f
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uniED4A
 Encoding: 60746 60746 1282
 Width: 643
-Flags: HW
+Flags: W
 HStem: -25 20G<55.3846 97.6923> 410 45<315.575 385.671>
+DStem2: 18 -76 0 -102 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -214 36 -240 0.586968 0.80961<0.0809847 90.2108 122.413 177.71 210.418 283.486> 70 -5 51 -31 0.811427 -0.584454<0 66.3895 110.206 176.006>
 AnchorPoint: "Above" 362 578 basechar 0
 AnchorPoint: "Below" 362 1 basechar 0
 AnchorPoint: "AboveRight" 492 576 basechar 0
@@ -67655,15 +67677,17 @@ SplineSet
  563.5 13.5 599.615234375 -14.349609375 611 -34.943359375 c 0
  616.396484375 -44.705078125 614.221679688 -52.4228515625 602 -56 c 0
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 uniA641
 EndChar
 
 StartChar: uniED4B
 Encoding: 60747 60747 1283
 Width: 540
-Flags: HW
+Flags: W
 HStem: -25 20G<55.3846 97.6923> -13 51<275.938 363.637> 224 42<269.184 366.241> 428 41<265.248 362.055>
 VStem: 126 130<52.2157 134.812> 133 117<328.234 407.384> 379 124<285.756 409.806> 387 123<65.024 204.452>
+DStem2: 18 -76 0 -102 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -214 36 -240 0.590178 0.807273<0.257298 90.2104 122.413 177.883 210.419 292.955> 70 -5 51 -31 0.811427 -0.584454<0 66.3895 110.206 176.006>
 AnchorPoint: "Above" 312 578 basechar 0
 AnchorPoint: "Below" 312 1 basechar 0
 AnchorPoint: "AboveRight" 442 576 basechar 0
@@ -67735,15 +67759,17 @@ SplineSet
  468 29 447 14 418 3 c 0
  389 -8 356 -13 319 -13 c 0x71
 EndSplineSet
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10073
 EndChar
 
 StartChar: uniED4C
 Encoding: 60748 60748 1284
 Width: 563
-Flags: HW
+Flags: W
 HStem: -25 20G<55.3846 97.6923> 0 21G<418 519> 435 20G<186.5 289 420 517>
 VStem: 172 127<23.2002 102 190 450.856> 406 127<6.14282 285 368 449.856>
+DStem2: 18 -76 0 -102 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -214 36 -240 0.584165 0.811635<0 90.1375 122.412 177.556 210.414 292.996> 70 -5 51 -31 0.811427 -0.584454<0 66.3895 110.206 176.006> 299 190 299 102 0.504751 0.863265<0 136.019>
 AnchorPoint: "Above" 352 578 basechar 0
 AnchorPoint: "Below" 352 1 basechar 0
 AnchorPoint: "AboveRight" 482 576 basechar 0
@@ -67797,15 +67823,17 @@ SplineSet
  294 455 299 447 299 432 c 2
  299 190 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10074
 EndChar
 
 StartChar: uniED4D
 Encoding: 60749 60749 1285
 Width: 610
-Flags: HW
+Flags: W
 HStem: -13 44<275.144 329.564> 230 39<100.771 130 262 346 472 499.201> 422 46<275.812 331.446>
 VStem: 130 132<109.503 227 269 351.445> 346 126<102.272 230 272 364.456>
+DStem2: 18 -36 0 -62 0.808736 -0.588172<0.735215 66.5369 110.944 176.746> 0 -174 36 -200 0.58701 0.80958<0.0832968 90.2108 122.413 177.712 210.418 280.541> 70 35 51 9 0.811427 -0.584454<0 66.3895 110.206 176.006>
 AnchorPoint: "Above" 302 578 basechar 0
 AnchorPoint: "Below" 302 1 basechar 0
 AnchorPoint: "AboveRight" 432 576 basechar 0
@@ -67885,6 +67913,7 @@ SplineSet
  566 272 572 270 575 267 c 0
  578 264 580 254 580 240 c 0
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10195
 EndChar
 
@@ -67927,7 +67956,7 @@ EndChar
 StartChar: uniED50
 Encoding: 60752 60752 1288
 Width: 260
-Flags: HW
+Flags: W
 HStem: -28 20G<120.5 130>
 VStem: 40 59<-330.756 -218.842>
 DStem2: 111 -125 54 -173 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
@@ -67973,15 +68002,17 @@ SplineSet
  230 -138 224 -140 217 -140 c 0
  209 -139 192 -129 167 -110 c 1
 EndSplineSet
+Validated: 1048609
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482
 EndChar
 
 StartChar: uniED51
 Encoding: 60753 60753 1289
 Width: 589
-Flags: HW
+Flags: W
 HStem: -28 20G<85.5 95> -13 92<283.04 345.719> 0 21G<454.5 548.024> 435 20G<268.5 493>
 VStem: 5 59<-330.756 -218.842> 223 61<85.0521 242.403>
+DStem2: 76 -125 19 -173 0.796628 -0.60447<-51.0545 0 52.9732 105.832> 473 326 384 209 0.262649 -0.964891<-65.4911 113.945 178.098 311.979>
 AnchorPoint: "Above" 372 578 basechar 0
 AnchorPoint: "Below" 372 1 basechar 0
 AnchorPoint: "AboveRight" 502 576 basechar 0
@@ -68053,15 +68084,17 @@ SplineSet
  195 -138 189 -140 182 -140 c 0
  174 -139 157 -129 132 -110 c 1
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10065
 EndChar
 
 StartChar: uniED52
 Encoding: 60754 60754 1290
 Width: 590
-Flags: HW
+Flags: W
 HStem: -28 20G<85.5 95> 0 31<358.238 418.67> 418 37<352.444 417.979>
 VStem: 5 59<-330.756 -218.842> 224 127<37.1436 221 282 417.992> 425 111<338.834 411.744> 429 131<35.7925 147.18>
+DStem2: 76 -125 19 -173 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
 AnchorPoint: "Above" 372 578 basechar 0
 AnchorPoint: "Below" 372 1 basechar 0
 AnchorPoint: "AboveRight" 502 576 basechar 0
@@ -68133,15 +68166,17 @@ SplineSet
  466 229 498 201 523 170 c 0
  548 139 560 101 560 53 c 0xfa
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10067
 EndChar
 
 StartChar: uniED53
 Encoding: 60755 60755 1291
 Width: 525
-Flags: HW
+Flags: W
 HStem: -28 20G<85.5 95> 418 37<353.82 402.937>
 VStem: 5 59<-330.756 -218.842> 224 127<12.0014 417.987> 425 48<262.941 398.996>
+DStem2: 76 -125 19 -173 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
 AnchorPoint: "Above" 352 578 basechar 0
 AnchorPoint: "Below" 352 1 basechar 0
 AnchorPoint: "AboveRight" 482 576 basechar 0
@@ -68202,15 +68237,17 @@ SplineSet
  232 452 240 455 250 455 c 2
  471 455 l 2
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10068
 EndChar
 
 StartChar: uniED54
 Encoding: 60756 60756 1292
 Width: 681
-Flags: HW
+Flags: W
 HStem: -23 20G<85.5 95> 0 40<359.02 458.469> 406 49<301.048 368.832>
 VStem: 5 59<-325.756 -213.842>
+DStem2: 76 -120 19 -168 0.796628 -0.60447<-51.0545 0 52.9732 105.832> 318 40 359 40 0.151833 0.988406<6.22517 285.325> 522 358 407 315 0.200262 -0.979742<19.0988 295.475>
 AnchorPoint: "Above" 432 578 basechar 0
 AnchorPoint: "Below" 432 1 basechar 0
 AnchorPoint: "AboveRight" 562 576 basechar 0
@@ -68286,15 +68323,17 @@ SplineSet
  443 40 l 2
  456 40 461 48 458 65 c 2
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10069
 EndChar
 
 StartChar: uniED55
 Encoding: 60757 60757 1293
 Width: 572
-Flags: HW
+Flags: W
 HStem: -13 43<347.737 406.602> 202 53<337.188 507.763> 419 49<350.185 404.019>
 VStem: 5 59<-290.756 -178.842> 194 137<106.831 339.63> 410 121<333.235 415.564> 411 131<38.484 125.809>
+DStem2: 76 -85 19 -133 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
 AnchorPoint: "Above" 362 578 basechar 0
 AnchorPoint: "Below" 362 1 basechar 0
 AnchorPoint: "AboveRight" 492 576 basechar 0
@@ -68374,15 +68413,17 @@ SplineSet
  524 132 532 130 536 126 c 0
  540 122 542 113 542 99 c 0xfa
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10070
 EndChar
 
 StartChar: uniED56
 Encoding: 60758 60758 1294
 Width: 566
-Flags: HW
+Flags: W
 HStem: -13 29<321.38 388.842> 225 27<354.359 388.29> 436 32<343.482 406.373>
 VStem: 5 59<-310.756 -198.842> 211 93<36.064 107.629> 214 116<268.36 401.761> 413 123<57.4755 201.373> 418 92<335.422 420.813>
+DStem2: 76 -105 19 -153 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
 AnchorPoint: "Above" 362 578 basechar 0
 AnchorPoint: "Below" 362 1 basechar 0
 AnchorPoint: "AboveRight" 492 576 basechar 0
@@ -68467,15 +68508,17 @@ SplineSet
  485 231 503 217 516 199 c 0
  529 181 536 156 536 127 c 0xf6
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10102
 EndChar
 
 StartChar: uniED57
 Encoding: 60759 60759 1295
 Width: 566
-Flags: HW
+Flags: W
 HStem: -13 29<357.648 422.508> 17 129<448.685 515.99> 225 27<360.983 393.6> 436 32<340.318 404.463>
 VStem: 5 59<-310.756 -198.842> 211 123<55.8767 199.756> 237 93<336.237 420.13> 418 115<267.822 404.5> 435 101<36.02 122.885>
+DStem2: 76 -105 19 -153 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
 AnchorPoint: "Above" 362 578 basechar 0
 AnchorPoint: "Below" 362 1 basechar 0
 AnchorPoint: "AboveRight" 492 576 basechar 0
@@ -68560,13 +68603,14 @@ SplineSet
  229.495117188 60.0654296875 223.763671875 70.3359375 220 81 c 0
  214 98 211 112 211 127 c 0xfc80
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 uniA645
 EndChar
 
 StartChar: uniED58
 Encoding: 60760 60760 1296
 Width: 696
-Flags: HW
+Flags: W
 HStem: -24 20G<23 36> 65 123<453.244 597.263> 91 93<240.941 316.763> 272 115<248.5 385.178> 289 101<530.115 616.98>
 VStem: 5 59<-230.756 -118.842> 185 32<194.318 258.463> 401 27<214.983 247.6> 507 129<302.685 369.99> 637 29<211.648 276.508>
 DStem2: 76 -25 19 -73 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
@@ -68655,12 +68699,13 @@ SplineSet
  605 91 589 80 572 74 c 0
  555 68 541 65 526 65 c 0xcfc0
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uniED59
 Encoding: 60761 60761 1297
 Width: 696
-Flags: HW
+Flags: W
 HStem: 65 93<545.371 616.364> 68 116<238.714 384.64> 267 123<451.627 595.525> 272 92<232.187 317.578>
 VStem: 5 59<-240.756 -128.842> 185 32<197.482 260.373> 401 27<208.359 242.29> 507 129<85.3137 153.712> 637 29<175.38 242.842>
 DStem2: 76 -35 19 -83 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
@@ -68747,14 +68792,16 @@ SplineSet
  422 339 436 357 454 370 c 0
  472 383 497 390 526 390 c 0x6f80
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uniED5A
 Encoding: 60762 60762 1298
 Width: 680
-Flags: HW
+Flags: W
 HStem: -28 20G<85.5 95> 410 45<352.575 422.671>
 VStem: 5 59<-330.756 -218.842>
+DStem2: 76 -125 19 -173 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
 AnchorPoint: "Above" 392 578 basechar 0
 AnchorPoint: "Below" 392 1 basechar 0
 AnchorPoint: "AboveRight" 522 576 basechar 0
@@ -68819,15 +68866,17 @@ SplineSet
  600.5 13.5 636.615234375 -14.349609375 648 -34.943359375 c 0
  653.396484375 -44.705078125 651.221679688 -52.4228515625 639 -56 c 0
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 uniA641
 EndChar
 
 StartChar: uniED5B
 Encoding: 60763 60763 1299
 Width: 629
-Flags: HW
+Flags: W
 HStem: -13 51<364.938 452.637> 224 42<358.184 455.241> 428 41<354.248 451.055>
 VStem: 5 59<-310.756 -198.842> 215 130<52.1318 134.812> 222 117<328.234 407.384> 468 124<285.756 409.806> 476 123<65.024 204.452>
+DStem2: 76 -105 19 -153 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
 AnchorPoint: "Above" 402 578 basechar 0
 AnchorPoint: "Below" 402 1 basechar 0
 AnchorPoint: "AboveRight" 532 576 basechar 0
@@ -68915,15 +68964,17 @@ SplineSet
  557 29 536 14 507 3 c 0
  478 -8 445 -13 408 -13 c 0xf1
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10073
 EndChar
 
 StartChar: uniED5C
 Encoding: 60764 60764 1300
 Width: 615
-Flags: HW
+Flags: W
 HStem: -28 20G<85.5 95> 0 21G<470 571> 435 20G<238.5 341 472 569>
 VStem: 5 59<-330.756 -218.842> 224 127<12.0014 102 190 450.856> 458 127<6.14282 285 368 449.856>
+DStem2: 76 -125 19 -173 0.796628 -0.60447<-51.0545 0 52.9732 105.832> 351 190 351 102 0.523349 0.852119<0 136.95>
 AnchorPoint: "Above" 402 578 basechar 0
 AnchorPoint: "Below" 402 1 basechar 0
 AnchorPoint: "AboveRight" 532 576 basechar 0
@@ -68991,15 +69042,17 @@ SplineSet
  346 455 351 447 351 432 c 2
  351 190 l 1
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10074
 EndChar
 
 StartChar: uniED5D
 Encoding: 60765 60765 1301
 Width: 662
-Flags: HW
+Flags: W
 HStem: -13 44<327.081 381.564> 230 39<152.771 182 314 398 524 551.201> 422 46<327.812 383.446>
 VStem: 5 59<-300.756 -188.842> 182 132<108.481 227 269 351.445> 398 126<102.272 230 272 364.456>
+DStem2: 76 -95 19 -143 0.796628 -0.60447<-51.0545 0 52.9732 105.832>
 AnchorPoint: "Above" 352 578 basechar 0
 AnchorPoint: "Below" 352 1 basechar 0
 AnchorPoint: "AboveRight" 482 576 basechar 0
@@ -69095,6 +69148,7 @@ SplineSet
  618 272 624 270 627 267 c 0
  630 264 632 254 632 240 c 0
 EndSplineSet
+Validated: 33
 Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10195
 EndChar
 
