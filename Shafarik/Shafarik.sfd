@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1411791849
-ModificationTime: 1572355907
+ModificationTime: 1572471849
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -63,7 +63,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 891 27 9
+WinInfo: 1215 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -72,7 +72,7 @@ Grid
   Named: "LC"
 EndSplineSet
 AnchorClass2: "Numeral" "'mark' Cyrillic Numerals-1" "Stacking" "'mkmk' Mark to Mark Positioning-1" "AboveLeft" "'mark' Mark Positioning-1" "AboveRight" "'mark' Mark Positioning-1" "Below" "'mark' Mark Positioning-1" "Above" "'mark' Mark Positioning-1"
-BeginChars: 1114113 1458
+BeginChars: 1114113 1457
 
 StartChar: space
 Encoding: 32 32 0
@@ -59568,49 +59568,49 @@ AnchorPoint: "Above" -180 533 mark 0
 LayerCount: 2
 Fore
 SplineSet
--181 569.5 m 1
- -190 556 -201 546 -213.5 539 c 0
- -226 532 -240 528.5 -254 528.5 c 0
- -271 528.5 -286.5 534 -301.5 544 c 0
- -316.5 554 -328 569 -337 588 c 0
- -346 607 -350.5 629 -350.5 653.5 c 0
- -350.5 676 -346.5 696.5 -338 714 c 0
- -329.5 731.5 -318 745 -303 754.5 c 0
- -288 764 -271.5 769 -254 769 c 0
- -239.5 769 -225.5 765.5 -213 759 c 0
- -200.5 752.5 -190 743.5 -181 732 c 1
- -172 744 -161.5 753.5 -149 759.5 c 0
- -136.5 765.5 -122.5 769 -107.5 769 c 0
- -90 769 -74 764 -59 754.5 c 0
- -44 745 -32.5 731.5 -24 714 c 0
- -15.5 696.5 -11 676 -11 653.5 c 0
- -11 628.5 -15 606.5 -24 587.5 c 0
- -33 568.5 -44.5 554 -59.5 544 c 0
- -74.5 534 -90.5 528.5 -107.5 528.5 c 0
- -121.5 528.5 -135 532 -148 539 c 0
- -161 546 -172 556 -181 569.5 c 1
--254 556.5 m 0
- -246.5 556.5 -241 562.5 -236 575 c 0
- -231 587.5 -227.5 601 -225 617 c 0
- -222.5 633 -221.5 645 -221.5 653 c 0
- -221.5 671 -224 691 -229 712.5 c 0
- -234 734 -242.5 745 -254 745 c 0
- -265 745 -273.5 734.5 -278 713.5 c 0
- -282.5 692.5 -285 673.5 -285 657 c 0
- -285 638.5 -282.5 617 -277.5 593 c 0
- -272.5 569 -265 556.5 -254 556.5 c 0
--107.5 556.5 m 0
- -100.5 556.5 -94.5 560 -90.5 567 c 0
- -86.5 574 -83 585 -81 599 c 0
- -79 613 -78 631 -78 652 c 0
- -78 684.5 -80.5 708.5 -84.5 723 c 0
- -88.5 737.5 -96.5 745 -107.5 745 c 0
- -116.5 745 -123 740 -128 729.5 c 0
- -133 719 -136.5 707.5 -138 693.5 c 0
- -139.5 679.5 -140.5 667 -140.5 656 c 0
- -140.5 646 -139.5 632.5 -137 616.5 c 0
- -134.5 600.5 -131 586.5 -126 574.5 c 0
- -121 562.5 -115 556.5 -107.5 556.5 c 0
+-181 569.5 m 5
+ -190 556 -201 546 -213.5 539 c 4
+ -226 532 -240 528.5 -254 528.5 c 4
+ -271 528.5 -286.5 534 -301.5 544 c 4
+ -316.5 554 -328 569 -337 588 c 4
+ -346 607 -350.5 629 -350.5 653.5 c 4
+ -350.5 676 -346.5 696.5 -338 714 c 4
+ -329.5 731.5 -318 745 -303 754.5 c 4
+ -288 764 -271.5 769 -254 769 c 4
+ -239.5 769 -225.5 765.5 -213 759 c 4
+ -200.5 752.5 -190 743.5 -181 732 c 5
+ -172 744 -161.5 753.5 -149 759.5 c 4
+ -136.5 765.5 -122.5 769 -107.5 769 c 4
+ -90 769 -74 764 -59 754.5 c 4
+ -44 745 -32.5 731.5 -24 714 c 4
+ -15.5 696.5 -11 676 -11 653.5 c 4
+ -11 628.5 -15 606.5 -24 587.5 c 4
+ -33 568.5 -44.5 554 -59.5 544 c 4
+ -74.5 534 -90.5 528.5 -107.5 528.5 c 4
+ -121.5 528.5 -135 532 -148 539 c 4
+ -161 546 -172 556 -181 569.5 c 5
+-254 556.5 m 4
+ -246.5 556.5 -241 562.5 -236 575 c 4
+ -231 587.5 -227.5 601 -225 617 c 4
+ -222.5 633 -221.5 645 -221.5 653 c 4
+ -221.5 671 -224 691 -229 712.5 c 4
+ -234 734 -242.5 745 -254 745 c 4
+ -265 745 -273.5 734.5 -278 713.5 c 4
+ -282.5 692.5 -285 673.5 -285 657 c 4
+ -285 638.5 -282.5 617 -277.5 593 c 4
+ -272.5 569 -265 556.5 -254 556.5 c 4
+-107.5 556.5 m 4
+ -100.5 556.5 -94.5 560 -90.5 567 c 4
+ -86.5 574 -83 585 -81 599 c 4
+ -79 613 -78 631 -78 652 c 4
+ -78 684.5 -80.5 708.5 -84.5 723 c 4
+ -88.5 737.5 -96.5 745 -107.5 745 c 4
+ -116.5 745 -123 740 -128 729.5 c 4
+ -133 719 -136.5 707.5 -138 693.5 c 4
+ -139.5 679.5 -140.5 667 -140.5 656 c 4
+ -140.5 646 -139.5 632.5 -137 616.5 c 4
+ -134.5 600.5 -131 586.5 -126 574.5 c 4
+ -121 562.5 -115 556.5 -107.5 556.5 c 4
 EndSplineSet
 Validated: 1
 EndChar
@@ -62212,18 +62212,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: u10FF9C
-Encoding: 1114012 1114012 1183
-Width: 1000
-VWidth: 0
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
 StartChar: uniE010
-Encoding: 57360 57360 1184
+Encoding: 57360 57360 1183
 Width: 1
 Flags: W
 HStem: 572 150<-342.709 -238.68> 645 150<239.192 343.709>
@@ -62252,7 +62242,7 @@ Validated: 33
 EndChar
 
 StartChar: uniE012
-Encoding: 57362 57362 1185
+Encoding: 57362 57362 1184
 Width: 1
 Flags: W
 HStem: 609 120<243 338.913> 688 118<-337.699 -246> 688 41<-246 243>
@@ -62279,7 +62269,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE013
-Encoding: 57363 57363 1186
+Encoding: 57363 57363 1185
 Width: 1
 Flags: W
 HStem: 687 57<31.026 129.187> 746 57<-128.187 -30.3633>
@@ -62303,7 +62293,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE014
-Encoding: 57364 57364 1187
+Encoding: 57364 57364 1186
 Width: 1
 Flags: W
 HStem: 747 62<-217.053 -67.8125>
@@ -62332,7 +62322,7 @@ Validated: 33
 EndChar
 
 StartChar: uniE017
-Encoding: 57367 57367 1188
+Encoding: 57367 57367 1187
 Width: 1
 Flags: W
 HStem: 668.999 134.001<-47.3223 50.3595> 685.999 34.001<68.9955 198.358> 750.999 34.001<-196.358 -66.8948>
@@ -62368,7 +62358,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE018
-Encoding: 57368 57368 1189
+Encoding: 57368 57368 1188
 Width: 1
 Flags: W
 HStem: 681 24<62.0248 282.682> 692 23<61 162.219> 702 24<-23.5789 23.6257 306 330> 726 24<-281.765 -61.8836>
@@ -62409,7 +62399,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE019
-Encoding: 57369 57369 1190
+Encoding: 57369 57369 1189
 Width: 1
 Flags: W
 HStem: 638 96<-15 -10 251.833 295> 710 84<-300 -255.667 16 25> 710 24<-251 -15 25 251>
@@ -62440,7 +62430,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE01A
-Encoding: 57370 57370 1191
+Encoding: 57370 57370 1190
 Width: 1
 Flags: W
 HStem: 765 36<-129.254 107.992>
@@ -62460,7 +62450,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE01C
-Encoding: 57372 57372 1192
+Encoding: 57372 57372 1191
 Width: 1
 Flags: W
 HStem: 667 134<-48.8742 48.5953> 718 31<-383.991 -60.3767 60.3149 383.991>
@@ -62486,7 +62476,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE01D
-Encoding: 57373 57373 1193
+Encoding: 57373 57373 1192
 Width: 1
 Flags: W
 HStem: 667 134<-185.595 -88.4047 88.4047 185.595> 718 31<-383.991 -197.315 -76.6851 76.6851 197.315 383.991>
@@ -62518,7 +62508,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE01E
-Encoding: 57374 57374 1194
+Encoding: 57374 57374 1193
 Width: 1
 Flags: W
 HStem: 654 36<-383.991 -115 115 383.991> 744 60<-45.9647 45.9647>
@@ -62545,7 +62535,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE01F
-Encoding: 57375 57375 1195
+Encoding: 57375 57375 1194
 Width: 1
 Flags: W
 HStem: 580 38<-310 -238.715 242.493 312>
@@ -62569,7 +62559,7 @@ Validated: 1
 EndChar
 
 StartChar: uF0023
-Encoding: 983075 983075 1196
+Encoding: 983075 983075 1195
 Width: 1
 Flags: W
 HStem: 488.5 66.5<-229.501 -201.5 -67 -44.9409> 535 227.5<-177.348 -164 -131.5 -100.086 2.54797 61.4286 119.548 178.952> 535 20<-179.415 -133.094>
@@ -62643,7 +62633,7 @@ Ligature2: "'ccmp' Cyrillic Ligatures-1" uni2DE3 uniA675
 EndChar
 
 StartChar: uniED00
-Encoding: 60672 60672 1197
+Encoding: 60672 60672 1196
 Width: 391
 GlyphClass: 3
 Flags: W
@@ -62702,7 +62692,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uniED01
-Encoding: 60673 60673 1198
+Encoding: 60673 60673 1197
 Width: 416
 GlyphClass: 3
 Flags: W
@@ -62762,7 +62752,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED02
-Encoding: 60674 60674 1199
+Encoding: 60674 60674 1198
 Width: 356
 GlyphClass: 3
 Flags: W
@@ -62809,7 +62799,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED03
-Encoding: 60675 60675 1200
+Encoding: 60675 60675 1199
 Width: 453
 GlyphClass: 3
 Flags: W
@@ -62873,7 +62863,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED04
-Encoding: 60676 60676 1201
+Encoding: 60676 60676 1200
 Width: 422
 GlyphClass: 3
 Flags: W
@@ -62938,7 +62928,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED05
-Encoding: 60677 60677 1202
+Encoding: 60677 60677 1201
 Width: 397
 GlyphClass: 3
 Flags: W
@@ -63008,7 +62998,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED06
-Encoding: 60678 60678 1203
+Encoding: 60678 60678 1202
 Width: 397
 GlyphClass: 3
 Flags: W
@@ -63079,7 +63069,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED07
-Encoding: 60679 60679 1204
+Encoding: 60679 60679 1203
 Width: 501
 Flags: W
 HStem: 65 123<278.244 422.263> 91 93<57.8697 141.763> 272 115<73.4996 210.178> 289 101<355.115 441.98> 641 32<132.309 369.691>
@@ -63149,7 +63139,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED08
-Encoding: 60680 60680 1205
+Encoding: 60680 60680 1204
 Width: 501
 Flags: W
 HStem: 65 93<370.371 441.364> 68 116<76.2386 209.64> 267 123<276.627 420.525> 272 92<57.1867 142.578> 641 32<132.309 369.691>
@@ -63218,7 +63208,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED09
-Encoding: 60681 60681 1206
+Encoding: 60681 60681 1205
 Width: 448
 GlyphClass: 3
 Flags: W
@@ -63274,7 +63264,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED0A
-Encoding: 60682 60682 1207
+Encoding: 60682 60682 1206
 Width: 460
 GlyphClass: 3
 Flags: W
@@ -63347,7 +63337,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED0B
-Encoding: 60683 60683 1208
+Encoding: 60683 60683 1207
 Width: 460
 GlyphClass: 3
 Flags: W
@@ -63405,7 +63395,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED0C
-Encoding: 60684 60684 1209
+Encoding: 60684 60684 1208
 Width: 582
 GlyphClass: 3
 Flags: W
@@ -63486,7 +63476,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED0D
-Encoding: 60685 60685 1210
+Encoding: 60685 60685 1209
 Width: 223
 GlyphClass: 3
 Flags: W
@@ -63527,7 +63517,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED0E
-Encoding: 60686 60686 1211
+Encoding: 60686 60686 1210
 Width: 270
 GlyphClass: 3
 Flags: W
@@ -63586,7 +63576,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED0F
-Encoding: 60687 60687 1212
+Encoding: 60687 60687 1211
 Width: 407
 GlyphClass: 3
 Flags: W
@@ -63653,7 +63643,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED10
-Encoding: 60688 60688 1213
+Encoding: 60688 60688 1212
 Width: 406
 GlyphClass: 3
 Flags: W
@@ -63714,7 +63704,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED11
-Encoding: 60689 60689 1214
+Encoding: 60689 60689 1213
 Width: 576
 GlyphClass: 3
 Flags: W
@@ -63783,7 +63773,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED12
-Encoding: 60690 60690 1215
+Encoding: 60690 60690 1214
 Width: 461
 GlyphClass: 3
 Flags: W
@@ -63841,7 +63831,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED13
-Encoding: 60691 60691 1216
+Encoding: 60691 60691 1215
 Width: 345
 GlyphClass: 3
 Flags: W
@@ -63925,7 +63915,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED14
-Encoding: 60692 60692 1217
+Encoding: 60692 60692 1216
 Width: 463
 GlyphClass: 3
 Flags: W
@@ -63976,7 +63966,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED15
-Encoding: 60693 60693 1218
+Encoding: 60693 60693 1217
 Width: 458
 GlyphClass: 3
 Flags: W
@@ -64025,7 +64015,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED16
-Encoding: 60694 60694 1219
+Encoding: 60694 60694 1218
 Width: 447
 GlyphClass: 3
 Flags: W
@@ -64094,7 +64084,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED17
-Encoding: 60695 60695 1220
+Encoding: 60695 60695 1219
 Width: 431
 Flags: W
 HStem: 0 21G<268 370> 175 51<203.566 254> 435 20G<61.5 166.5 265 365.5> 641 32<122.309 309.691>
@@ -64146,7 +64136,7 @@ AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniED16
 EndChar
 
 StartChar: uniED18
-Encoding: 60696 60696 1221
+Encoding: 60696 60696 1220
 Width: 438
 GlyphClass: 3
 Flags: W
@@ -64217,7 +64207,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED19
-Encoding: 60697 60697 1222
+Encoding: 60697 60697 1221
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -64235,7 +64225,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED1A
-Encoding: 60698 60698 1223
+Encoding: 60698 60698 1222
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -64253,7 +64243,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED1B
-Encoding: 60699 60699 1224
+Encoding: 60699 60699 1223
 Width: 415
 GlyphClass: 3
 Flags: W
@@ -64318,7 +64308,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED1C
-Encoding: 60700 60700 1225
+Encoding: 60700 60700 1224
 Width: 415
 GlyphClass: 3
 Flags: W
@@ -64380,7 +64370,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uniED1D
-Encoding: 60701 60701 1226
+Encoding: 60701 60701 1225
 Width: 395
 GlyphClass: 3
 Flags: W
@@ -64437,7 +64427,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED1E
-Encoding: 60702 60702 1227
+Encoding: 60702 60702 1226
 Width: 683
 GlyphClass: 3
 Flags: W
@@ -64493,7 +64483,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED1F
-Encoding: 60703 60703 1228
+Encoding: 60703 60703 1227
 Width: 428
 GlyphClass: 3
 Flags: W
@@ -64556,7 +64546,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uniED20
-Encoding: 60704 60704 1229
+Encoding: 60704 60704 1228
 Width: 638
 GlyphClass: 3
 Flags: W
@@ -64640,7 +64630,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED21
-Encoding: 60705 60705 1230
+Encoding: 60705 60705 1229
 Width: 425
 GlyphClass: 3
 Flags: W
@@ -64705,7 +64695,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED22
-Encoding: 60706 60706 1231
+Encoding: 60706 60706 1230
 Width: 457
 GlyphClass: 3
 Flags: W
@@ -64764,7 +64754,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED23
-Encoding: 60707 60707 1232
+Encoding: 60707 60707 1231
 Width: 535
 GlyphClass: 3
 Flags: W
@@ -64848,7 +64838,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED24
-Encoding: 60708 60708 1233
+Encoding: 60708 60708 1232
 Width: 615
 GlyphClass: 3
 Flags: W
@@ -64919,7 +64909,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED25
-Encoding: 60709 60709 1234
+Encoding: 60709 60709 1233
 Width: 495
 GlyphClass: 3
 Flags: W
@@ -64992,7 +64982,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED26
-Encoding: 60710 60710 1235
+Encoding: 60710 60710 1234
 Width: 466
 GlyphClass: 3
 Flags: W
@@ -65059,7 +65049,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED27
-Encoding: 60711 60711 1236
+Encoding: 60711 60711 1235
 Width: 620
 Flags: W
 HStem: 0 55<144.095 241 311 410.996> 148 39<194 241 311 348> 448 20G<298.5 313> 641 32<182.309 420.691>
@@ -65120,7 +65110,7 @@ AlternateSubs2: "'salt' Stylistic Alternatives lookup 4-1" uniED26
 EndChar
 
 StartChar: uniED28
-Encoding: 60712 60712 1237
+Encoding: 60712 60712 1236
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -65138,7 +65128,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED29
-Encoding: 60713 60713 1238
+Encoding: 60713 60713 1237
 Width: 423
 Flags: W
 HStem: 0 21G<127.5 252> 314 154<313.335 377.763> 435 20G<32 140> 641 32<122.309 299.691>
@@ -65190,7 +65180,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED2A
-Encoding: 60714 60714 1239
+Encoding: 60714 60714 1238
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -65208,7 +65198,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED2B
-Encoding: 60715 60715 1240
+Encoding: 60715 60715 1239
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -65226,7 +65216,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED2C
-Encoding: 60716 60716 1241
+Encoding: 60716 60716 1240
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -65244,7 +65234,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED2D
-Encoding: 60717 60717 1242
+Encoding: 60717 60717 1241
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -65262,7 +65252,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED2E
-Encoding: 60718 60718 1243
+Encoding: 60718 60718 1242
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -65280,7 +65270,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED2F
-Encoding: 60719 60719 1244
+Encoding: 60719 60719 1243
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -65298,7 +65288,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED30
-Encoding: 60720 60720 1245
+Encoding: 60720 60720 1244
 Width: 602
 Flags: W
 HStem: -13 92<78.0406 160.719> 0 21G<269.5 357 439.5 536> 435 20G<83.5 308 439.5 541.5> 641 32<131.309 465.691>
@@ -65368,7 +65358,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10065 uniA66F afii10103
 EndChar
 
 StartChar: uniED31
-Encoding: 60721 60721 1246
+Encoding: 60721 60721 1245
 Width: 626
 Flags: W
 HStem: 0 31<183.238 243.67> 418 37<177.444 242.979> 641 32<131.309 489.691>
@@ -65440,7 +65430,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10067 uniA66F afii10103
 EndChar
 
 StartChar: uniED32
-Encoding: 60722 60722 1247
+Encoding: 60722 60722 1246
 Width: 556
 Flags: W
 HStem: 0 21G<63 160.5 393.5 490> 418 37<178.82 227.937> 641 32<131.309 419.691>
@@ -65499,7 +65489,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10068 uniA66F afii10103
 EndChar
 
 StartChar: uniED33
-Encoding: 60723 60723 1248
+Encoding: 60723 60723 1247
 Width: 642
 Flags: W
 HStem: 0 40<138.02 237.469> 406 49<80.0481 147.832> 641 32<132.309 505.691>
@@ -65576,7 +65566,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10069 uniA66F afii10103
 EndChar
 
 StartChar: uniED34
-Encoding: 60724 60724 1249
+Encoding: 60724 60724 1248
 Width: 620
 Flags: W
 HStem: -13 43<192.737 251.602> 0 21G<459.5 556> 202 53<182.188 352.763> 419 49<195.185 249.019> 435 20G<459.5 561.5> 641 32<131.309 478.691>
@@ -65653,7 +65643,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10070 uniA66F afii10103
 EndChar
 
 StartChar: uniED35
-Encoding: 60725 60725 1250
+Encoding: 60725 60725 1249
 Width: 586
 Flags: W
 HStem: -13 29<146.38 213.842> 0 21G<423.5 520> 17 129<56.3137 124.712> 225 27<179.359 213.29> 435 20G<423.5 525.5> 436 32<168.482 231.373> 641 32<131.309 449.691>
@@ -65735,7 +65725,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10102 uniA66F afii10103
 EndChar
 
 StartChar: uniED36
-Encoding: 60726 60726 1251
+Encoding: 60726 60726 1250
 Width: 586
 Flags: W
 HStem: -13 29<182.648 247.508> 0 21G<423.5 520> 17 129<273.685 340.99> 225 27<185.983 218.6> 435 20G<423.5 525.5> 436 32<165.318 229.463> 641 32<131.309 449.691>
@@ -65818,7 +65808,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" uniA645 uniA66F afii10103
 EndChar
 
 StartChar: uniED37
-Encoding: 60727 60727 1252
+Encoding: 60727 60727 1251
 Width: 706
 Flags: W
 HStem: 0 21G<553.5 650> 65 123<278.244 422.263> 91 93<57.8697 141.763> 272 115<73.4996 210.178> 289 101<355.115 441.98> 435 20G<553.5 655.5> 641 32<132.309 569.691>
@@ -65901,7 +65891,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" uniE1D6 uniA66F afii10103
 EndChar
 
 StartChar: uniED38
-Encoding: 60728 60728 1253
+Encoding: 60728 60728 1252
 Width: 706
 Flags: W
 HStem: 0 21G<553.5 650> 65 93<370.371 441.364> 68 116<76.2386 209.64> 267 123<276.627 420.525> 272 92<57.1867 142.578> 435 20G<553.5 655.5> 641 32<132.309 569.691>
@@ -65983,7 +65973,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" uniE1D7 uniA66F afii10103
 EndChar
 
 StartChar: uniED39
-Encoding: 60729 60729 1254
+Encoding: 60729 60729 1253
 Width: 665
 Flags: W
 HStem: 0 21G<503.5 600> 410 45<175.575 245.671> 641 32<138.309 523.691>
@@ -66052,7 +66042,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" uniA641 uniA66F afii10103
 EndChar
 
 StartChar: uniED3A
-Encoding: 60730 60730 1255
+Encoding: 60730 60730 1254
 Width: 645
 Flags: W
 HStem: -13 51<189.938 277.637> 0 21G<483.5 580> 224 42<183.184 280.241> 428 41<179.248 276.055> 435 20G<483.5 585.5> 641 32<141.309 503.691>
@@ -66137,7 +66127,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10073 uniA66F afii10103
 EndChar
 
 StartChar: uniED3B
-Encoding: 60731 60731 1256
+Encoding: 60731 60731 1255
 Width: 646
 Flags: W
 HStem: 0 21G<66.5 158 295 396 483.5 580> 435 20G<63.5 166 297 394 483.5 585.5> 641 32<141.309 504.691>
@@ -66207,7 +66197,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10074 uniA66F afii10103
 EndChar
 
 StartChar: uniED3C
-Encoding: 60732 60732 1257
+Encoding: 60732 60732 1256
 Width: 768
 Flags: W
 HStem: -13 44<262.501 316.564> 0 21G<623.5 720> 230 39<87.7705 117 249 333 459 486.201> 422 46<262.812 318.446> 435 20G<623.5 725.5> 641 32<141.309 638.691>
@@ -66300,7 +66290,7 @@ Ligature2: "'ccmp' Precomposed Tens Numerals-1" afii10195 uniA66F afii10103
 EndChar
 
 StartChar: uniED3D
-Encoding: 60733 60733 1258
+Encoding: 60733 60733 1257
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -66318,7 +66308,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED3E
-Encoding: 60734 60734 1259
+Encoding: 60734 60734 1258
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -66336,7 +66326,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED3F
-Encoding: 60735 60735 1260
+Encoding: 60735 60735 1259
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -66354,7 +66344,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED40
-Encoding: 60736 60736 1261
+Encoding: 60736 60736 1260
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -66372,7 +66362,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED41
-Encoding: 60737 60737 1262
+Encoding: 60737 60737 1261
 Width: 520
 Flags: W
 HStem: -25 20G<55.3846 97.6923> -13 92<217.538 276.719> 0 21G<385.5 479.024> 435 20G<199.5 424>
@@ -66440,7 +66430,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10065
 EndChar
 
 StartChar: uniED42
-Encoding: 60738 60738 1263
+Encoding: 60738 60738 1262
 Width: 538
 Flags: W
 HStem: -25 20G<55.3846 97.6923> 0 31<306.238 366.67> 418 37<300.444 365.979>
@@ -66508,7 +66498,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10067
 EndChar
 
 StartChar: uniED43
-Encoding: 60739 60739 1264
+Encoding: 60739 60739 1263
 Width: 473
 Flags: W
 HStem: -25 20G<55.3846 97.6923> 418 37<301.82 350.937>
@@ -66564,7 +66554,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10068
 EndChar
 
 StartChar: uniED44
-Encoding: 60740 60740 1265
+Encoding: 60740 60740 1264
 Width: 562
 Flags: W
 HStem: 0 40<240.02 339.469> 406 49<182.048 249.832>
@@ -66635,7 +66625,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10069
 EndChar
 
 StartChar: uniED45
-Encoding: 60741 60741 1266
+Encoding: 60741 60741 1265
 Width: 483
 Flags: W
 HStem: -13 43<258.062 317.602> 202 53<248.188 418.763> 419 49<261.185 315.019>
@@ -66709,7 +66699,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10070
 EndChar
 
 StartChar: uniED46
-Encoding: 60742 60742 1267
+Encoding: 60742 60742 1266
 Width: 487
 Flags: W
 HStem: -25 20G<55.3846 97.6923> -13 29<242.618 309.842> 225 27<275.359 309.29> 436 32<264.482 327.373>
@@ -66788,7 +66778,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10102
 EndChar
 
 StartChar: uniED47
-Encoding: 60743 60743 1268
+Encoding: 60743 60743 1267
 Width: 477
 Flags: W
 HStem: -25 20G<55.3846 97.6923> -13 29<268.648 333.508> 17 129<359.685 426.99> 225 27<271.983 304.6> 436 32<251.318 315.463>
@@ -66869,7 +66859,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 uniA645
 EndChar
 
 StartChar: uniED48
-Encoding: 60744 60744 1269
+Encoding: 60744 60744 1268
 Width: 637
 Flags: W
 HStem: 65 123<394.244 538.263> 91 117<216.834 268.763> 272 115<189.5 326.178> 289 101<471.115 557.98>
@@ -66949,7 +66939,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED49
-Encoding: 60745 60745 1270
+Encoding: 60745 60745 1269
 Width: 627
 Flags: W
 HStem: 65 93<476.371 547.364> 68 116<196.181 315.64> 267 123<382.627 526.525> 272 92<163.187 248.578>
@@ -67027,7 +67017,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED4A
-Encoding: 60746 60746 1271
+Encoding: 60746 60746 1270
 Width: 643
 Flags: W
 HStem: -25 20G<55.3846 97.6923> 410 45<315.575 385.671>
@@ -67090,7 +67080,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 uniA641
 EndChar
 
 StartChar: uniED4B
-Encoding: 60747 60747 1272
+Encoding: 60747 60747 1271
 Width: 540
 Flags: W
 HStem: -25 20G<55.3846 97.6923> -13 51<275.938 363.637> 224 42<269.184 366.241> 428 41<265.248 362.055>
@@ -67172,7 +67162,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10073
 EndChar
 
 StartChar: uniED4C
-Encoding: 60748 60748 1273
+Encoding: 60748 60748 1272
 Width: 563
 Flags: W
 HStem: -25 20G<55.3846 97.6923> 0 21G<418 519> 435 20G<186.5 289 420 517>
@@ -67236,7 +67226,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10074
 EndChar
 
 StartChar: uniED4D
-Encoding: 60749 60749 1274
+Encoding: 60749 60749 1273
 Width: 610
 Flags: W
 HStem: -13 44<275.144 329.564> 230 39<100.771 130 262 346 472 499.201> 422 46<275.812 331.446>
@@ -67326,7 +67316,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0482 afii10195
 EndChar
 
 StartChar: uniED4E
-Encoding: 60750 60750 1275
+Encoding: 60750 60750 1274
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -67344,7 +67334,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED4F
-Encoding: 60751 60751 1276
+Encoding: 60751 60751 1275
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -67362,7 +67352,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED50
-Encoding: 60752 60752 1277
+Encoding: 60752 60752 1276
 Width: 260
 Flags: W
 HStem: -28 20G<120.5 130>
@@ -67415,7 +67405,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482
 EndChar
 
 StartChar: uniED51
-Encoding: 60753 60753 1278
+Encoding: 60753 60753 1277
 Width: 589
 Flags: W
 HStem: -28 20G<85.5 95> -13 92<283.04 345.719> 0 21G<454.5 548.024> 435 20G<268.5 493>
@@ -67497,7 +67487,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10065
 EndChar
 
 StartChar: uniED52
-Encoding: 60754 60754 1279
+Encoding: 60754 60754 1278
 Width: 590
 Flags: W
 HStem: -28 20G<85.5 95> 0 31<358.238 418.67> 418 37<352.444 417.979>
@@ -67579,7 +67569,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10067
 EndChar
 
 StartChar: uniED53
-Encoding: 60755 60755 1280
+Encoding: 60755 60755 1279
 Width: 525
 Flags: W
 HStem: -28 20G<85.5 95> 418 37<353.82 402.937>
@@ -67650,7 +67640,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10068
 EndChar
 
 StartChar: uniED54
-Encoding: 60756 60756 1281
+Encoding: 60756 60756 1280
 Width: 681
 Flags: W
 HStem: -23 20G<85.5 95> 0 40<359.02 458.469> 406 49<301.048 368.832>
@@ -67737,7 +67727,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10069
 EndChar
 
 StartChar: uniED55
-Encoding: 60757 60757 1282
+Encoding: 60757 60757 1281
 Width: 617
 Flags: HW
 HStem: -13 43<392.737 451.602> 202 53<382.188 552.763> 419 49<395.185 449.019>
@@ -67826,7 +67816,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10070
 EndChar
 
 StartChar: uniED56
-Encoding: 60758 60758 1283
+Encoding: 60758 60758 1282
 Width: 566
 Flags: W
 HStem: -13 29<321.38 388.842> 225 27<354.359 388.29> 436 32<343.482 406.373>
@@ -67921,7 +67911,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10102
 EndChar
 
 StartChar: uniED57
-Encoding: 60759 60759 1284
+Encoding: 60759 60759 1283
 Width: 566
 Flags: W
 HStem: -13 29<357.648 422.508> 17 129<448.685 515.99> 225 27<360.983 393.6> 436 32<340.318 404.463>
@@ -68016,7 +68006,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 uniA645
 EndChar
 
 StartChar: uniED58
-Encoding: 60760 60760 1285
+Encoding: 60760 60760 1284
 Width: 696
 Flags: W
 HStem: -24 20G<23 36> 65 123<453.244 597.263> 91 93<240.941 316.763> 272 115<248.5 385.178> 289 101<530.115 616.98>
@@ -68111,7 +68101,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED59
-Encoding: 60761 60761 1286
+Encoding: 60761 60761 1285
 Width: 696
 Flags: W
 HStem: 65 93<545.371 616.364> 68 116<238.714 384.64> 267 123<451.627 595.525> 272 92<232.187 317.578>
@@ -68204,7 +68194,7 @@ Validated: 33
 EndChar
 
 StartChar: uniED5A
-Encoding: 60762 60762 1287
+Encoding: 60762 60762 1286
 Width: 680
 Flags: W
 HStem: -28 20G<85.5 95> 410 45<352.575 422.671>
@@ -68279,7 +68269,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 uniA641
 EndChar
 
 StartChar: uniED5B
-Encoding: 60763 60763 1288
+Encoding: 60763 60763 1287
 Width: 660
 Flags: HW
 HStem: -13 51<364.938 452.637> 224 42<358.184 455.241> 428 41<354.248 451.055>
@@ -68372,7 +68362,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10073
 EndChar
 
 StartChar: uniED5C
-Encoding: 60764 60764 1289
+Encoding: 60764 60764 1288
 Width: 615
 Flags: W
 HStem: -28 20G<85.5 95> 0 21G<470 571> 435 20G<238.5 341 472 569>
@@ -68450,7 +68440,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10074
 EndChar
 
 StartChar: uniED5D
-Encoding: 60765 60765 1290
+Encoding: 60765 60765 1289
 Width: 732
 Flags: HW
 HStem: -13 44<332.501 386.564> 230 39<157.77 187 319 403 529 556.201> 422 46<332.812 388.446> 641 32<211.309 518.691>
@@ -68536,7 +68526,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0482 afii10195
 EndChar
 
 StartChar: uniED5E
-Encoding: 60766 60766 1291
+Encoding: 60766 60766 1290
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -68554,7 +68544,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED5F
-Encoding: 60767 60767 1292
+Encoding: 60767 60767 1291
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -68572,7 +68562,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED60
-Encoding: 60768 60768 1293
+Encoding: 60768 60768 1292
 Width: 100
 GlyphClass: 4
 Flags: W
@@ -68598,7 +68588,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni20DD
 EndChar
 
 StartChar: uniED61
-Encoding: 60769 60769 1294
+Encoding: 60769 60769 1293
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -68653,7 +68643,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uni20DD
 EndChar
 
 StartChar: uniED62
-Encoding: 60770 60770 1295
+Encoding: 60770 60770 1294
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -68709,7 +68699,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uni20DD
 EndChar
 
 StartChar: uniED63
-Encoding: 60771 60771 1296
+Encoding: 60771 60771 1295
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -68752,7 +68742,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uni20DD
 EndChar
 
 StartChar: uniED64
-Encoding: 60772 60772 1297
+Encoding: 60772 60772 1296
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -68813,7 +68803,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uni20DD
 EndChar
 
 StartChar: uniED65
-Encoding: 60773 60773 1298
+Encoding: 60773 60773 1297
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -68874,7 +68864,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uni20DD
 EndChar
 
 StartChar: uniED66
-Encoding: 60774 60774 1299
+Encoding: 60774 60774 1298
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -68940,7 +68930,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uni20DD
 EndChar
 
 StartChar: uniED67
-Encoding: 60775 60775 1300
+Encoding: 60775 60775 1299
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -69007,7 +68997,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uni20DD
 EndChar
 
 StartChar: uniED68
-Encoding: 60776 60776 1301
+Encoding: 60776 60776 1300
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -69060,7 +69050,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uni20DD
 EndChar
 
 StartChar: uniED69
-Encoding: 60777 60777 1302
+Encoding: 60777 60777 1301
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -69129,7 +69119,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uni20DD
 EndChar
 
 StartChar: uniED6A
-Encoding: 60778 60778 1303
+Encoding: 60778 60778 1302
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -69183,7 +69173,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uni20DD
 EndChar
 
 StartChar: uniED6B
-Encoding: 60779 60779 1304
+Encoding: 60779 60779 1303
 Width: 887
 GlyphClass: 3
 Flags: W
@@ -69260,7 +69250,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uni20DD
 EndChar
 
 StartChar: uniED6C
-Encoding: 60780 60780 1305
+Encoding: 60780 60780 1304
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -69278,7 +69268,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED6D
-Encoding: 60781 60781 1306
+Encoding: 60781 60781 1305
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -69296,7 +69286,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED6E
-Encoding: 60782 60782 1307
+Encoding: 60782 60782 1306
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -69314,7 +69304,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED6F
-Encoding: 60783 60783 1308
+Encoding: 60783 60783 1307
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -69332,7 +69322,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED70
-Encoding: 60784 60784 1309
+Encoding: 60784 60784 1308
 Width: 100
 GlyphClass: 4
 Flags: W
@@ -69420,7 +69410,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0488
 EndChar
 
 StartChar: uniED71
-Encoding: 60785 60785 1310
+Encoding: 60785 60785 1309
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -69537,7 +69527,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uni0488
 EndChar
 
 StartChar: uniED72
-Encoding: 60786 60786 1311
+Encoding: 60786 60786 1310
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -69655,7 +69645,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uni0488
 EndChar
 
 StartChar: uniED73
-Encoding: 60787 60787 1312
+Encoding: 60787 60787 1311
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -69760,7 +69750,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uni0488
 EndChar
 
 StartChar: uniED74
-Encoding: 60788 60788 1313
+Encoding: 60788 60788 1312
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -69883,7 +69873,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uni0488
 EndChar
 
 StartChar: uniED75
-Encoding: 60789 60789 1314
+Encoding: 60789 60789 1313
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -70006,7 +69996,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uni0488
 EndChar
 
 StartChar: uniED76
-Encoding: 60790 60790 1315
+Encoding: 60790 60790 1314
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -70134,7 +70124,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uni0488
 EndChar
 
 StartChar: uniED77
-Encoding: 60791 60791 1316
+Encoding: 60791 60791 1315
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -70263,7 +70253,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uni0488
 EndChar
 
 StartChar: uniED78
-Encoding: 60792 60792 1317
+Encoding: 60792 60792 1316
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -70378,7 +70368,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uni0488
 EndChar
 
 StartChar: uniED79
-Encoding: 60793 60793 1318
+Encoding: 60793 60793 1317
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -70509,7 +70499,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uni0488
 EndChar
 
 StartChar: uniED7A
-Encoding: 60794 60794 1319
+Encoding: 60794 60794 1318
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -70625,7 +70615,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uni0488
 EndChar
 
 StartChar: uniED7B
-Encoding: 60795 60795 1320
+Encoding: 60795 60795 1319
 Width: 995
 GlyphClass: 3
 Flags: W
@@ -70764,7 +70754,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uni0488
 EndChar
 
 StartChar: uniED7C
-Encoding: 60796 60796 1321
+Encoding: 60796 60796 1320
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -70782,7 +70772,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED7D
-Encoding: 60797 60797 1322
+Encoding: 60797 60797 1321
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -70800,7 +70790,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED7E
-Encoding: 60798 60798 1323
+Encoding: 60798 60798 1322
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -70818,7 +70808,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED7F
-Encoding: 60799 60799 1324
+Encoding: 60799 60799 1323
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -70836,7 +70826,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED80
-Encoding: 60800 60800 1325
+Encoding: 60800 60800 1324
 Width: 100
 GlyphClass: 4
 Flags: W
@@ -70932,7 +70922,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uni0489
 EndChar
 
 StartChar: uniED81
-Encoding: 60801 60801 1326
+Encoding: 60801 60801 1325
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> -13 92<363.563 446.242> 0 21G<555.022 648.547> 177 108<103.314 163.825> 252 108<806.92 866.676> 435 20G<369.022 593.522> 534 132<436.311 505.886>
@@ -71054,7 +71044,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uni0489
 EndChar
 
 StartChar: uniED82
-Encoding: 60802 60802 1327
+Encoding: 60802 60802 1326
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> 0 31<468.761 529.193> 177 108<103.314 163.825> 252 108<806.92 866.676> 418 37<462.967 528.502> 534 132<436.311 505.886>
@@ -71179,7 +71169,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uni0489
 EndChar
 
 StartChar: uniED83
-Encoding: 60803 60803 1328
+Encoding: 60803 60803 1327
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> 0 21G<388.522 486.022> 177 108<103.314 163.825> 252 108<806.92 866.676> 418 37<504.342 553.459> 534 132<436.311 500.702>
@@ -71291,7 +71281,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uni0489
 EndChar
 
 StartChar: uniED84
-Encoding: 60804 60804 1329
+Encoding: 60804 60804 1328
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> 0 40<392.542 491.991> 177 108<103.314 163.825> 252 108<806.92 866.676> 406 49<334.571 402.354> 534 132<436.311 505.886>
@@ -71421,7 +71411,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uni0489
 EndChar
 
 StartChar: uniED85
-Encoding: 60805 60805 1330
+Encoding: 60805 60805 1329
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> -13 43<463.259 522.124> 177 108<103.314 163.825> 202 53<452.711 623.285> 252 108<806.92 866.676> 419 49<465.707 519.542> 534 132<436.311 505.886>
@@ -71551,7 +71541,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uni0489
 EndChar
 
 StartChar: uniED86
-Encoding: 60806 60806 1331
+Encoding: 60806 60806 1330
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> -13 29<441.903 509.364> 17 129<351.836 420.234> 177 108<103.314 163.825> 225 27<474.882 508.812> 252 108<806.92 866.676> 436 32<464.005 526.896> 534 132<436.311 505.886>
@@ -71686,7 +71676,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uni0489
 EndChar
 
 StartChar: uniED87
-Encoding: 60807 60807 1332
+Encoding: 60807 60807 1331
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> -13 29<468.17 533.031> 17 129<559.207 626.512> 177 108<103.314 163.825> 225 27<471.506 504.123> 252 108<806.92 866.676> 436 32<450.84 514.985> 534 132<436.311 505.886>
@@ -71822,7 +71812,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uni0489
 EndChar
 
 StartChar: uniED88
-Encoding: 60808 60808 1333
+Encoding: 60808 60808 1332
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> 177 108<103.314 163.825> 252 108<806.92 866.676> 360 45<449.097 519.194> 534 132<436.311 505.886>
@@ -71943,7 +71933,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uni0489
 EndChar
 
 StartChar: uniED89
-Encoding: 60809 60809 1334
+Encoding: 60809 60809 1333
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> -13 51<445.46 533.159> 177 108<103.314 163.825> 224 42<438.707 535.764> 252 108<806.92 866.676> 428 41<434.771 531.577> 534 132<436.311 505.886>
@@ -72081,7 +72071,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uni0489
 EndChar
 
 StartChar: uniED8A
-Encoding: 60810 60810 1335
+Encoding: 60810 60810 1334
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> 0 21G<337.022 428.522 565.522 666.522> 177 108<103.314 163.825> 252 108<806.92 866.676> 435 20G<334.022 436.522 567.522 664.522> 534 132<436.311 505.886>
@@ -72203,7 +72193,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uni0489
 EndChar
 
 StartChar: uniED8B
-Encoding: 60811 60811 1336
+Encoding: 60811 60811 1335
 Width: 971
 Flags: W
 HStem: -230 132<470.728 541.159> -13 44<458.023 512.087> 177 108<103.314 163.825> 230 39<283.293 312.522 444.522 528.522 654.522 681.723> 252 108<806.92 866.676> 422 46<458.335 513.968> 534 132<436.311 505.886>
@@ -72349,7 +72339,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uni0489
 EndChar
 
 StartChar: uniED8C
-Encoding: 60812 60812 1337
+Encoding: 60812 60812 1336
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -72367,7 +72357,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED8D
-Encoding: 60813 60813 1338
+Encoding: 60813 60813 1337
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -72385,7 +72375,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED8E
-Encoding: 60814 60814 1339
+Encoding: 60814 60814 1338
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -72403,7 +72393,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED8F
-Encoding: 60815 60815 1340
+Encoding: 60815 60815 1339
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -72421,7 +72411,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED90
-Encoding: 60816 60816 1341
+Encoding: 60816 60816 1340
 Width: 100
 GlyphClass: 4
 Flags: W
@@ -72525,7 +72515,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uni0489
 EndChar
 
 StartChar: uniED91
-Encoding: 60817 60817 1342
+Encoding: 60817 60817 1341
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> -13 92<415.188 495.219> 0 21G<604 697.524> 219 64<90.9563 193.935 888.092 991.935> 435 20G<418 642.5> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -72655,7 +72645,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10065 uni0489
 EndChar
 
 StartChar: uniED92
-Encoding: 60818 60818 1343
+Encoding: 60818 60818 1342
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> 0 31<517.738 578.17> 219 64<90.9563 193.935 888.092 991.935> 418 37<511.944 577.479> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -72788,7 +72778,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10067 uni0489
 EndChar
 
 StartChar: uniED93
-Encoding: 60819 60819 1344
+Encoding: 60819 60819 1343
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> 0 21G<417.5 515> 219 64<90.9563 193.935 888.092 991.935> 418 37<533.32 582.437> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -72908,7 +72898,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10068 uni0489
 EndChar
 
 StartChar: uniED94
-Encoding: 60820 60820 1345
+Encoding: 60820 60820 1344
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> 0 40<456.52 555.969> 219 64<90.9563 193.935 888.092 991.935> 406 49<398.548 466.332> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -73046,7 +73036,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10069 uni0489
 EndChar
 
 StartChar: uniED95
-Encoding: 60821 60821 1346
+Encoding: 60821 60821 1345
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> -13 43<512.237 571.102> 202 53<501.688 672.263> 219 64<90.9563 193.935 888.092 991.935> 419 49<514.685 568.519> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -73184,7 +73174,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10070 uni0489
 EndChar
 
 StartChar: uniED96
-Encoding: 60822 60822 1347
+Encoding: 60822 60822 1346
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> -13 29<490.88 558.342> 17 129<400.814 469.212> 219 64<90.9563 193.935 888.092 991.935> 225 27<523.859 557.79> 436 32<512.982 575.873> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -73327,7 +73317,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10102 uni0489
 EndChar
 
 StartChar: uniED97
-Encoding: 60823 60823 1348
+Encoding: 60823 60823 1347
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> -13 29<517.148 582.008> 17 129<608.185 675.49> 219 64<90.9563 193.935 888.092 991.935> 225 27<520.483 553.1> 436 32<499.818 563.963> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -73471,7 +73461,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA645 uni0489
 EndChar
 
 StartChar: uniED98
-Encoding: 60824 60824 1349
+Encoding: 60824 60824 1348
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> 219 64<90.9563 193.935 888.092 991.935> 430 45<488.075 558.171> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -73601,7 +73591,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA641 uni0489
 EndChar
 
 StartChar: uniED99
-Encoding: 60825 60825 1350
+Encoding: 60825 60825 1349
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> -13 51<500.438 588.137> 219 64<90.9563 193.935 888.092 991.935> 224 42<493.684 590.741> 428 41<489.748 586.555> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -73747,7 +73737,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10073 uni0489
 EndChar
 
 StartChar: uniED9A
-Encoding: 60826 60826 1351
+Encoding: 60826 60826 1350
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> 0 21G<380 471.5 608.5 709.5> 219 64<90.9563 193.935 888.092 991.935> 435 20G<377 479.5 610.5 707.5> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -73878,7 +73868,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10074 uni0489
 EndChar
 
 StartChar: uniED9B
-Encoding: 60827 60827 1352
+Encoding: 60827 60827 1351
 Width: 1083
 Flags: W
 HStem: -166 64<483.655 587.935> -14 63<156.065 259.044 821.065 924.792> -13 44<512.001 566.064> 219 64<90.9563 193.935 888.092 991.935> 230 39<337.271 366.5 498.5 582.5 708.5 735.701> 422 46<512.312 567.946> 453 64<156.065 260.345 821.065 924.792> 595 64<484.956 587.935>
@@ -74032,7 +74022,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10195 uni0489
 EndChar
 
 StartChar: uniED9C
-Encoding: 60828 60828 1353
+Encoding: 60828 60828 1352
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -74050,7 +74040,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED9D
-Encoding: 60829 60829 1354
+Encoding: 60829 60829 1353
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -74068,7 +74058,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED9E
-Encoding: 60830 60830 1355
+Encoding: 60830 60830 1354
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -74086,7 +74076,7 @@ Validated: 1
 EndChar
 
 StartChar: uniED9F
-Encoding: 60831 60831 1356
+Encoding: 60831 60831 1355
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -74104,7 +74094,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDA0
-Encoding: 60832 60832 1357
+Encoding: 60832 60832 1356
 Width: 100
 GlyphClass: 4
 Flags: W
@@ -74288,7 +74278,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA670
 EndChar
 
 StartChar: uniEDA1
-Encoding: 60833 60833 1358
+Encoding: 60833 60833 1357
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> -13 92<456.86 539.539> 0 21G<648.319 741.844> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 435 20G<462.319 686.819> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -74498,7 +74488,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uniA670
 EndChar
 
 StartChar: uniEDA2
-Encoding: 60834 60834 1359
+Encoding: 60834 60834 1358
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 0 31<552.057 612.49> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 418 37<546.264 611.799> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -74711,7 +74701,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uniA670
 EndChar
 
 StartChar: uniEDA3
-Encoding: 60835 60835 1360
+Encoding: 60835 60835 1359
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 438 37<587.639 636.756> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -74911,7 +74901,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uniA670
 EndChar
 
 StartChar: uniEDA4
-Encoding: 60836 60836 1361
+Encoding: 60836 60836 1360
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 40 40<496.839 596.288> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 446 49<438.867 506.651> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 479.753 691.886 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -75129,7 +75119,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uniA670
 EndChar
 
 StartChar: uniEDA5
-Encoding: 60837 60837 1362
+Encoding: 60837 60837 1361
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 17 43<546.556 605.421> 226.069 55.8613<30.5382 118.389 174.957 262.639 536.008 706.582 900.5 988.389 1044.25 1132.64> 449 49<549.004 602.839> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -75347,7 +75337,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uniA670
 EndChar
 
 StartChar: uniEDA6
-Encoding: 60838 60838 1363
+Encoding: 60838 60838 1362
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 12 29<545.2 612.661> 42 129<455.133 523.531> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 250 27<578.179 612.109> 461 32<567.302 630.193> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -75570,7 +75560,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uniA670
 EndChar
 
 StartChar: uniEDA7
-Encoding: 60839 60839 1364
+Encoding: 60839 60839 1363
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 12 29<561.467 626.327> 42 129<652.504 719.809> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 250 27<564.803 597.42> 461 32<544.137 608.282> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -75794,7 +75784,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uniA670
 EndChar
 
 StartChar: uniEDA8
-Encoding: 60840 60840 1365
+Encoding: 60840 60840 1364
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 787.606 828.819 865.389 921.957 1009.14> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 450 45<542.394 612.49> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -76004,7 +75994,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uniA670
 EndChar
 
 StartChar: uniEDA9
-Encoding: 60841 60841 1366
+Encoding: 60841 60841 1365
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 12 51<543.757 631.456> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 249 42<537.003 634.061> 453 41<533.068 629.874> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -76230,7 +76220,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uniA670
 EndChar
 
 StartChar: uniEDAA
-Encoding: 60842 60842 1367
+Encoding: 60842 60842 1366
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -76441,7 +76431,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uniA670
 EndChar
 
 StartChar: uniEDAB
-Encoding: 60843 60843 1368
+Encoding: 60843 60843 1367
 Width: 1162
 Flags: W
 HStem: -168.284 55.8613<469.685 557.535 614.104 701.954> -57.9307 56.5684<160.494 248.389 304.957 392.137 777.494 865.389 921.957 1009.14> 17 44<556.32 610.384> 226.069 55.8613<30.5382 118.389 174.957 262.639 900.5 988.389 1044.25 1132.64> 260 39<381.59 410.819 542.819 626.819 752.819 780.02> 452 46<556.631 612.265> 511.069 55.8613<160.538 248.389 304.957 392.635 777.538 865.389 921.957 1009.64> 621.716 55.8613<469.685 557.535 614.104 701.954> 635.319 20G<255.813 294.351 872.813 911.351>
@@ -76675,7 +76665,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uniA670
 EndChar
 
 StartChar: uniEDAC
-Encoding: 60844 60844 1369
+Encoding: 60844 60844 1368
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -76693,7 +76683,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDAD
-Encoding: 60845 60845 1370
+Encoding: 60845 60845 1369
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -76711,7 +76701,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDAE
-Encoding: 60846 60846 1371
+Encoding: 60846 60846 1370
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -76729,7 +76719,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDAF
-Encoding: 60847 60847 1372
+Encoding: 60847 60847 1371
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -76747,7 +76737,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDB0
-Encoding: 60848 60848 1373
+Encoding: 60848 60848 1372
 Width: 100
 GlyphClass: 4
 Flags: W
@@ -76930,7 +76920,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA670
 EndChar
 
 StartChar: uniEDB1
-Encoding: 60849 60849 1374
+Encoding: 60849 60849 1373
 Width: 1125
 Flags: W
 HStem: -13 92<448.041 530.719> 0 21G<639.5 733.024> 435 20G<453.5 678>
@@ -77141,7 +77131,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10065 uniA670
 EndChar
 
 StartChar: uniEDB2
-Encoding: 60850 60850 1375
+Encoding: 60850 60850 1374
 Width: 1125
 Flags: W
 HStem: 0 31<533.238 593.67> 418 37<527.444 592.979>
@@ -77355,7 +77345,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10067 uniA670
 EndChar
 
 StartChar: uniEDB3
-Encoding: 60851 60851 1376
+Encoding: 60851 60851 1375
 Width: 1125
 Flags: W
 HStem: 438 37<568.82 617.937>
@@ -77556,7 +77546,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10068 uniA670
 EndChar
 
 StartChar: uniEDB4
-Encoding: 60852 60852 1377
+Encoding: 60852 60852 1376
 Width: 1125
 Flags: W
 HStem: 60 40<478.02 577.469> 466 49<420.048 487.832>
@@ -77773,7 +77763,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10069 uniA670
 EndChar
 
 StartChar: uniEDB5
-Encoding: 60853 60853 1378
+Encoding: 60853 60853 1377
 Width: 1125
 Flags: W
 HStem: 7 43<537.737 596.602> 222 53<527.188 697.763> 439 49<540.185 594.019>
@@ -77992,7 +77982,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10070 uniA670
 EndChar
 
 StartChar: uniEDB6
-Encoding: 60854 60854 1379
+Encoding: 60854 60854 1378
 Width: 1125
 Flags: W
 HStem: 12 29<516.38 583.842> 42 129<426.314 494.712> 250 27<549.359 583.29> 461 32<538.482 601.373>
@@ -78215,7 +78205,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10102 uniA670
 EndChar
 
 StartChar: uniEDB7
-Encoding: 60855 60855 1380
+Encoding: 60855 60855 1379
 Width: 1125
 Flags: W
 HStem: 17 29<552.648 617.508> 47 129<643.685 710.99> 255 27<555.983 588.6> 466 32<535.318 599.463>
@@ -78440,7 +78430,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA645 uniA670
 EndChar
 
 StartChar: uniEDB8
-Encoding: 60856 60856 1381
+Encoding: 60856 60856 1380
 Width: 1125
 Flags: W
 HStem: 460 45<513.575 583.671>
@@ -78648,7 +78638,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA641 uniA670
 EndChar
 
 StartChar: uniEDB9
-Encoding: 60857 60857 1382
+Encoding: 60857 60857 1381
 Width: 1125
 Flags: W
 HStem: 12 51<524.938 612.637> 249 42<518.184 615.241> 453 41<514.248 611.055>
@@ -78875,7 +78865,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10073 uniA670
 EndChar
 
 StartChar: uniEDBA
-Encoding: 60858 60858 1383
+Encoding: 60858 60858 1382
 Width: 1125
 Flags: W
 VStem: 384 127<34.1421 127 215 475.856> 618 127<31.1428 310 393 474.856>
@@ -79085,7 +79075,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10074 uniA670
 EndChar
 
 StartChar: uniEDBB
-Encoding: 60859 60859 1384
+Encoding: 60859 60859 1383
 Width: 1125
 Flags: W
 HStem: 12 44<542.501 596.564> 255 39<367.771 397 529 613 739 766.201> 447 46<542.812 598.446>
@@ -79320,7 +79310,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10195 uniA670
 EndChar
 
 StartChar: uniEDBC
-Encoding: 60860 60860 1385
+Encoding: 60860 60860 1384
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -79338,7 +79328,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDBD
-Encoding: 60861 60861 1386
+Encoding: 60861 60861 1385
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -79356,7 +79346,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDBE
-Encoding: 60862 60862 1387
+Encoding: 60862 60862 1386
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -79374,7 +79364,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDBF
-Encoding: 60863 60863 1388
+Encoding: 60863 60863 1387
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -79392,7 +79382,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDC0
-Encoding: 60864 60864 1389
+Encoding: 60864 60864 1388
 Width: 100
 GlyphClass: 4
 Flags: W
@@ -79446,7 +79436,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA671
 EndChar
 
 StartChar: uniEDC1
-Encoding: 60865 60865 1390
+Encoding: 60865 60865 1389
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> -13 92<372.041 454.719> 0 21G<563.5 657.024> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 435 20G<377.5 602> 614.375 50.5996<368.448 604.095>
@@ -79528,7 +79518,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uniA671
 EndChar
 
 StartChar: uniEDC2
-Encoding: 60866 60866 1391
+Encoding: 60866 60866 1390
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> 0 31<467.238 527.67> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 418 37<461.444 526.979> 614.375 50.5996<368.448 604.095>
@@ -79611,7 +79601,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uniA671
 EndChar
 
 StartChar: uniEDC3
-Encoding: 60867 60867 1392
+Encoding: 60867 60867 1391
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 428 37<492.82 541.937> 614.375 50.5996<368.448 604.095>
@@ -79681,7 +79671,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uniA671
 EndChar
 
 StartChar: uniEDC4
-Encoding: 60868 60868 1393
+Encoding: 60868 60868 1392
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> 68 40<406.02 505.469> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 474 49<348.048 415.832> 614.375 50.5996<368.448 604.095>
@@ -79769,7 +79759,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uniA671
 EndChar
 
 StartChar: uniEDC5
-Encoding: 60869 60869 1394
+Encoding: 60869 60869 1393
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> 7 43<471.737 530.602> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 222 53<461.188 631.763> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 439 49<474.185 528.019> 614.375 50.5996<368.448 604.095>
@@ -79857,7 +79847,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uniA671
 EndChar
 
 StartChar: uniEDC6
-Encoding: 60870 60870 1395
+Encoding: 60870 60870 1394
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> 7 29<442.38 509.842> 37 129<352.314 420.712> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 245 27<475.359 509.29> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 456 32<464.482 527.373> 614.375 50.5996<368.448 604.095>
@@ -79950,7 +79940,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uniA671
 EndChar
 
 StartChar: uniEDC7
-Encoding: 60871 60871 1396
+Encoding: 60871 60871 1395
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> -3 29<476.648 541.508> 27 129<567.685 634.99> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 235 27<479.983 512.6> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 446 32<459.318 523.463> 614.375 50.5996<368.448 604.095>
@@ -80044,7 +80034,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uniA671
 EndChar
 
 StartChar: uniEDC8
-Encoding: 60872 60872 1397
+Encoding: 60872 60872 1396
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 430 45<447.575 517.671> 614.375 50.5996<368.448 604.095>
@@ -80124,7 +80114,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uniA671
 EndChar
 
 StartChar: uniEDC9
-Encoding: 60873 60873 1398
+Encoding: 60873 60873 1397
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> 7 51<453.938 541.637> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 244 42<447.184 544.241> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 448 41<443.248 540.055> 614.375 50.5996<368.448 604.095>
@@ -80220,7 +80210,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uniA671
 EndChar
 
 StartChar: uniEDCA
-Encoding: 60874 60874 1399
+Encoding: 60874 60874 1398
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 445 20G<322.5 425 556 653> 614.375 50.5996<368.448 604.095>
@@ -80301,7 +80291,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uniA671
 EndChar
 
 StartChar: uniEDCB
-Encoding: 60875 60875 1400
+Encoding: 60875 60875 1399
 Width: 980
 Flags: W
 HStem: -177.975 50.5996<375.905 611.552> -3 44<466.501 520.564> 158.975 23<30 86.3496 135.8 196.75 783.25 848.8 895.505 950> 240 39<291.771 321 453 537 663 690.201> 305.025 23<30 84.4952 131.2 196.75 783.25 844.2 893.65 950> 432 46<466.812 522.446> 614.375 50.5996<368.448 604.095>
@@ -80405,7 +80395,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uniA671
 EndChar
 
 StartChar: uniEDCC
-Encoding: 60876 60876 1401
+Encoding: 60876 60876 1400
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -80423,7 +80413,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDCD
-Encoding: 60877 60877 1402
+Encoding: 60877 60877 1401
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -80441,7 +80431,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDCE
-Encoding: 60878 60878 1403
+Encoding: 60878 60878 1402
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -80459,7 +80449,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDCF
-Encoding: 60879 60879 1404
+Encoding: 60879 60879 1403
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -80477,7 +80467,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDD0
-Encoding: 60880 60880 1405
+Encoding: 60880 60880 1404
 Width: 100
 GlyphClass: 4
 Flags: W
@@ -80522,7 +80512,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA671
 EndChar
 
 StartChar: uniEDD1
-Encoding: 60881 60881 1406
+Encoding: 60881 60881 1405
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 7 92<208.041 290.719> 641 32<146.309 503.691>
@@ -80595,7 +80585,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10065 uniA671
 EndChar
 
 StartChar: uniEDD2
-Encoding: 60882 60882 1407
+Encoding: 60882 60882 1406
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 20 31<303.238 363.67> 438 37<297.444 362.979> 641 32<146.309 503.691>
@@ -80670,7 +80660,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10067 uniA671
 EndChar
 
 StartChar: uniEDD3
-Encoding: 60883 60883 1408
+Encoding: 60883 60883 1407
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 438 37<328.82 377.937> 641 32<146.309 503.691>
@@ -80732,7 +80722,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10068 uniA671
 EndChar
 
 StartChar: uniEDD4
-Encoding: 60884 60884 1409
+Encoding: 60884 60884 1408
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 60 40<238.02 337.469> 466 49<180.048 247.832> 641 32<146.309 503.691>
@@ -80811,7 +80801,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10069 uniA671
 EndChar
 
 StartChar: uniEDD5
-Encoding: 60885 60885 1410
+Encoding: 60885 60885 1409
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 17 43<297.737 356.602> 232 53<287.188 457.763> 449 49<300.185 354.019> 641 32<146.309 503.691>
@@ -80891,7 +80881,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10070 uniA671
 EndChar
 
 StartChar: uniEDD6
-Encoding: 60886 60886 1411
+Encoding: 60886 60886 1410
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 17 29<283.38 350.842> 47 129<193.314 261.712> 255 27<316.359 350.29> 466 32<305.482 368.373> 641 32<146.309 503.691>
@@ -80976,7 +80966,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10102 uniA671
 EndChar
 
 StartChar: uniEDD7
-Encoding: 60887 60887 1412
+Encoding: 60887 60887 1411
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 17 29<302.648 367.508> 47 129<393.685 460.99> 255 27<305.983 338.6> 466 32<285.318 349.463> 641 32<146.309 503.691>
@@ -81062,7 +81052,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA645 uniA671
 EndChar
 
 StartChar: uniEDD8
-Encoding: 60888 60888 1413
+Encoding: 60888 60888 1412
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 470 45<273.575 343.671> 641 32<146.309 503.691>
@@ -81133,7 +81123,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA641 uniA671
 EndChar
 
 StartChar: uniEDD9
-Encoding: 60889 60889 1414
+Encoding: 60889 60889 1413
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 17 51<284.938 372.637> 254 42<278.184 375.241> 458 41<274.248 371.055> 641 32<146.309 503.691>
@@ -81221,7 +81211,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10073 uniA671
 EndChar
 
 StartChar: uniEDDA
-Encoding: 60890 60890 1415
+Encoding: 60890 60890 1414
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 641 32<146.309 503.691>
@@ -81294,7 +81284,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10074 uniA671
 EndChar
 
 StartChar: uniEDDB
-Encoding: 60891 60891 1416
+Encoding: 60891 60891 1415
 Width: 650
 Flags: W
 HStem: -165 32<146.309 503.691> 12 44<297.501 351.564> 255 39<122.771 152 284 368 494 521.201> 447 46<297.812 353.446> 641 32<146.309 503.691>
@@ -81390,7 +81380,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10195 uniA671
 EndChar
 
 StartChar: uniEDDC
-Encoding: 60892 60892 1417
+Encoding: 60892 60892 1416
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -81408,7 +81398,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDDD
-Encoding: 60893 60893 1418
+Encoding: 60893 60893 1417
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -81426,7 +81416,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDDE
-Encoding: 60894 60894 1419
+Encoding: 60894 60894 1418
 Width: 149
 GlyphClass: 3
 Flags: W
@@ -81446,7 +81436,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: uniEDDF
-Encoding: 60895 60895 1420
+Encoding: 60895 60895 1419
 Width: 149
 GlyphClass: 3
 Flags: W
@@ -81465,7 +81455,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDE0
-Encoding: 60896 60896 1421
+Encoding: 60896 60896 1420
 Width: 100
 Flags: W
 HStem: -170 46<-598 -362> -73 46<-870 -634 -320 -84> 84 46<-993 -767 -188 38> 241 46<-1029 -802 -156 70> 400 46<-997 -771 -186 41> 543 46<-861 -626 -337 -101> 653 46<-590 -509 -463 -384>
@@ -81548,7 +81538,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA672
 EndChar
 
 StartChar: uniE1D6
-Encoding: 57814 57814 1422
+Encoding: 57814 57814 1421
 Width: 501
 Flags: W
 HStem: 65 123<278.244 422.263> 91 93<57.8697 141.763> 272 115<73.4996 210.178> 289 101<355.115 441.98>
@@ -81603,7 +81593,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE1D7
-Encoding: 57815 57815 1423
+Encoding: 57815 57815 1422
 Width: 501
 Flags: W
 HStem: 65 93<370.371 441.364> 68 116<76.2386 209.64> 267 123<276.627 420.525> 272 92<57.1867 142.578>
@@ -81657,7 +81647,7 @@ Validated: 33
 EndChar
 
 StartChar: uniEDE1
-Encoding: 60897 60897 1424
+Encoding: 60897 60897 1423
 Width: 1159
 Flags: W
 HStem: -180 46<461 697> -83 46<189 425 739 975> 7 92<457.041 539.719> 74 46<66 292 871 1097> 231 46<30 257 903 1129> 390 46<62 288 873 1100> 533 46<198 433 722 958> 643 46<469 550 596 675>
@@ -81767,7 +81757,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10065 uniA672
 EndChar
 
 StartChar: uniEDFF
-Encoding: 60927 60927 1425
+Encoding: 60927 60927 1424
 Width: 438
 Flags: W
 HStem: 1 104<69 114 290 337> 58 47<114 290> 231 70<19 164 234 386>
@@ -81802,7 +81792,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDE2
-Encoding: 60898 60898 1426
+Encoding: 60898 60898 1425
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 20 31<558.238 618.67> 84 46<66 292 871 1097> 241 46<30 257 903 1129> 400 46<62 288 873 1100> 438 37<552.444 617.979> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -81915,7 +81905,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10067 uniA672
 EndChar
 
 StartChar: uniEDE3
-Encoding: 60899 60899 1427
+Encoding: 60899 60899 1426
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 84 46<66 292 871 1097> 241 46<30 257 903 1129> 400 46<62 288 873 1100> 438 37<573.82 622.937> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -82015,7 +82005,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10068 uniA672
 EndChar
 
 StartChar: uniEDE4
-Encoding: 60900 60900 1428
+Encoding: 60900 60900 1427
 Width: 1159
 Flags: W
 HStem: -180 46<461 697> -83 46<189 425 739 975> 60 40<497.02 596.469> 74 46<66 292 871 1097> 231 46<30 257 903 1129> 390 46<62 288 873 1100> 466 49<439.048 506.832> 533 46<198 433 722 958> 643 46<469 550 596 675>
@@ -82133,7 +82123,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10069 uniA672
 EndChar
 
 StartChar: uniEDE5
-Encoding: 60901 60901 1429
+Encoding: 60901 60901 1428
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 17 43<542.737 601.602> 84 46<66 292 871 1097> 232 53<532.188 702.763> 241 46<30 257 903 1129> 400 46<62 288 873 1100> 449 49<545.185 599.019> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -82251,7 +82241,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10070 uniA672
 EndChar
 
 StartChar: uniEDE6
-Encoding: 60902 60902 1430
+Encoding: 60902 60902 1429
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 17 29<528.38 595.842> 47 129<438.314 506.712> 84 46<66 292 871 1097> 241 46<30 257 903 1129> 255 27<561.359 595.29> 400 46<62 288 873 1100> 466 32<550.482 613.373> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -82374,7 +82364,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10102 uniA672
 EndChar
 
 StartChar: uniEDE7
-Encoding: 60903 60903 1431
+Encoding: 60903 60903 1430
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 17 29<547.648 612.508> 47 129<638.685 705.99> 84 46<66 292 871 1097> 241 46<30 257 903 1129> 255 27<550.983 583.6> 400 46<62 288 873 1100> 466 32<530.318 594.463> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -82498,7 +82488,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA645 uniA672
 EndChar
 
 StartChar: uniEDE8
-Encoding: 60904 60904 1432
+Encoding: 60904 60904 1431
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 84 46<66 292 871 1097> 241 46<30 257 903 1129> 400 46<62 288 873 1100> 470 45<518.575 588.671> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -82608,7 +82598,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" uniA641 uniA672
 EndChar
 
 StartChar: uniEDE9
-Encoding: 60905 60905 1433
+Encoding: 60905 60905 1432
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 17 51<529.938 617.637> 84 46<66 292 871 1097> 241 46<30 257 903 1129> 254 42<523.184 620.241> 400 46<62 288 873 1100> 458 41<519.248 616.055> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -82734,7 +82724,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10073 uniA672
 EndChar
 
 StartChar: uniEDEA
-Encoding: 60906 60906 1434
+Encoding: 60906 60906 1433
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 84 46<66 292 871 1097> 241 46<30 257 903 1129> 400 46<62 288 873 1100> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -82845,7 +82835,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10074 uniA672
 EndChar
 
 StartChar: uniEDEB
-Encoding: 60907 60907 1435
+Encoding: 60907 60907 1434
 Width: 1159
 Flags: W
 HStem: -170 46<461 697> -73 46<189 425 739 975> 12 44<551.501 605.564> 84 46<66 292 871 1097> 241 46<30 257 903 1129> 255 39<376.771 406 538 622 748 775.201> 400 46<62 288 873 1100> 447 46<551.812 607.446> 543 46<198 433 722 958> 653 46<469 550 596 675>
@@ -82979,7 +82969,7 @@ Ligature2: "Stylistic Set 1 Huge Numerals-1" afii10195 uniA672
 EndChar
 
 StartChar: uniEDEC
-Encoding: 60908 60908 1436
+Encoding: 60908 60908 1435
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -82997,7 +82987,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDED
-Encoding: 60909 60909 1437
+Encoding: 60909 60909 1436
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -83015,7 +83005,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDEE
-Encoding: 60910 60910 1438
+Encoding: 60910 60910 1437
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -83033,7 +83023,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDF0
-Encoding: 60912 60912 1439
+Encoding: 60912 60912 1438
 Width: 100
 Flags: W
 HStem: -280 200<-516 -460 -420 -364 -324 -268> 110 56<-854 -654 -130 70> 206 56<-854 -654 -130 70> 302 56<-854 -654 -130 70> 630 56<-492 -420 -364 -292>
@@ -83150,7 +83140,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA672
 EndChar
 
 StartChar: uniEDF1
-Encoding: 60913 60913 1440
+Encoding: 60913 60913 1439
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> -13 92<398.041 480.719> 0 21G<589.5 683.024> 110 56<45 245 769 969> 206 56<45 245 769 969> 302 56<45 245 769 969> 435 20G<403.5 628> 630 56<407 479 535 607>
@@ -83295,7 +83285,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10065 uniA672
 EndChar
 
 StartChar: uniEDF2
-Encoding: 60914 60914 1441
+Encoding: 60914 60914 1440
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> 0 31<483.238 543.67> 110 56<45 245 769 969> 206 56<45 245 769 969> 302 56<45 245 769 969> 418 37<477.444 542.979> 630 56<407 479 535 607>
@@ -83442,7 +83432,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10067 uniA672
 EndChar
 
 StartChar: uniEDF3
-Encoding: 60915 60915 1442
+Encoding: 60915 60915 1441
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> 0 21G<393 490.5> 110 56<45 245 769 969> 206 56<45 245 769 969> 302 56<45 245 769 969> 418 37<508.82 557.937> 630 56<407 479 535 607>
@@ -83576,7 +83566,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10068 uniA672
 EndChar
 
 StartChar: uniEDF4
-Encoding: 60916 60916 1443
+Encoding: 60916 60916 1442
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> 60 40<418.02 517.469> 110 56<45 245 769 969> 206 56<45 245 769 969> 302 56<45 245 769 969> 466 49<360.048 427.832> 630 56<407 479 535 607>
@@ -83728,7 +83718,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10069 uniA672
 EndChar
 
 StartChar: uniEDF5
-Encoding: 60917 60917 1444
+Encoding: 60917 60917 1443
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> -3 43<477.737 536.602> 110 56<45 245 769 969> 206 56<45 245 467.188 637.763 769 969> 302 56<45 245 769 969> 429 49<480.185 534.019> 630 56<407 479 535 607>
@@ -83880,7 +83870,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10070 uniA672
 EndChar
 
 StartChar: uniEDF6
-Encoding: 60918 60918 1445
+Encoding: 60918 60918 1444
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> -3 29<463.38 530.842> 27 129<373.314 441.712> 110 56<45 245 769 969> 206 56<45 245 769 969> 235 27<496.359 530.29> 302 56<45 245 769 969> 446 32<485.482 548.373> 630 56<407 479 535 607>
@@ -84037,7 +84027,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10102 uniA672
 EndChar
 
 StartChar: uniEDF7
-Encoding: 60919 60919 1446
+Encoding: 60919 60919 1445
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> -3 29<482.648 547.508> 27 129<573.685 640.99> 110 56<45 245 769 969> 206 56<45 245 769 969> 235 27<485.983 518.6> 302 56<45 245 769 969> 446 32<465.318 529.463> 630 56<407 479 535 607>
@@ -84195,7 +84185,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA645 uniA672
 EndChar
 
 StartChar: uniEDF8
-Encoding: 60920 60920 1447
+Encoding: 60920 60920 1446
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> 110 56<45 245 769 969> 206 56<45 245 769 969> 302 56<45 245 769 969> 440 45<453.575 523.671> 630 56<407 479 535 607>
@@ -84339,7 +84329,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" uniA641 uniA672
 EndChar
 
 StartChar: uniEDF9
-Encoding: 60921 60921 1448
+Encoding: 60921 60921 1447
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> -3 51<464.938 552.637> 110 56<45 245 769 969> 206 56<45 245 769 969> 234 42<458.184 555.241> 302 56<45 245 769 969> 438 41<454.248 551.055> 630 56<407 479 535 607>
@@ -84499,7 +84489,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10073 uniA672
 EndChar
 
 StartChar: uniEDFA
-Encoding: 60922 60922 1449
+Encoding: 60922 60922 1448
 Width: 1014
 Flags: W
 HStem: -280 200<383 439 479 535 575 631> 110 56<45 245 769 969> 206 56<45 245 769 969> 302 56<45 245 769 969> 630 56<407 479 535 607>
@@ -84644,7 +84634,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10074 uniA672
 EndChar
 
 StartChar: uniEDFB
-Encoding: 60923 60923 1450
+Encoding: 60923 60923 1449
 Width: 1104
 Flags: W
 HStem: -280 200<433 489 529 585 625 681> 2 44<527.501 581.564> 110 56<45 245 859 1059> 206 56<45 245 859 1059> 245 39<352.771 382 514 598 724 751.201> 302 56<45 245 859 1059> 437 46<527.812 583.446> 630 56<457 529 585 657>
@@ -84812,7 +84802,7 @@ Ligature2: "Stylistic Set 2 Huge Numerals-1" afii10195 uniA672
 EndChar
 
 StartChar: uniEDFC
-Encoding: 60924 60924 1451
+Encoding: 60924 60924 1450
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -84830,7 +84820,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDEF
-Encoding: 60911 60911 1452
+Encoding: 60911 60911 1451
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -84848,7 +84838,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDFD
-Encoding: 60925 60925 1453
+Encoding: 60925 60925 1452
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -84866,7 +84856,7 @@ Validated: 1
 EndChar
 
 StartChar: uniEDFE
-Encoding: 60926 60926 1454
+Encoding: 60926 60926 1453
 Width: 149
 Flags: W
 HStem: 96 130<26.8503 122.603>
@@ -84884,7 +84874,7 @@ Validated: 1
 EndChar
 
 StartChar: uniF4F5
-Encoding: 62709 62709 1455
+Encoding: 62709 62709 1454
 Width: 1
 Flags: W
 HStem: 558.5 24.5<-347.046 -319.995> 699.5 93<-218.663 -196.838 -74.6615 -52.7962> 770 22.5<-186.967 -167.5 -104 -84.5333> 777.5 21.5<-349.138 -324.483> 892.685 62.8574<-334.444 -105.496>
@@ -84953,58 +84943,48 @@ Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DF5 uni0487
 EndChar
 
 StartChar: uF0097
-Encoding: 983191 983191 1456
+Encoding: 983191 983191 1455
 Width: 1
 Flags: W
-HStem: 548.5 28<-290.361 -258.236 -143.877 -108.821> 765 24<-290.935 -256.718 -145.983 -108.853> 922.685 62.8574<-314.444 -85.4962>
-VStem: -370.5 65.5<593.033 750.023> -241.5 81<589.793 751.588> -98 67<591.56 749.258> 36.8408 50.5752<764.755 819.593>
-AnchorPoint: "Above" -202 559 mark 0
+HStem: 538.5 38<-146.228 -107.018> 538.5 28<-290.361 -258.236> 755 24<-290.935 -256.718> 765 14<-142.576 -112.303>
+VStem: -370.5 65.5<583.033 740.023> -241.5 81<582.189 741.588> -98 67<581.615 739.331>
+AnchorPoint: "Above" -201 533 mark 0
+AnchorPoint: "Stacking" -205 800 basemark 0
 LayerCount: 2
 Fore
 SplineSet
--200.138671875 922.684570312 m 0
- -364.869140625 922.684570312 -418.755859375 812.865234375 -437.840820312 781.796875 c 0
- -442.7578125 773.793945312 -449.401367188 764.458007812 -463.8515625 764.458007812 c 0
- -478.301757812 764.458007812 -488.416015625 775.294921875 -488.416015625 784.6875 c 2
- -488.416015625 792.634765625 l 2
- -488.416015625 854.770507812 -380.041015625 985.541992188 -200.138671875 985.541992188 c 0
- -20.958984375 985.541992188 87.416015625 857.66015625 87.416015625 792.634765625 c 2
- 87.416015625 784.6875 l 2
- 87.416015625 775.294921875 77.3017578125 764.458007812 62.8515625 764.458007812 c 0
- 48.4013671875 764.458007812 40.220703125 773.034179688 36.8408203125 781.796875 c 0
- 24.859375 812.865234375 -35.4091796875 922.684570312 -200.138671875 922.684570312 c 0
--201 589.5 m 1
- -210 576 -221 566 -233.5 559 c 0
- -246 552 -260 548.5 -274 548.5 c 0
- -291 548.5 -306.5 554 -321.5 564 c 0
- -336.5 574 -348 589 -357 608 c 0
- -366 627 -370.5 649 -370.5 673.5 c 0
- -370.5 696 -366.5 716.5 -358 734 c 0
- -349.5 751.5 -338 765 -323 774.5 c 0
- -308 784 -291.5 789 -274 789 c 0
- -259.5 789 -245.5 785.5 -233 779 c 0
- -220.5 772.5 -210 763.5 -201 752 c 1
- -192 764 -181.5 773.5 -169 779.5 c 0
- -156.5 785.5 -142.5 789 -127.5 789 c 0
- -110 789 -94 784 -79 774.5 c 0
- -64 765 -52.5 751.5 -44 734 c 0
- -35.5 716.5 -31 696 -31 673.5 c 0
- -31 648.5 -35 626.5 -44 607.5 c 0
- -53 588.5 -64.5 574 -79.5 564 c 0
- -94.5 554 -110.5 548.5 -127.5 548.5 c 0
- -141.5 548.5 -155 552 -168 559 c 0
- -181 566 -192 576 -201 589.5 c 1
--274 576.5 m 0
- -266.5 576.5 -261 582.5 -256 595 c 0
- -251 607.5 -247.5 621 -245 637 c 0
- -242.5 653 -241.5 665 -241.5 673 c 0
- -241.5 691 -244 711 -249 732.5 c 0
- -254 754 -262.5 765 -274 765 c 0
- -285 765 -293.5 754.5 -298 733.5 c 0
- -302.5 712.5 -305 693.5 -305 677 c 0
- -305 658.5 -302.5 637 -297.5 613 c 0
- -292.5 589 -285 576.5 -274 576.5 c 0
--127.5 576.5 m 0
+-201 579.5 m 1x9e
+ -210 566 -221 556 -233.5 549 c 0
+ -246 542 -260 538.5 -274 538.5 c 0
+ -291 538.5 -306.5 544 -321.5 554 c 0
+ -336.5 564 -348 579 -357 598 c 0
+ -366 617 -370.5 639 -370.5 663.5 c 0
+ -370.5 686 -366.5 706.5 -358 724 c 0
+ -349.5 741.5 -338 755 -323 764.5 c 0
+ -308 774 -291.5 779 -274 779 c 0x6e
+ -259.5 779 -245.5 775.5 -233 769 c 0
+ -220.5 762.5 -210 753.5 -201 742 c 1
+ -192 754 -181.5 763.5 -169 769.5 c 0
+ -156.5 775.5 -142.5 779 -127.5 779 c 0
+ -110 779 -94 774 -79 764.5 c 0
+ -64 755 -52.5 741.5 -44 724 c 0
+ -35.5 706.5 -31 686 -31 663.5 c 0
+ -31 638.5 -35 616.5 -44 597.5 c 0
+ -53 578.5 -64.5 564 -79.5 554 c 0
+ -94.5 544 -110.5 538.5 -127.5 538.5 c 0
+ -141.5 538.5 -155 542 -168 549 c 0
+ -181 556 -192 566 -201 579.5 c 1x9e
+-274 566.5 m 0
+ -266.5 566.5 -261 572.5 -256 585 c 0
+ -251 597.5 -247.5 611 -245 627 c 0
+ -242.5 643 -241.5 655 -241.5 663 c 0
+ -241.5 681 -244 701 -249 722.5 c 0
+ -254 744 -262.5 755 -274 755 c 0
+ -285 755 -293.5 744.5 -298 723.5 c 0
+ -302.5 702.5 -305 683.5 -305 667 c 0
+ -305 648.5 -302.5 627 -297.5 603 c 0
+ -292.5 579 -285 566.5 -274 566.5 c 0
+-127.5 576.5 m 0x9e
  -120.5 576.5 -114.5 580 -110.5 587 c 0
  -106.5 594 -103 605 -101 619 c 0
  -99 633 -98 651 -98 672 c 0
@@ -85015,14 +84995,14 @@ SplineSet
  -159.5 699.5 -160.5 687 -160.5 676 c 0
  -160.5 666 -159.5 652.5 -157 636.5 c 0
  -154.5 620.5 -151 606.5 -146 594.5 c 0
- -141 582.5 -135 576.5 -127.5 576.5 c 0
+ -141 582.5 -135 576.5 -127.5 576.5 c 0x9e
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DEA uni2DEA uni0487
+Ligature2: "'ccmp' Precomosed Lettered Titlos-1" uni2DEA uni2DEA
 EndChar
 
 StartChar: uF0098
-Encoding: 983192 983192 1457
+Encoding: 983192 983192 1456
 Width: 1
 Flags: W
 HStem: 528.5 28<-334.707 -293.576> 692 77<-60.4967 -18.1183> 745 24<-333.555 -294.445>
