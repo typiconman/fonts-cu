@@ -37,6 +37,7 @@
 \newfontfamily{\ust}[Scale=MatchLowercase]{Menaion Unicode}
 \newfontfamily{\ind}[Scale=1.333333333]{Indiction Unicode}
 \newfontfamily{\vertograd}[Scale=1.333333]{Vertograd Unicode}
+\newfontfamily{\firaslav}[Scale=MatchLowercase]{FiraSlav-Regular}
 
 \linespread{1.05}
 %\lineskip=0pt
@@ -1063,6 +1064,23 @@ a character are demonstrated in Table~\ref{pomor}.
 \end{tabular}
 }
 \end{table}
+
+\section{Technical Fonts: FiraSlav}
+
+FiraSlav is a monospaced font for Church Slavonic,
+intended for editing Church Slavonic text in a text editor.
+All diacritical marks and combining letters are presented as spacing symbols
+and a monospaced appearance is maintained.
+The font includes both regular (\verb+FiraSlav Regular+) and bold (\verb+FiraSlav Bold+)
+flavors. It is especially useful for software and website development applications:
+
+\begin{center}
+\begin{tabular}{l}
+{\firaslav  \$number =~ /{\textasciicircum}(?:҂([\$h]))*(?:҂([\$o]))*([\$h]?)([клмнѯопч]?)([\$o]?)\$/; } \\
+{\firaslav  var letter = '(?:ᲂу{\textbar}Оу{\textbar}оу{\textbackslash}{\textbackslash}S)[̀́̑҆̾̏҇҃ⷠⷡⷢⷣⷷⷤⷥꙵꙶⷦ]*'; } \\
+{\firaslav Бл҃же́нъ мꙋ́жъ, и҆́же не и҆́де на совѣ́тъ нечести́выхъ} \\
+\end{tabular}
+\end{center}
 
 \section{Known Issues}
 
