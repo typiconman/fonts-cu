@@ -8,6 +8,10 @@ fonts:
 doc: fonts-churchslavonic.pdf
 
 fonts-churchslavonic.pdf:
+	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic-sr.tex)
+	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic-sr.tex)
+	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic-sr.tex)
+	mv docs/fonts-churchslavonic-sr.pdf ./
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
@@ -19,7 +23,7 @@ fonts-churchslavonic.zip:
 	rm -f *.zip
 	cp README.ctan /tmp/README
 	zip -j $@ $(foreach dir, $(FONTS), $(wildcard $(dir)/*.otf)) \
-				fonts-churchslavonic.pdf LICENSE OFL.txt GPL.txt
+				fonts-churchslavonic.pdf fonts-churchslavonic-sr.pdf LICENSE OFL.txt GPL.txt
 	zip -j $@ /tmp/README
 	zip -DrX $@ docs/fonts-churchslavonic.tex docs/*.png
 	rm -f /tmp/README
