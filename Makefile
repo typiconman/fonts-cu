@@ -59,6 +59,7 @@ sci-webfonts.zip:
 clean:
 	$(foreach font, $(FONTS), cd $(font)/ && rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip; cd ..;)
 	rm -f fonts-churchslavonic.pdf
+	rm -f fonts-churchslavonic-sr.pdf
 	rm -f *.otf *.ttf
 	(cd docs/ && rm -f *.aux *.glo *.idx *.log *.out *.pdf *.toc)
 	(cd rpm/ && rm -f *.tar.bz2)
