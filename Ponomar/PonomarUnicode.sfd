@@ -2,8 +2,8 @@ SplineFontDB: 3.0
 FontName: PonomarUnicode
 FullName: Ponomar Unicode
 FamilyName: Ponomar Unicode
-Weight: Book
-Copyright: Copyright 2011-2019 Aleksandr Andreev, Yuri Shardt and Nikita Simmons.
+Weight: Regular
+Copyright: Copyright 2013-2020 Aleksandr Andreev and Nikita Simmons (<https://sci.ponomar.net/>).
 FontLog: "Based on Hirmos UCS. Copyright (c) Vladislav V. Dorosh, Calmius Software, 2007-2008. All rights reserved. Used with permission.+AAoACgAK-Converted to Unicode 5.1 Yuri Shardt, as part of the Ponomar Project. +AAoACgAA-Additional characters, including the Typicon Symbols, added by Yuri Shardt in 2009 to 2011.+AAoACgAA-Additional help in correcting some of the characters was provided by Nikita Simmons in 2011, 2012.+AAoACgAA-Additional revisions by Aleksandr Andreev in 2012, including kerning support and other fine tuning.+AAoACgAA-Additional revisions by Nikita Simmons.+AAoACgAA-Renamed to Ponomar Unicode in 2015 and released."
 Version: 1.3
 DefaultBaseFilename: PonomarUnicode
@@ -24,26 +24,26 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1559474294
+ModificationTime: 1585286293
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
-LineGap: 23
+LineGap: 0
 VLineGap: 0
 Panose: 2 0 5 0 9 0 0 2 0 3
-OS2TypoAscent: 155
-OS2TypoAOffset: 1
-OS2TypoDescent: -260
-OS2TypoDOffset: 1
-OS2TypoLinegap: 45
-OS2WinAscent: 30
-OS2WinAOffset: 1
-OS2WinDescent: -6
-OS2WinDOffset: 1
-HheadAscent: 30
-HheadAOffset: 1
-HheadDescent: 6
-HheadDOffset: 1
+OS2TypoAscent: 955
+OS2TypoAOffset: 0
+OS2TypoDescent: -460
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1110
+OS2WinAOffset: 0
+OS2WinDescent: 460
+OS2WinDOffset: 0
+HheadAscent: 955
+HheadAOffset: 0
+HheadDescent: -460
+HheadDOffset: 0
 OS2SubXSize: 203
 OS2SubYSize: 203
 OS2SubXOff: 0
@@ -54,7 +54,7 @@ OS2SupXOff: 0
 OS2SupYOff: 286
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
-OS2Vendor: 'calm'
+OS2Vendor: '    '
 OS2CodePages: 00000005.00000000
 OS2UnicodeRanges: 800002e3.1200c044.00000000.00000000
 Lookup: 4 0 0 "Precomposed Latin forms" { "Precomposed Latin forms-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'ENG ' 'dflt' > ) ]
@@ -1257,8 +1257,7 @@ ShortTable: cvt  55
   83
   5
 EndShort
-LangName: 1049 "Coyright 2011-2016 Aleksandr Andreev, Yuri Shardt and Nikita Simmons"
-LangName: 1033 "" "" "" "" "" "1.3" "" "" "" "" "" "" "" "Copyright (c) 2011-2019, Aleksandr Andreev, Yuri Shardt, Nikita Simmons, (<https://sci.ponomar.net/>).+AAoACgAA-Based off Hirmos UCS, (c) 2005 Vlad Dorosh. Updgraded to Unicode 5.1 by Yuri Shradt. Additional modifications by Nikita Simmons and Aleksandr Andreev.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "https://scripts.sil.org/OFL" "" "" "" "" "+BCUEQC3tBIcEQgQ+AwEEQQRK +BDIEPgRBBDoEQAQ1AwEEQQQ1 +BDgEhgQ3Az4A +BDwENQMBBEAEQgQyBEsERQRK, +BEEEPAQ1AwEEQARCBFYDCARO +BEEEPAQ1AwEEQARCBEwA +BD8EPgQ/BEAEMAMBBDIESgAA, +BDgEhgAA +BEGmSwMBBEkESwQ8BEoA +BDIEPgAA +BDMEQAQ+BDEEYwMBBEUESgAA +BDYEOAQyBD4DAQRCBEoA +BDQEMARABD4EMgQwAwEEMgRK."
+LangName: 1033 "" "" "" "" "" "1.3" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "" "" "" "+BCUEQC3tBIcEQgQ+AwEEQQRK +BDIEPgRBBDoEQAQ1AwEEQQQ1 +BDgEhgQ3Az4A +BDwENQMBBEAEQgQyBEsERQRK, +BEEEPAQ1AwEEQARCBFYDCARO +BEEEPAQ1AwEEQARCBEwA +BD8EPgQ/BEAEMAMBBDIESgAA, +BDgEhgAA +BEGmSwMBBEkESwQ8BEoA +BDIEPgAA +BDMEQAQ+BDEEYwMBBEUESgAA +BDYEOAQyBD4DAQRCBEoA +BDQEMARABD4EMgQwAwEEMgRK."
 GaspTable: 3 8 10 16 9 65535 15 1
 OtfFeatName: 'ss02' 1033 "Latin blackletter shapes"
 Encoding: UnicodeFull
@@ -1268,7 +1267,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 468 18 7
+WinInfo: 0 18 7
 BeginPrivate: 9
 BlueValues 31 [-18 0 437 460 577 597 770 788]
 BlueScale 8 0.039625
@@ -2377,7 +2376,7 @@ EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 35
-Width: 250
+Width: 450
 GlyphClass: 2
 Flags: W
 LayerCount: 2
@@ -15811,72 +15810,72 @@ LayerCount: 2
 Fore
 SplineSet
 374 789 m 1xff44
- 372 776 369 764 366 751 c 5
- 361 715 l 6
- 359 701 359 689 359 678 c 6
- 359 654 l 6
- 359 645 359 635 361 630 c 5
- 353 629 345 630 337 630 c 6
- 315 630 l 6
- 306 630 298 629 292 630 c 5
- 290 647 l 5
- 290 668 l 6xff84
- 290 688 295 730 295 741 c 5
- 301 772 l 6
+ 372 776 369 764 366 751 c 1
+ 361 715 l 2
+ 359 701 359 689 359 678 c 2
+ 359 654 l 2
+ 359 645 359 635 361 630 c 1
+ 353 629 345 630 337 630 c 2
+ 315 630 l 2
+ 306 630 298 629 292 630 c 1
+ 290 647 l 1
+ 290 668 l 2xff84
+ 290 688 295 730 295 741 c 1
+ 301 772 l 2
  302 780 306 789 308 797 c 1
  338 802 l 1
  345 802 352 803 360 803 c 0
  369 803 374 798 374 789 c 1xff44
 510 802 m 2
- 485 778 l 5xff0c
- 465 761 l 6
- 464 759 457 766 457 766 c 5
- 448 772 l 6
- 447 773 438 778 434 778 c 5
- 425 774 415 764 409 756 c 6
- 399 741 l 5
- 395 737 393 734 391 730 c 5
- 437 730 l 5
- 444 723 449 716 452 711 c 6
- 465 686 l 5
- 470 673 479 647 481 630 c 5
- 459 630 438 630 416 630 c 5
- 411 662 395 695 379 719 c 4
- 377 722 376 725 375 727 c 5
- 375 730 l 5
- 380 748 385 754 396 766 c 5
- 403 776 411 782 416 785 c 6xff14
+ 485 778 l 1xff0c
+ 465 761 l 2
+ 464 759 457 766 457 766 c 1
+ 448 772 l 2
+ 447 773 438 778 434 778 c 1
+ 425 774 415 764 409 756 c 2
+ 399 741 l 1
+ 395 737 393 734 391 730 c 1
+ 437 730 l 1
+ 444 723 449 716 452 711 c 2
+ 465 686 l 1
+ 470 673 479 647 481 630 c 1
+ 459 630 438 630 416 630 c 1
+ 411 662 395 695 379 719 c 0
+ 377 722 376 725 375 727 c 1
+ 375 730 l 1
+ 380 748 385 754 396 766 c 1
+ 403 776 411 782 416 785 c 2xff14
  435 794 l 1xff24
  441 798 458 802 468 802 c 2
  489 802 l 1
  497 803 503 803 508 803 c 0
  509 803 510 803 510 802 c 2
-485 529 m 6
- 485 489 462 471 425 471 c 6
- 415 471 l 5
- 412 470 405 469 395 471 c 5
- 367 481 l 5
- 367 468 368 457 368 448 c 4
- 368 436 368 425 368 413 c 5
- 338 402 l 5
- 305 398 l 5
- 301 402 l 5
- 301 441 301 480 301 519 c 5xff4c
- 308 569 355 596 412 596 c 4
- 427 596 441 592 455 584 c 5
- 475 575 485 557 485 532 c 6
- 485 529 l 6
-370 516 m 5
- 368 504 l 5
- 385 498 l 6
- 390 497 395 496 401 496 c 4
- 411 496 422 501 424 509 c 5
- 424 522 l 6
- 424 539 417 546 402 548 c 4
- 401 548 400 548 399 548 c 4
- 384 548 370 541 370 529 c 6
- 370 516 l 5
-714 1039 m 1
+485 529 m 2
+ 485 489 462 471 425 471 c 2
+ 415 471 l 1
+ 412 470 405 469 395 471 c 1
+ 367 481 l 1
+ 367 468 368 457 368 448 c 0
+ 368 436 368 425 368 413 c 1
+ 338 402 l 1
+ 305 398 l 1
+ 301 402 l 1
+ 301 441 301 480 301 519 c 1xff4c
+ 308 569 355 596 412 596 c 0
+ 427 596 441 592 455 584 c 1
+ 475 575 485 557 485 532 c 2
+ 485 529 l 2
+370 516 m 1
+ 368 504 l 1
+ 385 498 l 2
+ 390 497 395 496 401 496 c 0
+ 411 496 422 501 424 509 c 1
+ 424 522 l 2
+ 424 539 417 546 402 548 c 0
+ 401 548 400 548 399 548 c 0
+ 384 548 370 541 370 529 c 2
+ 370 516 l 1
+714 1039 m 5
  706 978 703 965 679 921 c 1
  654 882 620 856 572 844 c 0
  560 841 547 839 533 839 c 0
@@ -15913,29 +15912,29 @@ SplineSet
  663 1037 l 2
  674 1037 682 1038 688 1040 c 2
  711 1044 l 1
- 714 1039 l 1
-47 -0 m 5
- 47 761 l 5
- 169 761 l 5
- 169 450 l 5
- 213 450 257 426 301 382 c 5xff44
- 344 337 369 306 374 288 c 5
- 380 309 405 339 451 377 c 5
- 494 414 532 435 565 440 c 5
- 565 761 l 5
- 687 761 l 5
- 687 -0 l 5
- 565 -0 l 5
- 565 401 l 5
- 546 395 520 379 487 352 c 4
- 463 332 445 308 435 281 c 5
- 435 -0 l 5
- 313 -0 l 5
- 313 281 l 5xff24
- 302 308 285 332 262 354 c 4
- 232 381 201 398 170 404 c 5
- 170 -0 l 5
- 47 -0 l 5
+ 714 1039 l 5
+47 -0 m 1
+ 47 761 l 1
+ 169 761 l 1
+ 169 450 l 1
+ 213 450 257 426 301 382 c 1xff44
+ 344 337 369 306 374 288 c 1
+ 380 309 405 339 451 377 c 1
+ 494 414 532 435 565 440 c 1
+ 565 761 l 1
+ 687 761 l 1
+ 687 -0 l 1
+ 565 -0 l 1
+ 565 401 l 1
+ 546 395 520 379 487 352 c 0
+ 463 332 445 308 435 281 c 1
+ 435 -0 l 1
+ 313 -0 l 1
+ 313 281 l 1xff24
+ 302 308 285 332 262 354 c 0
+ 232 381 201 398 170 404 c 1
+ 170 -0 l 1
+ 47 -0 l 1
 EndSplineSet
 Validated: 1
 Colour: ff00
@@ -21999,72 +21998,18 @@ EndChar
 
 StartChar: uni000B
 Encoding: 11 11 425
-Width: 427
+Width: 0
+VWidth: 0
 Flags: W
-HStem: 0 19<29 398> 748 22<29 398>
-VStem: 0 22<34 733> 405 22<34 733>
-DStem2: 29 748 22 733 0.465951 -0.884811<10.0105 395.419 421.078 806.952> 22 34 29 19 0.465951 0.884811<0 385.408 411.068 796.942>
 LayerCount: 2
-Fore
-SplineSet
-0 770 m 1
- 427 770 l 1
- 427 0 l 1
- 0 0 l 1
- 0 770 l 1
-29 748 m 1
- 213 398 l 1
- 398 748 l 1
- 29 748 l 1
-221 383 m 1
- 405 34 l 1
- 405 733 l 1
- 221 383 l 1
-398 19 m 1
- 213 369 l 1
- 29 19 l 1
- 398 19 l 1
-22 733 m 1
- 22 34 l 1
- 206 383 l 1
- 22 733 l 1
-EndSplineSet
-Validated: 3073
 EndChar
 
 StartChar: uni000C
 Encoding: 12 12 426
-Width: 427
+Width: 0
+VWidth: 0
 Flags: W
-HStem: 0 19<29 398> 748 22<29 398>
-VStem: 0 22<34 733> 405 22<34 733>
-DStem2: 29 748 22 733 0.465951 -0.884811<10.0105 395.419 421.078 806.952> 22 34 29 19 0.465951 0.884811<0 385.408 411.068 796.942>
 LayerCount: 2
-Fore
-SplineSet
-0 770 m 1
- 427 770 l 1
- 427 0 l 1
- 0 0 l 1
- 0 770 l 1
-29 748 m 1
- 213 398 l 1
- 398 748 l 1
- 29 748 l 1
-221 383 m 1
- 405 34 l 1
- 405 733 l 1
- 221 383 l 1
-398 19 m 1
- 213 369 l 1
- 29 19 l 1
- 398 19 l 1
-22 733 m 1
- 22 34 l 1
- 206 383 l 1
- 22 733 l 1
-EndSplineSet
-Validated: 3073
 EndChar
 
 StartChar: uni000E
@@ -38271,7 +38216,7 @@ SplineSet
  241 -114 210 -21 177 74 c 1
  148 -32 114 -165 95 -237 c 1
  77 -301 68 -347 48 -402 c 0
- 40 -424 20 -443 0 -443 c 0
+ 40 -424 20 -443 0 -443 c 4
  -17 -443 -25 -432 -25 -418 c 0
  -25 -407 -21 -393 -15 -383 c 0
  -1 -357 22 -310 38 -264 c 0

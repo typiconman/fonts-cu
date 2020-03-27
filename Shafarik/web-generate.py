@@ -1,7 +1,7 @@
 import fontforge
 
 name = "Shafarik"
-base_name = name + "-Normal"
+base_name = name + "-Regular"
 
 fontforge.setPrefs ("AutoHint", False)
 fontforge.setPrefs ("ClearInstrsBigChanges", False)

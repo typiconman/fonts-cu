@@ -2,8 +2,8 @@ SplineFontDB: 3.0
 FontName: IndictionUnicode
 FullName: Indiction Unicode
 FamilyName: Indiction Unicode
-Weight: Normal
-Copyright: Copyright 2016-2019 Aleksandr Andreev. Based on Indyction UCS Copyright (c) Vladislav V. Dorosh, Calmius Software, 1996-98, 2002.
+Weight: Regular
+Copyright: Copyright 2016-2020 Aleksandr Andreev and Nikita Simmons (<https://sci.ponomar.net/>)
 Version: 1.1
 ItalicAngle: 0
 UnderlinePosition: -56
@@ -20,25 +20,25 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1291760394
-ModificationTime: 1559473290
+ModificationTime: 1585305581
 PfmFamily: 17
-TTFWeight: 500
+TTFWeight: 400
 TTFWidth: 5
 LineGap: 60
 VLineGap: 0
-OS2TypoAscent: 0
-OS2TypoAOffset: 1
-OS2TypoDescent: 0
-OS2TypoDOffset: 1
+OS2TypoAscent: 800
+OS2TypoAOffset: 0
+OS2TypoDescent: -200
+OS2TypoDOffset: 0
 OS2TypoLinegap: 60
-OS2WinAscent: 0
-OS2WinAOffset: 1
-OS2WinDescent: 0
-OS2WinDOffset: 1
-HheadAscent: 0
-HheadAOffset: 1
-HheadDescent: 0
-HheadDOffset: 1
+OS2WinAscent: 1057
+OS2WinAOffset: 0
+OS2WinDescent: 347
+OS2WinDOffset: 0
+HheadAscent: 800
+HheadAOffset: 0
+HheadDescent: -200
+HheadDOffset: 0
 OS2Vendor: 'PfEd'
 Lookup: 4 0 0 "'ccmp' Canonical Composition and Decomposition" { "'ccmp' Canonical Composition and Decomposition-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Precomposed Forms" { "'ccmp' Precomposed Forms-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -855,7 +855,7 @@ ShortTable: cvt  27
   35
   65
 EndShort
-LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2016-2019, Aleksandr Andreev (<https://sci.ponomar.net/>).+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
+LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "http://scripts.sil.org/OFL"
 Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
@@ -863,7 +863,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 198 18 7
+WinInfo: 0 18 7
 BeginPrivate: 9
 BlueValues 23 [-12 1 543 556 799 812]
 BlueScale 8 0.039625
@@ -15995,7 +15995,7 @@ StartChar: uni0443
 Encoding: 1091 1091 92
 Width: 603
 VWidth: 800
-Flags: HW
+Flags: W
 HStem: -8 5<285 301> -6 8<166 232 366 437> 9 50<323 443> 10 40<180 274> 58 6<207 246> 66 5<367 410> 87 64<83 166 465 549> 101 6<347 384> 101 54<128 179 451 505> 105 4<301 315> 117 15<346 370> 121 17<254 280 378 380> 140 10<254 273> 159 6<204 233> 213 5<377 416> 221 6<230 269> 227 33<371 445> 234 33<197 277> 268 6<402 462> 276 7<183 249> 370 4<281 295> 377 8<199 251> 391 7<304 312> 392 122<195 242> 398 43<286 388> 398 71<313 404> 531 6<147 164> 543 39<134 176> 586 56<130 207> 642 11<442 465> 668 34<432 476> 682 5<233 243> 699 3<563 571> 730 4<565 574> 756 22<48 66> 785 6<60 124> 800 6<203 251 446 471> 809 4<141 156> 834 6<509 533>
 VStem: 54 7<112 149> 69 111<101 151> 85 78<161 203> 100 6<601 628> 116 6<559 586> 131 5<788 805> 162 5<792 804> 171 6<160 177> 175 40<683 747> 180 6<414 471> 186 6<111 145> 194 46<432 500> 198 6<144 160> 226 6<687 731> 262 2<555 558> 270 5<379 388> 275 6<0 13> 284 6<587 622> 300 5<378 393> 306 6<1 14> 318 4<112 117> 322 29<160 183> 361 5<187 208> 407 6<130 150> 428 6<428 467> 437 6<115 144> 449 116<104 147> 470 6<583 631> 484 25<580 648> 494 24<542 573> 520 36<593 690> 526 6<508 543> 542 10<713 722> 565 6<635 683 742 800> 572 6<118 149> 578 5<709 725>
 DStem2: 290 263 294 257 0.177042 0.984203<0 129.944 225.039 472.598> 305 270 357 270 0.179418 0.983773<-46.0503 10.1167 218.607 405.682> 363 257 370 262 0.177153 0.984183<5.85785 135.224 240.923 383.177> 561 158 566 160 0.0995037 0.995037<1.60318 20.5623>
@@ -26431,64 +26431,18 @@ EndChar
 
 StartChar: uni000B
 Encoding: 11 11 222
-Width: 983
-VWidth: 800
+Width: 0
+VWidth: 0
 Flags: W
-HStem: 48 50<374 609> 886 47<377 608>
-VStem: 49 50<372 608> 887 47<376 608>
-DStem2: 196 233 230 198 0.706089 0.708123<0 785.667>
 LayerCount: 2
-Fore
-SplineSet
-934.4 490.4 m 0
- 934.4 247.2 736 48 491.2 48 c 0
- 248 48 48.7998 246.4 48.7998 491.2 c 0
- 48.7998 734.4 248 932.8 490.4 932.8 c 1
- 493.6 932.8 l 2
- 736 932.8 934.4 733.6 934.4 490.4 c 0
-751.2 788.8 m 1
- 682.4 848.8 591.2 885.6 492.8 885.6 c 0
- 275.2 885.6 98.4004 708.8 98.4004 492 c 0
- 98.4004 392 134.4 301.6 196 232.8 c 1
- 751.2 788.8 l 1
-887.2 492 m 0
- 887.2 592.8 848.8 684 785.6 754.4 c 1
- 771.2 739.2 494.4 469.6 230.4 197.6 c 1
- 299.2 134.4 392 97.5996 492.8 97.5996 c 0
- 709.6 97.5996 887.2 274.4 887.2 492 c 0
-EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni000C
 Encoding: 12 12 223
-Width: 983
-VWidth: 800
+Width: 0
+VWidth: 0
 Flags: W
-HStem: 48 50<374 609> 886 47<377 608>
-VStem: 49 50<372 608> 887 47<376 608>
-DStem2: 196 233 230 198 0.706089 0.708123<0 785.667>
 LayerCount: 2
-Fore
-SplineSet
-934.4 490.4 m 0
- 934.4 247.2 736 48 491.2 48 c 0
- 248 48 48.7998 246.4 48.7998 491.2 c 0
- 48.7998 734.4 248 932.8 490.4 932.8 c 1
- 493.6 932.8 l 2
- 736 932.8 934.4 733.6 934.4 490.4 c 0
-751.2 788.8 m 1
- 682.4 848.8 591.2 885.6 492.8 885.6 c 0
- 275.2 885.6 98.4004 708.8 98.4004 492 c 0
- 98.4004 392 134.4 301.6 196 232.8 c 1
- 751.2 788.8 l 1
-887.2 492 m 0
- 887.2 592.8 848.8 684 785.6 754.4 c 1
- 771.2 739.2 494.4 469.6 230.4 197.6 c 1
- 299.2 134.4 392 97.5996 492.8 97.5996 c 0
- 709.6 97.5996 887.2 274.4 887.2 492 c 0
-EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni000D
