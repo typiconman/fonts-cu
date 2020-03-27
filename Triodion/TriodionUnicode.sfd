@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1291789194
-ModificationTime: 1585287119
+ModificationTime: 1585324369
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -40,15 +40,15 @@ HheadAOffset: 0
 HheadDescent: -511
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 4 0 0 "'ccmp' Precomposed Glyphs for Cyrillic" { "'ccmp' Precomposed Glyphs for Cyrillic-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Round 2 of Cyrillic Composition" { "'ccmp' Round 2 of Cyrillic Composition-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' Substitution of Uppercase Forms" { "'ccmp' Substitution of Uppercase Forms-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Precomposed Glyphs for Cyrillic" { "'ccmp' Precomposed Glyphs for Cyrillic-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Round 2 of Cyrillic Composition" { "'ccmp' Round 2 of Cyrillic Composition-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'ccmp' Substitution of Uppercase Forms" { "'ccmp' Substitution of Uppercase Forms-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'salt' Stylistic Alternatives" { "'salt' Stylistic Alternatives-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'ss01' Hyphen Alternatives" { "Hyphen Replacement-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 1 0 0 "Uppercase Forms" { "Uppercase Forms-1" ("upper") } []
-Lookup: 258 8 0 "kernHorizontalKerning" { "kernHorizontalKerning subtable" [150,0,0] } ['kern' ('latn' <'dflt' > 'geor' <'dflt' > 'cyrl' <'dflt' > 'DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Diacritical Marks" { "'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Mark to Mark in Cyrillic" { "'mkmk' Mark to Mark in Cyrillic-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
+Lookup: 258 8 0 "kernHorizontalKerning" { "kernHorizontalKerning subtable" [150,0,0] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Diacritical Marks" { "'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark in Cyrillic" { "'mkmk' Mark to Mark in Cyrillic-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 50 51 "kernHorizontalKerning subtable"

@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1291789194
-ModificationTime: 1585287680
+ModificationTime: 1585324663
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -40,17 +40,17 @@ HheadAOffset: 0
 HheadDescent: -400
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 4 0 0 "'ccmp' Canonical Composition and Precomposed Glyphs" { "'ccmp' Canonical Composition and Precomposed Glyphs-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
-Lookup: 4 0 0 "'ccmp' Second Round of Precomposed Glyphs" { "'ccmp' Second Round of Precomposed Glyphs-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
-Lookup: 3 0 0 "'salt' Stylistic Alternatives in Cyrillic" { "'salt' Stylistic Alternatives in Cyrillic-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
-Lookup: 1 0 0 "'ss01' Church Slavonic Hyphenation" { "'ss01' Church Slavonic Hyphenation-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Canonical Composition and Precomposed Glyphs" { "'ccmp' Canonical Composition and Precomposed Glyphs-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Second Round of Precomposed Glyphs" { "'ccmp' Second Round of Precomposed Glyphs-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 3 0 0 "'salt' Stylistic Alternatives in Cyrillic" { "'salt' Stylistic Alternatives in Cyrillic-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Church Slavonic Hyphenation" { "'ss01' Church Slavonic Hyphenation-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "Contextual Titlo Replacement" { "Contextual Titlo Replacement-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
 Lookup: 1 0 0 "Tiny Titlo" { "Tiny Titlo-1"  } []
 Lookup: 1 0 0 "Short Titlo" { "Short Titlo-1"  } []
 Lookup: 1 0 0 "Long Titlo" { "Long Titlo-1"  } []
 Lookup: 258 8 0 "'kern' Horizontal Kerning" { "'kern' Horizontal Kerning-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Diacritical Marks" { "'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' Stacking of Diacritical Marks" { "'mkmk' Stacking of Diacritical Marks-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Diacritical Marks" { "'mark' Diacritical Marks-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Stacking of Diacritical Marks" { "'mkmk' Stacking of Diacritical Marks-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 KernClass2: 56 63 "'kern' Horizontal Kerning-1"
