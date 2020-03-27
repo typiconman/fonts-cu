@@ -1,8 +1,9 @@
 # fonts-cu
 
 This package provides Unicode-encoded OpenType fonts for Church Slavonic.
-Fonts contain the necessary glyphs for Cyrillic (including extensions) as well
-as OpenType features that provide support of ligatures and diacritical marks.
+Fonts contain the necessary glyphs for Cyrillic (including extensions)
+and Glagolitic, as supported in Unicode 13.0,
+as well as OpenType features that provide support of ligatures and diacritical marks.
 
 SIL Graphite is no longer supported. For Graphite features, see the
 [legacy repository](https://github.com/slavonic/fonts-cu-legacy).
@@ -42,7 +43,7 @@ The following typefaces are available:
 All fonts can be downloaded and installed from the
 [Slavonic Computing Initiative website](https://sci.ponomar.net/fonts.html).
 
-## Building from Source
+### Building from Source
 
 Building the fonts requires:
 
