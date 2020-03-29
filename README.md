@@ -8,6 +8,11 @@ as well as OpenType features that provide support of ligatures and diacritical m
 SIL Graphite is no longer supported. For Graphite features, see the
 [legacy repository](https://github.com/slavonic/fonts-cu-legacy).
 
+Latin glyphs are available as far as is necessary for the font to function in
+most software, but generally the fonts are not intended to typeset Latin. In particular
+they lack lookups and kerning data for the Latin range (with the exception of
+the Monomakh font).
+
 ## Available Typefaces
 
 The following typefaces are available:
