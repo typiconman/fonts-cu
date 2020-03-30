@@ -54,6 +54,7 @@
 Сбор шрифтов из исходных кодов требует следующих программ:
 
 * [FontForge](https://github.com/fontforge/fontforge)
+* [ttfautohint](https://www.freetype.org/ttfautohint/) -- для сбора веб-шрифтов
 * [ttf2eot](https://github.com/fontello/ttf2eot) -- для сбора веб-шрифтов
 * [sfnt2woff](https://github.com/kseo/sfnt2woff) -- для сбора веб-шрифтов
 * [woff2_compress](https://github.com/google/woff2) -- для сбора веб-шрифтов

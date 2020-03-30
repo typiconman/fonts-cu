@@ -3,7 +3,7 @@ FontName: MonomakhUnicode
 FullName: Monomakh Unicode
 FamilyName: Monomakh Unicode
 Weight: Regular
-Copyright: Copyright 2006-2020 Aleksandr Andreev and Nikita Simmons (<https://sci.ponomar.net/>).
+Copyright: Copyright 2006-2020 Aleksandr Andreev and Nikita Simmons (https://sci.ponomar.net/).
 UComments: "2011-5-3: Created.+AAoACgAA-Ratios for superscript digits:+AAoA-thin stems: 82+AAoA-thick stems: 72+AAoA-vertical: 56+AAoA-horizontal: 64+AAoACgAA-Ratios for combining letters:+AAoA-ZONES:+AAoA--582,-22+AD0A-960+AAoA-0,-48+AD0A-1100+AAoA-946,34+AD0A-1572+AAoA-vscale+AD0A-50%+AAoA-csize+AD0A-44%+AAoA-wstem+AD0A-66%+AAoA-nstem+AD0A-73%"
 Version: 1.2
 ItalicAngle: 0
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1315915564
-ModificationTime: 1585298092
+ModificationTime: 1585557594
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1324,7 +1324,7 @@ DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 312
-WinInfo: 540 27 9
+WinInfo: 0 27 9
 BeginPrivate: 7
 BlueValues 30 [-8 0 466 476 693 701 753 759]
 OtherBlues 11 [-293 -286]
@@ -1341,7 +1341,7 @@ Grid
 EndSplineSet
 TeXData: 1 0 0 270336 135168 90112 490496 -1048576 90112 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "DblMark" "'mark' Positioning for Double Marks" "Yerik" "'mark' Positioning for Cyrillic Yerik" "CyrTopCap" "'mark' Positioning for Cyrillic Capital Marks" "Kamora" "'mark' Positioning for Kamora" "Vzmet" "'mkmk' Positioning for Vzmet" "CyrMark" "'mark' Positioning for Cyrillic Marks" "HighMark" "'mark' Positioning for High Marks" "TopCap" "'mark' Positioning for Capital Accents" "Grave" "'mark' Positioning for Grave" "Acute" "'mark' Positioning for Acute" "Bottom" "'mark' Positioning for Bottom Accents" "Top" "'mark' Positioning for Top Accents"
-BeginChars: 1114155 856
+BeginChars: 1114155 858
 
 StartChar: space
 Encoding: 32 32 0
@@ -29288,6 +29288,41 @@ SplineSet
  82 -105 77 -109 72 -109 c 0
  70 -109 65 -107 61 -105 c 0
  35 -90 31 -79 31 -71 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni000D
+Encoding: 13 13 856
+Width: 0
+VWidth: 1014
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni0000
+Encoding: 0 0 857
+Width: 570
+VWidth: 1014
+Flags: W
+HStem: 0 60<111.733 458.267> 653 60<111.733 458.267>
+VStem: 47 62<62.5781 650.422> 461 62<62.5781 650.422>
+LayerCount: 2
+Fore
+SplineSet
+47 0 m 1
+ 47 713 l 1
+ 523 713 l 1
+ 523 0 l 1
+ 47 0 l 1
+109 99 m 2
+ 109 74 122 60 147 60 c 2
+ 423 60 l 2
+ 448 60 461 74 461 99 c 2
+ 461 614 l 2
+ 461 639 448 653 423 653 c 2
+ 147 653 l 2
+ 122 653 109 639 109 614 c 2
+ 109 99 l 2
 EndSplineSet
 EndChar
 EndChars

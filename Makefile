@@ -49,7 +49,9 @@ sci-webfonts.zip:
 	rm -fr fonts/
 	rm -f *.zip
 	$(foreach font, $(FONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && fontforge -script web-generate.py $(font);)
+	$(foreach font, $(FONTS), ttfautohint -n -D cyrl $(font)/$(font)Unicode.ttf $(font)/out.ttf && rm $(font)/$(font)Unicode.ttf && mv $(font)/out.ttf $(font)/$(font)Unicode.ttf;)
 	$(foreach font, $(MOREFONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && cd $(font) && fontforge -script web-generate.py && cd ..;)
+	$(foreach font, $(MOREFONTS), ttfautohint -n -D cyrl $(font)/$(font)-Regular.ttf $(font)/out.ttf && rm $(font)/$(font)-Regular.ttf && mv $(font)/out.ttf $(font)/$(font)-Regular.ttf;)
 	$(foreach font, $(FONTS), ttf2eot < $(font)/$(font)Unicode.ttf > $(font)/$(font)Unicode.eot;)
 	$(foreach font, $(MOREFONTS), ttf2eot < $(font)/$(font)-Regular.ttf > $(font)/$(font)-Regular.eot;)
 	$(foreach font, $(FONTS), cd $(font) && sfnt2woff -m $(font)Unicode-WOFF-metadata.xml $(font)Unicode.otf; cd ..;)

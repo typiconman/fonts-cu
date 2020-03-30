@@ -3,7 +3,7 @@ FontName: OglavieUnicode
 FullName: Oglavie Unicode
 FamilyName: Oglavie Unicode
 Weight: Regular
-Copyright: Copyright 2013-2020 Aleksandr Andreev and Nikita Simmons (<https://sci.ponomar.net/>)
+Copyright: Copyright 2013-2020 Aleksandr Andreev and Nikita Simmons (https://sci.ponomar.net/)
 Version: 1.1
 ItalicAngle: 0
 UnderlinePosition: -60
@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1291789194
-ModificationTime: 1585319364
+ModificationTime: 1585557993
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -97,7 +97,7 @@ ForceBold 5 false
 EndPrivate
 TeXData: 1 0 0 367001 183500 122333 838861 1048576 122333 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Stack" "'mkmk' Mark to Mark Positioning-1" "Yerik" "'mark' Diacritical Marks-1" "Above" "'mark' Diacritical Marks-1"
-BeginChars: 1114113 247
+BeginChars: 1114113 217
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -1215,7 +1215,7 @@ AnchorPoint: "Above" 267 852 basechar 0
 AnchorPoint: "Yerik" 417 852 basechar 0
 LayerCount: 2
 Fore
-Refer: 217 1026 N 1 0 0 1 0 0 2
+Refer: 187 1026 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -1400,7 +1400,7 @@ AnchorPoint: "Above" 267 852 basechar 0
 AnchorPoint: "Yerik" 417 852 basechar 0
 LayerCount: 2
 Fore
-Refer: 220 1033 N 1 0 0 1 0 0 2
+Refer: 190 1033 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -1416,7 +1416,7 @@ AnchorPoint: "Above" 262 852 basechar 0
 AnchorPoint: "Yerik" 421 852 basechar 0
 LayerCount: 2
 Fore
-Refer: 221 1034 N 1 0 0 1 0 0 2
+Refer: 191 1034 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -1473,7 +1473,7 @@ AnchorPoint: "Above" 266 852 basechar 0
 AnchorPoint: "Yerik" 416 852 basechar 0
 LayerCount: 2
 Fore
-Refer: 222 1035 N 1 0 0 1 0 0 2
+Refer: 192 1035 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -2132,7 +2132,7 @@ AnchorPoint: "Above" 257 852 basechar 0
 AnchorPoint: "Yerik" 290 852 basechar 0
 LayerCount: 2
 Fore
-Refer: 219 1032 N 1 0 0 1 0 0 2
+Refer: 189 1032 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -6699,887 +6699,17 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uni0001
-Encoding: 1 1 186
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0002
-Encoding: 2 2 187
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0003
-Encoding: 3 3 188
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0004
-Encoding: 4 4 189
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0005
-Encoding: 5 5 190
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0006
-Encoding: 6 6 191
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0007
-Encoding: 7 7 192
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0008
-Encoding: 8 8 193
-Width: 0
-VWidth: 0
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: uni0009
-Encoding: 9 9 194
-Width: 350
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: uni000A
-Encoding: 10 10 195
-Width: 350
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: uni000B
-Encoding: 11 11 196
-Width: 0
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
-StartChar: uni000C
-Encoding: 12 12 197
-Width: 0
-VWidth: 0
-Flags: W
-LayerCount: 2
-EndChar
-
 StartChar: uni000D
-Encoding: 13 13 198
+Encoding: 13 13 186
 Width: 350
 Flags: W
 LayerCount: 2
 Fore
-Validated: 1
-EndChar
-
-StartChar: uni000E
-Encoding: 14 14 199
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni000F
-Encoding: 15 15 200
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0010
-Encoding: 16 16 201
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0011
-Encoding: 17 17 202
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0012
-Encoding: 18 18 203
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0013
-Encoding: 19 19 204
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0014
-Encoding: 20 20 205
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0015
-Encoding: 21 21 206
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0016
-Encoding: 22 22 207
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0017
-Encoding: 23 23 208
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0018
-Encoding: 24 24 209
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni0019
-Encoding: 25 25 210
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni001A
-Encoding: 26 26 211
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni001B
-Encoding: 27 27 212
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni001C
-Encoding: 28 28 213
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni001D
-Encoding: 29 29 214
-Width: 0
-VWidth: 0
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: uni001E
-Encoding: 30 30 215
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
-StartChar: uni001F
-Encoding: 31 31 216
-Width: 360
-Flags: W
-HStem: 0 20<86 274> 780 20<86 273>
-VStem: 50 20<40 762> 290 20<40 762>
-LayerCount: 2
-Fore
-SplineSet
-310 0 m 1
- 50 0 l 1
- 50 800 l 1
- 310 800 l 1
- 310 0 l 1
-190 401 m 1
- 290 40 l 1
- 290 762 l 1
- 190 401 l 1
-169 401 m 1
- 70 762 l 1
- 70 40 l 1
- 169 401 l 1
-180 362 m 1
- 86 20 l 1
- 274 20 l 1
- 180 362 l 1
-86 780 m 1
- 180 440 l 1
- 273 780 l 1
- 86 780 l 1
-EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: uni0402
-Encoding: 1026 1026 217
+Encoding: 1026 1026 187
 Width: 520
 Flags: W
 HStem: 0 21G<210 310> 780 20<150 210 310 370>
@@ -7618,7 +6748,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0403
-Encoding: 1027 1027 218
+Encoding: 1027 1027 188
 Width: 360
 Flags: W
 HStem: 0 21G<50 150> 780 20<150 210>
@@ -7651,7 +6781,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" afii10020 acutecomb
 EndChar
 
 StartChar: uni0408
-Encoding: 1032 1032 219
+Encoding: 1032 1032 189
 Width: 358
 Flags: W
 HStem: 0 17<168.5 203.212> 780 20G<208 308>
@@ -7678,7 +6808,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0409
-Encoding: 1033 1033 220
+Encoding: 1033 1033 190
 Width: 520
 Flags: W
 HStem: 0 20<310 370> 780 20<150 210>
@@ -7718,7 +6848,7 @@ Validated: 1
 EndChar
 
 StartChar: uni040A
-Encoding: 1034 1034 221
+Encoding: 1034 1034 191
 Width: 520
 Flags: W
 HStem: 0 20<310 370> 780 20G<50 150 210 310>
@@ -7758,7 +6888,7 @@ Validated: 1
 EndChar
 
 StartChar: uni040B
-Encoding: 1035 1035 222
+Encoding: 1035 1035 192
 Width: 520
 Flags: W
 HStem: 0 21G<210 310 370 470> 780 20<150 210 310 370>
@@ -7794,7 +6924,7 @@ Validated: 1
 EndChar
 
 StartChar: uni042D
-Encoding: 1069 1069 223
+Encoding: 1069 1069 193
 Width: 378
 Flags: W
 HStem: -8 20<199.585 245.393> 48 87<246.379 294.812> 449 33<120 195.117> 790 18<165.483 213.171>
@@ -7846,7 +6976,7 @@ Validated: 1
 EndChar
 
 StartChar: uni042F
-Encoding: 1071 1071 224
+Encoding: 1071 1071 194
 Width: 360
 Flags: W
 HStem: 0 21G<50 150 210 310> 507 22<150 210> 780 20<150 210>
@@ -7881,7 +7011,7 @@ Validated: 1
 EndChar
 
 StartChar: uni044F
-Encoding: 1103 1103 225
+Encoding: 1103 1103 195
 Width: 360
 Flags: W
 HStem: 0 21G<50 150 210 310> 507 22<150 210> 780 20<150 210>
@@ -7890,12 +7020,12 @@ AnchorPoint: "Above" 187 852 basechar 0
 AnchorPoint: "Yerik" 260 852 basechar 0
 LayerCount: 2
 Fore
-Refer: 224 1071 N 1 0 0 1 0 0 2
+Refer: 194 1071 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: uni044D
-Encoding: 1101 1101 226
+Encoding: 1101 1101 196
 Width: 378
 Flags: W
 HStem: -8 20<199.585 245.393> 48 87<246.379 294.812> 449 33<120 195.117> 790 18<165.483 213.171>
@@ -7947,7 +7077,7 @@ Validated: 1
 EndChar
 
 StartChar: uniA64C
-Encoding: 42572 42572 227
+Encoding: 42572 42572 197
 Width: 554
 Flags: W
 HStem: -8 38<152 228.685 325.315 402> 655 106<192.83 240.812 312.188 361.17> 790 18<173.493 222.895 330.82 380.507>
@@ -8005,7 +7135,7 @@ Validated: 1
 EndChar
 
 StartChar: uniA64D
-Encoding: 42573 42573 228
+Encoding: 42573 42573 198
 Width: 554
 Flags: W
 HStem: -8 38<152 228.685 325.315 402> 655 106<192.83 240.812 312.188 361.17> 790 18<173.493 222.895 330.82 380.507>
@@ -8063,7 +7193,7 @@ Validated: 1
 EndChar
 
 StartChar: uniA67C
-Encoding: 42620 42620 229
+Encoding: 42620 42620 199
 Width: 0
 Flags: W
 HStem: 660 20<-171.22 -124.385>
@@ -8090,7 +7220,7 @@ Validated: 1
 EndChar
 
 StartChar: uniA67D
-Encoding: 42621 42621 230
+Encoding: 42621 42621 200
 Width: 373
 Flags: W
 HStem: 87 33<113.584 238.373> 390 34<112.511 238.398>
@@ -8118,7 +7248,7 @@ Validated: 1
 EndChar
 
 StartChar: uniA67F
-Encoding: 42623 42623 231
+Encoding: 42623 42623 201
 Width: 373
 Flags: W
 HStem: 87 33<113.584 238.373> 390 34<112.511 238.398>
@@ -8146,7 +7276,7 @@ Validated: 1
 EndChar
 
 StartChar: uniA673
-Encoding: 42611 42611 232
+Encoding: 42611 42611 202
 Width: 387
 Flags: W
 HStem: 786 20G<190.917 205.292>
@@ -8192,7 +7322,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2E2F
-Encoding: 11823 11823 233
+Encoding: 11823 11823 203
 Width: 250
 Flags: W
 HStem: 624 213
@@ -8214,7 +7344,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0306
-Encoding: 774 774 234
+Encoding: 774 774 204
 Width: 0
 Flags: W
 HStem: 662 60<-173.354 -101.607> 780 22G<-187.5 -169 -70.5 -54>
@@ -8241,7 +7371,7 @@ Validated: 1
 EndChar
 
 StartChar: uni0308
-Encoding: 776 776 235
+Encoding: 776 776 205
 Width: 0
 Flags: W
 HStem: 680 91<-149 -143 -59 -53>
@@ -8271,7 +7401,7 @@ Validated: 1
 EndChar
 
 StartChar: uni030F
-Encoding: 783 783 236
+Encoding: 783 783 206
 Width: 0
 Flags: W
 HStem: 664 123
@@ -8301,7 +7431,7 @@ Validated: 1
 EndChar
 
 StartChar: uni2DEE
-Encoding: 11758 11758 237
+Encoding: 11758 11758 207
 Width: 0
 Flags: W
 HStem: 659 116<-280.015 -253 -197 -97 -41 -13.9854> 755 20<-392 -344.598 -253 -197 -97 -41 50.5984 98>
@@ -8335,7 +7465,7 @@ Validated: 1
 EndChar
 
 StartChar: uniE005
-Encoding: 57349 57349 238
+Encoding: 57349 57349 208
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8382,7 +7512,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni0486 uni0308
 EndChar
 
 StartChar: uni2DE10487
-Encoding: 62689 62689 239
+Encoding: 62689 62689 209
 Width: 1
 GlyphClass: 4
 Flags: W
@@ -8438,7 +7568,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DE1 uni0487
 EndChar
 
 StartChar: uni2DE20487
-Encoding: 62690 62690 240
+Encoding: 62690 62690 210
 Width: 1
 Flags: W
 HStem: 746 35<-141 -129> 765 16<-183 -160>
@@ -8482,7 +7612,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DE2 uni0487
 EndChar
 
 StartChar: uni2DE90487
-Encoding: 62697 62697 241
+Encoding: 62697 62697 211
 Width: 1
 Flags: W
 HStem: 654 114<-297 -252 -219 -176> 704 21<-252 -219>
@@ -8529,7 +7659,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DE9 uni0487
 EndChar
 
 StartChar: uni2DEA0487
-Encoding: 62698 62698 242
+Encoding: 62698 62698 212
 Width: 1
 Flags: W
 HStem: 661 15<-242.606 -211.394> 768 16<-242.806 -211.194>
@@ -8575,7 +7705,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DEA uni0487
 EndChar
 
 StartChar: uni2DEC0487
-Encoding: 62700 62700 243
+Encoding: 62700 62700 213
 Width: 1
 Flags: W
 HStem: 712 16<-229.552 -195.712> 772 15<-229.413 -196.901>
@@ -8623,7 +7753,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DEC uni0487
 EndChar
 
 StartChar: uni2DED0487
-Encoding: 62701 62701 244
+Encoding: 62701 62701 214
 Width: 1
 Flags: W
 HStem: 643 26<-242 -212.49> 743 23<-239.919 -207.462>
@@ -8671,7 +7801,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DED uni0487
 EndChar
 
 StartChar: uni2DF10487
-Encoding: 62705 62705 245
+Encoding: 62705 62705 215
 Width: 1
 Flags: W
 HStem: 709 61<-273.666 -244>
@@ -8716,7 +7846,7 @@ Ligature2: "'ccmp' Cyrillic Glyph Compositions-1" uni2DF1 uni0487
 EndChar
 
 StartChar: uni1C82
-Encoding: 7298 7298 246
+Encoding: 7298 7298 216
 Width: 359
 Flags: W
 HStem: -8 21G<147 172.5> 788 20G<186.5 212>

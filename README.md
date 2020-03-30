@@ -53,6 +53,7 @@ All fonts can be downloaded and installed from the
 Building the fonts requires:
 
 * [FontForge](https://github.com/fontforge/fontforge)
+* [ttfautohint](https://www.freetype.org/ttfautohint/) -- to build web fonts
 * [ttf2eot](https://github.com/fontello/ttf2eot) -- to build web fonts
 * [sfnt2woff](https://github.com/kseo/sfnt2woff) -- to build web fonts
 * [woff2_compress](https://github.com/google/woff2) -- to build web fonts
