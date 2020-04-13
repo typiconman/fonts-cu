@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1220731200
-ModificationTime: 1586753755
+ModificationTime: 1586754648
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -60,6 +60,7 @@ Lookup: 4 0 0 "'ccmp' Precomposed Glyphs" { "'ccmp' Precomposed Glyphs-1"  } ['c
 Lookup: 5 0 0 "'ccmp' Alternative Forms for Uppercase Letters" { "'ccmp' Alternative Forms for Uppercase Letters-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' Uk at Right" { "'ccmp' Uk at Right-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'salt' Stylistic Alternatives" { "'salt' Stylistic Alternatives-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'ss01' Style Set 1 Alternative Hyphen" { "'ss01' Style Set 1 Alternative Hyphen-1"  } ['ss01' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Uppercase diacritics" { "Uppercase diacritics-1"  } []
 Lookup: 1 0 0 "Uk Left Truncation" { "Uk Left Truncation-1"  } []
 Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0 subtable" [150,15,0] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
@@ -553,7 +554,7 @@ BlueScale 8 0.039625
 BlueShift 1 7
 EndPrivate
 AnchorClass2: "Stacking" "'mkmk' Mark to Mark Positioning-1" "Yerok" "'mark' Mark Positioning lookup 1-1" "Diacritic" "'mark' Mark Positioning lookup 1-1"
-BeginChars: 1114113 379
+BeginChars: 1114113 396
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -3065,11 +3066,11 @@ HStem: 190 54<35 448>
 LayerCount: 2
 Fore
 SplineSet
-35 190 m 1
- 35 244 l 1
- 448 244 l 1
- 448 190 l 1
- 35 190 l 1
+35 190 m 5
+ 35 244 l 5
+ 448 244 l 5
+ 448 190 l 5
+ 35 190 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -7526,18 +7527,18 @@ StartChar: hyphen
 Encoding: 45 45 154
 Width: 330
 Flags: W
-HStem: 0 54<30 300>
-VStem: 30 270<0 54>
+HStem: 190 54<30 300>
+VStem: 30 270<190 244>
 LayerCount: 2
 Fore
 SplineSet
-300 0 m 1
- 30 0 l 1
- 30 54 l 1
- 300 54 l 1
- 300 0 l 1
+300 190 m 1
+ 30 190 l 1
+ 30 244 l 1
+ 300 244 l 1
+ 300 190 l 1
 EndSplineSet
-Validated: 1
+Substitution2: "'ss01' Style Set 1 Alternative Hyphen-1" underscore
 EndChar
 
 StartChar: parenright
@@ -17452,6 +17453,166 @@ SplineSet
  147.049804688 1.2001953125 l 1
  36.349609375 1.2001953125 l 1
 EndSplineSet
+EndChar
+
+StartChar: uni200B
+Encoding: 8203 8203 379
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni200C
+Encoding: 8204 8204 380
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni200D
+Encoding: 8205 8205 381
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: figuredash
+Encoding: 8210 8210 382
+Width: 481
+Flags: W
+HStem: 190 54<35 448>
+LayerCount: 2
+Fore
+SplineSet
+35 190 m 5
+ 35 244 l 5
+ 448 244 l 5
+ 448 190 l 5
+ 35 190 l 5
+EndSplineSet
+EndChar
+
+StartChar: uni2011
+Encoding: 8209 8209 383
+Width: 330
+Flags: W
+HStem: 190 54<30 300>
+VStem: 30 270<190 244>
+LayerCount: 2
+Fore
+SplineSet
+300 190 m 1
+ 30 190 l 1
+ 30 244 l 1
+ 300 244 l 1
+ 300 190 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni2010
+Encoding: 8208 8208 384
+Width: 330
+Flags: W
+HStem: 190 54<30 300>
+VStem: 30 270<190 244>
+LayerCount: 2
+Fore
+SplineSet
+300 190 m 1
+ 30 190 l 1
+ 30 244 l 1
+ 300 244 l 1
+ 300 190 l 1
+EndSplineSet
+EndChar
+
+StartChar: uni200A
+Encoding: 8202 8202 385
+Width: 40
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2009
+Encoding: 8201 8201 386
+Width: 80
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2008
+Encoding: 8200 8200 387
+Width: 100
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2007
+Encoding: 8199 8199 388
+Width: 100
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2006
+Encoding: 8198 8198 389
+Width: 100
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2005
+Encoding: 8197 8197 390
+Width: 150
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2004
+Encoding: 8196 8196 391
+Width: 200
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2003
+Encoding: 8195 8195 392
+Width: 600
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2002
+Encoding: 8194 8194 393
+Width: 400
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2001
+Encoding: 8193 8193 394
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: uni2000
+Encoding: 8192 8192 395
+Width: 0
+VWidth: 0
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
