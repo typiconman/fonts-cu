@@ -1,11 +1,11 @@
 all: fonts doc ctan
 
 FONTS = Cathisma Fedorovsk Indiction Menaion Monomakh Oglavie Pochaevsk Pomorsky Ponomar Triodion Vertograd
-MOREFONTS = Shafarik
+MOREFONTS = Shafarik Acathist
 
 fonts:
 	$(foreach font, $(FONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && fontforge -script hp-generate.py $(font);)
-	$(foreach font, $(MOREFONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && cd $(font) && fontforge -script hp-generate.py)
+	$(foreach font, $(MOREFONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && cd $(font) && fontforge -script hp-generate.py && cd ..)
 
 doc: fonts-churchslavonic.pdf
 
