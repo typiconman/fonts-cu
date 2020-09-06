@@ -20,11 +20,14 @@ ctan: fonts-churchslavonic.zip
 fonts-churchslavonic.zip:
 	rm -f *.zip
 	cp README.ctan /tmp/README
+	wget https://www.ponomar.net/files/MezenetsUnicode.zip
+	unzip MezenetsUnicode.zip -x README
 	zip -j $@ $(foreach dir, $(FONTS), $(wildcard $(dir)/*.otf)) \
 				$(foreach dir, $(MOREFONTS), $(wildcard $(dir)/*.otf)) \
-				fonts-churchslavonic.pdf LICENSE OFL.txt GPL.txt
+				MezenetsUnicode.otf fonts-churchslavonic.pdf OFL.txt
 	zip -j $@ /tmp/README
 	zip -DrX $@ docs/fonts-churchslavonic.tex docs/*.png
+	rm -f MezenetsUnicode.otf MezenetsUnicode.zip
 	rm -f /tmp/README
 
 install: $(FONTS)
