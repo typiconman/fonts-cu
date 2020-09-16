@@ -7,28 +7,26 @@ fonts:
 	$(foreach font, $(FONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && fontforge -script hp-generate.py $(font);)
 	$(foreach font, $(MOREFONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && cd $(font) && fontforge -script hp-generate.py && cd ..)
 
-doc: fonts-churchslavonic.pdf
-
-fonts-churchslavonic.pdf:
+doc:
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
-	mv docs/fonts-churchslavonic.pdf ./
 
 ctan: fonts-churchslavonic.zip
 
 fonts-churchslavonic.zip:
 	rm -f *.zip
-	cp README.ctan /tmp/README
-	wget https://www.ponomar.net/files/MezenetsUnicode.zip
-	unzip MezenetsUnicode.zip -x README
-	zip -j $@ $(foreach dir, $(FONTS), $(wildcard $(dir)/*.otf)) \
-				$(foreach dir, $(MOREFONTS), $(wildcard $(dir)/*.otf)) \
-				MezenetsUnicode.otf fonts-churchslavonic.pdf OFL.txt
-	zip -j $@ /tmp/README
-	zip -DrX $@ docs/fonts-churchslavonic.tex docs/*.png
-	rm -f MezenetsUnicode.otf MezenetsUnicode.zip
-	rm -f /tmp/README
+	mkdir fonts-churchslavonic/
+	cp README.ctan fonts-churchslavonic/README
+	(cd fonts-churchslavonic/ && wget https://www.ponomar.net/files/MezenetsUnicode.zip && unzip MezenetsUnicode.zip -x README)
+	rm -f fonts-churchslavonic/MezenetsUnicode.zip
+	cp $(foreach dir, $(FONTS), $(wildcard $(dir)/*.otf)) fonts-churchslavonic/
+	cp $(foreach dir, $(MOREFONTS), $(wildcard $(dir)/*.otf)) fonts-churchslavonic/
+	cp OFL.txt fonts-churchslavonic/
+	mkdir fonts-churchslavonic/docs/
+	cp docs/fonts-churchslavonic.tex docs/*.png docs/fonts-churchslavonic.pdf fonts-churchslavonic/docs/
+	zip -r -q fonts-churchslavonic.zip fonts-churchslavonic/
+	rm -fr fonts-churchslavonic
 
 install: $(FONTS)
 	ls ~/.fonts/
@@ -64,14 +62,13 @@ sci-webfonts.zip:
 	mkdir fonts/
 	$(foreach font, $(FONTS), cp $(font)/*.ttf $(font)/*.woff $(font)/*.eot $(font)/*.woff2 fonts/;)
 	$(foreach font, $(MOREFONTS), cp $(font)/*.ttf $(font)/*.woff $(font)/*.eot $(font)/*.woff2 fonts/;)
-	zip -j $@ LICENSE GPL.txt OFL.txt
+	zip -j $@ LICENSE OFL.txt
 	zip -DrX $@ css/ fonts/
 	rm -fr fonts/
 
 clean:
 	$(foreach font, $(FONTS), cd $(font)/ && rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip; cd ..;)
 	$(foreach font, $(MOREFONTS), cd $(font)/ && rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip; cd ..;)
-	rm -f fonts-churchslavonic.pdf
 	rm -f *.otf *.ttf
 	(cd docs/ && rm -f *.aux *.glo *.idx *.log *.out *.pdf *.toc)
 	(cd rpm/ && rm -f *.tar.bz2)
