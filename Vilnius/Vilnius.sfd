@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1336434585
-ModificationTime: 1609577120
+ModificationTime: 1609615740
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,9 +53,12 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 351 27 9
+WinInfo: 486 27 9
 BeginPrivate: 0
 EndPrivate
+Grid
+2000 1073.59997559 m 1024
+EndSplineSet
 AnchorClass2: "Stacking" "'mkmk' Mark to Mark lookup 1-1" "Yerok" "'mark' Mark Positioning lookup 0-1" "Diacritic" "'mark' Mark Positioning lookup 0-1"
 BeginChars: 1114112 717
 
@@ -99,6 +102,8 @@ Width: 0
 Flags: HW
 HStem: 724 49<-240.507 -192.399 -157.67 -106.199>
 VStem: -246 52<724.707 770> -205 63<500 682.687> -155 52<724.039 771.533>
+AnchorPoint: "Stacking" -170 482 mark 0
+AnchorPoint: "Stacking" -164 854 basemark 0
 AnchorPoint: "Diacritic" -170 482 mark 0
 LayerCount: 2
 Fore
@@ -6587,9 +6592,11 @@ EndChar
 StartChar: uniA66F
 Encoding: 42607 42607 125
 Width: 0
-Flags: W
+Flags: HW
 HStem: 700.819 119.586
 VStem: -599.373 100.005<700.819 764.434> -287.392 124.992<705.477 785.914>
+AnchorPoint: "Stacking" -403 664 mark 0
+AnchorPoint: "Stacking" -397 936 basemark 0
 AnchorPoint: "Diacritic" -402 664 mark 0
 LayerCount: 2
 Fore
@@ -6611,7 +6618,6 @@ SplineSet
  -288.282 785.914 l 1
  -499.314 771.339 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uniA673
@@ -6658,6 +6664,8 @@ Encoding: 42613 42613 127
 Width: 0
 Flags: HW
 HStem: 687 276
+AnchorPoint: "Stacking" -150 662 mark 0
+AnchorPoint: "Stacking" -144 1034 basemark 0
 AnchorPoint: "Diacritic" -150 662 mark 0
 LayerCount: 2
 Fore
@@ -6685,6 +6693,8 @@ Width: 0
 Flags: HW
 HStem: 575 30<-233.864 -161.636>
 VStem: -349.995 82.995<633.214 715.238> -130.999 81.999<629.056 715.238>
+AnchorPoint: "Stacking" -198 532 mark 0
+AnchorPoint: "Stacking" -192 801 basemark 0
 AnchorPoint: "Diacritic" -196 532 mark 0
 LayerCount: 2
 Fore
@@ -6713,6 +6723,8 @@ Width: 0
 Flags: HW
 HStem: 624.002 241.998
 VStem: -94 69<624.096 712.933>
+AnchorPoint: "Stacking" -60 615 mark 0
+AnchorPoint: "Stacking" -54 987 basemark 0
 AnchorPoint: "Yerok" -58 615 mark 0
 LayerCount: 2
 Fore
@@ -7899,6 +7911,8 @@ Width: 0
 Flags: HW
 HStem: 587 40<-250 -150.23> 721 30<-214.777 -153.258> 833 32<-346.967 -292 -202.812 -99.2372>
 VStem: -314.001 88.001<629.852 718.68> -139.003 91.003<651.617 712.483>
+AnchorPoint: "Stacking" -204 932 basemark 0
+AnchorPoint: "Stacking" -210 560 mark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -7941,6 +7955,8 @@ Width: 0
 Flags: HW
 HStem: 591 24<-318.954 -299.807 -226 -139 -67.2759 -33.0197> 702 27<-316.994 -294 -224 -148 -80 -60.0031>
 VStem: -302 76<615 700.636> -294 68<616.087 702> -149 68<616.037 701.859>
+AnchorPoint: "Stacking" -204 834 basemark 0
+AnchorPoint: "Stacking" -190 562 mark 0
 AnchorPoint: "Diacritic" -190 562 mark 0
 LayerCount: 2
 Fore
@@ -7980,6 +7996,8 @@ Width: 0
 Flags: HW
 HStem: 635.997 143<-343.004 -243.004> 688.997 90<-175.503 -140.015> 748.997 30<-360 -343.003 -243.004 -179.558>
 VStem: -343.004 100<635.997 748.997>
+AnchorPoint: "Stacking" -224 874 basemark 0
+AnchorPoint: "Stacking" -210 602 mark 0
 AnchorPoint: "Diacritic" -210 602 mark 0
 LayerCount: 2
 Fore
@@ -8007,6 +8025,8 @@ Width: 1
 Flags: HW
 HStem: 585.001 77.001<-438.003 -419.146 205.413 224>
 VStem: -443 111.001<812.714 865.299>
+AnchorPoint: "Stacking" -133 1054 basemark 0
+AnchorPoint: "Stacking" -119 582 mark 0
 AnchorPoint: "Diacritic" -120 582 mark 0
 LayerCount: 2
 Fore
@@ -8061,6 +8081,8 @@ Width: 1
 Flags: HW
 HStem: 780.999 73<74.6185 138.912>
 VStem: -498.006 99.001<674.64 776.805> -486.006 87.001<674.516 750.93> -188.005 100<810.164 927.998> -188.005 91.0001<807.998 927.246>
+AnchorPoint: "Stacking" -144 1054 basemark 0
+AnchorPoint: "Stacking" -140 622 mark 0
 AnchorPoint: "Diacritic" -140 622 mark 0
 LayerCount: 2
 Fore
@@ -8122,6 +8144,8 @@ Width: 1
 Flags: HW
 HStem: 616.461 35.5384<-51.7092 -33.998> 635.843 32.1348<-478.601 -438.382> 826.198 89.302<-161.309 40.3533>
 VStem: -485.732 90.3678<807.393 846.629> 44 56.122<738.273 833.597>
+AnchorPoint: "Stacking" -203 1153 basemark 0
+AnchorPoint: "Stacking" -209 581 mark 0
 AnchorPoint: "Diacritic" -210 582 mark 0
 LayerCount: 2
 Fore
@@ -8184,6 +8208,8 @@ Width: 0
 Flags: HW
 HStem: 561.004 203.999
 VStem: -367.999 106.857<579.73 680.931> -183.56 82.561<620.156 689.589> -173 106<582.705 635.071>
+AnchorPoint: "Stacking" -224 803 basemark 0
+AnchorPoint: "Stacking" -210 531 mark 0
 AnchorPoint: "Diacritic" -210 532 mark 0
 LayerCount: 2
 Fore
@@ -8218,6 +8244,8 @@ Width: 0
 Flags: HW
 HStem: 595.004 213.999
 VStem: -310.997 255.998
+AnchorPoint: "Stacking" -204 854 basemark 0
+AnchorPoint: "Stacking" -190 582 mark 0
 AnchorPoint: "Diacritic" -190 582 mark 0
 LayerCount: 2
 Fore
@@ -8243,6 +8271,8 @@ Encoding: 11752 11752 168
 Width: 1
 Flags: HW
 HStem: 722.219 83.7797<-484.711 -406.891>
+AnchorPoint: "Stacking" -224 974 basemark 0
+AnchorPoint: "Stacking" -210 642 mark 0
 AnchorPoint: "Diacritic" -210 642 mark 0
 LayerCount: 2
 Fore
@@ -8282,6 +8312,8 @@ Width: 0
 Flags: HW
 HStem: 661 177
 VStem: -334.009 93.001<672.001 746.979> -152.008 90.0012<675.241 729.001 758 794.467>
+AnchorPoint: "Stacking" -224 894 basemark 0
+AnchorPoint: "Stacking" -210 622 mark 0
 AnchorPoint: "Diacritic" -210 622 mark 0
 LayerCount: 2
 Fore
@@ -8318,6 +8350,8 @@ Width: 0
 Flags: HW
 HStem: 637.892 192.105
 VStem: -268.131 78.728<701.538 758.91> -109.812 75.0454<711.979 766.837>
+AnchorPoint: "Stacking" -164 883 basemark 0
+AnchorPoint: "Stacking" -150 611 mark 0
 AnchorPoint: "Diacritic" -150 612 mark 0
 LayerCount: 2
 Fore
@@ -8348,6 +8382,8 @@ Width: 0
 Flags: HW
 HStem: 762.002 36<-195.997 -151.195>
 VStem: -319.997 95.5<650.066 737.652> -149.13 84.2022<664.129 784.815>
+AnchorPoint: "Stacking" -213 894 basemark 0
+AnchorPoint: "Stacking" -199 622 mark 0
 AnchorPoint: "Diacritic" -200 622 mark 0
 LayerCount: 2
 Fore
@@ -8390,6 +8426,8 @@ Width: 0
 Flags: HW
 HStem: 651.817 33.383<-245.3 -175.721> 754.129 62.871<-242.997 -176.08>
 VStem: -338.001 91.001<602 666 688.521 749.459> -172.614 80.1599<695.133 752.149>
+AnchorPoint: "Stacking" -213 924 basemark 0
+AnchorPoint: "Stacking" -209 562 mark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -8424,6 +8462,8 @@ Width: 0
 Flags: HW
 HStem: 641.995 44.002<-244.015 -140.302> 747.997 17<-165.198 -137.004>
 VStem: -299.004 92<663.932 724.882>
+AnchorPoint: "Stacking" -224 885 basemark 0
+AnchorPoint: "Stacking" -210 613 mark 0
 AnchorPoint: "Diacritic" -210 612 mark 0
 LayerCount: 2
 Fore
@@ -8447,10 +8487,28 @@ Width: 1
 Flags: HW
 HStem: 788.001 29.999<-482.412 -427 -312 -286.835> 807.001 33.001<-67.1635 21>
 VStem: -437 123<658.14 746.801>
+AnchorPoint: "Stacking" -210 631 mark 0
+AnchorPoint: "Stacking" -204 943 basemark 0
 AnchorPoint: "Diacritic" -210 632 mark 0
 LayerCount: 2
 Fore
 SplineSet
+-479 818 m 1xa0
+ 125.001 840.002 l 1
+ 129.671 839.067 135.692 832.294 135.692 825.684 c 0
+ 135.692 824.438 135.478 823.197 135 822.002 c 1
+ -47 672.002 l 1
+ -68.7937 661.746 -86.8338 659.46 -116 658.001 c 1
+ -121 667.001 l 1
+ 21 807.001 l 1x60
+ -312 794.001 l 1
+ -314 665.001 l 1
+ -342.787 653.736 -384.566 645.847 -426.018 645.847 c 0
+ -429.646 645.847 -433.308 645.898 -437 646.001 c 1
+ -427 790.001 l 1
+ -477 788.001 l 1
+ -480.872 791.227 -482.417 796.847 -482.417 802.704 c 0
+ -482.417 808.184 -481.064 813.871 -479 818 c 1xa0
 -479 818 m 1xa0
  125.001 840.002 l 1
  129.671 839.067 135.692 832.294 135.692 825.684 c 0
@@ -8476,6 +8534,8 @@ Width: 1
 Flags: HW
 HStem: 877.998 92.999<12.6141 63.7672> 939.998 35.999<-406.635 -320.54>
 VStem: -519.891 100.837<788.311 900.429>
+AnchorPoint: "Stacking" -210 662 mark 0
+AnchorPoint: "Stacking" -204 1034 basemark 0
 AnchorPoint: "Diacritic" -210 662 mark 0
 LayerCount: 2
 Fore
@@ -8529,6 +8589,8 @@ Width: 0
 Flags: HW
 HStem: 600.001 112.999<-76.0245 -18.1851> 680 29<-400.972 -362.691 -266.999 -185.724 -86.999 -77>
 VStem: -186.999 99.5<713 796.882>
+AnchorPoint: "Stacking" -210 602 mark 0
+AnchorPoint: "Stacking" -204 944 basemark 0
 AnchorPoint: "Diacritic" -210 602 mark 0
 LayerCount: 2
 Fore
@@ -8563,6 +8625,8 @@ Width: 0
 Flags: HW
 HStem: 707.995 111<-334.135 -274.435>
 VStem: -369.002 94.699<746.362 777.995> -263.002 100<635.996 707.806>
+AnchorPoint: "Stacking" -210 611 mark 0
+AnchorPoint: "Stacking" -204 913 basemark 0
 AnchorPoint: "Diacritic" -210 612 mark 0
 LayerCount: 2
 Fore
@@ -8595,6 +8659,8 @@ Encoding: 11762 11762 178
 Width: 0
 Flags: HW
 HStem: 696.836 30.167<49.0029 66.5359> 717.002 151.539<-378.585 -273.068> 717.002 30<-472.994 -419.462 -311.276 -239.01 -143.999 -96.0095>
+AnchorPoint: "Stacking" -210 671 mark 0
+AnchorPoint: "Stacking" -204 983 basemark 0
 AnchorPoint: "Diacritic" -210 672 mark 0
 LayerCount: 2
 Fore
@@ -8642,6 +8708,8 @@ Encoding: 11763 11763 179
 Width: 0
 Flags: HW
 HStem: 696.835 30.167<49.9982 66.532> 716.999 30<-472.996 -419.75 -311 -236.918 -144.001 -86.7232>
+AnchorPoint: "Stacking" -210 591 mark 0
+AnchorPoint: "Stacking" -204 963 basemark 0
 AnchorPoint: "Diacritic" -210 592 mark 0
 LayerCount: 2
 Fore
@@ -8690,6 +8758,8 @@ Width: 0
 Flags: HW
 HStem: 799.999 23.998<-235.041 -196.503 -81.8173 -58.7608> 802.499 28.499<-352.296 -321.174>
 VStem: -321 85.537<727.879 802.397> -196.238 31.2312<826.798 896.143> -121.008 43.0021<826.647 936.768>
+AnchorPoint: "Stacking" -150 632 mark 0
+AnchorPoint: "Stacking" -134 1095 basemark 0
 AnchorPoint: "Diacritic" -150 632 mark 0
 LayerCount: 2
 Fore
@@ -8760,6 +8830,8 @@ Width: 0
 Flags: HW
 HStem: 692.018 66.982<-183.72 -108.761> 874 62<93.7294 201.298>
 VStem: -257 73<761.513 805.385> 117 96<696 760.094>
+AnchorPoint: "Stacking" 0 663 mark 0
+AnchorPoint: "Stacking" 6 1095 basemark 0
 AnchorPoint: "Diacritic" 0 662 mark 0
 LayerCount: 2
 Fore
@@ -8851,6 +8923,8 @@ Width: 1
 Flags: HW
 HStem: 679.598 76.397<-249.782 -142.913> 855.997 35.004<-193.352 -92.5635>
 VStem: -295.111 92.927<757.864 826.669>
+AnchorPoint: "Stacking" -21 642 mark 0
+AnchorPoint: "Stacking" -15 1014 basemark 0
 AnchorPoint: "Diacritic" -20 642 mark 0
 LayerCount: 2
 Fore
@@ -8897,6 +8971,8 @@ Width: 0
 Flags: HW
 HStem: 650 52.999<-166.001 -119.757> 831.83 67.833<-185.824 -103.374> 1031.12 29.55<-180.641 -98.9899>
 VStem: -286 93<708.573 831.305>
+AnchorPoint: "Stacking" -180 620 mark 0
+AnchorPoint: "Stacking" -174 1132 basemark 0
 AnchorPoint: "Diacritic" -180 622 mark 0
 LayerCount: 2
 Fore
@@ -8940,6 +9016,8 @@ Width: 1
 Flags: HW
 HStem: 598.998 30<-266.006 -130.006> 989 65<-34.461 42.6144>
 VStem: -179.804 59.804<774 911.422 923.999 943.041>
+AnchorPoint: "Stacking" -150 579 mark 0
+AnchorPoint: "Stacking" -144 1151 basemark 0
 AnchorPoint: "Diacritic" -150 578 mark 0
 LayerCount: 2
 Fore
@@ -8980,6 +9058,8 @@ Width: 1
 Flags: HW
 HStem: 624.999 37.601<-180.532 -115.556> 734.32 44.1876<-161.336 -74.8262> 819.999 79<3.06114 38.0996> 868.998 29.001<-484.981 -453 -351.981 -210.002 -106.002 -19.9763>
 VStem: -463 101.999<752.245 867.395> -283.003 102.028<662.781 739.547> -102 93.999<676.547 733.269>
+AnchorPoint: "Stacking" -151 581 mark 0
+AnchorPoint: "Stacking" -145 1093 basemark 0
 AnchorPoint: "Diacritic" -150 582 mark 0
 LayerCount: 2
 Fore
@@ -9039,6 +9119,8 @@ Width: 1
 Flags: HW
 HStem: 654.01 272.99
 VStem: -132.571 65.9692<748.198 795.093> -37.7324 42.874<747.742 833.027>
+AnchorPoint: "Stacking" -170 633 mark 0
+AnchorPoint: "Stacking" -164 1005 basemark 0
 AnchorPoint: "Diacritic" -170 632 mark 0
 LayerCount: 2
 Fore
@@ -9086,6 +9168,8 @@ Width: 0
 Flags: HW
 HStem: 647.995 274.999
 VStem: -67.3242 74.1357<647.077 726.694>
+AnchorPoint: "Stacking" -179 622 mark 0
+AnchorPoint: "Stacking" -173 994 basemark 0
 AnchorPoint: "Diacritic" -180 622 mark 0
 LayerCount: 2
 Fore
@@ -9143,6 +9227,8 @@ Width: 1
 Flags: HW
 HStem: 750 12<-346 -288.072> 756 12<-286.485 -236>
 VStem: -398 50<612.158 749.619> -398 41<608.035 747.888> -229 46<696.233 745 768.048 807.438>
+AnchorPoint: "Stacking" -210 622 mark 0
+AnchorPoint: "Stacking" -204 994 basemark 0
 AnchorPoint: "Diacritic" -210 622 mark 0
 LayerCount: 2
 Fore
@@ -9207,6 +9293,8 @@ Width: 0
 Flags: HW
 HStem: 726 76<-240.393 -212.572> 853 8<-194.645 -187.246> 867 26<-281.589 -239.154>
 VStem: -344 34<739.141 828.228>
+AnchorPoint: "Stacking" -270 591 mark 0
+AnchorPoint: "Stacking" -264 963 basemark 0
 AnchorPoint: "Diacritic" -270 592 mark 0
 LayerCount: 2
 Fore
@@ -9262,6 +9350,8 @@ Width: 0
 Flags: HW
 HStem: 635 11<-127.004 -118> 773 50<-73.7634 -31.3139>
 VStem: -218 48<797.25 821.847> -118 25<487.149 635 646 746.954>
+AnchorPoint: "Stacking" -150 431 mark 0
+AnchorPoint: "Stacking" -144 903 basemark 0
 AnchorPoint: "Diacritic" -150 432 mark 0
 LayerCount: 2
 Fore
@@ -9313,6 +9403,8 @@ Width: 0
 Flags: HW
 HStem: 678 21.2998<-98.3994 -52.7998> 966.971 21.2979<-188.258 -88>
 VStem: -287.199 315.199
+AnchorPoint: "Stacking" -90 650 mark 0
+AnchorPoint: "Stacking" -84 1072 basemark 0
 AnchorPoint: "Diacritic" -90 652 mark 0
 LayerCount: 2
 Fore
@@ -9351,6 +9443,8 @@ Width: 0
 Flags: HW
 HStem: 686 15.9004<-226.32 -191.13>
 VStem: -296.011 69.6904<701.9 777.533 794.12 857.979> -80.7285 67.6182<687.958 908.315>
+AnchorPoint: "Stacking" -150 662 mark 0
+AnchorPoint: "Stacking" -144 1034 basemark 0
 AnchorPoint: "Diacritic" -150 662 mark 0
 LayerCount: 2
 Fore
@@ -9399,6 +9493,8 @@ Width: 0
 Flags: HW
 HStem: 686.491 18.2695<-130.82 -83.0303>
 VStem: -214.25 83.4297<704.761 803.675>
+AnchorPoint: "Stacking" -110 662 mark 0
+AnchorPoint: "Stacking" -104 1034 basemark 0
 AnchorPoint: "Diacritic" -110 662 mark 0
 LayerCount: 2
 Fore
@@ -9436,6 +9532,8 @@ Width: 0
 Flags: HW
 HStem: 585.178 222.033
 VStem: -328.936 53.761<660.411 783.919> -215.028 53.227<676.859 789.195> -75.04 50.5654<663.458 794.592>
+AnchorPoint: "Stacking" -190 562 mark 0
+AnchorPoint: "Stacking" -184 934 basemark 0
 AnchorPoint: "Diacritic" -190 562 mark 0
 LayerCount: 2
 Fore
@@ -11182,6 +11280,8 @@ Width: 0
 Flags: HW
 HStem: 891.34 61.9395<-15.0031 71.5148>
 VStem: -368.428 119.363<645.166 809.843>
+AnchorPoint: "Stacking" -190 611 mark 0
+AnchorPoint: "Stacking" -183 1043 basemark 0
 AnchorPoint: "Diacritic" -190 612 mark 0
 LayerCount: 2
 Fore
@@ -25439,6 +25539,8 @@ StartChar: uF0022
 Encoding: 983074 983074 551
 Width: 0
 Flags: HW
+AnchorPoint: "Stacking" -210 560 mark 0
+AnchorPoint: "Stacking" -204 1092 basemark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -25533,6 +25635,8 @@ StartChar: uF0023
 Encoding: 983075 983075 552
 Width: 1
 Flags: HW
+AnchorPoint: "Stacking" -210 560 mark 0
+AnchorPoint: "Stacking" -204 1132 basemark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -25617,6 +25721,8 @@ StartChar: uF0025
 Encoding: 983077 983077 553
 Width: 499
 Flags: HW
+AnchorPoint: "Stacking" -210 560 mark 0
+AnchorPoint: "Stacking" -204 1132 basemark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -25718,6 +25824,8 @@ StartChar: uF0027
 Encoding: 983079 983079 554
 Width: 1
 Flags: HW
+AnchorPoint: "Stacking" -210 560 mark 0
+AnchorPoint: "Stacking" -204 1092 basemark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -25811,6 +25919,8 @@ Width: 0
 Flags: HW
 HStem: 587 40<-250 -150.23> 721 30<-214.777 -153.258> 833 32<-346.967 -292 -202.812 -99.2372> 906.002 18.998<181 203.987> 1023 31<-263.905 -166.451>
 VStem: -398.001 103.001<922 973.555> -314.001 88.001<629.852 718.68> -139.003 91.003<651.617 712.483>
+AnchorPoint: "Stacking" -210 560 mark 0
+AnchorPoint: "Stacking" -204 1182 basemark 0
 AnchorPoint: "Diacritic" -204 562 mark 0
 LayerCount: 2
 Fore
@@ -25878,6 +25988,8 @@ Width: 1
 Flags: HW
 HStem: 591 24<-318.954 -299.807 -226 -139 -67.2759 -33.0197> 702 27<-316.994 -294 -224 -148 -80 -60.0031> 712 18<134.728 152> 872 59<-306.578 -187.715>
 VStem: -469 117<746.149 806> -302 76<615 700.636> -294 68<616.087 702> -149 68<616.037 701.859>
+AnchorPoint: "Stacking" -190 562 mark 0
+AnchorPoint: "Stacking" -184 1014 basemark 0
 AnchorPoint: "Diacritic" -187 562 mark 0
 LayerCount: 2
 Fore
@@ -25940,6 +26052,8 @@ Width: 1
 Flags: HW
 HStem: 635.997 143<-343.004 -243.004> 688.997 90<-175.503 -140.015> 748.997 30<-360 -343.003 -243.004 -179.558>
 VStem: -343.004 100<635.997 748.997>
+AnchorPoint: "Stacking" -210 590 mark 0
+AnchorPoint: "Stacking" -204 1092 basemark 0
 AnchorPoint: "Diacritic" -210 591 mark 0
 LayerCount: 2
 Fore
@@ -25985,6 +26099,8 @@ Width: 1
 Flags: HW
 HStem: 851.002 29<76.3191 140.641> 971.638 56.582<-319.018 -214.406>
 VStem: -487.998 111.999<827.038 895.471> -367.999 106.857<579.73 680.931> -183.56 82.561<620.156 689.589> -173 106<582.705 635.071>
+AnchorPoint: "Stacking" -224 521 mark 0
+AnchorPoint: "Stacking" -218 1123 basemark 0
 AnchorPoint: "Diacritic" -224 522 mark 0
 LayerCount: 2
 Fore
@@ -26040,6 +26156,8 @@ Width: 1
 Flags: HW
 HStem: 973.924 54.2921<-284.263 -198.211>
 VStem: -414 98<842.065 935.559>
+AnchorPoint: "Stacking" -210 560 mark 0
+AnchorPoint: "Stacking" -174 1152 basemark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -26088,6 +26206,8 @@ Width: 1
 Flags: HW
 HStem: 882 18.999<146.45 184.989> 1015 33<-287.207 -197.634>
 VStem: -404.005 101.999<901.999 982.838> -334.009 93.001<672.001 746.979> -152.008 90.0012<675.241 729.001 758 794.467>
+AnchorPoint: "Stacking" -210 612 mark 0
+AnchorPoint: "Stacking" -204 1114 basemark 0
 AnchorPoint: "Diacritic" -210 613 mark 0
 LayerCount: 2
 Fore
@@ -26150,6 +26270,8 @@ Width: 1
 Flags: HW
 HStem: 869 14.999<182.939 207.269>
 VStem: -268.131 78.7277<701.538 758.91> -109.812 75.0454<711.979 766.837>
+AnchorPoint: "Stacking" -160 592 mark 0
+AnchorPoint: "Stacking" -154 1094 basemark 0
 AnchorPoint: "Diacritic" -156 591 mark 0
 LayerCount: 2
 Fore
@@ -26199,6 +26321,8 @@ Width: 1
 Flags: HW
 HStem: 762.002 36<-195.997 -151.195> 973.924 54.2921<-284.263 -198.211>
 VStem: -414 98<842.065 935.559> -319.997 95.5<650.066 737.652> -149.13 84.2026<664.129 784.815>
+AnchorPoint: "Stacking" -207 590 mark 0
+AnchorPoint: "Stacking" -201 1112 basemark 0
 AnchorPoint: "Diacritic" -203 592 mark 0
 LayerCount: 2
 Fore
@@ -26263,6 +26387,8 @@ Width: 1
 Flags: HW
 HStem: 651.817 33.3832<-245.3 -175.721> 754.129 62.8714<-242.997 -176.08>
 VStem: -338.001 91.001<602 666 688.522 749.459> -172.614 80.16<695.133 752.149>
+AnchorPoint: "Stacking" -210 556 mark 0
+AnchorPoint: "Stacking" -204 1088 basemark 0
 AnchorPoint: "Diacritic" -210 554 mark 0
 LayerCount: 2
 Fore
@@ -26317,6 +26443,8 @@ Width: 1
 Flags: HW
 HStem: 641.995 44.002<-244.015 -140.302> 726.999 18.999<153.85 183.984> 747.997 17<-165.198 -137.004> 926.999 36.056<-262.532 -120.636>
 VStem: -299.004 92<663.932 724.882>
+AnchorPoint: "Stacking" -210 612 mark 0
+AnchorPoint: "Stacking" -204 1034 basemark 0
 AnchorPoint: "Diacritic" -210 612 mark 0
 LayerCount: 2
 Fore
@@ -26359,6 +26487,8 @@ Width: 1
 Flags: HW
 HStem: 600.001 112.999<-76.0245 -18.1851> 680 29<-400.973 -362.691 -266.999 -185.724 -86.999 -77> 1001 27.5<-302.774 -189.376>
 VStem: -186.999 99.5<713 796.882>
+AnchorPoint: "Stacking" -210 589 mark 0
+AnchorPoint: "Stacking" -204 1101 basemark 0
 AnchorPoint: "Diacritic" -210 587 mark 0
 LayerCount: 2
 Fore
@@ -26414,6 +26544,8 @@ Width: 1
 Flags: HW
 HStem: 707.995 111<-334.135 -274.434> 844 15<112.357 138.471> 1017.41 34.5862<-289.835 -177.426>
 VStem: -369.002 94.6991<746.362 777.995> -263.002 100<635.996 707.806>
+AnchorPoint: "Stacking" -210 572 mark 0
+AnchorPoint: "Stacking" -204 1164 basemark 0
 AnchorPoint: "Diacritic" -210 572 mark 0
 LayerCount: 2
 Fore
@@ -26468,6 +26600,8 @@ Encoding: 62700 62700 567
 Width: 1
 Flags: HW
 HStem: 696.836 30.1666<49.0029 66.5359> 717.002 151.539<-378.585 -273.068> 717.002 30<-472.994 -419.462 -311.276 -239.01 -143.999 -96.0094> 883.5 31.502<68.6738 158.579> 1021 29.22<-297.277 -175.005>
+AnchorPoint: "Stacking" -210 650 mark 0
+AnchorPoint: "Stacking" -204 1102 basemark 0
 AnchorPoint: "Diacritic" -210 651 mark 0
 LayerCount: 2
 Fore
@@ -26535,6 +26669,8 @@ Encoding: 62701 62701 568
 Width: 1
 Flags: HW
 HStem: 696.835 30.1666<49.9982 66.532> 716.999 30<-472.996 -419.75 -311 -236.918 -144.001 -86.7232> 883.499 31.502<68.6718 158.577> 1021 29.22<-297.279 -175.007>
+AnchorPoint: "Stacking" -210 560 mark 0
+AnchorPoint: "Stacking" -204 1162 basemark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -26603,6 +26739,8 @@ Width: 0
 Flags: HW
 HStem: 692.018 66.943<-183.552 -109.028> 875.002 68.997<106.662 201.166> 973.002 62.608<-246.573 -145.462>
 VStem: -378.185 130.02<872.801 962.192> -256.522 72.8344<725.772 806.376> 116.997 94<696.003 732.003>
+AnchorPoint: "Stacking" -40 632 mark 0
+AnchorPoint: "Stacking" -34 1124 basemark 0
 AnchorPoint: "Diacritic" -39 632 mark 0
 LayerCount: 2
 Fore
@@ -26663,6 +26801,8 @@ Width: 0
 Flags: HW
 HStem: 724 11<75.7295 94.4348> 750 12<-346 -288.072> 756 12<-286.485 -236> 899 31<-397.314 -259.827>
 VStem: -541 95<766.847 839.324> -398 50<612.158 749.619> -398 41<608.035 747.888> -229 46<696.233 745 768.048 807.438>
+AnchorPoint: "Stacking" -210 560 mark 0
+AnchorPoint: "Stacking" -204 1162 basemark 0
 AnchorPoint: "Diacritic" -210 562 mark 0
 LayerCount: 2
 Fore
@@ -26745,6 +26885,8 @@ Width: 1
 Flags: HW
 HStem: 844 15<152.811 178.925> 1017.41 34.5862<-249.381 -136.972>
 VStem: -67.3242 74.1357<647.077 726.694>
+AnchorPoint: "Stacking" -187 586 mark 0
+AnchorPoint: "Stacking" -181 1178 basemark 0
 AnchorPoint: "Diacritic" -188 586 mark 0
 LayerCount: 2
 Fore
@@ -26821,6 +26963,8 @@ Width: 0
 Flags: HW
 HStem: 726 76<-240.393 -212.572> 735 12<138.267 158.494> 853 8<-194.645 -187.246> 867 26<-281.589 -239.154> 911 31<-333.314 -195.827>
 VStem: -477 95<778.847 851.324> -344 34<739.141 828.228>
+AnchorPoint: "Stacking" -190 563 mark 0
+AnchorPoint: "Stacking" -184 1135 basemark 0
 AnchorPoint: "Diacritic" -185 564 mark 0
 LayerCount: 2
 Fore
@@ -26909,6 +27053,8 @@ Width: 0
 Flags: HW
 HStem: 973.924 54.296<-284.28 -197.039>
 VStem: -414 98<842.065 935.559> -328.936 53.7607<660.412 783.919> -215.028 53.2275<676.859 789.195> -75.04 50.5654<663.458 794.592>
+AnchorPoint: "Stacking" -190 560 mark 0
+AnchorPoint: "Stacking" -184 1112 basemark 0
 AnchorPoint: "Diacritic" -186 562 mark 0
 LayerCount: 2
 Fore
@@ -27218,6 +27364,8 @@ StartChar: uniE001
 Encoding: 57345 57345 576
 Width: 1
 Flags: HW
+AnchorPoint: "Stacking" -340 562 mark 0
+AnchorPoint: "Stacking" -334 934 basemark 0
 AnchorPoint: "Diacritic" -340 562 mark 0
 LayerCount: 2
 Fore
@@ -27261,6 +27409,8 @@ StartChar: uniE003
 Encoding: 57347 57347 577
 Width: 1
 Flags: HW
+AnchorPoint: "Stacking" -240 562 mark 0
+AnchorPoint: "Stacking" -234 934 basemark 0
 AnchorPoint: "Diacritic" -240 562 mark 0
 LayerCount: 2
 Fore
@@ -32192,9 +32342,11 @@ EndChar
 StartChar: uniE005
 Encoding: 57349 57349 647
 Width: 0
-Flags: W
+Flags: HW
 HStem: 597.031 11<-221.811 -216.745> 696.283 52.873<-217.601 -132.923> 753.028 23.001<153.621 196.659> 891.279 31.4189<-347.301 -216.225>
 VStem: -497.11 108<776.415 832.982> -165.33 88.2217<658.507 708.957>
+AnchorPoint: "Stacking" -215 566 mark 0
+AnchorPoint: "Stacking" -209 1038 basemark 0
 AnchorPoint: "Diacritic" -216 566 basechar 0
 LayerCount: 2
 Fore
@@ -32302,9 +32454,11 @@ EndChar
 StartChar: uniA69E
 Encoding: 42654 42654 651
 Width: 0
-Flags: W
+Flags: HW
 HStem: 752.156 14.0625<-155.281 -131.368> 1159.97 15.625<-236.531 -207.43>
 VStem: -334.969 60.9375<799.911 897.025> -206.844 60.9375<1044.68 1159.97> -197.469 42.1875<770.906 938.094 987.288 1132.49> -197.469 34.375<617.782 752.156> -78.7188 54.6875<794.321 900.45>
+AnchorPoint: "Stacking" -180 580 mark 0
+AnchorPoint: "Stacking" -174 1242 basemark 0
 AnchorPoint: "Diacritic" -180 578 mark 0
 LayerCount: 2
 Fore
