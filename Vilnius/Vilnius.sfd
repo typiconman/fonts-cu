@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1336434585
-ModificationTime: 1609491510
+ModificationTime: 1609577120
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -42,6 +42,7 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: '    '
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "" "" "" "+BCUEQC3tBIcEQgQ+AwEEQQRK +BDIEPgRBBDoEQAQ1AwEEQQQ1 +BDgEhgQ3Az4A +BDwENQMBBEAEQgQyBEsERQRK, +BEEEPAQ1AwEEQARCBFYDCARO +BEEEPAQ1AwEEQARCBEwA +BD8EPgQ/BEAEMAMBBDIESgAA, +BDgEhgAA +BEGmSwMBBEkESwQ8BEoA +BDIEPgAA +BDMEQAQ+BDEEYwMBBEUESgAA +BDYEOAQyBD4DAQRCBEoA +BDQEMARABD4EMgQwAwEEMgRK."
@@ -52,10 +53,10 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 486 27 9
+WinInfo: 351 27 9
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "Yerok" "'mark' Mark Positioning lookup 0-1" "Diacritic" "'mark' Mark Positioning lookup 0-1"
+AnchorClass2: "Stacking" "'mkmk' Mark to Mark lookup 1-1" "Yerok" "'mark' Mark Positioning lookup 0-1" "Diacritic" "'mark' Mark Positioning lookup 0-1"
 BeginChars: 1114112 717
 
 StartChar: uni0000
@@ -5968,9 +5969,11 @@ EndChar
 StartChar: uni0483
 Encoding: 1155 1155 113
 Width: 0
-Flags: W
+Flags: HW
 HStem: 705 30<-42 -15.5042>
 VStem: -373 100<638 718> -142 100<741 822>
+AnchorPoint: "Stacking" -193 622 mark 0
+AnchorPoint: "Stacking" -197 884 basemark 0
 AnchorPoint: "Diacritic" -194 622 mark 0
 LayerCount: 2
 Fore
@@ -5991,15 +5994,16 @@ SplineSet
  -273 638 l 1
  -373 638 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0486
 Encoding: 1158 1158 114
 Width: 1
-Flags: W
+Flags: HW
 HStem: 631.999 173
 VStem: -284.616 72.6178<704.677 778.973>
+AnchorPoint: "Stacking" -314 599 mark 0
+AnchorPoint: "Stacking" -308 871 basemark 0
 AnchorPoint: "Diacritic" -314 598 mark 0
 LayerCount: 2
 Fore
@@ -6018,7 +6022,6 @@ SplineSet
  -253.454 675.315 -278.587 648.433 -300.998 631.999 c 1
  -314.998 643.999 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0487
@@ -6027,33 +6030,35 @@ Width: 0
 Flags: HW
 HStem: 973.924 54.2921<-284.263 -198.211>
 VStem: -414 98<842.065 935.559>
+AnchorPoint: "Stacking" -208 678 mark 0
+AnchorPoint: "Stacking" -222 950 basemark 0
 AnchorPoint: "Diacritic" -206 678 mark 0
 LayerCount: 2
 Fore
 SplineSet
--414 719.000976562 m 4
- -414 757.893554688 -406.947265625 781.903320312 -391 808 c 5
- -373.297851562 821.633789062 -354.71875 834.389648438 -335.997070312 847.00390625 c 5
- -299.497070312 869.00390625 l 5
- -261.997070312 887 l 5
- -246.126953125 892.6796875 -233.051757812 898.219726562 -213.737304688 898.219726562 c 4
- -211.573242188 898.219726562 -209.331054688 898.150390625 -206.998046875 898 c 4
- -159.690429688 896.360351562 -119.442382812 881.6796875 -88.998046875 858.001953125 c 4
- -69.421875 843.411132812 -49.5634765625 829.103515625 -29.498046875 815.001953125 c 4
- -10.6591796875 801.673828125 7.958984375 788.125976562 26.001953125 774.001953125 c 5
- 58.134765625 759.596679688 81.8251953125 751.57421875 114.001953125 744.001953125 c 5
- 115.6484375 735.772460938 116.70703125 732.204101562 116.70703125 727.698242188 c 4
- 116.70703125 724.5546875 116.192382812 720.956054688 115.000976562 715.001953125 c 5
- 87.80078125 709.001953125 61.4404296875 706.001953125 35.9208984375 706.001953125 c 4
- 18.9072265625 706.001953125 2.267578125 707.334960938 -13.9990234375 710.001953125 c 5
- -91.59765625 736.67578125 -150.344726562 805.796875 -223.499023438 834.501953125 c 4
- -239.505859375 840.783203125 -255.081054688 843.923828125 -270.224609375 843.923828125 c 4
- -279.995117188 843.923828125 -289.586914062 842.616210938 -298.999023438 840.001953125 c 5
- -311.780273438 806.306640625 -314.361328125 770.958984375 -316 730.000976562 c 5
- -333.333007812 714.000976562 -350.333007812 702.333984375 -367 695.000976562 c 4
- -378.458984375 689.959960938 -389.602539062 687.439453125 -400.430664062 687.439453125 c 4
- -405.3515625 687.439453125 -410.208007812 687.959960938 -415 689.000976562 c 5
- -414.333007812 699.66796875 -414 709.66796875 -414 719.000976562 c 4
+-414 719.000976562 m 0
+ -414 757.893554688 -406.947265625 781.903320312 -391 808 c 1
+ -373.297851562 821.633789062 -354.71875 834.389648438 -335.997070312 847.00390625 c 1
+ -299.497070312 869.00390625 l 1
+ -261.997070312 887 l 1
+ -246.126953125 892.6796875 -233.051757812 898.219726562 -213.737304688 898.219726562 c 0
+ -211.573242188 898.219726562 -209.331054688 898.150390625 -206.998046875 898 c 0
+ -159.690429688 896.360351562 -119.442382812 881.6796875 -88.998046875 858.001953125 c 0
+ -69.421875 843.411132812 -49.5634765625 829.103515625 -29.498046875 815.001953125 c 0
+ -10.6591796875 801.673828125 7.958984375 788.125976562 26.001953125 774.001953125 c 1
+ 58.134765625 759.596679688 81.8251953125 751.57421875 114.001953125 744.001953125 c 1
+ 115.6484375 735.772460938 116.70703125 732.204101562 116.70703125 727.698242188 c 0
+ 116.70703125 724.5546875 116.192382812 720.956054688 115.000976562 715.001953125 c 1
+ 87.80078125 709.001953125 61.4404296875 706.001953125 35.9208984375 706.001953125 c 0
+ 18.9072265625 706.001953125 2.267578125 707.334960938 -13.9990234375 710.001953125 c 1
+ -91.59765625 736.67578125 -150.344726562 805.796875 -223.499023438 834.501953125 c 0
+ -239.505859375 840.783203125 -255.081054688 843.923828125 -270.224609375 843.923828125 c 0
+ -279.995117188 843.923828125 -289.586914062 842.616210938 -298.999023438 840.001953125 c 1
+ -311.780273438 806.306640625 -314.361328125 770.958984375 -316 730.000976562 c 1
+ -333.333007812 714.000976562 -350.333007812 702.333984375 -367 695.000976562 c 0
+ -378.458984375 689.959960938 -389.602539062 687.439453125 -400.430664062 687.439453125 c 0
+ -405.3515625 687.439453125 -410.208007812 687.959960938 -415 689.000976562 c 1
+ -414.333007812 699.66796875 -414 709.66796875 -414 719.000976562 c 0
 EndSplineSet
 EndChar
 
@@ -7632,48 +7637,52 @@ Encoding: 768 768 151
 Width: 0
 Flags: W
 HStem: 687 131
+AnchorPoint: "Stacking" -254 874 basemark 0
+AnchorPoint: "Stacking" -240 652 mark 0
 AnchorPoint: "Diacritic" -240 652 mark 0
 LayerCount: 2
 Fore
 SplineSet
--538 794 m 5
- -472 818 l 5
- -171 719 l 5
- -171 711 l 5
- -237 687 l 5
- -538 786 l 5
- -538 794 l 5
+-538 794 m 1
+ -472 818 l 1
+ -171 719 l 1
+ -171 711 l 1
+ -237 687 l 1
+ -538 786 l 1
+ -538 794 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: acutecomb
 Encoding: 769 769 152
 Width: 0
-Flags: W
+Flags: HW
 HStem: 622 316
 VStem: -233 268
+AnchorPoint: "Stacking" -208 591 mark 0
+AnchorPoint: "Stacking" -162 983 basemark 0
 AnchorPoint: "Diacritic" -206 592 mark 0
 LayerCount: 2
 Fore
 SplineSet
--41 921 m 5
- 27 938 l 5
- 35 933 l 5
- -157 639 l 5
- -225 622 l 5
- -233 627 l 5
- -41 921 l 5
+-41 921 m 1
+ 27 938 l 1
+ 35 933 l 1
+ -157 639 l 1
+ -225 622 l 1
+ -233 627 l 1
+ -41 921 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0306
 Encoding: 774 774 153
 Width: 0
-Flags: W
+Flags: HW
 HStem: 791 198
 VStem: -337.374 105.374<824.972 906.787>
+AnchorPoint: "Stacking" -285 744 mark 0
+AnchorPoint: "Stacking" -279 1076 basemark 0
 AnchorPoint: "Diacritic" -286 744 mark 0
 LayerCount: 2
 Fore
@@ -7696,14 +7705,15 @@ SplineSet
  -211 811 -234 799.387 -272 791.387 c 0
  -277 790.387 -281 791 -285 791 c 0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni030F
 Encoding: 783 783 154
 Width: 0
-Flags: W
+Flags: HW
 HStem: 613 227
+AnchorPoint: "Stacking" -130 609 mark 0
+AnchorPoint: "Stacking" -154 901 basemark 0
 AnchorPoint: "Diacritic" -130 608 mark 0
 LayerCount: 2
 Fore
@@ -7723,15 +7733,16 @@ SplineSet
  -242 791 l 1
  -155 840 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni0311
 Encoding: 785 785 155
 Width: 0
-Flags: W
+Flags: HW
 HStem: 731 24<-392.987 -313.854>
 VStem: -510 79<630 705.09> -279.002 79.002<630 705.09>
+AnchorPoint: "Stacking" -359 602 mark 0
+AnchorPoint: "Stacking" -355 854 basemark 0
 AnchorPoint: "Diacritic" -358 602 mark 0
 LayerCount: 2
 Fore
@@ -7744,7 +7755,6 @@ SplineSet
  -408 731 -431 685 -431 630 c 1
  -510 630 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: endash
@@ -9473,29 +9483,30 @@ EndChar
 StartChar: uni0308
 Encoding: 776 776 195
 Width: 0
-Flags: W
+Flags: HW
 HStem: 580 130<61 108 231 278>
 VStem: 8 323
+AnchorPoint: "Stacking" 195 548 mark 0
+AnchorPoint: "Stacking" 152 800 basemark 0
 AnchorPoint: "Diacritic" 196 548 mark 0
 LayerCount: 2
 Fore
 SplineSet
-161 580 m 5
+161 580 m 1
  61 580 l 1
  8 701 l 1
  8 710 l 1
  108 710 l 1
- 161 589 l 5
- 161 580 l 5
-331 580 m 5
- 231 580 l 5
- 178 701 l 5
- 178 710 l 5
- 278 710 l 5
- 331 589 l 5
- 331 580 l 5
+ 161 589 l 1
+ 161 580 l 1
+331 580 m 1
+ 231 580 l 1
+ 178 701 l 1
+ 178 710 l 1
+ 278 710 l 1
+ 331 589 l 1
+ 331 580 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni033E
@@ -11102,9 +11113,11 @@ EndChar
 StartChar: uni0484
 Encoding: 1156 1156 216
 Width: 0
-Flags: W
+Flags: HW
 HStem: 741.5 24<-37.5195 -1>
 VStem: -156 79<640.5 715.59>
+AnchorPoint: "Stacking" -161 603 mark 0
+AnchorPoint: "Stacking" -175 825 basemark 0
 AnchorPoint: "Diacritic" -159 603.45 mark 0
 LayerCount: 2
 Fore
@@ -11246,9 +11259,11 @@ EndChar
 StartChar: uni0307
 Encoding: 775 775 222
 Width: 0
-Flags: W
+Flags: HW
 HStem: 606 130<-149 -102>
 VStem: -202 153
+AnchorPoint: "Stacking" -91 567 mark 0
+AnchorPoint: "Stacking" -105 811 basemark 0
 AnchorPoint: "Diacritic" -91 568 mark 0
 LayerCount: 2
 Fore
@@ -11261,7 +11276,6 @@ SplineSet
  -49 615 l 1
  -49 606 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni1DC1
@@ -24303,6 +24317,8 @@ StartChar: uni030B
 Encoding: 779 779 525
 Width: 1
 Flags: HW
+AnchorPoint: "Stacking" -420 582 mark 0
+AnchorPoint: "Stacking" -394 834 basemark 0
 AnchorPoint: "Diacritic" -420 580 mark 0
 LayerCount: 2
 Fore
@@ -32410,9 +32426,11 @@ EndChar
 StartChar: uni0302
 Encoding: 770 770 655
 Width: 0
-Flags: W
+Flags: HW
 HStem: 679 135
 VStem: -346 277
+AnchorPoint: "Stacking" -210 648 mark 0
+AnchorPoint: "Stacking" -224 870 basemark 0
 AnchorPoint: "Diacritic" -213 648 mark 0
 LayerCount: 2
 Fore
@@ -32431,24 +32449,26 @@ EndChar
 StartChar: tildecomb
 Encoding: 771 771 656
 Width: 0
-Flags: W
+Flags: HW
 HStem: 697 58<-189.379 -86.9102> 732 58<-281.044 -183.704>
 VStem: -74 26<776.258 787.769>
+AnchorPoint: "Stacking" -180 652 mark 0
+AnchorPoint: "Stacking" -194 874 basemark 0
 AnchorPoint: "Diacritic" -178 653 mark 0
 LayerCount: 2
 Fore
 SplineSet
--238 790 m 4x60
- -224 790 -203.333007812 783.666992188 -176 771 c 4
- -152.666992188 760.333007812 -134 755 -120 755 c 4
- -103.333007812 755 -88 769.333007812 -74 798 c 5
- -48 784 l 5
- -66.6669921875 726 -94.6669921875 697 -132 697 c 4xa0
- -147.333007812 697 -170.666992188 704 -202 718 c 4
- -220.666992188 727.333007812 -235.666992188 732 -247 732 c 4
- -263.666992188 732 -279.666992188 717.333007812 -295 688 c 5
- -320 706 l 5
- -298.666992188 762 -271.333007812 790 -238 790 c 4x60
+-238 790 m 0x60
+ -224 790 -203.333007812 783.666992188 -176 771 c 0
+ -152.666992188 760.333007812 -134 755 -120 755 c 0
+ -103.333007812 755 -88 769.333007812 -74 798 c 1
+ -48 784 l 1
+ -66.6669921875 726 -94.6669921875 697 -132 697 c 0xa0
+ -147.333007812 697 -170.666992188 704 -202 718 c 0
+ -220.666992188 727.333007812 -235.666992188 732 -247 732 c 0
+ -263.666992188 732 -279.666992188 717.333007812 -295 688 c 1
+ -320 706 l 1
+ -298.666992188 762 -271.333007812 790 -238 790 c 0x60
 EndSplineSet
 EndChar
 
@@ -32458,6 +32478,8 @@ Width: 0
 Flags: HW
 HStem: 716 55<-283 -56>
 VStem: -283 227<716 771>
+AnchorPoint: "Stacking" -176 682 mark 0
+AnchorPoint: "Stacking" -170 874 basemark 0
 AnchorPoint: "Diacritic" -174 679 mark 0
 LayerCount: 2
 Fore
@@ -32473,8 +32495,10 @@ EndChar
 StartChar: uni0305
 Encoding: 773 773 658
 Width: 0
-Flags: W
+Flags: HW
 HStem: 716 55<-383 34>
+AnchorPoint: "Stacking" -174 681 mark 0
+AnchorPoint: "Stacking" -168 873 basemark 0
 AnchorPoint: "Diacritic" -174 679 mark 0
 LayerCount: 2
 Fore
@@ -34017,6 +34041,8 @@ Encoding: 1157 1157 716
 Width: 1
 Flags: HW
 VStem: -443 73<704.612 779>
+AnchorPoint: "Stacking" -340 598 mark 0
+AnchorPoint: "Stacking" -354 860 basemark 0
 AnchorPoint: "Diacritic" -340.998 598 mark 0
 LayerCount: 2
 Fore
