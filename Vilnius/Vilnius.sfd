@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1336434585
-ModificationTime: 1609667587
+ModificationTime: 1609833639
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -54,7 +54,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 297 27 9
+WinInfo: 486 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1631,6 +1631,7 @@ SplineSet
  504 681 486 668 448 647 c 0
  419 630 396 624.001 355 624.001 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0418 uni0306
 EndChar
 
 StartChar: uni0439
@@ -1686,6 +1687,7 @@ SplineSet
  424 701 406 688 368 667 c 0
  339 650 316 643.998 275 643.998 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0438 uni0306
 EndChar
 
 StartChar: uni0407
@@ -1728,6 +1730,7 @@ SplineSet
  300 -455 l 1
  58 -455 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0406 dieresis
 EndChar
 
 StartChar: uni0457
@@ -1770,6 +1773,7 @@ SplineSet
  76 180 80 219 81 220 c 0
  86 269 94 325 107 390 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0456 dieresis
 EndChar
 
 StartChar: uni041A
@@ -2791,6 +2795,7 @@ SplineSet
  485 -376 457 -408 426 -431 c 0
  395 -454 360 -465.002 323 -465.002 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni041E uni0443
 EndChar
 
 StartChar: uni0479
@@ -2855,6 +2860,8 @@ SplineSet
  122 152 130 149 139 149 c 0
  146 149 153 150 161 154 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni043E uni0443
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni1C82 uni0443
 EndChar
 
 StartChar: uniA64A
@@ -5636,6 +5643,7 @@ SplineSet
  381 -455 l 1
  148 -455 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0474 uni030F
 EndChar
 
 StartChar: uni0477
@@ -5690,6 +5698,7 @@ SplineSet
  282.999 790.998 l 1
  369.999 839.998 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0475 uni030F
 EndChar
 
 StartChar: uni047C
@@ -25784,6 +25793,7 @@ SplineSet
  140.666666667 602 146.231 599.333333333 148.693 592 c 0
  150.735 586 145.837333333 580 134 574 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE3 uni2DF7
 EndChar
 
 StartChar: uF0023
@@ -25870,6 +25880,7 @@ SplineSet
  19 954 l 1
  106 1003 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE3 uniA675
 EndChar
 
 StartChar: uF0025
@@ -26066,6 +26077,7 @@ SplineSet
  70 809.333333333 64.8333333333 813.666666667 58.5 817 c 0
  52.1666666667 820.333333333 45 822 37 822 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE3 uni2DEA
 EndChar
 
 StartChar: uniF4E0
@@ -26135,6 +26147,7 @@ SplineSet
  -166 627 -150 643 -143 658 c 0
  -140 663 -139 668 -139 673 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE0 uni0487
 EndChar
 
 StartChar: uniF4E1
@@ -26199,6 +26212,7 @@ SplineSet
  -350 808 -352 798 -352 788 c 0
  -352 773 -350 756 -348 747 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE1 uni0487
 EndChar
 
 StartChar: uniF4E2
@@ -26246,6 +26260,7 @@ SplineSet
  -113 732 -142 713 -159 689 c 1
  -173 689 l 1x50
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE2 uni0487
 EndChar
 
 StartChar: uniF4E3
@@ -26303,6 +26318,7 @@ SplineSet
  -101 653 -86 624 -67 605 c 1
  -67 598 l 1xf4
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE6 uni0487
 EndChar
 
 StartChar: uniF4E4
@@ -26353,6 +26369,7 @@ SplineSet
  -299 607 -303 611 -311 621 c 1
  -153 805 l 2
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE7 uni0487
 EndChar
 
 StartChar: uniF4E5
@@ -26417,6 +26434,7 @@ SplineSet
  -53 828 l 1
  -59 804 -62 781 -62 758 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DE9 uni0487
 EndChar
 
 StartChar: uniF4E6
@@ -26468,6 +26486,7 @@ SplineSet
  -110 703 -110 708 -110 713 c 0
  -110 751 -135 780 -166 786 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DEA uni0487
 EndChar
 
 StartChar: uniF4E7
@@ -26534,6 +26553,7 @@ SplineSet
  -318 699 -308 741 -299 774 c 0
  -295 790 -295 795 -280 798 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DEB uni0487
 EndChar
 
 StartChar: uniF4E8
@@ -26590,6 +26610,7 @@ SplineSet
  -202 754 -204 754 -205 754 c 0
  -225 754 -243 746 -244 728 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DEC uni0487
 EndChar
 
 StartChar: uniF4E9
@@ -26634,6 +26655,7 @@ SplineSet
  -116 678 l 1
  -142 660 -185 642 -227 642 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DED uni0487
 EndChar
 
 StartChar: uniF4EA
@@ -26691,6 +26713,7 @@ SplineSet
  93 871 93 869 93 868 c 0
  93 864 91 861 88 858 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DF0 uni0487
 EndChar
 
 StartChar: uniF4EB
@@ -26748,6 +26771,7 @@ SplineSet
  -153 738 -163 707 -163 663 c 2
  -163 636 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DF1 uni0487
 EndChar
 
 StartChar: uniF4EC
@@ -26817,6 +26841,7 @@ SplineSet
  90 919 106 915 122 915 c 0
  136 915 148 914 157 912 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DF2 uni0487
 EndChar
 
 StartChar: uniF4ED
@@ -26886,6 +26911,7 @@ SplineSet
  90 919 106 915 121 915 c 0
  136 915 148 914 157 912 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DF3 uni0487
 EndChar
 
 StartChar: uniF4EE
@@ -26948,6 +26974,7 @@ SplineSet
  -41 1036 5 1019 57 989 c 0
  115 955 173 946 254 944 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DF5 uni0487
 EndChar
 
 StartChar: uniF4EF
@@ -27032,6 +27059,7 @@ SplineSet
  90 919 106 915 122 915 c 0
  136 915 148 914 157 912 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DFC uni0487
 EndChar
 
 StartChar: uniF4F0
@@ -27110,6 +27138,7 @@ SplineSet
  -136 777 l 1
  -153 650 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DFD uni0487
 EndChar
 
 StartChar: uniF4F1
@@ -27200,6 +27229,7 @@ SplineSet
  -287.233398438 809.333007812 -292.43359375 820.266601562 -293.5 833.067382812 c 1
  -293.5 833.067382812 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni2DF7 uni0487
 EndChar
 
 StartChar: uniF4F2
@@ -27271,6 +27301,7 @@ SplineSet
  -405 817 -410 818 -415 819 c 1
  -414 830 -414 840 -414 849 c 0xd8
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uniA67B uni0487
 EndChar
 
 StartChar: uniE92A
@@ -27419,6 +27450,7 @@ SplineSet
  1243.66666667 840 1248.66666667 837.666666667 1252 835 c 1
  1252 824 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni047E acutecomb
 EndChar
 
 StartChar: uniE92B
@@ -27514,6 +27546,7 @@ SplineSet
  686 645 l 1
  878 939 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni047F acutecomb
 EndChar
 
 StartChar: uniE001
@@ -27559,6 +27592,7 @@ SplineSet
  -89 858 l 1
  -86 858 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0486 acutecomb
 EndChar
 
 StartChar: uniE003
@@ -27601,6 +27635,7 @@ SplineSet
  -439.333333333 658 -446 652 -452 646 c 1
  -458.666666667 646.666666667 -463.666666667 650.666666667 -467 658 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0486 gravecomb
 EndChar
 
 StartChar: uniE0E5
@@ -28973,6 +29008,7 @@ SplineSet
  -74 841 l 1
  -74 849 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0456 gravecomb
 EndChar
 
 StartChar: uniE921
@@ -29006,6 +29042,7 @@ SplineSet
  104 627 l 1
  296 921 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0456 acutecomb
 EndChar
 
 StartChar: uniE922
@@ -29057,6 +29094,7 @@ SplineSet
  99.3333333333 752.666666667 85 744 67 732 c 5
  61 738 57.3333333333 743.666666667 56 749 c 5
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0456 uni0486
 EndChar
 
 StartChar: uniE923
@@ -29154,6 +29192,7 @@ SplineSet
  30 728.333333333 39.6666666667 755 59 771 c 4
  78.3333333333 787 111.666666667 795 159 795 c 4
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0456 uni0308
 EndChar
 
 StartChar: uniE925
@@ -29195,6 +29234,7 @@ SplineSet
  93 638 l 1
  -7 638 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0456 uni0483
 EndChar
 
 StartChar: uniE8E5
@@ -29397,6 +29437,7 @@ SplineSet
  148.833333333 796.833333333 134.333333333 788.333333333 121 779 c 1
  115 785 111.333333333 790.666666667 110 796 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uniA64B uni0486
 EndChar
 
 StartChar: uniE8E9
@@ -29484,6 +29525,7 @@ SplineSet
  283.666666667 59.6666666667 286.666666667 69.5 288 80.5 c 0
  289.333333333 91.5 290 102.666666667 290 114 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uniA64B acutecomb
 EndChar
 
 StartChar: uniE8EA
@@ -29571,6 +29613,7 @@ SplineSet
  -126 789 l 1
  -126 797 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uniA64B gravecomb
 EndChar
 
 StartChar: uniE8EB
@@ -29660,6 +29703,7 @@ SplineSet
  283.666666667 59.6666666667 286.666666667 69.5 288 80.5 c 0
  289.333333333 91.5 290 102.666666667 290 114 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uniA64B uni0308
 EndChar
 
 StartChar: uniE8ED
@@ -29845,6 +29889,7 @@ SplineSet
  367.333333333 94.6666666667 364.833333333 105 362.5 115 c 0
  360.166666667 125 358 133.666666667 356 141 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0463 uni0486
 EndChar
 
 StartChar: uniE901
@@ -29927,6 +29972,7 @@ SplineSet
  506 627 l 1
  698 921 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0463 acutecomb
 EndChar
 
 StartChar: uniE902
@@ -30091,6 +30137,7 @@ SplineSet
  367.333333333 94.6666666667 364.833333333 105 362.5 115 c 0
  360.166666667 125 358 133.666666667 356 141 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0463 gravecomb
 EndChar
 
 StartChar: uniE90C
@@ -30447,6 +30494,7 @@ SplineSet
  367.333333333 94.6666666667 364.833333333 105 362.5 115 c 0
  360.166666667 125 358 133.666666667 356 141 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0463 uni0308
 EndChar
 
 StartChar: uniE907
@@ -30747,6 +30795,7 @@ SplineSet
  229 174.333333333 230.333333333 180.333333333 229 189 c 2
  217 286 l 2
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0430 zerojoin uni0443
 EndChar
 
 StartChar: uniE714
@@ -30840,6 +30889,7 @@ SplineSet
  603.333333333 455 614 445.333333333 614 428 c 0
  614 409.333333333 609.666666667 388 601 364 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni043B zerojoin uni0443
 EndChar
 
 StartChar: uniE800
@@ -30936,6 +30986,7 @@ SplineSet
  218 261 l 1
  215 259 l 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0442 zerojoin uni0432
 EndChar
 
 StartChar: uniE814
@@ -31043,6 +31094,7 @@ SplineSet
  299 374.333333333 289.666666667 378 281 380 c 0
  278.333333333 380.666666667 271.666666667 380.333333333 261 379 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0442 zerojoin uni0440
 EndChar
 
 StartChar: uni1C82
@@ -32577,6 +32629,7 @@ SplineSet
  -255.35 664.27 -269.647 654.066 -284.112 644.031 c 1
  -289.445 646.698 -293.778 650.031 -297.111 654.031 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0486 uni0308
 EndChar
 
 StartChar: uni000D
@@ -33041,6 +33094,7 @@ SplineSet
  298.5 -455 l 1
  56.5 -455 l 1xe0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0413 acutecomb
 EndChar
 
 StartChar: uni040D
@@ -33092,6 +33146,7 @@ SplineSet
  315 495 l 1
  259 495 l 1xd0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0418 gravecomb
 EndChar
 
 StartChar: afii10061
@@ -33150,6 +33205,7 @@ SplineSet
  317 -455 l 1
  75 -455 l 1xe0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni041A acutecomb
 EndChar
 
 StartChar: afii10062
@@ -33266,6 +33322,7 @@ SplineSet
  235.112 254.882 230 213.769 230 211 c 1
  209 194 186 182 160 172 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0435 gravecomb
 EndChar
 
 StartChar: afii10071
@@ -33323,6 +33380,7 @@ SplineSet
  235.112 254.882 230 213.769 230 211 c 1
  209 194 186 182 160 172 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0435 dieresis
 EndChar
 
 StartChar: afii10100
@@ -33362,6 +33420,7 @@ SplineSet
  257.001 292 258.001 298 258.001 305 c 0
  258.001 321 257 336 257 352 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0433 acutecomb
 EndChar
 
 StartChar: afii10109
@@ -33419,6 +33478,7 @@ SplineSet
  368 428 397 432 418 435 c 0
  443 439 477 445 501 445 c 0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni043A acutecomb
 EndChar
 
 StartChar: uni045D
@@ -33467,6 +33527,7 @@ SplineSet
  432 421 423 401 418 378 c 0
  402 294 392 210 392 109 c 0xd0
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0438 gravecomb
 EndChar
 
 StartChar: afii10110
@@ -33524,6 +33585,8 @@ SplineSet
  170 -475 176 -468 179 -452 c 0
  208 -309 234 -167 234 0 c 1
 EndSplineSet
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0443 uni0306
+Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0423 uni0306
 EndChar
 
 StartChar: uni1DC0
@@ -33650,7 +33713,7 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: afii301
+StartChar: zerojoin
 Encoding: 8205 8205 686
 Width: 0
 Flags: W
