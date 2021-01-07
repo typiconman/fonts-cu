@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1336434585
-ModificationTime: 1609833639
+ModificationTime: 1610016695
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -42,6 +42,8 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: '    '
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0" { "'ccmp' Glyph Composition/Decomposition lookup 0-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 0 "'ccmp' Secondary Ligatures" { "'ccmp' Secondary Ligatures 1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 3 0 0 "'salt' Stylistic Alternatives lookup 2" { "'salt' Stylistic Alternatives lookup 2-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -54,7 +56,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 486 27 9
+WinInfo: 459 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1383,8 +1385,8 @@ EndChar
 StartChar: uniA641
 Encoding: 42561 42561 25
 Width: 600
-Flags: HW
-HStem: -7 55<152.977 297.657> 398 29<218.212 236>
+Flags: W
+HStem: -7 55<152.977 297.657> 398 29<218.212 236> 436 20G<314.103 522.5>
 VStem: 45.998 107.002<48.0007 122.596> 463.999 94.001<-310.317 -134.09>
 AnchorPoint: "Numeral" 318 240 basechar 0
 AnchorPoint: "Diacritic" 375 642.998 basechar 0
@@ -1430,6 +1432,7 @@ SplineSet
  336 407 l 1
  336 366 l 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uniA641.salt
 EndChar
 
 StartChar: uni0418
@@ -2431,8 +2434,8 @@ EndChar
 StartChar: uni0440
 Encoding: 1088 1088 49
 Width: 340
-Flags: HW
-HStem: -518 21G<55.5 61> 0 107<136.333 193.717> 277 174<184 246>
+Flags: W
+HStem: 0 107<136.333 193.717> 277 174<184 246>
 VStem: 54.0039 81.9961<-290.981 0 108.373 197.876> 216 68<129.074 336>
 AnchorPoint: "Numeral" 183 240 basechar 0
 AnchorPoint: "Diacritic" 215 642.998 basechar 0
@@ -2469,6 +2472,7 @@ SplineSet
  180 277 172 274 165 268 c 0
  163 265 161 261 159 254 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0440.salt
 EndChar
 
 StartChar: uni0421
@@ -2727,6 +2731,7 @@ SplineSet
  170 -475 176 -468 179 -452 c 0
  208 -309 234 -167 234 0 c 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0443.salt
 EndChar
 
 StartChar: uni0478
@@ -2795,6 +2800,7 @@ SplineSet
  485 -376 457 -408 426 -431 c 0
  395 -454 360 -465.002 323 -465.002 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0478.salt
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni041E uni0443
 EndChar
 
@@ -2987,6 +2993,7 @@ SplineSet
  162 167 155 140 155 110 c 0
  155 66 175 22 219 22 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uniA64B.salt uniA64B.salt2 uniA64B.salt3
 EndChar
 
 StartChar: uni0424
@@ -3097,6 +3104,7 @@ SplineSet
  460 33 509 71 533 121 c 0
  542 140 546 160 546 182 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0444.salt uni0444.salt2
 EndChar
 
 StartChar: uni0425
@@ -3195,6 +3203,7 @@ SplineSet
  400 359 l 2
  390 348 382 340 376 335 c 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0445.salt uni0445.salt2 uni0445.salt3
 EndChar
 
 StartChar: uni0426
@@ -3235,6 +3244,7 @@ SplineSet
  315 495 l 1
  259 495 l 1xe8
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0426.salt
 EndChar
 
 StartChar: uni0446
@@ -3280,6 +3290,7 @@ SplineSet
  379 -315 379.999 -263 379.999 -204 c 2
  379.999 -109 l 2xe4
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0446.salt
 EndChar
 
 StartChar: uni0427
@@ -3554,6 +3565,7 @@ SplineSet
  616 393 610 347 602 288 c 0
  598 258 597 230 597 195 c 0xf4
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0449.salt
 EndChar
 
 StartChar: uni042A
@@ -4409,6 +4421,7 @@ SplineSet
  363 115 l 2
  358 135 357 160 337 164 c 1
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0463.salt
 EndChar
 
 StartChar: uni0464
@@ -5418,6 +5431,7 @@ SplineSet
  463.047 -297.829 441.092 -317.076 417.008 -335.999 c 1
  411.921 -336.138 407.197 -336.207 402.837 -336.207 c 0
 EndSplineSet
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0471.salt uni0471.salt
 EndChar
 
 StartChar: uni0472
@@ -5803,6 +5817,7 @@ SplineSet
  478.766 626.239 464.469 616.036 450.004 606.001 c 1
  444.671 608.668 440.338 612.001 437.005 616.001 c 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uniA64C uniE005
 EndChar
 
 StartChar: uni047D
@@ -5894,6 +5909,7 @@ SplineSet
  478.762 626.246 464.465 616.043 450 606.008 c 1
  444.667 608.675 440.334 612.008 437.001 616.008 c 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uniA64D uniE005
 EndChar
 
 StartChar: uni047E
@@ -25318,23 +25334,26 @@ SplineSet
  186 438 l 1
  368 438 l 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uniFB00 i
 EndChar
 
 StartChar: uniFB04
 Encoding: 64260 64260 544
 Width: 813
-Flags: HW
+Flags: W
+HStem: 0 27<35 85.8844 201.931 251 308 356.555 471.648 523 581 628.451 741.711 797> 397 41<55 100 188 370 459 573.807> 646 44<245.292 362.648> 667 44<508.361 616.929>
+VStem: 100 88<44.3838 397 438 545.925> 370 88<43.8678 397 438 566.642> 640 88<43.3521 644.428>
 LayerCount: 2
 Fore
 SplineSet
-797 0 m 1
+797 0 m 1xde
  581 0 l 1
  581 27 l 1
  607.666666667 29.6666666667 624.166666667 34.8333333333 630.5 42.5 c 0
  636.833333333 50.1666666667 640 69 640 99 c 2
  640 620 l 1
  632 633.333333333 620.166666667 644.5 604.5 653.5 c 0
- 588.833333333 662.5 572 667 554 667 c 0
+ 588.833333333 662.5 572 667 554 667 c 0xde
  526 667 503.666666667 655.666666667 487 633 c 0
  467.666666667 609 458 560.333333333 458 487 c 2
  458 438 l 1
@@ -25368,7 +25387,7 @@ SplineSet
  100 456 l 2
  100 482 104.666666667 506.333333333 114 529 c 0
  130 571 157 606.666666667 195 636 c 0
- 234.333333333 668 278 686 326 690 c 1
+ 234.333333333 668 278 686 326 690 c 1xee
  377.333333333 688.666666667 416.666666667 672.666666667 444 642 c 1
  486.666666667 684 533 707 583 711 c 1
  619.666666667 711 650 702.666666667 674 686 c 1
@@ -25377,18 +25396,19 @@ SplineSet
  728 99 l 2
  728 69 731.5 50.3333333333 738.5 43 c 0
  745.5 35.6666666667 765 30.3333333333 797 27 c 1
- 797 0 l 1
+ 797 0 l 1xde
 370 438 m 1
  370 457 l 2
  370 487 373.666666667 514.333333333 381 539 c 0
  385.666666667 553.666666667 392.333333333 569.333333333 401 586 c 1
  390.333333333 602.666666667 375.333333333 616.833333333 356 628.5 c 0
- 336.666666667 640.166666667 315 646 291 646 c 0
+ 336.666666667 640.166666667 315 646 291 646 c 0xee
  256.333333333 646 230.333333333 630 213 598 c 0
  196.333333333 568 188 523 188 463 c 2
  188 438 l 1
  370 438 l 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uniFB00 l
 EndChar
 
 StartChar: uniFB05
@@ -27638,7 +27658,7 @@ EndSplineSet
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0486 gravecomb
 EndChar
 
-StartChar: uniE0E5
+StartChar: uni0444.salt
 Encoding: 57573 57573 578
 Width: 705
 Flags: HW
@@ -27730,17 +27750,19 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E1
+StartChar: uni0440.salt
 Encoding: 57569 57569 579
 Width: 340
-Flags: HW
+Flags: W
+HStem: -1.1996 108.2<136.315 193.654> 431 20G<241.333 245.667>
+VStem: 51 68.666<-193.457 -0.830383> 56 76.5<-186.051 1.0004> 215.909 68.091<133.355 319.334>
 AnchorPoint: "Numeral" 188 240 basechar 0
 AnchorPoint: "Diacritic" 235 642.998 basechar 0
 AnchorPoint: "Yerok" 245 644 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-56 -62.5 m 1
+56 -62.5 m 1xd8
  54.6612666667 -0.564533333333 54.3266 40.0028 54.996 59.202 c 0
  55.2956666667 67.7984666667 58.4636666667 98.8979333333 64.5 152.5004 c 0
  67.4852 179.009066667 73.4852 209.509066667 82.5 244.0004 c 0
@@ -27756,15 +27778,15 @@ SplineSet
  256.166666667 108.333733333 249 83.5004 241 60.5004 c 0
  233 37.5004 225.333333333 18.0004 218 2.0004 c 1
  183.932 -1.16872 161.852 -2.23538666667 151.76 -1.1996 c 2
- 132.5 1.0004 l 1
+ 132.5 1.0004 l 1xd8
  133.702666667 -38.1506666667 132.868333333 -71.262 129.997 -98.3336 c 0
  127.145 -125.2196 123.701333333 -148.1096 119.666 -167.0036 c 0
  116.824 -180.334266667 110.268666667 -189.2226 100 -193.6686 c 0
  83.1814666667 -200.641266667 68.8308666667 -201.596266667 56.9482 -196.5336 c 0
- 52.9827333333 -194.622266667 51 -189.7776 51 -181.9996 c 0
+ 52.9827333333 -194.622266667 51 -189.7776 51 -181.9996 c 0xe8
  52.7286666667 -167.594266667 54.0755333333 -148.503933333 55.0406 -124.7286 c 0
  56.4010666667 -91.2141333333 56.7208666667 -70.4711333333 56 -62.4996 c 1
- 56 -62.5 l 1
+ 56 -62.5 l 1xd8
 141 180 m 0
  139.666666667 166.666666667 138.666666667 155.833333333 138 147.5 c 0
  137.333333333 139.166666667 136.666666667 129.666666667 136 119 c 1
@@ -27784,7 +27806,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EC
+StartChar: uni0463.salt
 Encoding: 57580 57580 580
 Width: 590
 Flags: HW
@@ -27862,7 +27884,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EA
+StartChar: uni0446.salt
 Encoding: 57578 57578 581
 Width: 488
 Flags: HW
@@ -27920,7 +27942,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EB
+StartChar: uni0449.salt
 Encoding: 57579 57579 582
 Width: 664
 Flags: HW
@@ -27999,7 +28021,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E7
+StartChar: uni0445.salt
 Encoding: 57575 57575 583
 Width: 474
 Flags: HW
@@ -28068,7 +28090,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E8
+StartChar: uni0445.salt2
 Encoding: 57576 57576 584
 Width: 474
 Flags: HW
@@ -28139,7 +28161,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E9
+StartChar: uni0445.salt3
 Encoding: 57577 57577 585
 Width: 474
 Flags: HW
@@ -28206,7 +28228,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E4
+StartChar: uniA64B.salt3
 Encoding: 57572 57572 586
 Width: 461
 Flags: HW
@@ -28273,7 +28295,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E3
+StartChar: uniA64B.salt2
 Encoding: 57571 57571 587
 Width: 460
 Flags: HW
@@ -28350,7 +28372,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E2
+StartChar: uniA64B.salt
 Encoding: 57570 57570 588
 Width: 461
 Flags: HW
@@ -28430,12 +28452,12 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E0
+StartChar: uniA641.salt
 Encoding: 57568 57568 589
 Width: 600
-Flags: HW
-HStem: -7 55<152.977 297.657> 398 29<218.212 236>
-VStem: 45.998 107.002<48.0007 122.596> 463.999 94.001<-310.317 -134.09>
+Flags: W
+HStem: -7 55<152.977 297.657> 398 29<218.212 236> 436 20G<314.103 522.5>
+VStem: 45.998 107.002<48.0007 122.596>
 AnchorPoint: "Numeral" 338 240 basechar 0
 AnchorPoint: "Diacritic" 385 642.998 basechar 0
 AnchorPoint: "Yerok" 505 644 basechar 0
@@ -28476,7 +28498,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0E6
+StartChar: uni0444.salt2
 Encoding: 57574 57574 590
 Width: 705
 Flags: HW
@@ -28534,7 +28556,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EF
+StartChar: uni0443.salt
 Encoding: 57583 57583 591
 Width: 461
 Flags: HW
@@ -28574,7 +28596,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0ED
+StartChar: uni0471.salt
 Encoding: 57581 57581 592
 Width: 791
 Flags: HW
@@ -28640,7 +28662,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE0EE
+StartChar: uni0471.salt2
 Encoding: 57582 57582 593
 Width: 791
 Flags: HW
@@ -28704,7 +28726,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE405
+StartChar: uni0426.salt
 Encoding: 58373 58373 594
 Width: 700
 Flags: HW
@@ -28878,27 +28900,28 @@ SplineSet
  498.008 614.333333333 491.341333333 608.333333333 484.008 601 c 5
  477.341333333 601.666666667 472.341333333 605.666666667 469.008 613 c 5
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uniA64D uniE003
 EndChar
 
 StartChar: uniE930
 Encoding: 59696 59696 596
 Width: 1049
-Flags: HW
-HStem: -465 29.997<306.449 402.471 605.582 703.101> -103.002 14<607.712 619.004> 489.998 42<297.684 356.69 651.818 708.187> 559.001 11<512.305 517.371> 658.253 52.7487<516.713 603.739> 714.997 23.001<888.554 930.775> 852.997 32.004<394.749 518.774>
-VStem: 65.0049 142.003<-160.349 208.309> 237.007 108<738.383 794.951> 388.006 25<372.267 440.69> 478.004 52.998<-324.881 -203.523> 568.786 88.2214<621.203 683.616> 596.007 24.993<371.416 442.013> 801.998 142.009<-161.481 204.819>
+Flags: W
+HStem: -465 29.997<306.448 402.472 605.582 703.101> -103.002 14<607.712 619.004> 489.998 42<297.684 356.69 651.818 708.187> 660 54<496.856 543.881>
+VStem: 65.0049 142.003<-160.349 208.309> 388.006 25<372.267 440.69> 478.004 52.998<-324.881 -203.523> 544.008 82<616.383 660.198> 596.007 24.993<372.854 442.013> 801.998 142.009<-161.481 204.819>
 AnchorPoint: "Numeral" 506 48 basechar 0
 AnchorPoint: "Yerok" 543 929 basechar 0
 AnchorPoint: "Diacritic" 541 929 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-773.0078125 752 m 1
+773.0078125 752 m 1xfe40
  776.0078125 744 l 1
  751.0078125 702 l 1
  390.0078125 809 l 1
  387.0078125 817 l 1
  412.0078125 859 l 1
- 773.0078125 752 l 1
+ 773.0078125 752 l 1xfe40
 419.0078125 623 m 1
  439.0078125 649.666992188 462.341796875 671.333007812 489.0078125 688 c 0
  517.0078125 705.333007812 544.0078125 714 570.0078125 714 c 0
@@ -28914,14 +28937,14 @@ SplineSet
  494.341796875 561.666992188 492.0078125 566.666992188 492.0078125 572 c 1
  504.674804688 582.666992188 513.674804688 590.666992188 519.0078125 596 c 0
  525.674804688 602.666992188 532.0078125 611.666992188 538.0078125 623 c 0
- 544.0078125 634.333007812 546.0078125 642.666992188 544.0078125 648 c 0
+ 544.0078125 634.333007812 546.0078125 642.666992188 544.0078125 648 c 0xff40
  541.341796875 655.333007812 535.674804688 659.333007812 527.0078125 660 c 0
  519.674804688 660.666992188 511.674804688 659.666992188 503.0078125 657 c 0
  492.341796875 653.666992188 484.0078125 650 478.0078125 646 c 0
  468.0078125 639.333007812 460.0078125 633.666992188 454.0078125 629 c 0
  448.0078125 624.333007812 441.341796875 618.333007812 434.0078125 611 c 1
  427.341796875 611.666992188 422.341796875 615.666992188 419.0078125 623 c 1
-382.006 531.998 m 0xffec
+382.006 531.998 m 0
  384.052 531.998 386.243 532.026 388.482 532.026 c 0
  398.633 532.026 409.784 531.444 413.006 524.998 c 1
  413.006 374.998 l 1
@@ -28954,7 +28977,7 @@ SplineSet
  627.5 431.667 623.667 422 621 412 c 1
  621 399.333 621 386.667 621 374 c 1
  613 368.667 604.674 368.997 596.007 374.997 c 1
- 596.007 524.997 l 1
+ 596.007 524.997 l 1xfec0
  598.842 530.669 601.233 530.151 608.006 530.998 c 0
  608.006 531.665 615.339 531.998 630.006 531.998 c 0
  655.325 531.998 669.657 528.744 692.007 519.998 c 0
@@ -28973,8 +28996,9 @@ SplineSet
  67.3379 -42.3359 65.0049 -7.66895 65.0049 24.998 c 0
  65.0049 202.105 120.137 346.993 206.005 441.998 c 0
  238.005 477.331 275.005 503.331 317.005 519.998 c 0
- 338.684 528.481 356.203 531.998 382.006 531.998 c 0xffec
+ 338.684 528.481 356.203 531.998 382.006 531.998 c 0
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uniA64C uniE003
 EndChar
 
 StartChar: uniE920
@@ -29157,6 +29181,7 @@ SplineSet
  -10 719 -13.3333333333 721 -16 723 c 0
  -18.6666666667 725 -20.6666666667 727.666666667 -22 731 c 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uni0456 uniE001
 EndChar
 
 StartChar: uniE924
@@ -30410,6 +30435,7 @@ SplineSet
  155 719 151.666666667 721 149 723 c 0
  146.333333333 725 144.333333333 727.666666667 143 731 c 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uni0463 uniE001
 EndChar
 
 StartChar: uniE906
@@ -30689,6 +30715,7 @@ SplineSet
  216 726 212.666666667 728 210 730 c 0
  207.333333333 732 205.333333333 734.666666667 204 738 c 1
 EndSplineSet
+Ligature2: "'ccmp' Secondary Ligatures 1" uniA64B uniE001
 EndChar
 
 StartChar: uniE612
@@ -31486,7 +31513,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE383
+StartChar: uni0478.salt
 Encoding: 58243 58243 629
 Width: 1271
 Flags: HW
