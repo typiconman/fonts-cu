@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1336434585
-ModificationTime: 1630918719
+ModificationTime: 1630921513
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -44,6 +44,7 @@ OS2Vendor: '    '
 Lookup: 4 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0" { "'ccmp' Glyph Composition/Decomposition lookup 0-1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 0 "'ccmp' Secondary Ligatures" { "'ccmp' Secondary Ligatures 1"  } ['ccmp' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 3 0 0 "'salt' Stylistic Alternatives lookup 2" { "'salt' Stylistic Alternatives lookup 2-1"  } ['salt' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 257 0 0 "'ss10' Equal Baseline Lookup" { "'ss10' Equal Baseline Lookup-1"  } ['ss10' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 0" { "'mark' Mark Positioning lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 1" { "'mkmk' Mark to Mark lookup 1-1"  } ['mkmk' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -56,7 +57,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 432 27 9
+WinInfo: 216 27 9
 BeginPrivate: 5
 BlueValues 30 [-9 0 435 444 519 528 740 749]
 OtherBlues 11 [-464 -455]
@@ -332,7 +333,7 @@ SplineSet
  233 -430 l 1
  285 -430 l 1
  285 -455 l 1
- 68 -455 l 1
+ 68 -455 l 5
  68 -430 l 1
  115 -430 l 1
  126 -400 139 -370 153 -340 c 2
@@ -351,6 +352,7 @@ SplineSet
  267 0 263 -23 260 -49 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -496,6 +498,7 @@ SplineSet
  345 -51 337 -19 328 6 c 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -653,6 +656,7 @@ SplineSet
  272 241 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -773,6 +777,7 @@ SplineSet
  75 -455 l 5xe0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -910,6 +915,7 @@ SplineSet
  348 -172 l 2
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -1082,6 +1088,7 @@ SplineSet
  358 115 375 118 392 118 c 4
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -1288,6 +1295,7 @@ SplineSet
  773 519.999 l 1xec
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -1513,6 +1521,7 @@ SplineSet
  358 115 375 118 392 118 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -1738,6 +1747,7 @@ SplineSet
  369 45 l 1xdd
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -1961,6 +1971,7 @@ SplineSet
  746 429 777 380 777 323 c 0xa8
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -2130,6 +2141,7 @@ SplineSet
  401 474 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -2286,6 +2298,7 @@ SplineSet
  259 495 l 5xd0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -2399,6 +2412,7 @@ SplineSet
  58 -455 l 1xe0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -2539,6 +2553,7 @@ SplineSet
  259 495 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0418 uni0306
 Colour: ffff
@@ -2712,6 +2727,7 @@ SplineSet
  58 -455 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0406 dieresis
 Colour: ffff
@@ -2866,6 +2882,7 @@ SplineSet
  75 -455 l 1xe0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -2939,6 +2956,7 @@ SplineSet
  52 -454.999 l 1xf0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -3184,6 +3202,7 @@ SplineSet
  435 495 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -3344,6 +3363,7 @@ SplineSet
  259 495 l 1xd0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -3479,6 +3499,7 @@ SplineSet
  395 -454 360 -465 323 -465 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -3603,6 +3624,7 @@ SplineSet
  58 -455 l 1xe0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -3724,6 +3746,7 @@ SplineSet
  696 451 656 420.993164062 612 420.993164062 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -3844,6 +3867,7 @@ SplineSet
  484 319 495.999 346 495.999 392 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -3996,6 +4020,7 @@ SplineSet
  576 -50 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -4116,6 +4141,7 @@ SplineSet
  217 -455 l 1xe0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -4275,6 +4301,7 @@ SplineSet
  358 -149 354 -275 351 -394 c 5
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -4461,6 +4488,7 @@ SplineSet
  395 -454 360 -465.002 323 -465.002 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0478.salt
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni041E uni0443
@@ -4676,6 +4704,7 @@ SplineSet
  369.169927381 -392.939072082 391.608369605 -382.447577594 406 -366 c 5
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -4854,6 +4883,7 @@ SplineSet
  635 12 640 35 640 60 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -5027,6 +5057,7 @@ SplineSet
  -53 -548 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -5178,6 +5209,7 @@ SplineSet
  259 495 l 1xe8
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0426.salt
 Colour: ffff
 EndChar
@@ -5329,6 +5361,7 @@ SplineSet
  530 495 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -5455,6 +5488,7 @@ SplineSet
  526 495 l 1xe8
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -5610,6 +5644,7 @@ SplineSet
  526 495 l 1xe2
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -5767,6 +5802,7 @@ SplineSet
  383.999 -3 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -5923,6 +5959,7 @@ SplineSet
  328 -51 320.5 -9 311 6 c 4
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -6060,6 +6097,7 @@ SplineSet
  345 -51 337.5 -9 328 6 c 4
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -6229,6 +6267,7 @@ SplineSet
  68 -479 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -6417,6 +6456,7 @@ SplineSet
  801 32 l 2
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -6597,6 +6637,7 @@ SplineSet
  385 312 388.042 375 388.042 431 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -6760,6 +6801,7 @@ SplineSet
  748.987508658 504.968484327 746 510 746 520 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -6953,6 +6995,7 @@ SplineSet
  491 -51 483 -19 474 6 c 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -7178,6 +7221,7 @@ SplineSet
  669 122 686 125 703 125 c 0xfd70
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -7378,6 +7422,7 @@ SplineSet
  330 68 335 69 341 69 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -7614,6 +7659,7 @@ SplineSet
  694 -111 l 2xf2c0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -7835,6 +7881,7 @@ SplineSet
  255.346221835 -192.213906918 246 -307.349493407 246 -430 c 5
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -8070,6 +8117,7 @@ SplineSet
  632.785 312.638 688.63 242.715 721.999 217.998 c 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -8302,6 +8350,7 @@ SplineSet
  184 527 l 1xfa
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -8522,6 +8571,7 @@ SplineSet
  389.228 858 354 804.029 354 736 c 0xba
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -8693,6 +8743,7 @@ SplineSet
  284.672 -434.167 302.339 -441 323.006 -441 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -8853,6 +8904,7 @@ SplineSet
  148 -455 l 1xc0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -9004,6 +9056,7 @@ SplineSet
  148 -455 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0474 uni030F
 Colour: ffff
 EndChar
@@ -9230,6 +9283,7 @@ SplineSet
  444.671 608.668 440.338 612.001 437.005 616.001 c 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Secondary Ligatures 1" uniA64C uniE005
 Colour: ffff
@@ -9491,6 +9545,7 @@ SplineSet
  434.007 625.997 l 1xf3b0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -9923,6 +9978,7 @@ SplineSet
  398.6328125 532.026367188 409.784179688 531.444335938 413.005859375 524.998046875 c 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -10194,6 +10250,7 @@ SplineSet
  606 -455 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -10432,6 +10489,7 @@ SplineSet
  476.56013921 -55.0052196307 471.044440057 -114.644479548 463 -179 c 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -10609,6 +10667,7 @@ SplineSet
  369.012839698 143.012839698 357.40966319 114.52744522 337 77 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -11184,6 +11243,7 @@ SplineSet
  771 -166 818.137 -78 818.137 33 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -11339,6 +11399,7 @@ SplineSet
  718 71 l 2xeee0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -11454,6 +11515,7 @@ SplineSet
  601 69 l 2xdb
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -11535,6 +11597,7 @@ SplineSet
  426 -42 407 -24 407 3 c 4
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -11616,6 +11679,7 @@ SplineSet
  311 53 330 31 330 3 c 4
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -11826,6 +11890,7 @@ SplineSet
  216 -466 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -16718,6 +16783,7 @@ SplineSet
  696 451 656 420.993164062 612 420.993164062 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -16872,6 +16938,7 @@ SplineSet
  696 451 656 420.993164062 612 420.993164062 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -17067,6 +17134,7 @@ SplineSet
  190.003739296 467.371198854 251.449816884 529.998046875 351 529.998046875 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -17488,6 +17556,7 @@ SplineSet
  617.273942666 -207.260742188 590.80859375 -180.793918158 590.80859375 -149.75 c 0xfe0082
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Comment: "Copied from Hirmos"
 Colour: ffff
 EndChar
@@ -17591,6 +17660,7 @@ SplineSet
  188.002762734 467.371198854 249.448840319 529.998046875 348.999023438 529.998046875 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -17774,6 +17844,7 @@ SplineSet
  651.35546875 -361.087890625 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Comment: "Copied from Hirmos"
 Colour: ffff
 EndChar
@@ -31558,6 +31629,7 @@ SplineSet
  665 184 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -35190,6 +35262,7 @@ SplineSet
  1252 824 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni047E acutecomb
 Colour: ffff
@@ -36881,6 +36954,7 @@ SplineSet
  642 522 l 1xfa
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -37129,6 +37203,7 @@ SplineSet
  773.0078125 752 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Secondary Ligatures 1" uniA64C uniE003
 Colour: ffff
@@ -40343,6 +40418,7 @@ SplineSet
  365.333333333 492.833333333 347.333333333 500 326 500 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -42735,6 +42811,7 @@ SplineSet
  358 115 375 118 392 118 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0404 gravecomb
 Colour: ffff
@@ -42869,6 +42946,7 @@ SplineSet
  358 115 375 118 392 118 c 0
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0415 dieresis
 Colour: ffff
@@ -42946,6 +43024,7 @@ SplineSet
  56.5 -455 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0413 acutecomb
 Colour: ffff
@@ -43041,6 +43120,7 @@ SplineSet
  259 495 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0418 gravecomb
 Colour: ffff
@@ -43148,6 +43228,7 @@ SplineSet
  75 -455 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 LCarets2: 1 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni041A acutecomb
 Colour: ffff
@@ -43269,6 +43350,7 @@ SplineSet
  358 -149 354 -275 351 -394 c 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -45059,6 +45141,7 @@ SplineSet
  549 495 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
@@ -45159,6 +45242,7 @@ SplineSet
  417 -455 l 1
 EndSplineSet
 Validated: 1
+Position2: "'ss10' Equal Baseline Lookup-1" dx=0 dy=455 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Colour: ffff
 EndChar
 
