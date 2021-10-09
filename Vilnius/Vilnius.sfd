@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1336434585
-ModificationTime: 1633359116
+ModificationTime: 1633758034
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,12 +52,13 @@ MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" "https://scripts.sil.org/OFL" "" "" "" "" "+BCUEQC3tBIcEQgQ+AwEEQQRK +BDIEPgRBBDoEQAQ1AwEEQQQ1 +BDgEhgQ3Az4A +BDwENQMBBEAEQgQyBEsERQRK, +BEEEPAQ1AwEEQARCBFYDCARO +BEEEPAQ1AwEEQARCBEwA +BD8EPgQ/BEAEMAMBBDIESgAA, +BDgEhgAA +BEGmSwMBBEkESwQ8BEoA +BDIEPgAA +BDMEQAQ+BDEEYwMBBEUESgAA +BDYEOAQyBD4DAQRCBEoA +BDQEMARABD4EMgQwAwEEMgRK."
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 945 27 9
+WinInfo: 432 27 9
 BeginPrivate: 5
 BlueValues 30 [-9 0 435 444 519 528 740 749]
 OtherBlues 11 [-464 -455]
@@ -942,9 +943,9 @@ EndChar
 StartChar: uni0434
 Encoding: 1076 1076 13
 Width: 486
-Flags: HW
-HStem: 0 30<132 167.581 195 269 365.482 378>
-VStem: 39 97.0834<-299.737 -17.0089> 241 103.664<182.981 429.247> 378 87<-100.777 0>
+Flags: W
+HStem: 0 30<132 167.569 195 269 365.435 378>
+VStem: 39 97.0816<-259.752 -0.124393> 241 104<179.402 429.306> 378 87<-106.28 0>
 AnchorPoint: "Numeral" 238 240 basechar 0
 AnchorPoint: "Diacritic" 283.924 643.122 basechar 0
 AnchorPoint: "Yerok" 396 643 basechar 0
@@ -1019,7 +1020,8 @@ SplineSet
  269 30 l 1
  267 44 l 2
 EndSplineSet
-Validated: 524289
+Validated: 1
+AlternateSubs2: "'salt' Stylistic Alternatives lookup 2-1" uni0434.salt
 Colour: ffff
 EndChar
 
@@ -39905,7 +39907,6 @@ SplineSet
  141.938274168 185.86023637 130.667 163.173191817 130.667 143.444 c 0
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0
 Ligature2: "'ccmp' Glyph Composition/Decomposition lookup 0-1" uni0430 zerojoin uni0443
 Colour: ffff
 EndChar
@@ -45974,7 +45975,7 @@ Ligature2: "'ccmp' Secondary Ligatures 1" uniE922 gravecomb
 Ligature2: "'ccmp' Secondary Ligatures 1" uni0456 uniE003
 EndChar
 
-StartChar: uniE0F0
+StartChar: uni0434.salt
 Encoding: 57584 57584 716
 Width: 462
 Flags: W
@@ -46044,7 +46045,7 @@ SplineSet
  316.665 221.241 324.711 116.623 339.998 30.001 c 1
  432.998 30.001 l 1
 EndSplineSet
-Validated: 524289
+Validated: 1
 Colour: ffff
 EndChar
 EndChars
