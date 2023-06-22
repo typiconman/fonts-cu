@@ -19,7 +19,9 @@ fonts-churchslavonic.zip:
 	mkdir fonts-churchslavonic/
 	cp README.ctan fonts-churchslavonic/README
 	(cd fonts-churchslavonic/ && wget https://www.ponomar.net/files/MezenetsUnicode.zip && unzip MezenetsUnicode.zip -x README)
+	(cd fonts-churchslavonic/ && wget https://www.ponomar.net/files/FiraSlav.zip && unzip FiraSlav.zip -x OFL.txt)
 	rm -f fonts-churchslavonic/MezenetsUnicode.zip
+	rm -f fonts-churchslavonic/FiraSlav.zip
 	cp $(foreach dir, $(FONTS), $(wildcard $(dir)/*.otf)) fonts-churchslavonic/
 	cp $(foreach dir, $(MOREFONTS), $(wildcard $(dir)/*.otf)) fonts-churchslavonic/
 	cp OFL.txt fonts-churchslavonic/
@@ -70,7 +72,7 @@ clean:
 	$(foreach font, $(FONTS), cd $(font)/ && rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip; cd ..;)
 	$(foreach font, $(MOREFONTS), cd $(font)/ && rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip; cd ..;)
 	rm -f *.otf *.ttf
-	(cd docs/ && rm -f *.aux *.glo *.idx *.log *.out *.pdf *.toc)
+	(cd docs/ && rm -f *.aux *.hd *.glo *.idx *.log *.out *.pdf *.toc)
 	(cd rpm/ && rm -f *.tar.bz2)
 	rm -f *.zip *.png
 	# To clean debian package run debuild clean
