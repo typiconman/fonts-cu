@@ -16,8 +16,10 @@
     hyperfootnotes=false,
     pdftitle={Church Slavonic fonts},
     pdfauthor={Aleksandr Andreev},
-    pdfkeywords={Church Slavic, Church Slavonic, Old Church Slavonic, Old Slavonic, fonts, Unicode}
+    pdfkeywords={Church Slavic, Church Slavonic, Old Church Slavonic, Old Slavonic, fonts, Unicode},
     ]{hyperref}
+\usepackage{libertine}
+\usepackage{dejavu}
 \usepackage{polyglossia}
 \setmainlanguage[variant=american]{english}
 \setotherlanguages{russian,churchslavonic,romanian}
@@ -29,10 +31,10 @@
 \def\fileversion{version 2.2}
 
 %% fontspec declarations:
-\setmainfont[Ligatures = TeX]{Linux Libertine}
+\setmainfont[Ligatures = TeX]{Linux Libertine O}
 \setsansfont{DejaVu Sans}
 \setmonofont[Scale=MatchLowercase]{DejaVu Sans Mono}
-\newfontfamily\churchslavonicfont[Script=Cyrillic,Ligatures=TeX,Scale=1.33333333,HyphenChar="005F]{PonomarUnicode.otf} 
+\newfontfamily\churchslavonicfont[Script=Cyrillic,Ligatures=TeX,Scale=1.33333333,HyphenChar="005F]{Ponomar Unicode} 
 \newfontfamily{\slv}[Scale=MatchLowercase]{Ponomar Unicode}
 \newfontfamily{\ust}[Scale=MatchLowercase]{Menaion Unicode}
 \newfontfamily{\ind}[Scale=1.333333333]{Indiction Unicode}
