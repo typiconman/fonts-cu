@@ -2,6 +2,7 @@
 \usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
 \usepackage{fontspec}
 \usepackage{xltxtra,comment}
+\usepackage{graphicx}
 % code borrowed from Polyglossia documentation -- Thanks!
 \definecolor{myblue}{rgb}{0.02,0.04,0.48}
 \definecolor{lightblue}{rgb}{0.61,.8,.8}
@@ -60,6 +61,12 @@
 \def\cuLettrine{\cu@tokenizeletter\cu@lettrine}
 \renewcommand{\LettrineFontHook}{\ind \cuKinovarColor}
 \makeatother
+
+\def\deprecated{\includegraphics[width=4mm]{deprecated.png}}
+\def\opentype{\includegraphics[width=4mm]{opentype.png}}
+\ifx\XeTeX\undefined
+\def\XeTeX{Xe\TeX}
+\fi
 \begin{document}
 
 \title{Church Slavonic Fonts}
@@ -128,10 +135,10 @@ the \href{https://sci.ponomar.net/}{Slavonic Computing Initiative website}.
 All fonts are currently available in a single format:
 
 \begin{description}
-\item[\XeTeXpicfile "opentype.png" width 4mm] \hyperlink{OT}{OpenType} fonts with
+\item[\opentype] \hyperlink{OT}{OpenType} fonts with
 PostScript outlines (also called OpenType-CFF fonts).
 
-\item[\XeTeXpicfile "deprecated.png" width 4mm] TrueType fonts have been deprecated,
+\item[\deprecated] TrueType fonts have been deprecated,
 and are no longer provided. If you need TrueType fonts, see the
 \href{https://github.com/slavonic/fonts-cu-legacy/}{Legacy Fonts package}.
 \end{description}
@@ -422,7 +429,7 @@ However, relying on the PUA as a data exchange mechanism is discouraged.
 \hypertarget{Graphite}{}\label{Graphite} 
 
 \begin{itemize}
-\item[\XeTeXpicfile "deprecated.png" width 4mm] As of version 1.3 of this package,
+\item[\deprecated] As of version 1.3 of this package,
 support for \href{https://scripts.sil.org/Graphite}{SIL Graphite} features
 has been discontinued. If you need Graphite support, see the
 \href{https://github.com/slavonic/fonts-cu-legacy/}{Legacy Fonts package}.
@@ -935,15 +942,15 @@ added to LibreOffice.
 \item Stylistic Set 11 (\emph{ss11}) displays the characters U+044B Cyrillic Small Letter Yeru and U+A651 Cyrillic Small Letter Yeru with Back Yer with the two glyphs connected (e.g., {\fontspec{Monomakh Unicode}[StylisticSet=11] ы} instead of {\monomakh ы}).
 \item Stylistic Set 13 (\emph{ss13}) displays the character U+0463 Cyrillic Small Letter Yat with the left stem extended to the baseline (e.g., as {\fontspec{Monomakh Unicode}[StylisticSet=13] ѣ}). Please note that this is not the same as U+A653 Cyrillic Small Letter Iotified Yat.
 \item The same functionality of these Stylistic Sets is provided in OpenType also by the Stylistic Alternatives (\emph{salt}) feature.
-\item[\XeTeXpicfile "deprecated.png" width 4mm] Previous versions of the font provided Stylistic Set 1 (\emph{ss01}), which displayed U+015E Latin Capital Letter S with Cedilla, U+0162 Latin Capital Letter T with Cedilla, and their lowercase analogs, as U+0218 Latin Capital Letter S with Comma Below, U+021A Latin Capital Letter T with Comma Below, and their lowercase analogs. However, since the use of U+015E, U+0162 and their lowercase analogs for the encoding of Romanian text is considered erroneous, this feature is deprecated. Users are strongly encouraged to convert their text at the codepoint level to use the correct characters for Romanian orthography. However, for the sake of compatibility with text that has been erroneously encoded, this feature is still available.
-\item[\XeTeXpicfile "deprecated.png" width 4mm]  Stylistic Set 15 (\emph{ss15}), which provides combining Cyrillic letters with an automatic \emph{pokrytie} where warranted by Synodal orthography is also deprecated and may be removed. Users should explicitly encode the \emph{pokrytie} as U+0487 Combining Cyrillic Pokrytie. See  \href{https://www.unicode.org/notes/tn41/}
+\item[\deprecated] Previous versions of the font provided Stylistic Set 1 (\emph{ss01}), which displayed U+015E Latin Capital Letter S with Cedilla, U+0162 Latin Capital Letter T with Cedilla, and their lowercase analogs, as U+0218 Latin Capital Letter S with Comma Below, U+021A Latin Capital Letter T with Comma Below, and their lowercase analogs. However, since the use of U+015E, U+0162 and their lowercase analogs for the encoding of Romanian text is considered erroneous, this feature is deprecated. Users are strongly encouraged to convert their text at the codepoint level to use the correct characters for Romanian orthography. However, for the sake of compatibility with text that has been erroneously encoded, this feature is still available.
+\item[\deprecated]  Stylistic Set 15 (\emph{ss15}), which provides combining Cyrillic letters with an automatic \emph{pokrytie} where warranted by Synodal orthography is also deprecated and may be removed. Users should explicitly encode the \emph{pokrytie} as U+0487 Combining Cyrillic Pokrytie. See  \href{https://www.unicode.org/notes/tn41/}
 {UTN 41: Church Slavonic Typography in Unicode} for more information.
 \end{itemize}
 
 Two additional features were available in SIL Graphite only; however support for SIL Graphite has been discontinued. If you need these features, see the \href{https://github.com/slavonic/fonts-cu-legacy/}{Legacy Fonts package}:
 \begin{itemize}
-\item[\XeTeXpicfile "deprecated.png" width 4mm] The Graphite feature Convert Arabic Digits to Church Slavonic (\emph{cnum}), when turned on, will automatically display Western Digits (``Arabic numerals'') as Cyrillic numerals. This is helpful, for example, for page numbering in software that does not support Cyrillic numerals.
-\item[\XeTeXpicfile "deprecated.png" width 4mm] The Graphite feature Convert HIP-6B Keystrokes to Church Slavonic Characters (\emph{hipb}), when turned on, will display text encoded in the legacy HIP codepage as Church Slavonic. The use of this feature is discouraged and users are encouraged instead to convert HIP-encoded text to Unicode.
+\item[\deprecated] The Graphite feature Convert Arabic Digits to Church Slavonic (\emph{cnum}), when turned on, will automatically display Western Digits (``Arabic numerals'') as Cyrillic numerals. This is helpful, for example, for page numbering in software that does not support Cyrillic numerals.
+\item[\deprecated] The Graphite feature Convert HIP-6B Keystrokes to Church Slavonic Characters (\emph{hipb}), when turned on, will display text encoded in the legacy HIP codepage as Church Slavonic. The use of this feature is discouraged and users are encouraged instead to convert HIP-encoded text to Unicode.
 \end{itemize}
 
 \subsection{Shafarik}
