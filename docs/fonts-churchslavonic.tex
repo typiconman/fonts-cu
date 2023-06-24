@@ -444,10 +444,16 @@ OpenOffice.org derivatives starting with version 3.2 of OpenOffice.org.
 While correct positioning, attachment and substitutions will work automatically,
 earlier versions of LibreOffice
 had no mechanism to turn off and on optional features. Support for
-turning OpenType features off and on is available starting with LibreOffice version 4.1.
-However, there is no graphical interface that can be used.
-Instead, a special extended font name
-syntax has been developed: in order to activate an optional feature, its ID,
+turning OpenType features off and on is available starting with LibreOffice version 4.1. As of LibreOffice 6.2, OpenType features may be turned off and on via the Font Features window, which is accessible from the Character window. From the Format menu choose Character, then in the Character window, press the Features button. The Font Features window will display all of the features available in the given font, and you can use the checkboxes to turn specific features off and on.
+
+This functionality will be useful for LibreOffice users relying on automatic hyphenation.
+Since LibreOffice has
+\href{https://bugs.documentfoundation.org/show_bug.cgi?id=85731}
+{no mechanism to set the hyphenation character}, the Ponomar Unicode
+and Monomakh Unicode fonts provide the underscore as a hyphenation
+character via Stylistic Set 1 in OpenType.
+
+Prior to version 6.2, OpenType features had to be turned off and on using a special extended font name. This method is still available if you don't wish to use the graphical interface: in order to activate an optional feature, its ID,
 followed by an equals sign and the ID of the desired setting, are appended
 directly to the font name string. An ampersand is used to separate
 different feature/settings pairs.
@@ -461,29 +467,7 @@ Ponomar Unicode:ss01=1
 
 The same syntax is used to turn off and on optional Stylistic Alternatives (|salt|),
 where \texttt{1} indicates the first alternate glyph, \texttt{2} -- the second alternate
-glyph, and so forth. Note that this feature is not available in Apache OpenOffice;
-since Apache OpenOffice is not well maintained, we suggest users migrate to LibreOffice.
-
-This functionality will be useful for LibreOffice users relying on automatic hyphenation.
-Since LibreOffice has
-\href{https://bugs.documentfoundation.org/show_bug.cgi?id=85731}
-{no mechanism to set the hyphenation character}, the Ponomar Unicode
-and Monomakh Unicode fonts provide the underscore as a hyphenation
-character via Stylistic Set 1 in OpenType.
-
-Of course modifying the font name directly is very inconvenient, since
-it is difficult to remember short tags and numerical values used for
-feature/setting IDs in different fonts. Unfortunately, there is presently no
-graphical interface to support turning off and on OpenType and SIL Graphite
-features.
-
-%You may try to install the \href{https://github.com/thanlwinsoft/groooext}
-%{Graphite Font Extension}, which provides a dialog for easier feature selection.
-%However, this extension has not been maintained since the passing of its
-%developer in 2011, and so may not work correctly in later versions of LibreOffice.
-%If you experience problems with Graphite features, you may get better
-%results accessing glyphs directly by codepoint from the Private Use Area,
-%though this is not recommended.
+glyph, and so forth.
 
 \section{Fonts for Synodal Slavonic}
 
