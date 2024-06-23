@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: PonomarUnicode
 FullName: Ponomar Unicode
 FamilyName: Ponomar Unicode
@@ -24,7 +24,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1585556910
+ModificationTime: 1719171727
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1267,7 +1267,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 7
+WinInfo: 378 18 7
 BeginPrivate: 9
 BlueValues 31 [-18 0 437 460 577 597 770 788]
 BlueScale 8 0.039625
@@ -10861,29 +10861,28 @@ EndChar
 
 StartChar: uni2020
 Encoding: 8224 8224 194
-Width: 741
+Width: 505
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<322 442> 480 80<72 322 442 692> 750 20G<322 442>
-VStem: 322 120<0 480 560 770>
+HStem: 0 21G<206 306> 477 92<36 206 306 470> 750 20G<206 306>
+VStem: 206 100<0 477 569 770>
 LayerCount: 2
 Fore
 SplineSet
-442 560 m 1
- 692 560 l 1
- 692 480 l 1
- 442 480 l 1
- 442 0 l 1
- 322 0 l 1
- 322 480 l 1
- 72 480 l 1
- 72 560 l 1
- 322 560 l 1
- 322 770 l 1
- 442 770 l 1
- 442 560 l 1
+306 569 m 1
+ 470 569 l 1
+ 470 477 l 1
+ 306 477 l 1
+ 306 0 l 1
+ 206 0 l 1
+ 206 477 l 1
+ 36 477 l 1
+ 36 569 l 1
+ 206 569 l 1
+ 206 770 l 1
+ 306 770 l 1
+ 306 569 l 1
 EndSplineSet
-Validated: 1
 Colour: ff00
 EndChar
 
@@ -11019,45 +11018,44 @@ EndChar
 
 StartChar: uni2626
 Encoding: 9766 9766 197
-Width: 756
+Width: 518
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<300 420> 470 80<50 300 420 670> 625 55<156 300 420 564> 750 20G<300 420>
-VStem: 300 120<0 168 316 470 550 625 680 770>
+HStem: 0 21G<210 310> 473 94<42 210 310 476> 609 96<150 210 310 368> 750 20G<210 310>
+VStem: 210 100<0 160 289 473 567 609 705 770>
 LayerCount: 2
 Fore
 SplineSet
-420 625 m 1
- 420 550 l 1
- 670 550 l 1
- 670 470 l 1
- 420 470 l 1
- 420 260 l 1
- 533 196 l 1
- 495 124 l 1
- 420 168 l 1
- 420 0 l 1
- 300 0 l 1
- 300 229 l 1
- 181 287 l 1
- 209 363 l 1
- 300 316 l 1
- 300 470 l 1
- 50 470 l 1
- 50 550 l 1
- 300 550 l 1
- 300 625 l 1
- 156 625 l 1
- 156 680 l 1
- 300 680 l 1
- 300 770 l 1
- 420 770 l 1
- 420 680 l 1
- 564 680 l 1
- 564 625 l 1
- 420 625 l 1
+310 609 m 1
+ 310 565 l 1
+ 476 565 l 1
+ 476 473 l 1
+ 310 473 l 1
+ 310 260 l 1
+ 366 243 l 1
+ 366 141 l 1
+ 310 160 l 1
+ 310 0 l 1
+ 210 0 l 1
+ 210 189 l 1
+ 160 204 l 1
+ 160 305 l 1
+ 210 289 l 1
+ 210 473 l 1
+ 42 473 l 1
+ 42 567 l 1
+ 210 567 l 1
+ 210 609 l 1
+ 150 609 l 1
+ 150 705 l 1
+ 210 705 l 1
+ 210 770 l 1
+ 310 770 l 1
+ 310 705 l 1
+ 368 705 l 1
+ 368 609 l 1
+ 310 609 l 1
 EndSplineSet
-Validated: 1
 Colour: ff00
 EndChar
 
