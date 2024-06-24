@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: MenaionUnicode
 FullName: Menaion Unicode
 FamilyName: Menaion Unicode
@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1269256071
-ModificationTime: 1585557404
+ModificationTime: 1719217880
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -903,7 +903,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 7
+WinInfo: 648 18 7
 BeginPrivate: 6
 BlueValues 23 [-20 0 433 453 610 630]
 OtherBlues 11 [-216 -200]
@@ -32727,44 +32727,43 @@ EndChar
 
 StartChar: uni2626
 Encoding: 9766 9766 676
-Width: 756
+Width: 505
 Flags: W
-HStem: 0 21G<299 419> 470 80<49 299 419 669> 625 55<155 299 419 563>
-VStem: 299 120<0 168 316 470 550 625 680 770>
+HStem: 0 21G<204 304> 473 94<36 204 304 470> 609 96<144 204 304 362>
+VStem: 204 100<0 160 289 473 567 609 705 770>
 LayerCount: 2
 Fore
 SplineSet
-419 625 m 1
- 419 550 l 1
- 669 550 l 1
- 669 470 l 1
- 419 470 l 1
- 419 260 l 1
- 532 196 l 1
- 494 124 l 1
- 419 168 l 1
- 419 0 l 1
- 299 0 l 1
- 299 229 l 1
- 180 287 l 1
- 208 363 l 1
- 299 316 l 1
- 299 470 l 1
- 49 470 l 1
- 49 550 l 1
- 299 550 l 1
- 299 625 l 1
- 155 625 l 1
- 155 680 l 1
- 299 680 l 1
- 299 770 l 1
- 419 770 l 1
- 419 680 l 1
- 563 680 l 1
- 563 625 l 1
- 419 625 l 1
+304 609 m 1
+ 304 565 l 1
+ 470 565 l 1
+ 470 473 l 1
+ 304 473 l 1
+ 304 260 l 1
+ 360 243 l 1
+ 360 141 l 1
+ 304 160 l 1
+ 304 0 l 1
+ 204 0 l 1
+ 204 189 l 1
+ 154 204 l 1
+ 154 305 l 1
+ 204 289 l 1
+ 204 473 l 1
+ 36 473 l 1
+ 36 567 l 1
+ 204 567 l 1
+ 204 609 l 1
+ 144 609 l 1
+ 144 705 l 1
+ 204 705 l 1
+ 204 770 l 1
+ 304 770 l 1
+ 304 705 l 1
+ 362 705 l 1
+ 362 609 l 1
+ 304 609 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: uni2DF5

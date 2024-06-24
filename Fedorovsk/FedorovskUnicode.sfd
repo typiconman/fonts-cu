@@ -1,4 +1,4 @@
-SplineFontDB: 3.0
+SplineFontDB: 3.2
 FontName: FedorovskUnicode
 FullName: Fedorovsk Unicode
 FamilyName: Fedorovsk Unicode
@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1357765429
-ModificationTime: 1585557333
+ModificationTime: 1719217657
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -958,7 +958,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 7
+WinInfo: 270 18 7
 BeginPrivate: 8
 BlueValues 31 [-20 0 386 405 447 466 647 666]
 OtherBlues 21 [-262 -243 -173 -154]
@@ -23761,45 +23761,44 @@ EndChar
 
 StartChar: uni2626
 Encoding: 9766 9766 399
-Width: 756
+Width: 505
 GlyphClass: 1
 Flags: W
-HStem: 472 80<49 299 419 669> 627 55<155 299 419 563>
-VStem: 299 120<2 170 318 472 552 627 682 772>
+HStem: 0 21G<204 304> 473 94<36 204 304 470> 609 96<144 204 304 362>
+VStem: 204 100<0 160 289 473 567 609 705 770>
 LayerCount: 2
 Fore
 SplineSet
-419 627 m 1
- 419 552 l 1
- 669 552 l 1
- 669 472 l 1
- 419 472 l 1
- 419 262 l 1
- 532 198 l 1
- 494 126 l 1
- 419 170 l 1
- 419 2 l 1
- 299 2 l 1
- 299 231 l 1
- 180 289 l 1
- 208 365 l 1
- 299 318 l 1
- 299 472 l 1
- 49 472 l 1
- 49 552 l 1
- 299 552 l 1
- 299 627 l 1
- 155 627 l 1
- 155 682 l 1
- 299 682 l 1
- 299 772 l 1
- 419 772 l 1
- 419 682 l 1
- 563 682 l 1
- 563 627 l 1
- 419 627 l 1
+304 609 m 1
+ 304 565 l 1
+ 470 565 l 1
+ 470 473 l 1
+ 304 473 l 1
+ 304 260 l 1
+ 360 243 l 1
+ 360 141 l 1
+ 304 160 l 1
+ 304 0 l 1
+ 204 0 l 1
+ 204 189 l 1
+ 154 204 l 1
+ 154 305 l 1
+ 204 289 l 1
+ 204 473 l 1
+ 36 473 l 1
+ 36 567 l 1
+ 204 567 l 1
+ 204 609 l 1
+ 144 609 l 1
+ 144 705 l 1
+ 204 705 l 1
+ 204 770 l 1
+ 304 770 l 1
+ 304 705 l 1
+ 362 705 l 1
+ 362 609 l 1
+ 304 609 l 1
 EndSplineSet
-Validated: 19457
 Colour: ff00ff
 EndChar
 
@@ -23934,29 +23933,28 @@ EndChar
 
 StartChar: uni2020
 Encoding: 8224 8224 403
-Width: 741
+Width: 505
 GlyphClass: 1
 Flags: W
-HStem: 0 21G<322 442> 480 80<72 322 442 692>
-VStem: 322 120<0 480 560 770>
+HStem: 0 21G<206 306> 477 92<36 206 306 470>
+VStem: 206 100<0 477 569 770>
 LayerCount: 2
 Fore
 SplineSet
-442 560 m 1
- 692 560 l 1
- 692 480 l 1
- 442 480 l 1
- 442 0 l 1
- 322 0 l 1
- 322 480 l 1
- 72 480 l 1
- 72 560 l 1
- 322 560 l 1
- 322 770 l 1
- 442 770 l 1
- 442 560 l 1
+306 569 m 1
+ 470 569 l 1
+ 470 477 l 1
+ 306 477 l 1
+ 306 0 l 1
+ 206 0 l 1
+ 206 477 l 1
+ 36 477 l 1
+ 36 569 l 1
+ 206 569 l 1
+ 206 770 l 1
+ 306 770 l 1
+ 306 569 l 1
 EndSplineSet
-Validated: 1
 Colour: ff00ff
 EndChar
 

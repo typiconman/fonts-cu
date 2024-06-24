@@ -24,7 +24,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1719171727
+ModificationTime: 1719217443
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -1267,7 +1267,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 378 18 7
+WinInfo: 414 18 7
 BeginPrivate: 9
 BlueValues 31 [-18 0 437 460 577 597 770 788]
 BlueScale 8 0.039625
@@ -10869,19 +10869,19 @@ VStem: 206 100<0 477 569 770>
 LayerCount: 2
 Fore
 SplineSet
-306 569 m 1
- 470 569 l 1
- 470 477 l 1
- 306 477 l 1
- 306 0 l 1
- 206 0 l 1
- 206 477 l 1
- 36 477 l 1
- 36 569 l 1
- 206 569 l 1
- 206 770 l 1
- 306 770 l 1
- 306 569 l 1
+306 569 m 5
+ 470 569 l 5
+ 470 477 l 5
+ 306 477 l 5
+ 306 0 l 5
+ 206 0 l 5
+ 206 477 l 5
+ 36 477 l 5
+ 36 569 l 5
+ 206 569 l 5
+ 206 770 l 5
+ 306 770 l 5
+ 306 569 l 5
 EndSplineSet
 Colour: ff00
 EndChar
@@ -11018,43 +11018,43 @@ EndChar
 
 StartChar: uni2626
 Encoding: 9766 9766 197
-Width: 518
+Width: 505
 GlyphClass: 2
-Flags: W
-HStem: 0 21G<210 310> 473 94<42 210 310 476> 609 96<150 210 310 368> 750 20G<210 310>
-VStem: 210 100<0 160 289 473 567 609 705 770>
+Flags: WO
+HStem: 0 21G<204 304> 473 94<36 204 304 470> 609 96<144 204 304 362> 750 20G<204 304>
+VStem: 204 100<0 160 289 473 567 609 705 770>
 LayerCount: 2
 Fore
 SplineSet
-310 609 m 1
- 310 565 l 1
- 476 565 l 1
- 476 473 l 1
- 310 473 l 1
- 310 260 l 1
- 366 243 l 1
- 366 141 l 1
- 310 160 l 1
- 310 0 l 1
- 210 0 l 1
- 210 189 l 1
- 160 204 l 1
- 160 305 l 1
- 210 289 l 1
- 210 473 l 1
- 42 473 l 1
- 42 567 l 1
- 210 567 l 1
- 210 609 l 1
- 150 609 l 1
- 150 705 l 1
- 210 705 l 1
- 210 770 l 1
- 310 770 l 1
- 310 705 l 1
- 368 705 l 1
- 368 609 l 1
- 310 609 l 1
+304 609 m 5
+ 304 565 l 5
+ 470 565 l 5
+ 470 473 l 5
+ 304 473 l 5
+ 304 260 l 5
+ 360 243 l 5
+ 360 141 l 5
+ 304 160 l 5
+ 304 0 l 5
+ 204 0 l 5
+ 204 189 l 5
+ 154 204 l 5
+ 154 305 l 5
+ 204 289 l 5
+ 204 473 l 5
+ 36 473 l 5
+ 36 567 l 5
+ 204 567 l 5
+ 204 609 l 5
+ 144 609 l 5
+ 144 705 l 5
+ 204 705 l 5
+ 204 770 l 5
+ 304 770 l 5
+ 304 705 l 5
+ 362 705 l 5
+ 362 609 l 5
+ 304 609 l 5
 EndSplineSet
 Colour: ff00
 EndChar
