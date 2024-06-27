@@ -21,7 +21,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1220731200
-ModificationTime: 1589255406
+ModificationTime: 1719217139
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -554,7 +554,7 @@ BlueScale 8 0.039625
 BlueShift 1 7
 EndPrivate
 AnchorClass2: "Stacking" "'mkmk' Mark to Mark Positioning-1" "Yerok" "'mark' Mark Positioning lookup 1-1" "Diacritic" "'mark' Mark Positioning lookup 1-1"
-BeginChars: 1114113 421
+BeginChars: 1114113 423
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -1424,7 +1424,7 @@ StartChar: uni047C
 Encoding: 1148 1148 24
 Width: 1356
 VWidth: 1400
-Flags: WO
+Flags: W
 HStem: -14 129.2<996.184 1112.89> -14 45.2002<257.784 469.263> 543.2 112.399<1003.03 1109.56> 614 23<616.186 672.237> 727 73<596.151 695.317> 757 23<1008.2 1079.53> 883 45<569.469 718.069>
 VStem: 47.2002 84.3994<189.307 420.926> 327 149<711.556 765.683> 527 17<675.119 693.033> 682 90<654.685 720.333> 1222.2 90<227.818 461.898>
 DStem2: 818 879 750 843 0.862639 -0.50582<-134.227 193.314>
@@ -18542,6 +18542,72 @@ SplineSet
  379 391 386 395 394 395 c 0
  405 395 413 391 419 384 c 0
  425 377 428 369 428 360 c 0x2180
+EndSplineSet
+EndChar
+
+StartChar: uni2626
+Encoding: 9766 9766 421
+Width: 500
+Flags: W
+HStem: 0 21G<201 299> 408 79<38 201 299 462> 524 80<141 201 299 357> 643 20G<201 299>
+VStem: 201 98<0 138 250 408 487 524 604 663>
+LayerCount: 2
+Fore
+SplineSet
+299 524 m 1
+ 299 487 l 1
+ 462 487 l 1
+ 462 408 l 1
+ 299 408 l 1
+ 299 225 l 1
+ 355 210 l 1
+ 355 122 l 1
+ 299 138 l 1
+ 299 0 l 1
+ 201 0 l 1
+ 201 163 l 1
+ 151 176 l 1
+ 151 264 l 1
+ 201 250 l 1
+ 201 408 l 1
+ 38 408 l 1
+ 38 487 l 1
+ 201 487 l 1
+ 201 524 l 1
+ 141 524 l 1
+ 141 604 l 1
+ 201 604 l 1
+ 201 663 l 1
+ 299 663 l 1
+ 299 604 l 1
+ 357 604 l 1
+ 357 524 l 1
+ 299 524 l 1
+EndSplineSet
+EndChar
+
+StartChar: dagger
+Encoding: 8224 8224 422
+Width: 500
+Flags: W
+HStem: 0 21G<204 301> 410 79<40 204 301 460> 643 20G<204 301>
+VStem: 204 97<0 410 489 663>
+LayerCount: 2
+Fore
+SplineSet
+301 489 m 5
+ 460 489 l 5
+ 460 410 l 5
+ 301 410 l 5
+ 301 0 l 5
+ 204 0 l 5
+ 204 410 l 5
+ 40 410 l 5
+ 40 489 l 5
+ 204 489 l 5
+ 204 663 l 5
+ 301 663 l 5
+ 301 489 l 5
 EndSplineSet
 EndChar
 EndChars

@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1336434585
-ModificationTime: 1633758034
+ModificationTime: 1719217792
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -58,7 +58,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 432 27 9
+WinInfo: 351 27 9
 BeginPrivate: 5
 BlueValues 30 [-9 0 435 444 519 528 740 749]
 OtherBlues 11 [-464 -455]
@@ -16958,76 +16958,43 @@ EndChar
 
 StartChar: uni2626
 Encoding: 9766 9766 204
-Width: 756
+Width: 530
 Flags: W
-HStem: 316 80<50 300 420 670> 471 55<156 300 420 564>
-VStem: 300 120<-154 14 162 316 396 471 526 616>
+HStem: 318 94<48 216 316 482> 454 96<156 216 316 374>
+VStem: 216 100<-155 5 134 318 412 454 550 615>
 LayerCount: 3
-Back
-SplineSet
-420 471 m 1
- 420 396 l 1
- 670 396 l 1
- 670 316 l 1
- 420 316 l 1
- 420 106 l 1
- 533 42 l 1
- 495 -30 l 1
- 420 14 l 1
- 420 -154 l 1
- 300 -154 l 1
- 300 75 l 1
- 181 133 l 1
- 209 209 l 1
- 300 162 l 1
- 300 316 l 1
- 50 316 l 1
- 50 396 l 1
- 300 396 l 1
- 300 471 l 1
- 156 471 l 1
- 156 526 l 1
- 300 526 l 1
- 300 616 l 1
- 420 616 l 1
- 420 526 l 1
- 564 526 l 1
- 564 471 l 1
- 420 471 l 1
-EndSplineSet
 Fore
 SplineSet
-420 471 m 1
- 420 396 l 1
- 670 396 l 1
- 670 316 l 1
- 420 316 l 1
- 420 106 l 1
- 533 42 l 1
- 495 -30 l 1
- 420 14 l 1
- 420 -154 l 1
- 300 -154 l 1
- 300 75 l 1
- 181 133 l 1
- 209 209 l 1
- 300 162 l 1
- 300 316 l 1
- 50 316 l 1
- 50 396 l 1
- 300 396 l 1
- 300 471 l 1
- 156 471 l 1
- 156 526 l 1
- 300 526 l 1
- 300 616 l 1
- 420 616 l 1
- 420 526 l 1
- 564 526 l 1
- 564 471 l 1
- 420 471 l 1
+316 454 m 1
+ 316 410 l 1
+ 482 410 l 1
+ 482 318 l 1
+ 316 318 l 1
+ 316 105 l 1
+ 372 88 l 1
+ 372 -14 l 1
+ 316 5 l 1
+ 316 -155 l 1
+ 216 -155 l 1
+ 216 34 l 1
+ 166 49 l 1
+ 166 150 l 1
+ 216 134 l 1
+ 216 318 l 1
+ 48 318 l 1
+ 48 412 l 1
+ 216 412 l 1
+ 216 454 l 1
+ 156 454 l 1
+ 156 550 l 1
+ 216 550 l 1
+ 216 615 l 1
+ 316 615 l 1
+ 316 550 l 1
+ 374 550 l 1
+ 374 454 l 1
+ 316 454 l 1
 EndSplineSet
-Validated: 1
 Colour: ffff
 EndChar
 
