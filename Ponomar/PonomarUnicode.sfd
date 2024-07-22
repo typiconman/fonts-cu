@@ -24,7 +24,7 @@ OS2Version: 2
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1187031600
-ModificationTime: 1721124260
+ModificationTime: 1721632980
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -79,6 +79,7 @@ Lookup: 1 0 0 "Uk Short From Left Substitution" { "Uk Short From Left Substituti
 Lookup: 1 0 0 "Above Capitals Substitution" { "Above Capitals Substitution-1"  } []
 Lookup: 1 0 0 "Short Forms for Half Titlos" { "Short Forms for Half Titlos-1"  } []
 Lookup: 1 0 0 "Cyrillic Soft Dot removal" { "Cyrillic Soft Dot removal-1"  } []
+Lookup: 1 0 0 "Psi Truncation" { "Psi Truncation-1"  } []
 Lookup: 263 0 0 "'kern' Contextual Numeral Kerning" { "'kern' Contextual Numeral Kerning-1"  } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 10" { "'kern' Horizontal Kerning lookup 10-1" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'hebr' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 258 8 0 "'kern' Horizontal Kerning lookup 11" { "'kern' Church Slavonic Capital and Lowercase" [150,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
@@ -1287,7 +1288,7 @@ NameList: Adobe Glyph List
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 306 18 7
+WinInfo: 504 18 7
 BeginPrivate: 9
 BlueValues 31 [-18 0 437 460 577 597 770 788]
 BlueScale 8 0.039625
@@ -9132,6 +9133,7 @@ SplineSet
  842 777 862 769 884 761 c 1
 EndSplineSet
 Validated: 19457
+Substitution2: "Psi Truncation-1" uni0470.alt
 AlternateSubs2: "'salt' Stylistic Alternatives-1" uni0470.alt
 Colour: ff00
 EndChar
