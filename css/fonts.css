@@ -102,6 +102,17 @@
 }
 
 @font-face {
+    font-family: 'Shafarik';
+    src: url('../fonts/Shafarik-Normal.eot');
+    src: url('../fonts/Shafarik-Normal.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Shafarik-Normal.woff2') format('woff2'),
+	url('../fonts/Shafarik-Normal.woff') format('woff'),
+	url('../fonts/Shafarik-Normal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Vertograd Unicode';
     src: url('../fonts/VertogradUnicode.eot');
     src: url('../fonts/VertogradUnicode.eot?#iefix') format('embedded-opentype'),
