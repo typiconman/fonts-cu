@@ -7,7 +7,13 @@ fonts:
 	$(foreach font, $(FONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && fontforge -script hp-generate.py $(font);)
 	$(foreach font, $(MOREFONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && cd $(font) && fontforge -script hp-generate.py && cd ..)
 
-doc:
+doc: fonts-churchslavonic.pdf
+
+fonts-churchslavonic.pdf:
+	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic-sr.tex)
+	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic-sr.tex)
+	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic-sr.tex)
+	mv docs/fonts-churchslavonic-sr.pdf ./
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
@@ -70,7 +76,8 @@ sci-webfonts.zip:
 
 clean:
 	$(foreach font, $(FONTS), cd $(font)/ && rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip; cd ..;)
-	$(foreach font, $(MOREFONTS), cd $(font)/ && rm -f *.otf *.ttf *.woff *.eot *.woff2 *.zip; cd ..;)
+	rm -f fonts-churchslavonic.pdf
+	rm -f fonts-churchslavonic-sr.pdf
 	rm -f *.otf *.ttf
 	(cd docs/ && rm -f *.aux *.hd *.glo *.idx *.log *.out *.pdf *.toc)
 	(cd rpm/ && rm -f *.tar.bz2)
