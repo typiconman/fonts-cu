@@ -1,45 +1,73 @@
 # fonts-cu
 
-This package provides Unicode-encoded OpenType fonts for Church Slavonic.
-Fonts contain the necessary glyphs for Cyrillic (including extensions)
-and Glagolitic, as supported in Unicode 13.0,
-as well as OpenType features that provide support of ligatures and diacritical marks.
+This a meta package for Unicode-encoded OpenType fonts for Church Slavonic.
+Individual fonts now reside in their own repositories and any bugs should be filed as issues against those repositories.
 
-SIL Graphite is no longer supported. For Graphite features, see the
-[legacy repository](https://github.com/slavonic/fonts-cu-legacy).
+## The fonts available
 
-Latin glyphs are available as far as is necessary for the font to function in
-most software, but generally the fonts are not intended to typeset Latin. In particular
-they lack lookups and kerning data for the Latin range (with the exception of
-the Monomakh font).
+Fonts for Synodal Church Slavonic:
 
-## Available Typefaces
+* [Acathist](https://github.com/slavonic/Acathist)
+* [Pochaevsk](https://github.com/slavonic/Pochaevsk)
+* [Ponomar](https://github.com/slavonic/Ponomar)
+* [Triodion](https://github.com/slavonic/Triodion)
 
-The following typefaces are available:
+Fonts for working with early Cyrillic printed books:
 
-* Ponomar Unicode -- a font for typesetting Synodal Church Slavonic (that is, Church Slavonic used in modern liturgical texts of the Russian Orthodox Church). It may also be used to typeset liturgical texts in Romanian (Moldovan) Cyrillic, Aleut and Sakha (Yakut)
+* [Fedorovsk](https://github.com/slavonic/Fedorovsk)
+* [Vilnius](https://github.com/slavonic/Vilnius)
 
-* Pochaevsk Unicode -- a font that reproduces the typeface used in editions published by the Holy Dormition Pochayev Lavra in the late 19th century and, subsequently, in editions published in the 20th century by Holy Trinity Monastery in Jordanville, New York.
+Fonts reproducing Ustav-era manuscripts:
 
-* Triodion Unicode -- another font for typesetting Synodal Church Slavonic. It is intended to reproduce the typeface of liturgical books published in Russia at the beginning of the 20th century
+* [Menaion](https://github.com/slavonic/Menaion)
+* [Voskresensky](https://github.com/slavonic/Voskresensky)
 
-* Fedorovsk Unicode -- a font that mimics the typeface used by Ivan Fedorov, who produced some of the first printed books in Moscow. It is intended primarily for reproducing publications from that era, either in an academic setting, or as modern Old Rite liturgical texts.
+Academic fonts:
 
-* Menaion Unicode -- a font that provides both Cyrillic and Glagolitic characters for representing text from Ustav-era Church Slavonic manuscripts.
+* [Monomakh](https://github.com/slavonic/Monomakh)
+* [Shafarik](https://github.com/slavonic/Shafarik)
 
-* Monomakh Unicode -- a Cyrillic font implemented in a mixed ustav/poluustav style and intended to cover needs of researches dealing with Slavic history and philology.
+Decorative fonts:
 
-* Shafarik -- a font intended for an academic presentation of Old Church Slavonic (OCS) texts written in both the Cyrillic and Glagolitic alphabets. The font supports both round (Bulgarian) Glagolitic and angular (Croatian) Glagolitic.
+* [Indiction](https://github.com/slavonic/Indiction)
+* [Vertograd](https://github.com/slavonic/Vertograd)
+* [Cathisma](https://github.com/slavonic/Cathisma)
+* [Oglavie](https://github.com/slavonic/Oglavie)
+* [Pomorsky](https://github.com/slavonic/Pomorsky)
 
-* Indiction Unicode -- a font for decorative drop caps (bukvitsi) in liturgical books of the Russian Orthodox Church published since the late 19th century.
+Fonts for technical work:
 
-* Vertograd Unicode -- another font used for decorative drop caps and titling, commonly found in liturgical books of the late 19th and early 20th centuries.
+* [FiraSlav](https://github.com/slavonic/FiraSlav)
 
-* Cathisma Unicode -- a font used for titling in many 18th-20th century liturgical editions published by the Holy Synod in Russia.
+The source code of the fonts is found in the repositories above. The fonts can be installed from those repositories or directly from here.
 
-* Oglavie Unicode -- another font used for titling in many 18th-20th century liturgical editions.
+## This package
 
-* Pomorsky Unicode -- a decorative font intended for drop caps (bukvitsy) and titling that reproduces the calligraphic style of book and chapter titles used by Priestless Old Ritualists of the Vyg Hermitage.
+This package provides:
+
+* An archive of all of the fonts, available also from the project [website](https://sci.ponomar.net/fonts.html).
+* The documentation
+* The tools for building the Debian / Ubuntu package.
+* The tools for building the LaTeX package, part of the churchslavonic package on TexLive.
+
+## Fonts with the word Unicode in their name
+
+A number of the fonts were previously distributed with the word *Unicode* in their name, e.g., *Ponomar Unicode*. With the nearly universal adoption of Unicode this feature seems no longer necessary, so the term Unicode has been removed from the names of the fonts. You may still need the fonts with the term *Unicode* in their name for processing of older documents and they are also supplied in this package. Note that these fonts are no longer maintained:
+
+* [Pochaevsk Unicode]()
+* [Ponomar Unicode]()
+* [Triodion Unicode]()
+* [Fedorovsk Unicode]()
+* [Vilnius Unicode]()
+* [Menaion Unicode]()
+* [Monomakh Unicode]()
+* [Indiction Unicode]()
+* [Vertograd Unicode]()
+* [Cathisma Unicode]()
+* [Oglavie Unicode]()
+* [Pomorsky Unicode]()
+
+There is also a [legacy repository](https://github.com/slavonic/fonts-cu-legacy) that contains TTF fonts with SIL Graphite features.
 
 ## Installation
 
@@ -48,22 +76,12 @@ The following typefaces are available:
 All fonts can be downloaded and installed from the
 [Slavonic Computing Initiative website](https://sci.ponomar.net/fonts.html).
 
-### Building from Source
+### Building this respository
 
-Building the fonts requires:
+Building requires:
 
-* [FontForge](https://github.com/fontforge/fontforge)
-* [ttfautohint](https://www.freetype.org/ttfautohint/) -- to build web fonts
 * [ttf2eot](https://github.com/fontello/ttf2eot) -- to build web fonts
-* [sfnt2woff](https://github.com/kseo/sfnt2woff) -- to build web fonts
-* [woff2_compress](https://github.com/google/woff2) -- to build web fonts
 * XeTeX with [churchslavonic](https://www.ctan.org/pkg/churchslavonic) package -- to build PDF documentation
-
-To build fonts:
-
-```
-make fonts
-```
 
 To build documentation:
 
@@ -71,7 +89,7 @@ To build documentation:
 make doc
 ```
 
-To build entire package:
+To build ZIP archive of all fonts:
 
 ```
 make all
@@ -83,9 +101,15 @@ To build web fonts:
 make web
 ```
 
+To build files for the website:
+
+```
+make site
+```
+
 ## License
 
-Copyright 2013-2020 Aleksandr Andreev and Nikita Simmons
+Copyright 2013-2025 Aleksandr Andreev, Nikita Simmons, and others
 ([Slavonic Computing Initiative](https://sci.ponomar.net/)).
 The fonts are licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at: https://scripts.sil.org/OFL.
