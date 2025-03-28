@@ -54,18 +54,17 @@ This package provides:
 
 A number of the fonts were previously distributed with the word *Unicode* in their name, e.g., *Ponomar Unicode*. With the nearly universal adoption of Unicode this feature seems no longer necessary, so the term Unicode has been removed from the names of the fonts. You may still need the fonts with the term *Unicode* in their name for processing of older documents and they are also supplied in this package. Note that these fonts are no longer maintained:
 
-* [Pochaevsk Unicode]()
-* [Ponomar Unicode]()
-* [Triodion Unicode]()
-* [Fedorovsk Unicode]()
-* [Vilnius Unicode]()
-* [Menaion Unicode]()
-* [Monomakh Unicode]()
-* [Indiction Unicode]()
-* [Vertograd Unicode]()
-* [Cathisma Unicode]()
-* [Oglavie Unicode]()
-* [Pomorsky Unicode]()
+* [Pochaevsk Unicode](Pochaevsk/PochaevskUnicode.otf)
+* [Ponomar Unicode](Ponomar/PonomarUnicode.otf)
+* [Triodion Unicode](Triodion/TriodionUnicode.otf)
+* [Fedorovsk Unicode](Fedorovsk/FedorovskUnicode.otf)
+* [Menaion Unicode](Menaion/MenaionUnicode.otf)
+* [Monomakh Unicode](Monomakh/MonomakhUnicode.otf)
+* [Indiction Unicode](Indiction/IndictionUnicode.otf)
+* [Vertograd Unicode](Vertograd/VertogradUnicode.otf)
+* [Cathisma Unicode](Cathisma/CathismaUnicode.otf)
+* [Oglavie Unicode](Oglavie/OglavieUnicode.otf)
+* [Pomorsky Unicode](Pomorsky/PomorskyUnicode.otf)
 
 There is also a [legacy repository](https://github.com/slavonic/fonts-cu-legacy) that contains TTF fonts with SIL Graphite features.
 
@@ -83,28 +82,22 @@ Building requires:
 * [ttf2eot](https://github.com/fontello/ttf2eot) -- to build web fonts
 * XeTeX with [churchslavonic](https://www.ctan.org/pkg/churchslavonic) package -- to build PDF documentation
 
+To build the legacy fonts with *Unicode* in their name:
+
+```
+make unicode
+```
+
 To build documentation:
 
 ```
 make doc
 ```
 
-To build ZIP archive of all fonts:
+Clean up after building:
 
 ```
-make all
-```
-
-To build web fonts:
-
-```
-make web
-```
-
-To build files for the website:
-
-```
-make site
+make clean
 ```
 
 ## License

@@ -179,11 +179,11 @@ TSWLatexianTemp*
 
 # FontForge binaries
 *.ttf
-*.otf
+#*.otf
 *.woff
 *.eot
 *.zip
-gdlerr.txt
+build.tmp
 *.sfd~
 *.svg
 *.woff2
