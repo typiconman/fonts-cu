@@ -1,6 +1,7 @@
 all: unicode doc ctan
 
 FONTS = Cathisma Fedorovsk Indiction Menaion Monomakh Oglavie Pochaevsk Pomorsky Ponomar Triodion Vertograd
+MOREFONTS = Shafarik Acathist Voskresensky Vilnius FiraSlav
 
 unicode: build.tmp
 
@@ -18,7 +19,7 @@ fonts-churchslavonic.pdf:
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 	(cd docs/ && xelatex --interaction=nonstopmode fonts-churchslavonic.tex)
 
-#ctan: fonts-churchslavonic.zip
+ctan: fonts-churchslavonic.zip
 
 #fonts-churchslavonic.zip:
 #	rm -f *.zip
@@ -46,32 +47,36 @@ fonts-churchslavonic.pdf:
 #	mv fonts-cu.tar.bz2 rpm/
 #	# To create debian package run debuild -us -uc
 
-#site:
-#	# Creating the separate zip archives for the website
-#	$(foreach font, $(FONTS), cd $(font)/ && rm -f *.zip && zip -j $(font)Unicode.zip $(font)Unicode.otf README; cd ..;)
+site: fonts-churchslavonic.zip
 
-#web: sci-webfonts.zip
+fonts-churchslavonic.zip:
+	rm -fr fonts-churchslavonic/
+	mkdir fonts-churchslavonic
+	cd fonts-churchslavonic/ && curl $(foreach font, $(FONTS), -O https://raw.githubusercontent.com/slavonic/$(font)/master/fonts/otf/$(font)-Regular.otf)
+	cd fonts-churchslavonic/ && curl $(foreach font, $(MOREFONTS), -O https://raw.githubusercontent.com/slavonic/$(font)/master/fonts/otf/$(font)-Regular.otf)
+	cd fonts-churchslavonic/ && curl -O https://raw.githubusercontent.com/slavonic/FiraSlav/master/fonts/otf/FiraSlav-Bold.otf
+	cp OFL.txt fonts-churchslavonic/
+	cp README.ctan fonts-churchslavonic/README
+	zip -r -q fonts-churchslavonic.zip fonts-churchslavonic/
+	rm -fr fonts-churchslavonic/
+# TODO: Add Mezenets
 
-#sci-webfonts.zip:
-#	# Create web fonts
-#	rm -fr fonts/
-#	rm -f *.zip
-#	$(foreach font, $(FONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && fontforge -script web-generate.py $(font);)
-#	$(foreach font, $(FONTS), ttfautohint -n -D cyrl $(font)/$(font)Unicode.ttf $(font)/out.ttf && rm $(font)/$(font)Unicode.ttf && mv $(font)/out.ttf $(font)/$(font)Unicode.ttf;)
-#	$(foreach font, $(MOREFONTS), rm -f $(font)/*.otf $(font)/*.ttf $(font)/*.woff && cd $(font) && fontforge -script web-generate.py && cd ..;)
-#	$(foreach font, $(MOREFONTS), ttfautohint -n -D cyrl $(font)/$(font)-Regular.ttf $(font)/out.ttf && rm $(font)/$(font)-Regular.ttf && mv $(font)/out.ttf $(font)/$(font)-Regular.ttf;)
-#	$(foreach font, $(FONTS), ttf2eot < $(font)/$(font)Unicode.ttf > $(font)/$(font)Unicode.eot;)
-#	$(foreach font, $(MOREFONTS), ttf2eot < $(font)/$(font)-Regular.ttf > $(font)/$(font)-Regular.eot;)
-#	$(foreach font, $(FONTS), cd $(font) && sfnt2woff -m $(font)Unicode-WOFF-metadata.xml $(font)Unicode.otf; cd ..;)
-#	$(foreach font, $(MOREFONTS), cd $(font) && sfnt2woff -m $(font)-WOFF-metadata.xml $(font)-Regular.otf; cd ..;)
-#	$(foreach font, $(FONTS), cd $(font) && woff2_compress $(font)Unicode.otf; cd ..;)
-#	$(foreach font, $(MOREFONTS), cd $(font) && woff2_compress $(font)-Regular.otf; cd ..;)
-#	mkdir fonts/
-#	$(foreach font, $(FONTS), cp $(font)/*.ttf $(font)/*.woff $(font)/*.eot $(font)/*.woff2 fonts/;)
-#	$(foreach font, $(MOREFONTS), cp $(font)/*.ttf $(font)/*.woff $(font)/*.eot $(font)/*.woff2 fonts/;)
-#	zip -j $@ LICENSE OFL.txt
-#	zip -DrX $@ css/ fonts/
-#	rm -fr fonts/
+web: sci-webfonts.zip
+
+sci-webfonts.zip:
+	rm -fr fonts/
+	mkdir fonts
+	cd fonts/ && curl $(foreach font, $(FONTS), -O https://raw.githubusercontent.com/slavonic/$(font)/master/fonts/ttf/$(font)-Regular.ttf)
+	cd fonts/ && curl $(foreach font, $(MOREFONTS), -O https://raw.githubusercontent.com/slavonic/$(font)/master/fonts/ttf/$(font)-Regular.ttf)
+	cd fonts/ && curl -O https://raw.githubusercontent.com/slavonic/FiraSlav/master/fonts/ttf/FiraSlav-Bold.ttf
+	cd fonts/ && curl $(foreach font, $(FONTS), -O https://raw.githubusercontent.com/slavonic/$(font)/master/fonts/webfonts/$(font)-Regular.woff2)
+	cd fonts/ && curl $(foreach font, $(MOREFONTS), -O https://raw.githubusercontent.com/slavonic/$(font)/master/fonts/webfonts/$(font)-Regular.woff2)
+	cd fonts/ && curl -O https://raw.githubusercontent.com/slavonic/FiraSlav/master/fonts/webfonts/FiraSlav-Bold.woff2
+	$(foreach font, $(FONTS), cd fonts/ && ttf2eot $(font)-Regular.ttf $(font)-Regular.eot; cd ..;)
+	$(foreach font, $(MOREFONTS), cd fonts/ && ttf2eot $(font)-Regular.ttf $(font)-Regular.eot; cd ..;)
+	zip -j $@ OFL.txt
+	zip -DrX $@ css/ fonts/
+	rm -fr fonts/
 
 clean:
 	$(foreach font, $(FONTS), cd $(font)/ && rm -f *.ttf *.woff *.eot *.woff2 *.zip; cd ..;)
