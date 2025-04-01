@@ -94,6 +94,30 @@ To build documentation:
 make doc
 ```
 
+To build the TeXLive package for uploading to CTAN:
+
+```
+make ctan
+```
+
+To build the package for the [website](https://sci.ponomar.net/):
+
+```
+make site
+```
+
+To build the fonts for embedding into webpages, also distributed on the site:
+
+```
+make web
+```
+
+To build the Ubuntu / Linux Mint deb package:
+
+```
+make deb
+```
+
 Clean up after building:
 
 ```
@@ -105,4 +129,4 @@ make clean
 Copyright 2013-2025 Aleksandr Andreev, Nikita Simmons, and others
 ([Slavonic Computing Initiative](https://sci.ponomar.net/)).
 The fonts are licensed under the SIL Open Font License, Version 1.1.
-This license is available with a FAQ at: https://scripts.sil.org/OFL.
+This license is available [with a FAQ](https://scripts.sil.org/OFL).
